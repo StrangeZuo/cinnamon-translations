@@ -1,0 +1,2341 @@
+# translation of cinnamon-control-center.HEAD.he.po to Hebrew
+# translation of cinnamon-control-center.cinnamon-2-0.he.po to Hebrew
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) 2005 THE PACKAGE'S COPYRIGHT HOLDER.
+# Gil 'Dolfin' Osher <dolfin@rpg.org.il>, 2002,2003.
+# Yuval Tanny, 2005.
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2010, 2011.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cinnamon-control-center.HEAD.he\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-04 12:20+0100\n"
+"PO-Revision-Date: 2021-05-29 05:47+0000\n"
+"Last-Translator: Avi Markovitz <avi.markovitz@gmail.com>\n"
+"Language-Team: Hebrew <he@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n>2||n==0) ? 1 : 2;\n"
+"X-Launchpad-Export-Date: 2021-06-25 10:38+0000\n"
+"X-Generator: Launchpad (build 40cc6dba4163ba9ca785b26ad91f43c87d70ba4d)\n"
+"Language: he\n"
+"X-Poedit-Language: Hebrew\n"
+
+#. TRANSLATORS: this is where the user can click and import a profile
+#: panels/color/cc-color-panel.c:108
+msgid "Other profile…"
+msgstr "פרופיל אחר…"
+
+#. TRANSLATORS: this is a profile prefix to signify the
+#. * profile has been auto-generated for this hardware
+#: panels/color/cc-color-panel.c:121
+msgid "Default: "
+msgstr "בררת מחדל: "
+
+#. TRANSLATORS: this is a profile prefix to signify the
+#. * profile his a standard space like AdobeRGB
+#: panels/color/cc-color-panel.c:127
+msgid "Colorspace: "
+msgstr "מרחב צבעים: "
+
+#. TRANSLATORS: this is a profile prefix to signify the
+#. * profile is a test profile
+#: panels/color/cc-color-panel.c:133
+msgid "Test profile: "
+msgstr "פרופיל בדיקה: "
+
+#. TRANSLATORS: this is when the profile should be set for all users
+#: panels/color/cc-color-panel.c:185 panels/color/color.ui.h:9
+msgid "Set for all users"
+msgstr "הגדרה לכל המשתמשים"
+
+#. TRANSLATORS: this is when the profile should be set for all users
+#: panels/color/cc-color-panel.c:192
+msgid "Create virtual device"
+msgstr "יצירת התקן מדומה"
+
+#. TRANSLATORS: an ICC profile is a file containing colorspace data
+#: panels/color/cc-color-panel.c:227
+msgid "Select ICC Profile File"
+msgstr "בחירת קובץ פרופיל ICC"
+
+#: panels/color/cc-color-panel.c:230
+msgid "_Import"
+msgstr "_ייבוא"
+
+#. TRANSLATORS: filter name on the file->open dialog
+#: panels/color/cc-color-panel.c:241
+msgid "Supported ICC profiles"
+msgstr "פרופילי ICC נתמכים"
+
+#. TRANSLATORS: filter name on the file->open dialog
+#: panels/color/cc-color-panel.c:248
+msgid "All files"
+msgstr "כל הקבצים"
+
+#. TRANSLATORS: this is the dialog title in the 'Add profile' UI
+#: panels/color/cc-color-panel.c:591
+msgid "Available Profiles for Displays"
+msgstr "פרופילים זמינים להצגה"
+
+#. TRANSLATORS: this is the dialog title in the 'Add profile' UI
+#: panels/color/cc-color-panel.c:595
+msgid "Available Profiles for Scanners"
+msgstr "פרופילים זמינים לסורקים"
+
+#. TRANSLATORS: this is the dialog title in the 'Add profile' UI
+#: panels/color/cc-color-panel.c:599
+msgid "Available Profiles for Printers"
+msgstr "פרופילים זמינים למדפסות"
+
+#. TRANSLATORS: this is the dialog title in the 'Add profile' UI
+#: panels/color/cc-color-panel.c:603
+msgid "Available Profiles for Cameras"
+msgstr "פרופילים זמינים למצלמות"
+
+#. TRANSLATORS: this is the dialog title in the 'Add profile' UI
+#: panels/color/cc-color-panel.c:607
+msgid "Available Profiles for Webcams"
+msgstr "פרופילים זמינים למצלמות רשת"
+
+#. TRANSLATORS: this is the dialog title in the 'Add profile' UI
+#. * where the device type is not recognised
+#. Profiles that can be added to the device
+#: panels/color/cc-color-panel.c:612 panels/color/color.ui.h:2
+msgid "Available Profiles"
+msgstr "פרופילים זמינים"
+
+#. TRANSLATORS: column for device list
+#: panels/color/cc-color-panel.c:888
+msgid "Device"
+msgstr "התקן"
+
+#. TRANSLATORS: column for device list
+#: panels/color/cc-color-panel.c:923
+msgid "Calibration"
+msgstr "כיול"
+
+#. TRANSLATORS: this is when the button is sensitive
+#: panels/color/cc-color-panel.c:955
+msgid "Create a color profile for the selected device"
+msgstr "יצירת פרופיל צבע עבור ההתקן שנבחר"
+
+#. TRANSLATORS: this is when the button is insensitive
+#: panels/color/cc-color-panel.c:969 panels/color/cc-color-panel.c:993
+msgid ""
+"The measuring instrument is not detected. Please check it is turned on and "
+"correctly connected."
+msgstr "התקן המדידה לא זוהה. נא לבדוק כי הוא מפעל ומחובר כראוי."
+
+#. TRANSLATORS: this is when the button is insensitive
+#: panels/color/cc-color-panel.c:1002
+msgid "The measuring instrument does not support printer profiling."
+msgstr "מכשיר המדידה אינו תומך ביצירת פרופילים למדפסות."
+
+#. TRANSLATORS: this is when the button is insensitive
+#: panels/color/cc-color-panel.c:1013
+msgid "The device type is not currently supported."
+msgstr "סוג ההתקן אינו נתמך לעת עתה."
+
+#. TRANSLATORS: this is when an auto-added profile cannot be removed
+#: panels/color/cc-color-panel.c:1085
+msgid "Cannot remove automatically added profile"
+msgstr "לא ניתן להסיר אוטומטית את הפרופיל שהתווסף"
+
+#. TRANSLATORS: this is when there is no profile for the device
+#: panels/color/cc-color-panel.c:1419
+msgid "No profile"
+msgstr "אין פרופיל"
+
+#: panels/color/cc-color-panel.c:1448
+#, c-format
+msgid "%i year"
+msgid_plural "%i years"
+msgstr[0] "שנה %i"
+msgstr[1] "%i שנים"
+
+#: panels/color/cc-color-panel.c:1459
+#, c-format
+msgid "%i month"
+msgid_plural "%i months"
+msgstr[0] "חודש %i"
+msgstr[1] "%i חודשים"
+
+#: panels/color/cc-color-panel.c:1470
+#, c-format
+msgid "%i week"
+msgid_plural "%i weeks"
+msgstr[0] "שבוע %i"
+msgstr[1] "%i שבועות"
+
+#. fallback
+#: panels/color/cc-color-panel.c:1477
+msgid "Less than 1 week"
+msgstr "פחות משבוע"
+
+#: panels/color/cc-color-panel.c:1539
+msgctxt "Colorspace fallback"
+msgid "Default RGB"
+msgstr "RGB ברירת מחדל"
+
+#: panels/color/cc-color-panel.c:1544
+msgctxt "Colorspace fallback"
+msgid "Default CMYK"
+msgstr "CMYK ברירת מחדל"
+
+#: panels/color/cc-color-panel.c:1549
+msgctxt "Colorspace fallback"
+msgid "Default Gray"
+msgstr "אפור ברירת מחדל"
+
+#: panels/color/cc-color-panel.c:1667 panels/color/cc-color-panel.c:1706
+#: panels/color/cc-color-panel.c:1717 panels/color/cc-color-panel.c:1728
+msgid "Uncalibrated"
+msgstr "לא מכויל"
+
+#: panels/color/cc-color-panel.c:1670
+msgid "This device is not color managed."
+msgstr "התקן זה אינו מנוהל לפי צבעים."
+
+#: panels/color/cc-color-panel.c:1709
+msgid "This device is using manufacturing calibrated data."
+msgstr "התקן זה משתמש בנתוני כויל יצרן."
+
+#: panels/color/cc-color-panel.c:1720
+msgid ""
+"This device does not have a profile suitable for whole-screen color "
+"correction."
+msgstr "להתקן זה אין פרופיל המתאים לתיקון צבע במסך מלא."
+
+#: panels/color/cc-color-panel.c:1753
+msgid "This device has an old profile that may no longer be accurate."
+msgstr "להתקן זה פרופיל ישן שעלול לא להיות  מדויק עוד."
+
+#. TRANSLATORS: this is when the calibration profile age is not
+#. * specified as it has been autogenerated from the hardware
+#: panels/color/cc-color-panel.c:1781
+msgid "Not specified"
+msgstr "לא מוגדר"
+
+#. add the 'No devices detected' entry
+#: panels/color/cc-color-panel.c:1966
+msgid "No devices supporting color management detected"
+msgstr "לא נמצאו התקנים התומכים בניהול צבע"
+
+#: panels/color/cc-color-panel.c:2195
+msgctxt "Device kind"
+msgid "Display"
+msgstr "מצג"
+
+#: panels/color/cc-color-panel.c:2197
+msgctxt "Device kind"
+msgid "Scanner"
+msgstr "סורק"
+
+#: panels/color/cc-color-panel.c:2199
+msgctxt "Device kind"
+msgid "Printer"
+msgstr "מדפסת"
+
+#: panels/color/cc-color-panel.c:2201
+msgctxt "Device kind"
+msgid "Camera"
+msgstr "מצלמה"
+
+#: panels/color/cc-color-panel.c:2203
+msgctxt "Device kind"
+msgid "Webcam"
+msgstr "מצלמת רשת"
+
+#. Add some common languages first
+#: panels/common/cc-common-language.c:533
+msgid "English"
+msgstr "אנגלית"
+
+#: panels/common/cc-common-language.c:535
+msgid "British English"
+msgstr "אנגלית בריטית"
+
+#: panels/common/cc-common-language.c:538
+msgid "German"
+msgstr "גרמנית"
+
+#: panels/common/cc-common-language.c:541
+msgid "French"
+msgstr "צרפתית"
+
+#: panels/common/cc-common-language.c:544
+msgid "Spanish"
+msgstr "ספרדית"
+
+#: panels/common/cc-common-language.c:546
+msgid "Chinese (simplified)"
+msgstr "סינית (מפושטת)"
+
+#: panels/common/cc-common-language.c:549
+msgid "Russian"
+msgstr "רוסית"
+
+#: panels/common/cc-common-language.c:552
+msgid "Arabic"
+msgstr "ערבית"
+
+#. Add some common regions
+#: panels/common/cc-common-language.c:580
+msgid "United States"
+msgstr "ארצות הברית"
+
+#: panels/common/cc-common-language.c:581
+msgid "Germany"
+msgstr "גרמניה"
+
+#: panels/common/cc-common-language.c:582
+msgid "France"
+msgstr "צרפת"
+
+#: panels/common/cc-common-language.c:583
+msgid "Spain"
+msgstr "ספרד"
+
+#: panels/common/cc-common-language.c:584
+msgid "China"
+msgstr "סין"
+
+#: panels/common/cc-language-chooser.c:303
+msgid "Select a region"
+msgstr "נא לבחור אזור"
+
+#: panels/common/gdm-languages.c:781
+msgid "Unspecified"
+msgstr "לא מוגדר"
+
+#: panels/display/cc-display-panel.c:642 panels/display/cc-display-panel.c:1251
+#: panels/display/cc-display-panel.c:1258
+#, c-format
+msgid "%d%%"
+msgstr "%d%%"
+
+#: panels/display/cc-display-panel.c:709
+msgctxt "display panel, rotation"
+msgid "Normal"
+msgstr "תיקני"
+
+#: panels/display/cc-display-panel.c:710
+msgctxt "display panel, rotation"
+msgid "Counterclockwise"
+msgstr "נגד כיוון השעון"
+
+#: panels/display/cc-display-panel.c:711
+msgctxt "display panel, rotation"
+msgid "Clockwise"
+msgstr "עם כיוון השעון"
+
+#: panels/display/cc-display-panel.c:712
+msgctxt "display panel, rotation"
+msgid "180 Degrees"
+msgstr "180 מעלות"
+
+#. Keep this string in sync with gnome-desktop/libcinnamon-desktop/gnome-rr-labeler.c
+#. Translators:  this is the feature where what you see on your laptop's
+#. * screen is the same as your external projector.  Here, "Mirrored" is being
+#. * used as an adjective.  For example, the Spanish translation could be
+#. * "Pantallas en Espejo".
+#. 
+#. Translators:  this is the feature where what you see on your
+#. * laptop's screen is the same as your external projector.
+#. * Here, "Mirrored" is being used as an adjective.  For example,
+#. * the Spanish translation could be "Pantallas en Espejo".
+#. 
+#: panels/display/cc-display-panel.c:857 panels/display/cc-rr-labeler.c:404
+msgid "Mirrored Displays"
+msgstr "שכפול צגים"
+
+#: panels/display/cc-display-panel.c:881
+msgid "Monitor"
+msgstr "צג"
+
+#: panels/display/cc-display-panel.c:985
+#, c-format
+msgid "%d x %d%s (%s)"
+msgstr "%d x %d%s (%s)"
+
+#: panels/display/cc-display-panel.c:987
+#, c-format
+msgid "%d x %d%s"
+msgstr "%d x %d%s"
+
+#: panels/display/cc-display-panel.c:1002
+#, c-format
+msgid "%.2lf Hz"
+msgstr "%.2lf הרץ"
+
+#: panels/display/cc-display-panel.c:1281
+msgid "Normal"
+msgstr "תיקני"
+
+#: panels/display/cc-display-panel.c:1283
+msgid "Double (Hi-DPI)"
+msgstr "כפול (Hi-DPI)"
+
+#: panels/display/cc-display-panel.c:1323
+#, c-format
+msgid "Automatic (%ux)"
+msgstr "(%ux) אוטומטי"
+
+#: panels/display/cc-display-panel.c:2510
+msgid ""
+"Select a monitor to change its properties; drag it to rearrange its "
+"placement."
+msgstr ""
+"נא לבחור צג על מנת לשנות את מאפייניו; יש לגרור אותו כדי לשנות את מיקומו."
+
+#: panels/display/cc-display-panel.c:2959
+msgid "DoubleScan"
+msgstr "סריקה כפולה"
+
+#: panels/display/cc-display-panel.c:2997
+msgid "VSync"
+msgstr "VSync"
+
+#: panels/display/cc-display-panel.c:3035
+#: panels/display/cc-display-panel.c:3063
+msgid "Recommended"
+msgstr "מומלץ"
+
+#: panels/display/cc-display-panel.c:3098
+#, c-format
+msgid "<b>scaled resolution: %d x %d</b>"
+msgstr "<b>הפרדת סִלּוּם: %d x %d</b>"
+
+#: panels/display/cc-display-panel.c:3287
+#: panels/display/cc-display-panel.c:3339
+msgid "Failed to apply configuration"
+msgstr "החלת תצורה כשלה"
+
+#: panels/display/cc-display-panel.c:3367
+msgid "Could not save the monitor configuration"
+msgstr "לא ניתן לשמור את תצורת הצג"
+
+#: panels/display/cc-display-panel.c:3427
+msgid "Could not detect displays"
+msgstr "לא ניתן לזהות את הצגים"
+
+#: panels/display/cc-display-panel.c:3671
+msgid "Could not get screen information"
+msgstr "לא ניתן לקבל את פרטי הצג"
+
+#: panels/network/cc-network-panel.c:910
+msgid "Network proxy"
+msgstr "מתווך רשת"
+
+#. Translators: this is the title of the connection details
+#. * window for vpn connections, it is also used to display
+#. * vpn connections in the device list.
+#. 
+#: panels/network/cc-network-panel.c:1089 panels/network/net-vpn.c:287
+#: panels/network/net-vpn.c:444
+#, c-format
+msgid "%s VPN"
+msgstr "%s VPN"
+
+#: panels/network/cc-network-panel.c:1156
+msgid "Oops, something has gone wrong. Please contact your software vendor."
+msgstr "אופס, משהו השתבש. נא לייצור קשר עם ספק התכנה."
+
+#: panels/network/cc-network-panel.c:1162
+msgid "NetworkManager needs to be running."
+msgstr "תכנית מנהל הרשת צריכה לרוץ."
+
+#. Translators: network device speed
+#: panels/network/net-device-ethernet.c:50 panels/network/net-device-wifi.c:549
+#, c-format
+msgid "%d Mb/s"
+msgstr "‏%d מ״ב/שנ'"
+
+#: panels/network/net-device-ethernet.c:106
+#: panels/network/net-device-wifi.c:477
+msgid "never"
+msgstr "מעולם לא"
+
+#: panels/network/net-device-ethernet.c:116
+#: panels/network/net-device-wifi.c:487
+msgid "today"
+msgstr "היום"
+
+#: panels/network/net-device-ethernet.c:118
+#: panels/network/net-device-wifi.c:489
+msgid "yesterday"
+msgstr "אתמול"
+
+#: panels/network/net-device-ethernet.c:120
+#: panels/network/net-device-wifi.c:491
+#, c-format
+msgid "%i day ago"
+msgid_plural "%i days ago"
+msgstr[0] "לפני %i ימים"
+msgstr[1] "לפני %i ימים"
+
+#: panels/network/net-device-ethernet.c:155 panels/network/panel-common.c:666
+#: panels/network/network-simple.ui.h:3 panels/network/network-wifi.ui.h:7
+#: panels/network/connection-editor/details-page.ui.h:4
+msgid "IPv4 Address"
+msgstr "כתובת IPv4"
+
+#: panels/network/net-device-ethernet.c:156 panels/network/panel-common.c:667
+#: panels/network/network-mobile.ui.h:4 panels/network/network-simple.ui.h:4
+#: panels/network/network-wifi.ui.h:8
+#: panels/network/connection-editor/details-page.ui.h:5
+msgid "IPv6 Address"
+msgstr "כתובת IPv6"
+
+#: panels/network/net-device-ethernet.c:158
+#: panels/network/net-device-ethernet.c:160 panels/network/panel-common.c:669
+#: panels/network/panel-common.c:671 panels/network/network-mobile.ui.h:3
+msgid "IP Address"
+msgstr "כתובת IP"
+
+#: panels/network/net-device-ethernet.c:163
+#: panels/network/network-simple.ui.h:2 panels/network/network-wifi.ui.h:9
+#: panels/network/connection-editor/details-page.ui.h:6
+msgid "Hardware Address"
+msgstr "כתובת חומרה"
+
+#: panels/network/net-device-ethernet.c:167
+#: panels/network/network-mobile.ui.h:5 panels/network/network-simple.ui.h:5
+#: panels/network/network-wifi.ui.h:10
+#: panels/network/connection-editor/details-page.ui.h:7
+msgid "Default Route"
+msgstr "נתיב ברירת מחדל"
+
+#: panels/network/net-device-ethernet.c:170 panels/network/panel-common.c:675
+#: panels/network/network-mobile.ui.h:6 panels/network/network-simple.ui.h:6
+#: panels/network/network-wifi.ui.h:11
+#: panels/network/connection-editor/details-page.ui.h:8
+msgid "DNS4"
+msgstr "DNS4"
+
+#: panels/network/net-device-ethernet.c:171 panels/network/panel-common.c:676
+#: panels/network/network-mobile.ui.h:7 panels/network/network-simple.ui.h:7
+#: panels/network/network-wifi.ui.h:12
+#: panels/network/connection-editor/details-page.ui.h:9
+msgid "DNS6"
+msgstr "DNS6"
+
+#: panels/network/net-device-ethernet.c:173
+#: panels/network/net-device-ethernet.c:175 panels/network/panel-common.c:678
+#: panels/network/panel-common.c:680
+#: panels/network/connection-editor/ip4-page.ui.h:3
+#: panels/network/connection-editor/ip6-page.ui.h:3
+msgid "DNS"
+msgstr "DNS"
+
+#: panels/network/net-device-ethernet.c:181 panels/network/network-wifi.ui.h:13
+msgid "Last used"
+msgstr "שימוש אחרון"
+
+#. Translators: This is used as the title of the connection
+#. * details window for ethernet, if there is only a single
+#. * profile. It is also used to display ethernet in the
+#. * device list.
+#. 
+#: panels/network/net-device-ethernet.c:290
+#: panels/network/network-ethernet.ui.h:1 panels/network/network-simple.ui.h:1
+msgid "Wired"
+msgstr "קווי"
+
+#: panels/network/net-device-ethernet.c:358
+#: panels/network/net-device-wifi.c:1751 panels/network/network-ethernet.ui.h:3
+#: panels/network/network-mobile.ui.h:9 panels/network/network-simple.ui.h:9
+#: panels/network/network-vpn.ui.h:7
+msgid "Options…"
+msgstr "אפשרויות…"
+
+#: panels/network/net-device-mobile.c:238
+msgid "Add new connection"
+msgstr "הוספת חיבור חדש"
+
+#. TRANSLATORS: this WEP WiFi security
+#: panels/network/net-device-wifi.c:215 panels/network/net-device-wifi.c:393
+msgid "WEP"
+msgstr "WEP"
+
+#. TRANSLATORS: this WPA WiFi security
+#: panels/network/net-device-wifi.c:219 panels/network/net-device-wifi.c:398
+#: panels/network/network-wifi.ui.h:20
+msgid "WPA"
+msgstr "WPA"
+
+#. TRANSLATORS: this WPA WiFi security
+#: panels/network/net-device-wifi.c:223
+msgid "WPA2"
+msgstr "WPA2"
+
+#. TRANSLATORS: this Enterprise WiFi security
+#: panels/network/net-device-wifi.c:228
+msgid "Enterprise"
+msgstr "ארגוני"
+
+#: panels/network/net-device-wifi.c:233 panels/network/net-device-wifi.c:383
+msgctxt "Wifi security"
+msgid "None"
+msgstr "ללא"
+
+#: panels/network/net-device-wifi.c:578
+msgctxt "Signal strength"
+msgid "None"
+msgstr "אין"
+
+#: panels/network/net-device-wifi.c:580
+msgctxt "Signal strength"
+msgid "Weak"
+msgstr "חלש"
+
+#: panels/network/net-device-wifi.c:582
+msgctxt "Signal strength"
+msgid "Ok"
+msgstr "בסדר"
+
+#: panels/network/net-device-wifi.c:584
+msgctxt "Signal strength"
+msgid "Good"
+msgstr "טוב"
+
+#: panels/network/net-device-wifi.c:586
+msgctxt "Signal strength"
+msgid "Excellent"
+msgstr "מצוין"
+
+#: panels/network/net-device-wifi.c:1260
+msgid ""
+"If you have a connection to the Internet other than wireless, you can set up "
+"a wireless hotspot to share the connection with others."
+msgstr ""
+"אם קיים חיבור למרשתת שאינו אלחוטי, ניתן ניתן להגדיר נקודה-חמה אלחוטית  ולשתף "
+"את החיבור עם אחרים."
+
+#: panels/network/net-device-wifi.c:1264
+#, c-format
+msgid "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
+msgstr "מעבר לנקודה-חמה אלחוטית תגרום להתנתקות מ- <b>%s</b>."
+
+#: panels/network/net-device-wifi.c:1268
+msgid ""
+"It is not possible to access the Internet through your wireless while the "
+"hotspot is active."
+msgstr "לא ניתן לגשת למרשתת דרך החיבור האלחוטי בזמן שהנקודה-החמה פעילה."
+
+#: panels/network/net-device-wifi.c:1350
+msgid "Stop hotspot and disconnect any users?"
+msgstr "האם לעצור אתהנקודה-החמה ולנתק את כל המשתמשים?"
+
+#: panels/network/net-device-wifi.c:1352 panels/network/net-device-wifi.c:1592
+#: panels/common/language-chooser.ui.h:2 panels/network/network-wifi.ui.h:1
+#: panels/network/connection-editor/connection-editor.ui.h:1
+msgid "_Cancel"
+msgstr "_ביטול"
+
+#: panels/network/net-device-wifi.c:1353
+msgid "_Stop Hotspot"
+msgstr "_עצירת נקודה-חמה"
+
+#: panels/network/net-device-wifi.c:1454
+msgid "System policy prohibits use as a Hotspot"
+msgstr "מדיניות המערכת אוסרת שימוש בנקודה-חמה"
+
+#: panels/network/net-device-wifi.c:1457
+msgid "Wireless device does not support Hotspot mode"
+msgstr "התקן הרשת האלחוטית אינו תומך במצב נקודה-חמה"
+
+#: panels/network/net-device-wifi.c:1589
+msgid ""
+"Network details for the selected networks, including passwords and any "
+"custom configuration will be lost."
+msgstr ""
+"פרטי הרשתות הנבחרות, לרבות ססמאות וכל תצורה אחרת שהותאמה אישית יאבדו."
+
+#: panels/network/net-device-wifi.c:1593 panels/network/network-wifi.ui.h:43
+#: panels/network/connection-editor/reset-page.ui.h:2
+msgid "_Forget"
+msgstr "_לשכוח"
+
+#: panels/network/net-device-wifi.c:1899
+msgid "History"
+msgstr "היסטוריה"
+
+#: panels/network/net-device-wifi.c:1903
+msgid "_Close"
+msgstr "_סגירה"
+
+#. translators: This is the label for the "Forget wireless network" functionality
+#: panels/network/net-device-wifi.c:1911
+msgctxt "Wi-Fi Network"
+msgid "_Forget"
+msgstr "_לשכוח"
+
+#. TRANSLATORS: this is when the use leaves the PAC textbox blank
+#: panels/network/net-proxy.c:67
+msgid ""
+"Web Proxy Autodiscovery is used when a Configuration URL is not provided."
+msgstr "שימוש בזיהוי מתווך-רשת אוטומטי  ללא מען URL לתצורה."
+
+#. TRANSLATORS: WPAD is bad: if you enable it on an untrusted
+#. * network, then anyone else on that network can tell your
+#. * machine that it should proxy all of your web traffic
+#. * through them.
+#: panels/network/net-proxy.c:75
+msgid "This is not recommended for untrusted public networks."
+msgstr "מצב זה אינו מומלץ לרשתות ציבוריות שאינן מהימנות."
+
+#: panels/network/net-proxy.c:410
+msgid "Proxy"
+msgstr "מתווך"
+
+#. TRANSLATORS: AP type
+#: panels/network/panel-common.c:123
+msgid "Unknown"
+msgstr "לא ידוע"
+
+#. TRANSLATORS: AP type
+#: panels/network/panel-common.c:127
+msgid "Ad-hoc"
+msgstr "לשם זה"
+
+#. TRANSLATORS: AP type
+#: panels/network/panel-common.c:131
+msgid "Infrastructure"
+msgstr "תשתית"
+
+#. TRANSLATORS: device status
+#. TRANSLATORS: VPN status
+#: panels/network/panel-common.c:147 panels/network/panel-common.c:201
+msgid "Status unknown"
+msgstr "מצב לא ידוע"
+
+#. TRANSLATORS: device status
+#: panels/network/panel-common.c:151
+msgid "Unmanaged"
+msgstr "לא מנוהל"
+
+#. TRANSLATORS: device status
+#: panels/network/panel-common.c:155
+msgid "Unavailable"
+msgstr "לא זמין"
+
+#. TRANSLATORS: device status
+#. TRANSLATORS: VPN status
+#: panels/network/panel-common.c:165 panels/network/panel-common.c:207
+msgid "Connecting"
+msgstr "התחברות"
+
+#. TRANSLATORS: device status
+#. TRANSLATORS: VPN status
+#: panels/network/panel-common.c:169 panels/network/panel-common.c:211
+msgid "Authentication required"
+msgstr "נדרש אימות"
+
+#. TRANSLATORS: device status
+#. TRANSLATORS: VPN status
+#: panels/network/panel-common.c:173 panels/network/panel-common.c:215
+msgid "Connected"
+msgstr "חיבור פעיל"
+
+#. TRANSLATORS: device status
+#: panels/network/panel-common.c:177
+msgid "Disconnecting"
+msgstr "התנתקות"
+
+#. TRANSLATORS: device status
+#. TRANSLATORS: VPN status
+#: panels/network/panel-common.c:181 panels/network/panel-common.c:219
+msgid "Connection failed"
+msgstr "חיבור כשל"
+
+#. TRANSLATORS: device status
+#. TRANSLATORS: VPN status
+#: panels/network/panel-common.c:185 panels/network/panel-common.c:227
+msgid "Status unknown (missing)"
+msgstr "מצב לא ידוע (חסר)"
+
+#. TRANSLATORS: VPN status
+#: panels/network/panel-common.c:223
+msgid "Not connected"
+msgstr "לא מחובר"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:248
+msgid "Configuration failed"
+msgstr "תצורה כשלה"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:252
+msgid "IP configuration failed"
+msgstr "תצורת IP כשלה"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:256
+msgid "IP configuration expired"
+msgstr "תצורת IP פגה"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:260
+msgid "Secrets were required, but not provided"
+msgstr "נדרשו סודות אך לא סופקו"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:264
+msgid "802.1x supplicant disconnected"
+msgstr "משלים ה־802.1x מנותק"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:268
+msgid "802.1x supplicant configuration failed"
+msgstr "השלמות תצורת 802.1x כשלה"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:272
+msgid "802.1x supplicant failed"
+msgstr "משלים ה־802.1x כשל"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:276
+msgid "802.1x supplicant took too long to authenticate"
+msgstr "למשלים ה־802.1x לקח זמן רב מדי ליצור אימות"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:280
+msgid "PPP service failed to start"
+msgstr "אתחול שירות PPP כשל"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:284
+msgid "PPP service disconnected"
+msgstr "שירות PPP מנותק"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:288
+msgid "PPP failed"
+msgstr "PPP כשל"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:292
+msgid "DHCP client failed to start"
+msgstr "אתחול לקוח DHCP כשל"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:296
+msgid "DHCP client error"
+msgstr "שגיאת לקוח DHCP"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:300
+msgid "DHCP client failed"
+msgstr "לקוח DHCP כשל"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:304
+msgid "Shared connection service failed to start"
+msgstr "אתחול שירות שיתוף חיבורים כשל"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:308
+msgid "Shared connection service failed"
+msgstr "שירות שיתוף חיבורים כשל"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:312
+msgid "AutoIP service failed to start"
+msgstr "איתחול שירות AutoIP כשל"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:316
+msgid "AutoIP service error"
+msgstr "שגיאה בשירות AutoIP"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:320
+msgid "AutoIP service failed"
+msgstr "שירות AutoIP כשל"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:324
+msgid "Line busy"
+msgstr "הקו תפוס"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:328
+msgid "No dial tone"
+msgstr "אין צליל חיוג"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:332
+msgid "No carrier could be established"
+msgstr "לא ניתן ליצור קשר עם אף ספק"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:336
+msgid "Dialing request timed out"
+msgstr "פסק-זמן בקשת חיוג"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:340
+msgid "Dialing attempt failed"
+msgstr "ניסיון חיוג כשל"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:344
+msgid "Modem initialization failed"
+msgstr "אתחול המודם כשל"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:348
+msgid "Failed to select the specified APN"
+msgstr "הבחירה ב־APN המצוין כשלה"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:352
+msgid "Not searching for networks"
+msgstr "אין חפוש רשתות"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:356
+msgid "Network registration denied"
+msgstr "הרישום ברשת נדחה"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:360
+msgid "Network registration timed out"
+msgstr "פסק-זמן רישום לרשת"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:364
+msgid "Failed to register with the requested network"
+msgstr "הרישום לרשת המבוקשת כשל"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:368
+msgid "PIN check failed"
+msgstr "בדיקת PIN כשלה"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:372
+msgid "Firmware for the device may be missing"
+msgstr "ייתכן שחסרה קושחה עבור ההתקן"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:376
+msgid "Connection disappeared"
+msgstr "החיבור נעלם"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:380
+msgid "Existing connection was assumed"
+msgstr "בהנחה שקיים חיבור"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:384
+msgid "Modem not found"
+msgstr "המודם לא נמצא"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:388
+msgid "Bluetooth connection failed"
+msgstr "חיבור בלוטות' כשל"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:392
+msgid "SIM Card not inserted"
+msgstr "לא הוכנס כרטיס SIM"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:396
+msgid "SIM Pin required"
+msgstr "נדרש ה־Pin של ה־SIM"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:400
+msgid "SIM Puk required"
+msgstr "נדרש ה־Puk של ה־SIM"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:404
+msgid "SIM wrong"
+msgstr "ה־SIM שגוי"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:408
+msgid "Connection dependency failed"
+msgstr "תלות החיבור כשלה"
+
+#. TRANSLATORS: device status
+#: panels/network/panel-common.c:433
+msgid "Firmware missing"
+msgstr "חסרה קושחה"
+
+#. TRANSLATORS: device status
+#: panels/network/panel-common.c:437
+msgid "Cable unplugged"
+msgstr "הכבל מנותק"
+
+#: panels/online-accounts/cc-online-accounts-panel.c:148
+msgctxt "Online Account"
+msgid "Other"
+msgstr "אחר"
+
+#. translators: This is the title of the "Show Account" dialog. The
+#. * %s is the name of the provider. e.g., 'Google'.
+#: panels/online-accounts/cc-online-accounts-panel.c:593
+#, c-format
+msgid "%s Account"
+msgstr "חשבון %s"
+
+#: panels/online-accounts/cc-online-accounts-panel.c:888
+msgid "Error removing account"
+msgstr "שגיאה בהסרת חשבון"
+
+#. Translators: The %s is the username (eg., debarshi.ray@gmail.com
+#. * or rishi).
+#. 
+#: panels/online-accounts/cc-online-accounts-panel.c:953
+#, c-format
+msgid "<b>%s</b> removed"
+msgstr "<b>%s</b> הוסר"
+
+#: panels/region/cinnamon-region-panel-xkblt.c:208
+msgid "Layout"
+msgstr "פריסה"
+
+#: panels/region/cinnamon-region-panel-xkbot.c:227
+msgid "Default"
+msgstr "בררת מחדל"
+
+#: panels/wacom/cc-wacom-mapping-panel.c:298
+msgid "Output:"
+msgstr "פלט:"
+
+#. Keep ratio switch
+#: panels/wacom/cc-wacom-mapping-panel.c:310
+msgid "Keep aspect ratio (letterbox):"
+msgstr "שמירה על יחס התצוגה (פסים שחורים):"
+
+#. Apply screen rotation
+#: panels/wacom/cc-wacom-mapping-panel.c:321
+msgid "Rotate the tablet when the screen is rotated:"
+msgstr "סיבוב מחשב-הלוח עם סובב הצג:"
+
+#. Whole-desktop checkbox
+#: panels/wacom/cc-wacom-mapping-panel.c:332
+msgid "Map to single monitor"
+msgstr "מיפוי לצג יחיד"
+
+#: panels/wacom/cc-wacom-nav-button.c:89
+#, c-format
+msgid "%d of %d"
+msgstr "%d מתוך %d"
+
+#: panels/wacom/cc-wacom-page.c:118 panels/wacom/cc-wacom-page.c:385
+msgctxt "Wacom action-type"
+msgid "None"
+msgstr "ללא"
+
+#: panels/wacom/cc-wacom-page.c:119
+msgctxt "Wacom action-type"
+msgid "Send Keystroke"
+msgstr "שליחת צירוף מקשים"
+
+#: panels/wacom/cc-wacom-page.c:120
+msgctxt "Wacom action-type"
+msgid "Switch Monitor"
+msgstr "החלפת צג"
+
+#: panels/wacom/cc-wacom-page.c:121
+msgctxt "Wacom action-type"
+msgid "Show On-Screen Help"
+msgstr "הצגת עזרה על גבי המסך"
+
+#: panels/wacom/cc-wacom-page.c:622
+msgctxt "Wacom tablet button"
+msgid "Up"
+msgstr "למעלה"
+
+#: panels/wacom/cc-wacom-page.c:622
+msgctxt "Wacom tablet button"
+msgid "Down"
+msgstr "למטה"
+
+#: panels/wacom/cc-wacom-page.c:663
+msgid "Switch Modes"
+msgstr "החלפת מצבים"
+
+#: panels/wacom/cc-wacom-page.c:753 panels/wacom/cc-wacom-stylus-page.c:394
+msgid "Button"
+msgstr "לחצן"
+
+#: panels/wacom/cc-wacom-page.c:790
+msgid "Type"
+msgstr "סוג"
+
+#: panels/wacom/cc-wacom-page.c:811
+msgid "Action"
+msgstr "פעולה"
+
+#: panels/wacom/cc-wacom-page.c:921
+msgid "Display Mapping"
+msgstr "הצגת מיפוי"
+
+#. If no mode is available, we use "left-ring-mode-1" for backward compat
+#: panels/wacom/csd-wacom-device.c:1115
+msgid "Left Ring"
+msgstr "טבעת שמאלית"
+
+#: panels/wacom/csd-wacom-device.c:1125
+#, c-format
+msgid "Left Ring Mode #%d"
+msgstr "מצב טבעת שמאלית מס׳ %d"
+
+#. If no mode is available, we use "right-ring-mode-1" for backward compat
+#: panels/wacom/csd-wacom-device.c:1144
+msgid "Right Ring"
+msgstr "טבעת ימנית"
+
+#: panels/wacom/csd-wacom-device.c:1154
+#, c-format
+msgid "Right Ring Mode #%d"
+msgstr "מצב טבעת ימנית מס׳ %d"
+
+#. If no mode is available, we use "left-strip-mode-1" for backward compat
+#: panels/wacom/csd-wacom-device.c:1195
+msgid "Left Touchstrip"
+msgstr "פס מגע שמאלי"
+
+#: panels/wacom/csd-wacom-device.c:1205
+#, c-format
+msgid "Left Touchstrip Mode #%d"
+msgstr "מצב פס מגע שמאלי מס׳ %d"
+
+#. If no mode is available, we use "right-strip-mode-1" for backward compat
+#: panels/wacom/csd-wacom-device.c:1224
+msgid "Right Touchstrip"
+msgstr "פס מגע ימני"
+
+#: panels/wacom/csd-wacom-device.c:1234
+#, c-format
+msgid "Right Touchstrip Mode #%d"
+msgstr "מצב פס מגע ימני מס׳ %d"
+
+#: panels/wacom/csd-wacom-device.c:1259
+msgid "Left Touchring Mode Switch"
+msgstr "מתג מצב טבעת שמאלית"
+
+#: panels/wacom/csd-wacom-device.c:1261
+msgid "Right Touchring Mode Switch"
+msgstr "מתג מצב טבעת ימנית"
+
+#: panels/wacom/csd-wacom-device.c:1264
+msgid "Left Touchstrip Mode Switch"
+msgstr "מתג מצב פס מגע שמאלי"
+
+#: panels/wacom/csd-wacom-device.c:1266
+msgid "Right Touchstrip Mode Switch"
+msgstr "מתג מצב פס מגע ימני"
+
+#: panels/wacom/csd-wacom-device.c:1271
+#, c-format
+msgid "Mode Switch #%d"
+msgstr "מתג מצב מס׳ %d"
+
+#: panels/wacom/csd-wacom-device.c:1375
+#, c-format
+msgid "Left Button #%d"
+msgstr "לחצן שמאלי מס׳ %d"
+
+#: panels/wacom/csd-wacom-device.c:1378
+#, c-format
+msgid "Right Button #%d"
+msgstr "לחצן ימני מס׳ %d"
+
+#: panels/wacom/csd-wacom-device.c:1381
+#, c-format
+msgid "Top Button #%d"
+msgstr "לחצן עליון מס׳ %d"
+
+#: panels/wacom/csd-wacom-device.c:1384
+#, c-format
+msgid "Bottom Button #%d"
+msgstr "לחצן תחתון מס׳ %d"
+
+#: shell/cc-shell-nav-bar.c:117
+msgid "_All Settings"
+msgstr "_כל ההגדרות"
+
+#: shell/control-center.c:58
+msgid "Enable verbose mode"
+msgstr "אפשור מצב מילולי"
+
+#: shell/control-center.c:59
+msgid "Show the overview"
+msgstr "הצגת הסקירה"
+
+#: shell/control-center.c:60 shell/control-center.c:61
+#: shell/control-center.c:62
+msgid "Show help options"
+msgstr "הצגת אפשרויות עזרה"
+
+#: shell/control-center.c:63
+msgid "Panel to display"
+msgstr "לוחית להצגה"
+
+#: shell/control-center.c:85
+msgid "- System Settings"
+msgstr "- הגדרות מערכת"
+
+#: shell/control-center.c:93
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"‏%s\n"
+"לקבלת רשימה מלאה של האפשרויות הזמינות בשורת הפקודה, יש להריץ '%s --help'.\n"
+
+#: shell/control-center.c:222
+msgid "Help"
+msgstr "עזרה"
+
+#: shell/control-center.c:223
+msgid "Quit"
+msgstr "יציאה"
+
+#. translators: This is the default hotspot name, need to be less than 32-bytes
+#: shell/hostname-helper.c:189
+msgctxt "hotspot"
+msgid "Hotspot"
+msgstr "נקודה-חמה"
+
+#: panels/color/color.ui.h:3 generate_additional_files.py:25
+msgid "Color"
+msgstr "צבע"
+
+#: panels/color/color.ui.h:4
+msgid "Each device needs an up to date color profile to be color managed."
+msgstr "לכל התקן דרוש פרופיל צבע עדכני לניהול צבעים."
+
+#: panels/color/color.ui.h:5
+msgid "Add device"
+msgstr "הוספת התקן"
+
+#: panels/color/color.ui.h:6
+msgid "Add a virtual device"
+msgstr "הוספת התקן מדומה"
+
+#: panels/color/color.ui.h:7
+msgid "Delete device"
+msgstr "מחיקת התקן"
+
+#: panels/color/color.ui.h:8
+msgid "Remove a device"
+msgstr "הסרת התקן"
+
+#: panels/color/color.ui.h:10
+msgid "Set this profile for all users on this computer"
+msgstr "הגדרת פרופיל זה לכל המשתמשים במחשב זה"
+
+#: panels/color/color.ui.h:11
+msgid "Add profile"
+msgstr "הוספת פרופיל"
+
+#: panels/color/color.ui.h:12 panels/wacom/cinnamon-wacom-properties.ui.h:10
+msgid "Calibrate…"
+msgstr "כיול..."
+
+#: panels/color/color.ui.h:13
+msgid "Calibrate the device"
+msgstr "כיול ההתקן"
+
+#: panels/color/color.ui.h:14
+msgid "Remove profile"
+msgstr "הסרת פרופיל"
+
+#: panels/color/color.ui.h:15
+msgid "View details"
+msgstr "צפייה בפרטים"
+
+#: panels/color/color.ui.h:16
+msgid "Device type:"
+msgstr "סוג התקן:"
+
+#: panels/color/color.ui.h:17
+msgid "Manufacturer:"
+msgstr "יצרן:"
+
+#: panels/color/color.ui.h:18
+msgid "Model:"
+msgstr "דגם:"
+
+#: panels/color/color.ui.h:19
+msgid ""
+"Image files can be dragged on this window to auto-complete the above fields."
+msgstr "ניתן לגרור קובצי תמונה לחלון זה כדי להשלים אוטומטית את השדות שלהלן."
+
+#: panels/common/language-chooser.ui.h:1
+msgid "Select a language"
+msgstr "בחירת שפה"
+
+#: panels/common/language-chooser.ui.h:3
+msgid "_Select"
+msgstr "_בחירה"
+
+#: panels/datetime/datetime.ui.h:1
+msgid "_Region:"
+msgstr "א_זור:"
+
+#: panels/datetime/datetime.ui.h:2
+msgid "_City:"
+msgstr "_עיר:"
+
+#: panels/datetime/datetime.ui.h:3
+msgid "_Network Time"
+msgstr "_זמן הרשת"
+
+#. Translator: this is the separator between hours and minutes, like in HH:MM
+#: panels/datetime/datetime.ui.h:5
+msgid ":"
+msgstr ":"
+
+#: panels/datetime/datetime.ui.h:6
+msgid "Set the time one hour ahead."
+msgstr "הגדרת זמן שעה אחת קדימה."
+
+#: panels/datetime/datetime.ui.h:7
+msgid "Set the time one hour back."
+msgstr "הגדרת זמן  בשעה אחת אחורה."
+
+#: panels/datetime/datetime.ui.h:8
+msgid "Set the time one minute ahead."
+msgstr "הגדרת זמן בדקה אחת קדימה."
+
+#: panels/datetime/datetime.ui.h:9
+msgid "Set the time one minute back."
+msgstr "הגדרת זמן בדקה אחת אחורה."
+
+#: panels/datetime/datetime.ui.h:10
+msgid "Month"
+msgstr "חודש"
+
+#: panels/datetime/datetime.ui.h:11
+msgid "Day"
+msgstr "יום"
+
+#: panels/datetime/datetime.ui.h:12
+msgid "Year"
+msgstr "שנה"
+
+#: panels/datetime/datetime.ui.h:13
+msgid "January"
+msgstr "ינואר"
+
+#: panels/datetime/datetime.ui.h:14
+msgid "February"
+msgstr "פברואר"
+
+#: panels/datetime/datetime.ui.h:15
+msgid "March"
+msgstr "מרץ"
+
+#: panels/datetime/datetime.ui.h:16
+msgid "April"
+msgstr "אפריל"
+
+#: panels/datetime/datetime.ui.h:17
+msgid "May"
+msgstr "מאי"
+
+#: panels/datetime/datetime.ui.h:18
+msgid "June"
+msgstr "יוני"
+
+#: panels/datetime/datetime.ui.h:19
+msgid "July"
+msgstr "יולי"
+
+#: panels/datetime/datetime.ui.h:20
+msgid "August"
+msgstr "אוגוסט"
+
+#: panels/datetime/datetime.ui.h:21
+msgid "September"
+msgstr "ספטמבר"
+
+#: panels/datetime/datetime.ui.h:22
+msgid "October"
+msgstr "אוקטובר"
+
+#: panels/datetime/datetime.ui.h:23
+msgid "November"
+msgstr "נובמבר"
+
+#: panels/datetime/datetime.ui.h:24
+msgid "December"
+msgstr "דצמבר"
+
+#: panels/display/display-capplet.ui.h:1
+msgid "Active"
+msgstr "פעיל"
+
+#: panels/display/display-capplet.ui.h:2
+msgid "Set as Primary"
+msgstr "הגדרה כעיקרי"
+
+#: panels/display/display-capplet.ui.h:3
+msgid "Resolution"
+msgstr "הפרדה"
+
+#: panels/display/display-capplet.ui.h:4
+msgid "Mirror displays"
+msgstr "שכפול תצוגות"
+
+#: panels/display/display-capplet.ui.h:5
+msgid "Rotation"
+msgstr "הטייה"
+
+#: panels/display/display-capplet.ui.h:6
+msgid "Refresh Rate"
+msgstr "קצב רענון"
+
+#: panels/display/display-capplet.ui.h:7
+msgid "User interface scale"
+msgstr "סִלּוּם ממשק משתמשים"
+
+#: panels/display/display-capplet.ui.h:8
+msgid ""
+"This is the global scaling factor for all monitors. In automatic mode, it is "
+"chosen based on the primary monitor."
+msgstr ""
+"זהו גורם הסִלּוּם הכללי לכל הצגים. במצב אוטומטי, הבחירה תקבע לפי הצג הראשי."
+
+#: panels/display/display-capplet.ui.h:9
+msgid "This option may limit resolution options"
+msgstr "אפשרות זו עשויה להגביל את אפשרויות הפרדה"
+
+#: panels/display/display-capplet.ui.h:10
+msgid ""
+"This feature is experimental and may not work well with all hardware and "
+"drivers. Enabling it may impact performance, vsync, resolution or screen "
+"ratio."
+msgstr ""
+"זהו מאפיין ניסיוני וייתכן שלא יעבוד היטב עם כל חומרה מְנַהֵל הֶתְקֵן. הפעלתו "
+"עשויה להשפיע על הביצועים, ה- vsync, הפרדה או יחס המסך."
+
+#: panels/display/display-capplet.ui.h:11
+msgid "Fractional scaling"
+msgstr "סִלּוּם חלקי"
+
+#: panels/display/display-capplet.ui.h:12
+msgid "_Detect Displays"
+msgstr "_זיהוי התצוגות"
+
+#: panels/display/display-capplet.ui.h:13
+#: panels/region/cinnamon-region-panel.ui.h:18
+msgid "Reset to De_faults"
+msgstr "איפוס ל_בררת המחדל"
+
+#: panels/network/network-ethernet.ui.h:2
+msgid "_Add Profile…"
+msgstr "הו_ספת פרופיל…"
+
+#: panels/network/network-mobile.ui.h:1
+msgid "IMEI"
+msgstr "IMEI"
+
+#: panels/network/network-mobile.ui.h:2
+msgid "Provider"
+msgstr "ספק"
+
+#: panels/network/network-mobile.ui.h:8 generate_additional_files.py:71
+msgid "Network"
+msgstr "רשת"
+
+#: panels/network/network-proxy.ui.h:1
+msgctxt "proxy method"
+msgid "None"
+msgstr "ללא"
+
+#: panels/network/network-proxy.ui.h:2
+msgctxt "proxy method"
+msgid "Manual"
+msgstr "ידני"
+
+#: panels/network/network-proxy.ui.h:3
+msgctxt "proxy method"
+msgid "Automatic"
+msgstr "אוטומטי"
+
+#: panels/network/network-proxy.ui.h:4
+msgid "_Method"
+msgstr "_שיטה"
+
+#: panels/network/network-proxy.ui.h:5
+msgid "_Configuration URL"
+msgstr "כתובת הת_צורה"
+
+#: panels/network/network-proxy.ui.h:6
+msgid "_HTTP Proxy"
+msgstr "_מתווך HTTP"
+
+#: panels/network/network-proxy.ui.h:7
+msgid "H_TTPS Proxy"
+msgstr "מת_ווך HTTPS"
+
+#: panels/network/network-proxy.ui.h:8
+msgid "_FTP Proxy"
+msgstr "מתוו_ך FTP"
+
+#: panels/network/network-proxy.ui.h:9
+msgid "_Socks Host"
+msgstr "מ_ארח Socks"
+
+#: panels/network/network-proxy.ui.h:10
+msgid "_Ignore Hosts"
+msgstr "להת_עלמות משרתים"
+
+#: panels/network/network-proxy.ui.h:11
+msgid "HTTP proxy port"
+msgstr "פתחת מתווך HTTP"
+
+#: panels/network/network-proxy.ui.h:12
+msgid "HTTPS proxy port"
+msgstr "פתחת מתווך HTTPS"
+
+#: panels/network/network-proxy.ui.h:13
+msgid "FTP proxy port"
+msgstr "פתחת מתווך FTP"
+
+#: panels/network/network-proxy.ui.h:14
+msgid "Socks proxy port"
+msgstr "פתחת מתווך Socks"
+
+#: panels/network/network-simple.ui.h:8
+msgid "Turn device off"
+msgstr "כיבוי התקן"
+
+#: panels/network/network.ui.h:1
+msgid "Add Device"
+msgstr "הוספת התקן"
+
+#: panels/network/network.ui.h:2
+msgid "Remove Device"
+msgstr "הסרת התקן"
+
+#: panels/network/network-vpn.ui.h:1
+msgid "VPN Type"
+msgstr "סוג VPN"
+
+#: panels/network/network-vpn.ui.h:2
+msgid "Gateway"
+msgstr "שער גישה"
+
+#: panels/network/network-vpn.ui.h:3
+msgid "Group Name"
+msgstr "שם הקבוצה"
+
+#: panels/network/network-vpn.ui.h:4
+msgid "Group Password"
+msgstr "ססמת הקבוצה"
+
+#: panels/network/network-vpn.ui.h:5
+msgid "Username"
+msgstr "שם משתמש"
+
+#: panels/network/network-vpn.ui.h:6
+msgid "Turn VPN connection off"
+msgstr "כיבוי חיבור VPN"
+
+#: panels/network/network-wifi.ui.h:2
+#: panels/network/connection-editor/connection-editor.ui.h:2
+msgid "_Apply"
+msgstr "ה_חלה"
+
+#: panels/network/network-wifi.ui.h:3
+msgid "Automatic _Connect"
+msgstr "הת_חברות אוטומטית"
+
+#: panels/network/network-wifi.ui.h:4
+#: panels/network/connection-editor/details-page.ui.h:1
+msgid "Signal Strength"
+msgstr "עצמת הקליטה"
+
+#: panels/network/network-wifi.ui.h:5
+#: panels/network/connection-editor/details-page.ui.h:2
+msgid "Link speed"
+msgstr "מהירות הקישור"
+
+#: panels/network/network-wifi.ui.h:6
+#: panels/network/connection-editor/details-page.ui.h:3
+msgid "Security"
+msgstr "אבטחה"
+
+#: panels/network/network-wifi.ui.h:14
+msgid "details"
+msgstr "פרטים"
+
+#: panels/network/network-wifi.ui.h:15
+#: panels/network/connection-editor/wifi-page.ui.h:1
+msgid "_SSID"
+msgstr "_SSID (שם הרשת)"
+
+#: panels/network/network-wifi.ui.h:16
+#: panels/network/connection-editor/wifi-page.ui.h:2
+msgid "_BSSID"
+msgstr "_BSSID"
+
+#: panels/network/network-wifi.ui.h:17
+#: panels/network/connection-editor/security-page.ui.h:1
+msgid "S_ecurity"
+msgstr "_אבטחה"
+
+#: panels/network/network-wifi.ui.h:18
+#: panels/network/wireless-security/eap-method-leap.ui.h:2
+#: panels/network/wireless-security/eap-method-simple.ui.h:2
+#: panels/network/wireless-security/ws-leap.ui.h:2
+#: panels/network/wireless-security/ws-wpa-psk.ui.h:1
+msgid "_Password"
+msgstr "_ססמה"
+
+#: panels/network/network-wifi.ui.h:19
+#: panels/network/connection-editor/wifi-page.ui.h:3
+msgid "My Home Network"
+msgstr "הרשת הביתית שלי"
+
+#: panels/network/network-wifi.ui.h:21
+msgid "None"
+msgstr "ללא"
+
+#: panels/network/network-wifi.ui.h:22
+msgid "Show P_assword"
+msgstr "הצגת _סיסמה"
+
+#: panels/network/network-wifi.ui.h:23
+msgid "Make available to other users"
+msgstr "שיתוף עם משתמשים אחרים"
+
+#: panels/network/network-wifi.ui.h:24
+msgid "identity"
+msgstr "זהות"
+
+#: panels/network/network-wifi.ui.h:25
+#: panels/network/connection-editor/ip4-page.ui.h:1
+msgid "IPv_4"
+msgstr "IPv_4"
+
+#: panels/network/network-wifi.ui.h:26
+#: panels/network/connection-editor/ip4-page.ui.h:2
+#: panels/network/connection-editor/ip6-page.ui.h:2
+msgid "_Addresses"
+msgstr "_כתובות"
+
+#: panels/network/network-wifi.ui.h:27
+msgid "Manual"
+msgstr "ידני"
+
+#: panels/network/network-wifi.ui.h:28
+msgid "Automatic (DHCP)"
+msgstr "אוטומטי (DHCP)"
+
+#: panels/network/network-wifi.ui.h:29
+msgid "Automatic (DHCP) addresses only"
+msgstr "כתובות אוטומטיות (DHCP) בלבד"
+
+#: panels/network/network-wifi.ui.h:30
+msgid "Link-local only"
+msgstr "קישור מקומי בלבד"
+
+#: panels/network/network-wifi.ui.h:31
+msgid "Shared with other computers"
+msgstr "שיתוף עם מחשבים אחרים"
+
+#: panels/network/network-wifi.ui.h:32
+msgid "Disabled"
+msgstr "מנוטרל"
+
+#: panels/network/network-wifi.ui.h:33
+#: panels/network/connection-editor/ip4-page.ui.h:6
+#: panels/network/connection-editor/ip6-page.ui.h:6
+msgid "Routes"
+msgstr "נתיבים"
+
+#: panels/network/network-wifi.ui.h:34
+msgid "_Ignore automatically obtained routes"
+msgstr "הת_עלמות אוטומטית מנתיבים שהתקבלו"
+
+#: panels/network/network-wifi.ui.h:35
+#: panels/network/connection-editor/ip4-page.ui.h:8
+#: panels/network/connection-editor/ip6-page.ui.h:8
+msgid "Use this connection _only for resources on its network"
+msgstr "נא להשתמש בחיבור זה _רק עבור משאבי הרשת שלו"
+
+#: panels/network/network-wifi.ui.h:36
+msgid "ipv4"
+msgstr "ipv4"
+
+#: panels/network/network-wifi.ui.h:37
+#: panels/network/connection-editor/ip6-page.ui.h:1
+msgid "IPv_6"
+msgstr "IPv_6"
+
+#: panels/network/network-wifi.ui.h:38
+msgid "ipv6"
+msgstr "ipv6"
+
+#: panels/network/network-wifi.ui.h:39
+#: panels/network/connection-editor/ethernet-page.ui.h:11
+#: panels/network/connection-editor/wifi-page.ui.h:4
+msgid "_MAC Address"
+msgstr "_כתובת MAC"
+
+#: panels/network/network-wifi.ui.h:40
+msgid "_Cloned MAC Address"
+msgstr "כתובת MAC חילופית"
+
+#: panels/network/network-wifi.ui.h:41
+msgid "hardware"
+msgstr "חומרה"
+
+#: panels/network/network-wifi.ui.h:42
+#: panels/network/connection-editor/reset-page.ui.h:1
+msgid "_Reset"
+msgstr "_איפוס"
+
+#: panels/network/network-wifi.ui.h:44
+msgid ""
+"Reset the settings for this connection to their defaults, but remember as a "
+"preferred connection."
+msgstr "איפוס הגדרות חיבור זה לברירת המחדל אך שמירה כחיבור מועדף."
+
+#: panels/network/network-wifi.ui.h:45
+msgid ""
+"Remove all details relating to this network and do not try to automatically "
+"connect to it."
+msgstr "הסרת כל הפרטים הקשורים לרשת זו ולא לנסות להתחבר אליה."
+
+#: panels/network/network-wifi.ui.h:46
+msgid "reset"
+msgstr "איפוס"
+
+#: panels/network/network-wifi.ui.h:47
+msgid "Details"
+msgstr "פרטים"
+
+#: panels/network/network-wifi.ui.h:48
+msgid "Identity"
+msgstr "זהות"
+
+#: panels/network/network-wifi.ui.h:49
+msgid "IPv4"
+msgstr "IPv4"
+
+#: panels/network/network-wifi.ui.h:50
+msgid "IPv6"
+msgstr "IPv6"
+
+#: panels/network/network-wifi.ui.h:51
+msgid "Hardware"
+msgstr "חומרה"
+
+#: panels/network/network-wifi.ui.h:52
+msgctxt "tab"
+msgid "Reset"
+msgstr "איפוס"
+
+#: panels/network/network-wifi.ui.h:53
+msgid "Wi-Fi Hotspot"
+msgstr "נקודה-חמה אלחוטית"
+
+#: panels/network/network-wifi.ui.h:54
+msgid "_Turn On"
+msgstr "ה_פעלה"
+
+#: panels/network/network-wifi.ui.h:55
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+#: panels/network/network-wifi.ui.h:56
+msgid "Turn Wi-Fi off"
+msgstr "כיבוי הרשת האלחוטית"
+
+#: panels/network/network-wifi.ui.h:57
+msgid "_Use as Hotspot…"
+msgstr "שימוש _כנקודה-חמה..."
+
+#: panels/network/network-wifi.ui.h:58
+msgid "_Connect to Hidden Network…"
+msgstr "_התחברות לרשת חבויה…"
+
+#: panels/network/network-wifi.ui.h:59
+msgid "_History"
+msgstr "_הסטוריה"
+
+#: panels/network/network-wifi.ui.h:60
+msgid "Switch off to connect to a Wi-Fi network"
+msgstr "נא לכבות על מנת להתחבר לרשת אלחוטית"
+
+#: panels/network/network-wifi.ui.h:61
+msgid "Network Name"
+msgstr "שם הרשת"
+
+#: panels/network/network-wifi.ui.h:62
+msgid "Connected Devices"
+msgstr "התקנים מחוברים"
+
+#: panels/network/network-wifi.ui.h:63
+msgid "Security type"
+msgstr "סוג האבטחה"
+
+#: panels/network/network-wifi.ui.h:64
+msgid "Password"
+msgstr "ססמה"
+
+#: panels/online-accounts/online-accounts.ui.h:1
+msgid "Undo"
+msgstr "ביטול"
+
+#: panels/online-accounts/online-accounts.ui.h:2
+msgid "No internet connection — connect to set up new online accounts"
+msgstr "אין חיבור למרשתת - נא להתחבר על מנת להגדיר חשבון מקוון חדש"
+
+#: panels/online-accounts/online-accounts.ui.h:3
+msgid "Add an account"
+msgstr "הוספת חשבון"
+
+#: panels/online-accounts/online-accounts.ui.h:4
+msgid "Remove Account"
+msgstr "הסרת חשבון"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:1
+msgid "Choose a Layout"
+msgstr "בחירת פריסה"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:2
+msgid "Preview"
+msgstr "תצוגה מקדימה"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:3
+msgid "Select an input source to add"
+msgstr "נא לבחור מקור קלט להוספה"
+
+#: panels/region/cinnamon-region-panel-options-dialog.ui.h:1
+msgid "Keyboard Layout Options"
+msgstr "אפשרויות פריסת מקלדת"
+
+#: panels/region/cinnamon-region-panel.ui.h:1
+msgid "Region and Language"
+msgstr "אזור ושפה"
+
+#: panels/region/cinnamon-region-panel.ui.h:2
+msgid "Add Layout"
+msgstr "הוספת פריסה"
+
+#: panels/region/cinnamon-region-panel.ui.h:3
+msgid "Remove Layout"
+msgstr "הסרת פריסה"
+
+#: panels/region/cinnamon-region-panel.ui.h:4
+msgid "Move Up"
+msgstr "העברה מעלה"
+
+#: panels/region/cinnamon-region-panel.ui.h:5
+msgid "Move Down"
+msgstr "העברה מטה"
+
+#: panels/region/cinnamon-region-panel.ui.h:6
+msgid "Preview Layout"
+msgstr "תצוגה מקדימה של הפריסה"
+
+#: panels/region/cinnamon-region-panel.ui.h:7
+msgid "Include less-common layouts in the selection list"
+msgstr "הכללת פריסות פחות נפוצות ברשימת הבחירה"
+
+#: panels/region/cinnamon-region-panel.ui.h:8
+msgid "Use the same layout for all windows"
+msgstr "שימוש באותה הפריסה לכל החלונות"
+
+#: panels/region/cinnamon-region-panel.ui.h:9
+msgid "Allow different layouts for individual windows"
+msgstr "אפשור החלת פריסה נפרדת בכל חלון"
+
+#: panels/region/cinnamon-region-panel.ui.h:10
+msgid "New windows use the default layout"
+msgstr "חלונות חדשים ישתמשו בפריסת בררת המחדל"
+
+#: panels/region/cinnamon-region-panel.ui.h:11
+msgid "New windows use the previous window's layout"
+msgstr "חלונות חדשים ישתמשו בפריסת החלון הקודם"
+
+#: panels/region/cinnamon-region-panel.ui.h:12
+msgid "Display options"
+msgstr "הגדרות תצוגה"
+
+#: panels/region/cinnamon-region-panel.ui.h:13
+msgid "Use a country flag, if available,  to represent keyboard layouts"
+msgstr "שימוש בדגלי מדינה, אם זמינים, לייצוג פריסת המקשים"
+
+#: panels/region/cinnamon-region-panel.ui.h:14
+msgid ""
+"Show the layout name instead of the group name when using text to represent "
+"a layout"
+msgstr "הצגת שם פריסה במקום שם הקבוצה להצגת הפריסה בשימוש במלל לייצוג פריסה"
+
+#: panels/region/cinnamon-region-panel.ui.h:15
+msgid "Prefer upper-case when using text to represent a layout"
+msgstr "העדפת אותיות רישיות בשימוש במלל לייצוג פריסה"
+
+#: panels/region/cinnamon-region-panel.ui.h:16
+msgid "_Options..."
+msgstr "_אפשרויות..."
+
+#: panels/region/cinnamon-region-panel.ui.h:17
+msgid "View and edit keyboard layout options"
+msgstr "צפייה ועריכת אפשרויות פריסת מקלדת"
+
+#: panels/region/cinnamon-region-panel.ui.h:19
+msgid ""
+"Replace the current keyboard layout settings with the\n"
+"default settings"
+msgstr ""
+"החלפת הגדרות פריסת המקלדת הנוכחית\n"
+"בהגדרות בררת המחדל"
+
+#: panels/wacom/button-mapping.ui.h:1
+msgid "Map Buttons"
+msgstr "מיפוי לחצנים"
+
+#: panels/wacom/button-mapping.ui.h:2
+msgid "Map buttons to functions"
+msgstr "מיפוי לחצנים לפונקציות"
+
+#: panels/wacom/button-mapping.ui.h:3
+msgid ""
+"To edit a shortcut, click the row and hold down the new keys or press "
+"Backspace to clear."
+msgstr ""
+"כדי לערוך מקש קיצור דרך, יש ללחוץ על השורה המתאימה ולהחזיק את צירוף המקשים "
+"החדש או ללחוץ על מחיקה כדי לנקות את הקיצור."
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:1
+msgid "Tablet (absolute)"
+msgstr "מחשב-לוח (מוחלט)"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:2
+msgid "Touchpad (relative)"
+msgstr "משטח מגע (יחסי)"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:3
+msgid "Tablet Preferences"
+msgstr "העדפות מחשב-לוח"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:4
+msgid "No tablet detected"
+msgstr "לא זוהה מחשב-לוח"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:5
+msgid "Please plug in or turn on your graphics tablet"
+msgstr "נא לחבר או להפעיל את מחשב-הלוח"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:6
+msgid "Bluetooth Settings"
+msgstr "הגדרות בלוטות'"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:7
+#: generate_additional_files.py:86
+msgid "Graphics Tablet"
+msgstr "מחשב-לוח גרפי"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:8
+msgid "Map to Monitor…"
+msgstr "מיפוי לצג…"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:9
+msgid "Map Buttons…"
+msgstr "מיפוי לחצנים…"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:11
+msgid "Adjust display resolution"
+msgstr "התאמת הפרדת התצוגה"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:12
+msgid "Tracking Mode"
+msgstr "מצב מעקב"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:13
+msgid "Left-Handed Orientation"
+msgstr "התאמה לשמאליים"
+
+#: panels/wacom/wacom-stylus-page.ui.h:1
+msgid "No Action"
+msgstr "ללא פעולה"
+
+#: panels/wacom/wacom-stylus-page.ui.h:2
+msgid "Left Mouse Button Click"
+msgstr "לחיצת לחצן העכבר השמאלי"
+
+#: panels/wacom/wacom-stylus-page.ui.h:3
+msgid "Middle Mouse Button Click"
+msgstr "לחיצת לחצן העכבר האמצעי"
+
+#: panels/wacom/wacom-stylus-page.ui.h:4
+msgid "Right Mouse Button Click"
+msgstr "לחיצת לחצן העכבר הימני"
+
+#: panels/wacom/wacom-stylus-page.ui.h:5
+msgid "Scroll Up"
+msgstr "גלילה מעלה"
+
+#: panels/wacom/wacom-stylus-page.ui.h:6
+msgid "Scroll Down"
+msgstr "גלילה מטה"
+
+#: panels/wacom/wacom-stylus-page.ui.h:7
+msgid "Scroll Left"
+msgstr "גלילה שמאלה"
+
+#: panels/wacom/wacom-stylus-page.ui.h:8
+msgid "Scroll Right"
+msgstr "גלילה ימינה"
+
+#: panels/wacom/wacom-stylus-page.ui.h:9
+msgid "Back"
+msgstr "אחורה"
+
+#: panels/wacom/wacom-stylus-page.ui.h:10
+msgid "Forward"
+msgstr "קדימה"
+
+#: panels/wacom/wacom-stylus-page.ui.h:11
+msgid "Stylus"
+msgstr "עט מגע"
+
+#: panels/wacom/wacom-stylus-page.ui.h:12
+msgid "Eraser Pressure Feel"
+msgstr "תחושת לחץ המחק"
+
+#: panels/wacom/wacom-stylus-page.ui.h:13
+msgid "Soft"
+msgstr "רכה"
+
+#: panels/wacom/wacom-stylus-page.ui.h:14
+msgid "Firm"
+msgstr "מוצק"
+
+#: panels/wacom/wacom-stylus-page.ui.h:15
+msgid "Top Button"
+msgstr "לחצן עליון"
+
+#: panels/wacom/wacom-stylus-page.ui.h:16
+msgid "Lower Button"
+msgstr "לחצן תחתון"
+
+#: panels/wacom/wacom-stylus-page.ui.h:17
+msgid "Tip Pressure Feel"
+msgstr "תחושת לחץ החוד"
+
+#: panels/wacom/wacom-stylus-page.ui.h:18
+msgid "Lowest Button"
+msgstr "לחצן תחתון"
+
+#: panels/network/connection-editor/8021x-security-page.ui.h:1
+msgid "802.1x _Security"
+msgstr "_אבטחת 802.1x"
+
+#: panels/network/connection-editor/8021x-security-page.ui.h:2
+#: panels/network/connection-editor/security-page.ui.h:3
+msgid "page 1"
+msgstr "עמוד 1"
+
+#: panels/network/connection-editor/8021x-security-page.ui.h:3
+#: panels/network/connection-editor/security-page.ui.h:4
+#: panels/network/wireless-security/eap-method-fast.ui.h:5
+#: panels/network/wireless-security/eap-method-peap.ui.h:5
+#: panels/network/wireless-security/eap-method-ttls.ui.h:2
+msgid "Anony_mous identity"
+msgstr "זהות _אלמונית"
+
+#: panels/network/connection-editor/8021x-security-page.ui.h:4
+#: panels/network/connection-editor/security-page.ui.h:5
+msgid "Inner _authentication"
+msgstr "אימות _פנימי"
+
+#: panels/network/connection-editor/8021x-security-page.ui.h:5
+#: panels/network/connection-editor/security-page.ui.h:6
+msgid "page 2"
+msgstr "עמוד 2"
+
+#: panels/network/connection-editor/details-page.ui.h:10
+msgid "Last Used"
+msgstr "שימוש אחרון"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:1
+#: panels/network/connection-editor/ip4-page.ui.h:4
+#: panels/network/connection-editor/ip6-page.ui.h:4
+#: panels/network/wireless-security/eap-method-peap.ui.h:2
+msgid "Automatic"
+msgstr "אוטומטי"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:2
+msgid "Twisted Pair (TP)"
+msgstr "זוג שזור (TP)"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:3
+msgid "Attachment Unit Interface (AUI)"
+msgstr "מנשק יחידת חיבור (AUI)"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:4
+msgid "BNC"
+msgstr "BNC"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:5
+msgid "Media Independent Interface (MII)"
+msgstr "מנשק מדיה עצמאי (MII)"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:6
+msgid "10 Mb/s"
+msgstr "10 מ\"ב/שנ'"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:7
+msgid "100 Mb/s"
+msgstr "100 מ\"ב/שנ'"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:8
+msgid "1 Gb/s"
+msgstr "1  ג\"ב/שנ'"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:9
+msgid "10 Gb/s"
+msgstr "10 ג\"ב/שנ'"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:10
+#: panels/network/connection-editor/vpn-page.ui.h:1
+msgid "_Name"
+msgstr "_שם"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:12
+msgid "M_TU"
+msgstr "M_TU"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:13
+#: panels/network/connection-editor/wifi-page.ui.h:5
+msgid "_Cloned Address"
+msgstr "כתובת מ_שובטת"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:14
+msgid "bytes"
+msgstr "בתים"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:15
+#: panels/network/connection-editor/vpn-page.ui.h:3
+msgid "Make available to other _users"
+msgstr "הנגשה למשתמשים _אחרים"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:16
+#: panels/network/connection-editor/wifi-page.ui.h:7
+msgid "Connect _automatically"
+msgstr "התחברות _אוטומטית"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:17
+#: panels/network/connection-editor/security-page.ui.h:2
+#: panels/network/connection-editor/vpn-page.ui.h:2
+msgid "Firewall _Zone"
+msgstr "אזור _חומת אש"
+
+#: panels/network/connection-editor/ip4-page.ui.h:5
+#: panels/network/connection-editor/ip6-page.ui.h:5
+msgid "Automatic DNS"
+msgstr "DNS אוטומטי"
+
+#: panels/network/connection-editor/ip4-page.ui.h:7
+#: panels/network/connection-editor/ip6-page.ui.h:7
+msgid "Automatic Routes"
+msgstr "נתיבים אוטומטיים"
+
+#: panels/network/connection-editor/reset-page.ui.h:3
+msgid ""
+"Reset the settings for this network, including passwords, but remember it as "
+"a preferred network"
+msgstr "איפוס הגדרות הרשת הזאת לרבות ססמאות אך לשמור אותה כרשת מועדפת"
+
+#: panels/network/connection-editor/reset-page.ui.h:4
+msgid ""
+"Remove all details relating to this network and do not try to automatically "
+"connect"
+msgstr "הסרת כל הפרטים הקשורים לרשת זו ולא לנסות להתחבר אליה אוטומטית"
+
+#: panels/network/connection-editor/vpn-page.ui.h:4
+msgid "(Error: unable to load VPN connection editor)"
+msgstr "(שגיאה: לא ניתן לטעון את עורך חיבורי ה־VPN)"
+
+#: panels/network/connection-editor/wifi-page.ui.h:6
+msgid "Make available to _other users"
+msgstr "הנגשה למשתמשים _אחרים"
+
+#: panels/network/wireless-security/eap-method-fast.ui.h:1
+#: panels/network/wireless-security/eap-method-peap.ui.h:1
+#: panels/network/wireless-security/eap-method-ttls.ui.h:1
+#: panels/network/wireless-security/ws-dynamic-wep.ui.h:1
+#: panels/network/wireless-security/ws-wpa-eap.ui.h:1
+msgid " "
+msgstr " "
+
+#: panels/network/wireless-security/eap-method-fast.ui.h:2
+msgid "Anonymous"
+msgstr "אלמוני"
+
+#: panels/network/wireless-security/eap-method-fast.ui.h:3
+msgid "Authenticated"
+msgstr "מאומת"
+
+#: panels/network/wireless-security/eap-method-fast.ui.h:4
+msgid "Both"
+msgstr "שניהם"
+
+#: panels/network/wireless-security/eap-method-fast.ui.h:6
+msgid "PAC _file"
+msgstr "_קובץ PAC"
+
+#: panels/network/wireless-security/eap-method-fast.ui.h:7
+#: panels/network/wireless-security/eap-method-peap.ui.h:8
+#: panels/network/wireless-security/eap-method-ttls.ui.h:5
+msgid "_Inner authentication"
+msgstr "אימות _פנימי"
+
+#: panels/network/wireless-security/eap-method-fast.ui.h:8
+msgid "Allow automatic PAC pro_visioning"
+msgstr "אפשור הקצאת PAC _אוטומטית"
+
+#: panels/network/wireless-security/eap-method-leap.ui.h:1
+#: panels/network/wireless-security/eap-method-simple.ui.h:1
+#: panels/network/wireless-security/ws-leap.ui.h:1
+msgid "_Username"
+msgstr "_שם משתמש"
+
+#: panels/network/wireless-security/eap-method-leap.ui.h:3
+#: panels/network/wireless-security/eap-method-simple.ui.h:3
+#: panels/network/wireless-security/eap-method-tls.ui.h:7
+#: panels/network/wireless-security/ws-leap.ui.h:3
+#: panels/network/wireless-security/ws-wpa-psk.ui.h:3
+msgid "Sho_w password"
+msgstr "ה_צגת ססמה"
+
+#: panels/network/wireless-security/eap-method-peap.ui.h:3
+msgid "Version 0"
+msgstr "גרסה 0"
+
+#: panels/network/wireless-security/eap-method-peap.ui.h:4
+msgid "Version 1"
+msgstr "גרסה 1"
+
+#: panels/network/wireless-security/eap-method-peap.ui.h:6
+#: panels/network/wireless-security/eap-method-tls.ui.h:3
+#: panels/network/wireless-security/eap-method-ttls.ui.h:3
+msgid "C_A certificate"
+msgstr "אישור C_A"
+
+#: panels/network/wireless-security/eap-method-peap.ui.h:7
+#: panels/network/wireless-security/eap-method-tls.ui.h:4
+#: panels/network/wireless-security/eap-method-ttls.ui.h:4
+msgid "No CA certificate is _required"
+msgstr "לא נ_דרשת תעודת CA"
+
+#: panels/network/wireless-security/eap-method-peap.ui.h:9
+msgid "PEAP _version"
+msgstr "_גרסת PEAP"
+
+#: panels/network/wireless-security/eap-method-tls.ui.h:1
+msgid "I_dentity"
+msgstr "_זהות"
+
+#: panels/network/wireless-security/eap-method-tls.ui.h:2
+msgid "_User certificate"
+msgstr "_אישור המשתמש"
+
+#: panels/network/wireless-security/eap-method-tls.ui.h:5
+msgid "Private _key"
+msgstr "מפתח _פרטי"
+
+#: panels/network/wireless-security/eap-method-tls.ui.h:6
+msgid "_Private key password"
+msgstr "ססמת המפתח ה_פרטי"
+
+#: panels/network/wireless-security/ws-dynamic-wep.ui.h:2
+#: panels/network/wireless-security/ws-wep-key.ui.h:9
+#: panels/network/wireless-security/ws-wpa-eap.ui.h:2
+msgid "Au_thentication"
+msgstr "_אימות"
+
+#: panels/network/wireless-security/ws-wep-key.ui.h:1
+msgid "1 (Default)"
+msgstr "1 (בררת מחדל)"
+
+#: panels/network/wireless-security/ws-wep-key.ui.h:2
+msgid "2"
+msgstr "2"
+
+#: panels/network/wireless-security/ws-wep-key.ui.h:3
+msgid "3"
+msgstr "3"
+
+#: panels/network/wireless-security/ws-wep-key.ui.h:4
+msgid "4"
+msgstr "4"
+
+#: panels/network/wireless-security/ws-wep-key.ui.h:5
+msgid "Open System"
+msgstr "מערכת פתוחה"
+
+#: panels/network/wireless-security/ws-wep-key.ui.h:6
+msgid "Shared Key"
+msgstr "מפתח משותף"
+
+#: panels/network/wireless-security/ws-wep-key.ui.h:7
+msgid "_Key"
+msgstr "מ_פתח"
+
+#: panels/network/wireless-security/ws-wep-key.ui.h:8
+msgid "Sho_w key"
+msgstr "ה_צגת מפתח"
+
+#: panels/network/wireless-security/ws-wep-key.ui.h:10
+msgid "WEP inde_x"
+msgstr "מ_פתח ה־WEP"
+
+#: panels/network/wireless-security/ws-wpa-psk.ui.h:2
+msgid "_Type"
+msgstr "_סוג"
+
+#: generate_additional_files.py:25
+msgid "Color management settings"
+msgstr "הגדרות ניהול צבע"
+
+#: generate_additional_files.py:41
+msgid "Region & Language"
+msgstr "אזור ושפה"
+
+#: generate_additional_files.py:41
+msgid "Change your region and language settings"
+msgstr "שינוי הגדרות אזור ושפה"
+
+#: generate_additional_files.py:56
+msgid "Display"
+msgstr "תצוגה"
+
+#: generate_additional_files.py:56
+msgid "Change resolution and position of monitors and projectors"
+msgstr "שינוי הפרדה והמיקום של הצגים והמקרנים"
+
+#: generate_additional_files.py:71
+msgid "Network settings"
+msgstr "הגדרות רשת"
+
+#: generate_additional_files.py:86
+msgid ""
+"Set button mappings and adjust stylus sensitivity for graphics tablets"
+msgstr "הגדרת מיפוי לחצנים והתאמת רגישות העט למחשבי-לוח גרפיים"

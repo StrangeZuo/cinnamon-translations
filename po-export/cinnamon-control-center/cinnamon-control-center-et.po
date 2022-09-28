@@ -1,0 +1,2371 @@
+# GNOME juhtimiskeskuse eesti keele tõlge.
+# Estonian translation of GNOME Control Center.
+#
+# Copyright (C) 1999, 2002, 2003, 2005, 2006 Free Software Foundation, Inc.
+# Copyright (C) 2007–2011 The Gnome Project.
+# This file is distributed under the same license as the cinnamon-control-center
+# package.
+#
+# Lauris Kaplinski <lauris ariman ee>, 1999.
+# Tõivo Leedjärv <toivo linux ee>, 2002, 2003.
+# Ivar Smolin <okul linux ee>, 2005–2011.
+# Priit Laes <plaes+gi18n plaes org>, 2005, 2006, 2008.
+# Mattias Põldaru <mahfiaz@gmail.com>, 2009, 2010, 2011, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GNOME Control Center MASTER\n"
+"Report-Msgid-Bugs-To: "
+"http://bugzilla.gnome.org/enter_bug.cgi?product=cinnamon-control-"
+"center&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2021-06-04 12:20+0100\n"
+"PO-Revision-Date: 2020-06-27 05:34+0000\n"
+"Last-Translator: mahfiaz <mahfiaz@gmail.com>\n"
+"Language-Team: Estonian <cinnamon-et@linux.ee>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2021-06-25 10:38+0000\n"
+"X-Generator: Launchpad (build 40cc6dba4163ba9ca785b26ad91f43c87d70ba4d)\n"
+"X-Poedit-Country: ESTONIA\n"
+"Language: et\n"
+"X-Poedit-Language: Estonian\n"
+
+#. TRANSLATORS: this is where the user can click and import a profile
+#: panels/color/cc-color-panel.c:108
+msgid "Other profile…"
+msgstr "Muu profiil…"
+
+#. TRANSLATORS: this is a profile prefix to signify the
+#. * profile has been auto-generated for this hardware
+#: panels/color/cc-color-panel.c:121
+msgid "Default: "
+msgstr "Vaikimisi: "
+
+#. TRANSLATORS: this is a profile prefix to signify the
+#. * profile his a standard space like AdobeRGB
+#: panels/color/cc-color-panel.c:127
+msgid "Colorspace: "
+msgstr "Värviruum: "
+
+#. TRANSLATORS: this is a profile prefix to signify the
+#. * profile is a test profile
+#: panels/color/cc-color-panel.c:133
+msgid "Test profile: "
+msgstr "Katseprofiil: "
+
+#. TRANSLATORS: this is when the profile should be set for all users
+#: panels/color/cc-color-panel.c:185 panels/color/color.ui.h:9
+msgid "Set for all users"
+msgstr "Määra kõigile kasutajaile"
+
+#. TRANSLATORS: this is when the profile should be set for all users
+#: panels/color/cc-color-panel.c:192
+msgid "Create virtual device"
+msgstr "Virtuaalse seadme loomine"
+
+#. TRANSLATORS: an ICC profile is a file containing colorspace data
+#: panels/color/cc-color-panel.c:227
+msgid "Select ICC Profile File"
+msgstr "ICC profiili valimine"
+
+#: panels/color/cc-color-panel.c:230
+msgid "_Import"
+msgstr "_Impordi"
+
+#. TRANSLATORS: filter name on the file->open dialog
+#: panels/color/cc-color-panel.c:241
+msgid "Supported ICC profiles"
+msgstr "Toetatud ICC profiilid"
+
+#. TRANSLATORS: filter name on the file->open dialog
+#: panels/color/cc-color-panel.c:248
+msgid "All files"
+msgstr "Kõik failid"
+
+#. TRANSLATORS: this is the dialog title in the 'Add profile' UI
+#: panels/color/cc-color-panel.c:591
+msgid "Available Profiles for Displays"
+msgstr "Saadaolevad kuvade profiilid"
+
+#. TRANSLATORS: this is the dialog title in the 'Add profile' UI
+#: panels/color/cc-color-panel.c:595
+msgid "Available Profiles for Scanners"
+msgstr "Saadaolevad skännerite profiilid"
+
+#. TRANSLATORS: this is the dialog title in the 'Add profile' UI
+#: panels/color/cc-color-panel.c:599
+msgid "Available Profiles for Printers"
+msgstr "Saadaolevad printerite profiilid"
+
+#. TRANSLATORS: this is the dialog title in the 'Add profile' UI
+#: panels/color/cc-color-panel.c:603
+msgid "Available Profiles for Cameras"
+msgstr "Saadaolevad kaamerate profiilid"
+
+#. TRANSLATORS: this is the dialog title in the 'Add profile' UI
+#: panels/color/cc-color-panel.c:607
+msgid "Available Profiles for Webcams"
+msgstr "Saadaolevad veebikaamerate profiilid"
+
+#. TRANSLATORS: this is the dialog title in the 'Add profile' UI
+#. * where the device type is not recognised
+#. Profiles that can be added to the device
+#: panels/color/cc-color-panel.c:612 panels/color/color.ui.h:2
+msgid "Available Profiles"
+msgstr "Saadaolevad profiilid"
+
+#. TRANSLATORS: column for device list
+#: panels/color/cc-color-panel.c:888
+msgid "Device"
+msgstr "Seade"
+
+#. TRANSLATORS: column for device list
+#: panels/color/cc-color-panel.c:923
+msgid "Calibration"
+msgstr "Kalibreerimine"
+
+#. TRANSLATORS: this is when the button is sensitive
+#: panels/color/cc-color-panel.c:955
+msgid "Create a color profile for the selected device"
+msgstr "Valitud seadmele värviporfiili loomine"
+
+#. TRANSLATORS: this is when the button is insensitive
+#: panels/color/cc-color-panel.c:969 panels/color/cc-color-panel.c:993
+msgid ""
+"The measuring instrument is not detected. Please check it is turned on and "
+"correctly connected."
+msgstr ""
+"Mõõteriista ei tuvastatud. Palun veendu, et see on sisse lülitatud ja "
+"õigesti ühendatud."
+
+#. TRANSLATORS: this is when the button is insensitive
+#: panels/color/cc-color-panel.c:1002
+msgid "The measuring instrument does not support printer profiling."
+msgstr "Mõõteriist ei toeta printeri profiilimist."
+
+#. TRANSLATORS: this is when the button is insensitive
+#: panels/color/cc-color-panel.c:1013
+msgid "The device type is not currently supported."
+msgstr "Seda seadmetüüpi hetkel ei toetata."
+
+#. TRANSLATORS: this is when an auto-added profile cannot be removed
+#: panels/color/cc-color-panel.c:1085
+msgid "Cannot remove automatically added profile"
+msgstr "Automaatselt lisatud profiili ei õnnestunud eemaldada."
+
+#. TRANSLATORS: this is when there is no profile for the device
+#: panels/color/cc-color-panel.c:1419
+msgid "No profile"
+msgstr "Profiil puudub"
+
+#: panels/color/cc-color-panel.c:1448
+#, c-format
+msgid "%i year"
+msgid_plural "%i years"
+msgstr[0] "%i aasta"
+msgstr[1] "%i aastat"
+
+#: panels/color/cc-color-panel.c:1459
+#, c-format
+msgid "%i month"
+msgid_plural "%i months"
+msgstr[0] "%i kuu"
+msgstr[1] "%i kuud"
+
+#: panels/color/cc-color-panel.c:1470
+#, c-format
+msgid "%i week"
+msgid_plural "%i weeks"
+msgstr[0] "%i nädal"
+msgstr[1] "%i nädalat"
+
+#. fallback
+#: panels/color/cc-color-panel.c:1477
+msgid "Less than 1 week"
+msgstr "Alla ühe nädala"
+
+#: panels/color/cc-color-panel.c:1539
+msgctxt "Colorspace fallback"
+msgid "Default RGB"
+msgstr "Vaikimisi RGB"
+
+#: panels/color/cc-color-panel.c:1544
+msgctxt "Colorspace fallback"
+msgid "Default CMYK"
+msgstr "Vaikimisi CMYK"
+
+#: panels/color/cc-color-panel.c:1549
+msgctxt "Colorspace fallback"
+msgid "Default Gray"
+msgstr "Vaikimisi hall"
+
+#: panels/color/cc-color-panel.c:1667 panels/color/cc-color-panel.c:1706
+#: panels/color/cc-color-panel.c:1717 panels/color/cc-color-panel.c:1728
+msgid "Uncalibrated"
+msgstr "Kalibreerimata"
+
+#: panels/color/cc-color-panel.c:1670
+msgid "This device is not color managed."
+msgstr "Selle seadme värve ei hallata."
+
+#: panels/color/cc-color-panel.c:1709
+msgid "This device is using manufacturing calibrated data."
+msgstr "See seade kasutab tootjapoolset kalibreeringut."
+
+#: panels/color/cc-color-panel.c:1720
+msgid ""
+"This device does not have a profile suitable for whole-screen color "
+"correction."
+msgstr ""
+"Sellel seadmel ei ole sobivat profiili, mis sobiks täisekraani "
+"värvikorrektuuriks."
+
+#: panels/color/cc-color-panel.c:1753
+msgid "This device has an old profile that may no longer be accurate."
+msgstr "Sellel seadmel on vana profiil, mis ei pruugi olla enam täpne."
+
+#. TRANSLATORS: this is when the calibration profile age is not
+#. * specified as it has been autogenerated from the hardware
+#: panels/color/cc-color-panel.c:1781
+msgid "Not specified"
+msgstr "Määramata"
+
+#. add the 'No devices detected' entry
+#: panels/color/cc-color-panel.c:1966
+msgid "No devices supporting color management detected"
+msgstr "Värvihaldust toetavaid seadmeid ei leitud"
+
+#: panels/color/cc-color-panel.c:2195
+msgctxt "Device kind"
+msgid "Display"
+msgstr "Kuva"
+
+#: panels/color/cc-color-panel.c:2197
+msgctxt "Device kind"
+msgid "Scanner"
+msgstr "Skänner"
+
+#: panels/color/cc-color-panel.c:2199
+msgctxt "Device kind"
+msgid "Printer"
+msgstr "Printer"
+
+#: panels/color/cc-color-panel.c:2201
+msgctxt "Device kind"
+msgid "Camera"
+msgstr "Kaamera"
+
+#: panels/color/cc-color-panel.c:2203
+msgctxt "Device kind"
+msgid "Webcam"
+msgstr "Veebikaamera"
+
+#. Add some common languages first
+#: panels/common/cc-common-language.c:533
+msgid "English"
+msgstr "Ingise keel"
+
+#: panels/common/cc-common-language.c:535
+msgid "British English"
+msgstr "Briti inglise keel"
+
+#: panels/common/cc-common-language.c:538
+msgid "German"
+msgstr "Saksa keel"
+
+#: panels/common/cc-common-language.c:541
+msgid "French"
+msgstr "Prantsuse keel"
+
+#: panels/common/cc-common-language.c:544
+msgid "Spanish"
+msgstr "Hispaania keel"
+
+#: panels/common/cc-common-language.c:546
+msgid "Chinese (simplified)"
+msgstr "Hiina keel (lihtsustatud)"
+
+#: panels/common/cc-common-language.c:549
+msgid "Russian"
+msgstr "Vene"
+
+#: panels/common/cc-common-language.c:552
+msgid "Arabic"
+msgstr "Araabia"
+
+#. Add some common regions
+#: panels/common/cc-common-language.c:580
+msgid "United States"
+msgstr "Ameerika Ühendriigid"
+
+#: panels/common/cc-common-language.c:581
+msgid "Germany"
+msgstr "Saksamaa"
+
+#: panels/common/cc-common-language.c:582
+msgid "France"
+msgstr "Prantsusmaa"
+
+#: panels/common/cc-common-language.c:583
+msgid "Spain"
+msgstr "Hispaania"
+
+#: panels/common/cc-common-language.c:584
+msgid "China"
+msgstr "Hiina"
+
+#: panels/common/cc-language-chooser.c:303
+msgid "Select a region"
+msgstr "Vali asukoht"
+
+#: panels/common/gdm-languages.c:781
+msgid "Unspecified"
+msgstr "Määramata"
+
+#: panels/display/cc-display-panel.c:642 panels/display/cc-display-panel.c:1251
+#: panels/display/cc-display-panel.c:1258
+#, c-format
+msgid "%d%%"
+msgstr "%d%%"
+
+#: panels/display/cc-display-panel.c:709
+msgctxt "display panel, rotation"
+msgid "Normal"
+msgstr "Normaalne"
+
+#: panels/display/cc-display-panel.c:710
+msgctxt "display panel, rotation"
+msgid "Counterclockwise"
+msgstr "Vastupäeva"
+
+#: panels/display/cc-display-panel.c:711
+msgctxt "display panel, rotation"
+msgid "Clockwise"
+msgstr "Päripäeva"
+
+#: panels/display/cc-display-panel.c:712
+msgctxt "display panel, rotation"
+msgid "180 Degrees"
+msgstr "180 kraadi"
+
+#. Keep this string in sync with gnome-desktop/libcinnamon-desktop/gnome-rr-labeler.c
+#. Translators:  this is the feature where what you see on your laptop's
+#. * screen is the same as your external projector.  Here, "Mirrored" is being
+#. * used as an adjective.  For example, the Spanish translation could be
+#. * "Pantallas en Espejo".
+#. 
+#. Translators:  this is the feature where what you see on your
+#. * laptop's screen is the same as your external projector.
+#. * Here, "Mirrored" is being used as an adjective.  For example,
+#. * the Spanish translation could be "Pantallas en Espejo".
+#. 
+#: panels/display/cc-display-panel.c:857 panels/display/cc-rr-labeler.c:404
+msgid "Mirrored Displays"
+msgstr "Peegeldatud ekraanid"
+
+#: panels/display/cc-display-panel.c:881
+msgid "Monitor"
+msgstr "Kuvar"
+
+#: panels/display/cc-display-panel.c:985
+#, c-format
+msgid "%d x %d%s (%s)"
+msgstr "%d x %d%s (%s)"
+
+#: panels/display/cc-display-panel.c:987
+#, c-format
+msgid "%d x %d%s"
+msgstr "%d x %d%s"
+
+#: panels/display/cc-display-panel.c:1002
+#, c-format
+msgid "%.2lf Hz"
+msgstr "%.2lf Hz"
+
+#: panels/display/cc-display-panel.c:1281
+msgid "Normal"
+msgstr "Tavaline"
+
+#: panels/display/cc-display-panel.c:1283
+msgid "Double (Hi-DPI)"
+msgstr "Topelt (Hi-DPI)"
+
+#: panels/display/cc-display-panel.c:1323
+#, c-format
+msgid "Automatic (%ux)"
+msgstr "Automaatne (%ux)"
+
+#: panels/display/cc-display-panel.c:2510
+msgid ""
+"Select a monitor to change its properties; drag it to rearrange its "
+"placement."
+msgstr ""
+"Omaduste muutmiseks vali kuvar. Asukoha muutmiseks lohista see uuele "
+"asukohale."
+
+#: panels/display/cc-display-panel.c:2959
+msgid "DoubleScan"
+msgstr "DoubleScan"
+
+#: panels/display/cc-display-panel.c:2997
+msgid "VSync"
+msgstr "VSync"
+
+#: panels/display/cc-display-panel.c:3035
+#: panels/display/cc-display-panel.c:3063
+msgid "Recommended"
+msgstr "Soovitatud"
+
+#: panels/display/cc-display-panel.c:3098
+#, c-format
+msgid "<b>scaled resolution: %d x %d</b>"
+msgstr "<b>skaleeritud eraldusvõime: %d x %d</b>"
+
+#: panels/display/cc-display-panel.c:3287
+#: panels/display/cc-display-panel.c:3339
+msgid "Failed to apply configuration"
+msgstr "Tõrge sätete rakendamisel"
+
+#: panels/display/cc-display-panel.c:3367
+msgid "Could not save the monitor configuration"
+msgstr "Kuvari sätteid pole võimalik salvestada"
+
+#: panels/display/cc-display-panel.c:3427
+msgid "Could not detect displays"
+msgstr "Kuvasid pole võimalik tuvastada"
+
+#: panels/display/cc-display-panel.c:3671
+msgid "Could not get screen information"
+msgstr "Ekraani andmeid pole võimalik hankida"
+
+#: panels/network/cc-network-panel.c:910
+msgid "Network proxy"
+msgstr "Võrgu proksi"
+
+#. Translators: this is the title of the connection details
+#. * window for vpn connections, it is also used to display
+#. * vpn connections in the device list.
+#. 
+#: panels/network/cc-network-panel.c:1089 panels/network/net-vpn.c:287
+#: panels/network/net-vpn.c:444
+#, c-format
+msgid "%s VPN"
+msgstr "%s VPN"
+
+#: panels/network/cc-network-panel.c:1156
+msgid "Oops, something has gone wrong. Please contact your software vendor."
+msgstr "Ups, miski läks nihu. Palun võta ühendust oma tarkvarapakkujaga."
+
+#: panels/network/cc-network-panel.c:1162
+msgid "NetworkManager needs to be running."
+msgstr "NetworkManager peab töötama."
+
+#. Translators: network device speed
+#: panels/network/net-device-ethernet.c:50 panels/network/net-device-wifi.c:549
+#, c-format
+msgid "%d Mb/s"
+msgstr "%d Mb/s"
+
+#: panels/network/net-device-ethernet.c:106
+#: panels/network/net-device-wifi.c:477
+msgid "never"
+msgstr "mitte kunagi"
+
+#: panels/network/net-device-ethernet.c:116
+#: panels/network/net-device-wifi.c:487
+msgid "today"
+msgstr "täna"
+
+#: panels/network/net-device-ethernet.c:118
+#: panels/network/net-device-wifi.c:489
+msgid "yesterday"
+msgstr "eile"
+
+#: panels/network/net-device-ethernet.c:120
+#: panels/network/net-device-wifi.c:491
+#, c-format
+msgid "%i day ago"
+msgid_plural "%i days ago"
+msgstr[0] "%i päev tagasi"
+msgstr[1] "%i päeva tagasi"
+
+#: panels/network/net-device-ethernet.c:155 panels/network/panel-common.c:666
+#: panels/network/network-simple.ui.h:3 panels/network/network-wifi.ui.h:7
+#: panels/network/connection-editor/details-page.ui.h:4
+msgid "IPv4 Address"
+msgstr "IPv4-aadress"
+
+#: panels/network/net-device-ethernet.c:156 panels/network/panel-common.c:667
+#: panels/network/network-mobile.ui.h:4 panels/network/network-simple.ui.h:4
+#: panels/network/network-wifi.ui.h:8
+#: panels/network/connection-editor/details-page.ui.h:5
+msgid "IPv6 Address"
+msgstr "IPv6-aadress"
+
+#: panels/network/net-device-ethernet.c:158
+#: panels/network/net-device-ethernet.c:160 panels/network/panel-common.c:669
+#: panels/network/panel-common.c:671 panels/network/network-mobile.ui.h:3
+msgid "IP Address"
+msgstr "IP-aadress"
+
+#: panels/network/net-device-ethernet.c:163
+#: panels/network/network-simple.ui.h:2 panels/network/network-wifi.ui.h:9
+#: panels/network/connection-editor/details-page.ui.h:6
+msgid "Hardware Address"
+msgstr "Riistvara-aadress"
+
+#: panels/network/net-device-ethernet.c:167
+#: panels/network/network-mobile.ui.h:5 panels/network/network-simple.ui.h:5
+#: panels/network/network-wifi.ui.h:10
+#: panels/network/connection-editor/details-page.ui.h:7
+msgid "Default Route"
+msgstr "Vaikimisi marsruut"
+
+#: panels/network/net-device-ethernet.c:170 panels/network/panel-common.c:675
+#: panels/network/network-mobile.ui.h:6 panels/network/network-simple.ui.h:6
+#: panels/network/network-wifi.ui.h:11
+#: panels/network/connection-editor/details-page.ui.h:8
+msgid "DNS4"
+msgstr ""
+
+#: panels/network/net-device-ethernet.c:171 panels/network/panel-common.c:676
+#: panels/network/network-mobile.ui.h:7 panels/network/network-simple.ui.h:7
+#: panels/network/network-wifi.ui.h:12
+#: panels/network/connection-editor/details-page.ui.h:9
+msgid "DNS6"
+msgstr ""
+
+#: panels/network/net-device-ethernet.c:173
+#: panels/network/net-device-ethernet.c:175 panels/network/panel-common.c:678
+#: panels/network/panel-common.c:680
+#: panels/network/connection-editor/ip4-page.ui.h:3
+#: panels/network/connection-editor/ip6-page.ui.h:3
+msgid "DNS"
+msgstr "DNS"
+
+#: panels/network/net-device-ethernet.c:181 panels/network/network-wifi.ui.h:13
+msgid "Last used"
+msgstr "Viimati kasutatud"
+
+#. Translators: This is used as the title of the connection
+#. * details window for ethernet, if there is only a single
+#. * profile. It is also used to display ethernet in the
+#. * device list.
+#. 
+#: panels/network/net-device-ethernet.c:290
+#: panels/network/network-ethernet.ui.h:1 panels/network/network-simple.ui.h:1
+msgid "Wired"
+msgstr "Juhtmega"
+
+#: panels/network/net-device-ethernet.c:358
+#: panels/network/net-device-wifi.c:1751 panels/network/network-ethernet.ui.h:3
+#: panels/network/network-mobile.ui.h:9 panels/network/network-simple.ui.h:9
+#: panels/network/network-vpn.ui.h:7
+msgid "Options…"
+msgstr "Valikud…"
+
+#: panels/network/net-device-mobile.c:238
+msgid "Add new connection"
+msgstr "Uue ühenduse lisamine"
+
+#. TRANSLATORS: this WEP WiFi security
+#: panels/network/net-device-wifi.c:215 panels/network/net-device-wifi.c:393
+msgid "WEP"
+msgstr "WEP"
+
+#. TRANSLATORS: this WPA WiFi security
+#: panels/network/net-device-wifi.c:219 panels/network/net-device-wifi.c:398
+#: panels/network/network-wifi.ui.h:20
+msgid "WPA"
+msgstr "WPA"
+
+#. TRANSLATORS: this WPA WiFi security
+#: panels/network/net-device-wifi.c:223
+msgid "WPA2"
+msgstr "WPA2"
+
+#. TRANSLATORS: this Enterprise WiFi security
+#: panels/network/net-device-wifi.c:228
+msgid "Enterprise"
+msgstr "Ettevõtte"
+
+#: panels/network/net-device-wifi.c:233 panels/network/net-device-wifi.c:383
+msgctxt "Wifi security"
+msgid "None"
+msgstr "Puudub"
+
+#: panels/network/net-device-wifi.c:578
+msgctxt "Signal strength"
+msgid "None"
+msgstr "Puudub"
+
+#: panels/network/net-device-wifi.c:580
+msgctxt "Signal strength"
+msgid "Weak"
+msgstr "Nõrk"
+
+#: panels/network/net-device-wifi.c:582
+msgctxt "Signal strength"
+msgid "Ok"
+msgstr "Ok"
+
+#: panels/network/net-device-wifi.c:584
+msgctxt "Signal strength"
+msgid "Good"
+msgstr "Hea"
+
+#: panels/network/net-device-wifi.c:586
+msgctxt "Signal strength"
+msgid "Excellent"
+msgstr "Suurepärane"
+
+#: panels/network/net-device-wifi.c:1260
+msgid ""
+"If you have a connection to the Internet other than wireless, you can set up "
+"a wireless hotspot to share the connection with others."
+msgstr ""
+"Kui su internetiühendus ei tule juhtmeta võrgu kaudu, võid kasutada juhtmeta "
+"võrku teistele internetiühenduse jagamiseks."
+
+#: panels/network/net-device-wifi.c:1264
+#, c-format
+msgid "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
+msgstr ""
+"Juhtmeta võrgu kaudu jagamise (hotspot) sisselülitamine katkestab ühenduse "
+"võrguga <b>%s</b>."
+
+#: panels/network/net-device-wifi.c:1268
+msgid ""
+"It is not possible to access the Internet through your wireless while the "
+"hotspot is active."
+msgstr ""
+"Pole võimalik ühenduda internetti juhtmeta võrgu kaudu, kuni hotspot on "
+"aktiivne."
+
+#: panels/network/net-device-wifi.c:1350
+msgid "Stop hotspot and disconnect any users?"
+msgstr "Kas seisata tugijaam ja ühendada kasutajad lahti?"
+
+#: panels/network/net-device-wifi.c:1352 panels/network/net-device-wifi.c:1592
+#: panels/common/language-chooser.ui.h:2 panels/network/network-wifi.ui.h:1
+#: panels/network/connection-editor/connection-editor.ui.h:1
+msgid "_Cancel"
+msgstr "_Katkesta"
+
+#: panels/network/net-device-wifi.c:1353
+msgid "_Stop Hotspot"
+msgstr "_Seiska tugijaam"
+
+#: panels/network/net-device-wifi.c:1454
+msgid "System policy prohibits use as a Hotspot"
+msgstr "Süsteemireegel keelab Hotspotina kasutamine"
+
+#: panels/network/net-device-wifi.c:1457
+msgid "Wireless device does not support Hotspot mode"
+msgstr "Juhtmevaba seade ei toeta Hotspot režiimi"
+
+#: panels/network/net-device-wifi.c:1589
+msgid ""
+"Network details for the selected networks, including passwords and any "
+"custom configuration will be lost."
+msgstr ""
+"Valitud võrkude andmed, sealhulgas parool ja eriseadistused, lähevad kaotsi."
+
+#: panels/network/net-device-wifi.c:1593 panels/network/network-wifi.ui.h:43
+#: panels/network/connection-editor/reset-page.ui.h:2
+msgid "_Forget"
+msgstr "_Unusta"
+
+#: panels/network/net-device-wifi.c:1899
+msgid "History"
+msgstr "Ajalugu"
+
+#: panels/network/net-device-wifi.c:1903
+msgid "_Close"
+msgstr "_Sulge"
+
+#. translators: This is the label for the "Forget wireless network" functionality
+#: panels/network/net-device-wifi.c:1911
+msgctxt "Wi-Fi Network"
+msgid "_Forget"
+msgstr "_Unusta"
+
+#. TRANSLATORS: this is when the use leaves the PAC textbox blank
+#: panels/network/net-proxy.c:67
+msgid ""
+"Web Proxy Autodiscovery is used when a Configuration URL is not provided."
+msgstr ""
+"Veebiproksi isetuvastust kasutatakse siis, kui seadistamise URL pole "
+"määratud."
+
+#. TRANSLATORS: WPAD is bad: if you enable it on an untrusted
+#. * network, then anyone else on that network can tell your
+#. * machine that it should proxy all of your web traffic
+#. * through them.
+#: panels/network/net-proxy.c:75
+msgid "This is not recommended for untrusted public networks."
+msgstr "See ei ole mitteusaldatavates avalikes võrkudes soovitatav."
+
+#: panels/network/net-proxy.c:410
+msgid "Proxy"
+msgstr "Proksi"
+
+#. TRANSLATORS: AP type
+#: panels/network/panel-common.c:123
+msgid "Unknown"
+msgstr "Tundmatu"
+
+#. TRANSLATORS: AP type
+#: panels/network/panel-common.c:127
+msgid "Ad-hoc"
+msgstr "Ad-hoc"
+
+#. TRANSLATORS: AP type
+#: panels/network/panel-common.c:131
+msgid "Infrastructure"
+msgstr "Infrastruktuur"
+
+#. TRANSLATORS: device status
+#. TRANSLATORS: VPN status
+#: panels/network/panel-common.c:147 panels/network/panel-common.c:201
+msgid "Status unknown"
+msgstr "Olek teadmata"
+
+#. TRANSLATORS: device status
+#: panels/network/panel-common.c:151
+msgid "Unmanaged"
+msgstr "Haldamata"
+
+#. TRANSLATORS: device status
+#: panels/network/panel-common.c:155
+msgid "Unavailable"
+msgstr "Pole saadaval"
+
+#. TRANSLATORS: device status
+#. TRANSLATORS: VPN status
+#: panels/network/panel-common.c:165 panels/network/panel-common.c:207
+msgid "Connecting"
+msgstr "Ühendumine"
+
+#. TRANSLATORS: device status
+#. TRANSLATORS: VPN status
+#: panels/network/panel-common.c:169 panels/network/panel-common.c:211
+msgid "Authentication required"
+msgstr "Autentimine on vajalik"
+
+#. TRANSLATORS: device status
+#. TRANSLATORS: VPN status
+#: panels/network/panel-common.c:173 panels/network/panel-common.c:215
+msgid "Connected"
+msgstr "Ühendatud"
+
+#. TRANSLATORS: device status
+#: panels/network/panel-common.c:177
+msgid "Disconnecting"
+msgstr "Ühenduse katkestamine"
+
+#. TRANSLATORS: device status
+#. TRANSLATORS: VPN status
+#: panels/network/panel-common.c:181 panels/network/panel-common.c:219
+msgid "Connection failed"
+msgstr "Ühendumine nurjus"
+
+#. TRANSLATORS: device status
+#. TRANSLATORS: VPN status
+#: panels/network/panel-common.c:185 panels/network/panel-common.c:227
+msgid "Status unknown (missing)"
+msgstr "Olek teadmata (puudub)"
+
+#. TRANSLATORS: VPN status
+#: panels/network/panel-common.c:223
+msgid "Not connected"
+msgstr "Pole ühendatud"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:248
+msgid "Configuration failed"
+msgstr "Seadistamine nurjus"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:252
+msgid "IP configuration failed"
+msgstr "IP seadistamine nurjus"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:256
+msgid "IP configuration expired"
+msgstr "IP seadistus aegus"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:260
+msgid "Secrets were required, but not provided"
+msgstr "Vajalik on parool, aga seda ei antud"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:264
+msgid "802.1x supplicant disconnected"
+msgstr "802.1x supplicant-iga katkes ühendus"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:268
+msgid "802.1x supplicant configuration failed"
+msgstr "802.1x supplicant-i seadistus nurjus"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:272
+msgid "802.1x supplicant failed"
+msgstr "802.1x supplicant nurjus"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:276
+msgid "802.1x supplicant took too long to authenticate"
+msgstr "802.1x supplicant-il läks autentimiseks liiga kaua"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:280
+msgid "PPP service failed to start"
+msgstr "PPP teenuse käivitamine nurjus"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:284
+msgid "PPP service disconnected"
+msgstr "PPP teenuse ühendus katkes"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:288
+msgid "PPP failed"
+msgstr "PPP nurjus"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:292
+msgid "DHCP client failed to start"
+msgstr "DHCP kliendi käivitamine nurjus"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:296
+msgid "DHCP client error"
+msgstr "DHCP kliendi viga"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:300
+msgid "DHCP client failed"
+msgstr "DHCP kliendi päring nurjus"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:304
+msgid "Shared connection service failed to start"
+msgstr "Jagatud ühenduse teenuse käivitamine nurjus"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:308
+msgid "Shared connection service failed"
+msgstr "Jagatud ühenduse teenus nurjus"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:312
+msgid "AutoIP service failed to start"
+msgstr "AutoIP teenuse käivitamine nurjus"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:316
+msgid "AutoIP service error"
+msgstr "AutoIP teenuse viga"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:320
+msgid "AutoIP service failed"
+msgstr "AutoIP teenus nurjus"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:324
+msgid "Line busy"
+msgstr "Liin on hõivatud"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:328
+msgid "No dial tone"
+msgstr "Tooni pole"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:332
+msgid "No carrier could be established"
+msgstr "Kandjat polnud võimalik luua"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:336
+msgid "Dialing request timed out"
+msgstr "Valimise katse aegus"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:340
+msgid "Dialing attempt failed"
+msgstr "Valimise katse nurjus"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:344
+msgid "Modem initialization failed"
+msgstr "Modemi lähtestamine nurjus"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:348
+msgid "Failed to select the specified APN"
+msgstr "Määratud APN-i valimine nurjus"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:352
+msgid "Not searching for networks"
+msgstr "Võrke ei otsita"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:356
+msgid "Network registration denied"
+msgstr "Võrgu registreerimine on keelatud"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:360
+msgid "Network registration timed out"
+msgstr "Võrgu registreerimine aegus"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:364
+msgid "Failed to register with the requested network"
+msgstr "Valitud võrku registreerimine nurjus"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:368
+msgid "PIN check failed"
+msgstr "PIN-i kontroll nurjus"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:372
+msgid "Firmware for the device may be missing"
+msgstr "Selle seadme püsivara (firmware) võib olla puudu"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:376
+msgid "Connection disappeared"
+msgstr "Ühendus kadus"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:380
+msgid "Existing connection was assumed"
+msgstr "Olemasolev ühendus on eeldatav"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:384
+msgid "Modem not found"
+msgstr "Modemit ei leitud"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:388
+msgid "Bluetooth connection failed"
+msgstr "Bluetooth ühendus nurjus"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:392
+msgid "SIM Card not inserted"
+msgstr "SIM kaart ei ole sees"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:396
+msgid "SIM Pin required"
+msgstr "Vajalik on SIM-kaardi PIN-kood"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:400
+msgid "SIM Puk required"
+msgstr "Vajalik on SIM-kaardi PUK-kood"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:404
+msgid "SIM wrong"
+msgstr "Vale SIM"
+
+#. TRANSLATORS: device status reason
+#: panels/network/panel-common.c:408
+msgid "Connection dependency failed"
+msgstr "Ühenduse sõltuvus nurjus"
+
+#. TRANSLATORS: device status
+#: panels/network/panel-common.c:433
+msgid "Firmware missing"
+msgstr "Püsivara puudub"
+
+#. TRANSLATORS: device status
+#: panels/network/panel-common.c:437
+msgid "Cable unplugged"
+msgstr "Juhe eemaldatud"
+
+#: panels/online-accounts/cc-online-accounts-panel.c:148
+msgctxt "Online Account"
+msgid "Other"
+msgstr "Muu"
+
+#. translators: This is the title of the "Show Account" dialog. The
+#. * %s is the name of the provider. e.g., 'Google'.
+#: panels/online-accounts/cc-online-accounts-panel.c:593
+#, c-format
+msgid "%s Account"
+msgstr "%s konto"
+
+#: panels/online-accounts/cc-online-accounts-panel.c:888
+msgid "Error removing account"
+msgstr "Viga konto eemaldamisel"
+
+#. Translators: The %s is the username (eg., debarshi.ray@gmail.com
+#. * or rishi).
+#. 
+#: panels/online-accounts/cc-online-accounts-panel.c:953
+#, c-format
+msgid "<b>%s</b> removed"
+msgstr "<b>%s</b> kustutatud"
+
+#: panels/region/cinnamon-region-panel-xkblt.c:208
+msgid "Layout"
+msgstr "Paigutus"
+
+#: panels/region/cinnamon-region-panel-xkbot.c:227
+msgid "Default"
+msgstr "Vaikimisi"
+
+#: panels/wacom/cc-wacom-mapping-panel.c:298
+msgid "Output:"
+msgstr "Väljund:"
+
+#. Keep ratio switch
+#: panels/wacom/cc-wacom-mapping-panel.c:310
+msgid "Keep aspect ratio (letterbox):"
+msgstr "Külgede suhte säilitamine:"
+
+#. Apply screen rotation
+#: panels/wacom/cc-wacom-mapping-panel.c:321
+msgid "Rotate the tablet when the screen is rotated:"
+msgstr "Tahvelarvuti pööramine kui ekraani pööratakse:"
+
+#. Whole-desktop checkbox
+#: panels/wacom/cc-wacom-mapping-panel.c:332
+msgid "Map to single monitor"
+msgstr "Ühele kuvarile"
+
+#: panels/wacom/cc-wacom-nav-button.c:89
+#, c-format
+msgid "%d of %d"
+msgstr "%d / %d"
+
+#: panels/wacom/cc-wacom-page.c:118 panels/wacom/cc-wacom-page.c:385
+msgctxt "Wacom action-type"
+msgid "None"
+msgstr "Pole"
+
+#: panels/wacom/cc-wacom-page.c:119
+msgctxt "Wacom action-type"
+msgid "Send Keystroke"
+msgstr "Klaviatuurivajutuse saatmine"
+
+#: panels/wacom/cc-wacom-page.c:120
+msgctxt "Wacom action-type"
+msgid "Switch Monitor"
+msgstr "Monitori vahetamine"
+
+#: panels/wacom/cc-wacom-page.c:121
+msgctxt "Wacom action-type"
+msgid "Show On-Screen Help"
+msgstr "Abi kuvamine ekraanil"
+
+#: panels/wacom/cc-wacom-page.c:622
+msgctxt "Wacom tablet button"
+msgid "Up"
+msgstr "Üles"
+
+#: panels/wacom/cc-wacom-page.c:622
+msgctxt "Wacom tablet button"
+msgid "Down"
+msgstr "Alla"
+
+#: panels/wacom/cc-wacom-page.c:663
+msgid "Switch Modes"
+msgstr "Režiimide vahetamine"
+
+#: panels/wacom/cc-wacom-page.c:753 panels/wacom/cc-wacom-stylus-page.c:394
+msgid "Button"
+msgstr "Nupp"
+
+#: panels/wacom/cc-wacom-page.c:790
+msgid "Type"
+msgstr "Tüüp"
+
+#: panels/wacom/cc-wacom-page.c:811
+msgid "Action"
+msgstr "Toiming"
+
+#: panels/wacom/cc-wacom-page.c:921
+msgid "Display Mapping"
+msgstr "Kuvade ühendamine"
+
+#. If no mode is available, we use "left-ring-mode-1" for backward compat
+#: panels/wacom/csd-wacom-device.c:1115
+msgid "Left Ring"
+msgstr "Vasak ratas"
+
+#: panels/wacom/csd-wacom-device.c:1125
+#, c-format
+msgid "Left Ring Mode #%d"
+msgstr "Vasaku ratta režiim %d"
+
+#. If no mode is available, we use "right-ring-mode-1" for backward compat
+#: panels/wacom/csd-wacom-device.c:1144
+msgid "Right Ring"
+msgstr "Parem ratas"
+
+#: panels/wacom/csd-wacom-device.c:1154
+#, c-format
+msgid "Right Ring Mode #%d"
+msgstr "Parema ratta režiim %d"
+
+#. If no mode is available, we use "left-strip-mode-1" for backward compat
+#: panels/wacom/csd-wacom-device.c:1195
+msgid "Left Touchstrip"
+msgstr "Vasak puuteriba"
+
+#: panels/wacom/csd-wacom-device.c:1205
+#, c-format
+msgid "Left Touchstrip Mode #%d"
+msgstr "Vasak puuteriba režiim %d"
+
+#. If no mode is available, we use "right-strip-mode-1" for backward compat
+#: panels/wacom/csd-wacom-device.c:1224
+msgid "Right Touchstrip"
+msgstr "Parem puuteriba"
+
+#: panels/wacom/csd-wacom-device.c:1234
+#, c-format
+msgid "Right Touchstrip Mode #%d"
+msgstr "Parem puuteriba režiim %d"
+
+#: panels/wacom/csd-wacom-device.c:1259
+msgid "Left Touchring Mode Switch"
+msgstr "Vasaku puuteringi režiimi lüliti"
+
+#: panels/wacom/csd-wacom-device.c:1261
+msgid "Right Touchring Mode Switch"
+msgstr "Parema puuteringi režiimi lüliti"
+
+#: panels/wacom/csd-wacom-device.c:1264
+msgid "Left Touchstrip Mode Switch"
+msgstr "Vasaku puuteriba režiimi lüliti"
+
+#: panels/wacom/csd-wacom-device.c:1266
+msgid "Right Touchstrip Mode Switch"
+msgstr "Parema puuteriba režiimi lüliti"
+
+#: panels/wacom/csd-wacom-device.c:1271
+#, c-format
+msgid "Mode Switch #%d"
+msgstr "Režiimi lüliti %d"
+
+#: panels/wacom/csd-wacom-device.c:1375
+#, c-format
+msgid "Left Button #%d"
+msgstr "Vasak nupp %d"
+
+#: panels/wacom/csd-wacom-device.c:1378
+#, c-format
+msgid "Right Button #%d"
+msgstr "Parem nupp %d"
+
+#: panels/wacom/csd-wacom-device.c:1381
+#, c-format
+msgid "Top Button #%d"
+msgstr "Ülemine nupp %d"
+
+#: panels/wacom/csd-wacom-device.c:1384
+#, c-format
+msgid "Bottom Button #%d"
+msgstr "Alumine nupp %d"
+
+#: shell/cc-shell-nav-bar.c:117
+msgid "_All Settings"
+msgstr "_Kõik sätted"
+
+#: shell/control-center.c:58
+msgid "Enable verbose mode"
+msgstr "Jutuka režiimi lubamine"
+
+#: shell/control-center.c:59
+msgid "Show the overview"
+msgstr "Ülevaate näitamine"
+
+#: shell/control-center.c:60 shell/control-center.c:61
+#: shell/control-center.c:62
+msgid "Show help options"
+msgstr "Abiteabe võtmete näitamine"
+
+#: shell/control-center.c:63
+msgid "Panel to display"
+msgstr "Kuvatav paneel"
+
+#: shell/control-center.c:85
+msgid "- System Settings"
+msgstr "- Süsteemi sätted"
+
+#: shell/control-center.c:93
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s\n"
+"Kõigi saadaolevate käsureavõtmete vaatamiseks käivita '%s --help'.\n"
+
+#: shell/control-center.c:222
+msgid "Help"
+msgstr "Abi"
+
+#: shell/control-center.c:223
+msgid "Quit"
+msgstr "Lõpeta"
+
+#. translators: This is the default hotspot name, need to be less than 32-bytes
+#: shell/hostname-helper.c:189
+msgctxt "hotspot"
+msgid "Hotspot"
+msgstr "Interneti jagamine"
+
+#: panels/color/color.ui.h:3 generate_additional_files.py:25
+msgid "Color"
+msgstr "Värv"
+
+#: panels/color/color.ui.h:4
+msgid "Each device needs an up to date color profile to be color managed."
+msgstr "Värvihalduse kasutamiseks vajab iga seade värsket värviprofiili."
+
+#: panels/color/color.ui.h:5
+msgid "Add device"
+msgstr "Lisa seade"
+
+#: panels/color/color.ui.h:6
+msgid "Add a virtual device"
+msgstr "Virtuaalse seadme lisamine"
+
+#: panels/color/color.ui.h:7
+msgid "Delete device"
+msgstr "Kustuta seade"
+
+#: panels/color/color.ui.h:8
+msgid "Remove a device"
+msgstr "Eemalda seade"
+
+#: panels/color/color.ui.h:10
+msgid "Set this profile for all users on this computer"
+msgstr "Määrata see profiil kõigile selle arvuti kasutajatele"
+
+#: panels/color/color.ui.h:11
+msgid "Add profile"
+msgstr "Lisa profiil"
+
+#: panels/color/color.ui.h:12 panels/wacom/cinnamon-wacom-properties.ui.h:10
+msgid "Calibrate…"
+msgstr "Kalibreerimine..."
+
+#: panels/color/color.ui.h:13
+msgid "Calibrate the device"
+msgstr "Seadme kalibreerimine"
+
+#: panels/color/color.ui.h:14
+msgid "Remove profile"
+msgstr "Eemalda profiil"
+
+#: panels/color/color.ui.h:15
+msgid "View details"
+msgstr "Vaata üksikasju"
+
+#: panels/color/color.ui.h:16
+msgid "Device type:"
+msgstr "Seadme tüüp:"
+
+#: panels/color/color.ui.h:17
+msgid "Manufacturer:"
+msgstr "Tootja:"
+
+#: panels/color/color.ui.h:18
+msgid "Model:"
+msgstr "Mudel:"
+
+#: panels/color/color.ui.h:19
+msgid ""
+"Image files can be dragged on this window to auto-complete the above fields."
+msgstr "Ülalolevate väljade täitmiseks saab siia aknasse pilte lohistada."
+
+#: panels/common/language-chooser.ui.h:1
+msgid "Select a language"
+msgstr "Vali keel"
+
+#: panels/common/language-chooser.ui.h:3
+msgid "_Select"
+msgstr "_Vali"
+
+#: panels/datetime/datetime.ui.h:1
+msgid "_Region:"
+msgstr "_Regioon:"
+
+#: panels/datetime/datetime.ui.h:2
+msgid "_City:"
+msgstr "_Linn:"
+
+#: panels/datetime/datetime.ui.h:3
+msgid "_Network Time"
+msgstr "_Võrguaeg"
+
+#. Translator: this is the separator between hours and minutes, like in HH:MM
+#: panels/datetime/datetime.ui.h:5
+msgid ":"
+msgstr ":"
+
+#: panels/datetime/datetime.ui.h:6
+msgid "Set the time one hour ahead."
+msgstr "Keera kell üks tund ette."
+
+#: panels/datetime/datetime.ui.h:7
+msgid "Set the time one hour back."
+msgstr "Keera kell üks tund taha."
+
+#: panels/datetime/datetime.ui.h:8
+msgid "Set the time one minute ahead."
+msgstr "Keera kell üks minut ette."
+
+#: panels/datetime/datetime.ui.h:9
+msgid "Set the time one minute back."
+msgstr "Keera kell üks minut taha."
+
+#: panels/datetime/datetime.ui.h:10
+msgid "Month"
+msgstr "Kuu"
+
+#: panels/datetime/datetime.ui.h:11
+msgid "Day"
+msgstr "Päev"
+
+#: panels/datetime/datetime.ui.h:12
+msgid "Year"
+msgstr "Aasta"
+
+#: panels/datetime/datetime.ui.h:13
+msgid "January"
+msgstr "Jaanuar"
+
+#: panels/datetime/datetime.ui.h:14
+msgid "February"
+msgstr "Veebruar"
+
+#: panels/datetime/datetime.ui.h:15
+msgid "March"
+msgstr "Märts"
+
+#: panels/datetime/datetime.ui.h:16
+msgid "April"
+msgstr "Aprill"
+
+#: panels/datetime/datetime.ui.h:17
+msgid "May"
+msgstr "Mai"
+
+#: panels/datetime/datetime.ui.h:18
+msgid "June"
+msgstr "Juuni"
+
+#: panels/datetime/datetime.ui.h:19
+msgid "July"
+msgstr "Juuli"
+
+#: panels/datetime/datetime.ui.h:20
+msgid "August"
+msgstr "August"
+
+#: panels/datetime/datetime.ui.h:21
+msgid "September"
+msgstr "September"
+
+#: panels/datetime/datetime.ui.h:22
+msgid "October"
+msgstr "Oktoober"
+
+#: panels/datetime/datetime.ui.h:23
+msgid "November"
+msgstr "November"
+
+#: panels/datetime/datetime.ui.h:24
+msgid "December"
+msgstr "Detsember"
+
+#: panels/display/display-capplet.ui.h:1
+msgid "Active"
+msgstr "Aktiivne"
+
+#: panels/display/display-capplet.ui.h:2
+msgid "Set as Primary"
+msgstr "Määra esmagrupiks"
+
+#: panels/display/display-capplet.ui.h:3
+msgid "Resolution"
+msgstr "Eraldusvõime"
+
+#: panels/display/display-capplet.ui.h:4
+msgid "Mirror displays"
+msgstr "Kuvaritel sama pilt"
+
+#: panels/display/display-capplet.ui.h:5
+msgid "Rotation"
+msgstr "Pööramine"
+
+#: panels/display/display-capplet.ui.h:6
+msgid "Refresh Rate"
+msgstr "Värskendussagedus"
+
+#: panels/display/display-capplet.ui.h:7
+msgid "User interface scale"
+msgstr "Kasutajaliidese suurendus"
+
+#: panels/display/display-capplet.ui.h:8
+msgid ""
+"This is the global scaling factor for all monitors. In automatic mode, it is "
+"chosen based on the primary monitor."
+msgstr ""
+"Kõigi monitoride globaalne suurendustegur. Automaatses režiimis valitakse "
+"see peamise monitori järgi."
+
+#: panels/display/display-capplet.ui.h:9
+msgid "This option may limit resolution options"
+msgstr "See valik võib piirata saadaolevaid eraldusvõime valikuid"
+
+#: panels/display/display-capplet.ui.h:10
+msgid ""
+"This feature is experimental and may not work well with all hardware and "
+"drivers. Enabling it may impact performance, vsync, resolution or screen "
+"ratio."
+msgstr ""
+"See võimalus on katseline ning ei pruugi igasuguse riistvara ja draiveritega "
+"hästi töötada. Selle sisse lülitamine võib mõjutada jõudlust, vsynci "
+"toimimist, eraldusvõimet või ekraani külgede suhet."
+
+#: panels/display/display-capplet.ui.h:11
+msgid "Fractional scaling"
+msgstr "Murdarvuline skaleerimine"
+
+#: panels/display/display-capplet.ui.h:12
+msgid "_Detect Displays"
+msgstr "_Tuvasta kuvad"
+
+#: panels/display/display-capplet.ui.h:13
+#: panels/region/cinnamon-region-panel.ui.h:18
+msgid "Reset to De_faults"
+msgstr "Taasta _vaikeväärtused"
+
+#: panels/network/network-ethernet.ui.h:2
+msgid "_Add Profile…"
+msgstr "_Lisa profiil…"
+
+#: panels/network/network-mobile.ui.h:1
+msgid "IMEI"
+msgstr "IMEI"
+
+#: panels/network/network-mobile.ui.h:2
+msgid "Provider"
+msgstr "Teenusepakkuja"
+
+#: panels/network/network-mobile.ui.h:8 generate_additional_files.py:71
+msgid "Network"
+msgstr "Võrk"
+
+#: panels/network/network-proxy.ui.h:1
+msgctxt "proxy method"
+msgid "None"
+msgstr "Puudub"
+
+#: panels/network/network-proxy.ui.h:2
+msgctxt "proxy method"
+msgid "Manual"
+msgstr "Manuaalne"
+
+#: panels/network/network-proxy.ui.h:3
+msgctxt "proxy method"
+msgid "Automatic"
+msgstr "Automaatne"
+
+#: panels/network/network-proxy.ui.h:4
+msgid "_Method"
+msgstr "_Meetod"
+
+#: panels/network/network-proxy.ui.h:5
+msgid "_Configuration URL"
+msgstr "_Seadistuste URL"
+
+#: panels/network/network-proxy.ui.h:6
+msgid "_HTTP Proxy"
+msgstr "_HTTP proksi"
+
+#: panels/network/network-proxy.ui.h:7
+msgid "H_TTPS Proxy"
+msgstr "H_TTPS proksi"
+
+#: panels/network/network-proxy.ui.h:8
+msgid "_FTP Proxy"
+msgstr "_FTP proksi"
+
+#: panels/network/network-proxy.ui.h:9
+msgid "_Socks Host"
+msgstr "_Socks host"
+
+#: panels/network/network-proxy.ui.h:10
+msgid "_Ignore Hosts"
+msgstr "_Hostide ignoreerimine"
+
+#: panels/network/network-proxy.ui.h:11
+msgid "HTTP proxy port"
+msgstr "HTTP proksi port"
+
+#: panels/network/network-proxy.ui.h:12
+msgid "HTTPS proxy port"
+msgstr "HTTPS proksi port"
+
+#: panels/network/network-proxy.ui.h:13
+msgid "FTP proxy port"
+msgstr "FTP proksi port"
+
+#: panels/network/network-proxy.ui.h:14
+msgid "Socks proxy port"
+msgstr "Socks proksi port"
+
+#: panels/network/network-simple.ui.h:8
+msgid "Turn device off"
+msgstr "Lülita seade välja"
+
+#: panels/network/network.ui.h:1
+msgid "Add Device"
+msgstr "Lisa seade"
+
+#: panels/network/network.ui.h:2
+msgid "Remove Device"
+msgstr "Seadme eemaldamine"
+
+#: panels/network/network-vpn.ui.h:1
+msgid "VPN Type"
+msgstr "VPNi tüüp"
+
+#: panels/network/network-vpn.ui.h:2
+msgid "Gateway"
+msgstr "Lüüs"
+
+#: panels/network/network-vpn.ui.h:3
+msgid "Group Name"
+msgstr "Grupi nimi"
+
+#: panels/network/network-vpn.ui.h:4
+msgid "Group Password"
+msgstr "Grupi parool"
+
+#: panels/network/network-vpn.ui.h:5
+msgid "Username"
+msgstr "Kasutajanimi"
+
+#: panels/network/network-vpn.ui.h:6
+msgid "Turn VPN connection off"
+msgstr "Lülita VPN ühendus välja"
+
+#: panels/network/network-wifi.ui.h:2
+#: panels/network/connection-editor/connection-editor.ui.h:2
+msgid "_Apply"
+msgstr "_Rakenda"
+
+#: panels/network/network-wifi.ui.h:3
+msgid "Automatic _Connect"
+msgstr "_Automaatne ühendumine"
+
+#: panels/network/network-wifi.ui.h:4
+#: panels/network/connection-editor/details-page.ui.h:1
+msgid "Signal Strength"
+msgstr "Signaali tugevus"
+
+#: panels/network/network-wifi.ui.h:5
+#: panels/network/connection-editor/details-page.ui.h:2
+msgid "Link speed"
+msgstr "Ühenduse kiirus"
+
+#: panels/network/network-wifi.ui.h:6
+#: panels/network/connection-editor/details-page.ui.h:3
+msgid "Security"
+msgstr "Turvalisus"
+
+#: panels/network/network-wifi.ui.h:14
+msgid "details"
+msgstr "detailid"
+
+#: panels/network/network-wifi.ui.h:15
+#: panels/network/connection-editor/wifi-page.ui.h:1
+msgid "_SSID"
+msgstr "_SSID"
+
+#: panels/network/network-wifi.ui.h:16
+#: panels/network/connection-editor/wifi-page.ui.h:2
+msgid "_BSSID"
+msgstr "_BSSID"
+
+#: panels/network/network-wifi.ui.h:17
+#: panels/network/connection-editor/security-page.ui.h:1
+msgid "S_ecurity"
+msgstr "_Turvalisus"
+
+#: panels/network/network-wifi.ui.h:18
+#: panels/network/wireless-security/eap-method-leap.ui.h:2
+#: panels/network/wireless-security/eap-method-simple.ui.h:2
+#: panels/network/wireless-security/ws-leap.ui.h:2
+#: panels/network/wireless-security/ws-wpa-psk.ui.h:1
+msgid "_Password"
+msgstr "_Parool"
+
+#: panels/network/network-wifi.ui.h:19
+#: panels/network/connection-editor/wifi-page.ui.h:3
+msgid "My Home Network"
+msgstr "Minu koduvõrk"
+
+#: panels/network/network-wifi.ui.h:21
+msgid "None"
+msgstr "Puudub"
+
+#: panels/network/network-wifi.ui.h:22
+msgid "Show P_assword"
+msgstr "_Parooli näitamine"
+
+#: panels/network/network-wifi.ui.h:23
+msgid "Make available to other users"
+msgstr "Saadaval teistele kasutajatele"
+
+#: panels/network/network-wifi.ui.h:24
+msgid "identity"
+msgstr "identiteet"
+
+#: panels/network/network-wifi.ui.h:25
+#: panels/network/connection-editor/ip4-page.ui.h:1
+msgid "IPv_4"
+msgstr "IPv_4"
+
+#: panels/network/network-wifi.ui.h:26
+#: panels/network/connection-editor/ip4-page.ui.h:2
+#: panels/network/connection-editor/ip6-page.ui.h:2
+msgid "_Addresses"
+msgstr "_Aadressid"
+
+#: panels/network/network-wifi.ui.h:27
+msgid "Manual"
+msgstr "Manuaalne"
+
+#: panels/network/network-wifi.ui.h:28
+msgid "Automatic (DHCP)"
+msgstr "Automaatne (DHCP)"
+
+#: panels/network/network-wifi.ui.h:29
+msgid "Automatic (DHCP) addresses only"
+msgstr "Ainult automaatsed (DHCP) aadressid"
+
+#: panels/network/network-wifi.ui.h:30
+msgid "Link-local only"
+msgstr "Ainult kohalik võrk (link-local)"
+
+#: panels/network/network-wifi.ui.h:31
+msgid "Shared with other computers"
+msgstr "Jagatud teiste arvutitega"
+
+#: panels/network/network-wifi.ui.h:32
+msgid "Disabled"
+msgstr "Välja lülitatud"
+
+#: panels/network/network-wifi.ui.h:33
+#: panels/network/connection-editor/ip4-page.ui.h:6
+#: panels/network/connection-editor/ip6-page.ui.h:6
+msgid "Routes"
+msgstr "Marsruudid"
+
+#: panels/network/network-wifi.ui.h:34
+msgid "_Ignore automatically obtained routes"
+msgstr "_Automaatselt hangitud marsruutide eiramine"
+
+#: panels/network/network-wifi.ui.h:35
+#: panels/network/connection-editor/ip4-page.ui.h:8
+#: panels/network/connection-editor/ip6-page.ui.h:8
+msgid "Use this connection _only for resources on its network"
+msgstr "Seda ühendust kasutatakse _ainult võrgu ressursside jaoks"
+
+#: panels/network/network-wifi.ui.h:36
+msgid "ipv4"
+msgstr "ipv4"
+
+#: panels/network/network-wifi.ui.h:37
+#: panels/network/connection-editor/ip6-page.ui.h:1
+msgid "IPv_6"
+msgstr "IPv_6"
+
+#: panels/network/network-wifi.ui.h:38
+msgid "ipv6"
+msgstr "ipv6"
+
+#: panels/network/network-wifi.ui.h:39
+#: panels/network/connection-editor/ethernet-page.ui.h:11
+#: panels/network/connection-editor/wifi-page.ui.h:4
+msgid "_MAC Address"
+msgstr "_MAC-aadress"
+
+#: panels/network/network-wifi.ui.h:40
+msgid "_Cloned MAC Address"
+msgstr "_Kloonitud MAC aadress"
+
+#: panels/network/network-wifi.ui.h:41
+msgid "hardware"
+msgstr "riistvara"
+
+#: panels/network/network-wifi.ui.h:42
+#: panels/network/connection-editor/reset-page.ui.h:1
+msgid "_Reset"
+msgstr "_Lähtesta"
+
+#: panels/network/network-wifi.ui.h:44
+msgid ""
+"Reset the settings for this connection to their defaults, but remember as a "
+"preferred connection."
+msgstr ""
+"Lähtestakse selle võrgu sätted, sealhulgas paroolid, aga see jäetakse "
+"eelistatud võrguks."
+
+#: panels/network/network-wifi.ui.h:45
+msgid ""
+"Remove all details relating to this network and do not try to automatically "
+"connect to it."
+msgstr ""
+"Eemaldatakse kõik selle võrgu üksiksasjad ning sellesse võrku ei püüta "
+"hiljem ühenduda."
+
+#: panels/network/network-wifi.ui.h:46
+msgid "reset"
+msgstr "lähtesta"
+
+#: panels/network/network-wifi.ui.h:47
+msgid "Details"
+msgstr "Detailid"
+
+#: panels/network/network-wifi.ui.h:48
+msgid "Identity"
+msgstr "Identiteet"
+
+#: panels/network/network-wifi.ui.h:49
+msgid "IPv4"
+msgstr "IPv4"
+
+#: panels/network/network-wifi.ui.h:50
+msgid "IPv6"
+msgstr "IPv6"
+
+#: panels/network/network-wifi.ui.h:51
+msgid "Hardware"
+msgstr "Riistvara"
+
+#: panels/network/network-wifi.ui.h:52
+msgctxt "tab"
+msgid "Reset"
+msgstr "Lähtestus"
+
+#: panels/network/network-wifi.ui.h:53
+msgid "Wi-Fi Hotspot"
+msgstr "Wi-Fi tugijaam (hotspot)"
+
+#: panels/network/network-wifi.ui.h:54
+msgid "_Turn On"
+msgstr "_Lülita sisse"
+
+#: panels/network/network-wifi.ui.h:55
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+#: panels/network/network-wifi.ui.h:56
+msgid "Turn Wi-Fi off"
+msgstr "Lülita Wi-Fi välja"
+
+#: panels/network/network-wifi.ui.h:57
+msgid "_Use as Hotspot…"
+msgstr "_Jaga internetti..."
+
+#: panels/network/network-wifi.ui.h:58
+msgid "_Connect to Hidden Network…"
+msgstr "_Ühendu varjatud võrguga..."
+
+#: panels/network/network-wifi.ui.h:59
+msgid "_History"
+msgstr "_Ajalugu"
+
+#: panels/network/network-wifi.ui.h:60
+msgid "Switch off to connect to a Wi-Fi network"
+msgstr "Wi-Fi võrguga ühendumiseks lülita välja"
+
+#: panels/network/network-wifi.ui.h:61
+msgid "Network Name"
+msgstr "Võrgu nimi"
+
+#: panels/network/network-wifi.ui.h:62
+msgid "Connected Devices"
+msgstr "Ühendatud seadmed"
+
+#: panels/network/network-wifi.ui.h:63
+msgid "Security type"
+msgstr "Turvaliik"
+
+#: panels/network/network-wifi.ui.h:64
+msgid "Password"
+msgstr "Parool"
+
+#: panels/online-accounts/online-accounts.ui.h:1
+msgid "Undo"
+msgstr "Võta tagasi"
+
+#: panels/online-accounts/online-accounts.ui.h:2
+msgid "No internet connection — connect to set up new online accounts"
+msgstr ""
+"Interneti ühendus puudub — ühendage uue internet kasutaja seadistamiseks"
+
+#: panels/online-accounts/online-accounts.ui.h:3
+msgid "Add an account"
+msgstr "Lisa kasutaja"
+
+#: panels/online-accounts/online-accounts.ui.h:4
+msgid "Remove Account"
+msgstr "Eemalda konto"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:1
+msgid "Choose a Layout"
+msgstr "Paigutuse valimine"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:2
+msgid "Preview"
+msgstr "Eelvaade"
+
+#: panels/region/cinnamon-region-panel-layout-chooser.ui.h:3
+msgid "Select an input source to add"
+msgstr "Vali sisendseade, mida lisada"
+
+#: panels/region/cinnamon-region-panel-options-dialog.ui.h:1
+msgid "Keyboard Layout Options"
+msgstr "Klahvistiku paigutuse valikud"
+
+#: panels/region/cinnamon-region-panel.ui.h:1
+msgid "Region and Language"
+msgstr "Piirkond ja keel"
+
+#: panels/region/cinnamon-region-panel.ui.h:2
+msgid "Add Layout"
+msgstr "Lisa paigutus"
+
+#: panels/region/cinnamon-region-panel.ui.h:3
+msgid "Remove Layout"
+msgstr "Eemalda paigutus"
+
+#: panels/region/cinnamon-region-panel.ui.h:4
+msgid "Move Up"
+msgstr "Liiguta üles"
+
+#: panels/region/cinnamon-region-panel.ui.h:5
+msgid "Move Down"
+msgstr "Liiguta alla"
+
+#: panels/region/cinnamon-region-panel.ui.h:6
+msgid "Preview Layout"
+msgstr "Paigutuse eelvaade"
+
+#: panels/region/cinnamon-region-panel.ui.h:7
+msgid "Include less-common layouts in the selection list"
+msgstr "Vähemlevinud paigutused on loetelus"
+
+#: panels/region/cinnamon-region-panel.ui.h:8
+msgid "Use the same layout for all windows"
+msgstr "Sama paigutuse kasutamine kõigil akendel"
+
+#: panels/region/cinnamon-region-panel.ui.h:9
+msgid "Allow different layouts for individual windows"
+msgstr "Iga akna jaoks oma paigutuse lubamine"
+
+#: panels/region/cinnamon-region-panel.ui.h:10
+msgid "New windows use the default layout"
+msgstr "Uued aknad kasutavad vaikimisi kujundust"
+
+#: panels/region/cinnamon-region-panel.ui.h:11
+msgid "New windows use the previous window's layout"
+msgstr "Uued aknad kasutavad eelmise akna kujundust"
+
+#: panels/region/cinnamon-region-panel.ui.h:12
+msgid "Display options"
+msgstr "Ekraani seaded"
+
+#: panels/region/cinnamon-region-panel.ui.h:13
+msgid "Use a country flag, if available,  to represent keyboard layouts"
+msgstr "Kasuta riigi lippu, kui võimalik, klaviatuuripaigutuste näitamiseks"
+
+#: panels/region/cinnamon-region-panel.ui.h:14
+msgid ""
+"Show the layout name instead of the group name when using text to represent "
+"a layout"
+msgstr "Klaviatuuripaigutuse nimena kasutatakse paigutuse, mitte grupi nime"
+
+#: panels/region/cinnamon-region-panel.ui.h:15
+msgid "Prefer upper-case when using text to represent a layout"
+msgstr "Klaviatuuripaigutuse näitamisel eelistatakse suurtähti"
+
+#: panels/region/cinnamon-region-panel.ui.h:16
+msgid "_Options..."
+msgstr "_Valikud..."
+
+#: panels/region/cinnamon-region-panel.ui.h:17
+msgid "View and edit keyboard layout options"
+msgstr "Klahvistiku paigutuse valikute kuvamine ja muutmine"
+
+#: panels/region/cinnamon-region-panel.ui.h:19
+msgid ""
+"Replace the current keyboard layout settings with the\n"
+"default settings"
+msgstr ""
+"Asenda praegused klaviatuurisätted\n"
+"vaikesätetega"
+
+#: panels/wacom/button-mapping.ui.h:1
+msgid "Map Buttons"
+msgstr "Nuppude ühendamine"
+
+#: panels/wacom/button-mapping.ui.h:2
+msgid "Map buttons to functions"
+msgstr "Nuppude ühendamine tegevustega"
+
+#: panels/wacom/button-mapping.ui.h:3
+msgid ""
+"To edit a shortcut, click the row and hold down the new keys or press "
+"Backspace to clear."
+msgstr ""
+"Kiirklahvi muutmiseks klõpsa vastaval real ja sisesta uus kiirklahv. "
+"Nullimiseks vajuta Backspace klahvi."
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:1
+msgid "Tablet (absolute)"
+msgstr "Tahvel (absoluutne)"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:2
+msgid "Touchpad (relative)"
+msgstr "Puutepadi (suhteline)"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:3
+msgid "Tablet Preferences"
+msgstr "Tahvelarvui eelistused"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:4
+msgid "No tablet detected"
+msgstr "Tahvlit ei leitud"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:5
+msgid "Please plug in or turn on your graphics tablet"
+msgstr "Palun ühenda digitaallaud või lülita see sisse"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:6
+msgid "Bluetooth Settings"
+msgstr "Bluetoothi seaded"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:7
+#: generate_additional_files.py:86
+msgid "Graphics Tablet"
+msgstr "Tahvli graafika"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:8
+msgid "Map to Monitor…"
+msgstr "Monitoriga ühendamine…"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:9
+msgid "Map Buttons…"
+msgstr "Nuppude ühendamine…"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:11
+msgid "Adjust display resolution"
+msgstr "Kuvari eraldusvõime muutmine"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:12
+msgid "Tracking Mode"
+msgstr "Jälitamise režiim"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:13
+msgid "Left-Handed Orientation"
+msgstr "Vasaku- või paremakäeliste hiir"
+
+#: panels/wacom/wacom-stylus-page.ui.h:1
+msgid "No Action"
+msgstr "Tegevus puudub"
+
+#: panels/wacom/wacom-stylus-page.ui.h:2
+msgid "Left Mouse Button Click"
+msgstr "Vasaku hiirenupu klõps"
+
+#: panels/wacom/wacom-stylus-page.ui.h:3
+msgid "Middle Mouse Button Click"
+msgstr "Keskmise hiirenupu klõps"
+
+#: panels/wacom/wacom-stylus-page.ui.h:4
+msgid "Right Mouse Button Click"
+msgstr "Parema hiirenupu klõps"
+
+#: panels/wacom/wacom-stylus-page.ui.h:5
+msgid "Scroll Up"
+msgstr "Keri üles"
+
+#: panels/wacom/wacom-stylus-page.ui.h:6
+msgid "Scroll Down"
+msgstr "Keri alla"
+
+#: panels/wacom/wacom-stylus-page.ui.h:7
+msgid "Scroll Left"
+msgstr "Keri vasakule"
+
+#: panels/wacom/wacom-stylus-page.ui.h:8
+msgid "Scroll Right"
+msgstr "Keri paremale"
+
+#: panels/wacom/wacom-stylus-page.ui.h:9
+msgid "Back"
+msgstr "Tagasi"
+
+#: panels/wacom/wacom-stylus-page.ui.h:10
+msgid "Forward"
+msgstr "Edasi"
+
+#: panels/wacom/wacom-stylus-page.ui.h:11
+msgid "Stylus"
+msgstr "Kirjapulk"
+
+#: panels/wacom/wacom-stylus-page.ui.h:12
+msgid "Eraser Pressure Feel"
+msgstr "Kustutaja survetundlikkus"
+
+#: panels/wacom/wacom-stylus-page.ui.h:13
+msgid "Soft"
+msgstr "Nõrk"
+
+#: panels/wacom/wacom-stylus-page.ui.h:14
+msgid "Firm"
+msgstr "Tugev"
+
+#: panels/wacom/wacom-stylus-page.ui.h:15
+msgid "Top Button"
+msgstr "Ülemine nupp"
+
+#: panels/wacom/wacom-stylus-page.ui.h:16
+msgid "Lower Button"
+msgstr "Alumine nupp"
+
+#: panels/wacom/wacom-stylus-page.ui.h:17
+msgid "Tip Pressure Feel"
+msgstr "Otsa survetundlikkus"
+
+#: panels/wacom/wacom-stylus-page.ui.h:18
+msgid "Lowest Button"
+msgstr "Madalaim nupp"
+
+#: panels/network/connection-editor/8021x-security-page.ui.h:1
+msgid "802.1x _Security"
+msgstr "802.1x _turvalisus"
+
+#: panels/network/connection-editor/8021x-security-page.ui.h:2
+#: panels/network/connection-editor/security-page.ui.h:3
+msgid "page 1"
+msgstr "leht 1"
+
+#: panels/network/connection-editor/8021x-security-page.ui.h:3
+#: panels/network/connection-editor/security-page.ui.h:4
+#: panels/network/wireless-security/eap-method-fast.ui.h:5
+#: panels/network/wireless-security/eap-method-peap.ui.h:5
+#: panels/network/wireless-security/eap-method-ttls.ui.h:2
+msgid "Anony_mous identity"
+msgstr "_Anonüümne identiteet"
+
+#: panels/network/connection-editor/8021x-security-page.ui.h:4
+#: panels/network/connection-editor/security-page.ui.h:5
+msgid "Inner _authentication"
+msgstr "Sisemine _autentimine"
+
+#: panels/network/connection-editor/8021x-security-page.ui.h:5
+#: panels/network/connection-editor/security-page.ui.h:6
+msgid "page 2"
+msgstr "leht 2"
+
+#: panels/network/connection-editor/details-page.ui.h:10
+msgid "Last Used"
+msgstr "Viimati kasutatud"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:1
+#: panels/network/connection-editor/ip4-page.ui.h:4
+#: panels/network/connection-editor/ip6-page.ui.h:4
+#: panels/network/wireless-security/eap-method-peap.ui.h:2
+msgid "Automatic"
+msgstr "Automaatne"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:2
+msgid "Twisted Pair (TP)"
+msgstr "Pööratud paar (TP)"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:3
+msgid "Attachment Unit Interface (AUI)"
+msgstr "Manuse üksuse liides (AUI)"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:4
+msgid "BNC"
+msgstr "BNC"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:5
+msgid "Media Independent Interface (MII)"
+msgstr "Meediumist sõltumatu liides (MII)"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:6
+msgid "10 Mb/s"
+msgstr "10 Mb/s"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:7
+msgid "100 Mb/s"
+msgstr "100 Mb/s"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:8
+msgid "1 Gb/s"
+msgstr "1 Gb/s"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:9
+msgid "10 Gb/s"
+msgstr "10 Gb/s"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:10
+#: panels/network/connection-editor/vpn-page.ui.h:1
+msgid "_Name"
+msgstr "_Nimi"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:12
+msgid "M_TU"
+msgstr "M_TU"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:13
+#: panels/network/connection-editor/wifi-page.ui.h:5
+msgid "_Cloned Address"
+msgstr "_Kloonitud aadress"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:14
+msgid "bytes"
+msgstr "baiti"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:15
+#: panels/network/connection-editor/vpn-page.ui.h:3
+msgid "Make available to other _users"
+msgstr "Saadaval teistele _kasutajatele"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:16
+#: panels/network/connection-editor/wifi-page.ui.h:7
+msgid "Connect _automatically"
+msgstr "Ühenda _automaatselt"
+
+#: panels/network/connection-editor/ethernet-page.ui.h:17
+#: panels/network/connection-editor/security-page.ui.h:2
+#: panels/network/connection-editor/vpn-page.ui.h:2
+msgid "Firewall _Zone"
+msgstr "Tulemüüri _tsoon"
+
+#: panels/network/connection-editor/ip4-page.ui.h:5
+#: panels/network/connection-editor/ip6-page.ui.h:5
+msgid "Automatic DNS"
+msgstr "Automaatne DNS"
+
+#: panels/network/connection-editor/ip4-page.ui.h:7
+#: panels/network/connection-editor/ip6-page.ui.h:7
+msgid "Automatic Routes"
+msgstr "Automaatsed marsruudid"
+
+#: panels/network/connection-editor/reset-page.ui.h:3
+msgid ""
+"Reset the settings for this network, including passwords, but remember it as "
+"a preferred network"
+msgstr ""
+"Lähtestakse selle võrgu sätted, sealhulgas paroolid, aga see jäetakse "
+"eelistatud võrguks"
+
+#: panels/network/connection-editor/reset-page.ui.h:4
+msgid ""
+"Remove all details relating to this network and do not try to automatically "
+"connect"
+msgstr ""
+"Eemaldatakse kõik selle võrgu üksiksasjad ning sellesse võrku ei püüta "
+"hiljem ühenduda"
+
+#: panels/network/connection-editor/vpn-page.ui.h:4
+msgid "(Error: unable to load VPN connection editor)"
+msgstr "(viga: VPN ühenduse redaktorit ei leitud)"
+
+#: panels/network/connection-editor/wifi-page.ui.h:6
+msgid "Make available to _other users"
+msgstr "Saadaval _teistele kasutajatele"
+
+#: panels/network/wireless-security/eap-method-fast.ui.h:1
+#: panels/network/wireless-security/eap-method-peap.ui.h:1
+#: panels/network/wireless-security/eap-method-ttls.ui.h:1
+#: panels/network/wireless-security/ws-dynamic-wep.ui.h:1
+#: panels/network/wireless-security/ws-wpa-eap.ui.h:1
+msgid " "
+msgstr " "
+
+#: panels/network/wireless-security/eap-method-fast.ui.h:2
+msgid "Anonymous"
+msgstr "Anonüümne"
+
+#: panels/network/wireless-security/eap-method-fast.ui.h:3
+msgid "Authenticated"
+msgstr "Autenditud"
+
+#: panels/network/wireless-security/eap-method-fast.ui.h:4
+msgid "Both"
+msgstr "Mõlemad"
+
+#: panels/network/wireless-security/eap-method-fast.ui.h:6
+msgid "PAC _file"
+msgstr "PAC _fail"
+
+#: panels/network/wireless-security/eap-method-fast.ui.h:7
+#: panels/network/wireless-security/eap-method-peap.ui.h:8
+#: panels/network/wireless-security/eap-method-ttls.ui.h:5
+msgid "_Inner authentication"
+msgstr "_Sisemine autentimine"
+
+#: panels/network/wireless-security/eap-method-fast.ui.h:8
+msgid "Allow automatic PAC pro_visioning"
+msgstr "Automaatsed _PAC-klauslid on lubatud"
+
+#: panels/network/wireless-security/eap-method-leap.ui.h:1
+#: panels/network/wireless-security/eap-method-simple.ui.h:1
+#: panels/network/wireless-security/ws-leap.ui.h:1
+msgid "_Username"
+msgstr "_Kasutajanimi"
+
+#: panels/network/wireless-security/eap-method-leap.ui.h:3
+#: panels/network/wireless-security/eap-method-simple.ui.h:3
+#: panels/network/wireless-security/eap-method-tls.ui.h:7
+#: panels/network/wireless-security/ws-leap.ui.h:3
+#: panels/network/wireless-security/ws-wpa-psk.ui.h:3
+msgid "Sho_w password"
+msgstr "_Näita parooli"
+
+#: panels/network/wireless-security/eap-method-peap.ui.h:3
+msgid "Version 0"
+msgstr "Versioon 0"
+
+#: panels/network/wireless-security/eap-method-peap.ui.h:4
+msgid "Version 1"
+msgstr "Versioon 1"
+
+#: panels/network/wireless-security/eap-method-peap.ui.h:6
+#: panels/network/wireless-security/eap-method-tls.ui.h:3
+#: panels/network/wireless-security/eap-method-ttls.ui.h:3
+msgid "C_A certificate"
+msgstr "_SK sert"
+
+#: panels/network/wireless-security/eap-method-peap.ui.h:7
+#: panels/network/wireless-security/eap-method-tls.ui.h:4
+#: panels/network/wireless-security/eap-method-ttls.ui.h:4
+msgid "No CA certificate is _required"
+msgstr "CA sertifikaati pole _vaja"
+
+#: panels/network/wireless-security/eap-method-peap.ui.h:9
+msgid "PEAP _version"
+msgstr "PEAP _versioon"
+
+#: panels/network/wireless-security/eap-method-tls.ui.h:1
+msgid "I_dentity"
+msgstr "I_dentiteet"
+
+#: panels/network/wireless-security/eap-method-tls.ui.h:2
+msgid "_User certificate"
+msgstr "_Kasutaja sertifikaat"
+
+#: panels/network/wireless-security/eap-method-tls.ui.h:5
+msgid "Private _key"
+msgstr "_Privaatvõti"
+
+#: panels/network/wireless-security/eap-method-tls.ui.h:6
+msgid "_Private key password"
+msgstr "_Privaatvõtme parool"
+
+#: panels/network/wireless-security/ws-dynamic-wep.ui.h:2
+#: panels/network/wireless-security/ws-wep-key.ui.h:9
+#: panels/network/wireless-security/ws-wpa-eap.ui.h:2
+msgid "Au_thentication"
+msgstr "_Autentimine"
+
+#: panels/network/wireless-security/ws-wep-key.ui.h:1
+msgid "1 (Default)"
+msgstr "1 (vaikimisi)"
+
+#: panels/network/wireless-security/ws-wep-key.ui.h:2
+msgid "2"
+msgstr "2"
+
+#: panels/network/wireless-security/ws-wep-key.ui.h:3
+msgid "3"
+msgstr "3"
+
+#: panels/network/wireless-security/ws-wep-key.ui.h:4
+msgid "4"
+msgstr "4"
+
+#: panels/network/wireless-security/ws-wep-key.ui.h:5
+msgid "Open System"
+msgstr "Avatud süsteem"
+
+#: panels/network/wireless-security/ws-wep-key.ui.h:6
+msgid "Shared Key"
+msgstr "Jagatud võti"
+
+#: panels/network/wireless-security/ws-wep-key.ui.h:7
+msgid "_Key"
+msgstr "_Võti"
+
+#: panels/network/wireless-security/ws-wep-key.ui.h:8
+msgid "Sho_w key"
+msgstr "Näita _võtit"
+
+#: panels/network/wireless-security/ws-wep-key.ui.h:10
+msgid "WEP inde_x"
+msgstr "WEP _indeks"
+
+#: panels/network/wireless-security/ws-wpa-psk.ui.h:2
+msgid "_Type"
+msgstr "_Liik"
+
+#: generate_additional_files.py:25
+msgid "Color management settings"
+msgstr "Värvihalduse seaded"
+
+#: generate_additional_files.py:41
+msgid "Region & Language"
+msgstr "Piirkond ja keel"
+
+#: generate_additional_files.py:41
+msgid "Change your region and language settings"
+msgstr "Sinu asukoha- ja keelesätete muutmine"
+
+#: generate_additional_files.py:56
+msgid "Display"
+msgstr "Kuva"
+
+#: generate_additional_files.py:56
+msgid "Change resolution and position of monitors and projectors"
+msgstr "Kuvarite ja projektorite eraldusvõime ja asukoha muutmine"
+
+#: generate_additional_files.py:71
+msgid "Network settings"
+msgstr "Võrguseaded"
+
+#: generate_additional_files.py:86
+msgid ""
+"Set button mappings and adjust stylus sensitivity for graphics tablets"
+msgstr "Digitaallaudade nuppude vastavuse ja kirjapulga tundlikkuse muutmine"

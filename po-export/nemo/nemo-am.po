@@ -1,0 +1,6406 @@
+# Amharic translation for linuxmint
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2021-06-02 15:38+0100\n"
+"PO-Revision-Date: 2019-04-13 22:07+0000\n"
+"Last-Translator: samson <Unknown>\n"
+"Language-Team: Amharic <am@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Launchpad-Export-Date: 2021-06-25 10:36+0000\n"
+"X-Generator: Launchpad (build 40cc6dba4163ba9ca785b26ad91f43c87d70ba4d)\n"
+
+#. (itstool) path: mime-type/_comment
+#: data/nemo.xml.in:5
+msgid "Saved search"
+msgstr ""
+
+#. (itstool) path: mime-type/_comment
+#: data/nemo.xml.in:11
+msgid "Nemo action definition"
+msgstr ""
+
+#: src/nemo-action-config-widget.c:237
+msgid "No actions found"
+msgstr "ምንም ተግባሮች አልተገኙም"
+
+#: src/nemo-action-config-widget.c:447
+msgid "Actions"
+msgstr "ተግባሮች"
+
+#: src/nemo-application.c:403
+#, c-format
+msgid "Nemo could not create the required folder \"%s\"."
+msgstr "ኔሞ የሚፈልጉትን ፎልደር መፍጠር አልቻለም \"%s\"."
+
+#: src/nemo-application.c:405
+msgid ""
+"Before running Nemo, please create the following folder, or set permissions "
+"such that Nemo can create it."
+msgstr "እባክዎን  ኔሞን ከማስኬዶት በፊት የሚቀጥለውን ፎልደር ይፍጠሩ ወይንም ኔሞ እንዲፈጥር ፍቃድ ይስጡ"
+
+#: src/nemo-autorun-software.c:143 src/nemo-autorun-software.c:146
+#, c-format
+msgid "Error starting autorun program: %s"
+msgstr "ስህተት በራሱ የሚጀምር ፕሮግራም በማስነሳት ላይ : %s"
+
+#: src/nemo-autorun-software.c:149
+msgid "Cannot find the autorun program"
+msgstr "በራሱ የሚጀምር ፕሮግራም ማግኘት አልተቻለም"
+
+#: src/nemo-autorun-software.c:171
+msgid "<big><b>Error autorunning software</b></big>"
+msgstr "<big><b>ስህተት ሶፍትዌር በራሱ በማስነሳት ላይ</b></big>"
+
+#: src/nemo-autorun-software.c:197
+msgid ""
+"<big><b>This medium contains software intended to be automatically started. "
+"Would you like to run it?</b></big>"
+msgstr ""
+"<big><b>ይህ መገናኛው የያዘው ሶፍትዌር ራሱ በራሱ እንዲጀምር ነው ፡ አሁን ማስኬድ ይፈልጋሉ?</b></big>"
+
+#: src/nemo-autorun-software.c:199
+#, c-format
+msgid ""
+"The software will run directly from the medium \"%s\". You should never run "
+"software that you don't trust.\n"
+"\n"
+"If in doubt, press Cancel."
+msgstr ""
+"ሶፍትዌሩ በቀጥታ ከመገናኛው ላይ ይሄዳል \"%s\". የማያምኑትን ሶፍትዌር አያስኪዱ \n"
+"ከተጠራጠሩ መሰረዣ የሚለውን ይጫኑ"
+
+#: src/nemo-autorun-software.c:234 src/nemo-mime-actions.c:732
+msgid "_Run"
+msgstr "_ማስኬጃ"
+
+#: src/nemo-blank-desktop-window.c:147
+msgid "Customize"
+msgstr "ማስተካከያ"
+
+#. hardcode "Desktop"
+#: src/nemo-blank-desktop-window.c:216 src/nemo-desktop-window.c:125
+#: src/nemo-desktop-window.c:294 src/nemo-pathbar.c:1437
+#: src/nemo-places-sidebar.c:831 libnemo-private/nemo-action.c:1376
+#: gresources/nemo-file-management-properties.glade:4020
+msgid "Desktop"
+msgstr "ዴስክቶፕ"
+
+#: src/nemo-bookmarks-window.c:171
+msgid "No bookmarks defined"
+msgstr "ምንም ምልክት የተደረገበቸው አልተገለጹም"
+
+#: src/nemo-config-base-widget.c:70
+msgid "Disable all"
+msgstr "ሁሉንም ማሰናከያ"
+
+#: src/nemo-config-base-widget.c:73
+msgid "Enable all"
+msgstr "ሁሉንም ማስቻያ"
+
+#: src/nemo-connect-server-dialog.c:125
+msgid "SSH"
+msgstr "SSH"
+
+#: src/nemo-connect-server-dialog.c:128
+msgid "Public FTP"
+msgstr "Public FTP"
+
+#: src/nemo-connect-server-dialog.c:130
+msgid "FTP (with login)"
+msgstr "FTP (with login)"
+
+#: src/nemo-connect-server-dialog.c:133
+msgid "Windows share"
+msgstr "የሚካፈሉዋቸው መስኮቶች"
+
+#: src/nemo-connect-server-dialog.c:135
+msgid "WebDAV (HTTP)"
+msgstr "WebDAV (HTTP)"
+
+#: src/nemo-connect-server-dialog.c:137
+msgid "Secure WebDAV (HTTPS)"
+msgstr "Secure WebDAV (HTTPS)"
+
+#: src/nemo-connect-server-dialog.c:184
+msgid "Connecting..."
+msgstr "በመገናኘት ላይ..."
+
+#: src/nemo-connect-server-dialog.c:208
+msgid ""
+"Can't load the supported server method list.\n"
+"Please check your gvfs installation."
+msgstr ""
+"የተደገፉ የሰርቨር ዘዴዎችን ዝርዝር መጫን አልተቻለም\n"
+"እባክዎን የ gvfs አገጣጠሞን ይመርምሩ"
+
+#: src/nemo-connect-server-dialog.c:286
+#, c-format
+msgid "The folder \"%s\" cannot be opened on \"%s\"."
+msgstr "ፎልደሩን \"%s\" መክፈት አልተቻለም በ \"%s\"."
+
+#: src/nemo-connect-server-dialog.c:296
+#, c-format
+msgid "The server at \"%s\" cannot be found."
+msgstr "ሰርቨሩን ከ \"%s\" ማግኘት አልተቻለም"
+
+#: src/nemo-connect-server-dialog.c:331
+msgid "Try Again"
+msgstr "እንደገና ይሞክሩ"
+
+#: src/nemo-connect-server-dialog.c:396
+msgid "Please verify your user details."
+msgstr "እባክዎን የተጠቃሚ ዝርዝርዎትን ያረጋግጡ"
+
+#: src/nemo-connect-server-dialog.c:426
+msgid "Continue"
+msgstr "ይቀጥሉ"
+
+#: src/nemo-connect-server-dialog.c:700 src/nemo-connect-server-dialog.c:1094
+msgid "C_onnect"
+msgstr "መ_ገናኛ"
+
+#. set dialog properties
+#: src/nemo-connect-server-dialog.c:829
+msgid "Connect to Server"
+msgstr "ወደ ሰርቨር መገናኛ"
+
+#: src/nemo-connect-server-dialog.c:847
+msgid "Server Details"
+msgstr "የሰርቨር ዝርዝር"
+
+#. first row: server entry + port spinbutton
+#: src/nemo-connect-server-dialog.c:872
+msgid "_Server:"
+msgstr "_ሰርቨር :"
+
+#. port
+#: src/nemo-connect-server-dialog.c:892
+msgid "_Port:"
+msgstr "_Port:"
+
+#. second row: type combobox
+#: src/nemo-connect-server-dialog.c:910
+msgid "_Type:"
+msgstr "_አይነት :"
+
+#. third row: share entry
+#: src/nemo-connect-server-dialog.c:980
+msgid "Sh_are:"
+msgstr "ማካ_ፈያ :"
+
+#. fourth row: folder entry
+#: src/nemo-connect-server-dialog.c:995
+msgid "_Folder:"
+msgstr "_ፎልደር :"
+
+#: src/nemo-connect-server-dialog.c:1013
+msgid "User Details"
+msgstr "የተጠቃሚ ዝርዝር"
+
+#. first row: domain entry
+#: src/nemo-connect-server-dialog.c:1037
+msgid "_Domain name:"
+msgstr "_የግዛት ስም :"
+
+#. second row: username entry
+#: src/nemo-connect-server-dialog.c:1052
+msgid "_User name:"
+msgstr "_የተጠቃሚ ስም :"
+
+#. third row: password entry
+#: src/nemo-connect-server-dialog.c:1067
+msgid "Pass_word:"
+msgstr "የመግቢያ_ቃል :"
+
+#. fourth row: remember checkbox
+#: src/nemo-connect-server-dialog.c:1083
+msgid "_Remember this password"
+msgstr "_ይህን የመግቢያ ቃል አስታውስ"
+
+#: src/nemo-connect-server-dialog.c:1180
+msgid "Operation cancelled"
+msgstr "ተግባሩ ተሰርዟል"
+
+#: src/nemo-connect-server-dialog-main.c:120
+msgid "Print but do not open the URI"
+msgstr "URI ማተሚያ ነገር ግን አትክፈት"
+
+#. Translators: This is the --help description for the connect to server app,
+#. the initial newlines are between the command line arg and the description
+#: src/nemo-connect-server-dialog-main.c:131
+msgid ""
+"\n"
+"\n"
+"Add connect to server mount"
+msgstr ""
+"\n"
+"\n"
+"ለሰርቨሩ መጫኛ ግንኙነት መጨመሪያ"
+
+#: src/nemo-desktop-application.c:259 src/nemo-main-application.c:660
+msgid "Show the version of the program."
+msgstr "የፕሮግራሙን እትም ማሳያ"
+
+#: src/nemo-desktop-application.c:263
+msgid "Quit Nemo Desktop."
+msgstr "ኔሞ ዴስክቶፕ ማጥፊያ"
+
+#: src/nemo-desktop-application.c:274
+msgid ""
+"\n"
+"\n"
+"Manage the desktop with the file manager"
+msgstr ""
+"\n"
+"\n"
+"በ ፋይል አስተዳዳሪ ዴስክቶፕ ማስተዳደሪያ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-desktop-icon-grid-view.c:917 src/nemo-desktop-icon-view.c:682
+#: src/nemo-view.c:8268 src/nemo-view.c:9889
+msgid "E_mpty Trash"
+msgstr "ቆሻሻውን ባ_ዶ ምድረጊያ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-desktop-icon-grid-view.c:1027
+#: gresources/nemo-desktop-overlay.glade:293
+msgid "Auto-arrange"
+msgstr "በራሱ-ማዘጋጃ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-desktop-icon-grid-view.c:1032
+#: gresources/nemo-desktop-overlay.glade:539
+#: gresources/nemo-file-management-properties.glade:546
+msgid "Reverse sort"
+msgstr "በ ግልባጭ መለያ"
+
+#: src/nemo-desktop-icon-grid-view.c:1040
+msgid "Smaller"
+msgstr "አነስተኛ"
+
+#: src/nemo-desktop-icon-grid-view.c:1044
+msgid "Small"
+msgstr "ትንሽ"
+
+#: src/nemo-desktop-icon-grid-view.c:1048
+msgid "Normal"
+msgstr "መደበኛ"
+
+#: src/nemo-desktop-icon-grid-view.c:1052
+msgid "Large"
+msgstr "ትልቅ"
+
+#: src/nemo-desktop-icon-grid-view.c:1056
+msgid "Larger"
+msgstr "ትልቅ"
+
+#: src/nemo-desktop-icon-grid-view.c:1063
+msgid "_Vertical"
+msgstr "በ _ቁመት"
+
+#: src/nemo-desktop-icon-grid-view.c:1067
+msgid "_Horizontal"
+msgstr "በ _አግድም"
+
+#: src/nemo-desktop-icon-grid-view.c:1074 src/nemo-list-view.c:2496
+#: libnemo-private/nemo-column-utilities.c:43
+#: gresources/nemo-desktop-overlay.glade:116
+msgid "Name"
+msgstr "ስም"
+
+#: src/nemo-desktop-icon-grid-view.c:1078
+#: libnemo-private/nemo-column-utilities.c:50
+#: gresources/nemo-desktop-overlay.glade:121
+msgid "Size"
+msgstr "መጠን"
+
+#: src/nemo-desktop-icon-grid-view.c:1082
+#: libnemo-private/nemo-column-utilities.c:58
+#: gresources/nemo-desktop-overlay.glade:126
+msgid "Type"
+msgstr "አይነት"
+
+#: src/nemo-desktop-icon-grid-view.c:1086
+#: gresources/nemo-desktop-overlay.glade:131
+msgid "Date"
+msgstr "ቀን"
+
+#. name, stock id, label
+#: src/nemo-desktop-icon-grid-view.c:1092
+msgid "_Sort"
+msgstr "_መለያ"
+
+#. name, stock id, label
+#: src/nemo-desktop-icon-grid-view.c:1093
+msgid "_Icon Size"
+msgstr "የ _ምልክት መጠን"
+
+#. label, accelerator
+#. name, stock id
+#. label, accelerator
+#: src/nemo-desktop-icon-grid-view.c:1097 src/nemo-desktop-icon-view.c:723
+msgid "Empty Trash"
+msgstr "ቆሻሻውን ባዶ ማድረጊያ"
+
+#. tooltip
+#: src/nemo-desktop-icon-grid-view.c:1099 src/nemo-desktop-icon-view.c:724
+#: src/nemo-trash-bar.c:227 src/nemo-view.c:8269
+msgid "Delete all items in the Trash"
+msgstr "ሁሉም ቆሻሻ ውስጥ ያሉትን እቃዎች ማጥፊያ"
+
+#: src/nemo-desktop-icon-grid-view.c:1103
+#: gresources/nemo-file-management-properties.glade:4043
+msgid "_Customize"
+msgstr "_ማስተካከያ"
+
+#: src/nemo-desktop-icon-grid-view.c:1104
+msgid "Adjust the desktop layout for this monitor"
+msgstr ""
+
+#: src/nemo-desktop-icon-grid-view.c:1195 src/nemo-desktop-icon-view.c:787
+msgid "The desktop view encountered an error."
+msgstr "የዴስክቶፕ መመልከቻ ችግር ገጥሞታል"
+
+#: src/nemo-desktop-icon-grid-view.c:1196 src/nemo-desktop-icon-view.c:788
+msgid "The desktop view encountered an error while starting up."
+msgstr "በመጀመር ላይ እንዳለ የዴስክቶፕ መመልከቻ ችግር ገጥሞታል"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-desktop-icon-view.c:704 src/nemo-desktop-icon-view.c:719
+msgid "Restore Icons' Original Si_zes"
+msgstr "ምልክቶቹን ወደ ቀድሞው መጠ_ናቸው እንደ ነበር መመለሻ"
+
+#: src/nemo-desktop-icon-view.c:705
+msgid "Restore Icon's Original Si_ze"
+msgstr "ምልክቶቹን ወደ ቀድሞው መጠ_ናቸው እንደ ነበር መመለሻ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-desktop-icon-view.c:715
+msgid "Resize Icon..."
+msgstr "ምልክቶችን እንደገና መመጠኛ..."
+
+#. tooltip
+#: src/nemo-desktop-icon-view.c:716
+msgid "Make the selected icon resizable"
+msgstr "የተመረጡትን ምልክቶች መጠናቸውን መቀያየሪያ"
+
+#. tooltip
+#: src/nemo-desktop-icon-view.c:720
+msgid "Restore each selected icon to its original size"
+msgstr "እያንዳንዱ የተመረጠውን ምልክት ወደ ዋናው መጠን እንደነበር መመለሻ"
+
+#: src/nemo-desktop-item-properties.c:408
+#: src/nemo-desktop-item-properties.c:418 src/nemo-image-properties-page.c:368
+msgid "Comment"
+msgstr "አስተያየት"
+
+#: src/nemo-desktop-item-properties.c:411
+msgid "URL"
+msgstr "URL"
+
+#: src/nemo-desktop-item-properties.c:414
+#: src/nemo-desktop-item-properties.c:424 src/nemo-image-properties-page.c:361
+#: src/nemo-image-properties-page.c:414
+msgid "Description"
+msgstr "መግለጫ"
+
+#: src/nemo-desktop-item-properties.c:421
+msgid "Command"
+msgstr "ተእዛዝ"
+
+#: src/nemo-desktop-overlay.c:78
+#, c-format
+msgid "Current Monitor Layout (%s - %dx%d)"
+msgstr ""
+
+#: src/nemo-desktop-overlay.c:90
+#, c-format
+msgid "Current Monitor Layout (%dx%d)"
+msgstr ""
+
+#: src/nemo-desktop-overlay.c:365 src/nemo-desktop-overlay.c:503
+#: src/nemo-desktop-overlay.c:506
+msgid "Desktop Settings"
+msgstr "የ ዴስክቶፕ ማሰናጃ"
+
+#: src/nemo-desktop-overlay.c:469
+msgid "Current Monitor Preferences"
+msgstr ""
+
+#: src/nemo-desktop-overlay.c:493
+msgid "Show global desktop settings"
+msgstr ""
+
+#: src/nemo-error-reporting.c:68
+#, c-format
+msgid ""
+"You do not have the permissions necessary to view the contents of \"%s\"."
+msgstr "በቂ የሆነ ፍቃድ የሎትም ይህን ይዞታ ለመመልከት ከ \"%s\"."
+
+#: src/nemo-error-reporting.c:72
+#, c-format
+msgid "\"%s\" could not be found. Perhaps it has recently been deleted."
+msgstr "\"%s\" ማግኘት አልተቻለም ምናልባት በቅርብ ጊዜ ጠፍቶ ይሆናል"
+
+#: src/nemo-error-reporting.c:76
+#, c-format
+msgid "Sorry, could not display all the contents of \"%s\": %s"
+msgstr "አዝናለሁ ፡ ጠቅላላ ይዞታዎቹን ማሳየት አልተቻለም ከ \"%s\": %s"
+
+#: src/nemo-error-reporting.c:83
+msgid "The folder contents could not be displayed."
+msgstr "የፎልደሩን ጠቅላላ ይዞታዎች ማሳየት አልተቻለም"
+
+#: src/nemo-error-reporting.c:107
+#, c-format
+msgid ""
+"You do not have the permissions necessary to change the group of \"%s\"."
+msgstr "በቂ የሆነ አስፈላጊ ፍቃድ የሎትም ቡድኑን ለመቀየር ከ \"%s\"."
+
+#. fall through
+#: src/nemo-error-reporting.c:120
+#, c-format
+msgid "Sorry, could not change the group of \"%s\": %s"
+msgstr "አዝናለሁ ፡ ቡድኑን መቀየር አይቻልም ከ \"%s\": %s"
+
+#: src/nemo-error-reporting.c:125
+msgid "The group could not be changed."
+msgstr "ቡድኑን መቀየር አይቻልም"
+
+#: src/nemo-error-reporting.c:145
+#, c-format
+msgid "Sorry, could not change the owner of \"%s\": %s"
+msgstr "አዝናለሁ ፡ ባለቤቱን መቀየር አይቻልም ከ \"%s\": %s"
+
+#: src/nemo-error-reporting.c:147
+msgid "The owner could not be changed."
+msgstr "ባለቤቱን መቀየር አይቻልም"
+
+#: src/nemo-error-reporting.c:167
+#, c-format
+msgid "Sorry, could not change the permissions of \"%s\": %s"
+msgstr "አዝናለሁ ፡ ፍቃዶቹን መቀየር አይቻልም \"%s\": %s"
+
+#: src/nemo-error-reporting.c:169
+msgid "The permissions could not be changed."
+msgstr "ፍቃዶቹን መቀየር አይቻልም"
+
+#: src/nemo-error-reporting.c:204
+#, c-format
+msgid ""
+"The name \"%s\" is already used in this folder. Please use a different name."
+msgstr "ይህን ስም \"%s\" ቀደም ሲል በዚህ ፎልደር ውስጥ ተጠቅመውበታል ፡ እባክዎን ሌላ የተለየ ስም ይምረጡ"
+
+#: src/nemo-error-reporting.c:209
+#, c-format
+msgid ""
+"There is no \"%s\" in this folder. Perhaps it was just moved or deleted?"
+msgstr "በዚህ ፎልደር \"%s\" ውስጥ አልተገኘም ፡ ምናልባት ተንቀሳቅሷል ወይንም ጠፍቷል"
+
+#: src/nemo-error-reporting.c:214
+#, c-format
+msgid "You do not have the permissions necessary to rename \"%s\"."
+msgstr "ለመሰየም በቂ የሆነ ፍቃድ የሎትም \"%s\"."
+
+#: src/nemo-error-reporting.c:219
+#, c-format
+msgid ""
+"The name \"%s\" is not valid because it contains the character \"/\". Please "
+"use a different name."
+msgstr "ይህ ስም \"%s\" ዋጋ የለውም ምክንያቱም እነዚህን ባህሪዎች ይዟል \"/\". እባክዎን ሌላ ስም ይጠቀሙ"
+
+#: src/nemo-error-reporting.c:223
+#, c-format
+msgid "The name \"%s\" is not valid. Please use a different name."
+msgstr "ይህ ስም \"%s\" ዋጋ የለውም እባክዎን ሌላ ስም ይጠቀሙ"
+
+#: src/nemo-error-reporting.c:229
+#, c-format
+msgid "The name \"%s\" is too long. Please use a different name."
+msgstr "ይህ ስም \"%s\" በጣም እረጅም ነው እባክዎን ሌላ ስም ይጠቀሙ"
+
+#. fall through
+#: src/nemo-error-reporting.c:243
+#, c-format
+msgid "Sorry, could not rename \"%s\" to \"%s\": %s"
+msgstr "አዝናለሁ ፡ እንደገና መሰየም አይቻልም \"%s\" ወደ \"%s\": %s"
+
+#: src/nemo-error-reporting.c:251
+msgid "The item could not be renamed."
+msgstr "እቃውን እንደገና መሰየም አይቻልም"
+
+#: src/nemo-error-reporting.c:348
+#, c-format
+msgid "Renaming \"%s\" to \"%s\"."
+msgstr "እንደገና በመሰየም ላይ \"%s\" ወደ \"%s\"."
+
+#: src/nemo-extension-config-widget.c:212
+msgid "No extensions found"
+msgstr "ምንም ተጨማሪዎች አልተገኙም"
+
+#: src/nemo-extension-config-widget.c:277
+msgid "no information available"
+msgstr "ምንም መረጃ አልተገኘም"
+
+#: src/nemo-extension-config-widget.c:287
+msgid "Configure"
+msgstr "ማዋቀሪያ"
+
+#: src/nemo-extension-config-widget.c:398
+msgid "Extensions"
+msgstr "ተጨማሪዎች"
+
+#: src/nemo-extension-config-widget.c:406
+msgid "Extensions changed.  Restart required."
+msgstr "ተጨማሪዎች ተቀይረዋል እንደገና ማስነሳት ያስፈልጋል"
+
+#. Translators: this is referred to captions under icons.
+#. Translators: this is referred to the permissions
+#. * the user has in a directory.
+#. 
+#: src/nemo-file-management-properties.c:292 src/nemo-properties-window.c:3942
+#: src/nemo-properties-window.c:3953
+msgid "None"
+msgstr "ምንም"
+
+#: src/nemo-file-management-properties.c:485 libnemo-private/nemo-file.c:5101
+#, no-c-format
+msgid "Yesterday"
+msgstr "ትናንትና"
+
+#: src/nemo-icon-view.c:137
+msgid "by _Name"
+msgstr "በ _ስም"
+
+#: src/nemo-icon-view.c:138 src/nemo-icon-view.c:1429
+msgid "Keep icons sorted by name in rows"
+msgstr "ምልክቶችን በረድፎች ውስጥ በስም መለያ"
+
+#: src/nemo-icon-view.c:144
+msgid "by _Size"
+msgstr "በ _መጠን"
+
+#: src/nemo-icon-view.c:145 src/nemo-icon-view.c:1433
+msgid "Keep icons sorted by size in rows"
+msgstr "ምልክቶችን በረድፎች ውስጥ በመጠን መለያ"
+
+#: src/nemo-icon-view.c:151
+msgid "by _Type"
+msgstr "በ _አይነት"
+
+#: src/nemo-icon-view.c:152 src/nemo-icon-view.c:1437
+msgid "Keep icons sorted by type in rows"
+msgstr "ምልክቶችን በረድፎች ውስጥ በአይነት መለያ"
+
+#: src/nemo-icon-view.c:158
+msgid "by _Detailed Type"
+msgstr "በ _ዝርዝር አይነት"
+
+#: src/nemo-icon-view.c:159 src/nemo-icon-view.c:1441
+msgid "Keep icons sorted by detailed type in rows"
+msgstr "ማስቀመጫ ምልክቶችን በ ዝርዝር አይነት በ ረድፍ ውስጥ"
+
+#: src/nemo-icon-view.c:165
+msgid "by Modification _Date"
+msgstr "በተሻሻለበት _ቀን"
+
+#: src/nemo-icon-view.c:166 src/nemo-icon-view.c:1445
+msgid "Keep icons sorted by modification date in rows"
+msgstr "ምልክቶችን በረድፎች ውስጥ በተሻሻሉበት ቀን መለያ"
+
+#: src/nemo-icon-view.c:172
+msgid "by T_rash Time"
+msgstr "በተ_ጣለበት ጊዜ"
+
+#: src/nemo-icon-view.c:173 src/nemo-icon-view.c:1449
+msgid "Keep icons sorted by trash time in rows"
+msgstr "በረድፍ ውስጥ ምልክቶች ተለይተው በተጣሉበት ጊዜ ማስቀመጫ"
+
+#: src/nemo-icon-view.c:607
+msgid "_Organize Desktop by Name"
+msgstr "ዴስክቶፕን በስም _ማደራጃ"
+
+#. name, stock id, label
+#: src/nemo-icon-view.c:1401
+#: gresources/nemo-file-management-properties.glade:3963
+msgid "Arran_ge Items"
+msgstr "እቃዎችን _ማዘጋጃ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-icon-view.c:1403
+#: gresources/nemo-file-management-properties.glade:3982
+msgid "_Organize by Name"
+msgstr "በስም _ማደራጃ"
+
+#. tooltip
+#: src/nemo-icon-view.c:1404
+msgid "Reposition icons to better fit in the window and avoid overlapping"
+msgstr "ምልክቶችን እንደገና ቦታ መስጫ በ መስኮቱ ልክ እንዲሆኑ እና አንዱን በ አንዱ ላይ አትደርብ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-icon-view.c:1411
+msgid "Re_versed Order"
+msgstr "በተ_ቃራኒ ደንብ"
+
+#. tooltip
+#: src/nemo-icon-view.c:1412
+msgid "Display icons in the opposite order"
+msgstr "በተቃራኒ ደንብ ምልክቶች ማሳያ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-icon-view.c:1416
+msgid "_Keep Aligned"
+msgstr "እንደተሰለፉ _ማስቀመጫ"
+
+#. tooltip
+#: src/nemo-icon-view.c:1417
+msgid "Keep icons lined up on a grid"
+msgstr "ምልክቶችን በመስመር በመጋጠሚያ ላይ ማስቀመጫ"
+
+#: src/nemo-icon-view.c:1424
+msgid "_Manually"
+msgstr "_በእጅ የሚሰራ"
+
+#: src/nemo-icon-view.c:1425
+msgid "Leave icons wherever they are dropped"
+msgstr "ምልክቶቹን በተጣሉበት ቦታ ተዋቸው"
+
+#: src/nemo-icon-view.c:1428
+msgid "By _Name"
+msgstr "በ _ስም"
+
+#: src/nemo-icon-view.c:1432
+msgid "By _Size"
+msgstr "በ _መጠን"
+
+#: src/nemo-icon-view.c:1436
+msgid "By _Type"
+msgstr "በ _አይነት"
+
+#: src/nemo-icon-view.c:1440
+msgid "By _Detailed Type"
+msgstr "በ _ዝርዝር አይነት"
+
+#: src/nemo-icon-view.c:1444
+msgid "By Modification _Date"
+msgstr "በተቀየረበት _ቀን"
+
+#: src/nemo-icon-view.c:1448
+msgid "By T_rash Time"
+msgstr "በተ_ጣሉበት ጊዜ"
+
+#. translators: this is used in the view selection dropdown
+#. * of navigation windows and in the preferences dialog
+#: src/nemo-icon-view.c:2851 src/nemo-icon-view-container.c:2173
+#: src/nemo-icon-view-grid-container.c:1611 src/nemo-window-menus.c:1490
+#: src/nemo-window-menus.c:1640
+#: gresources/nemo-file-management-properties.glade:110
+#: gresources/nemo-file-management-properties.glade:3940
+msgid "Icon View"
+msgstr "ምልክት መመልከቻ"
+
+#. translators: this is used in the view menu
+#: src/nemo-icon-view.c:2853
+msgid "_Icons"
+msgstr "_ምልክቶች"
+
+#: src/nemo-icon-view.c:2854
+msgid "The icon view encountered an error."
+msgstr "የምልክት መመልከቻው ችግር ገጥሞታል"
+
+#: src/nemo-icon-view.c:2855
+msgid "The icon view encountered an error while starting up."
+msgstr "በመጀመር ላይ እንዳለ የምልክት መመልከቻው ችግር ገጥሞታል"
+
+#: src/nemo-icon-view.c:2856
+msgid "Display this location with the icon view."
+msgstr "ይህን አካባቢ በምልክት መመልከቻው ማሳያ"
+
+#. translators: this is used in the view selection dropdown
+#. * of navigation windows and in the preferences dialog
+#: src/nemo-icon-view.c:2865 src/nemo-window-menus.c:1496
+#: src/nemo-window-menus.c:1663
+#: gresources/nemo-file-management-properties.glade:116
+msgid "Compact View"
+msgstr "በትንንሽ መመልከቻ"
+
+#. translators: this is used in the view menu
+#: src/nemo-icon-view.c:2867
+msgid "_Compact"
+msgstr "_በትንንሽ"
+
+#: src/nemo-icon-view.c:2868
+msgid "The compact view encountered an error."
+msgstr "በትንንሽ መመልከቻ ችግር ገጥሞታል"
+
+#: src/nemo-icon-view.c:2869
+msgid "The compact view encountered an error while starting up."
+msgstr "በመጀመር ላይ እንዳለ በትንንሽ መመልከቻ ችግር ገጥሞታል"
+
+#: src/nemo-icon-view.c:2870
+msgid "Display this location with the compact view."
+msgstr "ይህን አካባቢ በትንንሽ መመልከቻ ማሳያ"
+
+#: src/nemo-image-properties-page.c:331
+msgid "Image Type"
+msgstr "የምስሉ አይነት"
+
+#: src/nemo-image-properties-page.c:333 src/nemo-image-properties-page.c:339
+#, c-format
+msgid "%d pixel"
+msgid_plural "%d pixels"
+msgstr[0] "%d ፒክስል"
+msgstr[1] "%d ፒክስልስ"
+
+#: src/nemo-image-properties-page.c:337
+msgid "Width"
+msgstr "ስፋት"
+
+#: src/nemo-image-properties-page.c:343
+msgid "Height"
+msgstr "እርዝመት"
+
+#: src/nemo-image-properties-page.c:356 src/nemo-image-properties-page.c:357
+msgid "Title"
+msgstr "አርእስት"
+
+#: src/nemo-image-properties-page.c:358 src/nemo-image-properties-page.c:359
+msgid "Author"
+msgstr "ደራሲው"
+
+#: src/nemo-image-properties-page.c:362 src/nemo-image-properties-page.c:417
+msgid "Copyright"
+msgstr "ኮፒራይት"
+
+#: src/nemo-image-properties-page.c:363
+msgid "Created On"
+msgstr "የተፈጠረው በ"
+
+#: src/nemo-image-properties-page.c:364
+msgid "Created By"
+msgstr "የተፈጠረው በ"
+
+#: src/nemo-image-properties-page.c:365
+msgid "Disclaimer"
+msgstr "አላውቅም"
+
+#: src/nemo-image-properties-page.c:366
+msgid "Warning"
+msgstr "ማስጠንቀቂያ"
+
+#: src/nemo-image-properties-page.c:367
+msgid "Source"
+msgstr "ምንጩ"
+
+#: src/nemo-image-properties-page.c:382
+msgid "Camera Brand"
+msgstr "የካሜራው አይነት"
+
+#: src/nemo-image-properties-page.c:383
+msgid "Camera Model"
+msgstr "የካሜራው ሞዴል"
+
+#. Choose which date to show in order of relevance
+#: src/nemo-image-properties-page.c:386
+msgid "Date Taken"
+msgstr "የተነሳበት ቀን"
+
+#: src/nemo-image-properties-page.c:387
+msgid "Date Digitized"
+msgstr "ዲጂታል የሆነበት ቀን"
+
+#: src/nemo-image-properties-page.c:388
+#: libnemo-private/nemo-column-utilities.c:72
+msgid "Date Modified"
+msgstr "የተሻሻለበት ቀን"
+
+#: src/nemo-image-properties-page.c:392
+msgid "Exposure Time"
+msgstr "የተጋለጠበት ጊዜ"
+
+#: src/nemo-image-properties-page.c:393
+msgid "Aperture Value"
+msgstr "የቀዳዳው መጠን"
+
+#: src/nemo-image-properties-page.c:394
+msgid "ISO Speed Rating"
+msgstr "ISO የፍጥነት መጠን"
+
+#: src/nemo-image-properties-page.c:395
+msgid "Flash Fired"
+msgstr "ፍላሽ በርቷል"
+
+#: src/nemo-image-properties-page.c:396
+msgid "Metering Mode"
+msgstr "መቁጠሪያ ዘዴ"
+
+#: src/nemo-image-properties-page.c:397
+msgid "Exposure Program"
+msgstr "ፕሮግራሙ የሚጋለጥበት ጊዜ"
+
+#: src/nemo-image-properties-page.c:398
+msgid "Focal Length"
+msgstr "የ ፎካል እርዝመት"
+
+#: src/nemo-image-properties-page.c:399
+msgid "Software"
+msgstr "ሶፍትዌር"
+
+#: src/nemo-image-properties-page.c:413 src/nemo-window-menus.c:1605
+#: libnemo-private/nemo-column-utilities.c:159
+msgid "Location"
+msgstr "አካባቢ"
+
+#: src/nemo-image-properties-page.c:415
+msgid "Keywords"
+msgstr "ቁልፍ ቃላት"
+
+#: src/nemo-image-properties-page.c:416
+msgid "Creator"
+msgstr "ፈጣሪው"
+
+#: src/nemo-image-properties-page.c:418
+msgid "Rating"
+msgstr "ደረጃው"
+
+#: src/nemo-image-properties-page.c:441
+msgid "Failed to load image information"
+msgstr "የምስሉን መረጃ መጫን አልተቻለም"
+
+#: src/nemo-image-properties-page.c:706 src/nemo-list-model.c:461
+#: src/nemo-tree-sidebar-model.c:1270 src/nemo-window-manage-views.c:1221
+#: src/nemo-window-slot.c:346
+msgid "Loading..."
+msgstr "በመጫን ላይ..."
+
+#: src/nemo-image-properties-page.c:767 libnemo-private/nemo-file.c:6907
+msgid "Image"
+msgstr "ምስል"
+
+#: src/nemo-interesting-folder-bar.c:126
+msgid ""
+"Actions: Action files can be added to this folder and will appear in the "
+"menu."
+msgstr "ተግባሮች: የ ተግባር ፋይሎች በዚህ ፎልደር ውስጥ መጨመር ይችላሉ እና በ ዝርዝር ውስጥ ይታያል"
+
+#: src/nemo-interesting-folder-bar.c:128 src/nemo-interesting-folder-bar.c:136
+msgid "More info"
+msgstr "በበለጠ ለመረዳት"
+
+#: src/nemo-interesting-folder-bar.c:130
+msgid "View a sample action file with documentation"
+msgstr "የ ናሙና ተግባር ፋይል በ ሰነድ ውስጥ መመልከቻ"
+
+#: src/nemo-interesting-folder-bar.c:133
+msgid ""
+"Scripts: All executable files in this folder will appear in the Scripts menu."
+msgstr "ጽሁፍ: ሁሉም የሚፈጸሙ ፋይሎች በዚህ ፎልደር ውስጥ በ ጽሁፍ ዝርዝር ውስጥ ይታያሉ"
+
+#: src/nemo-interesting-folder-bar.c:138
+msgid "View additional information about creating scripts"
+msgstr "ስለ ጽሁፍ መፍጠሪያ ተጨማሪ መረጃ መመልከቻ"
+
+#: src/nemo-list-model.c:459 src/nemo-tree-sidebar-model.c:1270
+msgid "(Empty)"
+msgstr "(ባዶ)"
+
+#: src/nemo-list-view.c:2018
+msgid "Use Default"
+msgstr "ነባር መጠቀሚያ"
+
+#: src/nemo-list-view.c:2029
+msgid "Temporarily disable auto-sort"
+msgstr "በራሱ-መለያ ለጊዜው ማሰናከያ"
+
+#. translators: this is used in the view selection dropdown
+#. * of navigation windows and in the preferences dialog
+#: src/nemo-list-view.c:2584 src/nemo-list-view.c:4266
+#: src/nemo-window-menus.c:1493 src/nemo-window-menus.c:1651
+#: gresources/nemo-file-management-properties.glade:113
+msgid "List View"
+msgstr "ዝርዝር መመልከቻ"
+
+#. translators: this is used in the view menu
+#: src/nemo-list-view.c:4268
+msgid "_List"
+msgstr "_ዝርዝር"
+
+#: src/nemo-list-view.c:4269
+msgid "The list view encountered an error."
+msgstr "የዝርዝር መመልከቻው ችግር ገጥሞታል"
+
+#: src/nemo-list-view.c:4270
+msgid "The list view encountered an error while starting up."
+msgstr "በመጀመር ላይ እንዳለ የዝርዝር መመልከቻው ችግር ገጥሞታል"
+
+#: src/nemo-list-view.c:4271
+msgid "Display this location with the list view."
+msgstr "ይህን አካባቢ በዝርዝር መመልከቻው ማሳያ"
+
+#: src/nemo-location-bar.c:164
+#, c-format
+msgid "Do you want to view %d location?"
+msgid_plural "Do you want to view %d locations?"
+msgstr[0] "መመልከት ይፈልጋሉ %d አካባቢውን?"
+msgstr[1] "መመልከት ይፈልጋሉ %d አካባቢዎቹን?"
+
+#: src/nemo-location-bar.c:168 src/nemo-mime-actions.c:1064
+#, c-format
+msgid "This will open %d separate window."
+msgid_plural "This will open %d separate windows."
+msgstr[0] "ይህ የተለየ %d መስኮት ይከፍታል"
+msgstr[1] "ይህ የተለየ %d መስኮቶች ይከፍታል"
+
+#: src/nemo-main-application.c:590
+msgid "--check cannot be used with other options."
+msgstr "--መመርመሪያ ከ ሌላ ምርጫ ጋር መጠቀም አይቻልም"
+
+#: src/nemo-main-application.c:596
+msgid "--quit cannot be used with URIs."
+msgstr "--ማጥፊያ መጠቀም አይቻልም ከ URIs. ጋር"
+
+#: src/nemo-main-application.c:604
+msgid "--geometry cannot be used with more than one URI."
+msgstr "--ጂዮሜትሪ መጠቀም አይቻልም ከ አንድ ጊዜ በላይ በ URI."
+
+#: src/nemo-main-application.c:654
+msgid "Perform a quick set of self-check tests."
+msgstr "በፍጥነት ራስን-መመርመሪያ መሞከሪያ መፈጸሚያ"
+
+#: src/nemo-main-application.c:662
+msgid ""
+"Create the initial window with the given geometry. Examples: nemo --"
+"geometry=+100+100, nemo --geometry=600x400, nemo --geometry=600x400+100+100."
+msgstr ""
+
+#: src/nemo-main-application.c:663
+msgid "GEOMETRY"
+msgstr "ጂዮሜትሪ"
+
+#: src/nemo-main-application.c:665
+msgid "Only create windows for explicitly specified URIs."
+msgstr "በግልጽ ለተወሰኑ URIs. መስኮቶች መፍጠሪያ"
+
+#: src/nemo-main-application.c:667
+msgid "Ignored argument - left for compatibility only."
+msgstr "የ ተተወ ክርክር-ለ ተስማሚ ብቻ የ ተተወ"
+
+#: src/nemo-main-application.c:669
+msgid "Open URIs in tabs."
+msgstr ""
+
+#: src/nemo-main-application.c:671
+msgid "Open URIs in an existing window."
+msgstr ""
+
+#: src/nemo-main-application.c:673
+msgid ""
+"Repair the user thumbnail cache - this can be useful if you're having "
+"trouble with file thumbnails.  Must be run as root"
+msgstr ""
+"መጠገኛ የ ተጠቃሚ በ አውራ ጥፍር ልክ ማጠራቀሚያ - ይህ የሚጠቅመው እርስዎ ችግር ካገጠምዎት ነው በ አውራ ጥፍር ልክ "
+"ፋይል: መሄድ ያለበት እንደ root ነው"
+
+#: src/nemo-main-application.c:677
+msgid "Quit Nemo."
+msgstr "ኔሞን ማቋረጫ"
+
+#: src/nemo-main-application.c:678
+msgid "[URI...]"
+msgstr "[URI...]"
+
+#: src/nemo-main-application.c:689
+msgid ""
+"\n"
+"\n"
+"Browse the file system with the file manager"
+msgstr ""
+"\n"
+"\n"
+"በፋይል አስተዳዳሪ የፋይል ስርአቱን መቃኛ"
+
+#: src/nemo-main-application.c:853
+msgid "Nemo's main menu is now hidden"
+msgstr "የ ኔሞ ዋናው ዝርዝር አሁን ተደብቋል"
+
+#: src/nemo-main-application.c:856
+msgid ""
+"You have chosen to hide the main menu.  You can get it back temporarily by:\n"
+"\n"
+"- Tapping the <Alt> key\n"
+"- Right-clicking an empty region of the main toolbar\n"
+"- Right-clicking an empty region of the status bar.\n"
+"\n"
+"You can restore it permanently by selecting this option again from the View "
+"menu."
+msgstr ""
+"የ ኔሞ ዋና ዝርዝር ለመደበቅ መርጠዋል፡ ለጊዜው መልሶ ለማግኘት:\n"
+"\n"
+"- ይጫኑ የ <Alt> ቁልፍ\n"
+"- በቀኝ-ይጫኑ በዋናው እቃ መደርደሪያ ባዶ ቦታ ላይ \n"
+"- በቀኝ-ይጫኑ በዋናው ሁኔታ መደርደሪያ ባዶ ቦታ ላይ\n"
+"በቋሚነት እንደ ነበር ለ መመለስ ይችላሉ ከ መመልከቻው ዝርዝር ምርጫዎች ውስጥ በመምረጥ"
+
+#: src/nemo-main-application.c:867
+msgid "Don't show this message again."
+msgstr "ይህን መልእክት በድጋሚ አታሳየኝ"
+
+#: src/nemo-mime-actions.c:640
+#, c-format
+msgid "The Link \"%s\" is Broken."
+msgstr "አገናኙ \"%s\" አይሰራም"
+
+#: src/nemo-mime-actions.c:642
+#, c-format
+msgid "The Link \"%s\" is Broken. Move it to Trash?"
+msgstr "አገናኙ \"%s\" አይሰራም ወደ ቆሻሻ ማጠራቀሚያ ልላከው?"
+
+#: src/nemo-mime-actions.c:648
+msgid "This link cannot be used, because it has no target."
+msgstr "ይህን አገናኝ መጠቀም አይቻልም ምክንያቱም ኢላማ የለውም"
+
+#: src/nemo-mime-actions.c:650
+#, c-format
+msgid "This link cannot be used, because its target \"%s\" doesn't exist."
+msgstr "ይህን አገናኝ መጠቀም አይቻልም ምክንያቱም ኢላማው \"%s\" አልተገኘም"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-mime-actions.c:660 src/nemo-tree-sidebar.c:1431
+#: src/nemo-view.c:8320 src/nemo-view.c:8429 src/nemo-view.c:9486
+#: src/nemo-view.c:9811 gresources/nemo-file-management-properties.glade:3697
+msgid "Mo_ve to Trash"
+msgstr "ወደ ቆሻሻ ማን_ቀሳቀሻ"
+
+#: src/nemo-mime-actions.c:720
+#, c-format
+msgid "Do you want to run \"%s\", or display its contents?"
+msgstr "ማስኬድ ይፈልጋሉ \"%s\", ወይንስ ይዞታዎቹን ብቻ መመልከት?"
+
+#: src/nemo-mime-actions.c:722
+#, c-format
+msgid "\"%s\" is an executable text file."
+msgstr "\"%s\" የሚፈጸም የጽሁፍ ፋይል ነው"
+
+#: src/nemo-mime-actions.c:728
+msgid "Run in _Terminal"
+msgstr "በ _ተርሚናል ውስጥ ማስኬጃ"
+
+#: src/nemo-mime-actions.c:729
+msgid "_Display"
+msgstr "_ማሳያ"
+
+#: src/nemo-mime-actions.c:1059 src/nemo-mime-actions.c:1747
+#: src/nemo-view.c:1085
+msgid "Are you sure you want to open all files?"
+msgstr "በእርግጥ ሁሉንም ፋይሎች መክፈት ይፈልጋሉ?"
+
+#: src/nemo-mime-actions.c:1061
+#, c-format
+msgid "This will open %d separate tab."
+msgid_plural "This will open %d separate tabs."
+msgstr[0] "ይህ የተለየ %d ንዑስ መስኮት ይከፍታል"
+msgstr[1] "ይህ የተለየ %d ንዑስ መስኮቶች ይከፍታል"
+
+#: src/nemo-mime-actions.c:1163 src/nemo-open-with-main.c:151
+#: src/nemo-view.c:1371
+msgid "Open with"
+msgstr "መክፈቻ በ"
+
+#: src/nemo-mime-actions.c:1240
+msgid "Unknown file type"
+msgstr "ያልታወቀ የፋይል አይነት"
+
+#: src/nemo-mime-actions.c:1248
+#, c-format
+msgid ""
+"The file \"%s\" has no known programs associated with it.  If you trust the "
+"source of this file, and have sufficient permissions, you can mark it "
+"executable and launch it.  Or, you can use the Open With dialog to pick a "
+"program to associate it with."
+msgstr ""
+"ይህ ፋይል \"%s\" የሚታወቅ የ ተዛመደ ፕሮግራም የለውም: እርስዎ ምንጩን የሚያምኑት ከሆነ: እና በቂ ፍቃድ ካለዎት: "
+"እርስዎ መፈጸም እና ማስጀመር ይችላሉ: ወይንም እርስዎ በ ንግግር መክፈቻ መጠቀም ይችላሉ ለ መምረጥ ፕሮግራም ከዚህ ጋር "
+"የሚዛመደውን"
+
+#: src/nemo-mime-actions.c:1255
+msgid "Make executable and run"
+msgstr "መፈጸሚያ መፍጠሪያ እና ማስኬጃ"
+
+#: src/nemo-mime-actions.c:1257
+#, c-format
+msgid ""
+"The file \"%s\" has no known programs associated with it.  Use the Open With "
+"dialog to pick a program to open it with."
+msgstr ""
+
+#: src/nemo-mime-actions.c:1270
+msgid "Choose a program"
+msgstr "ፕሮግራም ይምረጡ"
+
+#: src/nemo-mime-actions.c:1351
+msgid "Untrusted application launcher"
+msgstr "ያልታመነ መተግበሪያ ማስጀመሪያ"
+
+#: src/nemo-mime-actions.c:1354
+#, c-format
+msgid ""
+"The application launcher \"%s\" has not been marked as trusted (executable). "
+"If you do not know the source of this file, launching it may be unsafe."
+msgstr ""
+"የ መተግባሪያ ማስጀመሪያ \"%s\" የሚታመን አይደለም (executable). የዚህን ፋይል ምንጭ የማያውቁ ከሆነ "
+"ማስነሳቱ ጥሩ አይደለም"
+
+#: src/nemo-mime-actions.c:1370
+msgid "_Launch Anyway"
+msgstr "ለማንኛውም _ማስጀመሪያ"
+
+#: src/nemo-mime-actions.c:1373
+msgid "Mark as _Trusted"
+msgstr "እንደ _ሚታመን ምልክት አድርግ"
+
+#: src/nemo-mime-actions.c:1748
+#, c-format
+msgid "This will open %d separate application."
+msgid_plural "This will open %d separate applications."
+msgstr[0] "ይህ የሚከፍተው %d የተለየ መተግበሪያ ነው"
+msgstr[1] "ይህ የሚከፍተው %d የተለዩ መተግበሪያዎችን ነው"
+
+#: src/nemo-mime-actions.c:1826 src/nemo-mime-actions.c:2100
+#: src/nemo-view.c:7438
+msgid "Unable to mount location"
+msgstr "አካባቢውን መጫን አልተቻለም"
+
+#: src/nemo-mime-actions.c:2179 src/nemo-view.c:7585
+msgid "Unable to start location"
+msgstr "አካባቢውን ማስጀመር አልተቻለም"
+
+#: src/nemo-mime-actions.c:2263
+#, c-format
+msgid "Opening \"%s\"."
+msgstr "በመክፈት ላይ \"%s\"."
+
+#: src/nemo-mime-actions.c:2266
+#, c-format
+msgid "Opening %d item."
+msgid_plural "Opening %d items."
+msgstr[0] "እቃውን %d በመክፈት ላይ"
+msgstr[1] "እቃዎቹን %d በመክፈት ላይ"
+
+#: src/nemo-notebook.c:370
+msgid "Close tab"
+msgstr "ንዑስ መስኮቱን መዝጊያ"
+
+#. Translators: This is the --help description for the open-with app,
+#. the initial newlines are between the command line arg and the description
+#: src/nemo-open-with-main.c:104
+msgid ""
+"\n"
+"\n"
+"Show an open-with dialog given a uri, to allow the user to change the "
+"default mimetype handler."
+msgstr ""
+"\n"
+"\n"
+"ማሳያ መክፈቻ-በ ንግግር የ ተሰጠውን uri, ተጠቃሚውን ለ ማስቻል ነባሩን ለ መቀየር የ mimetype ያዢውን"
+
+#: src/nemo-places-sidebar.c:383
+msgid "Devices"
+msgstr "አካላቶች"
+
+#: src/nemo-places-sidebar.c:680 src/nemo-view.c:3153
+#, c-format
+msgid "Free space: %s"
+msgstr "ነጻ ባታ : %s"
+
+#: src/nemo-places-sidebar.c:799
+msgid "My Computer"
+msgstr "የኔ ኮምፒዩተር"
+
+#: src/nemo-places-sidebar.c:810
+#, c-format
+msgid ""
+"Open your personal folder\n"
+"%s"
+msgstr ""
+"የ እርስዎን የግል ፎልደር መክፈቻ \n"
+"%s"
+
+#: src/nemo-places-sidebar.c:814 src/nemo-tree-sidebar.c:1570
+#: libnemo-private/nemo-bookmark.c:130 libnemo-private/nemo-desktop-link.c:118
+#: libnemo-private/nemo-file-utilities.c:67
+#: libnemo-private/nemo-file-utilities.c:115 generate_additional_file:41
+#: gresources/nemo-desktop-preferences.glade:211
+#: gresources/nemo-file-management-properties.glade:2987
+msgid "Home"
+msgstr "ቤት"
+
+#: src/nemo-places-sidebar.c:833
+msgid "Open the contents of your desktop in a folder"
+msgstr "የዴስክቶፕ ይዞታዎችን በፎልደር መክፈቻ"
+
+#: src/nemo-places-sidebar.c:886 src/nemo-tree-sidebar.c:1575
+msgid "Favorites"
+msgstr ""
+
+#: src/nemo-places-sidebar.c:888
+msgid "Favorite files"
+msgstr ""
+
+#: src/nemo-places-sidebar.c:903
+msgid "Recent"
+msgstr "የቅርብ ጊዜ"
+
+#: src/nemo-places-sidebar.c:905
+msgid "Recent files"
+msgstr "የቅርብ ጊዜ ፋይሎች"
+
+#: src/nemo-places-sidebar.c:920
+#, c-format
+msgid ""
+"Open the contents of the File System\n"
+"%s"
+msgstr ""
+"የፋይል ስርአቱን ይዞታዎች መክፈቻ \n"
+"%s"
+
+#: src/nemo-places-sidebar.c:924 src/nemo-tree-sidebar.c:1579
+msgid "File System"
+msgstr "የፋይል ስርአት"
+
+#: src/nemo-places-sidebar.c:940 src/nemo-trash-bar.c:211
+#: libnemo-private/nemo-desktop-link.c:135 generate_additional_file:55
+#: gresources/nemo-desktop-preferences.glade:289
+msgid "Trash"
+msgstr "ቆሻሻ"
+
+#: src/nemo-places-sidebar.c:942
+msgid "Open the trash"
+msgstr "የቆሻሻውን ማጠራቀሚያውን መክፈቻ"
+
+#: src/nemo-places-sidebar.c:948
+msgid "Bookmarks"
+msgstr "እልባቶች"
+
+#: src/nemo-places-sidebar.c:1075
+#, c-format
+msgid ""
+"%s (%s)\n"
+"%s"
+msgstr ""
+"%s (%s)\n"
+"%s"
+
+#: src/nemo-places-sidebar.c:1108
+#, c-format
+msgid "Mount and open %s (%s)"
+msgstr "መጫኛ እና መክፈቻ %s (%s)"
+
+#: src/nemo-places-sidebar.c:1136 src/nemo-places-sidebar.c:1259
+#, c-format
+msgid "Mount and open %s"
+msgstr "መጫኛ እና መክፈቻ %s"
+
+#: src/nemo-places-sidebar.c:1183
+#, c-format
+msgid ""
+"%s\n"
+"%s"
+msgstr ""
+"%s\n"
+"%s"
+
+#: src/nemo-places-sidebar.c:1246 src/nemo-places-sidebar.c:1301
+#: src/nemo-tree-sidebar.c:1583 libnemo-private/nemo-desktop-link.c:147
+#: gresources/nemo-desktop-preferences.glade:445
+msgid "Network"
+msgstr "ኔትዎርክ"
+
+#: src/nemo-places-sidebar.c:1303
+msgid "Browse the contents of the network"
+msgstr "የኔትዎርክ ይዞታዎችን መቃኛ"
+
+#. Adjust start/stop items to reflect the type of the drive
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:2399 src/nemo-places-sidebar.c:3677
+#: src/nemo-view.c:8366 src/nemo-view.c:8390 src/nemo-view.c:8453
+#: src/nemo-view.c:9107 src/nemo-view.c:9111 src/nemo-view.c:9194
+#: src/nemo-view.c:9198 src/nemo-view.c:9298 src/nemo-view.c:9302
+msgid "_Start"
+msgstr "_መጀመሪያ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:2400 src/nemo-places-sidebar.c:3684
+#: src/nemo-view.c:8370 src/nemo-view.c:8394 src/nemo-view.c:8457
+#: src/nemo-view.c:9136 src/nemo-view.c:9223 src/nemo-view.c:9327
+#: src/nemo-window-menus.c:1305
+msgid "_Stop"
+msgstr "_ማቆሚያ"
+
+#. start() for type G_DRIVE_START_STOP_TYPE_SHUTDOWN is normally not used
+#: src/nemo-places-sidebar.c:2405
+msgid "_Power On"
+msgstr "_ማብሪያ"
+
+#: src/nemo-places-sidebar.c:2406 src/nemo-view.c:9140 src/nemo-view.c:9227
+#: src/nemo-view.c:9331
+msgid "_Safely Remove Drive"
+msgstr "_በደህንንነት አካሎችን ማስወገጃ"
+
+#: src/nemo-places-sidebar.c:2409
+msgid "_Connect Drive"
+msgstr "ከአካሉ ጋር _መገናኛ"
+
+#: src/nemo-places-sidebar.c:2410
+msgid "_Disconnect Drive"
+msgstr "አካሉን _መለያያ"
+
+#: src/nemo-places-sidebar.c:2413
+msgid "_Start Multi-disk Device"
+msgstr "የበርካታ - ዲስክ አካሎችን _ማስጀመሪያ"
+
+#: src/nemo-places-sidebar.c:2414
+msgid "_Stop Multi-disk Device"
+msgstr "የበርካታ - ዲስክ አካሎችን _ማስቆሚያ"
+
+#. stop() for type G_DRIVE_START_STOP_TYPE_PASSWORD is normally not used
+#: src/nemo-places-sidebar.c:2418 src/nemo-view.c:9210 src/nemo-view.c:9314
+msgid "_Unlock Drive"
+msgstr "አካሉን _መክፈቻ"
+
+#: src/nemo-places-sidebar.c:2419 src/nemo-view.c:9152 src/nemo-view.c:9239
+#: src/nemo-view.c:9343
+msgid "_Lock Drive"
+msgstr "አካሉን _መቆለፊያ"
+
+#: src/nemo-places-sidebar.c:2538 src/nemo-places-sidebar.c:3157
+#, c-format
+msgid "Unable to start %s"
+msgstr "ማስጀመር አልተቻለም %s"
+
+#: src/nemo-places-sidebar.c:2924 src/nemo-places-sidebar.c:2950
+#: src/nemo-places-sidebar.c:2976
+#, c-format
+msgid "Unable to eject %s"
+msgstr "ማውጣት አልተቻለም %s"
+
+#: src/nemo-places-sidebar.c:3113
+#, c-format
+msgid "Unable to poll %s for media changes"
+msgstr "መመዝገብ አልተቻለም %s የመገናኛውን ለውጦች"
+
+#: src/nemo-places-sidebar.c:3211
+#, c-format
+msgid "Unable to stop %s"
+msgstr "ማቆም አልተቻለም %s"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3589 src/nemo-tree-sidebar.c:1310
+#: src/nemo-view.c:8227 src/nemo-view.c:9743
+#: libnemo-private/nemo-mime-application-chooser.c:483
+#: gresources/nemo-file-management-properties.glade:3395
+msgid "_Open"
+msgstr "_መክፈቻ"
+
+#. add the "open in new tab" menu item
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3597 src/nemo-tree-sidebar.c:1321
+#: src/nemo-view.c:8239 src/nemo-view.c:8411 src/nemo-view.c:9433
+#: src/nemo-view.c:9789 gresources/nemo-file-management-properties.glade:3414
+msgid "Open in New _Tab"
+msgstr "በአዲስ _ንዑስ መስኮት መክፈቻ"
+
+#. add the "open in new window" menu item
+#: src/nemo-places-sidebar.c:3607 src/nemo-tree-sidebar.c:1335
+#: src/nemo-view.c:9424 src/nemo-view.c:9769
+#: gresources/nemo-file-management-properties.glade:3433
+msgid "Open in New _Window"
+msgstr "በአዲስ _መስኮት መክፈቻ"
+
+#. name, stock id, label
+#: src/nemo-places-sidebar.c:3618 src/nemo-window-menus.c:1415
+msgid "_Add Bookmark"
+msgstr "ምልክት ማድረገያዎችን _መጨመሪያ"
+
+#: src/nemo-places-sidebar.c:3624
+msgid "Remove"
+msgstr "ማስወገጃ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3633 src/nemo-view.c:8312
+#: gresources/nemo-file-management-properties.glade:3604
+msgid "_Rename..."
+msgstr "_እንደገና መሰየሚያ..."
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3649 src/nemo-view.c:8354 src/nemo-view.c:8378
+#: src/nemo-view.c:8441
+msgid "_Mount"
+msgstr "_መጫኛ"
+
+#. add the "Unmount" menu item
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3656 src/nemo-tree-sidebar.c:1463
+#: src/nemo-view.c:8358 src/nemo-view.c:8382 src/nemo-view.c:8445
+msgid "_Unmount"
+msgstr "_ማውረጃ"
+
+#. add the "Eject" menu item
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3663 src/nemo-tree-sidebar.c:1472
+#: src/nemo-view.c:8362 src/nemo-view.c:8386 src/nemo-view.c:8449
+msgid "_Eject"
+msgstr "_ማውጫ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3670 src/nemo-view.c:8374 src/nemo-view.c:8398
+#: src/nemo-view.c:8461
+msgid "_Detect Media"
+msgstr "_ፈልጎ ማግኛ መገናኛውን"
+
+#. Empty Trash menu item
+#: src/nemo-places-sidebar.c:3693 src/nemo-trash-bar.c:224
+#: libnemo-private/nemo-file-operations.c:1302
+#: libnemo-private/nemo-file-operations.c:1619
+#: libnemo-private/nemo-file-operations.c:2554
+msgid "Empty _Trash"
+msgstr "ቆሻሻውን _ባዶ ማድረጊያ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-places-sidebar.c:3705 src/nemo-view.c:8209 src/nemo-view.c:8466
+#: gresources/nemo-file-management-properties.glade:3716
+#: gresources/nemo-file-management-properties.glade:3902
+msgid "_Properties"
+msgstr "_ምርጫዎች"
+
+#: src/nemo-progress-ui-handler.c:118
+#, c-format
+msgid "%1$s file operation active.  %2$d%% complete."
+msgid_plural "%1$s file operations active.  %2$d%% complete."
+msgstr[0] "%1$s ንቁ የፋይል ተግባር %2$d%% ተፈጽሟል"
+msgstr[1] "%1$s ንቁ የፋይል ተግባሮች %2$d%% ተፈጽመዋል"
+
+#: src/nemo-progress-ui-handler.c:209 src/nemo-progress-ui-handler.c:266
+msgid "File Operations"
+msgstr "የፋይል ተግባሮች"
+
+#: src/nemo-progress-ui-handler.c:267
+msgid "All file operations have been successfully completed"
+msgstr "ሁሉም በሂደት ላይ የነበሩ ተግባሮች በሚገባ ተፈጽመዋል"
+
+#: src/nemo-progress-ui-handler.c:320
+#, c-format
+msgid "%d%% %s"
+msgstr "%d%% %s"
+
+#: src/nemo-properties-window.c:500
+msgid "You cannot assign more than one custom icon at a time!"
+msgstr "በአንድ ጊዜ ከአንድ ምልክት በላይ መመደብ አይችሉም!"
+
+#: src/nemo-properties-window.c:501
+msgid "Please drag just one image to set a custom icon."
+msgstr "እባክዎን አንድ ምስል ይጎትቱ የሚፈልጉትን ምልክት ለማሰናዳት"
+
+#: src/nemo-properties-window.c:512
+msgid "The file that you dropped is not local."
+msgstr "የጣሉት ፋይል የአካባቢ አይደለም"
+
+#: src/nemo-properties-window.c:513 src/nemo-properties-window.c:519
+msgid "You can only use local images as custom icons."
+msgstr "የሚፈልጉትን ምልክት ለማሰናዳት የአካባቢ ምስሎችን ብቻ ይጠቀሙ"
+
+#: src/nemo-properties-window.c:518
+msgid "The file that you dropped is not an image."
+msgstr "የምስል ፋይል አይደለም የጣሉት"
+
+#: src/nemo-properties-window.c:648
+msgid "_Name:"
+msgid_plural "_Names:"
+msgstr[0] "_ስም :"
+msgstr[1] "_ስሞች :"
+
+#: src/nemo-properties-window.c:843
+msgid "Properties"
+msgstr "ምርጫዎች"
+
+#: src/nemo-properties-window.c:851
+#, c-format
+msgid "%s Properties"
+msgstr "%s ምርጫዎች"
+
+#. Fallback, use for both unknown attributes and attributes
+#. * for which we have no more appropriate default.
+#. 
+#: src/nemo-properties-window.c:1125 libnemo-private/nemo-file.c:6865
+msgid "unknown"
+msgstr "ያልታወቀ"
+
+#: src/nemo-properties-window.c:1357
+msgid "Cancel Group Change?"
+msgstr "የቡድኑን ለውጥ ልሰርዝ?"
+
+#: src/nemo-properties-window.c:1772
+msgid "Cancel Owner Change?"
+msgstr "የባለቤቱን ለውጥ ልሰርዝ?"
+
+#: src/nemo-properties-window.c:2093
+msgid "nothing"
+msgstr "ምንም የለም"
+
+#: src/nemo-properties-window.c:2095
+msgid "unreadable"
+msgstr "የማይነበብ"
+
+#: src/nemo-properties-window.c:2110
+#, c-format
+msgid "%1$s item (and %2$s hidden), with size %3$s"
+msgid_plural "%1$s items (and %2$s hidden), totalling %3$s"
+msgstr[0] "%1$s እቃው (እና %2$s የተደበቁ), ከ መጠን %3$s"
+msgstr[1] "%1$s እቃዎቹ (እና %2$s የተደበቁ), ከ ጠቅላላው %3$s"
+
+#: src/nemo-properties-window.c:2115
+#, c-format
+msgid "%1$s item, with size %2$s"
+msgid_plural "%1$s items, totalling %2$s"
+msgstr[0] "%1$s እቃ, ከ መጠን %2$s"
+msgstr[1] "%1$s እቃዎቹ, ከ ጠቅላላው %2$s"
+
+#: src/nemo-properties-window.c:2124
+msgid "(some contents unreadable)"
+msgstr "(አንድንድ ይዞታዎች አይነበቡም)"
+
+#. Also set the title field here, with a trailing carriage return &
+#. * space if the value field has two lines. This is a hack to get the
+#. * "Contents:" title to line up with the first line of the
+#. * 2-line value. Maybe there's a better way to do this, but I
+#. * couldn't think of one.
+#. 
+#: src/nemo-properties-window.c:2141
+msgid "Contents:"
+msgstr "ይዞታዎች :"
+
+#. Translators: "used" refers to the capacity of the filesystem
+#: src/nemo-properties-window.c:2927
+msgid "used"
+msgstr "የተጠቀሙት"
+
+#. Translators: "free" refers to the capacity of the filesystem
+#: src/nemo-properties-window.c:2934
+msgid "free"
+msgstr "ነጻ"
+
+#: src/nemo-properties-window.c:2936
+msgid "Total capacity:"
+msgstr "ጠቅላላ መጠን :"
+
+#: src/nemo-properties-window.c:2945
+msgid "Filesystem type:"
+msgstr "የፋይል ስርአት አይነት :"
+
+#: src/nemo-properties-window.c:3030
+msgid "Basic"
+msgstr "መስረታዊ"
+
+#: src/nemo-properties-window.c:3087
+#: libnemo-private/nemo-file-conflict-dialog.c:271
+#: libnemo-private/nemo-file-conflict-dialog.c:303
+msgid "Type:"
+msgstr "አይነት :"
+
+#: src/nemo-properties-window.c:3096 libnemo-private/nemo-file.c:8076
+msgid "Link target:"
+msgstr "የአገናኝ ኢላም :"
+
+#: src/nemo-properties-window.c:3107
+#: libnemo-private/nemo-file-conflict-dialog.c:268
+#: libnemo-private/nemo-file-conflict-dialog.c:300
+msgid "Size:"
+msgstr "መጠን :"
+
+#: src/nemo-properties-window.c:3116
+msgid "Location:"
+msgstr "አካባቢ :"
+
+#: src/nemo-properties-window.c:3123
+msgid "Volume:"
+msgstr "መጠን :"
+
+#: src/nemo-properties-window.c:3136
+msgid "Accessed:"
+msgstr "የተደረሰበት:"
+
+#: src/nemo-properties-window.c:3141
+msgid "Created:"
+msgstr "የተፈጠረው:"
+
+#: src/nemo-properties-window.c:3148
+msgid "Modified:"
+msgstr "የተሻሻለ :"
+
+#: src/nemo-properties-window.c:3157
+msgid "Free space:"
+msgstr "ነጻ ቦታ :"
+
+#: src/nemo-properties-window.c:3578
+msgid "_Read"
+msgstr "_ያንብቡ"
+
+#: src/nemo-properties-window.c:3580
+msgid "_Write"
+msgstr "_ይጻፉ"
+
+#: src/nemo-properties-window.c:3582
+msgid "E_xecute"
+msgstr "መ_ፈጸሚያ"
+
+#. translators: this gets concatenated to "no read",
+#. * "no access", etc. (see following strings)
+#. 
+#: src/nemo-properties-window.c:3850 src/nemo-properties-window.c:3861
+#: src/nemo-properties-window.c:3873
+msgid "no "
+msgstr "አይ "
+
+#: src/nemo-properties-window.c:3853
+msgid "list"
+msgstr "ዝርዝር"
+
+#: src/nemo-properties-window.c:3855
+msgid "read"
+msgstr "ያንብቡ"
+
+#: src/nemo-properties-window.c:3864
+msgid "create/delete"
+msgstr "መፍጠሪያ / ማጥፊያ"
+
+#: src/nemo-properties-window.c:3866
+msgid "write"
+msgstr "ይጻፉ"
+
+#: src/nemo-properties-window.c:3875
+msgid "access"
+msgstr "ፍቃድ"
+
+#: src/nemo-properties-window.c:3923
+msgid "Access:"
+msgstr "ፍቃድ :"
+
+#: src/nemo-properties-window.c:3925
+msgid "Folder access:"
+msgstr "የፎልደር ፍቃድ :"
+
+#: src/nemo-properties-window.c:3927
+msgid "File access:"
+msgstr "የፋይል ፍቃድ :"
+
+#: src/nemo-properties-window.c:3945
+msgid "List files only"
+msgstr "ዝርዝር ፋይሎች ብቻ"
+
+#: src/nemo-properties-window.c:3947
+msgid "Access files"
+msgstr "የፋይሎች ፍቃድ"
+
+#: src/nemo-properties-window.c:3949
+msgid "Create and delete files"
+msgstr "ፋይሎች መፍጠሪያ እና ማጥፊያ"
+
+#: src/nemo-properties-window.c:3956
+msgid "Read-only"
+msgstr "ለማንበብ - ብቻ"
+
+#: src/nemo-properties-window.c:3958
+msgid "Read and write"
+msgstr "ለማንበብ እና ለመጻፍ"
+
+#: src/nemo-properties-window.c:4023
+msgid "Special flags:"
+msgstr "የተለዩ ምልክቶች :"
+
+#: src/nemo-properties-window.c:4025
+msgid "Set _user ID"
+msgstr "የ _ተጠቃሚ መለያ ማሰናጃ"
+
+#: src/nemo-properties-window.c:4026
+msgid "Set gro_up ID"
+msgstr "የ _ቡድን መለያ ማሰናጃ"
+
+#: src/nemo-properties-window.c:4027
+msgid "_Sticky"
+msgstr "_ተጣባቂ"
+
+#: src/nemo-properties-window.c:4101 src/nemo-properties-window.c:4293
+msgid "_Owner:"
+msgstr "_ባለቤት :"
+
+#: src/nemo-properties-window.c:4109 src/nemo-properties-window.c:4198
+#: src/nemo-properties-window.c:4303
+msgid "Owner:"
+msgstr "ባለቤት :"
+
+#: src/nemo-properties-window.c:4131 src/nemo-properties-window.c:4315
+msgid "_Group:"
+msgstr "_ቡድን :"
+
+#: src/nemo-properties-window.c:4139 src/nemo-properties-window.c:4199
+#: src/nemo-properties-window.c:4323
+msgid "Group:"
+msgstr "ቡድን :"
+
+#: src/nemo-properties-window.c:4178
+msgid "Execute:"
+msgstr "መፈጸሚያ :"
+
+#: src/nemo-properties-window.c:4181
+msgid "Allow _executing file as program"
+msgstr "ፋይሉ እንደ ፕሮግራም _እንዲፈጸም መፍቀጃ"
+
+#: src/nemo-properties-window.c:4200
+msgid "Others:"
+msgstr "ሌሎች :"
+
+#: src/nemo-properties-window.c:4339
+msgid "Folder Permissions:"
+msgstr "የፎልደር ፍቃዶች :"
+
+#: src/nemo-properties-window.c:4347
+msgid "File Permissions:"
+msgstr "የፋይል ፍቃዶች :"
+
+#: src/nemo-properties-window.c:4356
+msgid "Text view:"
+msgstr "ጽሁፍ መመልከቻ :"
+
+#: src/nemo-properties-window.c:4490
+#: libnemo-private/nemo-column-utilities.c:127
+msgid "Permissions"
+msgstr "ፍቃዶች"
+
+#: src/nemo-properties-window.c:4504
+msgid "You are not the owner, so you cannot change these permissions."
+msgstr "ባለቤት ስላልሆኑ እነዚህን ፍቃዶች መቀየር አይችሉም"
+
+#: src/nemo-properties-window.c:4524
+msgid "SELinux context:"
+msgstr "SELinux context:"
+
+#: src/nemo-properties-window.c:4529
+msgid "Last changed:"
+msgstr "መጨረሻ የተቀየረው :"
+
+#: src/nemo-properties-window.c:4541
+msgid "Apply Permissions to Enclosed Files"
+msgstr "ተያይዘው ለሚገኙ ፋይሎች ፍቃዶችን መፈጸሚያ"
+
+#: src/nemo-properties-window.c:4551
+#, c-format
+msgid "The permissions of \"%s\" could not be determined."
+msgstr "ፍቃዶቹ ከ \"%s\" አይወስኑም"
+
+#: src/nemo-properties-window.c:4554
+msgid "The permissions of the selected file could not be determined."
+msgstr "የተመረጠው ፋይል ፍቃዶች መወሰን አልተቻለም"
+
+#: src/nemo-properties-window.c:4794
+msgid "Open With"
+msgstr "መከፈቻ በ"
+
+#: src/nemo-properties-window.c:4932
+msgid "Help"
+msgstr "እርዳታ"
+
+#: src/nemo-properties-window.c:4933
+msgid "Close"
+msgstr "መዝጊያ"
+
+#: src/nemo-properties-window.c:5151
+msgid "Creating Properties window."
+msgstr "የምርጫዎች መስኮት በመፍጠር ላይ"
+
+#: src/nemo-properties-window.c:5182 src/nemo-view.c:1705
+msgid "There was an error displaying help."
+msgstr "ስህተት ተፈጥሯል እርዳታ ለማሳየት ሲሞከር"
+
+#: src/nemo-properties-window.c:5412
+msgid "Revert"
+msgstr "ወደ ነበረበት መመለሻ"
+
+#: src/nemo-query-editor.c:737
+msgid "Not supported in this location"
+msgstr ""
+
+#: src/nemo-script-config-widget.c:148
+msgid "No scripts found"
+msgstr "ምንም ጽሁፍ አልተገኘም"
+
+#: src/nemo-script-config-widget.c:345
+msgid "Scripts"
+msgstr "ጽሁፍ"
+
+#: src/nemo-statusbar.c:176
+msgid "Show Places"
+msgstr "ቦታዎችን ማሳያ"
+
+#: src/nemo-statusbar.c:185
+msgid "Show Treeview"
+msgstr "በዛፍ መመልከቻ ማሳያ"
+
+#: src/nemo-statusbar.c:199
+msgid "Hide the Sidebar (F9)"
+msgstr "የጎን መደርደሪያውን መደበቂያ (F9)"
+
+#: src/nemo-statusbar.c:208
+msgid "Show the Sidebar (F9)"
+msgstr "የጎን መደርደሪያውን ማሳያ (F9)"
+
+#: src/nemo-statusbar.c:222
+msgid "Adjust zoom level"
+msgstr "የማሳያውን መጠን ማስተካከያ"
+
+#: src/nemo-thumbnail-problem-bar.c:114
+msgid ""
+"A problem has been detected with your thumbnail cache.  Fixing it will "
+"require administrative privileges."
+msgstr "በ እርስዎ የ አውራ ጣት ልክ ማጠራቀሚያ ውስጥ ችግር ተፈጥሯል: ለ መጠገን የ አስተዳዳሪ ፍቃድ ያስፈልጋል"
+
+#: src/nemo-thumbnail-problem-bar.c:118
+msgid "Fix now"
+msgstr "አሁን መጠገኛ"
+
+#: src/nemo-thumbnail-problem-bar.c:121
+msgid "Dismiss"
+msgstr "መደምሰሻ"
+
+#: src/nemo-toolbar.c:247
+msgid "Elevated Privileges"
+msgstr "ያደገው ቅድሚያ"
+
+#: src/nemo-trash-bar.c:218
+msgid "Restore Selected Items"
+msgstr "የተመረጡትን እቃዎች እንደነበር መመለሻ"
+
+#: src/nemo-trash-bar.c:221
+msgid "Restore selected items to their original position"
+msgstr "የተመረጡትን እቃዎች ወደ ነበሩበት ሁኔታ መመለሻ"
+
+#: src/nemo-tree-sidebar.c:971 src/nemo-view.c:6773
+#, c-format
+msgid "\"%s\" will be moved if you select the Paste command"
+msgstr "\"%s\" የመለጠፊያ ትእዛዝን ከመረጡ ይንቀሳቀሳል"
+
+#: src/nemo-tree-sidebar.c:975 src/nemo-view.c:6777
+#, c-format
+msgid "\"%s\" will be copied if you select the Paste command"
+msgstr "\"%s\" የመለጠፊያ ትእዛዝን ከመረጡ ኮፒ ይደረጋል"
+
+#: src/nemo-tree-sidebar.c:1014 src/nemo-view.c:7027
+msgid "There is nothing on the clipboard to paste."
+msgstr "በቁራጭ ሰሌዳው ላይ የሚለጠፍ ምንም ነገር የለም"
+
+#. add the "create new folder" menu item
+#. name, stock id
+#. label, accelerator
+#: src/nemo-tree-sidebar.c:1351 src/nemo-view.c:8217
+#: gresources/nemo-file-management-properties.glade:3790
+msgid "Create New _Folder"
+msgstr "አዲስ _ፎልደር መፍጠሪያ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-tree-sidebar.c:1364 src/nemo-view.c:8272 src/nemo-view.c:8416
+#: gresources/nemo-file-management-properties.glade:3471
+msgid "Cu_t"
+msgstr "መቁረ_ጫ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-tree-sidebar.c:1376 src/nemo-view.c:8276 src/nemo-view.c:8420
+#: gresources/nemo-file-management-properties.glade:3490
+msgid "_Copy"
+msgstr "_ኮፒ"
+
+#. We make accelerator "" instead of null here to not inherit the stock
+#. accelerator for paste
+#. name, stock id
+#. label, accelerator
+#: src/nemo-tree-sidebar.c:1388 src/nemo-view.c:8286 src/nemo-view.c:8424
+msgid "_Paste Into Folder"
+msgstr "ወደ ፎልደር _መለጠፊያ"
+
+#: src/nemo-tree-sidebar.c:1402 src/nemo-view.c:8501
+#: gresources/nemo-file-management-properties.glade:3547
+msgid "P_in"
+msgstr ""
+
+#: src/nemo-tree-sidebar.c:1414 src/nemo-view.c:8505
+msgid "Unp_in"
+msgstr ""
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-tree-sidebar.c:1445 src/nemo-view.c:8324 src/nemo-view.c:8433
+#: src/nemo-view.c:9835
+msgid "_Delete"
+msgstr "_ማጥፊያ"
+
+#: src/nemo-tree-sidebar.c:1487
+msgid "P_roperties"
+msgstr "ባ_ህሪዎች"
+
+#: src/nemo-tree-sidebar.c:1565 libnemo-private/nemo-desktop-link.c:126
+#: generate_additional_file:48 gresources/nemo-desktop-preferences.glade:133
+#: gresources/nemo-file-management-properties.glade:2950
+msgid "Computer"
+msgstr "ኮምፒዩተር"
+
+#: src/nemo-view.c:1087
+#, c-format
+msgid "This will open %'d separate tab."
+msgid_plural "This will open %'d separate tabs."
+msgstr[0] "ይህ የሚከፍተው %'d የተለየ ንዑስ መስኮት ነው"
+msgstr[1] "ይህ የሚከፍተው %'d የተለዩ ንዑስ መስኮቶችን ነው"
+
+#: src/nemo-view.c:1090
+#, c-format
+msgid "This will open %'d separate window."
+msgid_plural "This will open %'d separate windows."
+msgstr[0] "ይህ የሚከፍተው %'d የተለየ መስኮት ነው"
+msgstr[1] "ይህ የሚከፍተው %'d የተለዩ መስኮቶችን ነው"
+
+#: src/nemo-view.c:1725
+msgid "Select Items Matching"
+msgstr "ተመሳሳይ እቃዎችን ይምረጡ"
+
+#: src/nemo-view.c:1740
+msgid "_Pattern:"
+msgstr "_ምሳሌ :"
+
+#: src/nemo-view.c:1746
+msgid "Examples: "
+msgstr "ምሳሌዎች : "
+
+#. Reset to default info
+#: src/nemo-view.c:2590 libnemo-private/nemo-file-undo-operations.c:147
+msgid "Undo"
+msgstr "መተው"
+
+#: src/nemo-view.c:2591 libnemo-private/nemo-file-undo-operations.c:150
+msgid "Undo last action"
+msgstr "የመጨረሻውን ተግባር መተው"
+
+#. Reset to default info
+#: src/nemo-view.c:2609 libnemo-private/nemo-file-undo-operations.c:154
+msgid "Redo"
+msgstr "እንደገና መስሪያ"
+
+#: src/nemo-view.c:2610 libnemo-private/nemo-file-undo-operations.c:157
+msgid "Redo last undone action"
+msgstr "መጨረሻ የተዉትን ተግባር እንደገና መስሪያ"
+
+#: src/nemo-view.c:2804
+msgid "Content View"
+msgstr "ይዞታዎች መመልከቻ"
+
+#: src/nemo-view.c:2805
+msgid "View of the current folder"
+msgstr "የአሁኑን ፎልደር መመልከቻ"
+
+#: src/nemo-view.c:3076 src/nemo-view.c:3113
+#, c-format
+msgid "\"%s\" selected"
+msgstr "\"%s\" ተመርጧል"
+
+#: src/nemo-view.c:3078
+#, c-format
+msgid "%'d folder selected"
+msgid_plural "%'d folders selected"
+msgstr[0] "%'d ፎልደር ተመርጧል"
+msgstr[1] "%'d ፎልደሮች ተመርጠዋል"
+
+#: src/nemo-view.c:3088
+#, c-format
+msgid " (containing %'d item)"
+msgid_plural " (containing %'d items)"
+msgstr[0] " (የያዘው %'d እቃ)"
+msgstr[1] " (የያዘው %'d እቃዎች)"
+
+#. translators: this is preceded with a string of form 'N folders' (N more than 1)
+#: src/nemo-view.c:3099
+#, c-format
+msgid " (containing a total of %'d item)"
+msgid_plural " (containing a total of %'d items)"
+msgstr[0] " (ጠቅላላ የያዘው %'d እቃ)"
+msgstr[1] " (ጠቅላላ የያዘው %'d እቃዎች)"
+
+#: src/nemo-view.c:3116
+#, c-format
+msgid "%'d item selected"
+msgid_plural "%'d items selected"
+msgstr[0] "%'d የተመረጠው እቃ"
+msgstr[1] "%'d የተመረጡት እቃዎች"
+
+#. Folders selected also, use "other" terminology
+#: src/nemo-view.c:3123
+#, c-format
+msgid "%'d other item selected"
+msgid_plural "%'d other items selected"
+msgstr[0] "%'d ሌላ የተመረጠው እቃ"
+msgstr[1] "%'d ሌሎች የተመረጡት እቃዎች"
+
+#. This is marked for translation in case a localiser
+#. * needs to use something other than parentheses. The
+#. * first message gives the number of items selected;
+#. * the message in parentheses the size of those items.
+#. 
+#: src/nemo-view.c:3140
+#, c-format
+msgid "%s (%s)"
+msgstr "%s (%s)"
+
+#: src/nemo-view.c:3161 libnemo-private/nemo-file.c:6383
+#, c-format
+msgid "%'u item"
+msgid_plural "%'u items"
+msgstr[0] "%'u እቃ"
+msgstr[1] "%'u እቃዎች"
+
+#: src/nemo-view.c:3164
+#, c-format
+msgid "%s, Free space: %s"
+msgstr "%s, ነጻ ቦታ : %s"
+
+#. Marking this for translation, since you
+#. * might want to change "," to something else.
+#. * After the comma the amount of free space will
+#. * be shown.
+#. 
+#: src/nemo-view.c:3179
+#, c-format
+msgid "%s, %s"
+msgstr "%s, %s"
+
+#. Marking this for translation, since you
+#. * might want to change "," to something else.
+#. * After the comma the amount of free space will
+#. * be shown.
+#. 
+#. This is marked for translation in case a localizer
+#. * needs to change ", " to something else. The comma
+#. * is between the message about the number of folders
+#. * and the number of items in those folders and the
+#. * message about the number of other items and the
+#. * total size of those items.
+#. 
+#: src/nemo-view.c:3198 src/nemo-view.c:3211
+#, c-format
+msgid "%s%s, %s"
+msgstr "%s%s, %s"
+
+#. This is marked for translation in case a localizer
+#. * needs to change ", " to something else. The first comma
+#. * is between the message about the number of folders
+#. * and the number of items in those folders and the
+#. * message about the number of other items and the
+#. * total size of those items. After the second comma
+#. * the free space is written.
+#. 
+#: src/nemo-view.c:3225
+#, c-format
+msgid "%s%s, %s, %s"
+msgstr "%s%s, %s, %s"
+
+#: src/nemo-view.c:4713
+#, c-format
+msgid "Open With %s"
+msgstr "መክፈቻ በ  %s"
+
+#: src/nemo-view.c:4715
+#, c-format
+msgid "Use \"%s\" to open the selected item"
+msgid_plural "Use \"%s\" to open the selected items"
+msgstr[0] "ይጠቀሙ \"%s\" የተመረጠውን እቃ ለመክፈት"
+msgstr[1] "ይጠቀሙ \"%s\" የተመረጡትን እቃዎች ለመክፈት"
+
+#: src/nemo-view.c:6079
+#, c-format
+msgid "Run \"%s\" on any selected items"
+msgstr "ማስኬጃ \"%s\" በተመረጠው እቃ ላይ"
+
+#: src/nemo-view.c:6484
+#, c-format
+msgid "Create a new document from template \"%s\""
+msgstr "ከቴምፕሌት አዲስ ሰነድ መፍጠሪያ \"%s\""
+
+#: src/nemo-view.c:6784
+#, c-format
+msgid "The %'d selected item will be moved if you select the Paste command"
+msgid_plural ""
+"The %'d selected items will be moved if you select the Paste command"
+msgstr[0] "ይህ %'d የተመረጠው እቃ ይንቀሳቀሳል የመለጠፊያን ትእዛዝ ከመረጡ"
+msgstr[1] "እነዚህ %'d የተመረጡት እቃዎች ይንቀሳቀሳሉ የመለጠፊያን ትእዛዝ ከመረጡ"
+
+#: src/nemo-view.c:6791
+#, c-format
+msgid "The %'d selected item will be copied if you select the Paste command"
+msgid_plural ""
+"The %'d selected items will be copied if you select the Paste command"
+msgstr[0] "ይህ %'d የተመረጠው እቃ ኮፒ ይደረጋል የመለጠፊያን ትእዛዝ ከመረጡ"
+msgstr[1] "እነዚህ %'d የተመረጡት እቃዎች ኮፒ ይደረጋሉ የመለጠፊያን ትእዛዝ ከመረጡ"
+
+#: src/nemo-view.c:6961
+msgid "Select Target Folder For Move"
+msgstr "ለማንቀሳቀስ ኢላማውን ፎልደር ይምረጡ"
+
+#: src/nemo-view.c:6984
+msgid "Select Target Folder For Copy"
+msgstr "ኮፒ ለማድረግ ኢላማውን ፎልደር ይምረጡ"
+
+#: src/nemo-view.c:7458
+msgid "Unable to unmount location"
+msgstr "አካባቢውን ማውረድ አልተቻለም"
+
+#: src/nemo-view.c:7478
+msgid "Unable to eject location"
+msgstr "አካባቢውን ማውጣት አልተቻለም"
+
+#: src/nemo-view.c:7493
+msgid "Unable to stop drive"
+msgstr "አካሉን ማስቆም አልተቻለም"
+
+#: src/nemo-view.c:7979
+#, c-format
+msgid "Connect to Server %s"
+msgstr "ወደ ሰርቨር መገናኛ %s"
+
+#: src/nemo-view.c:7984 src/nemo-view.c:9115 src/nemo-view.c:9202
+#: src/nemo-view.c:9306
+msgid "_Connect"
+msgstr "_መገናኛ"
+
+#: src/nemo-view.c:7998
+msgid "Link _name:"
+msgstr "የአገናኝ _ስም :"
+
+#. name, stock id, label
+#: src/nemo-view.c:8205
+msgid "Create New _Document"
+msgstr "አዲስ _ሰነድ መፍጠሪያ"
+
+#. name, stock id, label
+#: src/nemo-view.c:8206
+msgid "Open Wit_h"
+msgstr "መክፈቻ _በ"
+
+#: src/nemo-view.c:8207
+msgid "Choose a program with which to open the selected item"
+msgstr "ለተመረጠውን እቃ መክፈቻ የሚሆን መተግበሪያ ይምረጡ"
+
+#. tooltip
+#: src/nemo-view.c:8210 src/nemo-view.c:9876
+msgid "View or modify the properties of each selected item"
+msgstr "እያንዳንዱ የተመረጠውን እቃ ባህሪ መመልከቻ ወይንም ማረሚያ"
+
+#. tooltip
+#: src/nemo-view.c:8218
+msgid "Create a new empty folder inside this folder"
+msgstr "በዚህ ፎልደር ውስጥ አዲስ ባዶ ፎልደር መፍጠሪያ"
+
+#. name, stock id, label
+#: src/nemo-view.c:8220
+msgid "No templates installed"
+msgstr "ምንም ቴምፕሌቶች አልተገጠሙም"
+
+#. name, stock id
+#. translators: this is used to indicate that a document doesn't contain anything
+#. label, accelerator
+#: src/nemo-view.c:8223
+msgid "_Empty Document"
+msgstr "_ባዶ ሰነድ"
+
+#. tooltip
+#: src/nemo-view.c:8224
+msgid "Create a new empty document inside this folder"
+msgstr "በዚህ ፎልደር ውስጥ አዲስ ባዶ ሰነድ መፍጠሪያ"
+
+#. tooltip
+#: src/nemo-view.c:8228
+msgid "Open the selected item in this window"
+msgstr "የተመረጠውን እቃ በዚህ መስኮት ውስጥ መክፈቻ"
+
+#. name, stock id
+#. label, accelerator
+#. Location-specific actions
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8235 src/nemo-view.c:8407
+msgid "Open in Navigation Window"
+msgstr "በመቃኛ መስኮት ውስጥ መክፈቻ"
+
+#. tooltip
+#: src/nemo-view.c:8236
+msgid "Open each selected item in a navigation window"
+msgstr "እያንዳንዱ የተመረጡትን እቃዎች በመቃኛ መስኮቶች መክፈቻ"
+
+#. tooltip
+#: src/nemo-view.c:8240
+msgid "Open each selected item in a new tab"
+msgstr "እያንዳንዱ የተመረጠውን እቃ በአዲስ ንዑስ መስኮት መክፈቻ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8243 src/nemo-window-menus.c:1628
+#: gresources/nemo-file-management-properties.glade:3661
+#: gresources/nemo-file-management-properties.glade:3828
+msgid "Open in Terminal"
+msgstr "በተርሚናል ውስጥ መክፈቻ"
+
+#. tooltip
+#: src/nemo-view.c:8244
+msgid "Open terminal in the selected folder"
+msgstr "በተመረጠው ፎልደር ውስጥ ተርሚናል መክፈቻ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8247 gresources/nemo-file-management-properties.glade:3679
+#: gresources/nemo-file-management-properties.glade:3846
+msgid "Open as Root"
+msgstr "እንደ Root መክፈቻ"
+
+#. tooltip
+#: src/nemo-view.c:8248
+msgid "Open the folder with administration privileges"
+msgstr "ፎልደሩን በአስተዳዳሪ መብት መክፈቻ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8252
+msgid "Follow link to original file"
+msgstr "አገናኙን ተከተል ወደ ዋናው ፋይል"
+
+#. tooltip
+#: src/nemo-view.c:8253
+msgid "Navigate to the original file that this symbolic link points to"
+msgstr "ወደ ዋናው ፋይል መቃኛ ይህ የ ምልክት አገናኝ ወደሚጠቁመው"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8256
+msgid "Open containing folder"
+msgstr "ፎልደሩን የያዘውን መክፈቻ"
+
+#. tooltip
+#: src/nemo-view.c:8257
+msgid "Navigate to the folder that the selected item is stored in"
+msgstr "የ ተመረጠው እቃ የ ተጠራቀመበትን ፎልደር መቃኛ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8260
+msgid "Other _Application..."
+msgstr "ሌሎች _መተግበሪያዎች..."
+
+#. tooltip
+#: src/nemo-view.c:8261 src/nemo-view.c:8265
+msgid "Choose another application with which to open the selected item"
+msgstr "ለተመረጠውን እቃ መክፈቻ የሚሆን ሌላ መተግበሪያ ይምረጡ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8264
+msgid "Open With Other _Application..."
+msgstr "በሌላ _መተግበሪያ መክፈቻ..."
+
+#. tooltip
+#: src/nemo-view.c:8273
+msgid "Prepare the selected files to be moved with a Paste command"
+msgstr "የተመረጡትን ፋይሎች በመለጠፊያ ትእዛዝ  ለማንቀሳቀስ በማዘጋጀት ላይ"
+
+#. tooltip
+#: src/nemo-view.c:8277
+msgid "Prepare the selected files to be copied with a Paste command"
+msgstr "የተመረጡትን ፋይሎች በመለጠፊያ ትእዛዝ  ኮፒ እንዲደረጉ በማዘጋጀት ላይ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8280 gresources/nemo-file-management-properties.glade:3509
+#: gresources/nemo-file-management-properties.glade:3883
+msgid "_Paste"
+msgstr "_መለጠፊያ"
+
+#. tooltip
+#: src/nemo-view.c:8281
+msgid "Move or copy files previously selected by a Cut or Copy command"
+msgstr "ማንቀሳቀሻ ወይንም ኮፒ ማድረጊያ ቀደም ብለው የተመረጡትን ፋይሎች በመቁረጫ ወይንም በመለጠፊያ ትእዛዝ"
+
+#. tooltip
+#: src/nemo-view.c:8287
+msgid ""
+"Move or copy files previously selected by a Cut or Copy command into the "
+"selected folder"
+msgstr ""
+"ማንቀሳቀሻ ወይንም ኮፒ ማድረጊያ ቀደም ብለው የተመረጡትን ፋይሎች በመቁረጫ ወይንም በመለጠፊያ ትእዛዝ  ከተመረጠው ፎልደር"
+
+#. name, stock id, label
+#: src/nemo-view.c:8289 gresources/nemo-file-management-properties.glade:3623
+msgid "Cop_y to"
+msgstr "ኮ_ፒ ወደ"
+
+#. name, stock id, label
+#: src/nemo-view.c:8290 gresources/nemo-file-management-properties.glade:3642
+msgid "M_ove to"
+msgstr "ማ_ንቀሳቀሻ ወደ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8292 libnemo-private/nemo-clipboard.c:444
+msgid "Select _All"
+msgstr "_ሁሉንም መምረጫ"
+
+#. tooltip
+#: src/nemo-view.c:8293
+msgid "Select all items in this window"
+msgstr "በዚህ መስኮት ውስጥ ያሉትን ሁሉንም እቃዎች መምረጫ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8296
+msgid "Select I_tems Matching..."
+msgstr "የሚመሳሰሉ እ_ቃዎችን መምረጫ..."
+
+#. tooltip
+#: src/nemo-view.c:8297
+msgid "Select items in this window matching a given pattern"
+msgstr "በዚህ መስኮት ውስጥ እቃ መምረጫ የ ተሰጠውን ንድፍ የሚመሳሰል"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8300
+msgid "_Invert Selection"
+msgstr "_መገልበጫ ምርጫውን"
+
+#. tooltip
+#: src/nemo-view.c:8301
+msgid "Select all and only the items that are not currently selected"
+msgstr "ይምረጡ ሁሉንም እና አሁን ያልተመረጡትን እቃዎች ብቻ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8304 gresources/nemo-file-management-properties.glade:3528
+msgid "D_uplicate"
+msgstr "ማ_ባዣ"
+
+#. tooltip
+#: src/nemo-view.c:8305
+msgid "Duplicate each selected item"
+msgstr "እየንዳንዱ የተመረጡትን እቃዎች ማባዣ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8308 src/nemo-view.c:9861
+#: gresources/nemo-file-management-properties.glade:3585
+msgid "Ma_ke Link"
+msgid_plural "Ma_ke Links"
+msgstr[0] "አገ_ናኝ መፍጠሪያ"
+msgstr[1] "አገ_ናኞች መፍጠሪያ"
+
+#. tooltip
+#: src/nemo-view.c:8309
+msgid "Create a symbolic link for each selected item"
+msgstr "ለ እያንዳንዱ ለተመረጠው እቃ  ባለ ምልክት ማያያዣ መፍጠሪያ"
+
+#. tooltip
+#: src/nemo-view.c:8313
+msgid "Rename selected item"
+msgstr "የተመረጠውን እቃ እንደገና መሰየሚያ"
+
+#. tooltip
+#: src/nemo-view.c:8321 src/nemo-view.c:9812
+msgid "Move each selected item to the Trash"
+msgstr "እያንዳንዱ የተመረጠውን እቃ ወደ ቆሻሻ ማንቀሳቀሻ"
+
+#. tooltip
+#: src/nemo-view.c:8325 src/nemo-view.c:9836
+msgid "Delete each selected item, without moving to the Trash"
+msgstr "እያንዳንዱ የተመረጠውን እቃ ማጥፊያ ወደ ቆሻሻ ሳያንቀሳቅሱ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8328 src/nemo-view.c:8437
+msgid "_Restore"
+msgstr "_እንደነበር መመለሻ"
+
+#. name, stock id
+#. label, accelerator
+#. name, stock id, label
+#: src/nemo-view.c:8332 src/nemo-window-menus.c:1294
+msgid "_Undo"
+msgstr "_መተው"
+
+#. tooltip
+#: src/nemo-view.c:8333
+msgid "Undo the last action"
+msgstr "የመጨረሻውን ተግባር መተው"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8336
+msgid "_Redo"
+msgstr "_እንደገና መስሪያ"
+
+#. tooltip
+#: src/nemo-view.c:8337
+msgid "Redo the last undone action"
+msgstr "መጨረሻ የተተወውን ተግባር እንደገና መስሪያ"
+
+#. 
+#. * multiview-TODO: decide whether "Reset to Defaults" should
+#. * be window-wide, and not just view-wide.
+#. * Since this also resets the "Show hidden files" mode,
+#. * it is a mixture of both ATM.
+#. 
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8346
+msgid "Reset View to _Defaults"
+msgstr "ለ _ነባሮች መመልከቻውን እንደነበር መመለሻ"
+
+#. tooltip
+#: src/nemo-view.c:8347
+msgid "Reset sorting order and zoom level to match preferences for this view"
+msgstr "የ መለያ ቅደም ተከተል እንደ ነበር መመለሻ እና የ ማሳያ መጠን እንዲስማማ ከ ምርጫዎች ጋር ለዚህ መመልከቻ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8350
+msgid "Connect To This Server"
+msgstr "ወደዚህ ሰርቨር መገናኛ"
+
+#. tooltip
+#: src/nemo-view.c:8351
+msgid "Make a permanent connection to this server"
+msgstr "ወደ እዚህ ሰርቨሩ ቋሚ ግንኙነት መፍጠሪያ"
+
+#. tooltip
+#: src/nemo-view.c:8355
+msgid "Mount the selected volume"
+msgstr "የተመረጠውን መጠን መጫኛ"
+
+#. tooltip
+#: src/nemo-view.c:8359
+msgid "Unmount the selected volume"
+msgstr "የተመረጠውን መጠን ማውረጃ"
+
+#. tooltip
+#: src/nemo-view.c:8363
+msgid "Eject the selected volume"
+msgstr "የተመረጠውን መጠን ማውጫ"
+
+#. tooltip
+#: src/nemo-view.c:8367
+msgid "Start the selected volume"
+msgstr "የተመረጠውን መጠን ማስጀመሪያ"
+
+#. tooltip
+#: src/nemo-view.c:8371 src/nemo-view.c:9328
+msgid "Stop the selected volume"
+msgstr "የተመረጠውን መጠን ማስቆሚያ"
+
+#. tooltip
+#: src/nemo-view.c:8375 src/nemo-view.c:8399 src/nemo-view.c:8462
+msgid "Detect media in the selected drive"
+msgstr "በተመረጠው አካል ውስጥ መገናኛ ፈልጎ ማግኛ"
+
+#. tooltip
+#: src/nemo-view.c:8379
+msgid "Mount the volume associated with the open folder"
+msgstr "ከተከፈተው ፎልደር ጋር የሚዛመደውን መጠን መጫኛ"
+
+#. tooltip
+#: src/nemo-view.c:8383
+msgid "Unmount the volume associated with the open folder"
+msgstr "ከተከፈተው ፎልደር ጋር የሚዛመደውን መጠን ማውረጃ"
+
+#. tooltip
+#: src/nemo-view.c:8387
+msgid "Eject the volume associated with the open folder"
+msgstr "ከተከፈተው ፎልደር ጋር የሚዛመደውን መጠን ማውጫ"
+
+#. tooltip
+#: src/nemo-view.c:8391
+msgid "Start the volume associated with the open folder"
+msgstr "ከተከፈተው ፎልደር ጋር የሚዛመደውን መጠን ማስጀመሪያ"
+
+#. tooltip
+#: src/nemo-view.c:8395
+msgid "Stop the volume associated with the open folder"
+msgstr "ከተከፈተው ፎልደር ጋር የሚዛመደውን መጠን ማስቆሚያ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8402
+msgid "Open File and Close window"
+msgstr "ፋይል መክፈቻ እና መስኮት መዝጊያ"
+
+#. tooltip
+#: src/nemo-view.c:8408
+msgid "Open this folder in a navigation window"
+msgstr "ይህን ፎልደር በመስኮት መቃኛው ውስጥ መክፈቻ"
+
+#. tooltip
+#: src/nemo-view.c:8412
+msgid "Open this folder in a new tab"
+msgstr "ይህን ፎልደር በአዲስ ንዑስ መስኮት መክፈቻ"
+
+#. tooltip
+#: src/nemo-view.c:8417
+msgid "Prepare this folder to be moved with a Paste command"
+msgstr "በመለጠፊያ ትእዛዝ ይህን ፎልደር ለማንቀሳቀስ ማሰናጃ"
+
+#. tooltip
+#: src/nemo-view.c:8421
+msgid "Prepare this folder to be copied with a Paste command"
+msgstr "በመለጠፊያ ትእዛዝ ይህን ፎልደር ኮፒ ለማድረግ ማሰናጃ"
+
+#. tooltip
+#: src/nemo-view.c:8425
+msgid ""
+"Move or copy files previously selected by a Cut or Copy command into this "
+"folder"
+msgstr ""
+"ቀደም ብለው የተመረጡትን ፋይሎች ለማንቀሳቀስ ወይንም ኮፒ ለማድረግ በመቁረጫ ወይንም በኮፒ ትእዛዝ ወደዚህ ፎልደር"
+
+#. tooltip
+#: src/nemo-view.c:8430
+msgid "Move this folder to the Trash"
+msgstr "ይህን ፎልደር ወደ ቆሻሻ ማንቀሳቀሻ"
+
+#. tooltip
+#: src/nemo-view.c:8434
+msgid "Delete this folder, without moving to the Trash"
+msgstr "ይህን ፎልደር ማጥፊያ ወደ ቆሻሻ ሳይንቀሳቀስ"
+
+#. tooltip
+#: src/nemo-view.c:8442
+msgid "Mount the volume associated with this folder"
+msgstr "ከዚህ ፎልደር ጋር የሚዛመዱትን መጠኖች መጫኛ"
+
+#. tooltip
+#: src/nemo-view.c:8446
+msgid "Unmount the volume associated with this folder"
+msgstr "ከዚህ ፎልደር ጋር የሚዛመዱትን መጠኖች ማውረጃ"
+
+#. tooltip
+#: src/nemo-view.c:8450
+msgid "Eject the volume associated with this folder"
+msgstr "ከዚህ ፎልደር ጋር የሚዛመዱትን መጠኖች ማስወጫ"
+
+#. tooltip
+#: src/nemo-view.c:8454
+msgid "Start the volume associated with this folder"
+msgstr "ከዚህ ፎልደር ጋር የሚዛመዱትን መጠኖች ማስጀመሪያ"
+
+#. tooltip
+#: src/nemo-view.c:8458
+msgid "Stop the volume associated with this folder"
+msgstr "ከዚህ ፎልደር ጋር የሚዛመዱትን መጠኖች ማስቆሚያ"
+
+#. tooltip
+#: src/nemo-view.c:8467
+msgid "View or modify the properties of this folder"
+msgstr "የዚህን ፎልደር ባህሪዎች ማሻሻያ ወይንም መመልከቻ"
+
+#. name, stock id, label
+#: src/nemo-view.c:8470 src/nemo-view.c:8473
+msgid "_Other pane"
+msgstr "_ሌላ ክፍል"
+
+#: src/nemo-view.c:8471
+msgid "Copy the current selection to the other pane in the window"
+msgstr "የአሁኑን ምርጫ ወደ ሌላው መስኮት ክፍል ኮፒ ማድርጊያ"
+
+#: src/nemo-view.c:8474
+msgid "Move the current selection to the other pane in the window"
+msgstr "የአሁኑን ምርጫ ወደ ሌላው መስኮት ክፍል ማንቀሳቀሻ"
+
+#. name, stock id, label
+#. name, stock id
+#. label, accelerator
+#: src/nemo-view.c:8477 src/nemo-view.c:8481 src/nemo-window-menus.c:1369
+#: src/nemo-window-menus.c:1578 src/nemo-window-menus.c:1823
+msgid "_Home"
+msgstr "_ቤት"
+
+#: src/nemo-view.c:8478
+msgid "Copy the current selection to the home folder"
+msgstr "የአሁኑን አካባቢ ወደ ፎልደር ቤት ኮፒ ማድረጊያ"
+
+#: src/nemo-view.c:8482
+msgid "Move the current selection to the home folder"
+msgstr "የአሁኑን አካባቢ ምርጫ ወደ ፎልደር ቤት ማንቀሳቀሻ"
+
+#. name, stock id, label
+#: src/nemo-view.c:8485 src/nemo-view.c:8489
+msgid "_Desktop"
+msgstr "_ዴስክቶፕ"
+
+#: src/nemo-view.c:8486
+msgid "Copy the current selection to the desktop"
+msgstr "የአሁኑን አካባቢ ምርጫ ወደ ዴስክቶፕ ኮፒ ማድረጊያ"
+
+#: src/nemo-view.c:8490
+msgid "Move the current selection to the desktop"
+msgstr "የአሁኑን አካባቢ ምርጫ ወደ ዴስክቶፕ ማንቀሳቀሻ"
+
+#: src/nemo-view.c:8493 src/nemo-view.c:8497
+msgid "Browse..."
+msgstr ""
+
+#: src/nemo-view.c:8494
+msgid "Browse for a folder to move the selection to"
+msgstr "ፎልደር መቃኛ የተመረጠውን ለማንቀሳቀስ ወደ"
+
+#: src/nemo-view.c:8498
+msgid "Browse for a folder to copy the selection to"
+msgstr "ፎልደር መቃኛ የተመረጠውን ኮፒ ለማድረግ ወደ"
+
+#: src/nemo-view.c:8502
+msgid ""
+"Pin the selected file so it always appears at the top of this location's "
+"file list"
+msgstr ""
+
+#: src/nemo-view.c:8506
+msgid "Unpin the selected file from the top of this location's file list"
+msgstr ""
+
+#: src/nemo-view.c:8509
+msgid "Add to favorites"
+msgstr ""
+
+#: src/nemo-view.c:8510
+msgid "Add the selected file to your favorites"
+msgstr ""
+
+#: src/nemo-view.c:8513
+msgid "Remove from favorites"
+msgstr ""
+
+#: src/nemo-view.c:8514
+msgid "Remove the selected file from your favorites"
+msgstr ""
+
+#: src/nemo-view.c:8589
+msgid "Run scripts"
+msgstr "ጽሁፍ ማስኬጃ"
+
+#. Create a script action here specially because its tooltip is dynamic
+#: src/nemo-view.c:8591 gresources/nemo-file-management-properties.glade:3452
+#: gresources/nemo-file-management-properties.glade:3809
+msgid "_Scripts"
+msgstr "ጽሁፎች"
+
+#: src/nemo-view.c:8964
+#, c-format
+msgid "Move the open folder out of the trash to \"%s\""
+msgstr "የተከፈተውን ፎልደር ከቆሻሻ ማጠራቀሚያው ውስጥ ማውጫ ወደ \"%s\""
+
+#: src/nemo-view.c:8967
+#, c-format
+msgid "Move the selected folder out of the trash to \"%s\""
+msgid_plural "Move the selected folders out of the trash to \"%s\""
+msgstr[0] "የተመረጠውን ፎልደር ከቆሻሻ ማጠራቀሚያው ውስጥ ማውጫ ወደ \"%s\""
+msgstr[1] "የተመረጡትን ፎልደሮች ከቆሻሻ ማጠራቀሚያው ውስጥ ማውጫ ወደ \"%s\""
+
+#: src/nemo-view.c:8971
+msgid "Move the selected folder out of the trash"
+msgid_plural "Move the selected folders out of the trash"
+msgstr[0] "የተመረጠውን ፎልደር ከቆሻሻ ማጠራቀሚያው ውስጥ ማንቀሳቀሻ"
+msgstr[1] "የተመረጡትን ፎልደሮች ከቆሻሻ ማጠራቀሚያው ውስጥ ማንቀሳቀሻ"
+
+#: src/nemo-view.c:8977
+#, c-format
+msgid "Move the selected file out of the trash to \"%s\""
+msgid_plural "Move the selected files out of the trash to \"%s\""
+msgstr[0] "የተመረጠውን ፋይል ከቆሻሻ ማጠራቀሚያው ውስጥ ማንቀሳቀሻ ወደ \"%s\""
+msgstr[1] "የተመረጡትን ፋይሎች ከቆሻሻ ማጠራቀሚያው ውስጥ ማንቀሳቀሻ ወደ \"%s\""
+
+#: src/nemo-view.c:8981
+msgid "Move the selected file out of the trash"
+msgid_plural "Move the selected files out of the trash"
+msgstr[0] "የተመረጠውን ፋይል ከቆሻሻ ማጠራቀሚያው ውስጥ ማንቀሳቀሻ"
+msgstr[1] "የተመረጡትን ፋይሎች ከቆሻሻ ማጠራቀሚያው ውስጥ ማንቀሳቀሻ"
+
+#: src/nemo-view.c:8987
+#, c-format
+msgid "Move the selected item out of the trash to \"%s\""
+msgid_plural "Move the selected items out of the trash to \"%s\""
+msgstr[0] "የተመረጠውን እቃ ከቆሻሻ ማጠራቀሚያው ውስጥ ማንቀሳቀሻ ወደ \"%s\""
+msgstr[1] "የተመረጡትን እቃዎች ከቆሻሻ ማጠራቀሚያው ውስጥ ማንቀሳቀሻ ወደ \"%s\""
+
+#: src/nemo-view.c:8991
+msgid "Move the selected item out of the trash"
+msgid_plural "Move the selected items out of the trash"
+msgstr[0] "የተመረጠውን እቃ ከቆሻሻ ማጠራቀሚያው ውስጥ ማንቀሳቀሻ"
+msgstr[1] "የተመረጡትን እቃዎች ከቆሻሻ ማጠራቀሚያው ውስጥ ማንቀሳቀሻ"
+
+#: src/nemo-view.c:9108 src/nemo-view.c:9112 src/nemo-view.c:9299
+#: src/nemo-view.c:9303
+msgid "Start the selected drive"
+msgstr "የተመረጠውን አካል ማስጀመሪያ"
+
+#: src/nemo-view.c:9116 src/nemo-view.c:9307
+msgid "Connect to the selected drive"
+msgstr "የተመረጠውን አካል መገናኛ"
+
+#: src/nemo-view.c:9119 src/nemo-view.c:9206 src/nemo-view.c:9310
+msgid "_Start Multi-disk Drive"
+msgstr "የበርካታ - ዲስክ አካሎችን _ማስጀመሪያ"
+
+#: src/nemo-view.c:9120 src/nemo-view.c:9311
+msgid "Start the selected multi-disk drive"
+msgstr "የተመረጠውን የበርካታ - ዲስክ አካሎችን ማስጀመሪያ"
+
+#: src/nemo-view.c:9123
+msgid "U_nlock Drive"
+msgstr "ያ _ልታወቀ አካል"
+
+#: src/nemo-view.c:9124 src/nemo-view.c:9315
+msgid "Unlock the selected drive"
+msgstr "የተመረጠውን አካል መክፈቻ"
+
+#: src/nemo-view.c:9137
+msgid "Stop the selected drive"
+msgstr "የተመረጠውን አካል ማስቀሚያ"
+
+#: src/nemo-view.c:9141 src/nemo-view.c:9332
+msgid "Safely remove the selected drive"
+msgstr "የተመረጠውን አካል በደህንነት ማስወገጃ"
+
+#: src/nemo-view.c:9144 src/nemo-view.c:9231 src/nemo-view.c:9335
+msgid "_Disconnect"
+msgstr "_መለያያ"
+
+#: src/nemo-view.c:9145 src/nemo-view.c:9336
+msgid "Disconnect the selected drive"
+msgstr "የተመረጠውን አካል መለያያ"
+
+#: src/nemo-view.c:9148 src/nemo-view.c:9235 src/nemo-view.c:9339
+msgid "_Stop Multi-disk Drive"
+msgstr "የበርካታ - ዲስክ አካሎችን _ማስቆሚያ"
+
+#: src/nemo-view.c:9149 src/nemo-view.c:9340
+msgid "Stop the selected multi-disk drive"
+msgstr "የበርካታ - ዲስክ አካሎችን _ማስቆሚያ"
+
+#: src/nemo-view.c:9153 src/nemo-view.c:9344
+msgid "Lock the selected drive"
+msgstr "የተመረጠውን አካል መቆለፊያ"
+
+#: src/nemo-view.c:9195 src/nemo-view.c:9199
+msgid "Start the drive associated with the open folder"
+msgstr "ከተከፈተው ፎልደር ጋር የሚዛመዱ አካሎችን ማስጀመሪያ"
+
+#: src/nemo-view.c:9203
+msgid "Connect to the drive associated with the open folder"
+msgstr "ከተከፈተው ፎልደር ጋር የሚዛመዱ አካሎች ጋር መገናኛ"
+
+#: src/nemo-view.c:9207
+msgid "Start the multi-disk drive associated with the open folder"
+msgstr "ከተከፈተው ፎልደር ጋር የሚዛመዱ የበርካታ - ዲስክ አካሎችን ማስጀመሪያ"
+
+#: src/nemo-view.c:9211
+msgid "Unlock the drive associated with the open folder"
+msgstr "ከተከፈተው ፎልደር ጋር የሚዛመዱ አካሎችን መክፈቻ"
+
+#: src/nemo-view.c:9224
+msgid "_Stop the drive associated with the open folder"
+msgstr "ከተከፈተው ፎልደር ጋር የሚዛመዱ አካሎች _ማስቆሚያ"
+
+#: src/nemo-view.c:9228
+msgid "Safely remove the drive associated with the open folder"
+msgstr "ከተከፈተው ፎልደር ጋር የሚዛመዱ አካሎችን በደህንነት ማስወገጃ"
+
+#: src/nemo-view.c:9232
+msgid "Disconnect the drive associated with the open folder"
+msgstr "ከተከፈተው ፎልደር ጋር የሚዛመዱ አካሎችን መለያያ"
+
+#: src/nemo-view.c:9236
+msgid "Stop the multi-disk drive associated with the open folder"
+msgstr "ከተከፈተው ፎልደር ጋር የሚዛመዱ የበርካታ - ዲስክ አካሎችን ማስቆሚያ"
+
+#: src/nemo-view.c:9240
+msgid "Lock the drive associated with the open folder"
+msgstr "ከተከፈተው ፎልደር ጋር የሚዛመዱ አክሎችን መቆለፊያ"
+
+#: src/nemo-view.c:9482 src/nemo-view.c:9807
+msgid "_Delete Permanently"
+msgstr "በቋሚነት _ማጥፊያ"
+
+#: src/nemo-view.c:9483
+msgid "Delete the open folder permanently"
+msgstr "የተከፈተውን ፎልደር በቋሚነት ማጥፊያ"
+
+#: src/nemo-view.c:9487
+msgid "Move the open folder to the Trash"
+msgstr "የተከፈተውን ፎልደር ወደ ቆሻሻ ማንቀሳቀሻ"
+
+#: src/nemo-view.c:9722
+#, c-format
+msgid "_Open With %s"
+msgstr "_መክፈቻ በ %s"
+
+#: src/nemo-view.c:9771
+#, c-format
+msgid "Open in %'d New _Window"
+msgid_plural "Open in %'d New _Windows"
+msgstr[0] "መክፈቻ በ %'d አዲስ _መስኮት"
+msgstr[1] "መክፈቻ በ %'d አዲስ _መስኮቶች"
+
+#: src/nemo-view.c:9791
+#, c-format
+msgid "Open in %'d New _Tab"
+msgid_plural "Open in %'d New _Tabs"
+msgstr[0] "መክፈቻ በ %'d አዲስ _ንዑስ መስኮት"
+msgstr[1] "መክፈቻ በ %'d አዲስ _ንዑስ መስኮቶች"
+
+#: src/nemo-view.c:9808
+msgid "Delete all selected items permanently"
+msgstr "የተመረጡን እቃዎች በቋሚነት ማጥፊያ"
+
+#: src/nemo-view.c:9832
+msgid "Remo_ve from Recent"
+msgstr "ከ ቅርብ ጊዜ ውስጥ ማስወ_ገጃ"
+
+#: src/nemo-view.c:9833
+msgid "Remove each selected item from the recently used list"
+msgstr "እያንዳንዱ የ ተመረጠውን እቃ ማስወገጃ በ ቅርብ ጊዜ ከ ተጠቀሙት ዝርዝር ውስጥ"
+
+#: src/nemo-view.c:9874
+msgid "View or modify the properties of the open folder"
+msgstr "ከተከፈተው ፎልደር ጋር የሚዛመዱ ባህሪዎችን መመልከቻ ወይንም ማሻሻያ"
+
+#. Note to localizers: convert file type string for file
+#. * (e.g. "folder", "plain text") to file type for symbolic link
+#. * to that kind of file (e.g. "link to folder").
+#. 
+#. appended to new link file
+#: src/nemo-view-dnd.c:125 libnemo-private/nemo-file.c:7007
+#: libnemo-private/nemo-file-operations.c:395
+#, c-format
+msgid "Link to %s"
+msgstr "አገናኝ ወደ %s"
+
+#: src/nemo-view-dnd.c:171 src/nemo-view-dnd.c:205 src/nemo-view-dnd.c:298
+msgid "Drag and drop is not supported."
+msgstr "መጎተት እና መጣል አይቻልም"
+
+#: src/nemo-view-dnd.c:172
+msgid "Drag and drop is only supported on local file systems."
+msgstr "መጎተት እና መጣል የሚደገፈው ለአካባቢ የፋይል ስርአት ብቻ ነው"
+
+#: src/nemo-view-dnd.c:206 src/nemo-view-dnd.c:299
+msgid "An invalid drag type was used."
+msgstr "የማይደገፍ የመጎተት አይነት ተጠቅመዋል"
+
+#. Translator: This is the filename used for when you dnd text to a directory
+#: src/nemo-view-dnd.c:376
+msgid "dropped text.txt"
+msgstr "የተጣለው የጽሁፍ.txt"
+
+#. Translator: This is the filename used for when you dnd raw
+#. * data to a directory, if the source didn't supply a name.
+#. 
+#: src/nemo-view-dnd.c:421
+msgid "dropped data"
+msgstr "የተጣለው ዳታ"
+
+#: src/nemo-window-bookmarks.c:83
+msgid ""
+"Do you want to remove any bookmarks with the non-existing location from your "
+"list?"
+msgstr "ከዝርዝር ውስጥ ምልክት የተደረገበት በአካባቢው የሌለውን ማስወገድ ይፈልጋሉ?"
+
+#: src/nemo-window-bookmarks.c:85
+#, c-format
+msgid "The location \"%s\" does not exist."
+msgstr "አካባቢው \"%s\" አልተገኘም"
+
+#: src/nemo-window-bookmarks.c:88
+msgid "Bookmark for Nonexistent Location"
+msgstr "ምልክት የተደረገበት በአካባቢው የሌለ"
+
+#: src/nemo-window-bookmarks.c:308
+msgid "Go to the location specified by this bookmark"
+msgstr "በምልክት ማድረጊያው የተወሰነው ቦታ መሄጃ"
+
+#: src/nemo-window.c:1384
+#, c-format
+msgid "%s - File Browser"
+msgstr "%s - ፋይል መቃኛ"
+
+#. Set initial window title
+#: src/nemo-window.c:1980 src/nemo-window-menus.c:340
+msgid "Nemo"
+msgstr "ኔሞ"
+
+#: src/nemo-window-manage-views.c:1221
+msgid "Searching..."
+msgstr "በመፈለግ ላይ..."
+
+#: src/nemo-window-manage-views.c:1705 src/nemo-window-manage-views.c:1711
+#: src/nemo-window-manage-views.c:1728 src/nemo-window-manage-views.c:1739
+#: src/nemo-window-manage-views.c:1745 src/nemo-window-manage-views.c:1771
+#, c-format
+msgid "Could not display \"%s\"."
+msgstr "ማሳየት አልተቻለም \"%s\"."
+
+#: src/nemo-window-manage-views.c:1708
+msgid "Nemo has no installed viewer capable of displaying the folder."
+msgstr "ኔሞ ፎልደሩን ለማሳየት የሚያስችለው መመልከቻ አልተገጠመም"
+
+#: src/nemo-window-manage-views.c:1714
+msgid "The location is not a folder."
+msgstr "አካባቢው ፎልደር አይደለም"
+
+#: src/nemo-window-manage-views.c:1720
+#, c-format
+msgid "Could not find \"%s\"."
+msgstr "ማግኘት አልተቻለም \"%s\"."
+
+#: src/nemo-window-manage-views.c:1723
+msgid "Please check the spelling and try again."
+msgstr "እባክዎን ፊደሉን አስተካክለው እንደገና ይሞክሩ"
+
+#: src/nemo-window-manage-views.c:1731
+#, c-format
+msgid "Nemo cannot handle \"%s\" locations."
+msgstr "ኔሞ አካባቢውን \"%s\" ማግኘት አልቻለም"
+
+#: src/nemo-window-manage-views.c:1734
+msgid "Nemo cannot handle this kind of location."
+msgstr "ኔሞ እንደ እዚህ አይነት አካባቢ ማግኘት አልቻለም"
+
+#: src/nemo-window-manage-views.c:1741
+msgid "Unable to mount the location."
+msgstr "አካባቢውን መጫን አልተቻለም"
+
+#: src/nemo-window-manage-views.c:1747
+msgid "Access was denied."
+msgstr "ፍቃድ ተከልክሏል"
+
+#. This case can be hit for user-typed strings like "foo" due to
+#. * the code that guesses web addresses when there's no initial "/".
+#. * But this case is also hit for legitimate web addresses when
+#. * the proxy is set up wrong.
+#. 
+#: src/nemo-window-manage-views.c:1756
+#, c-format
+msgid "Could not display \"%s\", because the host could not be found."
+msgstr "ማሳየት አልተቻለም \"%s\", ምክንያቱም ጋባዡን ማግኘት አልተቻለም"
+
+#: src/nemo-window-manage-views.c:1758
+msgid ""
+"Check that the spelling is correct and that your proxy settings are correct."
+msgstr "ፊደሎቹ በትክክል መጻፋቸውን እና ወኪሉ በትክክል መሰናዳቱን ያረጋግጡ"
+
+#: src/nemo-window-manage-views.c:1773
+#, c-format
+msgid ""
+"Error: %s\n"
+"Please select another viewer and try again."
+msgstr ""
+"ስህተት : %s\n"
+"እባክዎን ሌላ መመልከቻ ይምረጡ እና እንደገና ይሞክሩ"
+
+#: src/nemo-window-menus.c:319
+msgid ""
+"Nemo is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+msgstr ""
+"ኔሞ ነፃ ሶፍትዌር ነው: እርስዎ ማሰራጨት ይችላሉ እና/ወይንም ማሻሻል በ GNU General Public License as "
+"published by the Free Software Foundation; either version 2 of the License, "
+"or (at your option) any later version."
+
+#: src/nemo-window-menus.c:323
+msgid ""
+"Nemo is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"ኔሞ የሚሰራጨው እርስዎን ይጠቅማል በሚል ከፍተኛ ተስፋ ነው: without even the implied warranty of "
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
+"Public License for more details."
+
+#: src/nemo-window-menus.c:327
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"Nemo; if not, write to the Free Software Foundation, Inc., 51 Franklin "
+"Street, Fifth Floor, Boston, MA 02110-1301 USA"
+msgstr ""
+"እርስዎ ክኦፒ ማግኘት ይችላሉ: የ GNU General Public License along with Nemo; if not, "
+"write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth "
+"Floor, Boston, MA 02110-1301 USA"
+
+#: src/nemo-window-menus.c:342
+msgid ""
+"Nemo lets you organize files and folders, both on your computer and online."
+msgstr "ኔሞ ፋይሎች እና ፎልደሮችን ለማደራጀት ይጠቅምዎታል በኮምፒዩተሩ ላይ እና በመስመር ላይ"
+
+#: src/nemo-window-menus.c:403
+#, c-format
+msgid ""
+"There was an error displaying help: \n"
+"%s"
+msgstr ""
+"ስህተት ተፈጥሯል እርዳታን በማሳየት ላይ : \n"
+"%s"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1277
+msgid "_File"
+msgstr "_ፋይል"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1278
+msgid "_Edit"
+msgstr "_ማረሚያ"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1279
+msgid "_View"
+msgstr "_መመልከቻ"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1280
+msgid "_Help"
+msgstr "_እርዳታ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1282
+msgid "_Close"
+msgstr "_መዝጊያ"
+
+#. tooltip
+#: src/nemo-window-menus.c:1283
+msgid "Close this folder"
+msgstr "ይህን ፎልደር መዝጊያ"
+
+#: src/nemo-window-menus.c:1286
+msgid "Prefere_nces"
+msgstr "ምርጫ_ዎች"
+
+#: src/nemo-window-menus.c:1287
+msgid "Edit Nemo preferences"
+msgstr "የኔሞ ምርጫዎችን ማረሚያ"
+
+#: src/nemo-window-menus.c:1290
+#: gresources/nemo-file-management-properties.glade:4135
+msgid "Plugins"
+msgstr "ተሰኪዎች"
+
+#: src/nemo-window-menus.c:1291
+msgid "Manage extensions, actions and scripts"
+msgstr "የ ተጨማሪዎች አስተዳዳሪ: ተግባሮች እና ጽሁፎች"
+
+#: src/nemo-window-menus.c:1295
+msgid "Undo the last text change"
+msgstr "የመጨረሻውን የጽሁፍ ለውጥ መተው"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1298
+msgid "Open _Parent"
+msgstr "ወላጁን _መክፈቻ"
+
+#: src/nemo-window-menus.c:1299
+msgid "Open the parent folder"
+msgstr "ወላጅ ፎልደሩን መክፈቻ"
+
+#. tooltip
+#: src/nemo-window-menus.c:1306
+msgid "Stop loading the current location"
+msgstr "የአሁኑን አካባቢ መጫን ማስቆሚያ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1309 src/nemo-window-menus.c:1564
+msgid "_Reload"
+msgstr "_እንደገና መጫኛ"
+
+#. tooltip
+#: src/nemo-window-menus.c:1310 src/nemo-window-menus.c:1566
+msgid "Reload the current location"
+msgstr "የአሁኑን አካባቢ እንደገና መጫኛ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1313
+msgid "_All Topics"
+msgstr "_ሁሉንም አርእስቶች"
+
+#. tooltip
+#: src/nemo-window-menus.c:1314
+msgid "Display Nemo help"
+msgstr "የኔሞን እርዳታ ማሳያ"
+
+#: src/nemo-window-menus.c:1317
+msgid "_Keyboard Shortcuts"
+msgstr ""
+
+#: src/nemo-window-menus.c:1318
+msgid "Display keyboard shortcuts"
+msgstr ""
+
+#. * name, stock id          { "NemoHelpSearch", NULL,
+#. label, accelerator        N_("Search for files"), NULL,
+#. tooltip                   N_("Locate files based on file name and type. Save your searches for later use."),
+#. G_CALLBACK (action_nemo_manual_callback) },
+#. name, stock id          { "NemoHelpSort", NULL,
+#. label, accelerator        N_("Sort files and folders"), NULL,
+#. tooltip                   N_("Arrange files by name, size, type, or when they were changed."),
+#. G_CALLBACK (action_nemo_manual_callback) },
+#. name, stock id          { "NemoHelpLost", NULL,
+#. label, accelerator        N_("Find a lost file"), NULL,
+#. tooltip                   N_("Follow these tips if you can't find a file you created or downloaded."),
+#. G_CALLBACK (action_nemo_manual_callback) },
+#. name, stock id          { "NemoHelpShare", NULL,
+#. label, accelerator        N_("Share and transfer files"), NULL,
+#. tooltip                   N_("Easily transfer files to your contacts and devices from the file manager."),
+#. G_CALLBACK (action_nemo_manual_callback) }, *
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1337
+msgid "_About"
+msgstr "_ስለ"
+
+#. tooltip
+#: src/nemo-window-menus.c:1338
+msgid "Display credits for the creators of Nemo"
+msgstr "ለኔሞ ፈጣሪውች ምስጋና ማሳያ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1341
+msgid "Zoom _In"
+msgstr "በቅርብ _ማሳያ"
+
+#. tooltip
+#: src/nemo-window-menus.c:1342
+msgid "Increase the view size"
+msgstr "የመመልከቻውን መጠን መጨመሪያ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1353
+msgid "Zoom _Out"
+msgstr "በርቀት ማሳያ"
+
+#. tooltip
+#: src/nemo-window-menus.c:1354
+msgid "Decrease the view size"
+msgstr "የመመልከቻውን መጠን መቀነሻ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1361
+msgid "Normal Si_ze"
+msgstr "መደበኛ መጠ_ን"
+
+#. tooltip
+#: src/nemo-window-menus.c:1362
+msgid "Use the normal view size"
+msgstr "መደበኛ የመመልከቻውን መጠን መጠቀሚያ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1365
+msgid "Connect to _Server..."
+msgstr "ወደ _ሰርቨር መገናኛ..."
+
+#. tooltip
+#: src/nemo-window-menus.c:1366
+msgid "Connect to a remote computer or shared disk"
+msgstr "መገናኛ በርቀት ካለ ኮምፒዩተር ወይንም ዲስክ መካፈያ ጋር"
+
+#. tooltip
+#: src/nemo-window-menus.c:1370
+msgid "Open your personal folder"
+msgstr "የግል ፎልደር መክፈቻ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1373 src/nemo-window-menus.c:1592
+msgid "_Computer"
+msgstr "_ኮምፒዩተር"
+
+#. tooltip
+#: src/nemo-window-menus.c:1374
+msgid ""
+"Browse all local and remote disks and folders accessible from this computer"
+msgstr "መቃኘት ሁሉንም አካባቢ እና የርቀት ዲስኮች እና ፎልደሮች ይህ ኮምፒዩተር የሚደርስበት"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1377
+msgid "_Network"
+msgstr "_ኔትዎርክ"
+
+#. tooltip
+#: src/nemo-window-menus.c:1378
+msgid "Browse bookmarked and local network locations"
+msgstr "የኔትዎርክ አካባቢዎችን እና ምልክት የተደረገበትን መቃኛ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1381
+msgid "T_emplates"
+msgstr "ቴ_ምፕሌቶች"
+
+#. tooltip
+#: src/nemo-window-menus.c:1382
+msgid "Open your personal templates folder"
+msgstr "የእርስዎን የግል ቴምፕሌትስ ፎልደር መክፈቻ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1385
+msgid "_Trash"
+msgstr "_ቆሻሻ"
+
+#. tooltip
+#: src/nemo-window-menus.c:1386
+msgid "Open your personal trash folder"
+msgstr "የእርስዎን የቆሻሻ ፎልደር መክፈቻ"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1388
+msgid "_Go"
+msgstr "_መሄጃ"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1389
+msgid "_Bookmarks"
+msgstr "_ምልክት የተደረገባቸው"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1390
+msgid "_Tabs"
+msgstr "_ንዑስ መስኮቶች"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1391
+msgid "New _Window"
+msgstr "አዲስ _መስኮት"
+
+#: src/nemo-window-menus.c:1392
+msgid "Open another Nemo window for the displayed location"
+msgstr "አሁን ለሚታየው አካባቢ አዲስ የኔሞ መስኮት መክፈቻ"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1394
+msgid "New _Tab"
+msgstr "አዲስ _ንዑስ መስኮት"
+
+#: src/nemo-window-menus.c:1395
+msgid "Open another tab for the displayed location"
+msgstr "ለሚታየው አካባቢ አዲስ ንዑስ መስኮት መክፈቻ"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1397
+msgid "Close _All Windows"
+msgstr "_ሁሉንም መስኮቶች መዝጊያ"
+
+#: src/nemo-window-menus.c:1398
+msgid "Close all Navigation windows"
+msgstr "ሁሉንም መቃኛ መስኮቶች መዝጊያ"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1400 src/nemo-window-menus.c:1514
+msgid "_Back"
+msgstr "_ወደ ኋላ"
+
+#: src/nemo-window-menus.c:1401 src/nemo-window-menus.c:1516
+msgid "Go to the previous visited location"
+msgstr "ቀደም ብሎ ወደ ተጎበኘው አካባቢ መሄጃ"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1403 src/nemo-window-menus.c:1530
+msgid "_Forward"
+msgstr "_ወደ ፊት"
+
+#: src/nemo-window-menus.c:1404 src/nemo-window-menus.c:1532
+msgid "Go to the next visited location"
+msgstr "ቀጥሎ ወደ ተጎበኘው አካባቢ መሄጃ"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1406
+msgid "Toggle _Location Entry"
+msgstr "መቀያየሪያ የ _አካባቢ ማስገቢያ"
+
+#: src/nemo-window-menus.c:1407
+msgid "Switch between location entry and breadcrumbs"
+msgstr "መቀየሪያ በ አካባቢ ማስገቢያ እና በ ሁለተኛ መቃኛ መካከል"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1409
+msgid "S_witch to Other Pane"
+msgstr "መ_ቀየሪያ ወደ ሌላ ክፍል"
+
+#: src/nemo-window-menus.c:1410
+msgid "Move focus to the other pane in a split view window"
+msgstr "ትኩረት ማንቀሳቀሻ ወደ ሌላ ክፍል በ ተከፈለው መመልከቻ መስኮት ውስጥ"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1412
+msgid "Sa_me Location as Other Pane"
+msgstr "ተመ_ሳሳይ አካባቢ እንደ ሌላ ክፍል"
+
+#: src/nemo-window-menus.c:1413
+msgid "Go to the same location as in the extra pane"
+msgstr "ወደ ተመሳሳይ አካባቢ መሄጃ እንደ ተጨማሪ ሌላ ክፍል"
+
+#: src/nemo-window-menus.c:1416
+msgid "Add a bookmark for the current location to this menu"
+msgstr "ምልክት ማድረጊያ መጨመሪያ  አሁኑ አካባቢ ዚህ ዝርዝር"
+
+#. name, stock id, label
+#: src/nemo-window-menus.c:1418
+msgid "_Edit Bookmarks..."
+msgstr "_ማረሚያ ምልክት ማድረጊያዎችን..."
+
+#: src/nemo-window-menus.c:1419
+msgid "Display a window that allows editing the bookmarks in this menu"
+msgstr "መስኮት ማሳያ እርስዎን የ ምልክት ማድረጊያ ማረም የሚያስችሎት በዚህ ዝርዝር ውስጥ"
+
+#: src/nemo-window-menus.c:1421
+msgid "_Previous Tab"
+msgstr "_ያለፈው Tab"
+
+#: src/nemo-window-menus.c:1422
+msgid "Activate previous tab"
+msgstr "ያለፈውን Tab ማስጀመሪያ"
+
+#: src/nemo-window-menus.c:1424
+msgid "_Next Tab"
+msgstr "_የሚቀጥለው Tab"
+
+#: src/nemo-window-menus.c:1425
+msgid "Activate next tab"
+msgstr "የሚቀጥለውን Tab ማስጀመሪያ"
+
+#: src/nemo-window-menus.c:1427 src/nemo-window-pane.c:498
+msgid "Move Tab _Left"
+msgstr "ንዑስ መስኮቱን _ወደ ግራ ማንቀሳቀሻ"
+
+#: src/nemo-window-menus.c:1428
+msgid "Move current tab to left"
+msgstr "የ አሁኑን tab ወደ ግራ ማንቀሳቀሻ"
+
+#: src/nemo-window-menus.c:1430 src/nemo-window-pane.c:506
+msgid "Move Tab _Right"
+msgstr "ንዑስ መስኮቱን _ወደ ቀኝ ማንቀሳቀሻ"
+
+#: src/nemo-window-menus.c:1431
+msgid "Move current tab to right"
+msgstr "የ አሁኑን tab ወደ ቀኝ ማንቀሳቀሻ"
+
+#: src/nemo-window-menus.c:1433
+msgid "Sidebar"
+msgstr "የጎን መደርደሪያ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1438
+#: gresources/nemo-file-management-properties.glade:3864
+msgid "Show _Hidden Files"
+msgstr "_የተደበቁ ፋይሎችን ማሳያ"
+
+#. tooltip
+#: src/nemo-window-menus.c:1439
+msgid "Toggle the display of hidden files in the current window"
+msgstr "ለአሁኑ መስኮት የተደበቁ ፋይሎችን ማሳያ መቀያየሪያ"
+
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1443
+msgid "_Main Toolbar"
+msgstr "_ዋናው ቱልባር"
+
+#. tooltip
+#: src/nemo-window-menus.c:1444
+msgid "Change the visibility of this window's main toolbar"
+msgstr "የዚህን መስኮት ዋናውን እቃ መደርደሪያ መመልከቻ መቀየሪያ"
+
+#. is_active
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1448
+msgid "_Show Sidebar"
+msgstr "የጎን መደርደሪያውን ማሳያ"
+
+#. tooltip
+#: src/nemo-window-menus.c:1449
+msgid "Change the visibility of this window's side pane"
+msgstr "የዚህን መስኮት የጎን ክፍል መመልከቻ መቀየሪያ"
+
+#. is_active
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1453
+msgid "St_atusbar"
+msgstr "የሁ_ኔታዎች መደርደሪያ"
+
+#. tooltip
+#: src/nemo-window-menus.c:1454
+msgid "Change the visibility of this window's statusbar"
+msgstr "የዚህን መስኮት የሁ_ኔታዎች መደርደሪያ መመልከቻ መቀየሪያ"
+
+#. is_active
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1458
+msgid "M_enubar"
+msgstr "ዝ_ርዝር መደርደሪያ"
+
+#. tooltip
+#: src/nemo-window-menus.c:1459
+msgid "Change the default visibility of the menubar"
+msgstr "የዝርዝር መደርደሪያ ነባር መመልከቻን መቀየሪያ"
+
+#. is_active
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1463
+msgid "_Search for Files..."
+msgstr "ፋይሎች _መፈለጊያ..."
+
+#. tooltip
+#: src/nemo-window-menus.c:1464 src/nemo-window-menus.c:1674
+msgid "Search documents and folders by name"
+msgstr "ሰነዶች እና ፎልደሮች በስም መፈለጊያ"
+
+#. is_active
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1468
+msgid "E_xtra Pane"
+msgstr "ተ_ጨማሪ ክፍል"
+
+#. tooltip
+#: src/nemo-window-menus.c:1469
+msgid "Open an extra folder view side-by-side"
+msgstr "ተጨማሪ ፎልደር መክፈቻ እና ጎን - ለ - ጎን መመልከቻ"
+
+#. is_active
+#. name, stock id
+#. label, accelerator
+#: src/nemo-window-menus.c:1473
+msgid "Show _Thumbnails"
+msgstr ""
+
+#. tooltip
+#: src/nemo-window-menus.c:1474
+msgid "Toggle the display of thumbnails in the current directory"
+msgstr ""
+
+#: src/nemo-window-menus.c:1481
+msgid "Places"
+msgstr "ቦታዎች"
+
+#: src/nemo-window-menus.c:1481
+msgid "Select Places as the default sidebar"
+msgstr "ነባር የጎን መደርደሪያ ቦታዎች መምረጫ"
+
+#: src/nemo-window-menus.c:1484
+msgid "Tree"
+msgstr "ዛፍ"
+
+#: src/nemo-window-menus.c:1484
+msgid "Select Tree as the default sidebar"
+msgstr "ለነባር የጎን መደርደሪያ ዛፍ መምረጫ"
+
+#: src/nemo-window-menus.c:1517
+msgid "Back history"
+msgstr "ያለፈው ታሪክ"
+
+#: src/nemo-window-menus.c:1533 src/nemo-window-menus.c:1552
+msgid "Forward history"
+msgstr "ወደ ፊት ታሪክ"
+
+#: src/nemo-window-menus.c:1549 src/nemo-window-menus.c:1820
+msgid "_Up"
+msgstr "_ወደ ላይ"
+
+#: src/nemo-window-menus.c:1551
+msgid "Go to parent folder"
+msgstr "ወደ ወላጅ ፎልደር መሄጃ"
+
+#: src/nemo-window-menus.c:1580
+msgid "Go to home directory"
+msgstr "ወደ ቤት ዳይሬክቶሪ መሄጃ"
+
+#: src/nemo-window-menus.c:1594
+msgid "Go to Computer"
+msgstr "ወደ ኮምፒዩተር መሄጃ"
+
+#: src/nemo-window-menus.c:1606
+msgid "Toggle Location Entry"
+msgstr "የ አካባቢ ማስገቢያ መቀያየሪያ"
+
+#: src/nemo-window-menus.c:1618
+#: gresources/nemo-file-management-properties.glade:3098
+msgid "New folder"
+msgstr "አዲስ ፎልደር"
+
+#: src/nemo-window-menus.c:1619
+msgid "Create a new folder"
+msgstr "አዲስ ፎልደር መፍጠሪያ"
+
+#: src/nemo-window-menus.c:1629
+msgid "Open a terminal in the active folder"
+msgstr "በ ንቁ ፎልደር ውስጥ ተርሚናል መክፈቻ"
+
+#: src/nemo-window-menus.c:1639
+msgid "Icons"
+msgstr "ምልክቶች"
+
+#: src/nemo-window-menus.c:1650
+msgid "List"
+msgstr "ዝርዝር"
+
+#: src/nemo-window-menus.c:1662
+msgid "Compact"
+msgstr "በትንንሽ"
+
+#: src/nemo-window-menus.c:1674 libnemo-private/nemo-query.c:189
+#: libnemo-private/nemo-search-directory-file.c:164
+#: libnemo-private/nemo-search-directory-file.c:190
+#: libnemo-private/nemo-search-directory-file.c:224
+#: gresources/nemo-file-management-properties.glade:3135
+msgid "Search"
+msgstr "መፈለጊያ"
+
+#: src/nemo-window-menus.c:1683 src/nemo-window-menus.c:1684
+#: gresources/nemo-file-management-properties.glade:3283
+msgid "Show Thumbnails"
+msgstr ""
+
+#: src/nemo-window-menus.c:1826
+msgid "_Location"
+msgstr "_አካባቢ"
+
+#: src/nemo-window-pane.c:481
+msgid "_New Tab"
+msgstr "_አዲስ ንዑስ መስኮት"
+
+#: src/nemo-window-pane.c:517
+msgid "_Close Tab"
+msgstr "ንዑስ መስኮቱን _መዝጊያ"
+
+#: src/nemo-window-slot.c:290
+msgid "No files found"
+msgstr ""
+
+#: src/nemo-x-content-bar.c:97
+msgid "These files are on an Audio CD."
+msgstr "እነዚህ ፋይሎች በድምጽ ሲዲ ላይ ናቸው"
+
+#: src/nemo-x-content-bar.c:99
+msgid "These files are on an Audio DVD."
+msgstr "እነዚህ ፋይሎች በድምጽ ዲቪዲ ላይ ናቸው"
+
+#: src/nemo-x-content-bar.c:101
+msgid "These files are on a Video DVD."
+msgstr "እነዚህ ፋይሎች በቪዲዮ ዲቪዲ ላይ ናቸው"
+
+#: src/nemo-x-content-bar.c:103
+msgid "These files are on a Video CD."
+msgstr "እነዚህ ፋይሎች በቪዲዮ ሲዲ ላይ ናቸው"
+
+#: src/nemo-x-content-bar.c:105
+msgid "These files are on a Super Video CD."
+msgstr "እነዚህ ፋይሎች በሱፐር ቪዲዮ ሲዲ ላይ ናቸው"
+
+#: src/nemo-x-content-bar.c:107
+msgid "These files are on a Photo CD."
+msgstr "እነዚህ ፋይሎች በፎቶ ሲዲ ላይ ናቸው"
+
+#: src/nemo-x-content-bar.c:109
+msgid "These files are on a Picture CD."
+msgstr "እነዚህ ፋይሎች በስእል ሲዲ ላይ ናቸው"
+
+#: src/nemo-x-content-bar.c:111
+msgid "The media contains digital photos."
+msgstr "መገናኛው የያዘው ዲጂታል ፎቶዎችን ነው"
+
+#: src/nemo-x-content-bar.c:113
+msgid "These files are on a digital audio player."
+msgstr "እነዚህ ፋይሎች ያሉት በዲጂታል ድምጽ ማጫወቻ ላይ ነው"
+
+#: src/nemo-x-content-bar.c:115
+msgid "The media contains software."
+msgstr "መገናኛው የያዘው ሶፍትዌር ነው"
+
+#. fallback to generic greeting
+#: src/nemo-x-content-bar.c:118
+#, c-format
+msgid "The media has been detected as \"%s\"."
+msgstr "መገናኛ ተገኝቷል እንደ \"%s\"."
+
+#: src/nemo-x-content-bar.c:143
+#, c-format
+msgid "Open %s"
+msgstr "መክፈቻ %s"
+
+#. name, stock id
+#. label, accelerator
+#. tooltip
+#: libnemo-private/nemo-clipboard.c:433
+msgid "Cut the selected text to the clipboard"
+msgstr "በቁራጭ ሰሌዳው ላይ የተመረጠውን ጽሁፍ መቁረጫ"
+
+#. name, stock id
+#. label, accelerator
+#. tooltip
+#: libnemo-private/nemo-clipboard.c:437
+msgid "Copy the selected text to the clipboard"
+msgstr "በቁራጭ ሰሌዳው ላይ የተመረጠውን ጽሁፍ ኮፒ ማድረጊያ"
+
+#. name, stock id
+#. label, accelerator
+#. tooltip
+#: libnemo-private/nemo-clipboard.c:441
+msgid "Paste the text stored on the clipboard"
+msgstr "በቁራጭ ሰሌዳው ላይ የተቀመጠውን ጽሁፍ መለጠፊያ"
+
+#. tooltip
+#: libnemo-private/nemo-clipboard.c:445
+msgid "Select all the text in a text field"
+msgstr "በጽሁፍ ሜዳ ላይ ያሉትን ጽሁፎች በሙሉ መምረጫ"
+
+#: libnemo-private/nemo-column-chooser.c:371
+msgid "Move _Up"
+msgstr "ወደ _ላይ ማንቀሳቀሻ"
+
+#: libnemo-private/nemo-column-chooser.c:381
+msgid "Move Dow_n"
+msgstr "ወደ ታ_ች ማንቀሳቀሻ"
+
+#: libnemo-private/nemo-column-chooser.c:394
+msgid "Use De_fault"
+msgstr "ነባ_ሩን መጠቀሚያ"
+
+#: libnemo-private/nemo-column-utilities.c:44
+msgid "The name and icon of the file."
+msgstr "የፋይሉ ስም እና ምልክት"
+
+#: libnemo-private/nemo-column-utilities.c:51
+msgid "The size of the file."
+msgstr "የፋሉ መጠን"
+
+#: libnemo-private/nemo-column-utilities.c:59
+msgid "The general type of the file."
+msgstr "የ ፋይል ባጠቃላይ አይነት"
+
+#: libnemo-private/nemo-column-utilities.c:65
+msgid "Detailed Type"
+msgstr "በዝርዝር አይነት"
+
+#: libnemo-private/nemo-column-utilities.c:66
+msgid "The specific type of the file."
+msgstr "የ ተወሰነ የ ፋይል አይነት"
+
+#: libnemo-private/nemo-column-utilities.c:73
+#: libnemo-private/nemo-column-utilities.c:80
+msgid "The date the file was modified."
+msgstr "ፋይሉ የተሻሻለበት ቀን"
+
+#: libnemo-private/nemo-column-utilities.c:79
+msgid "Modified - Time"
+msgstr "የ ተሻሻለ - ጊዜ"
+
+#: libnemo-private/nemo-column-utilities.c:88
+msgid "Date Created"
+msgstr "የተፈጠረበት ቀን"
+
+#: libnemo-private/nemo-column-utilities.c:89
+#: libnemo-private/nemo-column-utilities.c:96
+msgid "The date the file was created."
+msgstr "ፋይሉ የ ተፈጠረበት ቀን"
+
+#: libnemo-private/nemo-column-utilities.c:95
+msgid "Created - Time"
+msgstr "የ ተፈጠረበት - ጊዜ"
+
+#: libnemo-private/nemo-column-utilities.c:103
+msgid "Date Accessed"
+msgstr "የተደረሰበት ቀን"
+
+#: libnemo-private/nemo-column-utilities.c:104
+msgid "The date the file was accessed."
+msgstr "ፋይሉ ጋ የተደረሰበት ቀን"
+
+#: libnemo-private/nemo-column-utilities.c:111
+msgid "Owner"
+msgstr "ባለቤት"
+
+#: libnemo-private/nemo-column-utilities.c:112
+msgid "The owner of the file."
+msgstr "የፋይሉ ባለቤት"
+
+#: libnemo-private/nemo-column-utilities.c:119
+msgid "Group"
+msgstr "ቡድን"
+
+#: libnemo-private/nemo-column-utilities.c:120
+msgid "The group of the file."
+msgstr "የፋይሉ ቡድን"
+
+#: libnemo-private/nemo-column-utilities.c:128
+msgid "The permissions of the file."
+msgstr "የፋይሉ ፍቃዶች"
+
+#: libnemo-private/nemo-column-utilities.c:135
+msgid "Octal Permissions"
+msgstr "የ Octal ፍቃድ"
+
+#: libnemo-private/nemo-column-utilities.c:136
+msgid "The permissions of the file, in octal notation."
+msgstr "የ Octal ፍቃድ በ ፋይል ውስጥ: በ octal ምልክቶች ውስጥ"
+
+#: libnemo-private/nemo-column-utilities.c:143
+msgid "MIME Type"
+msgstr "MIME Type"
+
+#: libnemo-private/nemo-column-utilities.c:144
+msgid "The mime type of the file."
+msgstr "የ mime አይነት ለ ፋይሉ"
+
+#: libnemo-private/nemo-column-utilities.c:151
+msgid "SELinux Context"
+msgstr "የ SELinux አገባብ"
+
+#: libnemo-private/nemo-column-utilities.c:152
+msgid "The SELinux security context of the file."
+msgstr "የ SELinux ድህንነት አገባብ ለ ፋይል"
+
+#: libnemo-private/nemo-column-utilities.c:160
+msgid "The location of the file."
+msgstr "ፋይሉ ያለበት አካባቢ"
+
+#: libnemo-private/nemo-column-utilities.c:203
+msgid "Trashed On"
+msgstr "ወደ ቆሻሻ ማጠራቀሚያው የተላከው"
+
+#: libnemo-private/nemo-column-utilities.c:204
+msgid "Date when file was moved to the Trash"
+msgstr "ፋይሉ ወደ ቆሻሻ ማጠራቀሚያ የተንቃሳቀሰበት ቀን"
+
+#: libnemo-private/nemo-column-utilities.c:210
+msgid "Original Location"
+msgstr "ዋናው አካባቢ"
+
+#: libnemo-private/nemo-column-utilities.c:211
+msgid "Original location of file before moved to the Trash"
+msgstr "የፋይሉ ዋና አካባቢ ወደ ቆሻሻ ማጠራቀሚያ ከመሄዱ በፊት"
+
+#: libnemo-private/nemo-column-utilities.c:235
+msgid "Hits"
+msgstr ""
+
+#: libnemo-private/nemo-column-utilities.c:236
+msgid "How many times the search string appeared in the file"
+msgstr ""
+
+#: libnemo-private/nemo-desktop-directory-file.c:459
+#: libnemo-private/nemo-desktop-icon-file.c:154
+msgid "on the desktop"
+msgstr "በዴስክቶፕ ላይ"
+
+#: libnemo-private/nemo-desktop-link-monitor.c:89
+#, c-format
+msgid "You cannot move the volume \"%s\" to the trash."
+msgstr "መጠኑን ማንቀሳቀስ አይችሉም \"%s\" ወደ ቆሻሻ ማጠራቀሚያው"
+
+#: libnemo-private/nemo-desktop-link-monitor.c:99
+msgid ""
+"If you want to eject the volume, please use \"Eject\" in the popup menu of "
+"the volume."
+msgstr "እባክዎን መጠኑን \"ማውጣት\" ከፈለጉ ከብቅ ባይ ዝርዝር ውስጥ መጠን የሚለውን ይጠቀሙ"
+
+#: libnemo-private/nemo-desktop-link-monitor.c:108
+msgid ""
+"If you want to unmount the volume, please use \"Unmount Volume\" in the "
+"popup menu of the volume."
+msgstr "እባክዎን \"መጠኑን ማውረድ \" ከፈለጉ ከብቅ ባይ ዝርዝር ውስጥ መጠን ማውረጃ የሚለውን ይጠቀሙ"
+
+#: libnemo-private/nemo-dnd.c:869
+msgid "_Move Here"
+msgstr "ወደ እዚህ _ማንቀሳቀሻ"
+
+#: libnemo-private/nemo-dnd.c:874
+msgid "_Copy Here"
+msgstr "ወደ እዚህ _ኮፒ ማድረጊያ"
+
+#: libnemo-private/nemo-dnd.c:879
+msgid "_Link Here"
+msgstr "ወደ እዚህ _ማገናኛ"
+
+#: libnemo-private/nemo-dnd.c:886
+msgid "Cancel"
+msgstr "መሰረዣ"
+
+#: libnemo-private/nemo-file.c:1253 libnemo-private/nemo-vfs-file.c:418
+msgid "This file cannot be mounted"
+msgstr "ፋይሉን መጫን አይቻልም"
+
+#: libnemo-private/nemo-file.c:1298
+msgid "This file cannot be unmounted"
+msgstr "ፋይሉን ማውረድ አይቻልም"
+
+#: libnemo-private/nemo-file.c:1332
+msgid "This file cannot be ejected"
+msgstr "ፋይሉን ማውጣት አይቻልም"
+
+#: libnemo-private/nemo-file.c:1365 libnemo-private/nemo-vfs-file.c:596
+msgid "This file cannot be started"
+msgstr "ይህን ፋይል ማስጀመር አይቻልም"
+
+#: libnemo-private/nemo-file.c:1417 libnemo-private/nemo-file.c:1448
+msgid "This file cannot be stopped"
+msgstr "ይህን ፋይል ማስቆም አይቻልም"
+
+#: libnemo-private/nemo-file.c:1881
+msgid "Slashes are not allowed in filenames"
+msgstr "በ ፋይል ስሞች ውስጥ ስላሽ አይፈቀድም"
+
+#: libnemo-private/nemo-file.c:1899
+msgid "File not found"
+msgstr "ፋይሉ አልተገኘም"
+
+#: libnemo-private/nemo-file.c:1927
+msgid "Toplevel files cannot be renamed"
+msgstr "ከፍተኛ ደረጃ ፋይሎችን እንደገና መሰየም አይቻልም"
+
+#: libnemo-private/nemo-file.c:1950
+msgid "Unable to rename desktop icon"
+msgstr "የዴስክቶፕ ምልክቶችን እንደገና መሰየም አልተቻለም"
+
+#: libnemo-private/nemo-file.c:1979
+msgid "Unable to rename desktop file"
+msgstr "የዴስክቶፕ ፋይሎችን እንደገና መሰየም አልተቻለም"
+
+#. Translators: Time in 24h format
+#: libnemo-private/nemo-file.c:5091
+msgid "%H:%M"
+msgstr "%ሰ:%ደ"
+
+#. Translators: Time in 12h format
+#: libnemo-private/nemo-file.c:5094
+msgid "%l:%M %p"
+msgstr "%l:%M %p"
+
+#. Translators: this is the word Yesterday followed by
+#. * a time in 24h format. i.e. "Yesterday 23:04"
+#: libnemo-private/nemo-file.c:5107
+#, no-c-format
+msgid "Yesterday %H:%M"
+msgstr "ትናንትና %H:%M"
+
+#. Translators: this is the word Yesterday followed by
+#. * a time in 12h format. i.e. "Yesterday 9:04 PM"
+#: libnemo-private/nemo-file.c:5112
+#, no-c-format
+msgid "Yesterday %l:%M %p"
+msgstr "ትናንት %l:%M %p"
+
+#: libnemo-private/nemo-file.c:5120
+#, no-c-format
+msgid "%A"
+msgstr "%A"
+
+#. Translators: this is the name of the week day followed by
+#. * a time in 24h format. i.e. "Monday 23:04"
+#: libnemo-private/nemo-file.c:5126
+#, no-c-format
+msgid "%A %H:%M"
+msgstr "%A %H:%M"
+
+#. Translators: this is the week day name followed by
+#. * a time in 12h format. i.e. "Monday 9:04 PM"
+#: libnemo-private/nemo-file.c:5131
+#, no-c-format
+msgid "%A %l:%M %p"
+msgstr "%A %l:%M %p"
+
+#. Translators: this is the day of the month followed
+#. * by the abbreviated month name i.e. "3 February"
+#: libnemo-private/nemo-file.c:5139
+#, no-c-format
+msgid "%-e %B"
+msgstr "%-e %B"
+
+#. Translators: this is the day of the month followed
+#. * by the abbreviated month name followed by a time in
+#. * 24h format i.e. "3 February 23:04"
+#: libnemo-private/nemo-file.c:5146
+#, no-c-format
+msgid "%-e %B %H:%M"
+msgstr "%-e %B %H:%M"
+
+#. Translators: this is the day of the month followed
+#. * by the abbreviated month name followed by a time in
+#. * 12h format i.e. "3 February 9:04"
+#: libnemo-private/nemo-file.c:5152
+#, no-c-format
+msgid "%-e %B %l:%M %p"
+msgstr "%-e %B %l:%M %p"
+
+#. Translators: this is the day of the month followed by the abbreviated
+#. * month name followed by the year i.e. "3 Feb 2015"
+#: libnemo-private/nemo-file.c:5160
+#, no-c-format
+msgid "%-e %b %Y"
+msgstr "%-e %b %Y"
+
+#. Translators: this is the day number followed
+#. * by the abbreviated month name followed by the year followed
+#. * by a time in 24h format i.e. "3 Feb 2015 23:04"
+#: libnemo-private/nemo-file.c:5167
+#, no-c-format
+msgid "%-e %b %Y %H:%M"
+msgstr "%-e %b %Y %H:%M"
+
+#. Translators: this is the day number followed
+#. * by the abbreviated month name followed by the year followed
+#. * by a time in 12h format i.e. "3 Feb 2015 9:04 PM"
+#: libnemo-private/nemo-file.c:5173
+#, no-c-format
+msgid "%-e %b %Y %l:%M %p"
+msgstr "%-e %b %Y %l:%M %p"
+
+#: libnemo-private/nemo-file.c:5183
+#, no-c-format
+msgid "%c"
+msgstr "%c"
+
+#: libnemo-private/nemo-file.c:5631
+msgid "Not allowed to set permissions"
+msgstr "ፍቃዶችን ማዘጋጀት አይቻልም"
+
+#: libnemo-private/nemo-file.c:5926
+msgid "Not allowed to set owner"
+msgstr "ባለቤት ማዘጋጀት አይቻልም"
+
+#: libnemo-private/nemo-file.c:5944
+#, c-format
+msgid "Specified owner '%s' doesn't exist"
+msgstr "የተወሰን ባለቤት '%s' አልተገኘም"
+
+#: libnemo-private/nemo-file.c:6208
+msgid "Not allowed to set group"
+msgstr "ቡድን ማዘጋጀት አይቻልም"
+
+#: libnemo-private/nemo-file.c:6226
+#, c-format
+msgid "Specified group '%s' doesn't exist"
+msgstr "የተወሰነ ቡድን '%s' አልተገኘም"
+
+#: libnemo-private/nemo-file.c:6384
+#, c-format
+msgid "%'u folder"
+msgid_plural "%'u folders"
+msgstr[0] "%'u ፎልደር"
+msgstr[1] "%'u ፎልደሮች"
+
+#: libnemo-private/nemo-file.c:6385
+#, c-format
+msgid "%'u file"
+msgid_plural "%'u files"
+msgstr[0] "%'u ፋይል"
+msgstr[1] "%'u ፋይሎች"
+
+#. This means no contents at all were readable
+#: libnemo-private/nemo-file.c:6828 libnemo-private/nemo-file.c:6844
+msgid "? items"
+msgstr "? ዕቃዎች"
+
+#. This means no contents at all were readable
+#: libnemo-private/nemo-file.c:6834
+msgid "? bytes"
+msgstr "? ባይትስ"
+
+#: libnemo-private/nemo-file.c:6851
+msgid "Unknown"
+msgstr "ያልታወቀ"
+
+#: libnemo-private/nemo-file.c:6904 libnemo-private/nemo-file.c:6912
+#: libnemo-private/nemo-file.c:6960
+msgid "Program"
+msgstr "ፕሮግራም"
+
+#: libnemo-private/nemo-file.c:6905
+msgid "Audio"
+msgstr "ድምፅ"
+
+#: libnemo-private/nemo-file.c:6906
+msgid "Font"
+msgstr "ፊደል"
+
+#: libnemo-private/nemo-file.c:6908
+msgid "Archive"
+msgstr "ማህደር"
+
+#: libnemo-private/nemo-file.c:6909
+msgid "Markup"
+msgstr "ምልክት ማድረጊያ"
+
+#: libnemo-private/nemo-file.c:6910 libnemo-private/nemo-file.c:6911
+#: eel/eel-editable-label.c:319
+msgid "Text"
+msgstr "ጽሁፍ"
+
+#: libnemo-private/nemo-file.c:6913
+msgid "Video"
+msgstr "ቪዲዮ"
+
+#: libnemo-private/nemo-file.c:6914
+msgid "Contacts"
+msgstr "ግንኙነቶች"
+
+#: libnemo-private/nemo-file.c:6915
+msgid "Calendar"
+msgstr "የቀን መቁጠሪያ"
+
+#: libnemo-private/nemo-file.c:6916
+msgid "Document"
+msgstr "ሰነድ"
+
+#: libnemo-private/nemo-file.c:6917
+msgid "Presentation"
+msgstr "ማቅረቢያ"
+
+#: libnemo-private/nemo-file.c:6918
+msgid "Spreadsheet"
+msgstr "ሰንጠረዥ"
+
+#: libnemo-private/nemo-file.c:6962
+#: gresources/nemo-file-management-properties.glade:150
+msgid "Binary"
+msgstr "ባይነሪ"
+
+#: libnemo-private/nemo-file.c:6966
+msgid "Folder"
+msgstr "ፎልደር"
+
+#: libnemo-private/nemo-file.c:7001
+msgid "link"
+msgstr "አገናኝ"
+
+#: libnemo-private/nemo-file.c:7023 libnemo-private/nemo-file.c:7037
+msgid "link (broken)"
+msgstr "አገናኙ (አይሰራም)"
+
+#: libnemo-private/nemo-file.c:8005
+#, c-format
+msgid "Name: %s"
+msgstr "ስም: %s"
+
+#: libnemo-private/nemo-file.c:8012
+#, c-format
+msgid "Type: %s"
+msgstr "አይነት: %s"
+
+#: libnemo-private/nemo-file.c:8022
+#, c-format
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "%s እቃው"
+msgstr[1] "%s እቃዎቹ"
+
+#: libnemo-private/nemo-file.c:8024
+#, c-format
+msgid "Contains: %s"
+msgstr "የያዛቸው: %s"
+
+#: libnemo-private/nemo-file.c:8034
+#, c-format
+msgid "Size: %s"
+msgstr "መጠኑ: %s"
+
+#: libnemo-private/nemo-file.c:8042
+#, c-format
+msgid "Accessed: %s"
+msgstr "የ ተደረሰበት: %s"
+
+#: libnemo-private/nemo-file.c:8050
+#, c-format
+msgid "Modified: %s"
+msgstr "የተሻሻለው: %s"
+
+#: libnemo-private/nemo-file.c:8058
+#, c-format
+msgid "Created: %s"
+msgstr "የተፈጠረው: %s"
+
+#: libnemo-private/nemo-file.c:8068
+#, c-format
+msgid "Location: %s"
+msgstr "አካባቢው: %s"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:144
+#, c-format
+msgid "Merge folder \"%s\"?"
+msgstr "ፎልደሩ ይዋሀድ \"%s\"?"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:148
+msgid ""
+"Merging will ask for confirmation before replacing any files in the folder "
+"that conflict with the files being copied."
+msgstr ""
+"ማዋሀጃ ማረጋገጫ ይጠይቃል በፎልደር ውስጥ ያሉትን ፋይሎች ከመተካቱ በፊት ኮፒ ከሚደረገው ፋይል ጋር የሚጋጩትን"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:153
+#, c-format
+msgid "An older folder with the same name already exists in \"%s\"."
+msgstr "በዚህ ስም የተሰየመ ፎልደር ቀደም ብሎ ነበር በ \"%s\"."
+
+#: libnemo-private/nemo-file-conflict-dialog.c:157
+#, c-format
+msgid "A newer folder with the same name already exists in \"%s\"."
+msgstr "አዲስ ፎልደር በዚህ ስም ቀደም ሲል ነበር በ \"%s\"."
+
+#: libnemo-private/nemo-file-conflict-dialog.c:161
+#, c-format
+msgid "Another folder with the same name already exists in \"%s\"."
+msgstr "ሌላ ፎልደር በዚህ ስም ቀደም ሲል ነበር በ \"%s\"."
+
+#: libnemo-private/nemo-file-conflict-dialog.c:166
+msgid "Replacing it will remove all files in the folder."
+msgstr "መተካት ሁሉንም ፋይሎች በፎልደር ውስጥ ያሉትን ያስወግዳቸዋል"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:168
+#, c-format
+msgid "Replace folder \"%s\"?"
+msgstr "ፎልደሩን ልቀይረው \"%s\"?"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:170
+#, c-format
+msgid "A folder with the same name already exists in \"%s\"."
+msgstr "በዚህ ስም የተሰየመ ፎልደር ቀደም ብሎ ነበር በ \"%s\"."
+
+#: libnemo-private/nemo-file-conflict-dialog.c:175
+#, c-format
+msgid "Replace file \"%s\"?"
+msgstr "ፋይሉን ልቀይረው \"%s\"?"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:177
+msgid "Replacing it will overwrite its content."
+msgstr "መተካት በነበረው ይዞታ ላይ ደርቦ ይጽፍበታል"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:181
+#, c-format
+msgid "An older file with the same name already exists in \"%s\"."
+msgstr "በዚህ ስም የተሰየመ ፋይል ቀደም ብሎ ነበር በ \"%s\"."
+
+#: libnemo-private/nemo-file-conflict-dialog.c:185
+#, c-format
+msgid "A newer file with the same name already exists in \"%s\"."
+msgstr "በዚህ ስም የተሰየመ አዲስ ፋይል ቀደም ብሎ ነበር በ \"%s\"."
+
+#: libnemo-private/nemo-file-conflict-dialog.c:189
+#, c-format
+msgid "Another file with the same name already exists in \"%s\"."
+msgstr "በዚህ ስም የተሰየመ ሌላ ፋይል ቀደም ብሎ ነበር በ \"%s\"."
+
+#: libnemo-private/nemo-file-conflict-dialog.c:267
+msgid "Original file"
+msgstr "ዋናው ፋይል"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:274
+#: libnemo-private/nemo-file-conflict-dialog.c:306
+msgid "Last modified:"
+msgstr "መጨረሻ የተሻሻለው :"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:299
+msgid "Replace with"
+msgstr "መቀየሪያ በ"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:328
+msgid "Merge"
+msgstr "ማዋሀጃ"
+
+#. Setup the expander for the rename action
+#: libnemo-private/nemo-file-conflict-dialog.c:521
+msgid "_Select a new name for the destination"
+msgstr "ለመድረሻው አዲስ ስም _ይምረጡ"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:535
+msgid "Reset"
+msgstr "እንደነበረ መመለሻ"
+
+#. Setup the checkbox to apply the action to all files
+#: libnemo-private/nemo-file-conflict-dialog.c:547
+msgid "Apply this action to all files"
+msgstr "ይህን ተግባር ለሁሉም ፋይሎች መፈጸሚያ"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:558
+#: libnemo-private/nemo-file-operations.c:197
+msgid "_Skip"
+msgstr "_መዝለያ"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:563
+msgid "Re_name"
+msgstr "እንደገና _መሰየሚያ"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:569
+msgid "Replace"
+msgstr "መቀየሪያ"
+
+#: libnemo-private/nemo-file-conflict-dialog.c:641
+msgid "File conflict"
+msgstr "የፋይል አለመስማማት"
+
+#: libnemo-private/nemo-file-operations.c:198
+msgid "S_kip All"
+msgstr "ሁሉንም መ_ዝለያ"
+
+#: libnemo-private/nemo-file-operations.c:199
+msgid "_Retry"
+msgstr "_እንደገና መሞከሪያ"
+
+#: libnemo-private/nemo-file-operations.c:200
+msgid "Delete _All"
+msgstr "ሁሉንም _ማጥፊያ"
+
+#: libnemo-private/nemo-file-operations.c:201
+msgid "_Replace"
+msgstr "_መተኪያ"
+
+#: libnemo-private/nemo-file-operations.c:202
+msgid "Replace _All"
+msgstr "ሁሉንም _መተኪያ"
+
+#: libnemo-private/nemo-file-operations.c:203
+msgid "_Merge"
+msgstr "_ማዋሀጃ"
+
+#: libnemo-private/nemo-file-operations.c:204
+msgid "Merge _All"
+msgstr "ሁሉንም _ማዋሀጃ"
+
+#: libnemo-private/nemo-file-operations.c:205
+msgid "Copy _Anyway"
+msgstr "ለማንኛውም _ኮፒ ማድረጊያ"
+
+#: libnemo-private/nemo-file-operations.c:296
+#, c-format
+msgid "%'d second"
+msgid_plural "%'d seconds"
+msgstr[0] "%'d ሰከንድ"
+msgstr[1] "%'d ሰከንዶች"
+
+#: libnemo-private/nemo-file-operations.c:301
+#: libnemo-private/nemo-file-operations.c:312
+#, c-format
+msgid "%'d minute"
+msgid_plural "%'d minutes"
+msgstr[0] "%'d ደቂቃ"
+msgstr[1] "%'d ደቂቆች"
+
+#: libnemo-private/nemo-file-operations.c:311
+#, c-format
+msgid "%'d hour"
+msgid_plural "%'d hours"
+msgstr[0] "%'d ሰአት"
+msgstr[1] "%'d ሰአቶች"
+
+#: libnemo-private/nemo-file-operations.c:319
+#, c-format
+msgid "approximately %'d hour"
+msgid_plural "approximately %'d hours"
+msgstr[0] "በግምት %'d ሰአት"
+msgstr[1] "በግምት %'d ሰአቶች"
+
+#. appended to new link file
+#: libnemo-private/nemo-file-operations.c:399
+#, c-format
+msgid "Another link to %s"
+msgstr "ሌላ አገናኝ ወደ %s"
+
+#. Localizers: Feel free to leave out the "st" suffix
+#. * if there's no way to do that nicely for a
+#. * particular language.
+#. 
+#: libnemo-private/nemo-file-operations.c:415
+#, c-format
+msgid "%'dst link to %s"
+msgstr "%'dኛ አገናኝ ወደ %s"
+
+#. appended to new link file
+#: libnemo-private/nemo-file-operations.c:419
+#, c-format
+msgid "%'dnd link to %s"
+msgstr "%'dኛ አገናኝ ወደ %s"
+
+#. appended to new link file
+#: libnemo-private/nemo-file-operations.c:423
+#, c-format
+msgid "%'drd link to %s"
+msgstr "%'dኛ አገናኝ ወደ %s"
+
+#. appended to new link file
+#: libnemo-private/nemo-file-operations.c:427
+#, c-format
+msgid "%'dth link to %s"
+msgstr "%'dኛ አገናኝ ወደ %s"
+
+#. Localizers:
+#. * Feel free to leave out the st, nd, rd and th suffix or
+#. * make some or all of them match.
+#. 
+#. localizers: tag used to detect the first copy of a file
+#: libnemo-private/nemo-file-operations.c:466
+msgid " (copy)"
+msgstr " (ኮፒ)"
+
+#. localizers: tag used to detect the second copy of a file
+#: libnemo-private/nemo-file-operations.c:468
+msgid " (another copy)"
+msgstr " (ሌላ ኮፒ)"
+
+#. localizers: tag used to detect the x11th copy of a file
+#. localizers: tag used to detect the x12th copy of a file
+#. localizers: tag used to detect the x13th copy of a file
+#. localizers: tag used to detect the xxth copy of a file
+#: libnemo-private/nemo-file-operations.c:471
+#: libnemo-private/nemo-file-operations.c:473
+#: libnemo-private/nemo-file-operations.c:475
+#: libnemo-private/nemo-file-operations.c:485
+msgid "th copy)"
+msgstr "ኛ ኮፒ)"
+
+#. localizers: tag used to detect the x1st copy of a file
+#: libnemo-private/nemo-file-operations.c:478
+msgid "st copy)"
+msgstr "ኛ ኮፒ)"
+
+#. localizers: tag used to detect the x2nd copy of a file
+#: libnemo-private/nemo-file-operations.c:480
+msgid "nd copy)"
+msgstr "ኛ ኮፒ)"
+
+#. localizers: tag used to detect the x3rd copy of a file
+#: libnemo-private/nemo-file-operations.c:482
+msgid "rd copy)"
+msgstr "ኛ ኮፒ)"
+
+#. localizers: appended to first file copy
+#: libnemo-private/nemo-file-operations.c:499
+#, c-format
+msgid "%s (copy)%s"
+msgstr "%s (ኮፒ)%s"
+
+#. localizers: appended to second file copy
+#: libnemo-private/nemo-file-operations.c:501
+#, c-format
+msgid "%s (another copy)%s"
+msgstr "%s (ሌላ ኮፒ)%s"
+
+#. localizers: appended to x11th file copy
+#. localizers: appended to x12th file copy
+#. localizers: appended to x13th file copy
+#. localizers: appended to xxth file copy
+#: libnemo-private/nemo-file-operations.c:504
+#: libnemo-private/nemo-file-operations.c:506
+#: libnemo-private/nemo-file-operations.c:508
+#: libnemo-private/nemo-file-operations.c:522
+#, c-format
+msgid "%s (%'dth copy)%s"
+msgstr "%s (%'dኛ ኮፒ)%s"
+
+#. localizers: if in your language there's no difference between 1st, 2nd, 3rd and nth
+#. * plurals, you can leave the st, nd, rd suffixes out and just make all the translated
+#. * strings look like "%s (copy %'d)%s".
+#. 
+#. localizers: appended to x1st file copy
+#: libnemo-private/nemo-file-operations.c:516
+#, c-format
+msgid "%s (%'dst copy)%s"
+msgstr "%s (%'dኛ ኮፒ)%s"
+
+#. localizers: appended to x2nd file copy
+#: libnemo-private/nemo-file-operations.c:518
+#, c-format
+msgid "%s (%'dnd copy)%s"
+msgstr "%s (%'dኛ ኮፒ)%s"
+
+#. localizers: appended to x3rd file copy
+#: libnemo-private/nemo-file-operations.c:520
+#, c-format
+msgid "%s (%'drd copy)%s"
+msgstr "%s (%'dኛ ኮፒ)%s"
+
+#. localizers: opening parentheses to match the "th copy)" string
+#: libnemo-private/nemo-file-operations.c:621
+msgid " ("
+msgstr " ("
+
+#. localizers: opening parentheses of the "th copy)" string
+#: libnemo-private/nemo-file-operations.c:629
+#, c-format
+msgid " (%'d"
+msgstr " (%'d"
+
+#: libnemo-private/nemo-file-operations.c:999
+#, c-format
+msgid "Error removing file: %s"
+msgstr "ፋይል በ ማስወገድ ላይ ስህተት ተፈጥሯል: %s"
+
+#: libnemo-private/nemo-file-operations.c:1054
+#, c-format
+msgid "Waiting to copy a file from '%1$s' to '%2$s'"
+msgid_plural "Waiting to copy files from '%1$s' to '%2$s'"
+msgstr[0] "ፋይል ኮፒ ለማድረግ በ መጠበቅ ላይ ከ '%1$s' ወደ '%2$s'"
+msgstr[1] "ፋይሎች ኮፒ ለማድረግ በ መጠበቅ ላይ ከ '%1$s' ወደ '%2$s'"
+
+#: libnemo-private/nemo-file-operations.c:1063
+#, c-format
+msgid "Waiting to move a file from '%1$s' to '%2$s'"
+msgid_plural "Waiting to move files from '%1$s' to '%2$s'"
+msgstr[0] "ፋይል ለ ማንቀሳቀስ በ መጠበቅ ላይ ከ '%1$s' ወደ '%2$s'"
+msgstr[1] "ፋይሎች ለ ማንቀሳቀስ በ መጠበቅ ላይ ከ '%1$s' ወደ '%2$s'"
+
+#: libnemo-private/nemo-file-operations.c:1071
+#, c-format
+msgid "Waiting to permanently delete a file from '%s'"
+msgid_plural "Waiting to permanently delete files from '%s'"
+msgstr[0] "ፋይል በ ቋሚነት ለማጥፋት በ መጠበቅ ላይ ከ '%s'"
+msgstr[1] "ፋይሎች በ ቋሚነት ለማጥፋት በ መጠበቅ ላይ ከ '%s'"
+
+#: libnemo-private/nemo-file-operations.c:1079
+#, c-format
+msgid "Waiting to trash a file in '%s'"
+msgid_plural "Waiting to trash files in '%s'"
+msgstr[0] "ፋይል ወደ ቆሻሻ ለ መላክ በ መጠበቅ ላይ ከ '%s'"
+msgstr[1] "ፋይሎች ወደ ቆሻሻ ለ መላክ በ መጠበቅ ላይ ከ '%s'"
+
+#: libnemo-private/nemo-file-operations.c:1085
+msgid "Waiting to empty the trash"
+msgstr "Waiting to empty the trash"
+
+#: libnemo-private/nemo-file-operations.c:1091
+#, c-format
+msgid "Waiting to duplicate a file in '%s'"
+msgid_plural "Waiting to duplicate files in '%s'"
+msgstr[0] "ፋይል ለ ማባዛት በ መጠበቅ ላይ ከ '%s'"
+msgstr[1] "ፋይሎች ለ ማባዛት በ መጠበቅ ላይ ከ '%s'"
+
+#: libnemo-private/nemo-file-operations.c:1099
+#, c-format
+msgid "Waiting to change permissions of files in '%s'"
+msgstr "የ ፋይሎች ፍቃድ ለ መቀየር በ መጠበቅ ላይ ከ '%s'"
+
+#: libnemo-private/nemo-file-operations.c:1105
+#, c-format
+msgid "Waiting to link a file from '%1$s' to '%2$s'"
+msgid_plural "Waiting to link files from '%1$s' to '%2$s'"
+msgstr[0] "ፋይል ለ ማገናኘት በ መጠበቅ ላይ ከ '%1$s' ወደ '%2$s'"
+msgstr[1] "ፋይሎች ለ ማገናኘት በ መጠበቅ ላይ ከ '%1$s' ወደ '%2$s'"
+
+#: libnemo-private/nemo-file-operations.c:1530
+msgid "Are you sure you want to move \"%B\" to the trash?"
+msgstr ""
+
+#. translators: the singular form here can be skipped.
+#: libnemo-private/nemo-file-operations.c:1534
+#, c-format
+msgid "unused %'d"
+msgid_plural ""
+"Are you sure you want to move the %'d selected items to the trash?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: libnemo-private/nemo-file-operations.c:1543
+msgid ""
+"You can restore an item from the trash, if you later change your mind."
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:1546
+msgid "Move to _Trash"
+msgstr ""
+
+#: libnemo-private/nemo-file-operations.c:1579
+msgid "Are you sure you want to permanently delete \"%B\" from the trash?"
+msgstr "በእርግጥ በቋሚነት ሊያጠፉት ይፈልጋሉ \"%B\" ከቆሻሻ ማጠራቀሚያው ውስጥ?"
+
+#: libnemo-private/nemo-file-operations.c:1582
+#, c-format
+msgid ""
+"Are you sure you want to permanently delete the %'d selected item from the "
+"trash?"
+msgid_plural ""
+"Are you sure you want to permanently delete the %'d selected items from the "
+"trash?"
+msgstr[0] "በእርግጥ በቋሚነት ማጥፋት ይፈልጋሉ %'d የተመረጠውን እቃ ከቆሻሻ ማጠራቀሚያው ውስጥ?"
+msgstr[1] "በእርግጥ በቋሚነት ማጥፋት ይፈልጋሉ %'d የተመረጡትን እቃዎች ከቆሻሻ ማጠራቀሚያው ውስጥ?"
+
+#: libnemo-private/nemo-file-operations.c:1592
+#: libnemo-private/nemo-file-operations.c:1658
+msgid "If you delete an item, it will be permanently lost."
+msgstr "አንድን እቃ ካጠፉት በቋሚነት ይጠፋል"
+
+#: libnemo-private/nemo-file-operations.c:1612
+msgid "Empty all items from Trash?"
+msgstr "በቆሻሻው ውስጥ ያሉትን እቃዎች ባዶ ላድርጋቸው?"
+
+#: libnemo-private/nemo-file-operations.c:1616
+msgid "All items in the Trash will be permanently deleted."
+msgstr "በቆሻሻው ውስጥ ያሉት እቃዎች በቋሚነት ይጠፋሉ"
+
+#: libnemo-private/nemo-file-operations.c:1646
+msgid "Are you sure you want to permanently delete \"%B\"?"
+msgstr "በእርግጥ በቋሚነት ሊያጠፉት ይፈልጋሉ \"%B\"?"
+
+#: libnemo-private/nemo-file-operations.c:1649
+#, c-format
+msgid "Are you sure you want to permanently delete the %'d selected item?"
+msgid_plural ""
+"Are you sure you want to permanently delete the %'d selected items?"
+msgstr[0] "በእርግጥ በቋሚነት ማጥፋት ይፈልጋሉ %'d የተመረጠውን እቃ?"
+msgstr[1] "በእርግጥ በቋሚነት ማጥፋት ይፈልጋሉ %'d የተመረጥይትን እቃዎች?"
+
+#: libnemo-private/nemo-file-operations.c:1692
+#, c-format
+msgid "%'d file left to delete"
+msgid_plural "%'d files left to delete"
+msgstr[0] "%'d ፋይል ቀርቷል ለማጥፋት"
+msgstr[1] "%'d ፋይሎች ቀርተዋል ለማጥፋት"
+
+#: libnemo-private/nemo-file-operations.c:1698
+msgid "Deleting files"
+msgstr "ፋይሎቹን በማጥፋት ላይ"
+
+#. To translators: %T will expand to a time like "2 minutes".
+#. * The singular/plural form will be used depending on the remaining time (i.e. the %T argument).
+#. 
+#: libnemo-private/nemo-file-operations.c:1712
+msgid "%T left"
+msgid_plural "%T left"
+msgstr[0] "%T የቀረው"
+msgstr[1] "%Tየቀረው"
+
+#: libnemo-private/nemo-file-operations.c:1779
+#: libnemo-private/nemo-file-operations.c:1813
+#: libnemo-private/nemo-file-operations.c:1852
+#: libnemo-private/nemo-file-operations.c:1946
+#: libnemo-private/nemo-file-operations.c:2823
+msgid "Error while deleting."
+msgstr "ስህተት ተፈጥሯል በማጥፋት ላይ እንዳለ"
+
+#: libnemo-private/nemo-file-operations.c:1783
+msgid ""
+"Files in the folder \"%B\" cannot be deleted because you do not have "
+"permissions to see them."
+msgstr "በፎልደር ውስጥ ያሉትን ፋይሎች \"%B\" ማጥፋት አይችሉም ምክንያቱም በቂ የሆነ ፍቃድ የሎትም"
+
+#: libnemo-private/nemo-file-operations.c:1786
+#: libnemo-private/nemo-file-operations.c:2883
+#: libnemo-private/nemo-file-operations.c:3890
+msgid ""
+"There was an error getting information about the files in the folder \"%B\"."
+msgstr "ስህተት ተፈጥሯል የፋይሎች እና የፎልደሮች መረጃ በሚፈለግበት ጊዜ \"%B\"."
+
+#: libnemo-private/nemo-file-operations.c:1795
+#: libnemo-private/nemo-file-operations.c:3899
+msgid "_Skip files"
+msgstr "ፋይሎችን _መዝለያ"
+
+#: libnemo-private/nemo-file-operations.c:1816
+msgid ""
+"The folder \"%B\" cannot be deleted because you do not have permissions to "
+"read it."
+msgstr "ይህን ፎልደር \"%B\" ማጥፋት አይችሉም ምክንያቱም ፋይሉን ለማንበብ በቂ የሆነ ፍቃድ የሎትም"
+
+#: libnemo-private/nemo-file-operations.c:1819
+#: libnemo-private/nemo-file-operations.c:2922
+#: libnemo-private/nemo-file-operations.c:3935
+msgid "There was an error reading the folder \"%B\"."
+msgstr "ፎልደሩን በማንበብ ላይ እንዳለ ስህተት ተፈጥሯል \"%B\"."
+
+#: libnemo-private/nemo-file-operations.c:1853
+msgid "Could not remove the folder %B."
+msgstr "ፎልደሩን ማስወገድ አልተቻለም %B."
+
+#: libnemo-private/nemo-file-operations.c:1947
+msgid "There was an error deleting %B."
+msgstr "በማጥፋት ላይ እንዳለ ስህተት ተፈጥሯል %B."
+
+#: libnemo-private/nemo-file-operations.c:2027
+msgid "Moving files to trash"
+msgstr "ፋይሎችን ወደ ቆሻሻ በማንቀሳቅስ ላይ"
+
+#: libnemo-private/nemo-file-operations.c:2029
+#, c-format
+msgid "%'d file left to trash"
+msgid_plural "%'d files left to trash"
+msgstr[0] "%'d ፋይል ቀርቷል በቆሻሻ ማጠራቀሚያ ውስጥ"
+msgstr[1] "%'d ፋይሎች ቀርተዋል በቆሻሻ ማጠራቀሚያ ውስጥ"
+
+#: libnemo-private/nemo-file-operations.c:2080
+msgid "Cannot move file to trash, do you want to delete immediately?"
+msgstr "ፋይሉን ወደ ቆሻሻ ማጠራቀሚያው መውሰድ አልተቻለም እዚሁ አሁኑኑ ሊያጠፉት ይፈልጋሉ?"
+
+#: libnemo-private/nemo-file-operations.c:2081
+msgid "The file \"%B\" cannot be moved to the trash."
+msgstr "ይህን ፋይል \"%B\" ወደ ቆሻሻ ማጠራቀሚያው መውሰድ አይቻልም"
+
+#: libnemo-private/nemo-file-operations.c:2300
+msgid "Trashing Files"
+msgstr "ፋይሎችን በማጥፋት ላይ"
+
+#: libnemo-private/nemo-file-operations.c:2302
+msgid "Deleting Files"
+msgstr "ፋይሎችን በማጥፋት ላይ"
+
+#: libnemo-private/nemo-file-operations.c:2385
+msgid "Unable to eject %V"
+msgstr "ማውጣት አልተቻለም %V"
+
+#: libnemo-private/nemo-file-operations.c:2387
+msgid "Unable to unmount %V"
+msgstr "ማውረድ አልተቻለም %V"
+
+#: libnemo-private/nemo-file-operations.c:2544
+msgid "Do you want to empty the trash before you unmount?"
+msgstr "ቆሻሻ ማጠራቀሚያው ከመውረዱ በፊት ባዶ ሊያደርጉት ይፈልጋሉ?"
+
+#: libnemo-private/nemo-file-operations.c:2546
+msgid ""
+"In order to regain the free space on this volume the trash must be emptied. "
+"All trashed items on the volume will be permanently lost."
+msgstr ""
+"ለዚህ መጠን የሚሆን ባዶ ቦታ ለማግኘት ቆሻሻ ማጠራቀሚያውን ባዶ ማድረግ ያስፈልጋል ፡ በቆሻሻ ማጠራቀሚያው ውስጥ ያሉት "
+"እቃዎች በሙሉ በቋሚነት ይጠፋሉ"
+
+#: libnemo-private/nemo-file-operations.c:2552
+msgid "Do _not Empty Trash"
+msgstr "ቆሻሻ ማጠራቃሚያውን ባዶ _አታድርግ"
+
+#: libnemo-private/nemo-file-operations.c:2682
+#, c-format
+msgid "Unable to mount %s"
+msgstr "መጫን አልተቻለም %s"
+
+#: libnemo-private/nemo-file-operations.c:2764
+#, c-format
+msgid "Preparing to copy %'d file (%S)"
+msgid_plural "Preparing to copy %'d files (%S)"
+msgstr[0] "ኮፒ ለማድረግ በማሰናዳት ላይ %'d ፋይሉን (%S)"
+msgstr[1] "ኮፒ ለማድረግ በማሰናዳት ላይ %'d ፋይሎቹን (%S)"
+
+#: libnemo-private/nemo-file-operations.c:2770
+#, c-format
+msgid "Preparing to move %'d file (%S)"
+msgid_plural "Preparing to move %'d files (%S)"
+msgstr[0] "ለማንቀሳቀስ በማሰናዳት ላይ %'d ፋይሉን (%S)"
+msgstr[1] "ለማንቀሳቀስ በማሰናዳት ላይ %'d ፋይሎቹን (%S)"
+
+#: libnemo-private/nemo-file-operations.c:2776
+#, c-format
+msgid "Preparing to delete %'d file (%S)"
+msgid_plural "Preparing to delete %'d files (%S)"
+msgstr[0] "ለማጥፋት በማሰናዳት ላይ %'d ፋይሉን (%S)"
+msgstr[1] "ለማጥፋት በማሰናዳት ላይ %'d ፋይሎቹን (%S)"
+
+#: libnemo-private/nemo-file-operations.c:2783
+#, c-format
+msgid "Preparing to trash %'d file"
+msgid_plural "Preparing to trash %'d files"
+msgstr[0] "ወደ ቆሻሻ ማጠራቀሚያው ለመውሰድ በማሰናዳት ላይ %'d ፋይሉን"
+msgstr[1] "ወደ ቆሻሻ ማጠራቀሚያው ለመውሰድ በማሰናዳት ላይ %'d ፋይሎቹን"
+
+#: libnemo-private/nemo-file-operations.c:2819
+#: libnemo-private/nemo-file-operations.c:3750
+#: libnemo-private/nemo-file-operations.c:3882
+#: libnemo-private/nemo-file-operations.c:3927
+msgid "Error while copying."
+msgstr "ካፒ በማድረግ ላይ ስህተት ተፈጥሯል"
+
+#: libnemo-private/nemo-file-operations.c:2821
+#: libnemo-private/nemo-file-operations.c:3880
+#: libnemo-private/nemo-file-operations.c:3925
+msgid "Error while moving."
+msgstr "በማንቀሳቀስ ላይ ስህተት ተፈጥሯል"
+
+#: libnemo-private/nemo-file-operations.c:2826
+msgid "Error while moving files to trash."
+msgstr "ፋይሎችን ወደ ቆሻሻ ማጠራቀሚያው ጋር በመውሰድ ላይ እንዳለ ስህተት ተፈጥሯል"
+
+#: libnemo-private/nemo-file-operations.c:2880
+msgid ""
+"Files in the folder \"%B\" cannot be handled because you do not have "
+"permissions to see them."
+msgstr "በፎልደሩ ውስጥ ያሉትን ፋይሎች \"%B\" ማየት አይችሉም ምክንያቱም በቂ የሆነ ፍቃድ የሎትም"
+
+#: libnemo-private/nemo-file-operations.c:2919
+msgid ""
+"The folder \"%B\" cannot be handled because you do not have permissions to "
+"read it."
+msgstr "ይህን ፎልደር \"%B\" ማየት አይችሉም ምክንያቱም በቂ የሆነ ፍቃድ የሎትም"
+
+#: libnemo-private/nemo-file-operations.c:2999
+msgid ""
+"The file \"%B\" cannot be handled because you do not have permissions to "
+"read it."
+msgstr "ይህን ፋይል \"%B\" ማየት አይችሉም ምክንያቱም በቂ የሆነ ፍቃድ የሎትም"
+
+#: libnemo-private/nemo-file-operations.c:3002
+msgid "There was an error getting information about \"%B\"."
+msgstr "ስህተት ተፈጥሯል መረጃ በማግኘት ላይ እንዳለ ስለ \"%B\"."
+
+#: libnemo-private/nemo-file-operations.c:3103
+#: libnemo-private/nemo-file-operations.c:3145
+#: libnemo-private/nemo-file-operations.c:3179
+#: libnemo-private/nemo-file-operations.c:3209
+msgid "Error while copying to \"%B\"."
+msgstr "ስህተት ተፈጥሯል ኮፒ በማድረግ ላይ እንዳለ \"%B\"."
+
+#: libnemo-private/nemo-file-operations.c:3107
+msgid "You do not have permissions to access the destination folder."
+msgstr "መድረሻው ፎልደር ጋር ለመድረስ ፍቃድ የሎትም"
+
+#: libnemo-private/nemo-file-operations.c:3109
+msgid "There was an error getting information about the destination."
+msgstr "ስለ መድረሻው መረጃ በማግኘት ላይ እንዳለ ስህተት ተፈጥሯል"
+
+#: libnemo-private/nemo-file-operations.c:3146
+msgid "The destination is not a folder."
+msgstr "መድረሻው ፎልደር አይደለም"
+
+#: libnemo-private/nemo-file-operations.c:3180
+msgid ""
+"There is not enough space on the destination. Try to remove files to make "
+"space."
+msgstr "በመድረሻው ውስጥ በቂ ባዶ ቦታ የለም በቂ ቦታ ለማግኘት ፋይሎች ማስወገድ አለብዎት"
+
+#: libnemo-private/nemo-file-operations.c:3182
+#, c-format
+msgid "%S more space is required to copy to the destination."
+msgstr "%S ተጨማሪ ባዶ ቦታ ያስፈልጋል ወደ መድረሻው ኮፒ ለማድረግ"
+
+#: libnemo-private/nemo-file-operations.c:3210
+msgid "The destination is read-only."
+msgstr "መድረሻው ለንባብ - ብቻ ነው"
+
+#: libnemo-private/nemo-file-operations.c:3269
+msgid "Moving \"%B\" to \"%B\""
+msgstr "በማንቀሳቀስ ላይ \"%B\" ወደ \"%B\""
+
+#: libnemo-private/nemo-file-operations.c:3270
+msgid "Copying \"%B\" to \"%B\""
+msgstr "ኮፒ በማድረግ ላይ \"%B\" ወደ \"%B\""
+
+#: libnemo-private/nemo-file-operations.c:3277
+msgid "Duplicating \"%B\""
+msgstr "በማባዛት ላይ \"%B\""
+
+#: libnemo-private/nemo-file-operations.c:3285
+msgid "Moving file %'d of %'d (in \"%B\") to \"%B\""
+msgstr "ፋይል በማንቀሳቅእስ ላይ %'d ከ %'d (in \"%B\") ወደ \"%B\""
+
+#: libnemo-private/nemo-file-operations.c:3287
+msgid "Copying file %'d of %'d (in \"%B\") to \"%B\""
+msgstr "ፋይል ኮፒ በማድረግ ላይ %'d ከ %'d (in \"%B\") ወደ \"%B\""
+
+#: libnemo-private/nemo-file-operations.c:3294
+msgid "Duplicating file %'d of %'d (in \"%B\")"
+msgstr "ፋይል በማባዛት ላይ %'d ከ %'d (in \"%B\")"
+
+#: libnemo-private/nemo-file-operations.c:3303
+msgid "Moving file %'d of %'d to \"%B\""
+msgstr "ፋይል በማንቀሳቀስ ላይ %'d ከ %'d ወደ \"%B\""
+
+#: libnemo-private/nemo-file-operations.c:3305
+msgid "Copying file %'d of %'d to \"%B\""
+msgstr "ፋይል ኮፒ በማድረግ ላይ %'d ከ %'d ወደ \"%B\""
+
+#: libnemo-private/nemo-file-operations.c:3311
+#, c-format
+msgid "Duplicating file %'d of %'d"
+msgstr "ፋይል  በማባዛት ላይ %'d ከ %'d"
+
+#. To translators: %S will expand to a size like "2 bytes" or "3 MB", so something like "4 kb of 4 MB"
+#: libnemo-private/nemo-file-operations.c:3330
+#, c-format
+msgid "%S of %S"
+msgstr "%S ከ %S"
+
+#. To translators: %S will expand to a size like "2 bytes" or "3 MB", %T to a time duration like
+#. * "2 minutes". So the whole thing will be something like "2 kb of 4 MB -- 2 hours left (4kb/sec)"
+#. *
+#. * The singular/plural form will be used depending on the remaining time (i.e. the %T argument).
+#. 
+#: libnemo-private/nemo-file-operations.c:3341
+msgid "%S of %S — %T left (%S/sec)"
+msgid_plural "%S of %S — %T left (%S/sec)"
+msgstr[0] "%S ከ %S — %T የቀረው (%S/sec)"
+msgstr[1] "%S ከ %S — %T የቀረው (%S/sec)"
+
+#: libnemo-private/nemo-file-operations.c:3754
+msgid ""
+"The folder \"%B\" cannot be copied because you do not have permissions to "
+"create it in the destination."
+msgstr ""
+"ይህን ፎልደር \"%B\" ኮፒ ማድረግ አይችሉም ምክንያቱም በመድረሻው ላይ ፎልደሩን ለመፍጠር በቂ የሆነ ፍቃድ የሎትም"
+
+#: libnemo-private/nemo-file-operations.c:3757
+msgid "There was an error creating the folder \"%B\"."
+msgstr "ፎልደር በመፍጠር ላይ ስህተት ተፈጥሯል \"%B\"."
+
+#: libnemo-private/nemo-file-operations.c:3887
+msgid ""
+"Files in the folder \"%B\" cannot be copied because you do not have "
+"permissions to see them."
+msgstr ""
+"በፎልደሩ ውስጥ ያሉ ፋይሎችን \"%B\" ኮፒ ማድረግ አይችሉም ምክንያቱም ፋይሎቹን ለማየት በቂ የሆነ ፍቃድ የሎትም"
+
+#: libnemo-private/nemo-file-operations.c:3932
+msgid ""
+"The folder \"%B\" cannot be copied because you do not have permissions to "
+"read it."
+msgstr "ፎልደሩን \"%B\" ኮፒ ማድረግ አይችሉም ምክንያቱም ለማንበብ ፍቃድ የሎትም"
+
+#: libnemo-private/nemo-file-operations.c:3977
+#: libnemo-private/nemo-file-operations.c:4702
+#: libnemo-private/nemo-file-operations.c:5336
+msgid "Error while moving \"%B\"."
+msgstr "በማንቀሳቀስ ላይ እንዳለ ስህተት ተፈጥሯል \"%B\"."
+
+#: libnemo-private/nemo-file-operations.c:3978
+msgid "Could not remove the source folder."
+msgstr "የፎልደሩን ምንጭ ማስወገድ አይቻልም"
+
+#: libnemo-private/nemo-file-operations.c:4063
+#: libnemo-private/nemo-file-operations.c:4104
+#: libnemo-private/nemo-file-operations.c:4704
+#: libnemo-private/nemo-file-operations.c:4775
+msgid "Error while copying \"%B\"."
+msgstr "ኮፒ በማድረግ ላይ እንዳለ ስህተት ተፈጥሯል \"%B\"."
+
+#: libnemo-private/nemo-file-operations.c:4064
+#, c-format
+msgid "Could not remove files from the already existing folder %F."
+msgstr "ፋይሉን ከነበረበት ፎልደር ውስጥ ማስወገድ አይችሉም %F."
+
+#: libnemo-private/nemo-file-operations.c:4105
+#, c-format
+msgid "Could not remove the already existing file %F."
+msgstr "የነበረውን ፋይል ማስወገድ አይችሉም %F."
+
+#. the run_warning() frees all strings passed in automatically
+#: libnemo-private/nemo-file-operations.c:4440
+#: libnemo-private/nemo-file-operations.c:5171
+msgid "You cannot move a folder into itself."
+msgstr "ፎልደሩን ወደራሱ ማንቀሳቀስ አይችሉም"
+
+#: libnemo-private/nemo-file-operations.c:4441
+#: libnemo-private/nemo-file-operations.c:5172
+msgid "You cannot copy a folder into itself."
+msgstr "ፎልደሩን ወደራሱ ኮፒ ማድረግ አይችሉም"
+
+#: libnemo-private/nemo-file-operations.c:4442
+#: libnemo-private/nemo-file-operations.c:5173
+msgid "The destination folder is inside the source folder."
+msgstr "መደረሻው ፎልደር በፎልደሩ ምንጭ ውስጥ ነው"
+
+#. the run_warning() frees all strings passed in automatically
+#: libnemo-private/nemo-file-operations.c:4473
+msgid "You cannot move a file over itself."
+msgstr "ፋይሉን ወደራሱ ማንቀሳቀስ አይችሉም"
+
+#: libnemo-private/nemo-file-operations.c:4474
+msgid "You cannot copy a file over itself."
+msgstr "ፋይሉን ወደራሱ ኮፒ ማድረግ አይችሉም"
+
+#: libnemo-private/nemo-file-operations.c:4475
+msgid "The source file would be overwritten by the destination."
+msgstr "በመድረሻው ላይ የፋይሉ ምንጭ ተደርቦ ይጻፋል"
+
+#: libnemo-private/nemo-file-operations.c:4706
+#, c-format
+msgid "Could not remove the already existing file with the same name in %F."
+msgstr "በዚህ ስም ቀደም ብሎ የነበረውን ፋይል ማጥፋት አልተቻለም ከ %F."
+
+#: libnemo-private/nemo-file-operations.c:4776
+#, c-format
+msgid "There was an error copying the file into %F."
+msgstr "ስህተት ተፈጥሯል ፋይሉ ኮፒ ሲደረግ ወደ %F."
+
+#: libnemo-private/nemo-file-operations.c:5008
+#: libnemo-private/nemo-file-operations.c:5040
+msgid "Copying Files"
+msgstr "ፋይሎችን ኮፒ በማድረግ ላይ"
+
+#: libnemo-private/nemo-file-operations.c:5066
+msgid "Preparing to Move to \"%B\""
+msgstr "በማዘጋጀት ላይ ለማንቀሳቀስ ወደ \"%B\""
+
+#: libnemo-private/nemo-file-operations.c:5070
+#, c-format
+msgid "Preparing to move %'d file"
+msgid_plural "Preparing to move %'d files"
+msgstr[0] "በማዘጋጀት ላይ ለማንቀሳቀስ ወደ %'d ፋይል"
+msgstr[1] "በማዘጋጀት ላይ ለማንቀሳቀስ ወደ %'d ፋይሎች"
+
+#: libnemo-private/nemo-file-operations.c:5337
+#, c-format
+msgid "There was an error moving the file into %F."
+msgstr "ስህተት ተፈጥሯል ፋይሉን በማንቀሳቀስ ላይ እንዳለ %F."
+
+#: libnemo-private/nemo-file-operations.c:5600
+msgid "Moving Files"
+msgstr "ፋይሎችን በማንቀሳቀስ ላይ"
+
+#: libnemo-private/nemo-file-operations.c:5633
+msgid "Creating links in \"%B\""
+msgstr "አገናኞች በመፍጠር ላይ ወደ \"%B\""
+
+#: libnemo-private/nemo-file-operations.c:5637
+#, c-format
+msgid "Making link to %'d file"
+msgid_plural "Making links to %'d files"
+msgstr[0] "አገናኝ በመፍጠር ላይ ወደ %'d ፋይል"
+msgstr[1] "አገናኞች በመፍጠር ላይ ወደ %'d ፋይሎች"
+
+#: libnemo-private/nemo-file-operations.c:5775
+msgid "Error while creating link to %B."
+msgstr "ስህተት ተፈጥሯል አገናኝ በመፍጠር ላይ %B."
+
+#: libnemo-private/nemo-file-operations.c:5777
+msgid "Symbolic links only supported for local files"
+msgstr "የ ምልክት አገናኝ የሚደግፈው የ አካባቢ ፋይሎች ብቻ ነው"
+
+#: libnemo-private/nemo-file-operations.c:5780
+msgid "The target doesn't support symbolic links."
+msgstr "ኢላማው የ አካባቢ ፋይሎች አይደግፍም"
+
+#: libnemo-private/nemo-file-operations.c:5783
+#, c-format
+msgid "There was an error creating the symlink in %F."
+msgstr "ለስላስ አገናኝ በሚፈጠር ጊዜ ችግር ተፈጥሯል በ %F."
+
+#: libnemo-private/nemo-file-operations.c:6101
+msgid "Setting permissions"
+msgstr "ፍቃዶች በማሰናዳት ላይ"
+
+#. localizers: the initial name of a new folder
+#: libnemo-private/nemo-file-operations.c:6364
+msgid "Untitled Folder"
+msgstr "ያልተሰየመ ፎልደር"
+
+#. localizers: the initial name of a new empty document
+#: libnemo-private/nemo-file-operations.c:6376
+msgid "Untitled Document"
+msgstr "ያልተሰየመ ሰነደ"
+
+#: libnemo-private/nemo-file-operations.c:6552
+msgid "Error while creating directory %B."
+msgstr "ዳይሬክቶሪ በመፍጠር ላይ እንዳለ ስህተት ተፈጥሯል %B."
+
+#: libnemo-private/nemo-file-operations.c:6554
+msgid "Error while creating file %B."
+msgstr "ፋይል በመፍጠር ላይ እንዳለ ስህተት ተፈጥሯል %B."
+
+#: libnemo-private/nemo-file-operations.c:6556
+#, c-format
+msgid "There was an error creating the directory in %F."
+msgstr "ዳይሬክቶሪ በመፍጠር ላይ እንዳለ ስህተት ተፈጥሯል %F."
+
+#: libnemo-private/nemo-file-operations.c:6798
+#: libnemo-private/nemo-file-operations.c:6799
+#: libnemo-private/nemo-file-operations.c:6832
+msgid "Emptying Trash"
+msgstr "ቆሻሻ ማጠራቀሚያውን ባዶ በማድረግ ላይ"
+
+#: libnemo-private/nemo-file-operations.c:6878
+#: libnemo-private/nemo-file-operations.c:6919
+#: libnemo-private/nemo-file-operations.c:6954
+#: libnemo-private/nemo-file-operations.c:6989
+msgid "Unable to mark launcher trusted (executable)"
+msgstr "ማስነሻውን እንደ ሚታመን ምልክት ማድረግ አልተቻለም (executable)"
+
+#: libnemo-private/nemo-file-undo-operations.c:378
+#, c-format
+msgid "Move %d item back to '%s'"
+msgid_plural "Move %d items back to '%s'"
+msgstr[0] "ማንቀሳቀስ %d እቃውን ወደ ነበረበት ወደ '%s'"
+msgstr[1] "ማንቀሳቀስ %d እቃዎቹን ወደ ነበሩበት ወደ '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:381
+#, c-format
+msgid "Move %d item to '%s'"
+msgid_plural "Move %d items to '%s'"
+msgstr[0] "ማንቀሳቀስ %d እቃውን ወደ '%s'"
+msgstr[1] "ማንቀሳቀስ %d እቃዎቹን ወደ '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:385
+#, c-format
+msgid "_Undo Move %d item"
+msgid_plural "_Undo Move %d items"
+msgstr[0] "_መተው ማንቀሳቀስ %d እቃውን"
+msgstr[1] "_መተው ማንቀሳቀስ %d እቃዎቹን"
+
+#: libnemo-private/nemo-file-undo-operations.c:388
+#, c-format
+msgid "_Redo Move %d item"
+msgid_plural "_Redo Move %d items"
+msgstr[0] "_እንደገና ማንቀሳቀስ %d እቃውን"
+msgstr[1] "_እንደገና ማንቀሳቀስ %d እቃዎቹን"
+
+#: libnemo-private/nemo-file-undo-operations.c:392
+#, c-format
+msgid "Move '%s' back to '%s'"
+msgstr "ማንቀሳቀሻ '%s' ወደ ነበሩበት '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:393
+#, c-format
+msgid "Move '%s' to '%s'"
+msgstr "ማንቀሳቀሻ '%s' ወደ '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:395
+msgid "_Undo Move"
+msgstr "_መተው ማንቀሳቀሱን"
+
+#: libnemo-private/nemo-file-undo-operations.c:396
+msgid "_Redo Move"
+msgstr "_እንደገና ማንቀሳቀስ"
+
+#: libnemo-private/nemo-file-undo-operations.c:399
+msgid "_Undo Restore from Trash"
+msgstr "_መተው እንደ ነበር መመለሱን ከቆሻሻ ማጠራቀሚያ ውስጥ"
+
+#: libnemo-private/nemo-file-undo-operations.c:400
+msgid "_Redo Restore from Trash"
+msgstr "_እንደገና መስሪያ እንደ ነበር መመለሱን ከቆሻሻ ማጠራቀሚያ ውስጥ"
+
+#: libnemo-private/nemo-file-undo-operations.c:403
+#, c-format
+msgid "Move %d item back to trash"
+msgid_plural "Move %d items back to trash"
+msgstr[0] "ማንቀሳቀሻ %d እቃውን ወደ ቆሻሻ ማጠራቀሚያው"
+msgstr[1] "ማንቀሳቀሻ %d እቃዎቹን ወደ ቆሻሻ ማጠራቀሚያው"
+
+#: libnemo-private/nemo-file-undo-operations.c:406
+#: libnemo-private/nemo-file-undo-operations.c:999
+#, c-format
+msgid "Restore %d item from trash"
+msgid_plural "Restore %d items from trash"
+msgstr[0] "እንደ ነበር መመለሻ %d እቃውን ከቆሻሻ ማጠራቀሚያው ውስጥ"
+msgstr[1] "እንደ ነበር መመለሻ %d እቃዎቹን ከቆሻሻ ማጠራቀሚያው ውስጥ"
+
+#: libnemo-private/nemo-file-undo-operations.c:410
+#, c-format
+msgid "Move '%s' back to trash"
+msgstr "ማንቀሳቀሻ '%s' ወደ ቆሻሻ ማጠራቀሚያው ውስጥ"
+
+#: libnemo-private/nemo-file-undo-operations.c:411
+#, c-format
+msgid "Restore '%s' from trash"
+msgstr "እንደ ነበር መመለሻ '%s' ከቆሻሻ ማጠራቀሚያው ውስጥ"
+
+#: libnemo-private/nemo-file-undo-operations.c:415
+#, c-format
+msgid "Delete %d copied item"
+msgid_plural "Delete %d copied items"
+msgstr[0] "ማጥፊያ %d ኮፒ የተደረገውን እቃ"
+msgstr[1] "ማጥፊያ %d ኮፒ የተደረጉትን እቃዎች"
+
+#: libnemo-private/nemo-file-undo-operations.c:418
+#, c-format
+msgid "Copy %d item to '%s'"
+msgid_plural "Copy %d items to '%s'"
+msgstr[0] "ኮፒ ማድረጊያ %d እቃውን ወደ '%s'"
+msgstr[1] "ኮፒ ማድረጊያ %d እቃዎቹን ወደ '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:422
+#, c-format
+msgid "_Undo Copy %d item"
+msgid_plural "_Undo Copy %d items"
+msgstr[0] "_መተው ኮፒ ማድረግ %d እቃውን"
+msgstr[1] "_መተው ኮፒ ማድረግ %d እቃዎቹን"
+
+#: libnemo-private/nemo-file-undo-operations.c:425
+#, c-format
+msgid "_Redo Copy %d item"
+msgid_plural "_Redo Copy %d items"
+msgstr[0] "_እንደገና መስሪያ ኮፒ ማድረግ %d እቃውን"
+msgstr[1] "_እንደገና መስሪያ ኮፒ ማድረግ %d እቃዎቹን"
+
+#: libnemo-private/nemo-file-undo-operations.c:429
+#: libnemo-private/nemo-file-undo-operations.c:451
+#: libnemo-private/nemo-file-undo-operations.c:684
+#, c-format
+msgid "Delete '%s'"
+msgstr "ማጥፊያ '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:430
+#, c-format
+msgid "Copy '%s' to '%s'"
+msgstr "ኮፒ ማድረጊያ '%s' ወደ '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:432
+msgid "_Undo Copy"
+msgstr "__መተው ኮፒ ማድረጉን"
+
+#: libnemo-private/nemo-file-undo-operations.c:433
+msgid "_Redo Copy"
+msgstr "__እንደገና ኮፒ ማድረጊያ"
+
+#: libnemo-private/nemo-file-undo-operations.c:437
+#, c-format
+msgid "Delete %d duplicated item"
+msgid_plural "Delete %d duplicated items"
+msgstr[0] "ማጥፊያ %d የተደገመን እቃ"
+msgstr[1] "ማጥፊያ %d የተደገሙ እቃዎችን"
+
+#: libnemo-private/nemo-file-undo-operations.c:440
+#, c-format
+msgid "Duplicate %d item in '%s'"
+msgid_plural "Duplicate %d items in '%s'"
+msgstr[0] "ማባዣ %d እቃውን ወደ '%s'"
+msgstr[1] "ማባዣ %d እቃዎቹን ወደ '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:444
+#, c-format
+msgid "_Undo Duplicate %d item"
+msgid_plural "_Undo Duplicate %d items"
+msgstr[0] "_መተው ማባዛት %d እቃውን"
+msgstr[1] "_መተው ማባዛት %d እቃዎቹን"
+
+#: libnemo-private/nemo-file-undo-operations.c:447
+#, c-format
+msgid "_Redo Duplicate %d item"
+msgid_plural "_Redo Duplicate %d items"
+msgstr[0] "_እንደገና መስሪያ ማባዛት %d እቃውን"
+msgstr[1] "_እንደገና መስሪያ ማባዛት %d እቃዎቹን"
+
+#: libnemo-private/nemo-file-undo-operations.c:452
+#, c-format
+msgid "Duplicate '%s' in '%s'"
+msgstr "ማባዛት '%s' በ '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:455
+msgid "_Undo Duplicate"
+msgstr "_መተው ማባዛቱን"
+
+#: libnemo-private/nemo-file-undo-operations.c:456
+msgid "_Redo Duplicate"
+msgstr "_እንገና መስሪያ ማባዛቱን"
+
+#: libnemo-private/nemo-file-undo-operations.c:460
+#, c-format
+msgid "Delete links to %d item"
+msgid_plural "Delete links to %d items"
+msgstr[0] "ማጥፊያ አገናኞችን ወደ %d እቃው"
+msgstr[1] "ማጥፊያ አገናኞችን ወደ %d እቃዎቹ"
+
+#: libnemo-private/nemo-file-undo-operations.c:463
+#, c-format
+msgid "Create links to %d item"
+msgid_plural "Create links to %d items"
+msgstr[0] "መፍጠሪያ አገናኞችን ወደ %d እቃ"
+msgstr[1] "መፍጠሪያ አገናኞችን ወደ %d እቃዎች"
+
+#: libnemo-private/nemo-file-undo-operations.c:467
+#, c-format
+msgid "Delete link to '%s'"
+msgstr "ማጥፊያ አገናኞችን ወደ '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:468
+#, c-format
+msgid "Create link to '%s'"
+msgstr "መፍጠሪያ አገናኝ ወደ '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:470
+msgid "_Undo Create Link"
+msgstr "_መተው አገናኝ መፍጠሪያ"
+
+#: libnemo-private/nemo-file-undo-operations.c:471
+msgid "_Redo Create Link"
+msgstr "_እንደገና መስሪያ አገናኝ መፍጠሪያ"
+
+#: libnemo-private/nemo-file-undo-operations.c:687
+#, c-format
+msgid "Create an empty file '%s'"
+msgstr "ባዶ ፋይል መፍጠሪያ '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:689
+msgid "_Undo Create Empty File"
+msgstr "_መተው ባዶ ፋይል መፍጠሪያ"
+
+#: libnemo-private/nemo-file-undo-operations.c:690
+msgid "_Redo Create Empty File"
+msgstr "_እንደገና መስሪያ ባዶ ፋይል መፍጠሪያ"
+
+#: libnemo-private/nemo-file-undo-operations.c:692
+#, c-format
+msgid "Create a new folder '%s'"
+msgstr "አዲስ ፎልደር መፍጠሪያ '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:694
+msgid "_Undo Create Folder"
+msgstr "_መተው አዲስ ፎልደር መፍጠሪያ"
+
+#: libnemo-private/nemo-file-undo-operations.c:695
+msgid "_Redo Create Folder"
+msgstr "_እንደገና መስሪያ አዲስ ፎልደር መፍጠሪያ"
+
+#: libnemo-private/nemo-file-undo-operations.c:697
+#, c-format
+msgid "Create new file '%s' from template "
+msgstr "አዲስ ፋይል መፍጠሪያ '%s' ከ ቴምፕሌትስ "
+
+#: libnemo-private/nemo-file-undo-operations.c:699
+msgid "_Undo Create from Template"
+msgstr "_መተው አዲስ ፋይል መፍጠሩን ከ ቴምፕሌትስ"
+
+#: libnemo-private/nemo-file-undo-operations.c:700
+msgid "_Redo Create from Template"
+msgstr "_እንደገና መስሪያ አዲስ ፋይል መፍጠሩን ከ ቴምፕሌትስ"
+
+#: libnemo-private/nemo-file-undo-operations.c:882
+#: libnemo-private/nemo-file-undo-operations.c:883
+#, c-format
+msgid "Rename '%s' as '%s'"
+msgstr "እንደገና መሰየሚያ '%s' እንደ '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:885
+msgid "_Undo Rename"
+msgstr "_መተው እንደገና መሰየሙን"
+
+#: libnemo-private/nemo-file-undo-operations.c:886
+msgid "_Redo Rename"
+msgstr "_እንደገና መስሪያ እንደገና መሰየሙን"
+
+#: libnemo-private/nemo-file-undo-operations.c:1002
+#, c-format
+msgid "Move %d item to trash"
+msgid_plural "Move %d items to trash"
+msgstr[0] "ማንቀሳቀሻ %d እቃውን ወደ ቆሻሻ ማጠራቀሚያ"
+msgstr[1] "ማንቀሳቀሻ %d እቃዎችን ወደ ቆሻሻ ማጠራቀሚያ"
+
+#: libnemo-private/nemo-file-undo-operations.c:1014
+#, c-format
+msgid "Restore '%s' to '%s'"
+msgstr "እንደ ነበር መመለሻ '%s' ወደ '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:1021
+#, c-format
+msgid "Move '%s' to trash"
+msgstr "ማንቀሳቀሻ '%s' ወደ ቆሻሻ ማጠራቀሚያ"
+
+#: libnemo-private/nemo-file-undo-operations.c:1025
+msgid "_Undo Trash"
+msgstr "_መተው ወደ ቆሻሻ ማጠራቀሚያ መውሰዱን"
+
+#: libnemo-private/nemo-file-undo-operations.c:1026
+msgid "_Redo Trash"
+msgstr "_እንደገና መስሪያ ወደ ቆሻሻ ማጠራቀሚያ መውሰዱን"
+
+#: libnemo-private/nemo-file-undo-operations.c:1318
+#, c-format
+msgid "Restore original permissions of items enclosed in '%s'"
+msgstr "ዋናውን ፍቃድ እንደ ነበር መመለሻ ለ እቃዎች ለ ተከበቡ በ '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:1319
+#, c-format
+msgid "Set permissions of items enclosed in '%s'"
+msgstr "ፍቃድ ማሰናጃ ተያይዘው ለሚገኙ እቃዎች በ '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:1321
+#: libnemo-private/nemo-file-undo-operations.c:1476
+msgid "_Undo Change Permissions"
+msgstr "_መተው ፍቃዶችን መቀየሩን"
+
+#: libnemo-private/nemo-file-undo-operations.c:1322
+#: libnemo-private/nemo-file-undo-operations.c:1477
+msgid "_Redo Change Permissions"
+msgstr "_እንደግና መስሪያ ፍቃዶችን መቀየሩን"
+
+#: libnemo-private/nemo-file-undo-operations.c:1473
+#, c-format
+msgid "Restore original permissions of '%s'"
+msgstr "እንደ ነበር መመለሻ ፍቃዶችን ወደ '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:1474
+#, c-format
+msgid "Set permissions of '%s'"
+msgstr "ፍቃዶችን ማሰናጃ ከ '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:1584
+#, c-format
+msgid "Restore group of '%s' to '%s'"
+msgstr "እንደ ነበር መመለሻ ቡድኑን ከ '%s' ወደ '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:1586
+#, c-format
+msgid "Set group of '%s' to '%s'"
+msgstr "ቡድን ማሰናጃ ከ '%s' ወደ '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:1589
+msgid "_Undo Change Group"
+msgstr "_መተው የቡድኑን ለውጥ"
+
+#: libnemo-private/nemo-file-undo-operations.c:1590
+msgid "_Redo Change Group"
+msgstr "_እንደገና መስሪያ የቡድኑን ለውጥ"
+
+#: libnemo-private/nemo-file-undo-operations.c:1592
+#, c-format
+msgid "Restore owner of '%s' to '%s'"
+msgstr "እንደነበር መመለሻ ባለቤቱን ከ '%s' ወደ '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:1594
+#, c-format
+msgid "Set owner of '%s' to '%s'"
+msgstr "ባለቤት ማሰናጃ ከ '%s' ወደ '%s'"
+
+#: libnemo-private/nemo-file-undo-operations.c:1597
+msgid "_Undo Change Owner"
+msgstr "_መተው ባለቤቱን መቀየር"
+
+#: libnemo-private/nemo-file-undo-operations.c:1598
+msgid "_Redo Change Owner"
+msgstr "_እንደገና መስሪያ ባለቤቱን መቀየር"
+
+#: libnemo-private/nemo-file-utilities.c:1379
+#, c-format
+msgid "Could not determine original location of \"%s\" "
+msgstr "ዋናውን አካባቢ መወሰን አልተቻለም ከ \"%s\" "
+
+#: libnemo-private/nemo-file-utilities.c:1383
+msgid "The item cannot be restored from trash"
+msgstr "ከቆሻሻ ማጠራቀሚያው ውስጥ እቃውን እንደነበር ማድረግ አይቻልም"
+
+#: libnemo-private/nemo-icon-container.c:1415
+msgid "The selection rectangle"
+msgstr "የተመረጠው አራት ማእዘን"
+
+#: libnemo-private/nemo-mime-application-chooser.c:113
+msgid "Could not forget association"
+msgstr "ግንኙነቱን መርሳት አልተቻለም"
+
+#: libnemo-private/nemo-mime-application-chooser.c:137
+msgid "Forget association"
+msgstr "ግንኙነቱን መርሻ"
+
+#: libnemo-private/nemo-mime-application-chooser.c:277
+msgid "Valid executable."
+msgstr "ዋጋ ያለው ሊፈጸም የሚችል"
+
+#: libnemo-private/nemo-mime-application-chooser.c:284
+msgid ""
+"Not a valid executable.  Spaces in the file path must be escaped with "
+"backslash (\\)."
+msgstr "ዋጋ የሌለው ሊፈጸም የማይችል: ክፍተት በ ፋይል መንገድ ውስጥ መዘለል አለበት በ backslash (\\)."
+
+#. the %s here is a file extension
+#: libnemo-private/nemo-mime-application-chooser.c:419
+#: libnemo-private/nemo-mime-application-chooser.c:437
+#, c-format
+msgid "%s document"
+msgstr "%s ሰነድ"
+
+#: libnemo-private/nemo-mime-application-chooser.c:424
+#, c-format
+msgid "Open all files of type \"%s\" with"
+msgstr "ሁሉንም አይነት ፋይሎች መክፈቻ \"%s\" በ"
+
+#: libnemo-private/nemo-mime-application-chooser.c:444
+#, c-format
+msgid ""
+"Select an application in the list to open %s and other files of type \"%s\""
+msgstr "ይምረጡ መተግባሪያ ከ ዝርዝር ውስጥ ለ መክፈት %s እና ሌሎች የ ፋይል አይነቶች \"%s\""
+
+#: libnemo-private/nemo-mime-application-chooser.c:478
+msgid "Custom application"
+msgstr "መተግበሪያ ማስተካከያ"
+
+#: libnemo-private/nemo-mime-application-chooser.c:481
+msgid "_Cancel"
+msgstr "_መሰረዣ"
+
+#: libnemo-private/nemo-mime-application-chooser.c:498
+msgid "Executables"
+msgstr "ሊፈጸም የሚችል"
+
+#: libnemo-private/nemo-mime-application-chooser.c:544
+msgid ""
+"You can also type or select a custom executable file to use to open this "
+"file type.  You can use this command just once, or set it as default for all "
+"files of this type."
+msgstr ""
+"እርስዎ መጻፍ ወይንም መምረጥ ይችላሉ የሚፈጸመውን ፋይል ለ መጠቀም ይህን አይነት ፋይል ለ መክፈት: እርስዎ እንዲሁም "
+"መጠቀም ይችላሉ ትእዛ አንድ ጊዜ ብቻ: ወይንም ማሰናዳት ነባር ለ ሁሉም ለዚህ አይነት ፋይሎች"
+
+#: libnemo-private/nemo-mime-application-chooser.c:558
+msgid "Enter a custom command..."
+msgstr "ትእዛዝ ማስተካከያ ያስገቡ..."
+
+#: libnemo-private/nemo-mime-application-chooser.c:584
+msgid "Add to list"
+msgstr "ወደ ዝርዝር መጨመሪያ"
+
+#: libnemo-private/nemo-mime-application-chooser.c:592
+msgid "Set as default"
+msgstr "እንደነባር ማዘጋጃ"
+
+#: libnemo-private/nemo-mime-application-chooser.c:601
+msgid "Reset to system defaults"
+msgstr "ወደ ነባር ስርአቱ መመለሻ"
+
+#: libnemo-private/nemo-program-choosing.c:323
+msgid "Sorry, but you cannot execute commands from a remote site."
+msgstr "አዝናለሁ ፡ ከርቀት ቦታ የመፈጸሚያ ትእዛዞችን ማስኬድ አይችሉም"
+
+#: libnemo-private/nemo-program-choosing.c:325
+msgid "This is disabled due to security considerations."
+msgstr "ለደህንነት ሲባል ይህ ሁኔታ ተሳንክሏል"
+
+#: libnemo-private/nemo-program-choosing.c:336
+#: libnemo-private/nemo-program-choosing.c:397
+msgid "There was an error launching the application."
+msgstr "ስህተት ተፈጥሯል መተግበሪያውን በማስነሳት ላይ"
+
+#: libnemo-private/nemo-program-choosing.c:361
+#: libnemo-private/nemo-program-choosing.c:372
+msgid "This drop target only supports local files."
+msgstr "ይህ የመጣያ ኢላማ የሚደግፈው የአካባቢ ፋይሎችን ብቻ ነው"
+
+#: libnemo-private/nemo-program-choosing.c:362
+msgid ""
+"To open non-local files copy them to a local folder and then drop them again."
+msgstr "ለ መክፈት ምንም-የ አካባቢ ያልሆኑ ፋይሎች ኮፒ ያድርጉ እና ወደ አካባቢ ፎልደር ውስጥ ይጣሉት"
+
+#: libnemo-private/nemo-program-choosing.c:373
+msgid ""
+"To open non-local files copy them to a local folder and then drop them "
+"again. The local files you dropped have already been opened."
+msgstr ""
+"ለ መክፈት ምንም-የ አካባቢ ያልሆኑ ፋይሎች ኮፒ ያድርጉ እና ወደ አካባቢ ፎልደር ውስጥ ይጣሉት: የ አካባቢ ፋይሎች "
+"እርስዎ የጣሉት ቀደም ብሎ ተከፍቷል"
+
+#: libnemo-private/nemo-program-choosing.c:395
+msgid "Details: "
+msgstr "ዝርዝሮች : "
+
+#: libnemo-private/nemo-progress-info.c:205
+#: libnemo-private/nemo-progress-info.c:223
+#: libnemo-private/nemo-progress-info.c:241
+msgid "Preparing"
+msgstr "በማዘጋጀት ላይ"
+
+#: libnemo-private/nemo-query.c:197
+#, c-format
+msgid "Search in \"%s\""
+msgstr ""
+
+#: libnemo-private/nemo-undo-signal-handlers.c:173
+msgid "Edit"
+msgstr "ማረሚያ"
+
+#: libnemo-private/nemo-undo-signal-handlers.c:174
+msgid "Undo Edit"
+msgstr "መተው ማረሙን"
+
+#: libnemo-private/nemo-undo-signal-handlers.c:175
+msgid "Undo the edit"
+msgstr "መተው ማረሙን"
+
+#: libnemo-private/nemo-undo-signal-handlers.c:176
+msgid "Redo Edit"
+msgstr "እርማቱን እንደገና መስሪያ"
+
+#: libnemo-private/nemo-undo-signal-handlers.c:177
+msgid "Redo the edit"
+msgstr "እርማቱን እንደገና መስሪያ"
+
+#: eel/eel-canvas.c:1255 eel/eel-canvas.c:1256
+msgid "X"
+msgstr "X"
+
+#: eel/eel-canvas.c:1262 eel/eel-canvas.c:1263
+msgid "Y"
+msgstr "Y"
+
+#: eel/eel-editable-label.c:320
+msgid "The text of the label."
+msgstr "የምልክቱ ጽሁፍ"
+
+#: eel/eel-editable-label.c:326
+msgid "Justification"
+msgstr "እኩል ማካፈያ"
+
+#: eel/eel-editable-label.c:327
+msgid ""
+"The alignment of the lines in the text of the label relative to each other. "
+"This does NOT affect the alignment of the label within its allocation. See "
+"GtkMisc::xalign for that."
+msgstr ""
+"የ መስመሮች ማሰለፊያ በ ጽሁፍ ምልክት ውስጥ ከ እያንዳንዱ ከሚዘመደው አንፃር:  ይህ ተጽእኖ አይፈጥርም ለ ማሰለፊያ ለ "
+"ምልክት ባለበት ቦታ: ይህን GtkMisc::xalign ይመልከቱ"
+
+#: eel/eel-editable-label.c:335
+msgid "Line wrap"
+msgstr "የመስመር መጠቅለያ"
+
+#: eel/eel-editable-label.c:336
+msgid "If set, wrap lines if the text becomes too wide."
+msgstr "ከ ተሰናዳ: መስመሮች ይጠቀልላል ጽሁፉ በጣም ሰፊ ከሆነ"
+
+#: eel/eel-editable-label.c:343
+msgid "Cursor Position"
+msgstr "የጠቋሚው ቦታ"
+
+#: eel/eel-editable-label.c:344
+msgid "The current position of the insertion cursor in chars."
+msgstr "የ አሁኑ ቦታ የ ማስገቢያ መጠቆሚያ በ chars ውስጥ"
+
+#: eel/eel-editable-label.c:353
+msgid "Selection Bound"
+msgstr "የመዝለያ ምርጫዎች"
+
+#: eel/eel-editable-label.c:354
+msgid ""
+"The position of the opposite end of the selection from the cursor in chars."
+msgstr "ቦታው ለ ተቃራኒ መጨረሻ ለ ተመረጠው ከ መጠቆሚያው ባህሪ ውስጥ"
+
+#: eel/eel-editable-label.c:3106
+msgid "Select All"
+msgstr "ሁሉንም መምረጫ"
+
+#: eel/eel-editable-label.c:3117
+msgid "Input Methods"
+msgstr "የማስገቢያ ዘዴዎች"
+
+#: eel/eel-gtk-extensions.c:328
+msgid "Show more _details"
+msgstr "ተጨማሪ _ዝርዝር ማሳያ"
+
+#: eel/eel-stock-dialogs.c:205
+msgid "You can stop this operation by clicking cancel."
+msgstr "ይህን ተግባር ማስቆም ይችላሉ መሰረዣን በመጫን"
+
+#: eel/eel-vfs-extensions.c:128
+msgid " (invalid Unicode)"
+msgstr " (ዋጋ የሌለው ዩኒኮድ)"
+
+#: data/nemo-actions/action_i18n_strings.py:8
+msgid "Set as Wallpaper..."
+msgstr "እንደ ግድግዳ ወረቀት ማሰናጃ..."
+
+#: data/nemo-actions/action_i18n_strings.py:9
+msgid "Set the selected image as your Cinnamon desktop wallpaper"
+msgstr "የ ተመረጠውን ምስል በ እርስዎ የ ሲናሞን ዴስክቶፕ ውስጥ እንደ ግድግዳ ወረቀት መጠቀሚያ"
+
+#: data/nemo-actions/action_i18n_strings.py:10
+msgid "Add Desklets"
+msgstr "ዴስክሌትስ መጨመሪያ"
+
+#: data/nemo-actions/action_i18n_strings.py:11
+msgid "Add Cinamon desklets"
+msgstr "የ ሲናሞን ዴስክሌትስ መጨመሪያ"
+
+#: data/nemo-actions/action_i18n_strings.py:12
+msgid "Mount archive"
+msgstr "ማህደር መጫኛ"
+
+#: data/nemo-actions/action_i18n_strings.py:13
+#, python-format
+msgid "Mount %f to browse its contents"
+msgstr "መጫኛ %f ይዞታዎችን ለ መቃኘት"
+
+#: data/nemo-actions/action_i18n_strings.py:14
+msgid "Change Desktop _Background"
+msgstr "የዴስክቶፕ _መደብ መቀየሪያ"
+
+#: data/nemo-actions/action_i18n_strings.py:15
+msgid "Change the Cinnamon desktop background"
+msgstr "የ ሲናሞን ዴስክቶፕ መደብ መቀየሪያ"
+
+#: data/nemo-actions/action_i18n_strings.py:16
+msgid "Manage workspaces (Expo)"
+msgstr "የ ስራ ቦታ አስተዳዳሪ (Expo)"
+
+#: data/nemo-actions/action_i18n_strings.py:17
+msgid "Open Expo to add, remove, or organize workspaces"
+msgstr "መክፈቻ ለ Expo ለ መጨመር: ለ ማስወገድ: ወይንም የ ስራ ቦታዎች ለ ማደራጀት"
+
+#: data/nemo-actions/action_i18n_strings.py:18
+msgid "Create a new l_auncher here..."
+msgstr "አዲስ ማ_ስነሻ እዚህ መፍጠሪያ..."
+
+#: data/nemo-actions/action_i18n_strings.py:19
+msgid "Create a new launcher in this folder"
+msgstr "በዚህ ፎልደር ውስጥ ማስጀመሪያ መፍጠሪያ"
+
+#: data/nemo-actions/action_i18n_strings.py:20
+msgid "Remove workspace"
+msgstr "የ ስራ ቦታ ማስወገጃ"
+
+#: data/nemo-actions/action_i18n_strings.py:21
+msgid "Remove the currently active workspace"
+msgstr "የ አሁኑን ንቁ የ ስራ ቦታ ማስወገጃ"
+
+#: data/nemo-actions/action_i18n_strings.py:22
+msgid "Jump to new workspace"
+msgstr "ወደ አዲስ የ ስራ ቦታ መዝለያ"
+
+#: data/nemo-actions/action_i18n_strings.py:23
+msgid "Create a new workspace and activate it"
+msgstr "አዲስ የ ስራ ቦታ መፍጠሪያ እና ማስጀመሪያ"
+
+#: generate_additional_file:33
+msgid "Files"
+msgstr "ፋይሎች"
+
+#: generate_additional_file:33
+msgid "Access and organize files"
+msgstr "ፋይሎች ጋር መድረሻ እና ማደራጃ"
+
+#: gresources/nemo-bookmarks-window.glade:8
+msgid "Edit Bookmarks"
+msgstr "ምልክት ማድረጊያዎችን ማረሚያ"
+
+#: gresources/nemo-bookmarks-window.glade:116
+msgid "<b>_Bookmarks</b>"
+msgstr "<b>_ምልክት ማድረጊያዎች</b>"
+
+#: gresources/nemo-bookmarks-window.glade:205
+msgid "<b>_Name</b>"
+msgstr "<b>_ስም</b>"
+
+#: gresources/nemo-bookmarks-window.glade:272
+msgid "<b>_Location</b>"
+msgstr "<b>_አካባቢ</b>"
+
+#: gresources/nemo-desktop-overlay.glade:61
+msgctxt "Desktop icon size"
+msgid "Smaller"
+msgstr "አነስተኛ"
+
+#: gresources/nemo-desktop-overlay.glade:66
+msgctxt "Desktop icon size"
+msgid "Small"
+msgstr "ትንሽ"
+
+#: gresources/nemo-desktop-overlay.glade:76
+msgctxt "Desktop icon size"
+msgid "Large"
+msgstr "ትልቅ"
+
+#: gresources/nemo-desktop-overlay.glade:81
+msgctxt "Desktop icon size"
+msgid "Larger"
+msgstr "ከፍተኛ"
+
+#: gresources/nemo-desktop-overlay.glade:95
+msgid "Vertical"
+msgstr "በ ቁመት"
+
+#: gresources/nemo-desktop-overlay.glade:99
+msgid "Horizontal"
+msgstr "በ አግድም"
+
+#: gresources/nemo-desktop-overlay.glade:138
+msgid "Current Monitor Layout"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:197
+msgid "Icon Size"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:240
+msgid "Layout"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:369
+msgid "Direction"
+msgstr "አቅጣጫ"
+
+#: gresources/nemo-desktop-overlay.glade:454
+msgid "Sort items by"
+msgstr "እቃዎች መለያ በ"
+
+#: gresources/nemo-desktop-overlay.glade:613
+msgid "Reset grid spacing"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:680
+#: gresources/nemo-desktop-overlay.glade:870
+msgid "button"
+msgstr "ቁልፍ"
+
+#: gresources/nemo-desktop-overlay.glade:746
+msgid "Adjust horizontal grid spacing"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:801
+msgid "Adjust vertical grid spacing"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:845
+msgid "page0"
+msgstr "ገጽ0"
+
+#: gresources/nemo-desktop-overlay.glade:859
+msgid ""
+"<b><big>Desktop icons are not currently enabled for this monitor.</big></b>"
+msgstr ""
+
+#: gresources/nemo-desktop-overlay.glade:887
+msgid "page1"
+msgstr "ገጽ1"
+
+#: gresources/nemo-desktop-preferences.glade:36
+msgid "Desktop Layout"
+msgstr ""
+
+#: gresources/nemo-desktop-preferences.glade:54
+msgid "No desktop icons"
+msgstr "የ ዴስክቶፕ ምልክት የለም"
+
+#: gresources/nemo-desktop-preferences.glade:55
+msgid "Show desktop icons on primary monitor only"
+msgstr ""
+
+#: gresources/nemo-desktop-preferences.glade:56
+msgid "Show desktop icons on non-primary monitor(s) only"
+msgstr ""
+
+#: gresources/nemo-desktop-preferences.glade:57
+msgid "Show desktop icons on all monitors"
+msgstr ""
+
+#: gresources/nemo-desktop-preferences.glade:77
+msgid "Desktop Icons"
+msgstr ""
+
+#: gresources/nemo-desktop-preferences.glade:367
+msgid "Mounted Drives"
+msgstr ""
+
+#: gresources/nemo-desktop-preferences.glade:503
+msgid "Options"
+msgstr ""
+
+#: gresources/nemo-desktop-preferences.glade:559
+msgid "Show icons from missing monitors"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:127
+#: gresources/nemo-file-management-properties.glade:330
+#: gresources/nemo-file-management-properties.glade:4164
+msgid "Always"
+msgstr "ሁል ጊዜ"
+
+#: gresources/nemo-file-management-properties.glade:130
+#: gresources/nemo-file-management-properties.glade:333
+#: gresources/nemo-file-management-properties.glade:350
+#: gresources/nemo-file-management-properties.glade:4167
+msgid "Local Files Only"
+msgstr "የ አካባቢ ፋይሎች ብቻ"
+
+#: gresources/nemo-file-management-properties.glade:133
+#: gresources/nemo-file-management-properties.glade:336
+#: gresources/nemo-file-management-properties.glade:4170
+msgid "Never"
+msgstr "በፍጹም"
+
+#: gresources/nemo-file-management-properties.glade:144
+msgid "Decimal"
+msgstr "ዴሲማል"
+
+#: gresources/nemo-file-management-properties.glade:147
+msgid "Decimal (long format)"
+msgstr "ዴሲማል (ረጅም አቀራረብ)"
+
+#: gresources/nemo-file-management-properties.glade:153
+msgid "Binary (long format)"
+msgstr "ባይነሪ (ረጅም አቀራረብ)"
+
+#: gresources/nemo-file-management-properties.glade:164
+msgid "By Name"
+msgstr "በ ስም"
+
+#: gresources/nemo-file-management-properties.glade:167
+msgid "By Size"
+msgstr "በ መጠን"
+
+#: gresources/nemo-file-management-properties.glade:170
+msgid "By Type"
+msgstr "በ አይነት"
+
+#: gresources/nemo-file-management-properties.glade:173
+msgid "By Detailed Type"
+msgstr "በ ዝርዝር አይነት"
+
+#: gresources/nemo-file-management-properties.glade:176
+msgid "By Modification Date"
+msgstr "በ ተሻሻለበት ቀን"
+
+#: gresources/nemo-file-management-properties.glade:179
+msgid "By Access Date"
+msgstr "በ ተደረሰበት ቀን"
+
+#: gresources/nemo-file-management-properties.glade:182
+msgid "By Trashed Date"
+msgstr "ወደ ቆሻሻ በሄደበት ቀን"
+
+#: gresources/nemo-file-management-properties.glade:193
+#: gresources/nemo-file-management-properties.glade:272
+#: gresources/nemo-file-management-properties.glade:301
+msgid "33%"
+msgstr "33%"
+
+#: gresources/nemo-file-management-properties.glade:196
+#: gresources/nemo-file-management-properties.glade:275
+#: gresources/nemo-file-management-properties.glade:304
+msgid "50%"
+msgstr "50%"
+
+#: gresources/nemo-file-management-properties.glade:199
+#: gresources/nemo-file-management-properties.glade:278
+#: gresources/nemo-file-management-properties.glade:307
+msgid "66%"
+msgstr "66%"
+
+#: gresources/nemo-file-management-properties.glade:202
+#: gresources/nemo-file-management-properties.glade:281
+#: gresources/nemo-file-management-properties.glade:310
+msgid "100%"
+msgstr "100%"
+
+#: gresources/nemo-file-management-properties.glade:205
+#: gresources/nemo-file-management-properties.glade:284
+#: gresources/nemo-file-management-properties.glade:313
+msgid "150%"
+msgstr "150%"
+
+#: gresources/nemo-file-management-properties.glade:208
+#: gresources/nemo-file-management-properties.glade:287
+#: gresources/nemo-file-management-properties.glade:316
+msgid "200%"
+msgstr "200%"
+
+#: gresources/nemo-file-management-properties.glade:211
+#: gresources/nemo-file-management-properties.glade:290
+#: gresources/nemo-file-management-properties.glade:319
+msgid "400%"
+msgstr "400%"
+
+#: gresources/nemo-file-management-properties.glade:222
+msgid "100 KB"
+msgstr "100 ኪቢ"
+
+#: gresources/nemo-file-management-properties.glade:225
+msgid "500 KB"
+msgstr "500 ኪቢ"
+
+#: gresources/nemo-file-management-properties.glade:228
+msgid "1 MB"
+msgstr "1 ሜቢ"
+
+#: gresources/nemo-file-management-properties.glade:231
+msgid "3 MB"
+msgstr "3 ሜቢ"
+
+#: gresources/nemo-file-management-properties.glade:234
+msgid "5 MB"
+msgstr "5 ሜቢ"
+
+#: gresources/nemo-file-management-properties.glade:237
+msgid "10 MB"
+msgstr "10 ሜቢ"
+
+#: gresources/nemo-file-management-properties.glade:240
+msgid "100 MB"
+msgstr "100 ሜቢ"
+
+#: gresources/nemo-file-management-properties.glade:243
+msgid "1 GB"
+msgstr "1 ጌቢ"
+
+#: gresources/nemo-file-management-properties.glade:246
+msgid "2 GB"
+msgstr "2 ጌቢ"
+
+#: gresources/nemo-file-management-properties.glade:249
+msgid "4 GB"
+msgstr "4 ጌቢ"
+
+#: gresources/nemo-file-management-properties.glade:252
+msgid "8 GB"
+msgstr "8 ጌባ"
+
+#: gresources/nemo-file-management-properties.glade:255
+msgid "16 GB"
+msgstr "16 ጌባ"
+
+#: gresources/nemo-file-management-properties.glade:258
+msgid "32 GB"
+msgstr "32 ጌባ"
+
+#: gresources/nemo-file-management-properties.glade:261
+msgid "64 GB"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:347
+msgid "Yes"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:353
+msgid "No"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:359
+msgid "File Management Preferences"
+msgstr "የፋይል አስተዳዳሪ ምርጫዎች"
+
+#: gresources/nemo-file-management-properties.glade:417
+msgid "<b>Default View</b>"
+msgstr "<b>ነባር መመልከቻ</b>"
+
+#: gresources/nemo-file-management-properties.glade:447
+msgid "View _new folders using:"
+msgstr "መመልከቻ _አዲስ ፎልደሮችን በመጠቀም :"
+
+#: gresources/nemo-file-management-properties.glade:485
+msgid "_Inherit view type from parent"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:508
+msgid "_Arrange items:"
+msgstr "እቃዎችን _ማስተካከያ :"
+
+#: gresources/nemo-file-management-properties.glade:562
+msgid "Sort _folders before files"
+msgstr "መለያ _ፎልደሮችን ከፋይሎች በፊት"
+
+#: gresources/nemo-file-management-properties.glade:578
+msgid "Sort _favorites before other files"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:619
+msgid "<b>Icon View Defaults</b>"
+msgstr "<b>ነባር የምልክቶች መመልከቻ</b>"
+
+#: gresources/nemo-file-management-properties.glade:649
+msgid "Default _zoom level:"
+msgstr "ነባር _የማሳያ መጠን :"
+
+#: gresources/nemo-file-management-properties.glade:687
+msgid "_Text beside icons"
+msgstr "_ጽሁፍ ከምልክቶች አጠገብ"
+
+#: gresources/nemo-file-management-properties.glade:728
+msgid "<b>Compact View Defaults</b>"
+msgstr "<b>በ አነስተኛ መመልከቻ ነባር</b>"
+
+#: gresources/nemo-file-management-properties.glade:758
+msgid "_Default zoom level:"
+msgstr "_ነባር የማሳያ መጠን :"
+
+#: gresources/nemo-file-management-properties.glade:796
+msgid "A_ll columns have the same width"
+msgstr "ሁ_ሉም አምዶች እኩል ስፋት ነው ያላቸው"
+
+#: gresources/nemo-file-management-properties.glade:837
+msgid "<b>List View Defaults</b>"
+msgstr "<b>ነባር ዝርዝር መመልከቻ</b>"
+
+#: gresources/nemo-file-management-properties.glade:867
+msgid "D_efault zoom level:"
+msgstr "ነ_ባር የማሳያ መጠን :"
+
+#: gresources/nemo-file-management-properties.glade:930
+msgid "<b>Tree View Defaults</b>"
+msgstr "<b>ነባር የዛፍ መመልከቻ</b>"
+
+#: gresources/nemo-file-management-properties.glade:953
+msgid "Show _only folders"
+msgstr "ፎልደሮች _ብቻ ማሳያ"
+
+#: gresources/nemo-file-management-properties.glade:990
+msgid "Views"
+msgstr "መመልከቻ"
+
+#: gresources/nemo-file-management-properties.glade:1018
+msgid "<b>Behavior</b>"
+msgstr "<b>ባህሪ</b>"
+
+#: gresources/nemo-file-management-properties.glade:1040
+msgid "_Single click to open items"
+msgstr "_አንድ ጊዜ በመጫን እቃዎችን መክፈቻ"
+
+#: gresources/nemo-file-management-properties.glade:1057
+msgid "_Double click to open items"
+msgstr "_ሁለት ጊዜ በመጫን እቃዎችን መክፈቻ"
+
+#: gresources/nemo-file-management-properties.glade:1075
+msgid "Click on a file's name twice to rename it"
+msgstr "ይጫኑ በ ፋይሉ ስም ላይ ሁለት ጊዜ እንደገና ለ መሰየም"
+
+#: gresources/nemo-file-management-properties.glade:1092
+msgid "Open each _folder in its own window"
+msgstr "እያንዳንዱን _ፎልደር በራሱ መስኮት ውስጥ መክፈቻ"
+
+#: gresources/nemo-file-management-properties.glade:1109
+msgid "Always start in dual-pane view"
+msgstr "ሁል ጊዜ በ ሁለት-ክፍል መመልከቻ ማስጀመሪያ"
+
+#: gresources/nemo-file-management-properties.glade:1126
+msgid "Ignore per-folder view preferences"
+msgstr "በ-ፎልደር መመልከቻ ምርጫ መተው"
+
+#: gresources/nemo-file-management-properties.glade:1143
+msgid "Disable file operation queueing"
+msgstr "የ ፋይል ተግባር ጥያቄ ማሰናከያ"
+
+#: gresources/nemo-file-management-properties.glade:1160
+msgid "Double-click on a blank area to go to the parent folder"
+msgstr "ሁለቴ-ይጫኑ በ ባዶ ቦታ ላይ ወደ ወላጅ ፎልደር ጋር ለ መሄድ"
+
+#: gresources/nemo-file-management-properties.glade:1202
+msgid "<b>Executable Text Files</b>"
+msgstr "<b>የሚፈጸሙ የ ጽሁፍ ፋይሎች</b>"
+
+#: gresources/nemo-file-management-properties.glade:1225
+msgid "_Run executable text files when they are opened"
+msgstr "_ማስኬጃ የሚፈጸሙ የ ጽሁፍ ፋይሎች በሚከፈቱ ጊዜ"
+
+#: gresources/nemo-file-management-properties.glade:1242
+msgid "_View executable text files when they are opened"
+msgstr "_መመልከቻ የሚፈጸሙ የ ጽሁፍ ፋይሎች በሚከፈቱ ጊዜ"
+
+#: gresources/nemo-file-management-properties.glade:1259
+msgid "_Ask each time"
+msgstr "ሁል ጊዜ _ጠይቅ"
+
+#: gresources/nemo-file-management-properties.glade:1301
+msgid "<b>Trash</b>"
+msgstr "<b>ቆሻሻ</b>"
+
+#: gresources/nemo-file-management-properties.glade:1324
+msgid "Ask before moving files to the Trash"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:1340
+msgid "Ask before _emptying the Trash or deleting files"
+msgstr "በ ቅድሚያ ጠይቀኝ _ቆሻሻው ባዶ ከ መሆኑ ወይንም ፋይሎች ከ መጥፋታቸው በፊት"
+
+#: gresources/nemo-file-management-properties.glade:1356
+msgid "I_nclude a Delete command that bypasses Trash"
+msgstr "ማ_ካተቻ የ ማጥፊያ ትእዛዝ በ ቆሻሻ ውስጥ"
+
+#: gresources/nemo-file-management-properties.glade:1372
+msgid "Bypass the Trash when the Delete key is pressed"
+msgstr "በ ቆሻሻ ውስጥ ማለፊያ የማጥፊያ ቁልፍ ሲጫኑ"
+
+#: gresources/nemo-file-management-properties.glade:1412
+msgid "<b>Media Handling</b>"
+msgstr "<b>የ መገናኛ አያያዝ</b>"
+
+#: gresources/nemo-file-management-properties.glade:1435
+msgid "Automatically mount removeable media when inserted and on startup"
+msgstr "ራሱ በራሱ መጫኛ የሚወልቅ መገናኛ በሚገባ ጊዜ እና በሚጀምር ጊዜ"
+
+#: gresources/nemo-file-management-properties.glade:1451
+msgid "Automatically open a folder for automounted media"
+msgstr "ራሱ በራሱ ፎልደር መክፈቻ በራሱ ለሚጫን መገናኛ"
+
+#: gresources/nemo-file-management-properties.glade:1467
+msgid "Prompt or autorun/autostart programs when media are inserted"
+msgstr "መሞከሪያ ወይንም በራሱ ማስኬጃ/በራሱ ማስኬጃ ፕሮግራም መገናኛ በሚገባ ጊዜ"
+
+#: gresources/nemo-file-management-properties.glade:1483
+msgid ""
+"Automatically close the device's tab, pane, or window when a device is "
+"unmounted or ejected"
+msgstr "ራሱ በራሱ መዝጊያ የ አካሉን tab: ክፍል: ወይንም መስኮት አካሉ በሚወርድ ወይንም በሚወጣ ጊዜ"
+
+#: gresources/nemo-file-management-properties.glade:1524
+msgid "<b>Bulk Rename</b>"
+msgstr "<b>መጠን እንደገና መሰየሚያ</b>"
+
+#: gresources/nemo-file-management-properties.glade:1554
+msgid "Command to invoke when renaming multiple items:"
+msgstr "ትእዛዝ መጠየቂያ በርካታ እቃዎች እንደገና በሚሰይሙ ጊዜ"
+
+#: gresources/nemo-file-management-properties.glade:1607
+msgid "Behavior"
+msgstr "ባህሪ"
+
+#: gresources/nemo-file-management-properties.glade:1636
+msgid "<b>Icon Captions</b>"
+msgstr "<b>የ ምልክት መግለጫዎች</b>"
+
+#: gresources/nemo-file-management-properties.glade:1661
+msgid ""
+"Choose the order of information to appear beneath icon names. More "
+"information will appear when zooming in closer."
+msgstr ""
+"ይምረጡ የ መረጃ ቅደም ተከተል እንዲታዩ ከ ምልክቶች ስም በ ታች: ተጨማሪ መረጃ ይታያል በ ቅርብ በሚያሳዩ ጊዜ"
+
+#: gresources/nemo-file-management-properties.glade:1798
+msgid "<b>Date</b>"
+msgstr "<b>ቀን</b>"
+
+#: gresources/nemo-file-management-properties.glade:1822
+msgid "_Format:"
+msgstr "_አቀራረብ :"
+
+#: gresources/nemo-file-management-properties.glade:1870
+msgid "<b>Window and Tab Titles</b>"
+msgstr "<b>መስኮት እና Tab አርእስቶች</b>"
+
+#: gresources/nemo-file-management-properties.glade:1893
+msgid "Show the full p_ath in the title bar and tab bars"
+msgstr "ሙሉ መ_ንገድ በ አርእስት እና በ tab መደርደሪያ ላይ ማሳያ"
+
+#: gresources/nemo-file-management-properties.glade:1934
+msgid "<b>File Size</b>"
+msgstr "<b>የፋይል መጠን</b>"
+
+#: gresources/nemo-file-management-properties.glade:1958
+msgid "_Prefixes:"
+msgstr "_መነሻዎች:"
+
+#: gresources/nemo-file-management-properties.glade:2013
+msgid "<b>File Properties</b>"
+msgstr "<b>የ ፋይል ባህሪዎች</b>"
+
+#: gresources/nemo-file-management-properties.glade:2036
+msgid "Show advanced permissions in the file property dialog"
+msgstr "በ ፋይል ባህሪ ንግግር ውስጥ የ ረቀቀ ፍቃድ ማሳያ"
+
+#: gresources/nemo-file-management-properties.glade:2077
+msgid "<b>Move/Copy To Menu</b>"
+msgstr "<b>ወደ ዝርዝር ማንቀሳቀሻ/ኮፒ ማድረጊያ</b>"
+
+#: gresources/nemo-file-management-properties.glade:2100
+msgid "List bookmarks in the menu"
+msgstr "በ ዝርዝር ውስጥ ምልክት የተደረገባቸው ዝርዝሮች"
+
+#: gresources/nemo-file-management-properties.glade:2116
+msgid "List devices and network locations in the menu"
+msgstr "ዝርዝር እቃዎች እና የ ኔትዎርክ አካባቢ በ ዝርዝር ውስጥ"
+
+#: gresources/nemo-file-management-properties.glade:2153
+msgid "Display"
+msgstr "ማሳያ"
+
+#: gresources/nemo-file-management-properties.glade:2182
+msgid "<b>List Columns</b>"
+msgstr "<b>የአምዶች ዝርዝር</b>"
+
+#: gresources/nemo-file-management-properties.glade:2207
+msgid "Choose the order of information to appear in the list view."
+msgstr "በ ዝርዝር መመልከቻው ላይ የ መረጃ እንዴት እንደሚታይ ቅደም ተከተል ይምረጡ"
+
+#: gresources/nemo-file-management-properties.glade:2243
+msgid "List Columns"
+msgstr "የአምዶች ዝርዝር"
+
+#: gresources/nemo-file-management-properties.glade:2272
+msgid "<b>Previewable Files</b>"
+msgstr "<b>ሊታዩ የሚችሉ ፋይሎች</b>"
+
+#: gresources/nemo-file-management-properties.glade:2302
+msgid "Show _thumbnails:"
+msgstr "_በአውራ ጥፍር ልክ ማሳያ:"
+
+#: gresources/nemo-file-management-properties.glade:2340
+msgid "_Inherit thumbnail visibility from parent"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:2363
+msgid "_Only for files smaller than:"
+msgstr "አነስተኛ ለሆኑ ፋይሎች _ብቻ:"
+
+#: gresources/nemo-file-management-properties.glade:2426
+msgid "<b>Folders</b>"
+msgstr "<b>ፎልደሮች</b>"
+
+#: gresources/nemo-file-management-properties.glade:2456
+msgid "Count _number of items:"
+msgstr "የ እቃዎችን _ቁጥር መቁጠሪያ:"
+
+#: gresources/nemo-file-management-properties.glade:2519
+msgid "<b>Tooltips</b>"
+msgstr "<b> የመጠቆሚያው ጫፍ</b>"
+
+#: gresources/nemo-file-management-properties.glade:2542
+msgid "Show tooltips in icon and compact views"
+msgstr "በ ምልክት እና በ አነስተኛ መመልከቻ ላይ የ መጠቆሚያውን ጫፍ ማሳያ"
+
+#: gresources/nemo-file-management-properties.glade:2559
+msgid "Show tooltips in list views"
+msgstr "የ መጠቆሚያውን ጫፍ በ ዝርዝር መመልከቻ ላይ ማሳያ"
+
+#: gresources/nemo-file-management-properties.glade:2576
+msgid "Show tooltips on the desktop"
+msgstr "በ ዴስክቶፕ ላይ የ መጠቆሚያውን ጫፍ ማሳያ"
+
+#: gresources/nemo-file-management-properties.glade:2595
+msgid ""
+"<i>By default, a folder tooltip shows the item count, and files display "
+"their size.\n"
+"    Select additional information to display in the tooltip:</i>"
+msgstr ""
+"<i>በ ነባር የ ፎልደር መጠቆሚያው ጫፍ የ እቃውን ቁጥር ያሳያል: እና የ ፋይሎች መጠን ያሳያል\n"
+"    ይምረጡ ተጨማሪ መረጃ ለ ማሳየት በ መጠቆሚያው ጫፍ:</i>"
+
+#: gresources/nemo-file-management-properties.glade:2620
+msgid "Detailed file type"
+msgstr "በ ዝርዝር ፋይል አይነት"
+
+#: gresources/nemo-file-management-properties.glade:2635
+msgid "Modified date"
+msgstr "የተሻሻለበት ቀን"
+
+#: gresources/nemo-file-management-properties.glade:2650
+msgid "Created date"
+msgstr "የ ተፈጠረበት ቀን"
+
+#: gresources/nemo-file-management-properties.glade:2666
+msgid "Accessed date"
+msgstr "የተደረሰበት ቀን"
+
+#: gresources/nemo-file-management-properties.glade:2682
+msgid "File or folder location"
+msgstr "የፋይል ወይንም የፎልደር አካባቢ"
+
+#: gresources/nemo-file-management-properties.glade:2728
+msgid "Preview"
+msgstr "ቅድመ እይታ"
+
+#: gresources/nemo-file-management-properties.glade:2757
+msgid "Visible Buttons"
+msgstr "የሚታዩ ቁልፎች"
+
+#: gresources/nemo-file-management-properties.glade:2802
+msgid "Previous"
+msgstr "ያለፈው"
+
+#: gresources/nemo-file-management-properties.glade:2839
+msgid "Next"
+msgstr "የሚቀጥለው"
+
+#: gresources/nemo-file-management-properties.glade:2876
+msgid "Up"
+msgstr "ከ ላይ"
+
+#: gresources/nemo-file-management-properties.glade:2913
+msgid "Refresh"
+msgstr "ማነቃቂያ"
+
+#: gresources/nemo-file-management-properties.glade:3024
+msgid "Location entry toggle"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:3061
+msgid "Open in terminal"
+msgstr "በ ተርሚናል ውስጥ መክፈቻ"
+
+#: gresources/nemo-file-management-properties.glade:3172
+msgid "Icon view"
+msgstr "ምልክት መመልከቻ"
+
+#: gresources/nemo-file-management-properties.glade:3209
+msgid "List view"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:3246
+msgid "Compact view"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:3318
+msgid "Toolbar"
+msgstr "እቃ መደርደሪያ"
+
+#: gresources/nemo-file-management-properties.glade:3341
+msgid "Visible Entries"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:3372
+msgid "Selection"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:3566
+msgid "Favorite"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:3767
+msgid "Background"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:4090
+msgid ""
+"Visible action and extension entries can be configured in the Plugins tab"
+msgstr ""
+
+#: gresources/nemo-file-management-properties.glade:4107
+msgid "Context Menus"
+msgstr ""
+
+#: gresources/nemo-search-bar.glade:46
+msgid "Search for files:"
+msgstr ""
+
+#: gresources/nemo-search-bar.glade:78 gresources/nemo-search-bar.glade:172
+msgid "Case sensitive"
+msgstr ""
+
+#: gresources/nemo-search-bar.glade:99
+msgid "Search folders recursively"
+msgstr ""
+
+#: gresources/nemo-search-bar.glade:140
+msgid "Search content:"
+msgstr ""
+
+#: gresources/nemo-search-bar.glade:193
+msgid "Regular expression"
+msgstr ""

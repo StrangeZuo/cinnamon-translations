@@ -1,0 +1,32 @@
+Source: cinnamon-translations
+Section: localization
+Priority: optional
+Maintainer: Debian Cinnamon Team <debian-cinnamon@lists.debian.org>
+Uploaders:
+ Maximiliano Curia <maxy@debian.org>,
+ Margarita Manterola <marga@debian.org>,
+ Fabio Fantoni <fantonifabio@tiscali.it>,
+ Norbert Preining <norbert@preining.info>
+Build-Depends: debhelper-compat (= 13), gettext
+Standards-Version: 4.4.0
+Homepage: https://github.com/linuxmint/Cinnamon
+Vcs-Browser: https://salsa.debian.org/cinnamon-team/cinnamon-translations
+Vcs-Git: https://salsa.debian.org/cinnamon-team/cinnamon-translations.git
+
+Package: cinnamon-l10n
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Replaces:
+ cinnamon-session-common (<< 3.5),
+ cinnamon-settings-daemon (<< 3.5),
+ cinnamon-translations,
+Breaks:
+ cinnamon (<< 5.0~),
+ cinnamon-session-common (<< 3.5),
+ cinnamon-settings-daemon (<< 3.5),
+ cinnamon-translations,
+Description: Translation files for the Cinnamon desktop
+ The package contains the translation files for all the Cinnamon packages.
+ Translations for the Cinnamon project are managed via:
+ https://translations.launchpad.net/linuxmint/latest/
