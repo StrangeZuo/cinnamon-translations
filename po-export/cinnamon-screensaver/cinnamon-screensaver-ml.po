@@ -11,56 +11,61 @@ msgstr ""
 "Report-Msgid-Bugs-To: "
 "http://bugzilla.gnome.org/enter_bug.cgi?product=cinnamon-"
 "screensaver&component=general\n"
-"POT-Creation-Date: 2021-05-31 15:43+0100\n"
-"PO-Revision-Date: 2013-08-26 12:23+0000\n"
-"Last-Translator: Launchpad Translations Administrators <Unknown>\n"
+"POT-Creation-Date: 2022-12-02 21:29+0000\n"
+"PO-Revision-Date: 2022-03-07 14:05+0000\n"
+"Last-Translator: sahil <Unknown>\n"
 "Language-Team: <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2021-06-25 10:38+0000\n"
-"X-Generator: Launchpad (build 40cc6dba4163ba9ca785b26ad91f43c87d70ba4d)\n"
+"X-Launchpad-Export-Date: 2024-07-21 09:00+0000\n"
+"X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
 
 #: src/cinnamon-screensaver-command.py:41
 msgid "Causes the screensaver to exit gracefully"
 msgstr ""
+"സ്ക്രീന്‍സേവറില്‍ നിന്നും നല്ലനിലയില്‍ പുറത്ത് കടക്കുന്നുതിനു കാരണമാകുന്നു"
 
 #: src/cinnamon-screensaver-command.py:43
 msgid "Query the state of the screensaver"
-msgstr ""
+msgstr "സ്ക്രീന്‍സേവറിന്റെ അവസ്ഥ അന്വേഷിയ്ക്കുക"
 
 #: src/cinnamon-screensaver-command.py:45
 msgid "Query the length of time the screensaver has been active"
-msgstr ""
+msgstr "സ്ക്രീന്‍സേവര്‍ എത്ര സമയമായി സജീവമാണെന്ന് അന്വേഷിയ്ക്കുക"
 
 #: src/cinnamon-screensaver-command.py:47
 msgid "Tells the running screensaver process to lock the screen immediately"
 msgstr ""
+"പ്രവർത്തിക്കുന്ന സ്‌ക്രീൻസേവർ പ്രക്രിയയോട് സ്‌ക്രീൻ ഉടനടി ലോക്ക് "
+"ചെയ്യണമെന്ന് പറയുന്നു"
 
 #: src/cinnamon-screensaver-command.py:49
 msgid "Turn the screensaver on (blank the screen)"
-msgstr ""
+msgstr "സ്ക്രീന്‍സേവര്‍ ഓണ്‍ ചെയ്യുക (സ്ക്രീന്‍ ശൂന്യമാക്കുക)"
 
 #: src/cinnamon-screensaver-command.py:51
 msgid "If the screensaver is active then deactivate it (un-blank the screen)"
 msgstr ""
+"സ്ക്രീന്‍സേവര്‍ സജീവമാണെങ്കില്‍ അതിനെ നിഷ്ക്രിയമാക്കുക (സ്ക്രീന്‍ "
+"ശൂന്യമല്ലാതാക്കുക)"
 
 #: src/cinnamon-screensaver-command.py:53
 msgid "Version of this application"
-msgstr ""
+msgstr "ഈ അപ്ലിക്കേഷനിന്റെ പതിപ്പ്"
 
 #: src/cinnamon-screensaver-command.py:55
 msgid "Message to be displayed in lock screen"
-msgstr ""
+msgstr "ലോക്ക് സ്ക്രീനിൽ പ്രദർശിപ്പിക്കേണ്ട സന്ദേശം"
 
 #: src/cinnamon-screensaver-command.py:105
 msgid "The screensaver is active\n"
-msgstr ""
+msgstr "സ്ക്രീൻസേവർ സജീവമാണ്\n"
 
 #: src/cinnamon-screensaver-command.py:107
 msgid "The screensaver is inactive\n"
-msgstr ""
+msgstr "സ്ക്രീൻസേവർ പ്രവർത്തനരഹിതമാണ്\n"
 
 #: src/cinnamon-screensaver-command.py:111
 #| msgid "The screensaver is not inhibited\n"
@@ -71,40 +76,82 @@ msgstr "സ്ക്രീന്‍സേവര്‍ നിലവില്‍ �
 #, python-format
 msgid "The screensaver has been active for %d second.\n"
 msgid_plural "The screensaver has been active for %d seconds.\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "സ്ക്രീൻസേവർ %d സെക്കൻഡ് സജീവമാണ്.\n"
+msgstr[1] "സ്ക്രീൻസേവർ %d സെക്കൻഡ് നേരത്തേക്ക് സജീവമാണ്.\n"
 
-#: src/manager.py:287
+#: src/manager.py:315
 msgid "Cinnamon Screensaver has experienced an error"
-msgstr ""
+msgstr "സിന്നമൺ സ്ക്രീൻസേവറിൽ ഒരു പിശക് നേരിട്ടു"
 
-#: src/manager.py:289
+#: src/manager.py:317
 msgid ""
 "The 'cs-backup-locker' process terminated before the screensaver did. Please "
 "report this issue and try to describe any actions you may have performed "
 "prior to this occurring."
 msgstr ""
+"സ്‌ക്രീൻസേവർ ചെയ്യുന്നതിനുമുമ്പ് 'cs-backup-locker' പ്രക്രിയ "
+"അവസാനിപ്പിച്ചു.ദയവായി ഈ പ്രശ്‌നം റിപ്പോർട്ടുചെയ്‌ത് ഇത് സംഭവിക്കുന്നതിന് "
+"മുമ്പ് നിങ്ങൾ ചെയ്‌തേക്കാവുന്ന ഏതെങ്കിലും പ്രവർത്തനങ്ങൾ വിവരിക്കാൻ "
+"ശ്രമിക്കുക."
 
-#: src/passwordEntry.py:23 src/unlock.py:221
+#: src/passwordEntry.py:23 src/unlock.py:216
 msgid "Please enter your password..."
-msgstr ""
+msgstr "ദയവായി നിങ്ങളുടെ പാസ്‌വേഡ് നൽകുക..."
 
 #: src/unlock.py:96
 msgid "Unlock"
-msgstr ""
+msgstr "അണ്‍ലോക്ക് ചെയ്യുക"
 
 #: src/unlock.py:107
 msgid "Switch User"
-msgstr ""
+msgstr "ഉപയോക്താവിനെ മാറ്റുക"
 
-#: src/unlock.py:194
+#: src/unlock.py:189
 msgid "Incorrect password"
-msgstr ""
+msgstr "തെറ്റായ പാസ്‍വേര്‍ഡ്"
 
-#: src/unlock.py:211
+#: src/unlock.py:206
 msgid "Checking..."
-msgstr ""
+msgstr "പരിശോധിക്കുന്നു..."
 
-#: src/unlock.py:254
+#: src/unlock.py:250
 msgid "You have the Caps Lock key on."
 msgstr "നിങ്ങളുടെ കാപ്സ് ലോക്ക് കീ ഓണ്‍ ആണ്."
+
+#. This is the first line of text for the backup-locker, explaining how to switch to tty
+#. and run 'cinnamon-unlock-desktop' command.  This appears if the screensaver crashes.
+#: backup-locker/cs-backup-locker.c:255
+msgid "Something went wrong with the screensaver."
+msgstr ""
+
+#. (continued) This is a subtitle
+#: backup-locker/cs-backup-locker.c:265
+msgid "We'll help you get your desktop back"
+msgstr ""
+
+#. (new section) Bulleted list of steps to take to unlock the desktop;
+#: backup-locker/cs-backup-locker.c:276
+#, c-format
+msgid "Switch to a console using <Control-Alt-F%u>."
+msgstr ""
+
+#. (list continued)
+#: backup-locker/cs-backup-locker.c:278
+msgid "Log in by typing your user name followed by your password."
+msgstr ""
+
+#. (list continued)
+#: backup-locker/cs-backup-locker.c:280
+msgid "At the prompt, type 'cinnamon-unlock-desktop' and press Enter."
+msgstr ""
+
+#. (list continued)
+#: backup-locker/cs-backup-locker.c:282
+#, c-format
+msgid "Switch back to your unlocked desktop using <Control-Alt-F%u>."
+msgstr ""
+
+#. (end section) Final words after the list of steps
+#: backup-locker/cs-backup-locker.c:287
+msgid "If you can reproduce this behavior, please file a report here:"
+msgstr ""

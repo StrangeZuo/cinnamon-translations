@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2020-11-26 13:57+0000\n"
-"PO-Revision-Date: 2020-12-10 15:31+0000\n"
-"Last-Translator: Gilberto vagner <vagner.unix@gmail.com>\n"
+"POT-Creation-Date: 2023-12-15 14:48+0000\n"
+"PO-Revision-Date: 2024-01-16 23:01+0000\n"
+"Last-Translator: Alberlan Lopes <alberlan@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Launchpad-Export-Date: 2021-06-25 10:42+0000\n"
-"X-Generator: Launchpad (build 40cc6dba4163ba9ca785b26ad91f43c87d70ba4d)\n"
+"X-Launchpad-Export-Date: 2024-07-21 09:02+0000\n"
+"X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
 "Language: pt_BR\n"
 
 #: nemo-audio-tab/nemo-extension/nemo-audio-tab.py:41
@@ -92,154 +92,221 @@ msgid "N-Way Diff"
 msgstr "Diff em Várias Vias"
 
 #: nemo-compare/src/nemo-compare.py:112 nemo-compare/src/nemo-compare.py:135
+#: nemo-compare/src/nemo-compare.py:114 nemo-compare/src/nemo-compare.py:137
 msgid "Compare to: "
 msgstr "Comparar com: "
 
 #: nemo-compare/src/nemo-compare.py:113 nemo-compare/src/nemo-compare.py:136
+#: nemo-compare/src/nemo-compare.py:115 nemo-compare/src/nemo-compare.py:138
 msgid "Compare to the file previously selected"
 msgstr "Comparar com o arquivo selecionado anteriormente"
 
-#: nemo-compare/src/nemo-compare.py:122
+#: nemo-compare/src/nemo-compare.py:122 nemo-compare/src/nemo-compare.py:124
 msgid "Compare Later"
 msgstr "Comparar depois"
 
-#: nemo-compare/src/nemo-compare.py:123
+#: nemo-compare/src/nemo-compare.py:123 nemo-compare/src/nemo-compare.py:125
 msgid "Remember file for later comparison"
 msgstr "Marca arquivo para comparar depois"
 
-#: nemo-compare/src/nemo-compare.py:147
+#: nemo-compare/src/nemo-compare.py:147 nemo-compare/src/nemo-compare.py:149
 msgid "Compare"
 msgstr "Comparar"
 
-#: nemo-compare/src/nemo-compare.py:148
+#: nemo-compare/src/nemo-compare.py:148 nemo-compare/src/nemo-compare.py:150
 msgid "Compare selected files"
 msgstr "Comparar arquivos selecionados"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Art"
 msgstr "Arte"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Camera"
 msgstr "Câmera"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Danger"
 msgstr "Perigo"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Default"
 msgstr "Padrão"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Development"
 msgstr "Desenvolvimento"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Documents"
 msgstr "Documentos"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Downloads"
 msgstr "Downloads"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Favorite"
 msgstr "Favoritos"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Games"
 msgstr "Jogos"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Generic"
 msgstr "Genérico"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Important"
 msgstr "Importante"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Installed"
 msgstr "Instalado"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Mail"
 msgstr "Correio"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Marketing"
 msgstr "Marketing"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Money"
 msgstr "Dinheiro"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Multimedia"
 msgstr "Multimídia"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "New"
 msgstr "Novo"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Note"
 msgstr "Nota"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Ohno"
 msgstr "Ah não"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Package"
 msgstr "Pacote"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "People"
 msgstr "Pessoas"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Personal"
 msgstr "Pessoal"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Photos"
 msgstr "Fotos"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Plan"
 msgstr "Plano"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Presentation"
 msgstr "Apresentação"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Sales"
 msgstr "Vendas"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Sound"
 msgstr "Som"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "System"
 msgstr "Sistema"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Urgent"
 msgstr "Urgente"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Videos"
 msgstr "Vídeos"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Web"
 msgstr "Web"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:88
+#: nemo-emblems/nemo-extension/nemo-emblems.py:100
+#: nemo-emblems/nemo-extension/nemo-emblems.py:108
+#: nemo-emblems/nemo-extension/nemo-emblems.py:105
 msgid "Emblems"
 msgstr "Emblemas"
 
@@ -281,7 +348,9 @@ msgstr ""
 "Launchpad Contributions:\n"
 "  Alberlan Lopes https://launchpad.net/~alberlan\n"
 "  Gilberto vagner https://launchpad.net/~vagner-unix\n"
+"  Igor Iglesias https://launchpad.net/~igoriglesias\n"
 "  Milton Sierra https://launchpad.net/~milton86\n"
+"  Rafael Souza Pereira https://launchpad.net/~rafaelspereira1\n"
 "  Robson Cassiano https://launchpad.net/~randintn\n"
 "  Sergio Genilson Pfleger https://launchpad.net/~sergiogenilson\n"
 "  Sitonir de Oliveira https://launchpad.net/~sitonir\n"
@@ -567,66 +636,82 @@ msgid "_Rotate"
 msgstr "_Rotacionar"
 
 #: nemo-media-columns/nemo-media-columns.py:73
+#: nemo-media-columns/nemo-media-columns.py:92
 msgid "Title"
 msgstr "Título"
 
 #: nemo-media-columns/nemo-media-columns.py:74
+#: nemo-media-columns/nemo-media-columns.py:93
 msgid "Album"
 msgstr "Álbum"
 
 #: nemo-media-columns/nemo-media-columns.py:75
+#: nemo-media-columns/nemo-media-columns.py:94
 msgid "Artist"
 msgstr "Artista"
 
 #: nemo-media-columns/nemo-media-columns.py:76
+#: nemo-media-columns/nemo-media-columns.py:95
 msgid "Track"
 msgstr "Faixa"
 
 #: nemo-media-columns/nemo-media-columns.py:77
+#: nemo-media-columns/nemo-media-columns.py:96
 msgid "Genre"
 msgstr "Gênero"
 
 #: nemo-media-columns/nemo-media-columns.py:78
+#: nemo-media-columns/nemo-media-columns.py:97
 msgid "Date"
 msgstr "Data"
 
 #: nemo-media-columns/nemo-media-columns.py:79
+#: nemo-media-columns/nemo-media-columns.py:98
 msgid "Bitrate"
 msgstr "Taxa de bits"
 
 #: nemo-media-columns/nemo-media-columns.py:80
+#: nemo-media-columns/nemo-media-columns.py:99
 msgid "Pages"
 msgstr "Páginas"
 
 #: nemo-media-columns/nemo-media-columns.py:81
+#: nemo-media-columns/nemo-media-columns.py:100
 msgid "Sample Rate"
 msgstr "Taxa de Amostragem"
 
 #: nemo-media-columns/nemo-media-columns.py:82
+#: nemo-media-columns/nemo-media-columns.py:101
 msgid "Length"
 msgstr "Duração"
 
 #: nemo-media-columns/nemo-media-columns.py:83
+#: nemo-media-columns/nemo-media-columns.py:104
 msgid "EXIF Date"
 msgstr "Data EXIF"
 
 #: nemo-media-columns/nemo-media-columns.py:84
+#: nemo-media-columns/nemo-media-columns.py:105
 msgid "EXIF Software"
 msgstr "Software EXIF"
 
 #: nemo-media-columns/nemo-media-columns.py:85
+#: nemo-media-columns/nemo-media-columns.py:106
 msgid "EXIF Flash"
 msgstr "Flash EXIF"
 
 #: nemo-media-columns/nemo-media-columns.py:86
+#: nemo-media-columns/nemo-media-columns.py:107
 msgid "EXIF Image Size"
 msgstr "Tamanho da imagem EXIF"
 
 #: nemo-media-columns/nemo-media-columns.py:87
+#: nemo-media-columns/nemo-media-columns.py:108
 msgid "EXIF Rating"
 msgstr "Avaliação EXIF"
 
 #: nemo-media-columns/nemo-media-columns.py:88
+#: nemo-media-columns/nemo-media-columns.py:109
 msgid "Image Size"
 msgstr "Tamanho da imagem"
 
@@ -670,6 +755,7 @@ msgid "Empty Folder"
 msgstr "Pasta Vazia"
 
 #: nemo-preview/src/js/ui/fallbackRenderer.js:123
+#: nemo-preview/src/js/ui/fallbackRenderer.js:125
 msgid "Type"
 msgstr "Tipo"
 
@@ -677,26 +763,37 @@ msgstr "Tipo"
 #: nemo-preview/src/js/ui/fallbackRenderer.js:133
 #: nemo-preview/src/js/ui/fallbackRenderer.js:139
 #: nemo-preview/src/js/ui/spinnerBox.js:60
+#: nemo-preview/src/js/ui/fallbackRenderer.js:126
+#: nemo-preview/src/js/ui/fallbackRenderer.js:135
+#: nemo-preview/src/js/ui/fallbackRenderer.js:141
+#: nemo-preview/src/js/ui/spinnerBox.js:61
 msgid "Loading..."
 msgstr "Carregando..."
 
 #: nemo-preview/src/js/ui/fallbackRenderer.js:132
+#: nemo-preview/src/js/ui/fallbackRenderer.js:134
 msgid "Size"
 msgstr "Tamanho"
 
 #: nemo-preview/src/js/ui/fallbackRenderer.js:138
+#: nemo-preview/src/js/ui/fallbackRenderer.js:140
 msgid "Modified"
 msgstr "Modificado"
 
 #: nemo-preview/src/js/viewers/audio.js:176
+#: nemo-preview/src/js/viewers/audio.js:177
+#: nemo-preview/src/js/viewers/audio.js:179
 msgid "from"
 msgstr "de"
 
 #: nemo-preview/src/js/viewers/audio.js:178
+#: nemo-preview/src/js/viewers/audio.js:179
+#: nemo-preview/src/js/viewers/audio.js:181
 msgid "by"
 msgstr "por"
 
 #: nemo-preview/src/js/viewers/xreader.js:81
+#: nemo-preview/src/js/viewers/xreader.js:82
 #, javascript-format
 msgid "%d of %d"
 msgstr "%d de %d"
@@ -980,10 +1077,12 @@ msgid "Passphrase"
 msgstr "Frase secreta"
 
 #: nemo-seahorse/tool/seahorse-passphrase.c:135
+#: nemo-compare/src/nemo-compare-preferences.py:162
 msgid "Ok"
 msgstr "Ok"
 
 #: nemo-seahorse/tool/seahorse-passphrase.c:136
+#: nemo-compare/src/nemo-compare-preferences.py:158
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -1458,19 +1557,20 @@ msgstr ""
 msgid "There was an error while getting the sharing information"
 msgstr "Houve um erro ao obter a informação de compartilhamento"
 
-#: nemo-share/src/nemo-share.c:1176
+#: nemo-share/src/nemo-share.c:1176 nemo-share/src/nemo-share.c:1177
 msgid "Share"
 msgstr "Compartilhar"
 
 #: nemo-share/src/nemo-share.c:1236 nemo-share/interfaces/share-dialog.ui.h:1
+#: nemo-share/src/nemo-share.c:1237
 msgid "Folder Sharing"
 msgstr "Compartilhamento de pasta"
 
-#: nemo-share/src/nemo-share.c:1277
+#: nemo-share/src/nemo-share.c:1277 nemo-share/src/nemo-share.c:1278
 msgid "Sharing Options"
 msgstr "Opções de compartilhamento"
 
-#: nemo-share/src/nemo-share.c:1278
+#: nemo-share/src/nemo-share.c:1278 nemo-share/src/nemo-share.c:1279
 msgid "Share this Folder"
 msgstr "Compartilhar esta pasta"
 
@@ -1652,3 +1752,90 @@ msgstr "Avançado"
 #: nemo-terminal/src/nemo_terminal.py:149
 msgid "Paste Filenames"
 msgstr "Coloar nome de arquivos"
+
+#: nemo-media-columns/nemo-media-columns.py:102
+msgid "Composer"
+msgstr "Compositor"
+
+#: nemo-media-columns/nemo-media-columns.py:103
+msgid "Description"
+msgstr "Descrição"
+
+#: nemo-fileroller/src/nemo-fileroller.c:398
+msgid "Allows managing of archives from the context menu"
+msgstr "Permite o gerenciamento de arquivos a partir do menu de contexto"
+
+#: nemo-share/src/nemo-share.c:1115
+msgid "Allows you to quickly share a folder from the context menu"
+msgstr ""
+"Permite que você compartilhe rapidamente uma pasta do menu de contexto"
+
+#: nemo-emblems/nemo-extension/nemo-emblems.py:19
+msgid "Nemo Emblems"
+msgstr "Emblemas Nemo"
+
+#: nemo-emblems/nemo-extension/nemo-emblems.py:20
+#: nemo-emblems/nemo-extension/nemo-emblems.py:163
+msgid "Change a folder or file emblem"
+msgstr "Mudar uma pasta ou emblema de arquivo"
+
+#: nemo-dropbox/src/nemo-dropbox.c:462 nemo-dropbox/src/nemo-dropbox.c:463
+msgid "Allows managing of Dropbox web service from the context menu"
+msgstr ""
+"Permite o gerenciamento do serviço web Dropbox a partir do menu de contexto"
+
+#: nemo-image-converter/src/nemo-image-converter.c:153
+msgid "Allows image resizing and rotation from the context menu"
+msgstr "Permite redimensionar e girar imagens no menu de contexto"
+
+#: nemo-repairer/src/nemo-filename-repairer.c:523
+msgid "Allows filename encoding repair from the context menu"
+msgstr ""
+"Permite o reparo da codificação do nome do arquivo no menu de contexto"
+
+#: nemo-seahorse/nemo-ext/nemo-seahorse.c:181
+msgid ""
+"Allows encryption and decryption of OpenPGP files from the context menu"
+msgstr ""
+"Permite criptografar e descriptografar arquivos OpenPGP no menu de contexto"
+
+#: nemo-audio-tab/nemo-extension/nemo-audio-tab.py:195
+msgid "View audio tag information from the properties tab"
+msgstr "Visualize informações da tag de áudio na guia de propriedades"
+
+#: nemo-compare/src/nemo-compare.py:168
+msgid "Allows file comparison from the context menu"
+msgstr "Permite comparação de arquivos no menu de contexto"
+
+#: nemo-media-columns/nemo-media-columns.py:369
+msgid "Provides additional columns for the list view"
+msgstr "Fornece colunas adicionais para a exibição de lista"
+
+#: nemo-terminal/src/nemo_terminal.py:579
+msgid "Embedded terminal for Nemo"
+msgstr "Terminal embutido para Nemo"
+
+#: nemo-pastebin/src/nemo-pastebin.py:111
+msgid "Unable to read or parse the result page."
+msgstr "Não é possível ler ou analisar a página de resultados."
+
+#: nemo-pastebin/src/nemo-pastebin.py:112
+msgid "It could be a server timeout or a change server side. Try later."
+msgstr ""
+"Pode ser um tempo limite do servidor ou uma alteração no servidor. Tente "
+"depois."
+
+#: nemo-pastebin/src/nemo-pastebin.py:169
+#, python-format
+msgid "Pastebin to %s"
+msgstr "Colar para %s"
+
+#: nemo-pastebin/src/nemo-pastebin.py:170
+#, python-format
+msgid "Send this file to %s"
+msgstr "Enviar este arquivo para %s"
+
+#: nemo-pastebin/src/nemo-pastebin.py:196
+msgid "Send files to a paste service via the context menu"
+msgstr ""
+"Envie arquivos para um serviço de colagem através do menu de contexto"

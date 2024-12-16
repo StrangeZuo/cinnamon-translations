@@ -1,0 +1,5 @@
+Increase break each major version
+============================
+Each major version (for example 2.2, 2.4 ecc.) in the package inside
+control file the cinnamon break version should be increased to avoid
+issue of partial upgrade or partial migrating to testing.

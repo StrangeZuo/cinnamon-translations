@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2020-11-26 13:57+0000\n"
-"PO-Revision-Date: 2020-11-27 21:51+0000\n"
+"POT-Creation-Date: 2023-12-15 14:48+0000\n"
+"PO-Revision-Date: 2023-12-18 10:32+0000\n"
 "Last-Translator: Kimmo Kujansuu <Unknown>\n"
 "Language-Team: Finnish <fi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2021-06-25 10:42+0000\n"
-"X-Generator: Launchpad (build 40cc6dba4163ba9ca785b26ad91f43c87d70ba4d)\n"
+"X-Launchpad-Export-Date: 2024-07-21 09:02+0000\n"
+"X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
 "Language: fi\n"
 
 #: nemo-audio-tab/nemo-extension/nemo-audio-tab.py:41
@@ -29,7 +29,7 @@ msgstr "Ei tietoja"
 
 #: nemo-audio-tab/nemo-extension/nemo-audio-tab.glade.h:1
 msgid "Title:"
-msgstr "Otsikko:"
+msgstr "Nimi:"
 
 #: nemo-audio-tab/nemo-extension/nemo-audio-tab.glade.h:2
 msgid "Artist:"
@@ -61,11 +61,11 @@ msgstr "Kesto:"
 
 #: nemo-audio-tab/nemo-extension/nemo-audio-tab.glade.h:9
 msgid "Bitrate:"
-msgstr "Bittinopeus:"
+msgstr "Nopeus:"
 
 #: nemo-audio-tab/nemo-extension/nemo-audio-tab.glade.h:10
 msgid "Sample Rate:"
-msgstr "Näytenopeus:"
+msgstr "Taajuus:"
 
 #: nemo-audio-tab/nemo-extension/nemo-audio-tab.glade.h:11
 msgid "Encoded by:"
@@ -73,7 +73,7 @@ msgstr "Koodattu:"
 
 #: nemo-audio-tab/nemo-extension/nemo-audio-tab.glade.h:12
 msgid "Copyright:"
-msgstr "Tekijänoikeudet:"
+msgstr "Tekijänoikeus:"
 
 #: nemo-compare/src/nemo-compare-preferences.py:99
 msgid "Nemo Compare"
@@ -92,154 +92,221 @@ msgid "N-Way Diff"
 msgstr "N-suuntainen ero"
 
 #: nemo-compare/src/nemo-compare.py:112 nemo-compare/src/nemo-compare.py:135
+#: nemo-compare/src/nemo-compare.py:114 nemo-compare/src/nemo-compare.py:137
 msgid "Compare to: "
 msgstr "Vertaile: "
 
 #: nemo-compare/src/nemo-compare.py:113 nemo-compare/src/nemo-compare.py:136
+#: nemo-compare/src/nemo-compare.py:115 nemo-compare/src/nemo-compare.py:138
 msgid "Compare to the file previously selected"
 msgstr "Vertaa aiemmin valittuun tiedostoon"
 
-#: nemo-compare/src/nemo-compare.py:122
+#: nemo-compare/src/nemo-compare.py:122 nemo-compare/src/nemo-compare.py:124
 msgid "Compare Later"
 msgstr "Vertaile myöhemmin"
 
-#: nemo-compare/src/nemo-compare.py:123
+#: nemo-compare/src/nemo-compare.py:123 nemo-compare/src/nemo-compare.py:125
 msgid "Remember file for later comparison"
 msgstr "Muista tiedosto myöhempää vertailua varten"
 
-#: nemo-compare/src/nemo-compare.py:147
+#: nemo-compare/src/nemo-compare.py:147 nemo-compare/src/nemo-compare.py:149
 msgid "Compare"
 msgstr "Vertaile"
 
-#: nemo-compare/src/nemo-compare.py:148
+#: nemo-compare/src/nemo-compare.py:148 nemo-compare/src/nemo-compare.py:150
 msgid "Compare selected files"
 msgstr "Vertaile valittuja tiedostoja"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Art"
 msgstr "Taide"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Camera"
 msgstr "Kamera"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Danger"
 msgstr "Vaara"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Default"
 msgstr "Oletus"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Development"
 msgstr "Kehitys"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Documents"
 msgstr "Asiakirjat"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Downloads"
 msgstr "Lataukset"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Favorite"
 msgstr "Suosikki"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Games"
 msgstr "Pelit"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Generic"
 msgstr "Yleinen"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Important"
 msgstr "Tärkeä"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Installed"
 msgstr "Asennettu"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Mail"
 msgstr "Posti"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Marketing"
 msgstr "Markkinointi"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Money"
 msgstr "Raha"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Multimedia"
 msgstr "Multimedia"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "New"
 msgstr "Uusi"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Note"
 msgstr "Muistiinpano"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Ohno"
 msgstr "Voi ei"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Package"
 msgstr "Paketti"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "People"
 msgstr "Ihmiset"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Personal"
 msgstr "Henkilökohtainen"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Photos"
 msgstr "Kuvat"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Plan"
 msgstr "Suunnitelma"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Presentation"
 msgstr "Esitys"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Sales"
 msgstr "Myynnit"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Sound"
 msgstr "Ääni"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "System"
 msgstr "Järjestelmä"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Urgent"
 msgstr "Kiireellinen"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Videos"
 msgstr "Videot"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Web"
 msgstr "Verkko"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:88
+#: nemo-emblems/nemo-extension/nemo-emblems.py:100
+#: nemo-emblems/nemo-extension/nemo-emblems.py:108
+#: nemo-emblems/nemo-extension/nemo-emblems.py:105
 msgid "Emblems"
 msgstr "Tunnukset"
 
@@ -261,11 +328,11 @@ msgstr "Pura valittu arkisto"
 
 #: nemo-fileroller/src/nemo-fileroller.c:375
 msgid "Compress..."
-msgstr "Tiivistä…"
+msgstr "Pakkaa..."
 
 #: nemo-fileroller/src/nemo-fileroller.c:376
 msgid "Create a compressed archive with the selected objects"
-msgstr "Luo tiivistetty arkisto valituista kohteista"
+msgstr "Luo pakattu arkisto valituista kohteista"
 
 #: nemo-gtkhash/src/callbacks.c:47
 msgid "Save Digests"
@@ -355,7 +422,7 @@ msgstr "KANSIO"
 
 #: nemo-gtkhash/src/main.c:94
 msgid "Hash the specified text"
-msgstr "Suolaa määritetty teksti"
+msgstr "Hash määritetty teksti"
 
 #: nemo-gtkhash/src/main.c:94
 msgid "TEXT"
@@ -371,8 +438,7 @@ msgstr "[TIEDOSTO|URI...]"
 
 #: nemo-gtkhash/src/prefs.c:76
 msgid "Failed to enable any supported hash functions."
-msgstr ""
-"Epäonnistuttiin ottamaan käyttöön mitään tunnettua suolaustoiminnoista."
+msgstr "Tuettujen hash funktioiden käyttöönotto epäonnistui."
 
 #: nemo-gtkhash/src/nautilus/properties.c:436
 #: nemo-gtkhash/src/nautilus/properties.c:439
@@ -386,7 +452,7 @@ msgstr "_Muuta kuvien kokoa..."
 
 #: nemo-image-converter/src/nemo-image-converter.c:122
 msgid "Resize each selected image"
-msgstr "Muuta jokaisen valitun kuvan kooa"
+msgstr "Muuta jokaisen valitun kuvan kokoa"
 
 #: nemo-image-converter/src/nemo-image-converter.c:131
 msgid "Ro_tate Images..."
@@ -563,66 +629,82 @@ msgid "_Rotate"
 msgstr "_Käännä"
 
 #: nemo-media-columns/nemo-media-columns.py:73
+#: nemo-media-columns/nemo-media-columns.py:92
 msgid "Title"
-msgstr "Otsikko"
+msgstr "Nimi"
 
 #: nemo-media-columns/nemo-media-columns.py:74
+#: nemo-media-columns/nemo-media-columns.py:93
 msgid "Album"
 msgstr "Albumi"
 
 #: nemo-media-columns/nemo-media-columns.py:75
+#: nemo-media-columns/nemo-media-columns.py:94
 msgid "Artist"
 msgstr "Esittäjä"
 
 #: nemo-media-columns/nemo-media-columns.py:76
+#: nemo-media-columns/nemo-media-columns.py:95
 msgid "Track"
 msgstr "Raita"
 
 #: nemo-media-columns/nemo-media-columns.py:77
+#: nemo-media-columns/nemo-media-columns.py:96
 msgid "Genre"
 msgstr "Tyylilaji"
 
 #: nemo-media-columns/nemo-media-columns.py:78
+#: nemo-media-columns/nemo-media-columns.py:97
 msgid "Date"
 msgstr "Päiväys"
 
 #: nemo-media-columns/nemo-media-columns.py:79
+#: nemo-media-columns/nemo-media-columns.py:98
 msgid "Bitrate"
-msgstr "Bittinopeus"
+msgstr "Nopeus"
 
 #: nemo-media-columns/nemo-media-columns.py:80
+#: nemo-media-columns/nemo-media-columns.py:99
 msgid "Pages"
 msgstr "Sivut"
 
 #: nemo-media-columns/nemo-media-columns.py:81
+#: nemo-media-columns/nemo-media-columns.py:100
 msgid "Sample Rate"
-msgstr "Näytteenottotaajuus"
+msgstr "Taajuus"
 
 #: nemo-media-columns/nemo-media-columns.py:82
+#: nemo-media-columns/nemo-media-columns.py:101
 msgid "Length"
 msgstr "Kesto"
 
 #: nemo-media-columns/nemo-media-columns.py:83
+#: nemo-media-columns/nemo-media-columns.py:104
 msgid "EXIF Date"
 msgstr "EXIF päiväys"
 
 #: nemo-media-columns/nemo-media-columns.py:84
+#: nemo-media-columns/nemo-media-columns.py:105
 msgid "EXIF Software"
 msgstr "EXIF ohjelmisto"
 
 #: nemo-media-columns/nemo-media-columns.py:85
+#: nemo-media-columns/nemo-media-columns.py:106
 msgid "EXIF Flash"
 msgstr "EXIF salama"
 
 #: nemo-media-columns/nemo-media-columns.py:86
+#: nemo-media-columns/nemo-media-columns.py:107
 msgid "EXIF Image Size"
 msgstr "EXIF kuvan koko"
 
 #: nemo-media-columns/nemo-media-columns.py:87
+#: nemo-media-columns/nemo-media-columns.py:108
 msgid "EXIF Rating"
 msgstr "EXIF arvostus"
 
 #: nemo-media-columns/nemo-media-columns.py:88
+#: nemo-media-columns/nemo-media-columns.py:109
 msgid "Image Size"
 msgstr "Kuvan koko"
 
@@ -666,6 +748,7 @@ msgid "Empty Folder"
 msgstr "Tyhjä kansio"
 
 #: nemo-preview/src/js/ui/fallbackRenderer.js:123
+#: nemo-preview/src/js/ui/fallbackRenderer.js:125
 msgid "Type"
 msgstr "Tyyppi"
 
@@ -673,26 +756,37 @@ msgstr "Tyyppi"
 #: nemo-preview/src/js/ui/fallbackRenderer.js:133
 #: nemo-preview/src/js/ui/fallbackRenderer.js:139
 #: nemo-preview/src/js/ui/spinnerBox.js:60
+#: nemo-preview/src/js/ui/fallbackRenderer.js:126
+#: nemo-preview/src/js/ui/fallbackRenderer.js:135
+#: nemo-preview/src/js/ui/fallbackRenderer.js:141
+#: nemo-preview/src/js/ui/spinnerBox.js:61
 msgid "Loading..."
 msgstr "Ladataan..."
 
 #: nemo-preview/src/js/ui/fallbackRenderer.js:132
+#: nemo-preview/src/js/ui/fallbackRenderer.js:134
 msgid "Size"
 msgstr "Koko"
 
 #: nemo-preview/src/js/ui/fallbackRenderer.js:138
+#: nemo-preview/src/js/ui/fallbackRenderer.js:140
 msgid "Modified"
 msgstr "Muokattu"
 
 #: nemo-preview/src/js/viewers/audio.js:176
+#: nemo-preview/src/js/viewers/audio.js:177
+#: nemo-preview/src/js/viewers/audio.js:179
 msgid "from"
 msgstr "sijainnista"
 
 #: nemo-preview/src/js/viewers/audio.js:178
+#: nemo-preview/src/js/viewers/audio.js:179
+#: nemo-preview/src/js/viewers/audio.js:181
 msgid "by"
 msgstr "tekijältä"
 
 #: nemo-preview/src/js/viewers/xreader.js:81
+#: nemo-preview/src/js/viewers/xreader.js:82
 #, javascript-format
 msgid "%d of %d"
 msgstr "%d / %d"
@@ -978,12 +1072,14 @@ msgid "Passphrase"
 msgstr "Tunnuslause"
 
 #: nemo-seahorse/tool/seahorse-passphrase.c:135
+#: nemo-compare/src/nemo-compare-preferences.py:162
 msgid "Ok"
 msgstr "Ok"
 
 #: nemo-seahorse/tool/seahorse-passphrase.c:136
+#: nemo-compare/src/nemo-compare-preferences.py:158
 msgid "Cancel"
-msgstr "Peru"
+msgstr "Peruuta"
 
 #: nemo-seahorse/tool/seahorse-tool.c:58
 msgid "Import keys from the file"
@@ -1449,19 +1545,20 @@ msgstr ""
 msgid "There was an error while getting the sharing information"
 msgstr "Tapahtui virhe jakamisen tietojen saamisessa"
 
-#: nemo-share/src/nemo-share.c:1176
+#: nemo-share/src/nemo-share.c:1176 nemo-share/src/nemo-share.c:1177
 msgid "Share"
 msgstr "Jako"
 
 #: nemo-share/src/nemo-share.c:1236 nemo-share/interfaces/share-dialog.ui.h:1
+#: nemo-share/src/nemo-share.c:1237
 msgid "Folder Sharing"
 msgstr "Kansioiden jakaminen"
 
-#: nemo-share/src/nemo-share.c:1277
+#: nemo-share/src/nemo-share.c:1277 nemo-share/src/nemo-share.c:1278
 msgid "Sharing Options"
 msgstr "Jakamisen asetukset"
 
-#: nemo-share/src/nemo-share.c:1278
+#: nemo-share/src/nemo-share.c:1278 nemo-share/src/nemo-share.c:1279
 msgid "Share this Folder"
 msgstr "Jaa tämä kansio"
 
@@ -1572,7 +1669,7 @@ msgstr "Ylös"
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:75
 msgid "Bottom"
-msgstr "Alhaalla"
+msgstr "Alas"
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:80
 msgid "Terminal position"
@@ -1637,8 +1734,90 @@ msgstr "'%s' korvataan mainitulla hakemiston nimellä."
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:225
 msgid "Advanced"
-msgstr "Edistynyt"
+msgstr "Lisäasetukset"
 
 #: nemo-terminal/src/nemo_terminal.py:149
 msgid "Paste Filenames"
 msgstr "Liitä tiedostonimet"
+
+#: nemo-media-columns/nemo-media-columns.py:102
+msgid "Composer"
+msgstr "Kirjoitusohjelma"
+
+#: nemo-media-columns/nemo-media-columns.py:103
+msgid "Description"
+msgstr "Kuvaus"
+
+#: nemo-fileroller/src/nemo-fileroller.c:398
+msgid "Allows managing of archives from the context menu"
+msgstr "Pakkaamisen hallinta pudostusvalikosta"
+
+#: nemo-share/src/nemo-share.c:1115
+msgid "Allows you to quickly share a folder from the context menu"
+msgstr "Kansion jakaminen nopeasti pudotusvalikosta"
+
+#: nemo-emblems/nemo-extension/nemo-emblems.py:19
+msgid "Nemo Emblems"
+msgstr "Nemo Emblems"
+
+#: nemo-emblems/nemo-extension/nemo-emblems.py:20
+#: nemo-emblems/nemo-extension/nemo-emblems.py:163
+msgid "Change a folder or file emblem"
+msgstr "Vaihda kansion tai tiedoston tunnusmerkki"
+
+#: nemo-dropbox/src/nemo-dropbox.c:462 nemo-dropbox/src/nemo-dropbox.c:463
+msgid "Allows managing of Dropbox web service from the context menu"
+msgstr "Sallii Dropboxin hallinnan pudostusvalikosta"
+
+#: nemo-image-converter/src/nemo-image-converter.c:153
+msgid "Allows image resizing and rotation from the context menu"
+msgstr "Sallii kuvan muuttamisen koon ja kääntämisen pudotusvalikosta"
+
+#: nemo-repairer/src/nemo-filename-repairer.c:523
+msgid "Allows filename encoding repair from the context menu"
+msgstr "Sallii tiedostonimien muodon korjauksen pudotusvalikosta"
+
+#: nemo-seahorse/nemo-ext/nemo-seahorse.c:181
+msgid ""
+"Allows encryption and decryption of OpenPGP files from the context menu"
+msgstr "Sallii OpenPGP salauksen ja salauksen purkamisen pudotusvalikosta"
+
+#: nemo-audio-tab/nemo-extension/nemo-audio-tab.py:195
+msgid "View audio tag information from the properties tab"
+msgstr "Katso audiotunnisteen tietoja Ominaisuudet välilehdellä"
+
+#: nemo-compare/src/nemo-compare.py:168
+msgid "Allows file comparison from the context menu"
+msgstr "Sallii tiedostojen vertailun pudotusvalikosta"
+
+#: nemo-media-columns/nemo-media-columns.py:369
+msgid "Provides additional columns for the list view"
+msgstr "Tuo luettelonäkymään lisäsarakkeita"
+
+#: nemo-terminal/src/nemo_terminal.py:579
+msgid "Embedded terminal for Nemo"
+msgstr "Sulautettu pääte Nemolle"
+
+#: nemo-pastebin/src/nemo-pastebin.py:111
+msgid "Unable to read or parse the result page."
+msgstr "Tulossivua ei voi lukea tai jäsentää."
+
+#: nemo-pastebin/src/nemo-pastebin.py:112
+msgid "It could be a server timeout or a change server side. Try later."
+msgstr ""
+"Syy saattaa olla palvelimen aikakatkaisu tai palvelimen puolella tapahtunut "
+"muutos. Yritä myöhemmin."
+
+#: nemo-pastebin/src/nemo-pastebin.py:169
+#, python-format
+msgid "Pastebin to %s"
+msgstr "Liitä Pastebin %s"
+
+#: nemo-pastebin/src/nemo-pastebin.py:170
+#, python-format
+msgid "Send this file to %s"
+msgstr "Lähetä tämä tiedosto %s"
+
+#: nemo-pastebin/src/nemo-pastebin.py:196
+msgid "Send files to a paste service via the context menu"
+msgstr "Lähetä tiedostot pastebin palveluun pudotusvalikon kautta"

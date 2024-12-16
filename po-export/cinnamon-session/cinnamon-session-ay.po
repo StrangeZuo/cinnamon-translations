@@ -1,0 +1,238 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cinnamon-session\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-19 14:25+0000\n"
+"PO-Revision-Date: 2021-09-15 01:54+0000\n"
+"Last-Translator: amosbatto <amosbatto@yahoo.com>\n"
+"Language-Team: Aymara <aym@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
+"X-Launchpad-Export-Date: 2024-07-21 09:00+0000\n"
+"X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
+"Language: ay\n"
+
+#  [es] "Cerrar sesión"
+#: cinnamon-session-quit/cinnamon-session-quit.py:57
+msgid "Log out"
+msgstr "Mit'a uk jist'aña"
+
+#  [es] "Apagar"
+#: cinnamon-session-quit/cinnamon-session-quit.py:59
+msgid "Power off"
+msgstr "Jiwt'ayaña"
+
+#  [es] "Se ignoran los inhibidores existentes"
+#: cinnamon-session-quit/cinnamon-session-quit.py:63
+msgid "Ignoring any existing inhibitors"
+msgstr "Utjir jark'antirinak janiw yäqañakiti"
+
+#  [es] "No solicitar la confirmación del usuario"
+#: cinnamon-session-quit/cinnamon-session-quit.py:65
+msgid "Don't prompt for user confirmation"
+msgstr "Iyaw saña apnaqirirux janiw maykiti"
+
+#  [es] "¿Cerrar la sesión ahora?"
+#: cinnamon-session-quit/cinnamon-session-quit.py:245
+msgid "Log out of this system now?"
+msgstr "Jichhpach mit'a jist'antañ muntati?"
+
+#  [es] "¿Apagar el sistema ahora?"
+#: cinnamon-session-quit/cinnamon-session-quit.py:251
+msgid "Shut down this system now?"
+msgstr "Jichhpach sistema jiwt'ayañ muntati?"
+
+#  [es] "¿Reiniciar el sistema ahora?"
+#: cinnamon-session-quit/cinnamon-session-quit.py:263
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:10
+msgid "Restart this system now?"
+msgstr "Jichhpach sistema wiltat qalltañ muntati?"
+
+#  [es] msgstr[0] "La sesión se cerrará automáticamente en %d segundo."
+#  [es] msgstr[1] "La sesión se cerrará automáticamente en %d segundos."
+#: cinnamon-session-quit/cinnamon-session-quit.py:312
+#, c-format
+msgid "You will be automatically logged out in %d second."
+msgid_plural "You will be logged out in %d seconds."
+msgstr[0] "%d ch’ipxtanx, mit'ax justupak jist'antasini."
+msgstr[1] "%d ch’ipxtanakanx, mit'ax justupak jist'antasini."
+
+#  [es] msgstr[0] "El sistema se apagará automáticamente en %d segundo."
+#  [es] msgstr[1] "El sistema se apagará automáticamente en %d segundos."
+#: cinnamon-session-quit/cinnamon-session-quit.py:318
+#, c-format
+msgid "This system will be automatically shut down in %d second."
+msgid_plural "This system will be shut down in %d seconds."
+msgstr[0] "Sistema ukax justupak jiwt'ani %d ch'ipxtawina."
+msgstr[1] "Sistema ukax justupak jiwt'ani %d ch'ipxtanakawina."
+
+#  [es] msgstr[0] "El sistema se reiniciará automáticamente en %d segundo."
+#  [es] msgstr[1] "El sistema se reiniciará automáticamente en %d segundos."
+#: cinnamon-session-quit/cinnamon-session-quit.py:324
+#, c-format
+msgid "This system will be automatically restarted in %d second."
+msgid_plural "This system will be restarted in %d seconds."
+msgstr[0] "Sistema ukax wiltat justupak qalltani %d ch'ipxtawina."
+msgstr[1] "Sistema ukax wiltat justupak qalltani %d ch'ipxtawinakana."
+
+#  [es] "No responde"
+#: cinnamon-session/csm-manager.c:1436 cinnamon-session/csm-manager.c:3146
+msgid "Not responding"
+msgstr "Janiw jayskiti"
+
+#  [es] "Salió con el código %d"
+#: cinnamon-session/csm-process-helper.c:123
+#, c-format
+msgid "Exited with code %d"
+msgstr "%d chimpump mistuwayi"
+
+#  [es] "Terminado por la señal %d"
+#: cinnamon-session/csm-process-helper.c:128
+#, c-format
+msgid "Killed by signal %d"
+msgstr "%d chimpu layku tukuta"
+
+#  [es] "Detenido por la señal %d"
+#: cinnamon-session/csm-process-helper.c:133
+#, c-format
+msgid "Stopped by signal %d"
+msgstr "%d chimpu layku suyt'ata"
+
+#  [es] "Aplicación recordada"
+#: cinnamon-session/csm-xsmp-client.c:558
+msgid "Remembered Application"
+msgstr "Amtasit aplikasiyuna"
+
+#  [es] "Este programa bloquea el cierre de sesión."
+#: cinnamon-session/csm-xsmp-client.c:1197
+msgid "This program is blocking logout."
+msgstr "Aka prukramax jist'aw mit'a jark'i."
+
+#  [es] ""
+#  [es] "Se rechaza la conexión de un cliente nuevo porque se está cerrando la "
+#  [es] "sesión\n"
+#: cinnamon-session/csm-xsmp-server.c:340
+msgid ""
+"Refusing new client connection because the session is currently being shut "
+"down\n"
+msgstr ""
+"Machaq clientenakan chikasiwinak jark'asa, kunati mit'a ukax "
+"jist'antasiskiwa\n"
+
+#  [es] "No se ha podido crear el socket de escucha del ICE: %s"
+#: cinnamon-session/csm-xsmp-server.c:609
+#, c-format
+msgid "Could not create ICE listening socket: %s"
+msgstr "ICE ukar ist'awi socket janiw uñstaykaspati: %s"
+
+#  [es] "Desconocido"
+#: cinnamon-session/inhibit-dialog-info.c:131
+msgid "Unknown"
+msgstr "Jan uñt'ata"
+
+#  [es] "Omitir las carpetas de inicio automático estándar"
+#: cinnamon-session/main.c:209
+msgid "Override standard autostart directories"
+msgstr "Justupak qalltaw q'ipinaka janiw apnaqañakiti"
+
+#  [es] "CARPETA_DE_INICIO"
+#: cinnamon-session/main.c:209
+msgid "AUTOSTART_DIR"
+msgstr "QALLTAWI_Q'IPI"
+
+#  [es] "Sesión que se usará"
+#: cinnamon-session/main.c:210
+msgid "Session to use"
+msgstr "Mit'a apnaqaskani"
+
+#  [es] "NOMBRE_DE_SESIÓN"
+#: cinnamon-session/main.c:210
+msgid "SESSION_NAME"
+msgstr "MIT'AN_SUTI"
+
+#  [es] "Activar el código de depuración"
+#: cinnamon-session/main.c:211
+msgid "Enable debugging code"
+msgstr "Q'umachañatak chimpu naktayaña"
+
+#  [es] "No cargar las aplicaciones especificadas por el usuario"
+#: cinnamon-session/main.c:212
+msgid "Do not load user-specified applications"
+msgstr "Apnaqirin  uñachayat aplikasiyunanak janiw qalltañakiti"
+
+#  [es] "Versión de esta aplicación"
+#: cinnamon-session/main.c:213
+msgid "Version of this application"
+msgstr "Ak aplikasiyunan jakhu uñjawi"
+
+#  [es] "Mostrar el diálogo de errores para hacer pruebas"
+#: cinnamon-session/main.c:215
+msgid "Show the fail whale dialog for testing"
+msgstr "Yant'ayañatakix pantjatanak wintan uñachayaña"
+
+#  [es] " - el gestor de sesiones de Cinnamon"
+#: cinnamon-session/main.c:246
+msgid " - the Cinnamon session manager"
+msgstr " - Cinnamon mit'anak irpiri"
+
+#  [es] "Sesión"
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:1
+msgid "Session"
+msgstr "Mit'a (sesión"
+
+#  [es] "S_uspender"
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:2
+msgid "S_uspend"
+msgstr "Suyt'ayaña"
+
+#  [es] "_Hibernar"
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:3
+msgid "_Hibernate"
+msgstr "I_kiyaña (hibernar)"
+
+#  [es] "_Cambiar de usuario"
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:4
+msgid "_Switch User"
+msgstr "_Yaqha apnaqiri uskuña"
+
+#  [es] "_Cancelar"
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:5
+msgid "_Cancel"
+msgstr "Janiw _saña"
+
+#  [es] "_Reiniciar"
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:6
+msgid "_Restart"
+msgstr "_Wiltat qalltaña"
+
+#  [es] "Ce_rrar sesión"
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:7
+msgid "_Log Out"
+msgstr "_Mit'a uk jist'aña"
+
+#  [es] "_Apagar"
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:8
+msgid "_Shut Down"
+msgstr "Ji_wt'ayaña"
+
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:9
+msgid "_Ignore and continue"
+msgstr ""
+
+#  [es] "Algunos programas siguen en ejecución:"
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:11
+msgid "Some programs are still running:"
+msgstr "Yaqhip prukramanakax apnaqasiskakiwa:"
+
+#  [es] ""
+#  [es] "Esperando a que los programas finalicen. Interrumpir los programas puede "
+#  [es] "hacer que pierda su trabajo."
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:12
+msgid ""
+"Waiting for programs to finish.  Interrupting these programs may cause you "
+"to lose work."
+msgstr ""
+"Prukramanak tukuyañap uk suyasiski. prukramanak jark'akasax kuntix lurkta "
+"ukjax chhaqhtayasmawa."

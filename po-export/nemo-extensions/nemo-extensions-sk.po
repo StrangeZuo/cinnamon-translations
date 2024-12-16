@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2020-11-26 13:57+0000\n"
-"PO-Revision-Date: 2021-02-10 17:45+0000\n"
-"Last-Translator: Dusan Kazik <prescott66@gmail.com>\n"
+"POT-Creation-Date: 2023-12-15 14:48+0000\n"
+"PO-Revision-Date: 2023-12-23 12:48+0000\n"
+"Last-Translator: menom <Unknown>\n"
 "Language-Team: Slovak <sk@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 1 : (n>=2 && n<=4) ? 2 : 0;\n"
-"X-Launchpad-Export-Date: 2021-06-25 10:42+0000\n"
-"X-Generator: Launchpad (build 40cc6dba4163ba9ca785b26ad91f43c87d70ba4d)\n"
+"X-Launchpad-Export-Date: 2024-07-21 09:02+0000\n"
+"X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
 "Language: sk\n"
 
 #: nemo-audio-tab/nemo-extension/nemo-audio-tab.py:41
@@ -92,154 +92,221 @@ msgid "N-Way Diff"
 msgstr "N-cestné Diff"
 
 #: nemo-compare/src/nemo-compare.py:112 nemo-compare/src/nemo-compare.py:135
+#: nemo-compare/src/nemo-compare.py:114 nemo-compare/src/nemo-compare.py:137
 msgid "Compare to: "
 msgstr "Porovnať s: "
 
 #: nemo-compare/src/nemo-compare.py:113 nemo-compare/src/nemo-compare.py:136
+#: nemo-compare/src/nemo-compare.py:115 nemo-compare/src/nemo-compare.py:138
 msgid "Compare to the file previously selected"
 msgstr "Porovnať s predošle vybraným súborom"
 
-#: nemo-compare/src/nemo-compare.py:122
+#: nemo-compare/src/nemo-compare.py:122 nemo-compare/src/nemo-compare.py:124
 msgid "Compare Later"
 msgstr "Porovnať neskôr"
 
-#: nemo-compare/src/nemo-compare.py:123
+#: nemo-compare/src/nemo-compare.py:123 nemo-compare/src/nemo-compare.py:125
 msgid "Remember file for later comparison"
 msgstr "Zapamätá súbor pre neskoršie porovnanie"
 
-#: nemo-compare/src/nemo-compare.py:147
+#: nemo-compare/src/nemo-compare.py:147 nemo-compare/src/nemo-compare.py:149
 msgid "Compare"
 msgstr "Porovnať"
 
-#: nemo-compare/src/nemo-compare.py:148
+#: nemo-compare/src/nemo-compare.py:148 nemo-compare/src/nemo-compare.py:150
 msgid "Compare selected files"
 msgstr "Porovná vybrané súbory"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Art"
 msgstr "Umenie"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Camera"
 msgstr "Kamera"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Danger"
 msgstr "Nebezpečné"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Default"
 msgstr "Predvolené"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Development"
 msgstr "Vývoj"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Documents"
 msgstr "Dokumenty"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Downloads"
 msgstr "Stiahnuté"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Favorite"
 msgstr "Obľúbené"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Games"
 msgstr "Hry"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Generic"
 msgstr "Všeobecné"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Important"
 msgstr "Dôležité"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Installed"
 msgstr "Inštalované"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Mail"
 msgstr "Emaily"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Marketing"
 msgstr "Predaj"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Money"
 msgstr "Peniaze"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Multimedia"
 msgstr "Multimédia"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "New"
 msgstr "Nový"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Note"
 msgstr "Poznámka"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Ohno"
 msgstr "Ohno"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Package"
 msgstr "Balík"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "People"
 msgstr "Ľudia"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Personal"
 msgstr "Osobné"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Photos"
 msgstr "Fotky"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Plan"
 msgstr "Plán"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Presentation"
 msgstr "Prezantácia"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Sales"
 msgstr "Predaj"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Sound"
 msgstr "Zvuk"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "System"
 msgstr "Systém"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Urgent"
 msgstr "Urgentné"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Videos"
 msgstr "Videá"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Web"
 msgstr "Web"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:88
+#: nemo-emblems/nemo-extension/nemo-emblems.py:100
+#: nemo-emblems/nemo-extension/nemo-emblems.py:108
+#: nemo-emblems/nemo-extension/nemo-emblems.py:105
 msgid "Emblems"
 msgstr "Emblémy"
 
@@ -281,9 +348,11 @@ msgstr ""
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
+"  Adrián Bíro https://launchpad.net/~biroadrian\n"
 "  Dusan Kazik https://launchpad.net/~prescott66\n"
 "  Ivan Kmeťo https://launchpad.net/~ivo-kmeto\n"
-"  Vendelín Slezák https://launchpad.net/~klaykap"
+"  Vendelín Slezák https://launchpad.net/~klaykap\n"
+"  menom https://launchpad.net/~menom1"
 
 #: nemo-gtkhash/src/callbacks.c:262
 msgid "Select Files"
@@ -565,66 +634,82 @@ msgid "_Rotate"
 msgstr "O_točiť"
 
 #: nemo-media-columns/nemo-media-columns.py:73
+#: nemo-media-columns/nemo-media-columns.py:92
 msgid "Title"
 msgstr "Názov"
 
 #: nemo-media-columns/nemo-media-columns.py:74
+#: nemo-media-columns/nemo-media-columns.py:93
 msgid "Album"
 msgstr "Album"
 
 #: nemo-media-columns/nemo-media-columns.py:75
+#: nemo-media-columns/nemo-media-columns.py:94
 msgid "Artist"
 msgstr "Autor"
 
 #: nemo-media-columns/nemo-media-columns.py:76
+#: nemo-media-columns/nemo-media-columns.py:95
 msgid "Track"
 msgstr "Skladba"
 
 #: nemo-media-columns/nemo-media-columns.py:77
+#: nemo-media-columns/nemo-media-columns.py:96
 msgid "Genre"
 msgstr "Žáner"
 
 #: nemo-media-columns/nemo-media-columns.py:78
+#: nemo-media-columns/nemo-media-columns.py:97
 msgid "Date"
 msgstr "Dátum"
 
 #: nemo-media-columns/nemo-media-columns.py:79
+#: nemo-media-columns/nemo-media-columns.py:98
 msgid "Bitrate"
 msgstr "Bitový tok"
 
 #: nemo-media-columns/nemo-media-columns.py:80
+#: nemo-media-columns/nemo-media-columns.py:99
 msgid "Pages"
 msgstr "Stránky"
 
 #: nemo-media-columns/nemo-media-columns.py:81
+#: nemo-media-columns/nemo-media-columns.py:100
 msgid "Sample Rate"
 msgstr "Vzorkovacia frekvencia"
 
 #: nemo-media-columns/nemo-media-columns.py:82
+#: nemo-media-columns/nemo-media-columns.py:101
 msgid "Length"
 msgstr "Dĺžka"
 
 #: nemo-media-columns/nemo-media-columns.py:83
+#: nemo-media-columns/nemo-media-columns.py:104
 msgid "EXIF Date"
 msgstr "EXIF Dátum"
 
 #: nemo-media-columns/nemo-media-columns.py:84
+#: nemo-media-columns/nemo-media-columns.py:105
 msgid "EXIF Software"
 msgstr "EXIF Softvér"
 
 #: nemo-media-columns/nemo-media-columns.py:85
+#: nemo-media-columns/nemo-media-columns.py:106
 msgid "EXIF Flash"
 msgstr "EXIF Flash"
 
 #: nemo-media-columns/nemo-media-columns.py:86
+#: nemo-media-columns/nemo-media-columns.py:107
 msgid "EXIF Image Size"
 msgstr "EXIF Veľkosť obrázka"
 
 #: nemo-media-columns/nemo-media-columns.py:87
+#: nemo-media-columns/nemo-media-columns.py:108
 msgid "EXIF Rating"
 msgstr "EXIF Hodnotenie"
 
 #: nemo-media-columns/nemo-media-columns.py:88
+#: nemo-media-columns/nemo-media-columns.py:109
 msgid "Image Size"
 msgstr "Veľkosť obrázku"
 
@@ -669,6 +754,7 @@ msgid "Empty Folder"
 msgstr "Prázdny priečinok"
 
 #: nemo-preview/src/js/ui/fallbackRenderer.js:123
+#: nemo-preview/src/js/ui/fallbackRenderer.js:125
 msgid "Type"
 msgstr "Typ"
 
@@ -676,26 +762,37 @@ msgstr "Typ"
 #: nemo-preview/src/js/ui/fallbackRenderer.js:133
 #: nemo-preview/src/js/ui/fallbackRenderer.js:139
 #: nemo-preview/src/js/ui/spinnerBox.js:60
+#: nemo-preview/src/js/ui/fallbackRenderer.js:126
+#: nemo-preview/src/js/ui/fallbackRenderer.js:135
+#: nemo-preview/src/js/ui/fallbackRenderer.js:141
+#: nemo-preview/src/js/ui/spinnerBox.js:61
 msgid "Loading..."
 msgstr "Načítava sa…"
 
 #: nemo-preview/src/js/ui/fallbackRenderer.js:132
+#: nemo-preview/src/js/ui/fallbackRenderer.js:134
 msgid "Size"
 msgstr "Veľkosť"
 
 #: nemo-preview/src/js/ui/fallbackRenderer.js:138
+#: nemo-preview/src/js/ui/fallbackRenderer.js:140
 msgid "Modified"
 msgstr "Zmenené"
 
 #: nemo-preview/src/js/viewers/audio.js:176
+#: nemo-preview/src/js/viewers/audio.js:177
+#: nemo-preview/src/js/viewers/audio.js:179
 msgid "from"
 msgstr "z"
 
 #: nemo-preview/src/js/viewers/audio.js:178
+#: nemo-preview/src/js/viewers/audio.js:179
+#: nemo-preview/src/js/viewers/audio.js:181
 msgid "by"
 msgstr "od"
 
 #: nemo-preview/src/js/viewers/xreader.js:81
+#: nemo-preview/src/js/viewers/xreader.js:82
 #, javascript-format
 msgid "%d of %d"
 msgstr "%d z %d"
@@ -981,10 +1078,12 @@ msgid "Passphrase"
 msgstr "Heslo"
 
 #: nemo-seahorse/tool/seahorse-passphrase.c:135
+#: nemo-compare/src/nemo-compare-preferences.py:162
 msgid "Ok"
 msgstr "Ok"
 
 #: nemo-seahorse/tool/seahorse-passphrase.c:136
+#: nemo-compare/src/nemo-compare-preferences.py:158
 msgid "Cancel"
 msgstr "Zrušiť"
 
@@ -1462,19 +1561,20 @@ msgstr ""
 msgid "There was an error while getting the sharing information"
 msgstr "Vyskytla sa chyba počas získavania informácií o zdieľaní"
 
-#: nemo-share/src/nemo-share.c:1176
+#: nemo-share/src/nemo-share.c:1176 nemo-share/src/nemo-share.c:1177
 msgid "Share"
 msgstr "Zdieľanie"
 
 #: nemo-share/src/nemo-share.c:1236 nemo-share/interfaces/share-dialog.ui.h:1
+#: nemo-share/src/nemo-share.c:1237
 msgid "Folder Sharing"
 msgstr "Zdieľanie priečinka"
 
-#: nemo-share/src/nemo-share.c:1277
+#: nemo-share/src/nemo-share.c:1277 nemo-share/src/nemo-share.c:1278
 msgid "Sharing Options"
 msgstr "Voľby zdieľania"
 
-#: nemo-share/src/nemo-share.c:1278
+#: nemo-share/src/nemo-share.c:1278 nemo-share/src/nemo-share.c:1279
 msgid "Share this Folder"
 msgstr "Zdieľať tento priečinok"
 
@@ -1573,7 +1673,7 @@ msgstr ""
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:44
 msgid "Nemo-Terminal Preferences"
-msgstr ""
+msgstr "Nastavenia pre Nemo-terminál interakciu"
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:70
 msgid "Visible by default"
@@ -1622,14 +1722,15 @@ msgstr "Základné"
 #: nemo-terminal/src/nemo-terminal-prefs.py:171
 msgid "Shell to use (leave blank for system default)"
 msgstr ""
+"Preferovaný Shell (Pre predvolené systémové nastavenie, nechajte nevyplnené.)"
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:187
 msgid "Terminal erase line key sequence"
-msgstr ""
+msgstr "Sekvencia kľúča pre zmazanie riadka terminálu"
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:195
 msgid "Terminal restore line key sequence"
-msgstr ""
+msgstr "Sekvencia kľúča pre obnovu riadka terminálu"
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:203
 msgid "Change directory command"
@@ -1641,7 +1742,7 @@ msgstr "Obnoviť predvolené"
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:217
 msgid "Sequences must be escaped according to python rules."
-msgstr ""
+msgstr "Sekvencie musia byť podľa pravidiel pythonu."
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:218
 #, python-format
@@ -1655,3 +1756,86 @@ msgstr "Pokročilé"
 #: nemo-terminal/src/nemo_terminal.py:149
 msgid "Paste Filenames"
 msgstr "Vložiť názvy súborov"
+
+#: nemo-media-columns/nemo-media-columns.py:102
+msgid "Composer"
+msgstr "Skladateľ"
+
+#: nemo-media-columns/nemo-media-columns.py:103
+msgid "Description"
+msgstr "Popis"
+
+#: nemo-fileroller/src/nemo-fileroller.c:398
+msgid "Allows managing of archives from the context menu"
+msgstr "Umožňuje správu archívov z kontextového menu"
+
+#: nemo-share/src/nemo-share.c:1115
+msgid "Allows you to quickly share a folder from the context menu"
+msgstr "Umožňuje rýchlo zdieľať priečinok z kontextového menu"
+
+#: nemo-emblems/nemo-extension/nemo-emblems.py:19
+msgid "Nemo Emblems"
+msgstr "Emblémy Nemo"
+
+#: nemo-emblems/nemo-extension/nemo-emblems.py:20
+#: nemo-emblems/nemo-extension/nemo-emblems.py:163
+msgid "Change a folder or file emblem"
+msgstr "Zmeňte emblém priečinka alebo súboru"
+
+#: nemo-dropbox/src/nemo-dropbox.c:462 nemo-dropbox/src/nemo-dropbox.c:463
+msgid "Allows managing of Dropbox web service from the context menu"
+msgstr "Umožňuje správu webovej služby Dropbox z kontextového menu"
+
+#: nemo-image-converter/src/nemo-image-converter.c:153
+msgid "Allows image resizing and rotation from the context menu"
+msgstr "Umožňuje zmenu veľkosti a otáčania obrázka z kontextového menu"
+
+#: nemo-repairer/src/nemo-filename-repairer.c:523
+msgid "Allows filename encoding repair from the context menu"
+msgstr "Umožňuje opravu kódovania súboru z kontextového menu"
+
+#: nemo-seahorse/nemo-ext/nemo-seahorse.c:181
+msgid ""
+"Allows encryption and decryption of OpenPGP files from the context menu"
+msgstr ""
+"Umožňuje šifrovanie a dešifrovanie súborov OpenPGP z kontextového menu"
+
+#: nemo-audio-tab/nemo-extension/nemo-audio-tab.py:195
+msgid "View audio tag information from the properties tab"
+msgstr "Zobrazí informácie o zvukových značkách tag, na karte vlastností"
+
+#: nemo-compare/src/nemo-compare.py:168
+msgid "Allows file comparison from the context menu"
+msgstr "Umožňuje porovnanie súborov z kontextového menu"
+
+#: nemo-media-columns/nemo-media-columns.py:369
+msgid "Provides additional columns for the list view"
+msgstr "Poskytuje ďalšie stĺpce pre zobrazenie zoznamu"
+
+#: nemo-terminal/src/nemo_terminal.py:579
+msgid "Embedded terminal for Nemo"
+msgstr "Vstavaný terminál pre Nemo"
+
+#: nemo-pastebin/src/nemo-pastebin.py:111
+msgid "Unable to read or parse the result page."
+msgstr "Nie je možné prečítať alebo analyzovať stránku s výsledkami."
+
+#: nemo-pastebin/src/nemo-pastebin.py:112
+msgid "It could be a server timeout or a change server side. Try later."
+msgstr ""
+"Môže to byť časový limit servera alebo zmena na strane servera. Skúste "
+"neskôr."
+
+#: nemo-pastebin/src/nemo-pastebin.py:169
+#, python-format
+msgid "Pastebin to %s"
+msgstr "Pastebin na %s"
+
+#: nemo-pastebin/src/nemo-pastebin.py:170
+#, python-format
+msgid "Send this file to %s"
+msgstr "Pošlite tento súbor na %s"
+
+#: nemo-pastebin/src/nemo-pastebin.py:196
+msgid "Send files to a paste service via the context menu"
+msgstr "Pošlite súbory do služby Pastebin cez kontextové menu"

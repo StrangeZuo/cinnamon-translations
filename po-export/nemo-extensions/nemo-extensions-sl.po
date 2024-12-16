@@ -7,21 +7,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2020-11-26 13:57+0000\n"
-"PO-Revision-Date: 2018-02-15 10:21+0000\n"
-"Last-Translator: Matic Gradišer <Unknown>\n"
+"POT-Creation-Date: 2023-12-15 14:48+0000\n"
+"PO-Revision-Date: 2024-02-04 19:51+0000\n"
+"Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <sl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || "
 "n%100==4 ? 3 : 0);\n"
-"X-Launchpad-Export-Date: 2021-06-25 10:42+0000\n"
-"X-Generator: Launchpad (build 40cc6dba4163ba9ca785b26ad91f43c87d70ba4d)\n"
+"X-Launchpad-Export-Date: 2024-07-21 09:02+0000\n"
+"X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
 
 #: nemo-audio-tab/nemo-extension/nemo-audio-tab.py:41
 msgid "Audio"
-msgstr "Glasba"
+msgstr "Zvok"
 
 #: nemo-audio-tab/nemo-extension/nemo-audio-tab.py:68
 msgid "No Info"
@@ -45,7 +45,7 @@ msgstr "Izvajalec albuma:"
 
 #: nemo-audio-tab/nemo-extension/nemo-audio-tab.glade.h:5
 msgid "Genre:"
-msgstr "Žanr:"
+msgstr "Zvrst:"
 
 #: nemo-audio-tab/nemo-extension/nemo-audio-tab.glade.h:6
 msgid "Year:"
@@ -69,7 +69,7 @@ msgstr "Vzorčna hitrost:"
 
 #: nemo-audio-tab/nemo-extension/nemo-audio-tab.glade.h:11
 msgid "Encoded by:"
-msgstr ""
+msgstr "Kodirano:"
 
 #: nemo-audio-tab/nemo-extension/nemo-audio-tab.glade.h:12
 msgid "Copyright:"
@@ -77,169 +77,236 @@ msgstr "Avtorske pravice:"
 
 #: nemo-compare/src/nemo-compare-preferences.py:99
 msgid "Nemo Compare"
-msgstr ""
+msgstr "Primerjava Nemo"
 
 #: nemo-compare/src/nemo-compare-preferences.py:107
 msgid "Normal Diff"
-msgstr ""
+msgstr "Navadna razlika (diff)"
 
 #: nemo-compare/src/nemo-compare-preferences.py:122
 msgid "Three-Way Diff"
-msgstr ""
+msgstr "Tri-smerna razlika"
 
 #: nemo-compare/src/nemo-compare-preferences.py:137
 msgid "N-Way Diff"
-msgstr ""
+msgstr "N-smerna razlika"
 
 #: nemo-compare/src/nemo-compare.py:112 nemo-compare/src/nemo-compare.py:135
+#: nemo-compare/src/nemo-compare.py:114 nemo-compare/src/nemo-compare.py:137
 msgid "Compare to: "
-msgstr ""
+msgstr "Primerjaj z: "
 
 #: nemo-compare/src/nemo-compare.py:113 nemo-compare/src/nemo-compare.py:136
+#: nemo-compare/src/nemo-compare.py:115 nemo-compare/src/nemo-compare.py:138
 msgid "Compare to the file previously selected"
-msgstr ""
+msgstr "Primerjaj s prej izbrano datoteko"
 
-#: nemo-compare/src/nemo-compare.py:122
+#: nemo-compare/src/nemo-compare.py:122 nemo-compare/src/nemo-compare.py:124
 msgid "Compare Later"
-msgstr ""
+msgstr "Primerjaj kasneje"
 
-#: nemo-compare/src/nemo-compare.py:123
+#: nemo-compare/src/nemo-compare.py:123 nemo-compare/src/nemo-compare.py:125
 msgid "Remember file for later comparison"
-msgstr ""
+msgstr "Pomni datoteko za kasnejšo primerjavo"
 
-#: nemo-compare/src/nemo-compare.py:147
+#: nemo-compare/src/nemo-compare.py:147 nemo-compare/src/nemo-compare.py:149
 msgid "Compare"
 msgstr "Primerjaj"
 
-#: nemo-compare/src/nemo-compare.py:148
+#: nemo-compare/src/nemo-compare.py:148 nemo-compare/src/nemo-compare.py:150
 msgid "Compare selected files"
-msgstr ""
+msgstr "Primerjaj izbrane datoteke"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Art"
-msgstr ""
+msgstr "Umetnost"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Camera"
-msgstr ""
+msgstr "Kamera"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Danger"
-msgstr ""
+msgstr "Nevarnost"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Default"
-msgstr ""
+msgstr "Privzeto"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Development"
-msgstr ""
+msgstr "Razvoj"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Documents"
-msgstr ""
+msgstr "Dokumenti"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Downloads"
-msgstr ""
+msgstr "Prenosi"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Favorite"
-msgstr ""
+msgstr "Priljubljeno"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Games"
-msgstr ""
+msgstr "Igre"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Generic"
-msgstr ""
+msgstr "Splošno"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Important"
-msgstr ""
+msgstr "Pomembno"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Installed"
-msgstr ""
+msgstr "Nameščeno"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Mail"
-msgstr ""
+msgstr "Pošta"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Marketing"
-msgstr ""
+msgstr "Trženje"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Money"
-msgstr ""
+msgstr "Denar"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Multimedia"
-msgstr ""
+msgstr "Večpredstavnost"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "New"
-msgstr ""
+msgstr "Nov"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Note"
-msgstr ""
+msgstr "Opomba"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Ohno"
-msgstr ""
+msgstr "Ojoj"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Package"
-msgstr ""
+msgstr "Paket"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "People"
-msgstr ""
+msgstr "Osebe"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Personal"
-msgstr ""
+msgstr "Osebno"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Photos"
-msgstr ""
+msgstr "Fotografije"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Plan"
-msgstr ""
+msgstr "Načrt"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Presentation"
-msgstr ""
+msgstr "Predstavitev"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Sales"
-msgstr ""
+msgstr "Prodaja"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Sound"
-msgstr ""
+msgstr "Zvok"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "System"
-msgstr ""
+msgstr "Sistem"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Urgent"
-msgstr ""
+msgstr "Nujno"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Videos"
-msgstr ""
+msgstr "Videoposnetki"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Web"
-msgstr ""
+msgstr "Splet"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:88
+#: nemo-emblems/nemo-extension/nemo-emblems.py:100
+#: nemo-emblems/nemo-extension/nemo-emblems.py:108
+#: nemo-emblems/nemo-extension/nemo-emblems.py:105
 msgid "Emblems"
 msgstr "Značke"
 
@@ -269,16 +336,19 @@ msgstr "Ustvari stisnjen arhiv z izbranimi predmeti"
 
 #: nemo-gtkhash/src/callbacks.c:47
 msgid "Save Digests"
-msgstr ""
+msgstr "Shrani zgoščene vrednosti"
 
 #: nemo-gtkhash/src/callbacks.c:236
 msgid "A GTK+ utility for computing message digests or checksums."
 msgstr ""
+"Pripomoček GTK+ za računanje zgoščevalnih vrednosti ali kontrolnih vsot "
+"sporočil."
 
 #: nemo-gtkhash/src/callbacks.c:240
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
+"  Martin Srebotnjak https://launchpad.net/~miles\n"
 "  Matic Gradišer https://launchpad.net/~0micky"
 
 #: nemo-gtkhash/src/callbacks.c:262
@@ -288,7 +358,7 @@ msgstr "Izberi datoteke"
 #: nemo-gtkhash/src/gui.c:293
 #, c-format
 msgid "Failed to read \"%s\""
-msgstr ""
+msgstr "Branje »%s« je spodletelo"
 
 #: nemo-gtkhash/src/gui.c:310
 #, c-format
@@ -296,6 +366,8 @@ msgid ""
 "Failed to read \"%s\":\n"
 "%s"
 msgstr ""
+"Branje »%s« je spodletelo:\n"
+"%s"
 
 #: nemo-gtkhash/src/gui.c:359
 msgid "Not a regular file"
@@ -311,38 +383,40 @@ msgid ""
 "Failed to add \"%s\":\n"
 "%s"
 msgstr ""
+"Dodajanje »%s« je spodletelo:\n"
+"%s"
 
 #: nemo-gtkhash/src/hash.c:74 nemo-gtkhash/src/nautilus/properties-hash.c:61
 #, c-format
 msgid "%s of %s - 1 minute left (%s/sec)"
-msgstr ""
+msgstr "%s od %s - še 1 minuta (%s/sec)"
 
 #: nemo-gtkhash/src/hash.c:77 nemo-gtkhash/src/nautilus/properties-hash.c:64
 #, c-format
 msgid "%s of %s - %u minutes left (%s/sec)"
-msgstr ""
+msgstr "%s od %s - še %u minut (%s/sec)"
 
 #: nemo-gtkhash/src/hash.c:81 nemo-gtkhash/src/nautilus/properties-hash.c:68
 #, c-format
 msgid "%s of %s - 1 second left (%s/sec)"
-msgstr ""
+msgstr "%s od %s - preostaja1 sekunda (%s/s)"
 
 #: nemo-gtkhash/src/hash.c:84 nemo-gtkhash/src/nautilus/properties-hash.c:71
 #, c-format
 msgid "%s of %s - %u seconds left (%s/sec)"
-msgstr ""
+msgstr "%s od %s - preostaja %u sekund (%s/s)"
 
 #: nemo-gtkhash/src/main.c:86
 msgid "Check against the specified digest or checksum"
-msgstr ""
+msgstr "Preveri z navedeno zgoščeno vrednostjo ali kontrolno vsoto"
 
 #: nemo-gtkhash/src/main.c:86
 msgid "DIGEST"
-msgstr ""
+msgstr "ZGOŠČENAVREDNOST"
 
 #: nemo-gtkhash/src/main.c:90
 msgid "Read program data from the specified directory"
-msgstr ""
+msgstr "Prebere podatke programa iz navedene mape"
 
 #: nemo-gtkhash/src/main.c:90
 msgid "DIRECTORY"
@@ -350,7 +424,7 @@ msgstr "MAPA"
 
 #: nemo-gtkhash/src/main.c:94
 msgid "Hash the specified text"
-msgstr ""
+msgstr "Izračunaj zgoščeno vrednost navedenega besedila"
 
 #: nemo-gtkhash/src/main.c:94
 msgid "TEXT"
@@ -366,29 +440,29 @@ msgstr "[FILE|URI...]"
 
 #: nemo-gtkhash/src/prefs.c:76
 msgid "Failed to enable any supported hash functions."
-msgstr ""
+msgstr "Omogočanje podprtih zgoščevalnih funkcij je spodletelo."
 
 #: nemo-gtkhash/src/nautilus/properties.c:436
 #: nemo-gtkhash/src/nautilus/properties.c:439
 #: nemo-gtkhash/src/nautilus/properties.c:441
 msgid "Digests"
-msgstr ""
+msgstr "Zgoščene vrednosti"
 
 #: nemo-image-converter/src/nemo-image-converter.c:121
 msgid "_Resize Images..."
-msgstr ""
+msgstr "_Spremeni velikost slik ..."
 
 #: nemo-image-converter/src/nemo-image-converter.c:122
 msgid "Resize each selected image"
-msgstr ""
+msgstr "Spremeni velikost vsake izbrane slike"
 
 #: nemo-image-converter/src/nemo-image-converter.c:131
 msgid "Ro_tate Images..."
-msgstr ""
+msgstr "_Zasukaj slike ..."
 
 #: nemo-image-converter/src/nemo-image-converter.c:132
 msgid "Rotate each selected image"
-msgstr ""
+msgstr "Zasukaj vsako izbrano sliko"
 
 #: nemo-image-converter/src/nemo-image-resizer.c:211
 #: nemo-image-converter/src/nemo-image-rotator.c:208
@@ -403,27 +477,27 @@ msgstr "Poskusi _znova"
 #: nemo-image-converter/src/nemo-image-resizer.c:291
 #, c-format
 msgid "Resizing image: %d of %d"
-msgstr ""
+msgstr "Spreminjanje velikosti slike: %d od %d"
 
 #: nemo-image-converter/src/nemo-image-resizer.c:296
 #, c-format
 msgid "<i>Resizing \"%s\"</i>"
-msgstr ""
+msgstr "<i>Spreminjanje velikosti »%s«</i>"
 
 #: nemo-image-converter/src/nemo-image-resizer.c:314
 #: nemo-image-converter/src/nemo-image-rotator.c:313
 msgid "Please enter a valid filename suffix!"
-msgstr ""
+msgstr "Vnesite veljavno pripono imena datoteke!"
 
 #: nemo-image-converter/src/nemo-image-rotator.c:290
 #, c-format
 msgid "Rotating image: %d of %d"
-msgstr ""
+msgstr "Sukanje slike: %d od %d"
 
 #: nemo-image-converter/src/nemo-image-rotator.c:295
 #, c-format
 msgid "<i>Rotating \"%s\"</i>"
-msgstr ""
+msgstr "<i>Sukanje »%s«</i>"
 
 #: nemo-image-converter/data/nemo-image-resize.ui.h:1
 msgid "Resize Images"
@@ -509,16 +583,16 @@ msgstr "Pripni"
 
 #: nemo-image-converter/data/nemo-image-resize.ui.h:21
 msgid ".resized"
-msgstr ""
+msgstr ".umerjeno"
 
 #: nemo-image-converter/data/nemo-image-resize.ui.h:22
 #: nemo-image-converter/data/nemo-image-rotate.ui.h:9
 msgid "to file title"
-msgstr ""
+msgstr "v naziv datoteke"
 
 #: nemo-image-converter/data/nemo-image-resize.ui.h:23
 msgid "Resize in place"
-msgstr ""
+msgstr "Spremeni velikost na mestu"
 
 #: nemo-image-converter/data/nemo-image-resize.ui.h:24
 msgid "_Resize"
@@ -526,107 +600,123 @@ msgstr "_Spremeni velikost"
 
 #: nemo-image-converter/data/nemo-image-rotate.ui.h:1
 msgid "Rotate Images"
-msgstr ""
+msgstr "Zasukaj slike"
 
 #: nemo-image-converter/data/nemo-image-rotate.ui.h:2
 msgid "<b>Image Rotation</b>"
-msgstr ""
+msgstr "<b>Sukanje slik</b>"
 
 #: nemo-image-converter/data/nemo-image-rotate.ui.h:3
 msgid "Select an angle:"
-msgstr ""
+msgstr "Izberite kot:"
 
 #: nemo-image-converter/data/nemo-image-rotate.ui.h:4
 msgid "Custom angle:"
-msgstr ""
+msgstr "Kot po meri:"
 
 #: nemo-image-converter/data/nemo-image-rotate.ui.h:5
 msgid "degrees clockwise"
-msgstr ""
+msgstr "stopinj v SUK"
 
 #: nemo-image-converter/data/nemo-image-rotate.ui.h:8
 msgid ".rotated"
-msgstr ""
+msgstr ".zasukano"
 
 #: nemo-image-converter/data/nemo-image-rotate.ui.h:10
 msgid "Rotate in place"
-msgstr ""
+msgstr "Zavrti na mestu"
 
 #: nemo-image-converter/data/nemo-image-rotate.ui.h:11
 msgid "_Rotate"
-msgstr ""
+msgstr "_Zasukaj"
 
 #: nemo-media-columns/nemo-media-columns.py:73
+#: nemo-media-columns/nemo-media-columns.py:92
 msgid "Title"
 msgstr "Naslov"
 
 #: nemo-media-columns/nemo-media-columns.py:74
+#: nemo-media-columns/nemo-media-columns.py:93
 msgid "Album"
 msgstr "Album"
 
 #: nemo-media-columns/nemo-media-columns.py:75
+#: nemo-media-columns/nemo-media-columns.py:94
 msgid "Artist"
 msgstr "Izvajalec"
 
 #: nemo-media-columns/nemo-media-columns.py:76
+#: nemo-media-columns/nemo-media-columns.py:95
 msgid "Track"
 msgstr "Skladba"
 
 #: nemo-media-columns/nemo-media-columns.py:77
+#: nemo-media-columns/nemo-media-columns.py:96
 msgid "Genre"
 msgstr "Žanr"
 
 #: nemo-media-columns/nemo-media-columns.py:78
+#: nemo-media-columns/nemo-media-columns.py:97
 msgid "Date"
 msgstr "Datum"
 
 #: nemo-media-columns/nemo-media-columns.py:79
+#: nemo-media-columns/nemo-media-columns.py:98
 msgid "Bitrate"
 msgstr "Bitna hitrost"
 
 #: nemo-media-columns/nemo-media-columns.py:80
+#: nemo-media-columns/nemo-media-columns.py:99
 msgid "Pages"
-msgstr ""
+msgstr "Strani"
 
 #: nemo-media-columns/nemo-media-columns.py:81
+#: nemo-media-columns/nemo-media-columns.py:100
 msgid "Sample Rate"
 msgstr "Vzorčna hitrost"
 
 #: nemo-media-columns/nemo-media-columns.py:82
+#: nemo-media-columns/nemo-media-columns.py:101
 msgid "Length"
 msgstr "Čas trajanja"
 
 #: nemo-media-columns/nemo-media-columns.py:83
+#: nemo-media-columns/nemo-media-columns.py:104
 msgid "EXIF Date"
 msgstr "EXIF datum"
 
 #: nemo-media-columns/nemo-media-columns.py:84
+#: nemo-media-columns/nemo-media-columns.py:105
 msgid "EXIF Software"
 msgstr "EXIF programska oprema"
 
 #: nemo-media-columns/nemo-media-columns.py:85
+#: nemo-media-columns/nemo-media-columns.py:106
 msgid "EXIF Flash"
 msgstr "EXIF bliskavica"
 
 #: nemo-media-columns/nemo-media-columns.py:86
+#: nemo-media-columns/nemo-media-columns.py:107
 msgid "EXIF Image Size"
 msgstr "EXIF velikost slike"
 
 #: nemo-media-columns/nemo-media-columns.py:87
+#: nemo-media-columns/nemo-media-columns.py:108
 msgid "EXIF Rating"
 msgstr "EXIF ocena"
 
 #: nemo-media-columns/nemo-media-columns.py:88
+#: nemo-media-columns/nemo-media-columns.py:109
 msgid "Image Size"
 msgstr "Velikost slike"
 
 #: nemo-pastebin/data/nemo-pastebin-configurator.ui.h:1
 msgid "Nemo Pastebin"
-msgstr ""
+msgstr "Posoda za lepljenje (pastebin) Nemo"
 
 #: nemo-pastebin/data/nemo-pastebin-configurator.ui.h:2
 msgid "Pastebin"
-msgstr "Pastebin"
+msgstr "Posoda za lepljenje"
 
 #: nemo-pastebin/data/nemo-pastebin-configurator.ui.h:3
 msgid "Open the browser"
@@ -634,7 +724,7 @@ msgstr "Odpri brskalnik"
 
 #: nemo-pastebin/data/nemo-pastebin-configurator.ui.h:4
 msgid "Show a notification"
-msgstr ""
+msgstr "Pokaži obvestilo"
 
 #: nemo-pastebin/data/nemo-pastebin-configurator.ui.h:5
 msgid "Username"
@@ -662,6 +752,7 @@ msgid "Empty Folder"
 msgstr "Prazna mapa"
 
 #: nemo-preview/src/js/ui/fallbackRenderer.js:123
+#: nemo-preview/src/js/ui/fallbackRenderer.js:125
 msgid "Type"
 msgstr "Vrsta"
 
@@ -669,26 +760,37 @@ msgstr "Vrsta"
 #: nemo-preview/src/js/ui/fallbackRenderer.js:133
 #: nemo-preview/src/js/ui/fallbackRenderer.js:139
 #: nemo-preview/src/js/ui/spinnerBox.js:60
+#: nemo-preview/src/js/ui/fallbackRenderer.js:126
+#: nemo-preview/src/js/ui/fallbackRenderer.js:135
+#: nemo-preview/src/js/ui/fallbackRenderer.js:141
+#: nemo-preview/src/js/ui/spinnerBox.js:61
 msgid "Loading..."
 msgstr "Nalaganje ..."
 
 #: nemo-preview/src/js/ui/fallbackRenderer.js:132
+#: nemo-preview/src/js/ui/fallbackRenderer.js:134
 msgid "Size"
 msgstr "Velikost"
 
 #: nemo-preview/src/js/ui/fallbackRenderer.js:138
+#: nemo-preview/src/js/ui/fallbackRenderer.js:140
 msgid "Modified"
 msgstr "Spremenjeno"
 
 #: nemo-preview/src/js/viewers/audio.js:176
+#: nemo-preview/src/js/viewers/audio.js:177
+#: nemo-preview/src/js/viewers/audio.js:179
 msgid "from"
 msgstr "iz"
 
 #: nemo-preview/src/js/viewers/audio.js:178
+#: nemo-preview/src/js/viewers/audio.js:179
+#: nemo-preview/src/js/viewers/audio.js:181
 msgid "by"
 msgstr "od"
 
 #: nemo-preview/src/js/viewers/xreader.js:81
+#: nemo-preview/src/js/viewers/xreader.js:82
 #, javascript-format
 msgid "%d of %d"
 msgstr "%d od %d"
@@ -699,6 +801,8 @@ msgid ""
 "<span size=\"larger\">The selected \"%s\" is invalid encoding.</span>\n"
 "<span size=\"larger\">Please choose another one.</span>"
 msgstr ""
+"<span size=\"larger\">Izbrano kodiranje »%s« ni veljavno.</span>\n"
+"<span size=\"larger\">Izberite drugo.</span>"
 
 #: nemo-repairer/src/nemo-filename-repairer.c:120
 #, c-format
@@ -706,6 +810,8 @@ msgid ""
 "<span size=\"larger\" weight=\"bold\">There was an error renaming the file "
 "to \"%s\"</span>"
 msgstr ""
+"<span size=\"larger\" weight=\"bold\">Pri preimenovanju datoteke v »%s« je "
+"prišlo do napake.</span>"
 
 #: nemo-repairer/src/nemo-filename-repairer.c:157
 #, c-format
@@ -713,30 +819,33 @@ msgid ""
 "<span size=\"larger\" weight=\"bold\">A file named \"%s\" already "
 "exists.</span>"
 msgstr ""
+"<span size=\"larger\" weight=\"bold\">Datoteka  »%s« že obstaja.</span>"
 
 #: nemo-repairer/src/nemo-filename-repairer.c:160
 #, c-format
 msgid ""
 "If you want to rename the selected file, please move or rename \"%s\" first."
 msgstr ""
+"Če želite preimenovati izbrano datoteko, najprej premaknite ali preimenujte  "
+"»%s«."
 
 #: nemo-repairer/src/nemo-filename-repairer.c:217
 msgid "Repair filename ..."
-msgstr ""
+msgstr "Popravi ime datoteke ...."
 
 #: nemo-repairer/src/nemo-filename-repairer.c:218
 msgid "Repair filename"
-msgstr ""
+msgstr "Popravi ime datoteke"
 
 #: nemo-repairer/src/nemo-filename-repairer.c:265
 #, c-format
 msgid "Re_name as \"%s\""
-msgstr ""
+msgstr "Prei_menuj v »%s«"
 
 #: nemo-repairer/src/nemo-filename-repairer.c:266
 #, c-format
 msgid "Rename as \"%s\"."
-msgstr ""
+msgstr "Preimenujte v »%s«."
 
 #: nemo-repairer/src/nemo-filename-repairer.c:410
 msgid "Select a filename"
@@ -744,7 +853,7 @@ msgstr "Izberite ime datoteke"
 
 #: nemo-repairer/src/nemo-filename-repairer.c:411
 msgid "Select a filename from sub menu items."
-msgstr ""
+msgstr "Izberite ime datoteke med možnostmi podmenija"
 
 #: nemo-repairer/src/repair-dialog.c:82
 msgid "Arabic - CP1256"
@@ -812,6 +921,8 @@ msgid ""
 "<span size=\"larger\" weight=\"bold\">There was an error renaming \"%s\" to "
 "\"%s\"</span>"
 msgstr ""
+"<span size=\"larger\" weight=\"bold\">Pri preimenovanju »%s« v »%s« je "
+"prišlo do napake</span>"
 
 #: nemo-repairer/src/repair-dialog.c:316
 msgid "Other ..."
@@ -823,31 +934,31 @@ msgstr "Kot je"
 
 #: nemo-repairer/src/repair-dialog.c:729
 msgid "To be"
-msgstr ""
+msgstr "Naj postane"
 
 #: nemo-repairer/src/repairer.c:50
 msgid "Nemo Filename Repairer: Select Files To Rename"
-msgstr ""
+msgstr "Popravljalnik imen datotek Nemo: izberite datoteke za preimenovanje"
 
 #: nemo-repairer/src/encoding-dialog.ui.h:1
 msgid "Select an encoding name to use"
-msgstr ""
+msgstr "Izberite ime kodiranja, ki ga želite uporabiti"
 
 #: nemo-repairer/src/encoding-dialog.ui.h:2
 msgid "_Encoding name to add: "
-msgstr ""
+msgstr "Im_e kodiranja, ki ga želite dodati: "
 
 #: nemo-repairer/src/repair-dialog.ui.h:1
 msgid "Nemo Filename Repairer"
-msgstr ""
+msgstr "Popravilnik imen datotek Nemo"
 
 #: nemo-repairer/src/repair-dialog.ui.h:2
 msgid "Select _encoding:"
-msgstr ""
+msgstr "Izberite kodiranj_e:"
 
 #: nemo-repairer/src/repair-dialog.ui.h:3
 msgid "Include _subdirectories"
-msgstr ""
+msgstr "Vključi _podmape"
 
 #: nemo-seahorse/tool/seahorse-notification.c:569
 msgid "Key Imported"
@@ -921,7 +1032,7 @@ msgstr "Veljaven, a <b>nezaupan</b> podpis od <i><key id='%s'/></i> na %s."
 
 #: nemo-seahorse/tool/seahorse-notification.c:635
 msgid "Signing key not in keyring."
-msgstr ""
+msgstr "Podpisovanje ključa, ki ni v zbirki."
 
 #: nemo-seahorse/tool/seahorse-notification.c:636
 msgid "Unknown Signature"
@@ -967,10 +1078,12 @@ msgid "Passphrase"
 msgstr "Geslo"
 
 #: nemo-seahorse/tool/seahorse-passphrase.c:135
+#: nemo-compare/src/nemo-compare-preferences.py:162
 msgid "Ok"
 msgstr "V redu"
 
 #: nemo-seahorse/tool/seahorse-passphrase.c:136
+#: nemo-compare/src/nemo-compare-preferences.py:158
 msgid "Cancel"
 msgstr "Prekliči"
 
@@ -1329,11 +1442,11 @@ msgstr ""
 
 #: nemo-seahorse/tool/seahorse-notify.xml.h:1
 msgid "Notification Messages"
-msgstr ""
+msgstr "Obvestila"
 
 #: nemo-seahorse/tool/seahorse-progress.xml.h:1
 msgid "Progress Title"
-msgstr ""
+msgstr "Naslov napredovanja"
 
 #: nemo-seahorse/nemo-ext/nemo-seahorse.c:159
 msgid "Encrypt..."
@@ -1364,6 +1477,8 @@ msgstr[3] "Podpis izbranih datotek"
 msgid ""
 "Nemo needs to add some permissions to your folder \"%s\" in order to share it"
 msgstr ""
+"Nemo mora dodati nekatera dovoljenja vaši mapi »%s«, da jo lahko postavi v "
+"skupno rabo"
 
 #: nemo-share/src/nemo-share.c:129
 #, c-format
@@ -1372,6 +1487,8 @@ msgid ""
 "work:\n"
 "%s%s%sDo you want Nemo to add these permissions to the folder automatically?"
 msgstr ""
+"Mapa \"%s\" rabi naslednja dodatna dovoljenja za souporabo:\n"
+"%s%s%sAli želite, da Nemo doda ta dovoljenja mapi samodejno?"
 
 #: nemo-share/src/nemo-share.c:133
 msgid "  - read permission by others\n"
@@ -1400,7 +1517,7 @@ msgstr "Mapa souporabe mora imeti določeno ime"
 
 #: nemo-share/src/nemo-share.c:473
 msgid "The share name is too long"
-msgstr ""
+msgstr "Ime mape v skupni rabi je predolgo"
 
 #: nemo-share/src/nemo-share.c:486
 #, c-format
@@ -1417,11 +1534,15 @@ msgid ""
 "by other users unless the option 'force user' is specified in "
 "/etc/samba/smb.conf."
 msgstr ""
+"Ta mapa se nahaja v šifrirani mapi. Drugim uporabnikom ne bo dostopna, "
+"dokler ne navedete možnosti »force user« v /etc/samba/smb.conf."
 
 #: nemo-share/src/nemo-share.c:529
 #, c-format
 msgid "The permissions for %s prevent other users from accessing this share"
 msgstr ""
+"Dovoljenja za %s preprečujejo drugim uporabnikom, da dostopajo do tega mesta "
+"za skupno rabo"
 
 #: nemo-share/src/nemo-share.c:577 nemo-share/src/nemo-share.c:881
 msgid "Modify _Share"
@@ -1433,31 +1554,34 @@ msgstr "Ustvari _mapo za souporabo"
 
 #: nemo-share/src/nemo-share.c:613
 msgid "Please reboot to finalize changes"
-msgstr ""
+msgstr "Ponovno zaženite računalnik, da dokončate spremembe"
 
 #: nemo-share/src/nemo-share.c:616
 msgid ""
 "Something went wrong.  You may need to install samba and add your user to "
 "the 'sambashare' group manually."
 msgstr ""
+"Nekaj je šlo narobe. Morda morate namestiti sambo in dodati svojega "
+"uporabnika skupini sambashare ročno."
 
 #: nemo-share/src/nemo-share.c:769
 msgid "There was an error while getting the sharing information"
 msgstr "Prišlo je do napake med dobivanjem podrobnosti o souporabi"
 
-#: nemo-share/src/nemo-share.c:1176
+#: nemo-share/src/nemo-share.c:1176 nemo-share/src/nemo-share.c:1177
 msgid "Share"
 msgstr "Souporaba"
 
 #: nemo-share/src/nemo-share.c:1236 nemo-share/interfaces/share-dialog.ui.h:1
+#: nemo-share/src/nemo-share.c:1237
 msgid "Folder Sharing"
 msgstr "Souporaba mape"
 
-#: nemo-share/src/nemo-share.c:1277
+#: nemo-share/src/nemo-share.c:1277 nemo-share/src/nemo-share.c:1278
 msgid "Sharing Options"
 msgstr "Možnosti souporabe"
 
-#: nemo-share/src/nemo-share.c:1278
+#: nemo-share/src/nemo-share.c:1278 nemo-share/src/nemo-share.c:1279
 msgid "Share this Folder"
 msgstr "Souporaba te mape"
 
@@ -1550,88 +1674,174 @@ msgid ""
 "Samba needs to be installed, appropriate firewall rules need to be added and "
 "your user account needs to join the 'sambashare' group."
 msgstr ""
+"Potrebno je namestiti sambo, dodati ustrezna pravila požarnega zidu in vaš "
+"uporabniški račun dodati skupini »sambashare«."
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:44
 msgid "Nemo-Terminal Preferences"
-msgstr ""
+msgstr "Nastavitve terminala Nemo"
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:70
 msgid "Visible by default"
-msgstr ""
+msgstr "Privzeto vidno"
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:74
 msgid "Top"
-msgstr ""
+msgstr "Na vrhu"
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:75
 msgid "Bottom"
-msgstr ""
+msgstr "Na dnu"
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:80
 msgid "Terminal position"
-msgstr ""
+msgstr "Položaj terminala"
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:84
 msgid "Independent"
-msgstr ""
+msgstr "Neodvisno"
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:85
 msgid "Terminal follows view location"
-msgstr ""
+msgstr "Terminal sledi mestu pogleda"
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:92
 msgid "Location mode"
-msgstr ""
+msgstr "Način mesta"
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:100
 msgid "Terminal bell"
-msgstr ""
+msgstr "Zvonec terminala"
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:109
 msgid "Default number of lines for the terminal"
-msgstr ""
+msgstr "Privzeto število vrstic v terminalu"
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:149
 msgid "Keyboard shortcut"
-msgstr ""
+msgstr "Tipke za bližnjico"
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:152
 msgid "Basic"
-msgstr ""
+msgstr "Osnovno"
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:171
 msgid "Shell to use (leave blank for system default)"
-msgstr ""
+msgstr "Zaželena lupina (pustite prazno za sistemsko privzeto)"
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:187
 msgid "Terminal erase line key sequence"
-msgstr ""
+msgstr "Zaporedje tipk za brisanje vrstice v terminalu"
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:195
 msgid "Terminal restore line key sequence"
-msgstr ""
+msgstr "Zaporedje tipk za obnovitev vrstice v terminalu"
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:203
 msgid "Change directory command"
-msgstr ""
+msgstr "Ukaz za spremembo mape"
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:208
 msgid "Restore defaults"
-msgstr ""
+msgstr "Obnovi privzete nastavitve"
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:217
 msgid "Sequences must be escaped according to python rules."
-msgstr ""
+msgstr "Zaporedja morajo imeti ubežne znake v skladu s pravili python."
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:218
 #, python-format
 msgid "'%s' is replaced by the quoted directory name."
-msgstr ""
+msgstr "%s je zamenjan z imenom mape v navedku."
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:225
 msgid "Advanced"
-msgstr ""
+msgstr "Napredno"
 
 #: nemo-terminal/src/nemo_terminal.py:149
 msgid "Paste Filenames"
+msgstr "Prilepi imena datotek"
+
+#: nemo-media-columns/nemo-media-columns.py:102
+msgid "Composer"
+msgstr "Sestavljalnik"
+
+#: nemo-media-columns/nemo-media-columns.py:103
+msgid "Description"
+msgstr "Opis"
+
+#: nemo-fileroller/src/nemo-fileroller.c:398
+msgid "Allows managing of archives from the context menu"
+msgstr "Omogoča upravljanje arhivov iz kontekstnega menija."
+
+#: nemo-share/src/nemo-share.c:1115
+msgid "Allows you to quickly share a folder from the context menu"
+msgstr "Omogoča hitro deljenje mape z drugimi iz kontekstnega menija."
+
+#: nemo-emblems/nemo-extension/nemo-emblems.py:19
+msgid "Nemo Emblems"
+msgstr "Emblemi Nemo"
+
+#: nemo-emblems/nemo-extension/nemo-emblems.py:20
+#: nemo-emblems/nemo-extension/nemo-emblems.py:163
+msgid "Change a folder or file emblem"
+msgstr "Spremeni emblem mape ali datoteke"
+
+#: nemo-dropbox/src/nemo-dropbox.c:462 nemo-dropbox/src/nemo-dropbox.c:463
+msgid "Allows managing of Dropbox web service from the context menu"
+msgstr "Omogoča upravljanje spletne storitve Dropbox iz kontekstnega menija"
+
+#: nemo-image-converter/src/nemo-image-converter.c:153
+msgid "Allows image resizing and rotation from the context menu"
 msgstr ""
+"Omogoča spreminjanje velikosti in sukanje fotografij iz kontekstnega menija"
+
+#: nemo-repairer/src/nemo-filename-repairer.c:523
+msgid "Allows filename encoding repair from the context menu"
+msgstr "Omogoča popravek kodiranja imen datotek iz kontekstnega menija"
+
+#: nemo-seahorse/nemo-ext/nemo-seahorse.c:181
+msgid ""
+"Allows encryption and decryption of OpenPGP files from the context menu"
+msgstr ""
+"Omogoča šifriranje in dešifriranje datotek OpenPGP iz kontekstnega menija"
+
+#: nemo-audio-tab/nemo-extension/nemo-audio-tab.py:195
+msgid "View audio tag information from the properties tab"
+msgstr "Oglejte si podatke oznak zvoka iz zavihka lastnosti"
+
+#: nemo-compare/src/nemo-compare.py:168
+msgid "Allows file comparison from the context menu"
+msgstr "Omogoča primerjavo datotek iz kontekstnega menija"
+
+#: nemo-media-columns/nemo-media-columns.py:369
+msgid "Provides additional columns for the list view"
+msgstr "Ponuja dodatne stolpce za seznamski pogled"
+
+#: nemo-terminal/src/nemo_terminal.py:579
+msgid "Embedded terminal for Nemo"
+msgstr "Vdelani terminal za Nemo"
+
+#: nemo-pastebin/src/nemo-pastebin.py:111
+msgid "Unable to read or parse the result page."
+msgstr "Strani rezultata ni mogoče brati ali razčleniti."
+
+#: nemo-pastebin/src/nemo-pastebin.py:112
+msgid "It could be a server timeout or a change server side. Try later."
+msgstr ""
+"Morda gre za časovno prekoračitev strežnika ali  spremembo na strežniški "
+"strani. Poskusite kasneje."
+
+#: nemo-pastebin/src/nemo-pastebin.py:169
+#, python-format
+msgid "Pastebin to %s"
+msgstr "Posoda za lepljene v %s"
+
+#: nemo-pastebin/src/nemo-pastebin.py:170
+#, python-format
+msgid "Send this file to %s"
+msgstr "Pošlji to datoteko - %s"
+
+#: nemo-pastebin/src/nemo-pastebin.py:196
+msgid "Send files to a paste service via the context menu"
+msgstr "Pošljite datoteke storitvi lepljenja prek kontekstnega menija"

@@ -13,103 +13,145 @@ msgstr ""
 "Report-Msgid-Bugs-To: "
 "http://bugzilla.gnome.org/enter_bug.cgi?product=cinnamon-"
 "screensaver&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2021-05-31 15:43+0100\n"
-"PO-Revision-Date: 2016-03-05 11:15+0000\n"
-"Last-Translator: majidnavabi <majidnavabi65@gmail.com>\n"
+"POT-Creation-Date: 2022-12-02 21:29+0000\n"
+"PO-Revision-Date: 2023-09-14 12:57+0000\n"
+"Last-Translator: Mr.Ravi <Unknown>\n"
 "Language-Team: Persian <translate@ifsug.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2021-06-25 10:38+0000\n"
-"X-Generator: Launchpad (build 40cc6dba4163ba9ca785b26ad91f43c87d70ba4d)\n"
-"X-Poedit-Country: IRAN, ISLAMIC REPUBLIC OF\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Launchpad-Export-Date: 2024-07-21 09:00+0000\n"
+"X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
 "Language: fa\n"
-"X-Poedit-Language: Persian\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: src/cinnamon-screensaver-command.py:41
 msgid "Causes the screensaver to exit gracefully"
-msgstr ""
+msgstr "باعث می‌شود محافظ‌صفحه به‌آرامی خارج شود"
 
 #: src/cinnamon-screensaver-command.py:43
 msgid "Query the state of the screensaver"
-msgstr ""
+msgstr "پرس‌وجوی وضعیت محافظ‌صفحه"
 
 #: src/cinnamon-screensaver-command.py:45
 msgid "Query the length of time the screensaver has been active"
-msgstr ""
+msgstr "پرس‌وجوی مدت زمانی که محافظ‌صفحه فعال بوده است"
 
 #: src/cinnamon-screensaver-command.py:47
 msgid "Tells the running screensaver process to lock the screen immediately"
 msgstr ""
+"به فرایند در حال اجرای محافظ‌صفحه خبر می‌دهد که صفحه‌نمایش را فورا قفل کند"
 
 #: src/cinnamon-screensaver-command.py:49
 msgid "Turn the screensaver on (blank the screen)"
-msgstr ""
+msgstr "روشن کردن محافظ‌صفحه (خالی کردن صفحه‌نمایش)"
 
 #: src/cinnamon-screensaver-command.py:51
 msgid "If the screensaver is active then deactivate it (un-blank the screen)"
 msgstr ""
+"اگر محافظ‌صفحه فعال است، غیرفعال شود (درآمدن صفحه‌نمایش از خالی بودن)"
 
 #: src/cinnamon-screensaver-command.py:53
 msgid "Version of this application"
-msgstr ""
+msgstr "نگارش این برنامه"
 
 #: src/cinnamon-screensaver-command.py:55
 msgid "Message to be displayed in lock screen"
-msgstr ""
+msgstr "پیام برای نشان دادن در صفحه‌قفل"
 
 #: src/cinnamon-screensaver-command.py:105
 msgid "The screensaver is active\n"
-msgstr "محافظ صفحه‌نمایش فعال است.\n"
+msgstr "محافظ‌صفحه فعال است\n"
 
 #: src/cinnamon-screensaver-command.py:107
 msgid "The screensaver is inactive\n"
-msgstr "محافظ صفحه‌نمایش غیرفعال است.\n"
+msgstr "محافظ‌صفحه غیرفعال است\n"
 
 #: src/cinnamon-screensaver-command.py:111
 msgid "The screensaver is not currently active.\n"
-msgstr "محافظ صفحه‌نمایش در حال حاظر فعال نیست.\n"
+msgstr "محافظ‌صفحه هم‌اکنون فعال نیست.\n"
 
 #: src/cinnamon-screensaver-command.py:113
 #, python-format
-#| msgid "The screensaver has been active for %d seconds.\n"
 msgid "The screensaver has been active for %d second.\n"
 msgid_plural "The screensaver has been active for %d seconds.\n"
-msgstr[0] "محافظ صفحه‌نمایش به مدت %Id ثانیه فعال بوده است.\n"
+msgstr[0] "محافظ صفحه‌نمایش به مدت %d ثانیه فعال بوده است.\n"
+msgstr[1] "محافظ صفحه‌نمایش به مدت %d ثانیه فعال بوده است.\n"
 
-#: src/manager.py:287
+#: src/manager.py:315
 msgid "Cinnamon Screensaver has experienced an error"
-msgstr ""
+msgstr "محافظ‌صفحه Cinnamon با خطایی مواجه شد"
 
-#: src/manager.py:289
+#: src/manager.py:317
 msgid ""
 "The 'cs-backup-locker' process terminated before the screensaver did. Please "
 "report this issue and try to describe any actions you may have performed "
 "prior to this occurring."
 msgstr ""
+"فرایند «cs-backup-locker» پیش از محافظ‌صفحه خاتمه یافت. لطفاً این مسئله را "
+"گزارش کنید و سعی کنید هر اقدامی که پیش از رخ دادن این انجام داده‌اید را شرح "
+"دهید."
 
-#: src/passwordEntry.py:23 src/unlock.py:221
+#: src/passwordEntry.py:23 src/unlock.py:216
 msgid "Please enter your password..."
-msgstr ""
+msgstr "لطفاً گذرواژه‌تان را وارد کنید…"
 
 #: src/unlock.py:96
 msgid "Unlock"
-msgstr ""
+msgstr "قفل‌گشایی"
 
 #: src/unlock.py:107
 msgid "Switch User"
-msgstr ""
+msgstr "تعویض کاربر"
 
-#: src/unlock.py:194
+#: src/unlock.py:189
 msgid "Incorrect password"
-msgstr ""
+msgstr "گذرواژهٔ نادرست"
 
-#: src/unlock.py:211
+#: src/unlock.py:206
 msgid "Checking..."
-msgstr ""
+msgstr "بررسی…"
 
-#: src/unlock.py:254
+#: src/unlock.py:250
 msgid "You have the Caps Lock key on."
-msgstr "دکمه Caps Lock شما روشن است"
+msgstr "کلید Caps Lock روشن است."
+
+#. This is the first line of text for the backup-locker, explaining how to switch to tty
+#. and run 'cinnamon-unlock-desktop' command.  This appears if the screensaver crashes.
+#: backup-locker/cs-backup-locker.c:255
+msgid "Something went wrong with the screensaver."
+msgstr "برای محافظ صفحه نمایش مشکلی پیش آمد."
+
+#. (continued) This is a subtitle
+#: backup-locker/cs-backup-locker.c:265
+msgid "We'll help you get your desktop back"
+msgstr "ما برای بازیابی میزکارتان به شما کمک میکنیم"
+
+#. (new section) Bulleted list of steps to take to unlock the desktop;
+#: backup-locker/cs-backup-locker.c:276
+#, c-format
+msgid "Switch to a console using <Control-Alt-F%u>."
+msgstr "با استفاده از این کلید ها به یک کنسول بروید <Control-Alt-F%u>."
+
+#. (list continued)
+#: backup-locker/cs-backup-locker.c:278
+msgid "Log in by typing your user name followed by your password."
+msgstr "با وارد کردن نام کاربری و بعد رمز عبور وارد شوید."
+
+#. (list continued)
+#: backup-locker/cs-backup-locker.c:280
+msgid "At the prompt, type 'cinnamon-unlock-desktop' and press Enter."
+msgstr "درخط فرمان بنویسید: «cinnamon-unlock-desktop» و Enter را بزنید."
+
+#. (list continued)
+#: backup-locker/cs-backup-locker.c:282
+#, c-format
+msgid "Switch back to your unlocked desktop using <Control-Alt-F%u>."
+msgstr ""
+"با فشردن کلید های <Control-Alt-F%u> به میزکار قفل گشوده خود بازگردید."
+
+#. (end section) Final words after the list of steps
+#: backup-locker/cs-backup-locker.c:287
+msgid "If you can reproduce this behavior, please file a report here:"
+msgstr "اگر میتوانید این رفتار را بازتولید کنید، لطفا به اینجا گزارش کنید:"

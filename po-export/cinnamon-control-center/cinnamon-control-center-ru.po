@@ -7,17 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2021-06-04 12:20+0100\n"
-"PO-Revision-Date: 2021-06-02 06:17+0000\n"
-"Last-Translator: Aleksey Kabanov <Unknown>\n"
+"POT-Creation-Date: 2024-03-27 13:58+0000\n"
+"PO-Revision-Date: 2023-01-17 07:09+0000\n"
+"Last-Translator: Dmitry Unruh <Unknown>\n"
 "Language-Team: Yuriy end Company\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2021-06-25 10:38+0000\n"
-"X-Generator: Launchpad (build 40cc6dba4163ba9ca785b26ad91f43c87d70ba4d)\n"
+"X-Launchpad-Export-Date: 2024-07-21 08:59+0000\n"
+"X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
 "Language: ru\n"
 
 #. TRANSLATORS: this is where the user can click and import a profile
@@ -69,87 +69,63 @@ msgstr "Поддерживаемые ICC-профили"
 
 #. TRANSLATORS: filter name on the file->open dialog
 #: panels/color/cc-color-panel.c:248
+#: panels/network/wireless-security/eap-method-fast.c:417
 msgid "All files"
 msgstr "Все файлы"
 
 #. TRANSLATORS: this is the dialog title in the 'Add profile' UI
-#: panels/color/cc-color-panel.c:591
+#: panels/color/cc-color-panel.c:564
 msgid "Available Profiles for Displays"
 msgstr "Доступные профили для дисплеев"
 
 #. TRANSLATORS: this is the dialog title in the 'Add profile' UI
-#: panels/color/cc-color-panel.c:595
+#: panels/color/cc-color-panel.c:568
 msgid "Available Profiles for Scanners"
 msgstr "Доступные профили для сканеров"
 
 #. TRANSLATORS: this is the dialog title in the 'Add profile' UI
-#: panels/color/cc-color-panel.c:599
+#: panels/color/cc-color-panel.c:572
 msgid "Available Profiles for Printers"
 msgstr "Доступные профили для принтеров"
 
 #. TRANSLATORS: this is the dialog title in the 'Add profile' UI
-#: panels/color/cc-color-panel.c:603
+#: panels/color/cc-color-panel.c:576
 msgid "Available Profiles for Cameras"
 msgstr "Доступные профили для камер"
 
 #. TRANSLATORS: this is the dialog title in the 'Add profile' UI
-#: panels/color/cc-color-panel.c:607
+#: panels/color/cc-color-panel.c:580
 msgid "Available Profiles for Webcams"
 msgstr "Доступные профили для веб-камер"
 
 #. TRANSLATORS: this is the dialog title in the 'Add profile' UI
 #. * where the device type is not recognised
 #. Profiles that can be added to the device
-#: panels/color/cc-color-panel.c:612 panels/color/color.ui.h:2
+#: panels/color/cc-color-panel.c:585 panels/color/color.ui.h:2
 msgid "Available Profiles"
 msgstr "Доступные профили"
 
 #. TRANSLATORS: column for device list
-#: panels/color/cc-color-panel.c:888
+#: panels/color/cc-color-panel.c:861
 msgid "Device"
 msgstr "Устройство"
 
 #. TRANSLATORS: column for device list
-#: panels/color/cc-color-panel.c:923
+#: panels/color/cc-color-panel.c:896
 msgid "Calibration"
 msgstr "Калибровка"
 
-#. TRANSLATORS: this is when the button is sensitive
-#: panels/color/cc-color-panel.c:955
-msgid "Create a color profile for the selected device"
-msgstr "Создать цветовой профиль для выбранного устройства"
-
-#. TRANSLATORS: this is when the button is insensitive
-#: panels/color/cc-color-panel.c:969 panels/color/cc-color-panel.c:993
-msgid ""
-"The measuring instrument is not detected. Please check it is turned on and "
-"correctly connected."
-msgstr ""
-"Измерительный инструмент не обнаружен. Пожалуйста, проверьте его "
-"работоспособность и правильность подключения."
-
-#. TRANSLATORS: this is when the button is insensitive
-#: panels/color/cc-color-panel.c:1002
-msgid "The measuring instrument does not support printer profiling."
-msgstr ""
-"Измерительный инструмент не поддерживает создание профилей для принтеров."
-
-#. TRANSLATORS: this is when the button is insensitive
-#: panels/color/cc-color-panel.c:1013
-msgid "The device type is not currently supported."
-msgstr "Устройство данного типа в настоящее время не поддерживается."
-
 #. TRANSLATORS: this is when an auto-added profile cannot be removed
-#: panels/color/cc-color-panel.c:1085
+#: panels/color/cc-color-panel.c:977
 msgid "Cannot remove automatically added profile"
 msgstr "Не удалось удалить автоматически добавленный профиль"
 
 #. TRANSLATORS: this is when there is no profile for the device
-#: panels/color/cc-color-panel.c:1419
+#: panels/color/cc-color-panel.c:1307
 msgid "No profile"
 msgstr "Без профиля"
 
-#: panels/color/cc-color-panel.c:1448
+#: panels/color/cc-color-panel.c:1336
 #, c-format
 msgid "%i year"
 msgid_plural "%i years"
@@ -157,7 +133,7 @@ msgstr[0] "%i год"
 msgstr[1] "%i года"
 msgstr[2] "%i лет"
 
-#: panels/color/cc-color-panel.c:1459
+#: panels/color/cc-color-panel.c:1347
 #, c-format
 msgid "%i month"
 msgid_plural "%i months"
@@ -165,7 +141,7 @@ msgstr[0] "%i месяц"
 msgstr[1] "%i месяца"
 msgstr[2] "%i месяцев"
 
-#: panels/color/cc-color-panel.c:1470
+#: panels/color/cc-color-panel.c:1358
 #, c-format
 msgid "%i week"
 msgid_plural "%i weeks"
@@ -174,82 +150,82 @@ msgstr[1] "%i недели"
 msgstr[2] "%i недель"
 
 #. fallback
-#: panels/color/cc-color-panel.c:1477
+#: panels/color/cc-color-panel.c:1365
 msgid "Less than 1 week"
 msgstr "Менее 1 недели"
 
-#: panels/color/cc-color-panel.c:1539
+#: panels/color/cc-color-panel.c:1427
 msgctxt "Colorspace fallback"
 msgid "Default RGB"
 msgstr "RGB по умолчанию"
 
-#: panels/color/cc-color-panel.c:1544
+#: panels/color/cc-color-panel.c:1432
 msgctxt "Colorspace fallback"
 msgid "Default CMYK"
 msgstr "CMYK по умолчанию"
 
-#: panels/color/cc-color-panel.c:1549
+#: panels/color/cc-color-panel.c:1437
 msgctxt "Colorspace fallback"
 msgid "Default Gray"
 msgstr "По умолчанию серый"
 
-#: panels/color/cc-color-panel.c:1667 panels/color/cc-color-panel.c:1706
-#: panels/color/cc-color-panel.c:1717 panels/color/cc-color-panel.c:1728
+#: panels/color/cc-color-panel.c:1555 panels/color/cc-color-panel.c:1594
+#: panels/color/cc-color-panel.c:1605 panels/color/cc-color-panel.c:1616
 msgid "Uncalibrated"
 msgstr "Не откалибровано"
 
-#: panels/color/cc-color-panel.c:1670
+#: panels/color/cc-color-panel.c:1558
 msgid "This device is not color managed."
 msgstr "Это устройство не поддерживает управление цветом."
 
-#: panels/color/cc-color-panel.c:1709
+#: panels/color/cc-color-panel.c:1597
 msgid "This device is using manufacturing calibrated data."
 msgstr "Это устройство использует данные, откалиброванные производителем."
 
-#: panels/color/cc-color-panel.c:1720
+#: panels/color/cc-color-panel.c:1608
 msgid ""
 "This device does not have a profile suitable for whole-screen color "
 "correction."
 msgstr ""
 "У этого устройства нет подходящего профиля для цветокоррекции всего экрана."
 
-#: panels/color/cc-color-panel.c:1753
+#: panels/color/cc-color-panel.c:1641
 msgid "This device has an old profile that may no longer be accurate."
 msgstr ""
 "Это устройство использует устаревший профиль, который может быть неточен."
 
 #. TRANSLATORS: this is when the calibration profile age is not
 #. * specified as it has been autogenerated from the hardware
-#: panels/color/cc-color-panel.c:1781
+#: panels/color/cc-color-panel.c:1669
 msgid "Not specified"
 msgstr "Неопределённый"
 
 #. add the 'No devices detected' entry
-#: panels/color/cc-color-panel.c:1966
+#: panels/color/cc-color-panel.c:1854
 msgid "No devices supporting color management detected"
 msgstr "Не найдено ни одного устройство с возможностью управления цветом"
 
-#: panels/color/cc-color-panel.c:2195
+#: panels/color/cc-color-panel.c:2083
 msgctxt "Device kind"
 msgid "Display"
 msgstr "Экран"
 
-#: panels/color/cc-color-panel.c:2197
+#: panels/color/cc-color-panel.c:2085
 msgctxt "Device kind"
 msgid "Scanner"
 msgstr "Сканер"
 
-#: panels/color/cc-color-panel.c:2199
+#: panels/color/cc-color-panel.c:2087
 msgctxt "Device kind"
 msgid "Printer"
 msgstr "Принтер"
 
-#: panels/color/cc-color-panel.c:2201
+#: panels/color/cc-color-panel.c:2089
 msgctxt "Device kind"
 msgid "Camera"
 msgstr "Камера"
 
-#: panels/color/cc-color-panel.c:2203
+#: panels/color/cc-color-panel.c:2091
 msgctxt "Device kind"
 msgid "Webcam"
 msgstr "Веб-камера"
@@ -316,123 +292,70 @@ msgstr "Выберите регион"
 msgid "Unspecified"
 msgstr "Неопределённый"
 
-#: panels/display/cc-display-panel.c:642 panels/display/cc-display-panel.c:1251
-#: panels/display/cc-display-panel.c:1258
-#, c-format
-msgid "%d%%"
-msgstr "%d%%"
-
-#: panels/display/cc-display-panel.c:709
-msgctxt "display panel, rotation"
-msgid "Normal"
-msgstr "Нормальная"
-
-#: panels/display/cc-display-panel.c:710
-msgctxt "display panel, rotation"
-msgid "Counterclockwise"
-msgstr "Против часовой стрелки"
-
-#: panels/display/cc-display-panel.c:711
-msgctxt "display panel, rotation"
-msgid "Clockwise"
-msgstr "По часовой стрелке"
-
-#: panels/display/cc-display-panel.c:712
-msgctxt "display panel, rotation"
-msgid "180 Degrees"
-msgstr "На 180 градусов"
-
-#. Keep this string in sync with gnome-desktop/libcinnamon-desktop/gnome-rr-labeler.c
-#. Translators:  this is the feature where what you see on your laptop's
-#. * screen is the same as your external projector.  Here, "Mirrored" is being
-#. * used as an adjective.  For example, the Spanish translation could be
-#. * "Pantallas en Espejo".
-#. 
 #. Translators:  this is the feature where what you see on your
 #. * laptop's screen is the same as your external projector.
 #. * Here, "Mirrored" is being used as an adjective.  For example,
 #. * the Spanish translation could be "Pantallas en Espejo".
 #. 
-#: panels/display/cc-display-panel.c:857 panels/display/cc-rr-labeler.c:404
+#: panels/display/cc-display-labeler.c:369
+#: panels/display/cc-display-panel.c:748
 msgid "Mirrored Displays"
 msgstr "Дублируемые экраны"
 
-#: panels/display/cc-display-panel.c:881
-msgid "Monitor"
-msgstr "Монитор"
+#: panels/display/cc-display-panel.c:1150
+msgid "Confirm reset to defaults"
+msgstr "Подтверждение сброса к настройкам по умолчанию"
 
-#: panels/display/cc-display-panel.c:985
-#, c-format
-msgid "%d x %d%s (%s)"
-msgstr "%d x %d%s (%s)"
+#: panels/display/cc-display-panel.c:1152
+msgid "Cancel"
+msgstr "Отменить"
 
-#: panels/display/cc-display-panel.c:987
-#, c-format
-msgid "%d x %d%s"
-msgstr "%d x %d%s"
+#: panels/display/cc-display-panel.c:1152
+msgid "Continue"
+msgstr "Продолжить"
 
-#: panels/display/cc-display-panel.c:1002
+#: panels/display/cc-display-panel.c:1165
+msgid ""
+"This will remove all existing display configurations and reset the current "
+"layout."
+msgstr ""
+"Это удалит существующую конфигурацию экрана и сбросит текущее расположение."
+
+#: panels/display/cc-display-settings.c:107
+msgctxt "Display rotation"
+msgid "Landscape"
+msgstr "Альбомная"
+
+#: panels/display/cc-display-settings.c:110
+msgctxt "Display rotation"
+msgid "Portrait Right"
+msgstr "Портретная справа"
+
+#: panels/display/cc-display-settings.c:113
+msgctxt "Display rotation"
+msgid "Portrait Left"
+msgstr "Портретная слева"
+
+#: panels/display/cc-display-settings.c:116
+msgctxt "Display rotation"
+msgid "Landscape (flipped)"
+msgstr "Альбомная (перевёрнутая)"
+
+#: panels/display/cc-display-settings.c:190
 #, c-format
 msgid "%.2lf Hz"
 msgstr "%.2lf Гц"
 
-#: panels/display/cc-display-panel.c:1281
-msgid "Normal"
-msgstr "Обычный"
+#: panels/display/cc-display-settings.c:471
+msgid "Monitor scale"
+msgstr "Масштабирование монитора"
 
-#: panels/display/cc-display-panel.c:1283
-msgid "Double (Hi-DPI)"
-msgstr "Двойной (Hi-DPI)"
+#: panels/display/cc-display-settings.c:475
+#: panels/display/cc-display-settings.ui.h:4
+msgid "User interface scale"
+msgstr "Маштабирование пользовательского интерфейса"
 
-#: panels/display/cc-display-panel.c:1323
-#, c-format
-msgid "Automatic (%ux)"
-msgstr "Автоматический (%ux)"
-
-#: panels/display/cc-display-panel.c:2510
-msgid ""
-"Select a monitor to change its properties; drag it to rearrange its "
-"placement."
-msgstr ""
-"Выберите монитор для изменения его параметров; перетащите его для изменения "
-"его положения."
-
-#: panels/display/cc-display-panel.c:2959
-msgid "DoubleScan"
-msgstr "Двойное Сканирование"
-
-#: panels/display/cc-display-panel.c:2997
-msgid "VSync"
-msgstr "Вертикальная синхронизация"
-
-#: panels/display/cc-display-panel.c:3035
-#: panels/display/cc-display-panel.c:3063
-msgid "Recommended"
-msgstr "Рекомендованные"
-
-#: panels/display/cc-display-panel.c:3098
-#, c-format
-msgid "<b>scaled resolution: %d x %d</b>"
-msgstr "<b>масштабируемое разрешение: %d x %d</b>"
-
-#: panels/display/cc-display-panel.c:3287
-#: panels/display/cc-display-panel.c:3339
-msgid "Failed to apply configuration"
-msgstr "Не удалось применить настройки"
-
-#: panels/display/cc-display-panel.c:3367
-msgid "Could not save the monitor configuration"
-msgstr "Не удалось сохранить настройки монитора"
-
-#: panels/display/cc-display-panel.c:3427
-msgid "Could not detect displays"
-msgstr "Не удалось определить экраны"
-
-#: panels/display/cc-display-panel.c:3671
-msgid "Could not get screen information"
-msgstr "Не удалось получить информацию об экране"
-
-#: panels/network/cc-network-panel.c:910
+#: panels/network/cc-network-panel.c:906
 msgid "Network proxy"
 msgstr "Прокси-сервер"
 
@@ -440,45 +363,47 @@ msgstr "Прокси-сервер"
 #. * window for vpn connections, it is also used to display
 #. * vpn connections in the device list.
 #. 
-#: panels/network/cc-network-panel.c:1089 panels/network/net-vpn.c:287
+#: panels/network/cc-network-panel.c:1085 panels/network/net-vpn.c:287
 #: panels/network/net-vpn.c:444
 #, c-format
 msgid "%s VPN"
 msgstr "VPN %s"
 
-#: panels/network/cc-network-panel.c:1156
+#: panels/network/cc-network-panel.c:1152
 msgid "Oops, something has gone wrong. Please contact your software vendor."
 msgstr ""
 "К сожалению, что-то пошло не так. Обратитесь к поставщику программного "
 "обеспечения."
 
-#: panels/network/cc-network-panel.c:1162
+#: panels/network/cc-network-panel.c:1158
 msgid "NetworkManager needs to be running."
 msgstr "NetworkManager должен быть запущен."
 
 #. Translators: network device speed
 #: panels/network/net-device-ethernet.c:50 panels/network/net-device-wifi.c:549
+#: panels/network/connection-editor/ce-page-details.c:153
 #, c-format
 msgid "%d Mb/s"
 msgstr "%d Мбит/с"
 
-#: panels/network/net-device-ethernet.c:106
+#: panels/network/net-device-ethernet.c:107
 #: panels/network/net-device-wifi.c:477
 msgid "never"
 msgstr "никогда"
 
-#: panels/network/net-device-ethernet.c:116
+#: panels/network/net-device-ethernet.c:117
 #: panels/network/net-device-wifi.c:487
 msgid "today"
 msgstr "сегодня"
 
-#: panels/network/net-device-ethernet.c:118
+#: panels/network/net-device-ethernet.c:119
 #: panels/network/net-device-wifi.c:489
 msgid "yesterday"
 msgstr "вчера"
 
-#: panels/network/net-device-ethernet.c:120
+#: panels/network/net-device-ethernet.c:121
 #: panels/network/net-device-wifi.c:491
+#: panels/network/connection-editor/ce-page-details.c:104
 #, c-format
 msgid "%i day ago"
 msgid_plural "%i days ago"
@@ -486,61 +411,63 @@ msgstr[0] "%i день назад"
 msgstr[1] "%i дня назад"
 msgstr[2] "%i дней назад"
 
-#: panels/network/net-device-ethernet.c:155 panels/network/panel-common.c:666
+#: panels/network/net-device-ethernet.c:158 panels/network/panel-common.c:679
 #: panels/network/network-simple.ui.h:3 panels/network/network-wifi.ui.h:7
 #: panels/network/connection-editor/details-page.ui.h:4
 msgid "IPv4 Address"
 msgstr "Адрес IPv4"
 
-#: panels/network/net-device-ethernet.c:156 panels/network/panel-common.c:667
+#: panels/network/net-device-ethernet.c:159 panels/network/panel-common.c:680
 #: panels/network/network-mobile.ui.h:4 panels/network/network-simple.ui.h:4
 #: panels/network/network-wifi.ui.h:8
 #: panels/network/connection-editor/details-page.ui.h:5
 msgid "IPv6 Address"
 msgstr "Адрес IPv6"
 
-#: panels/network/net-device-ethernet.c:158
-#: panels/network/net-device-ethernet.c:160 panels/network/panel-common.c:669
-#: panels/network/panel-common.c:671 panels/network/network-mobile.ui.h:3
+#: panels/network/net-device-ethernet.c:161
+#: panels/network/net-device-ethernet.c:163 panels/network/panel-common.c:682
+#: panels/network/panel-common.c:684 panels/network/network-mobile.ui.h:3
 msgid "IP Address"
 msgstr "IP адрес"
 
-#: panels/network/net-device-ethernet.c:163
+#: panels/network/net-device-ethernet.c:166
 #: panels/network/network-simple.ui.h:2 panels/network/network-wifi.ui.h:9
 #: panels/network/connection-editor/details-page.ui.h:6
 msgid "Hardware Address"
 msgstr "Аппаратный адрес"
 
-#: panels/network/net-device-ethernet.c:167
+#: panels/network/net-device-ethernet.c:171
+#: panels/network/net-device-ethernet.c:173
+#: panels/network/net-device-ethernet.c:175
 #: panels/network/network-mobile.ui.h:5 panels/network/network-simple.ui.h:5
 #: panels/network/network-wifi.ui.h:10
 #: panels/network/connection-editor/details-page.ui.h:7
 msgid "Default Route"
 msgstr "Маршрут по умолчанию"
 
-#: panels/network/net-device-ethernet.c:170 panels/network/panel-common.c:675
+#: panels/network/net-device-ethernet.c:179 panels/network/panel-common.c:688
 #: panels/network/network-mobile.ui.h:6 panels/network/network-simple.ui.h:6
 #: panels/network/network-wifi.ui.h:11
 #: panels/network/connection-editor/details-page.ui.h:8
 msgid "DNS4"
 msgstr "DNS4"
 
-#: panels/network/net-device-ethernet.c:171 panels/network/panel-common.c:676
+#: panels/network/net-device-ethernet.c:180 panels/network/panel-common.c:689
 #: panels/network/network-mobile.ui.h:7 panels/network/network-simple.ui.h:7
 #: panels/network/network-wifi.ui.h:12
 #: panels/network/connection-editor/details-page.ui.h:9
 msgid "DNS6"
 msgstr "DNS6"
 
-#: panels/network/net-device-ethernet.c:173
-#: panels/network/net-device-ethernet.c:175 panels/network/panel-common.c:678
-#: panels/network/panel-common.c:680
+#: panels/network/net-device-ethernet.c:182
+#: panels/network/net-device-ethernet.c:184 panels/network/panel-common.c:691
+#: panels/network/panel-common.c:693
 #: panels/network/connection-editor/ip4-page.ui.h:3
 #: panels/network/connection-editor/ip6-page.ui.h:3
 msgid "DNS"
 msgstr "DNS"
 
-#: panels/network/net-device-ethernet.c:181 panels/network/network-wifi.ui.h:13
+#: panels/network/net-device-ethernet.c:190 panels/network/network-wifi.ui.h:13
 msgid "Last used"
 msgstr "Последнее использованное"
 
@@ -549,12 +476,12 @@ msgstr "Последнее использованное"
 #. * profile. It is also used to display ethernet in the
 #. * device list.
 #. 
-#: panels/network/net-device-ethernet.c:290
+#: panels/network/net-device-ethernet.c:292
 #: panels/network/network-ethernet.ui.h:1 panels/network/network-simple.ui.h:1
 msgid "Wired"
 msgstr "Проводная"
 
-#: panels/network/net-device-ethernet.c:358
+#: panels/network/net-device-ethernet.c:360
 #: panels/network/net-device-wifi.c:1751 panels/network/network-ethernet.ui.h:3
 #: panels/network/network-mobile.ui.h:9 panels/network/network-simple.ui.h:9
 #: panels/network/network-vpn.ui.h:7
@@ -567,51 +494,61 @@ msgstr "Добавить новое подключение"
 
 #. TRANSLATORS: this WEP WiFi security
 #: panels/network/net-device-wifi.c:215 panels/network/net-device-wifi.c:393
+#: panels/network/connection-editor/ce-page-details.c:50
 msgid "WEP"
 msgstr "WEP"
 
 #. TRANSLATORS: this WPA WiFi security
 #: panels/network/net-device-wifi.c:219 panels/network/net-device-wifi.c:398
+#: panels/network/connection-editor/ce-page-details.c:54
 #: panels/network/network-wifi.ui.h:20
 msgid "WPA"
 msgstr "WPA"
 
 #. TRANSLATORS: this WPA WiFi security
 #: panels/network/net-device-wifi.c:223
+#: panels/network/connection-editor/ce-page-details.c:58
 msgid "WPA2"
 msgstr "WPA2"
 
 #. TRANSLATORS: this Enterprise WiFi security
 #: panels/network/net-device-wifi.c:228
+#: panels/network/connection-editor/ce-page-details.c:63
 msgid "Enterprise"
 msgstr "Корпоративный"
 
 #: panels/network/net-device-wifi.c:233 panels/network/net-device-wifi.c:383
+#: panels/network/connection-editor/ce-page-details.c:68
 msgctxt "Wifi security"
 msgid "None"
 msgstr "Отсутствует"
 
 #: panels/network/net-device-wifi.c:578
+#: panels/network/connection-editor/ce-page-details.c:179
 msgctxt "Signal strength"
 msgid "None"
 msgstr "Нет"
 
 #: panels/network/net-device-wifi.c:580
+#: panels/network/connection-editor/ce-page-details.c:181
 msgctxt "Signal strength"
 msgid "Weak"
 msgstr "Слабый"
 
 #: panels/network/net-device-wifi.c:582
+#: panels/network/connection-editor/ce-page-details.c:183
 msgctxt "Signal strength"
 msgid "Ok"
 msgstr "Нормальный"
 
 #: panels/network/net-device-wifi.c:584
+#: panels/network/connection-editor/ce-page-details.c:185
 msgctxt "Signal strength"
 msgid "Good"
 msgstr "Хороший"
 
 #: panels/network/net-device-wifi.c:586
+#: panels/network/connection-editor/ce-page-details.c:187
 msgctxt "Signal strength"
 msgid "Excellent"
 msgstr "Отличный"
@@ -645,6 +582,8 @@ msgid "Stop hotspot and disconnect any users?"
 msgstr "Отключить точку доступа и всех её пользователей?"
 
 #: panels/network/net-device-wifi.c:1352 panels/network/net-device-wifi.c:1592
+#: panels/network/connection-editor/vpn-helpers.c:181
+#: panels/network/connection-editor/vpn-helpers.c:310
 #: panels/common/language-chooser.ui.h:2 panels/network/network-wifi.ui.h:1
 #: panels/network/connection-editor/connection-editor.ui.h:1
 msgid "_Cancel"
@@ -679,7 +618,8 @@ msgstr "_Забыть"
 msgid "History"
 msgstr "История"
 
-#: panels/network/net-device-wifi.c:1903
+#: panels/network/net-device-wifi.c:1903 panels/wacom/cc-wacom-page.c:468
+#: panels/wacom/button-mapping.ui.h:2
 msgid "_Close"
 msgstr "_Закрыть"
 
@@ -995,192 +935,563 @@ msgstr "Отсутствует прошивка"
 msgid "Cable unplugged"
 msgstr "Кабель не подключён"
 
-#: panels/online-accounts/cc-online-accounts-panel.c:148
-msgctxt "Online Account"
-msgid "Other"
-msgstr "Другие"
-
-#. translators: This is the title of the "Show Account" dialog. The
-#. * %s is the name of the provider. e.g., 'Google'.
-#: panels/online-accounts/cc-online-accounts-panel.c:593
-#, c-format
-msgid "%s Account"
-msgstr "Учётная запись %s"
-
-#: panels/online-accounts/cc-online-accounts-panel.c:888
-msgid "Error removing account"
-msgstr "Ошибка при удалении учётной записи"
-
-#. Translators: The %s is the username (eg., debarshi.ray@gmail.com
-#. * or rishi).
-#. 
-#: panels/online-accounts/cc-online-accounts-panel.c:953
-#, c-format
-msgid "<b>%s</b> removed"
-msgstr "<b>%s</b> удалён"
-
 #: panels/region/cinnamon-region-panel-xkblt.c:208
 msgid "Layout"
 msgstr "Раскладка"
 
 #: panels/region/cinnamon-region-panel-xkbot.c:227
+#: panels/wacom/wacom-stylus-page.ui.h:1
 msgid "Default"
 msgstr "По умолчанию"
 
-#: panels/wacom/cc-wacom-mapping-panel.c:298
+#: panels/wacom/cc-wacom-button-row.c:248
+#, c-format
+msgid "Button %d"
+msgstr "Клавиша %d"
+
+#: panels/wacom/cc-wacom-mapping-panel.c:232
 msgid "Output:"
 msgstr "Вывод:"
 
 #. Keep ratio switch
-#: panels/wacom/cc-wacom-mapping-panel.c:310
+#: panels/wacom/cc-wacom-mapping-panel.c:244
 msgid "Keep aspect ratio (letterbox):"
 msgstr "Сохранять соотношение сторон (letterbox):"
 
-#. Apply screen rotation
-#: panels/wacom/cc-wacom-mapping-panel.c:321
-msgid "Rotate the tablet when the screen is rotated:"
-msgstr "Поворот экрана при повороте планшета:"
-
 #. Whole-desktop checkbox
-#: panels/wacom/cc-wacom-mapping-panel.c:332
+#: panels/wacom/cc-wacom-mapping-panel.c:255
 msgid "Map to single monitor"
 msgstr "Отображать на один экран"
 
-#: panels/wacom/cc-wacom-nav-button.c:89
+#: panels/wacom/cc-wacom-nav-button.c:84
 #, c-format
 msgid "%d of %d"
 msgstr "%d из %d"
 
-#: panels/wacom/cc-wacom-page.c:118 panels/wacom/cc-wacom-page.c:385
-msgctxt "Wacom action-type"
-msgid "None"
-msgstr "Никакое"
-
-#: panels/wacom/cc-wacom-page.c:119
-msgctxt "Wacom action-type"
-msgid "Send Keystroke"
-msgstr "Отправить комбинацию клавиш"
-
-#: panels/wacom/cc-wacom-page.c:120
-msgctxt "Wacom action-type"
-msgid "Switch Monitor"
-msgstr "Переключатель монитора"
-
-#: panels/wacom/cc-wacom-page.c:121
-msgctxt "Wacom action-type"
-msgid "Show On-Screen Help"
-msgstr "Показывать справку на экране"
-
-#: panels/wacom/cc-wacom-page.c:622
-msgctxt "Wacom tablet button"
-msgid "Up"
-msgstr "Вверх"
-
-#: panels/wacom/cc-wacom-page.c:622
-msgctxt "Wacom tablet button"
-msgid "Down"
-msgstr "Вниз"
-
-#: panels/wacom/cc-wacom-page.c:663
-msgid "Switch Modes"
-msgstr "Переключение режимов"
-
-#: panels/wacom/cc-wacom-page.c:753 panels/wacom/cc-wacom-stylus-page.c:394
-msgid "Button"
-msgstr "Кнопка"
-
-#: panels/wacom/cc-wacom-page.c:790
-msgid "Type"
-msgstr "Тип"
-
-#: panels/wacom/cc-wacom-page.c:811
-msgid "Action"
-msgstr "Действие"
-
-#: panels/wacom/cc-wacom-page.c:921
+#: panels/wacom/cc-wacom-page.c:465
 msgid "Display Mapping"
 msgstr "Экранная раскладка"
 
-#. If no mode is available, we use "left-ring-mode-1" for backward compat
-#: panels/wacom/csd-wacom-device.c:1115
-msgid "Left Ring"
-msgstr "Левое сенсорное кольцо"
+#: panels/wacom/cc-wacom-panel.c:666 panels/wacom/wacom-stylus-page.ui.h:9
+msgid "Stylus"
+msgstr "Стилус"
 
-#: panels/wacom/csd-wacom-device.c:1125
+#: panels/wacom/cc-wacom-panel.c:669
+msgid "Tablet"
+msgstr "Планшет"
+
+#: panels/wacom/cc-wacom-stylus-page.c:362
+msgid "Button"
+msgstr "Кнопка"
+
+#: panels/wacom/csd-wacom-key-shortcut-button.c:217
+msgid "New shortcut…"
+msgstr "Новое сочетание клавиш…"
+
+#: panels/network/connection-editor/ce-page-8021x-security.c:101
+#: panels/network/connection-editor/ce-page-security.c:459
+#: panels/network/network-wifi.ui.h:6
+#: panels/network/connection-editor/details-page.ui.h:3
+msgid "Security"
+msgstr "Безопасность"
+
+#: panels/network/connection-editor/ce-page.c:481
+msgid "automatic"
+msgstr "автоматически"
+
+#: panels/network/connection-editor/ce-page.c:521
 #, c-format
-msgid "Left Ring Mode #%d"
-msgstr "Режим левого сенсорного кольца: #%d"
+msgid "Profile %d"
+msgstr "Профиль %d"
 
-#. If no mode is available, we use "right-ring-mode-1" for backward compat
-#: panels/wacom/csd-wacom-device.c:1144
-msgid "Right Ring"
-msgstr "Правое сенсорное кольцо"
+#: panels/network/connection-editor/ce-page-details.c:89
+msgid "Never"
+msgstr "Никогда"
 
-#: panels/wacom/csd-wacom-device.c:1154
+#: panels/network/connection-editor/ce-page-details.c:100
+msgid "Today"
+msgstr "Сегодня"
+
+#: panels/network/connection-editor/ce-page-details.c:102
+msgid "Yesterday"
+msgstr "Вчера"
+
+#: panels/network/connection-editor/ce-page-details.c:225
+#: panels/network/network-wifi.ui.h:47
+msgid "Details"
+msgstr "Подробная информация"
+
+#: panels/network/connection-editor/ce-page-ethernet.c:215
+#: panels/network/connection-editor/ce-page-vpn.c:221
+#: panels/network/connection-editor/ce-page-wifi.c:227
+#: panels/network/network-wifi.ui.h:48
+msgid "Identity"
+msgstr "Идентификатор"
+
+#: panels/network/connection-editor/ce-page-ip4.c:202
+#: panels/network/connection-editor/ce-page-ip4.c:461
+#: panels/network/connection-editor/ce-page-ip6.c:180
+#: panels/network/connection-editor/ce-page-ip6.c:427
+msgid "Address"
+msgstr "Адрес"
+
+#: panels/network/connection-editor/ce-page-ip4.c:215
+#: panels/network/connection-editor/ce-page-ip4.c:474
+msgid "Netmask"
+msgstr "Маска подсети"
+
+#: panels/network/connection-editor/ce-page-ip4.c:229
+#: panels/network/connection-editor/ce-page-ip4.c:487
+#: panels/network/connection-editor/ce-page-ip6.c:206
+#: panels/network/connection-editor/ce-page-ip6.c:453
+#: panels/network/network-vpn.ui.h:2
+msgid "Gateway"
+msgstr "Шлюз"
+
+#: panels/network/connection-editor/ce-page-ip4.c:250
+#: panels/network/connection-editor/ce-page-ip6.c:223
+msgid "Delete Address"
+msgstr "Удалить адрес"
+
+#: panels/network/connection-editor/ce-page-ip4.c:305
+#: panels/network/connection-editor/ce-page-ip6.c:277
+msgid "Add"
+msgstr "Добавить"
+
+#: panels/network/connection-editor/ce-page-ip4.c:368
+#: panels/network/connection-editor/ce-page-ip6.c:334
+msgid "Server"
+msgstr "Сервер"
+
+#: panels/network/connection-editor/ce-page-ip4.c:385
+#: panels/network/connection-editor/ce-page-ip6.c:351
+msgid "Delete DNS Server"
+msgstr "Удалить сервер DNS"
+
+#. Translators: Please see https://en.wikipedia.org/wiki/Metrics_(networking)
+#: panels/network/connection-editor/ce-page-ip4.c:501
+#: panels/network/connection-editor/ce-page-ip6.c:467
+msgctxt "network parameters"
+msgid "Metric"
+msgstr "Метрика"
+
+#: panels/network/connection-editor/ce-page-ip4.c:522
+#: panels/network/connection-editor/ce-page-ip6.c:484
+msgid "Delete Route"
+msgstr "Удалить маршрут"
+
+#: panels/network/connection-editor/ce-page-ip4.c:626
+#: panels/network/network-wifi.ui.h:28
+msgid "Automatic (DHCP)"
+msgstr "Автоматически (DHCP)"
+
+#: panels/network/connection-editor/ce-page-ip4.c:630
+#: panels/network/connection-editor/ce-page-ip6.c:592
+#: panels/network/network-wifi.ui.h:27
+msgid "Manual"
+msgstr "Вручную"
+
+#: panels/network/connection-editor/ce-page-ip4.c:634
+#: panels/network/connection-editor/ce-page-ip6.c:596
+msgid "Link-Local Only"
+msgstr "Только для локальной сети"
+
+#: panels/network/connection-editor/ce-page-ip4.c:980
+#: panels/network/network-wifi.ui.h:49
+msgid "IPv4"
+msgstr "IPv4"
+
+#: panels/network/connection-editor/ce-page-ip6.c:193
+#: panels/network/connection-editor/ce-page-ip6.c:440
+msgid "Prefix"
+msgstr "Префикс"
+
+#: panels/network/connection-editor/ce-page-ip6.c:584
+#: panels/network/connection-editor/ethernet-page.ui.h:1
+#: panels/network/connection-editor/ip4-page.ui.h:4
+#: panels/network/connection-editor/ip6-page.ui.h:4
+#: panels/network/wireless-security/eap-method-peap.ui.h:2
+msgid "Automatic"
+msgstr "Автоматически"
+
+#: panels/network/connection-editor/ce-page-ip6.c:588
+msgid "Automatic, DHCP only"
+msgstr "Автоматически, только DHCP"
+
+#: panels/network/connection-editor/ce-page-ip6.c:898
+#: panels/network/network-wifi.ui.h:50
+msgid "IPv6"
+msgstr "IPv6"
+
+#: panels/network/connection-editor/ce-page-reset.c:78
+msgid "Reset"
+msgstr "Сбросить"
+
+#: panels/network/connection-editor/ce-page-security.c:248
+msgctxt "Wi-Fi/Ethernet security"
+msgid "None"
+msgstr "Нет"
+
+#: panels/network/connection-editor/ce-page-security.c:271
+msgid "WEP 40/128-bit Key (Hex or ASCII)"
+msgstr "WEP 40/128-битный ключ (Hex или ASCII)"
+
+#: panels/network/connection-editor/ce-page-security.c:281
+msgid "WEP 128-bit Passphrase"
+msgstr "WEP 128-битная парольная фраза"
+
+#: panels/network/connection-editor/ce-page-security.c:294
+#: panels/network/wireless-security/wireless-security.c:463
+msgid "LEAP"
+msgstr "LEAP"
+
+#: panels/network/connection-editor/ce-page-security.c:307
+msgid "Dynamic WEP (802.1x)"
+msgstr "Динамический WEP (802.1x)"
+
+#: panels/network/connection-editor/ce-page-security.c:321
+msgid "WPA & WPA2 Personal"
+msgstr "WPA и WPA2 Personal"
+
+#: panels/network/connection-editor/ce-page-security.c:335
+msgid "WPA & WPA2 Enterprise"
+msgstr "WPA и WPA2 Enterprise"
+
+#: panels/network/connection-editor/firewall-helpers.c:49
+#: panels/network/connection-editor/firewall-helpers.c:118
+msgctxt "Firewall zone"
+msgid "Default"
+msgstr "По умолчанию"
+
+#: panels/network/connection-editor/firewall-helpers.c:50
+msgid "The zone defines the trust level of the connection"
+msgstr "Зона определяет уровень доверия соединению"
+
+#: panels/network/connection-editor/net-connection-editor.c:295
+msgid "Unable to open connection editor"
+msgstr "Не удалось открыть редактор соединений"
+
+#: panels/network/connection-editor/net-connection-editor.c:313
+msgid "New Profile"
+msgstr "Создать профиль"
+
+#: panels/network/connection-editor/net-connection-editor.c:545
+msgid "_Add"
+msgstr "_Добавить"
+
+#: panels/network/connection-editor/net-connection-editor.c:634
+msgid "VPN"
+msgstr "VPN"
+
+#: panels/network/connection-editor/net-connection-editor.c:782
+msgid "Import from file…"
+msgstr "Импортировать из файла…"
+
+#: panels/network/connection-editor/net-connection-editor.c:816
+msgid "Add VPN"
+msgstr "Добавить VPN"
+
+#: panels/network/connection-editor/vpn-helpers.c:141
+msgid "Cannot import VPN connection"
+msgstr "Не удалось импортировать VPN-соединение"
+
+#: panels/network/connection-editor/vpn-helpers.c:143
 #, c-format
-msgid "Right Ring Mode #%d"
-msgstr "Режим правого сенсорного кольца: #%d"
+msgid ""
+"The file “%s” could not be read or does not contain recognized VPN "
+"connection information\n"
+"\n"
+"Error: %s."
+msgstr ""
+"Невозможно прочитать файл «%s» или файл не содержит корректную информацию о "
+"VPN-соединении\n"
+"\n"
+"Ошибка: %s."
 
-#. If no mode is available, we use "left-strip-mode-1" for backward compat
-#: panels/wacom/csd-wacom-device.c:1195
-msgid "Left Touchstrip"
-msgstr "Левая сенсорная полоса"
+#: panels/network/connection-editor/vpn-helpers.c:178
+msgid "Select file to import"
+msgstr "Выберите файл для импортирования"
 
-#: panels/wacom/csd-wacom-device.c:1205
+#: panels/network/connection-editor/vpn-helpers.c:182
+msgid "_Open"
+msgstr "_Открыть"
+
+#: panels/network/connection-editor/vpn-helpers.c:230
 #, c-format
-msgid "Left Touchstrip Mode #%d"
-msgstr "Режим левой сенсорной полосы: #%d"
+msgid "A file named “%s” already exists."
+msgstr "Файл с именем «%s» уже существует."
 
-#. If no mode is available, we use "right-strip-mode-1" for backward compat
-#: panels/wacom/csd-wacom-device.c:1224
-msgid "Right Touchstrip"
-msgstr "Правая сенсорная полоса"
+#: panels/network/connection-editor/vpn-helpers.c:232
+msgid "_Replace"
+msgstr "_Заменить"
 
-#: panels/wacom/csd-wacom-device.c:1234
+#: panels/network/connection-editor/vpn-helpers.c:234
 #, c-format
-msgid "Right Touchstrip Mode #%d"
-msgstr "Режим правой сенсорной полосы: #%d"
+msgid "Do you want to replace %s with the VPN connection you are saving?"
+msgstr "Заменить %s сохраняемым VPN-соединением?"
 
-#: panels/wacom/csd-wacom-device.c:1259
-msgid "Left Touchring Mode Switch"
-msgstr "Переключение режима левого сенсорного кольца"
+#: panels/network/connection-editor/vpn-helpers.c:270
+msgid "Cannot export VPN connection"
+msgstr "Не удалось экспортировать VPN-соединение"
 
-#: panels/wacom/csd-wacom-device.c:1261
-msgid "Right Touchring Mode Switch"
-msgstr "Переключение режима правого сенсорного кольца"
-
-#: panels/wacom/csd-wacom-device.c:1264
-msgid "Left Touchstrip Mode Switch"
-msgstr "Переключение режима левой сенсорной полосы"
-
-#: panels/wacom/csd-wacom-device.c:1266
-msgid "Right Touchstrip Mode Switch"
-msgstr "Переключение режима правой сенсорной полосы"
-
-#: panels/wacom/csd-wacom-device.c:1271
+#: panels/network/connection-editor/vpn-helpers.c:272
 #, c-format
-msgid "Mode Switch #%d"
-msgstr "Переключение режима #%d"
+msgid ""
+"The VPN connection “%s” could not be exported to %s.\n"
+"\n"
+"Error: %s."
+msgstr ""
+"Невозможно экспортировать VPN-соединение «%s» в %s.\n"
+"\n"
+"Ошибка: %s."
 
-#: panels/wacom/csd-wacom-device.c:1375
-#, c-format
-msgid "Left Button #%d"
-msgstr "Левая кнопка #%d"
+#: panels/network/connection-editor/vpn-helpers.c:307
+msgid "Export VPN connection"
+msgstr "Экспортировать VPN-соединение"
 
-#: panels/wacom/csd-wacom-device.c:1378
-#, c-format
-msgid "Right Button #%d"
-msgstr "Правая кнопка #%d"
+#: panels/network/connection-editor/vpn-helpers.c:311
+msgid "_Save"
+msgstr "Со_хранить"
 
-#: panels/wacom/csd-wacom-device.c:1381
-#, c-format
-msgid "Top Button #%d"
-msgstr "Верхняя кнопка #%d"
+#: panels/network/wireless-security/eap-method.c:69
+msgid "undefined error in 802.1x security (wpa-eap)"
+msgstr "неопределённая ошибка в 802.1x использующем шифрование (WPA-EAP)"
 
-#: panels/wacom/csd-wacom-device.c:1384
+#: panels/network/wireless-security/eap-method.c:245
+msgid "no file selected"
+msgstr "файл не выбран"
+
+#: panels/network/wireless-security/eap-method.c:276
+msgid "unspecified error validating eap-method file"
+msgstr "неизвестная ошибка проверки файла ЕАР-методом"
+
+#: panels/network/wireless-security/eap-method.c:321
+msgid "DER, PEM, or PKCS#12 private keys (*.der, *.pem, *.p12, *.key)"
+msgstr "Секретные ключи DER, PEM или PKCS#12 (*.der, *.pem, *.p12)"
+
+#: panels/network/wireless-security/eap-method.c:324
+msgid "DER or PEM certificates (*.der, *.pem, *.crt, *.cer)"
+msgstr "Сертификаты DER или PEM (*.der, *.pem, *.crt, *.cer)"
+
+#: panels/network/wireless-security/eap-method-fast.c:72
+msgid "missing EAP-FAST PAC file"
+msgstr "отсутствует файл EAP-FAST PAC"
+
+#: panels/network/wireless-security/eap-method-fast.c:268
+#: panels/network/wireless-security/eap-method-peap.c:302
+#: panels/network/wireless-security/eap-method-ttls.c:333
+msgid "GTC"
+msgstr "GTC"
+
+#: panels/network/wireless-security/eap-method-fast.c:283
+#: panels/network/wireless-security/eap-method-peap.c:272
+#: panels/network/wireless-security/eap-method-ttls.c:288
+msgid "MSCHAPv2"
+msgstr "MSCHAPv2"
+
+#: panels/network/wireless-security/eap-method-fast.c:406
+msgid "Choose a PAC file"
+msgstr "Выберите файл PAC"
+
+#: panels/network/wireless-security/eap-method-fast.c:413
+msgid "PAC files (*.pac)"
+msgstr "Файлы PAC (*.pac)"
+
+#: panels/network/wireless-security/eap-method-leap.c:65
+msgid "missing EAP-LEAP username"
+msgstr "отсутствует имя пользователя EAP-LEAP"
+
+#: panels/network/wireless-security/eap-method-leap.c:74
+msgid "missing EAP-LEAP password"
+msgstr "отсутствует пароль EAP-LEAP"
+
+#: panels/network/wireless-security/eap-method-peap.c:63
 #, c-format
-msgid "Bottom Button #%d"
-msgstr "Нижняя кнопка #%d"
+msgid "invalid EAP-PEAP CA certificate: %s"
+msgstr "недействительный сертификат EAP-PEAP CA: %s"
+
+#: panels/network/wireless-security/eap-method-peap.c:68
+msgid "invalid EAP-PEAP CA certificate: no certificate specified"
+msgstr "недействительный сертификат EAP-PEAP CA: сертификат не указан"
+
+#: panels/network/wireless-security/eap-method-peap.c:287
+#: panels/network/wireless-security/eap-method-ttls.c:318
+#: panels/network/wireless-security/wireless-security.c:439
+msgid "MD5"
+msgstr "MD5"
+
+#: panels/network/wireless-security/eap-method-peap.c:381
+#: panels/network/wireless-security/eap-method-tls.c:501
+#: panels/network/wireless-security/eap-method-ttls.c:412
+msgid "Choose a Certificate Authority certificate"
+msgstr "Выбрать сертификат удостоверяющего центра"
+
+#: panels/network/wireless-security/eap-method-simple.c:74
+msgid "missing EAP username"
+msgstr "отсутствует имя пользователя EAP"
+
+#: panels/network/wireless-security/eap-method-simple.c:87
+msgid "missing EAP password"
+msgstr "отсутствует пароль EAP"
+
+#: panels/network/wireless-security/eap-method-tls.c:68
+msgid "missing EAP-TLS identity"
+msgstr "отсутствует идентификатор EAP-TLS"
+
+#: panels/network/wireless-security/eap-method-tls.c:77
+#, c-format
+msgid "invalid EAP-TLS CA certificate: %s"
+msgstr "недействительный сертификат EAP-TLS CA: %s"
+
+#: panels/network/wireless-security/eap-method-tls.c:84
+msgid "invalid EAP-TLS CA certificate: no certificate specified"
+msgstr "недействительный сертификат EAP-TLS CA: сертификат не указан"
+
+#: panels/network/wireless-security/eap-method-tls.c:95
+msgid "invalid EAP-TLS password: missing"
+msgstr "недопустимый пароль EAP-TLS: отсутствует"
+
+#: panels/network/wireless-security/eap-method-tls.c:109
+#, c-format
+msgid "invalid EAP-TLS private-key: %s"
+msgstr "недействительный секретный ключ EAP-TLS: %s"
+
+#: panels/network/wireless-security/eap-method-tls.c:119
+#, c-format
+msgid "invalid EAP-TLS user-certificate: %s"
+msgstr "недействительный пользовательский сертификат EAP-TLS: %s"
+
+#: panels/network/wireless-security/eap-method-tls.c:316
+msgid "Unencrypted private keys are insecure"
+msgstr "Незашифрованные закрытые ключи являются небезопасными"
+
+#: panels/network/wireless-security/eap-method-tls.c:319
+msgid ""
+"The selected private key does not appear to be protected by a password.  "
+"This could allow your security credentials to be compromised.  Please select "
+"a password-protected private key.\n"
+"\n"
+"(You can password-protect your private key with openssl)"
+msgstr ""
+"Выбранный секретный ключ не защищён паролем. Это может привести к "
+"компрометированию ваших учётных данных. Выберите секретный ключ, защищённый "
+"паролем.\n"
+"\n"
+"(Вы можете защитить секретный ключ с помощью openssl)"
+
+#: panels/network/wireless-security/eap-method-tls.c:495
+msgid "Choose your personal certificate"
+msgstr "Выберите свой персональный сертификат"
+
+#: panels/network/wireless-security/eap-method-tls.c:507
+msgid "Choose your private key"
+msgstr "Выберите ваш секретный ключ"
+
+#: panels/network/wireless-security/eap-method-ttls.c:63
+#, c-format
+msgid "invalid EAP-TTLS CA certificate: %s"
+msgstr "недействительный сертификат EAP-TTLS CA: %s"
+
+#: panels/network/wireless-security/eap-method-ttls.c:68
+msgid "invalid EAP-TTLS CA certificate: no certificate specified"
+msgstr "недействительный сертификат EAP-TTLS CA: сертификат не указан"
+
+#: panels/network/wireless-security/eap-method-ttls.c:258
+msgid "PAP"
+msgstr "PAP"
+
+#: panels/network/wireless-security/eap-method-ttls.c:273
+msgid "MSCHAP"
+msgstr "MSCHAP"
+
+#: panels/network/wireless-security/eap-method-ttls.c:303
+msgid "CHAP"
+msgstr "CHAP"
+
+#: panels/network/wireless-security/wireless-security.c:87
+msgid "Unknown error validating 802.1x security"
+msgstr "Неизвестная ошибка при проверке подлинности 802.1x"
+
+#: panels/network/wireless-security/wireless-security.c:451
+msgid "TLS"
+msgstr "TLS"
+
+#: panels/network/wireless-security/wireless-security.c:475
+msgid "PWD"
+msgstr "PWD"
+
+#: panels/network/wireless-security/wireless-security.c:486
+msgid "FAST"
+msgstr "FAST"
+
+#: panels/network/wireless-security/wireless-security.c:497
+msgid "Tunneled TLS"
+msgstr "TLS с туннелем"
+
+#: panels/network/wireless-security/wireless-security.c:508
+msgid "Protected EAP (PEAP)"
+msgstr "Защищённый EAP (PEAP)"
+
+#: panels/network/wireless-security/ws-leap.c:63
+msgid "missing leap-username"
+msgstr "отсутствует имя пользователя leap"
+
+#: panels/network/wireless-security/ws-leap.c:74
+msgid "missing leap-password"
+msgstr "отсутствует пароль leap"
+
+#: panels/network/wireless-security/ws-wep-key.c:107
+msgid "missing wep-key"
+msgstr "отсутствует wep-ключ"
+
+#: panels/network/wireless-security/ws-wep-key.c:116
+#, c-format
+msgid ""
+"invalid wep-key: key with a length of %zu must contain only hex-digits"
+msgstr ""
+"недействительный wep-ключ: ключ с длиной %zu должен содержать только "
+"шестнадцатеричные символы"
+
+#: panels/network/wireless-security/ws-wep-key.c:124
+#, c-format
+msgid ""
+"invalid wep-key: key with a length of %zu must contain only ascii characters"
+msgstr ""
+"недействительный wep-ключ: ключ с длиной %zu должен содержать только символы "
+"ASCII"
+
+#: panels/network/wireless-security/ws-wep-key.c:130
+#, c-format
+msgid ""
+"invalid wep-key: wrong key length %zu. A key must be either of length 5/13 "
+"(ascii) or 10/26 (hex)"
+msgstr ""
+"недействительный wep-ключ: ключ с неверной длиной %zu. Ключ должен быть "
+"длиной 5/13 (ASCII) или 10/26 (HEX)"
+
+#: panels/network/wireless-security/ws-wep-key.c:137
+msgid "invalid wep-key: passphrase must be non-empty"
+msgstr "недействительный wep-ключ: парольная фраза не может быть пустой"
+
+#: panels/network/wireless-security/ws-wep-key.c:139
+msgid "invalid wep-key: passphrase must be shorter than 64 characters"
+msgstr ""
+"недействительный wep-ключ: парольная фраза должна быть короче 64 символов"
+
+#: panels/network/wireless-security/ws-wpa-psk.c:70
+#, c-format
+msgid ""
+"invalid wpa-psk: invalid key-length %zu. Must be [8,63] bytes or 64 hex "
+"digits"
+msgstr ""
+"недействительный wpa-psk: ключ неверной длины %zu. Должен быть [8,63] байт "
+"или 64 шестнадцатеричных символа"
+
+#: panels/network/wireless-security/ws-wpa-psk.c:79
+msgid "invalid wpa-psk: cannot interpret key with 64 bytes as hex"
+msgstr ""
+"недействительный wpa-psk: невозможно интерпретировать ключ с 64 байт как "
+"шестнадцатеричный"
 
 #: shell/cc-shell-nav-bar.c:117
 msgid "_All Settings"
@@ -1231,7 +1542,7 @@ msgctxt "hotspot"
 msgid "Hotspot"
 msgstr "Точка доступа"
 
-#: panels/color/color.ui.h:3 generate_additional_files.py:25
+#: panels/color/color.ui.h:3 generate_additional_files.py:23
 msgid "Color"
 msgstr "Цвет"
 
@@ -1265,35 +1576,27 @@ msgstr "Установить этот профиль для всех польз�
 msgid "Add profile"
 msgstr "Добавить профиль"
 
-#: panels/color/color.ui.h:12 panels/wacom/cinnamon-wacom-properties.ui.h:10
-msgid "Calibrate…"
-msgstr "Откалибровать..."
-
-#: panels/color/color.ui.h:13
-msgid "Calibrate the device"
-msgstr "Откалибровать устройство"
-
-#: panels/color/color.ui.h:14
+#: panels/color/color.ui.h:12
 msgid "Remove profile"
 msgstr "Удалить профиль"
 
-#: panels/color/color.ui.h:15
+#: panels/color/color.ui.h:13
 msgid "View details"
 msgstr "Просмотреть детали"
 
-#: panels/color/color.ui.h:16
+#: panels/color/color.ui.h:14
 msgid "Device type:"
 msgstr "Тип устройства:"
 
-#: panels/color/color.ui.h:17
+#: panels/color/color.ui.h:15
 msgid "Manufacturer:"
 msgstr "Производитель:"
 
-#: panels/color/color.ui.h:18
+#: panels/color/color.ui.h:16
 msgid "Model:"
 msgstr "Модель:"
 
-#: panels/color/color.ui.h:19
+#: panels/color/color.ui.h:17
 msgid ""
 "Image files can be dragged on this window to auto-complete the above fields."
 msgstr ""
@@ -1401,70 +1704,57 @@ msgstr "Ноябрь"
 msgid "December"
 msgstr "Декабрь"
 
-#: panels/display/display-capplet.ui.h:1
-msgid "Active"
-msgstr "Активные"
+#: panels/display/cc-display-panel.ui.h:1
+msgid "Display Arrangement"
+msgstr "Расположение экрана"
 
-#: panels/display/display-capplet.ui.h:2
+#: panels/display/cc-display-panel.ui.h:2
 msgid "Set as Primary"
 msgstr "Сделать основным"
 
-#: panels/display/display-capplet.ui.h:3
+#: panels/display/cc-display-panel.ui.h:3
+msgid "Display Configuration"
+msgstr "Конфигурация экрана"
+
+#: panels/display/cc-display-panel.ui.h:4
+msgid "Join Displays"
+msgstr "Объединить экраны"
+
+#: panels/display/cc-display-panel.ui.h:5
+msgid "Mirror"
+msgstr "Зеркалировать"
+
+#: panels/display/cc-display-panel.ui.h:6
+msgid "Displays"
+msgstr "Экраны"
+
+#: panels/display/cc-display-panel.ui.h:7
+msgid "Reset to Defaults"
+msgstr "Сбросить на настройки по умолчанию"
+
+#: panels/display/cc-display-panel.ui.h:8
+msgid "Cancel changes"
+msgstr "Отменить изменения"
+
+#: panels/display/cc-display-panel.ui.h:9
+msgid "Apply"
+msgstr "Применить"
+
+#: panels/display/cc-display-settings.ui.h:1
 msgid "Resolution"
 msgstr "Разрешение"
 
-#: panels/display/display-capplet.ui.h:4
-msgid "Mirror displays"
-msgstr "Зеркальные дисплеи"
-
-#: panels/display/display-capplet.ui.h:5
-msgid "Rotation"
-msgstr "Поворот"
-
-#: panels/display/display-capplet.ui.h:6
+#: panels/display/cc-display-settings.ui.h:2
 msgid "Refresh Rate"
 msgstr "Частота обновления"
 
-#: panels/display/display-capplet.ui.h:7
-msgid "User interface scale"
-msgstr "Маштабирование пользовательского интерфейса"
+#: panels/display/cc-display-settings.ui.h:3
+msgid "Rotation"
+msgstr "Поворот"
 
-#: panels/display/display-capplet.ui.h:8
-msgid ""
-"This is the global scaling factor for all monitors. In automatic mode, it is "
-"chosen based on the primary monitor."
-msgstr ""
-"Это глобальный коэффициент масштабирования для всех мониторов. В "
-"автоматическом режиме он выбирается на основании параметров основного "
-"монитора."
-
-#: panels/display/display-capplet.ui.h:9
-msgid "This option may limit resolution options"
-msgstr "Этот параметр может ограничить параметры разрешения"
-
-#: panels/display/display-capplet.ui.h:10
-msgid ""
-"This feature is experimental and may not work well with all hardware and "
-"drivers. Enabling it may impact performance, vsync, resolution or screen "
-"ratio."
-msgstr ""
-"Это экспериментальная функция, она может нормально работать не со всеми "
-"устройствами и драйверами. Её включение может повлиять на "
-"производительность, вертикальную синхронизацию, разрешение или пропорции "
-"экрана."
-
-#: panels/display/display-capplet.ui.h:11
-msgid "Fractional scaling"
-msgstr "Дробное маштабирование"
-
-#: panels/display/display-capplet.ui.h:12
-msgid "_Detect Displays"
-msgstr "_Определить экраны"
-
-#: panels/display/display-capplet.ui.h:13
-#: panels/region/cinnamon-region-panel.ui.h:18
-msgid "Reset to De_faults"
-msgstr "Восстановить параметры по _умолчанию"
+#: panels/display/cc-display-settings.ui.h:5
+msgid "Adjust for TV"
+msgstr "Отрегулировать для ТВ"
 
 #: panels/network/network-ethernet.ui.h:2
 msgid "_Add Profile…"
@@ -1478,7 +1768,7 @@ msgstr "IMEI"
 msgid "Provider"
 msgstr "Провайдер"
 
-#: panels/network/network-mobile.ui.h:8 generate_additional_files.py:71
+#: panels/network/network-mobile.ui.h:8 generate_additional_files.py:63
 msgid "Network"
 msgstr "Сеть"
 
@@ -1557,10 +1847,6 @@ msgstr "Удалить устройство"
 msgid "VPN Type"
 msgstr "Тип VPN"
 
-#: panels/network/network-vpn.ui.h:2
-msgid "Gateway"
-msgstr "Шлюз"
-
 #: panels/network/network-vpn.ui.h:3
 msgid "Group Name"
 msgstr "Название группы"
@@ -1595,11 +1881,6 @@ msgstr "Уровень сигнала"
 #: panels/network/connection-editor/details-page.ui.h:2
 msgid "Link speed"
 msgstr "Скорость передачи данных"
-
-#: panels/network/network-wifi.ui.h:6
-#: panels/network/connection-editor/details-page.ui.h:3
-msgid "Security"
-msgstr "Безопасность"
 
 #: panels/network/network-wifi.ui.h:14
 msgid "details"
@@ -1660,14 +1941,6 @@ msgstr "IPv_4"
 msgid "_Addresses"
 msgstr "_Адреса"
 
-#: panels/network/network-wifi.ui.h:27
-msgid "Manual"
-msgstr "Вручную"
-
-#: panels/network/network-wifi.ui.h:28
-msgid "Automatic (DHCP)"
-msgstr "Автоматически (DHCP)"
-
 #: panels/network/network-wifi.ui.h:29
 msgid "Automatic (DHCP) addresses only"
 msgstr "Автоматически (DHCP) только адреса"
@@ -1680,7 +1953,7 @@ msgstr "Только для локальной сети"
 msgid "Shared with other computers"
 msgstr "Общий с другими компьютерами"
 
-#: panels/network/network-wifi.ui.h:32
+#: panels/network/network-wifi.ui.h:32 panels/wacom/wacom-stylus-page.ui.h:6
 msgid "Disabled"
 msgstr "Отключено"
 
@@ -1752,22 +2025,6 @@ msgstr ""
 msgid "reset"
 msgstr "сброс"
 
-#: panels/network/network-wifi.ui.h:47
-msgid "Details"
-msgstr "Подробная информация"
-
-#: panels/network/network-wifi.ui.h:48
-msgid "Identity"
-msgstr "Идентификатор"
-
-#: panels/network/network-wifi.ui.h:49
-msgid "IPv4"
-msgstr "IPv4"
-
-#: panels/network/network-wifi.ui.h:50
-msgid "IPv6"
-msgstr "IPv6"
-
 #: panels/network/network-wifi.ui.h:51
 msgid "Hardware"
 msgstr "Оборудование"
@@ -1824,24 +2081,6 @@ msgstr "Тип безопасности"
 #: panels/network/network-wifi.ui.h:64
 msgid "Password"
 msgstr "Пароль"
-
-#: panels/online-accounts/online-accounts.ui.h:1
-msgid "Undo"
-msgstr "Вернуть"
-
-#: panels/online-accounts/online-accounts.ui.h:2
-msgid "No internet connection — connect to set up new online accounts"
-msgstr ""
-"Нет подключения к Интернету — подключитесь для настройки новой сетевой "
-"учётной записи"
-
-#: panels/online-accounts/online-accounts.ui.h:3
-msgid "Add an account"
-msgstr "Добавить учётную запись"
-
-#: panels/online-accounts/online-accounts.ui.h:4
-msgid "Remove Account"
-msgstr "Удалить учётную запись"
 
 #: panels/region/cinnamon-region-panel-layout-chooser.ui.h:1
 msgid "Choose a Layout"
@@ -1934,6 +2173,10 @@ msgstr "_Параметры…"
 msgid "View and edit keyboard layout options"
 msgstr "Просмотр и изменение параметров раскладки"
 
+#: panels/region/cinnamon-region-panel.ui.h:18
+msgid "Reset to De_faults"
+msgstr "Восстановить параметры по _умолчанию"
+
 #: panels/region/cinnamon-region-panel.ui.h:19
 msgid ""
 "Replace the current keyboard layout settings with the\n"
@@ -1946,138 +2189,133 @@ msgstr ""
 msgid "Map Buttons"
 msgstr "Назначить кнопки"
 
-#: panels/wacom/button-mapping.ui.h:2
+#: panels/wacom/button-mapping.ui.h:3
 msgid "Map buttons to functions"
 msgstr "Назначить кнопки функциями"
 
-#: panels/wacom/button-mapping.ui.h:3
+#: panels/wacom/button-mapping.ui.h:4
 msgid ""
-"To edit a shortcut, click the row and hold down the new keys or press "
-"Backspace to clear."
+"To edit a shortcut, choose the “Send Keystroke” action, press the keyboard "
+"shortcut button and hold down the new keys or press Backspace to clear."
 msgstr ""
-"Для изменения комбинации клавиш выберите строку и нажмите новую комбинацию "
-"клавиш; для очистки нажмите Backspace."
+"Чтобы изменить комбинацию клавиш, выберите «Событие нажатие клавиши», "
+"нажмите кнопку комбинации клавиш и нажмите новые клавиши или нажмите "
+"Backspace для очистки."
 
 #: panels/wacom/cinnamon-wacom-properties.ui.h:1
-msgid "Tablet (absolute)"
-msgstr "Планшет (абсолютный)"
-
-#: panels/wacom/cinnamon-wacom-properties.ui.h:2
-msgid "Touchpad (relative)"
-msgstr "Тачпад (относительный)"
-
-#: panels/wacom/cinnamon-wacom-properties.ui.h:3
-msgid "Tablet Preferences"
-msgstr "Настройки планшета"
-
-#: panels/wacom/cinnamon-wacom-properties.ui.h:4
 msgid "No tablet detected"
 msgstr "Планшет не обнаружен"
 
-#: panels/wacom/cinnamon-wacom-properties.ui.h:5
-msgid "Please plug in or turn on your graphics tablet"
-msgstr "Подключите или включите графический планшет"
+#: panels/wacom/cinnamon-wacom-properties.ui.h:2
+msgid "Please plug in or turn on your Wacom tablet"
+msgstr "Подключите или включите ваш планшет Wacom"
 
-#: panels/wacom/cinnamon-wacom-properties.ui.h:6
+#: panels/wacom/cinnamon-wacom-properties.ui.h:3
 msgid "Bluetooth Settings"
 msgstr "Параметры Bluetooth"
 
+#: panels/wacom/cinnamon-wacom-properties.ui.h:4
+msgid "Wacom Tablet"
+msgstr "Планшет Wacom"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:5
+msgid "Tracking Mode"
+msgstr "Режим отслеживания"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:6
+msgid "Left-Handed Orientation"
+msgstr "Настроить под левую руку"
+
 #: panels/wacom/cinnamon-wacom-properties.ui.h:7
-#: generate_additional_files.py:86
-msgid "Graphics Tablet"
-msgstr "Графический планшет"
+msgid "Map to Monitor…"
+msgstr "Привязка к монитору…"
 
 #: panels/wacom/cinnamon-wacom-properties.ui.h:8
-msgid "Map to Monitor…"
-msgstr "Привязка к монитору..."
+msgid "Map Buttons…"
+msgstr "Привязка кнопок…"
 
 #: panels/wacom/cinnamon-wacom-properties.ui.h:9
-msgid "Map Buttons…"
-msgstr "Привязка кнопок..."
+msgid "Calibrate…"
+msgstr "Откалибровать…"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:10
+msgid "Adjust mouse settings"
+msgstr "Изменить настройки мыши"
 
 #: panels/wacom/cinnamon-wacom-properties.ui.h:11
 msgid "Adjust display resolution"
 msgstr "Настроить разрешение экрана"
 
 #: panels/wacom/cinnamon-wacom-properties.ui.h:12
-msgid "Tracking Mode"
-msgstr "Режим отслеживания"
+msgid "Decouple Display"
+msgstr "Разделить экран"
 
 #: panels/wacom/cinnamon-wacom-properties.ui.h:13
-msgid "Left-Handed Orientation"
-msgstr "Настроить под левую руку"
+msgid "Tablet (absolute)"
+msgstr "Планшет (абсолютный)"
 
-#: panels/wacom/wacom-stylus-page.ui.h:1
-msgid "No Action"
-msgstr "Нет действия"
+#: panels/wacom/cinnamon-wacom-properties.ui.h:14
+msgid "Touchpad (relative)"
+msgstr "Тачпад (относительный)"
 
 #: panels/wacom/wacom-stylus-page.ui.h:2
-msgid "Left Mouse Button Click"
-msgstr "Нажатие левой кнопки мыши"
-
-#: panels/wacom/wacom-stylus-page.ui.h:3
 msgid "Middle Mouse Button Click"
 msgstr "Нажатие средней кнопки мыши"
 
-#: panels/wacom/wacom-stylus-page.ui.h:4
+#: panels/wacom/wacom-stylus-page.ui.h:3
 msgid "Right Mouse Button Click"
 msgstr "Нажатие правой кнопки мыши"
 
-#: panels/wacom/wacom-stylus-page.ui.h:5
-msgid "Scroll Up"
-msgstr "Прокрутка вверх"
-
-#: panels/wacom/wacom-stylus-page.ui.h:6
-msgid "Scroll Down"
-msgstr "Прокрутка вниз"
-
-#: panels/wacom/wacom-stylus-page.ui.h:7
-msgid "Scroll Left"
-msgstr "Прокрутка влево"
-
-#: panels/wacom/wacom-stylus-page.ui.h:8
-msgid "Scroll Right"
-msgstr "Прокрутка вправо"
-
-#: panels/wacom/wacom-stylus-page.ui.h:9
+#: panels/wacom/wacom-stylus-page.ui.h:4
 msgid "Back"
 msgstr "Назад"
 
-#: panels/wacom/wacom-stylus-page.ui.h:10
+#: panels/wacom/wacom-stylus-page.ui.h:5
 msgid "Forward"
 msgstr "Вперёд"
 
-#: panels/wacom/wacom-stylus-page.ui.h:11
-msgid "Stylus"
-msgstr "Стилус"
+#: panels/wacom/wacom-stylus-page.ui.h:7
+msgid "No stylus found"
+msgstr "Стилус не найден"
 
-#: panels/wacom/wacom-stylus-page.ui.h:12
+#: panels/wacom/wacom-stylus-page.ui.h:8
+msgid ""
+"Please move your stylus to the proximity of the tablet to configure it"
+msgstr ""
+"Переместите стилус в непосредственную близость к планшету, чтобы настроить "
+"его"
+
+#: panels/wacom/wacom-stylus-page.ui.h:10
 msgid "Eraser Pressure Feel"
 msgstr "Чувствительность нажатия ластика"
 
-#: panels/wacom/wacom-stylus-page.ui.h:13
+#: panels/wacom/wacom-stylus-page.ui.h:11
 msgid "Soft"
 msgstr "Мягкий"
 
-#: panels/wacom/wacom-stylus-page.ui.h:14
+#: panels/wacom/wacom-stylus-page.ui.h:12
 msgid "Firm"
 msgstr "Твёрдый"
 
-#: panels/wacom/wacom-stylus-page.ui.h:15
+#: panels/wacom/wacom-stylus-page.ui.h:13
 msgid "Top Button"
 msgstr "Верхняя кнопка"
 
-#: panels/wacom/wacom-stylus-page.ui.h:16
+#: panels/wacom/wacom-stylus-page.ui.h:14
 msgid "Lower Button"
 msgstr "Нижняя кнопка"
 
-#: panels/wacom/wacom-stylus-page.ui.h:17
+#: panels/wacom/wacom-stylus-page.ui.h:15
+msgid "Lowest Button"
+msgstr "Самая нижняя кнопка"
+
+#: panels/wacom/wacom-stylus-page.ui.h:16
 msgid "Tip Pressure Feel"
 msgstr "Чувствительность нажатия пера"
 
-#: panels/wacom/wacom-stylus-page.ui.h:18
-msgid "Lowest Button"
-msgstr "Самая нижняя кнопка"
+#: panels/wacom/wacom-stylus-page.ui.h:17
+msgid "Test Your _Settings"
+msgstr "_Проверить настройки"
 
 #: panels/network/connection-editor/8021x-security-page.ui.h:1
 msgid "802.1x _Security"
@@ -2109,13 +2347,6 @@ msgstr "страница 2"
 #: panels/network/connection-editor/details-page.ui.h:10
 msgid "Last Used"
 msgstr "Последнее использованное"
-
-#: panels/network/connection-editor/ethernet-page.ui.h:1
-#: panels/network/connection-editor/ip4-page.ui.h:4
-#: panels/network/connection-editor/ip6-page.ui.h:4
-#: panels/network/wireless-security/eap-method-peap.ui.h:2
-msgid "Automatic"
-msgstr "Автоматически"
 
 #: panels/network/connection-editor/ethernet-page.ui.h:2
 msgid "Twisted Pair (TP)"
@@ -2351,33 +2582,71 @@ msgstr "_Индекс WEP"
 msgid "_Type"
 msgstr "_Тип"
 
-#: generate_additional_files.py:25
+#: panels/wacom/calibrator/calibrator.ui.h:1
+msgid "Screen Calibration"
+msgstr "Калибровка экрана"
+
+#: panels/wacom/calibrator/calibrator.ui.h:2
+msgid ""
+"Please tap the target markers as they appear on screen to calibrate the "
+"tablet."
+msgstr ""
+"Коснитесь маркеров, которые будут появляться на экране, чтобы откалибровать "
+"планшет."
+
+#: panels/wacom/calibrator/calibrator.ui.h:3
+msgid "Mis-click detected, restarting…"
+msgstr "Обнаружено ложное нажатие, выполняется перезапуск…"
+
+#: generate_additional_files.py:23
 msgid "Color management settings"
 msgstr "Настройки управления цветом"
 
-#: generate_additional_files.py:41
+#: generate_additional_files.py:23
+msgid "Color, ICC, Profile, Calibrate, Printer, Display"
+msgstr "Цвет, ICC, Профиль, Калибровать, Принтер, Экран"
+
+#: generate_additional_files.py:37
 msgid "Region & Language"
 msgstr "Регион и язык"
 
-#: generate_additional_files.py:41
+#: generate_additional_files.py:37
 msgid "Change your region and language settings"
 msgstr "Изменить региональные и языковые настройки"
 
-#: generate_additional_files.py:56
+#: generate_additional_files.py:50
 msgid "Display"
 msgstr "Монитор"
 
-#: generate_additional_files.py:56
+#: generate_additional_files.py:50
 msgid "Change resolution and position of monitors and projectors"
 msgstr "Изменить разрешение и позицию мониторов, проекторов"
 
-#: generate_additional_files.py:71
+#: generate_additional_files.py:50
+msgid "Panel, Projector, xrandr, Screen, Resolution, Refresh"
+msgstr "Панель, Проектор, xrandr, Экран, Разрешение, Обновить"
+
+#: generate_additional_files.py:63
 msgid "Network settings"
 msgstr "Настройки сети"
 
-#: generate_additional_files.py:86
+#: generate_additional_files.py:63
+msgid "Network, Wireless, IP, LAN, Proxy, Internet, WiFi"
+msgstr ""
+"Сеть, Беспроводная связь, IP, Локальная сеть, Прокси, интернет, Беспроводная "
+"сеть"
+
+#: generate_additional_files.py:76
+msgid "Graphics Tablet"
+msgstr "Графический планшет"
+
+#: generate_additional_files.py:76
 msgid ""
 "Set button mappings and adjust stylus sensitivity for graphics tablets"
 msgstr ""
 "Установка привязки кнопок и настройка чувствительности пера для графических "
 "планшетов"
+
+#: generate_additional_files.py:76
+msgid "Tablet, Wacom, Stylus, Eraser, Mouse"
+msgstr "Планшет, Wacom, Стилус, Стёрка, Мышь, Электронное перо, Ручка"

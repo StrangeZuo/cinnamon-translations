@@ -1,1 +1,6 @@
-.pc/
+debian/*.substvars
+debian/.debhelper/
+debian/cinnamon-l10n/
+debian/debhelper-build-stamp
+debian/files
+usr/

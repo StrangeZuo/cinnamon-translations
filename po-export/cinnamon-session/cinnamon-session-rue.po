@@ -1,0 +1,199 @@
+# Rusyn translation for linuxmint
+# Copyright (c) 2023 Rosetta Contributors and Canonical Ltd 2023
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2023-11-19 14:25+0000\n"
+"PO-Revision-Date: 2023-07-01 05:07+0000\n"
+"Last-Translator: Vondrosh tvmc <Unknown>\n"
+"Language-Team: Rusyn <rue@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Launchpad-Export-Date: 2024-07-21 09:00+0000\n"
+"X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
+
+#: cinnamon-session-quit/cinnamon-session-quit.py:57
+msgid "Log out"
+msgstr "Выйти"
+
+#: cinnamon-session-quit/cinnamon-session-quit.py:59
+msgid "Power off"
+msgstr "Выключити"
+
+#: cinnamon-session-quit/cinnamon-session-quit.py:63
+msgid "Ignoring any existing inhibitors"
+msgstr "Іґнорованя вшыткых препиначув"
+
+#: cinnamon-session-quit/cinnamon-session-quit.py:65
+msgid "Don't prompt for user confirmation"
+msgstr "Не просити потверчженя од хосновача"
+
+#: cinnamon-session-quit/cinnamon-session-quit.py:245
+msgid "Log out of this system now?"
+msgstr "Лишити сістему тепирь?"
+
+#: cinnamon-session-quit/cinnamon-session-quit.py:251
+msgid "Shut down this system now?"
+msgstr "Выключити сістему тепирь?"
+
+#: cinnamon-session-quit/cinnamon-session-quit.py:263
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:10
+msgid "Restart this system now?"
+msgstr "Перепустити сістему тепирь?"
+
+#: cinnamon-session-quit/cinnamon-session-quit.py:312
+#, c-format
+msgid "You will be automatically logged out in %d second."
+msgid_plural "You will be logged out in %d seconds."
+msgstr[0] "Лишите сістему через %d секунду."
+msgstr[1] "Лишите сістему через %d секунды."
+msgstr[2] "Лишити сістему через %d секунд."
+
+#: cinnamon-session-quit/cinnamon-session-quit.py:318
+#, c-format
+msgid "This system will be automatically shut down in %d second."
+msgid_plural "This system will be shut down in %d seconds."
+msgstr[0] "Сістема буде выключена автоматічно через %d секунду."
+msgstr[1] "Сістема буде выключена автоматічно через %d секунды."
+msgstr[2] "Сістема буде выключена автоматічно через %d секунд."
+
+#: cinnamon-session-quit/cinnamon-session-quit.py:324
+#, c-format
+msgid "This system will be automatically restarted in %d second."
+msgid_plural "This system will be restarted in %d seconds."
+msgstr[0] "Сістема буде автоматічно перепущена через %d секунду."
+msgstr[1] "Сістема буде автоматічно перепущена через %d секунды."
+msgstr[2] "Сістема буде автоматічно перепущена через %d секунд."
+
+#: cinnamon-session/csm-manager.c:1436 cinnamon-session/csm-manager.c:3146
+msgid "Not responding"
+msgstr "Не одповідат"
+
+#: cinnamon-session/csm-process-helper.c:123
+#, c-format
+msgid "Exited with code %d"
+msgstr "Реалізовано з коло %d"
+
+#: cinnamon-session/csm-process-helper.c:128
+#, c-format
+msgid "Killed by signal %d"
+msgstr "Реалізовано сіґналом %d"
+
+#: cinnamon-session/csm-process-helper.c:133
+#, c-format
+msgid "Stopped by signal %d"
+msgstr "Сперто сіґналом %d"
+
+#: cinnamon-session/csm-xsmp-client.c:558
+msgid "Remembered Application"
+msgstr "Запомненый придаток"
+
+#: cinnamon-session/csm-xsmp-client.c:1197
+msgid "This program is blocking logout."
+msgstr "Ся проґрама блокує выход з сістемы."
+
+#: cinnamon-session/csm-xsmp-server.c:340
+msgid ""
+"Refusing new client connection because the session is currently being shut "
+"down\n"
+msgstr "Нові кліентські споєня одмінявут ся, бо сеанс ся кончат\n"
+
+#: cinnamon-session/csm-xsmp-server.c:609
+#, c-format
+msgid "Could not create ICE listening socket: %s"
+msgstr "Не уйшло учинити ICE listening socket: %s"
+
+#: cinnamon-session/inhibit-dialog-info.c:131
+msgid "Unknown"
+msgstr "Незнамый"
+
+#: cinnamon-session/main.c:209
+msgid "Override standard autostart directories"
+msgstr "Переузначити стандардні діректорії автозапуска"
+
+#: cinnamon-session/main.c:209
+msgid "AUTOSTART_DIR"
+msgstr "ДІРЕКТОРІЯ_АВТОЗАПУСКА"
+
+#: cinnamon-session/main.c:210
+msgid "Session to use"
+msgstr "Хосновати сеанс"
+
+#: cinnamon-session/main.c:210
+msgid "SESSION_NAME"
+msgstr "ИМНЯ_СЕАНСА"
+
+#: cinnamon-session/main.c:211
+msgid "Enable debugging code"
+msgstr "Уключити режім долаженя"
+
+#: cinnamon-session/main.c:212
+msgid "Do not load user-specified applications"
+msgstr "Не ладовати придаткы, указані хосновачом"
+
+#: cinnamon-session/main.c:213
+msgid "Version of this application"
+msgstr "Верзія придатка"
+
+#: cinnamon-session/main.c:215
+msgid "Show the fail whale dialog for testing"
+msgstr "Указати діалоґ з хыбов под час долаженя"
+
+#: cinnamon-session/main.c:246
+msgid " - the Cinnamon session manager"
+msgstr " - справник сеансув Cinnamon"
+
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:1
+msgid "Session"
+msgstr "Сесія"
+
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:2
+msgid "S_uspend"
+msgstr "_Чекавучый режім"
+
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:3
+msgid "_Hibernate"
+msgstr "_Режім сна"
+
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:4
+msgid "_Switch User"
+msgstr "_Поміняти хосновача"
+
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:5
+msgid "_Cancel"
+msgstr "_Одмінити"
+
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:6
+msgid "_Restart"
+msgstr "_Перепустити"
+
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:7
+msgid "_Log Out"
+msgstr "_Выйти з сістемы"
+
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:8
+msgid "_Shut Down"
+msgstr "_Выключити"
+
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:9
+msgid "_Ignore and continue"
+msgstr ""
+
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:11
+msgid "Some programs are still running:"
+msgstr "Даякі проґрамы щи роблят:"
+
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:12
+msgid ""
+"Waiting for programs to finish.  Interrupting these programs may cause you "
+"to lose work."
+msgstr ""
+"Чеканя довершеня роботы проґрамы. Перерваня сих проґрам може предвести од "
+"страті даных."

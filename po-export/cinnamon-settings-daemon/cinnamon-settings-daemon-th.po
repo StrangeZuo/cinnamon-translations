@@ -13,119 +13,17 @@ msgstr ""
 "Project-Id-Version: cinnamon-settings-daemon\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "settings-daemon&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2021-06-02 15:46+0100\n"
-"PO-Revision-Date: 2021-04-28 10:12+0000\n"
-"Last-Translator: Launchpad Translations Administrators <Unknown>\n"
+"POT-Creation-Date: 2023-06-01 13:58+0100\n"
+"PO-Revision-Date: 2024-03-13 11:08+0000\n"
+"Last-Translator: aefgh3962 <aefgh3962@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2021-06-25 10:42+0000\n"
-"X-Generator: Launchpad (build 40cc6dba4163ba9ca785b26ad91f43c87d70ba4d)\n"
+"X-Launchpad-Export-Date: 2024-07-21 09:02+0000\n"
+"X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
 "Language: th\n"
-
-#: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:377
-#, c-format
-msgid "There was an error displaying help: %s"
-msgstr "เกิดข้อผิดพลาดขณะแสดงวิธีใช้: %s"
-
-#: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:501
-#: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:563
-msgid "Slow Keys Turned On"
-msgstr "เปิดใช้การพิมพ์แบบช้าแล้ว"
-
-#: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:502
-#: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:564
-msgid "Slow Keys Turned Off"
-msgstr "ปิดการพิมพ์แบบช้าแล้ว"
-
-#: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:503
-#: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:565
-msgid ""
-"You just held down the Shift key for 8 seconds.  This is the shortcut for "
-"the Slow Keys feature, which affects the way your keyboard works."
-msgstr ""
-"คุณเพิ่งกดปุ่ม Shift ค้างไว้แปดวินาที นี่เป็นสัญญาณเรียกใช้การพิมพ์แบบช้า "
-"ซึ่งจะมีผลต่อการทำงานของแป้นพิมพ์"
-
-#: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:521
-#: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:656
-msgid "Universal Access"
-msgstr "การเข้าถึงหลากหลาย"
-
-#: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:527
-#: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:662
-msgid "Turn Off"
-msgstr "ปิด"
-
-#: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:527
-#: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:662
-msgid "Turn On"
-msgstr "เปิด"
-
-#: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:533
-#: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:668
-msgid "Leave On"
-msgstr "เปิดไว้เหมือนเดิม"
-
-#: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:533
-#: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:668
-msgid "Leave Off"
-msgstr "ปิดไว้เหมือนเดิม"
-
-#: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:586
-#: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:724
-msgid "_Turn Off"
-msgstr "ปิ_ด"
-
-#: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:586
-#: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:724
-msgid "_Turn On"
-msgstr "_เปิด"
-
-#: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:589
-#: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:727
-msgid "_Leave On"
-msgstr "เปิดไ_ว้เหมือนเดิม"
-
-#: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:589
-#: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:727
-msgid "_Leave Off"
-msgstr "ปิดไ_ว้เหมือนเดิม"
-
-#: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:632
-#: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:698
-msgid "Sticky Keys Turned On"
-msgstr "เริ่มใช้การค้างปุ่มกด"
-
-#: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:633
-#: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:699
-msgid "Sticky Keys Turned Off"
-msgstr "เลิกใช้การค้างปุ่มกด"
-
-#: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:635
-#: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:701
-msgid ""
-"You just pressed the Shift key 5 times in a row.  This is the shortcut for "
-"the Sticky Keys feature, which affects the way your keyboard works."
-msgstr ""
-"คุณเพิ่งกดปุ่ม Shift ห้าครั้งต่อเนื่องกัน นี่เป็นสัญญาณเรียกใช้การค้างปุ่มกด "
-"ซึ่งจะมีผลต่อการทำงานของแป้นพิมพ์"
-
-#: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:637
-#: plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:703
-msgid ""
-"You just pressed two keys at once, or pressed the Shift key 5 times in a "
-"row.  This turns off the Sticky Keys feature, which affects the way your "
-"keyboard works."
-msgstr ""
-"คุณเพิ่งกดสองปุ่มพร้อมกัน หรือกดปุ่ม Shift ห้าครั้งต่อเนื่องกัน "
-"นี่เป็นสัญญาณสำหรับปิดการค้างปุ่มกด ซึ่งจะมีผลต่อการทำงานของแป้นพิมพ์"
-
-#: plugins/a11y-keyboard/csd-a11y-preferences-dialog.c:410
-msgid "Universal Access Preferences"
-msgstr "ปรับแต่งการเข้าถึงหลากหลาย"
 
 #: plugins/a11y-settings/csd-a11y-settings-manager.c:268
 msgid "Screen reader not found."
@@ -137,7 +35,7 @@ msgstr "กรุณาติดตั้งแพกเกจ 'orca'"
 
 #: plugins/a11y-settings/csd-a11y-settings-manager.c:276
 msgid "Open accessibility settings"
-msgstr "เปิดการตั้งค่าสิ่งอำนวยความสะดวก"
+msgstr "เปิดหน้าตั้งค่าสิ่งอำนวยความสะดวก"
 
 #: plugins/automount/csd-automount-manager.c:150
 #, c-format
@@ -153,9 +51,7 @@ msgstr "ไม่สามารถเปิดโฟลเดอร์สำห
 msgid "Ask what to do"
 msgstr "ถามว่าจะให้ทำอะไร"
 
-#: plugins/automount/csd-autorun.c:352 plugins/wacom/csd-wacom-osd-window.c:952
-#: plugins/wacom/csd-wacom-osd-window.c:972
-#: plugins/wacom/csd-wacom-osd-window.c:983
+#: plugins/automount/csd-autorun.c:352
 msgid "Do Nothing"
 msgstr "ไม่ทำอะไร"
 
@@ -418,6 +314,14 @@ msgid ""
 " <b>%s</b>\n"
 " <b>%s</b>"
 msgstr ""
+"เกิดข้อผิดพลาดขณะเริ่มใช้การตั้งค่า XKB\n"
+"ข้อผิดพลาดดังกล่าวอาจเกิดจากสาเหตุต่างๆ ได้หลายอย่าง\n"
+"\n"
+"ถ้าคุณรายงานสถานการณ์นี้ว่าเป็นจุดบกพร่อง ให้แนบผลลัพธ์ของ\n"
+" <b>%s</b>\n"
+" <b>%s</b>\n"
+" <b>%s</b>\n"
+" <b>%s</b>"
 
 #: plugins/keyboard/csd-keyboard-xkb.c:256
 msgid "_Layouts"
@@ -431,147 +335,147 @@ msgstr "แสดง_ผังแป้นพิมพ์..."
 msgid "Region and Language Settings"
 msgstr "ตั้งค่าภูมิภาคและภาษา"
 
-#: plugins/power/csd-power-manager.c:1085
+#: plugins/power/csd-power-manager.c:1134
 msgid "UPS Discharging"
 msgstr "UPS กำลังจ่ายไฟ"
 
-#: plugins/power/csd-power-manager.c:1090
+#: plugins/power/csd-power-manager.c:1139
 #, c-format
 msgid "%s of UPS backup power remaining"
 msgstr "UPS มีพลังงานสำรองเหลือ %s"
 
-#: plugins/power/csd-power-manager.c:1111
-#: plugins/power/csd-power-manager.c:1331
-#: plugins/power/csd-power-manager.c:1509
-#: plugins/power/csd-power-manager.c:1658
+#: plugins/power/csd-power-manager.c:1160
+#: plugins/power/csd-power-manager.c:1380
+#: plugins/power/csd-power-manager.c:1558
+#: plugins/power/csd-power-manager.c:1707
 msgid "Power"
 msgstr "พลังงาน"
 
-#: plugins/power/csd-power-manager.c:1243
+#: plugins/power/csd-power-manager.c:1292
 msgid "Battery low"
 msgstr "แบตเตอรี่เหลือไฟต่ำ"
 
-#: plugins/power/csd-power-manager.c:1246
+#: plugins/power/csd-power-manager.c:1295
 msgid "Laptop battery low"
 msgstr "แบตเตอรี่แล็ปท็อปเหลือไฟต่ำ"
 
-#: plugins/power/csd-power-manager.c:1253
+#: plugins/power/csd-power-manager.c:1302
 #, c-format
 msgid "Approximately %s remaining (%.0f%%)"
 msgstr "อีกประมาณ %s จะหมด (%.0f%%)"
 
-#: plugins/power/csd-power-manager.c:1258
+#: plugins/power/csd-power-manager.c:1307
 msgid "UPS low"
 msgstr "UPS เหลือไฟต่ำ"
 
-#: plugins/power/csd-power-manager.c:1264
+#: plugins/power/csd-power-manager.c:1313
 #, c-format
 msgid "Approximately %s of remaining UPS backup power (%.0f%%)"
 msgstr "UPS มีพลังงานสำรองเหลืออยู่ประมาณ %s (%.0f%%)"
 
-#: plugins/power/csd-power-manager.c:1269
-#: plugins/power/csd-power-manager.c:1434
+#: plugins/power/csd-power-manager.c:1318
+#: plugins/power/csd-power-manager.c:1483
 msgid "Mouse battery low"
 msgstr "เมาส์เหลือไฟต่ำ"
 
-#: plugins/power/csd-power-manager.c:1272
+#: plugins/power/csd-power-manager.c:1321
 msgid "Wireless mouse is low in power"
-msgstr ""
+msgstr "เมาส์ไร้สายเหลือไฟต่ำ"
 
-#: plugins/power/csd-power-manager.c:1276
-#: plugins/power/csd-power-manager.c:1441
+#: plugins/power/csd-power-manager.c:1325
+#: plugins/power/csd-power-manager.c:1490
 msgid "Keyboard battery low"
 msgstr "แป้นพิมพ์เหลือไฟต่ำ"
 
-#: plugins/power/csd-power-manager.c:1279
+#: plugins/power/csd-power-manager.c:1328
 msgid "Wireless keyboard is low in power"
-msgstr ""
+msgstr "แป้นพิมพ์ไร้สายเหลือไฟต่ำ"
 
-#: plugins/power/csd-power-manager.c:1283
-#: plugins/power/csd-power-manager.c:1449
+#: plugins/power/csd-power-manager.c:1332
+#: plugins/power/csd-power-manager.c:1498
 msgid "PDA battery low"
 msgstr "แบตเตอรี่ PDA เหลือไฟต่ำ"
 
-#: plugins/power/csd-power-manager.c:1286
+#: plugins/power/csd-power-manager.c:1335
 #, c-format
 msgid "PDA is low in power (%.0f%%)"
 msgstr "แบตเตอรี่ PDA เหลือพลังงานต่ำ (%.0f%%)"
 
-#: plugins/power/csd-power-manager.c:1290
-#: plugins/power/csd-power-manager.c:1459
-#: plugins/power/csd-power-manager.c:1469
+#: plugins/power/csd-power-manager.c:1339
+#: plugins/power/csd-power-manager.c:1508
+#: plugins/power/csd-power-manager.c:1518
 msgid "Cell phone battery low"
 msgstr "โทรศัพท์มือถือเหลือไฟต่ำ"
 
-#: plugins/power/csd-power-manager.c:1293
+#: plugins/power/csd-power-manager.c:1342
 #, c-format
 msgid "Cell phone is low in power (%.0f%%)"
 msgstr "โทรศัพท์มือถือเหลือพลังงานต่ำ (%.0f%%)"
 
-#: plugins/power/csd-power-manager.c:1297
+#: plugins/power/csd-power-manager.c:1346
 msgid "Media player battery low"
 msgstr "เครื่องเล่นสื่อเหลือไฟต่ำ"
 
-#: plugins/power/csd-power-manager.c:1300
+#: plugins/power/csd-power-manager.c:1349
 #, c-format
 msgid "Media player is low in power (%.0f%%)"
 msgstr "เครื่องเล่นสื่อเหลือพลังงานต่ำ (%.0f%%)"
 
-#: plugins/power/csd-power-manager.c:1304
-#: plugins/power/csd-power-manager.c:1478
+#: plugins/power/csd-power-manager.c:1353
+#: plugins/power/csd-power-manager.c:1527
 msgid "Tablet battery low"
 msgstr "แท็บเล็ตเหลือไฟต่ำ"
 
-#: plugins/power/csd-power-manager.c:1307
+#: plugins/power/csd-power-manager.c:1356
 #, c-format
 msgid "Tablet is low in power (%.0f%%)"
 msgstr "แท็บเล็ตเหลือพลังงานต่ำ (%.0f%%)"
 
-#: plugins/power/csd-power-manager.c:1311
-#: plugins/power/csd-power-manager.c:1487
+#: plugins/power/csd-power-manager.c:1360
+#: plugins/power/csd-power-manager.c:1536
 msgid "Attached computer battery low"
 msgstr "คอมพิวเตอร์ที่เชื่อมต่ออยู่เหลือไฟต่ำ"
 
-#: plugins/power/csd-power-manager.c:1314
+#: plugins/power/csd-power-manager.c:1363
 #, c-format
 msgid "Attached computer is low in power (%.0f%%)"
 msgstr "คอมพิวเตอร์ที่เชื่อมต่ออยู่เหลือพลังงานต่ำ (%.0f%%)"
 
-#: plugins/power/csd-power-manager.c:1348
+#: plugins/power/csd-power-manager.c:1397
 msgid "Battery is low"
 msgstr "แบตเตอรี่เหลือไฟต่ำ"
 
-#: plugins/power/csd-power-manager.c:1390
+#: plugins/power/csd-power-manager.c:1439
 msgid "Battery critically low"
 msgstr "แบตเตอรี่เหลือพลังงานต่ำถึงขั้นวิกฤติ"
 
-#: plugins/power/csd-power-manager.c:1393
-#: plugins/power/csd-power-manager.c:1574
+#: plugins/power/csd-power-manager.c:1442
+#: plugins/power/csd-power-manager.c:1623
 msgid "Laptop battery critically low"
 msgstr "แบตเตอรี่แล็ปท็อปเหลือพลังงานต่ำถึงขั้นวิกฤติ"
 
-#: plugins/power/csd-power-manager.c:1402
+#: plugins/power/csd-power-manager.c:1451
 msgid "Plug in your AC adapter to avoid losing data."
 msgstr "กรุณาต่อที่แปลงไฟ AC เพื่อป้องกันการสูญเสียข้อมูล"
 
-#: plugins/power/csd-power-manager.c:1406
+#: plugins/power/csd-power-manager.c:1455
 msgid "Computer will suspend very soon unless it is plugged in."
 msgstr "คอมพิวเตอร์จะพักเครื่องเร็วๆ นี้ ถ้าไม่เสียบปลั๊ก"
 
-#: plugins/power/csd-power-manager.c:1410
+#: plugins/power/csd-power-manager.c:1459
 msgid "Computer will hibernate very soon unless it is plugged in."
 msgstr "คอมพิวเตอร์จะจำศีลเร็วๆ นี้ ถ้าไม่เสียบปลั๊ก"
 
-#: plugins/power/csd-power-manager.c:1414
+#: plugins/power/csd-power-manager.c:1463
 msgid "Computer will shutdown very soon unless it is plugged in."
 msgstr "คอมพิวเตอร์จะปิดระบบเร็วๆ นี้ ถ้าไม่เสียบปลั๊ก"
 
-#: plugins/power/csd-power-manager.c:1422
-#: plugins/power/csd-power-manager.c:1610
+#: plugins/power/csd-power-manager.c:1471
+#: plugins/power/csd-power-manager.c:1659
 msgid "UPS critically low"
 msgstr "UPS เหลือพลังงานต่ำถึงขั้นวิกฤติ"
 
-#: plugins/power/csd-power-manager.c:1428
+#: plugins/power/csd-power-manager.c:1477
 #, c-format
 msgid ""
 "Approximately %s of remaining UPS power (%.0f%%). Restore AC power to your "
@@ -580,47 +484,57 @@ msgstr ""
 "UPS เหลือพลังงานประมาณ %s (%.0f%%) กรุณาป้อนไฟ AC "
 "ให้คอมพิวเตอร์ของคุณเพื่อป้องกันการสูญเสียข้อมูล"
 
-#: plugins/power/csd-power-manager.c:1437
+#: plugins/power/csd-power-manager.c:1486
 msgid ""
 "Wireless mouse is very low in power. This device will soon stop functioning "
 "if not charged."
 msgstr ""
+"เมาส์ไร้สายเหลือพลังงานต่ำมาก อุปกรณ์นี้จะหยุดทำงานเร็วๆ นี้ ถ้าไม่ประจุไฟ"
 
-#: plugins/power/csd-power-manager.c:1444
+#: plugins/power/csd-power-manager.c:1493
 msgid ""
 "Wireless keyboard is very low in power. This device will soon stop "
 "functioning if not charged."
 msgstr ""
+"แป้นพิมพ์ไร้สายเหลือพลังงานต่ำมาก อุปกรณ์นี้จะหยุดทำงานเร็วๆ นี้ "
+"ถ้าไม่ประจุไฟ"
 
-#: plugins/power/csd-power-manager.c:1452
+#: plugins/power/csd-power-manager.c:1501
 #, c-format
 msgid ""
 "PDA is very low in power (%.0f%%). This device will soon stop functioning if "
 "not charged."
 msgstr ""
+"PDA เหลือพลังงานต่ำมาก (%.0f%%) อุปกรณ์นี้จะหยุดทำงานเร็วๆ นี้ ถ้าไม่ประจุไฟ"
 
-#: plugins/power/csd-power-manager.c:1462
+#: plugins/power/csd-power-manager.c:1511
 #, c-format
 msgid ""
 "Cell phone is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
 msgstr ""
+"โทรศัพท์มือถือเหลือพลังงานต่ำมาก (%.0f%%) อุปกรณ์นี้จะหยุดทำงานเร็วๆ นี้ "
+"ถ้าไม่ประจุไฟ"
 
-#: plugins/power/csd-power-manager.c:1472
+#: plugins/power/csd-power-manager.c:1521
 #, c-format
 msgid ""
 "Media player is very low in power (%.0f%%). This device will soon stop "
 "functioning if not charged."
 msgstr ""
+"เครื่องเล่นสื่อเหลือพลังงานต่ำมาก (%.0f%%) อุปกรณ์นี้จะหยุดทำงานเร็วๆ นี้ "
+"ถ้าไม่ประจุไฟ"
 
-#: plugins/power/csd-power-manager.c:1481
+#: plugins/power/csd-power-manager.c:1530
 #, c-format
 msgid ""
 "Tablet is very low in power (%.0f%%). This device will soon stop functioning "
 "if not charged."
 msgstr ""
+"แท็บเล็ตเหลือพลังงานต่ำมาก (%.0f%%) อุปกรณ์นี้จะหยุดทำงานเร็วๆ นี้ "
+"ถ้าไม่ประจุไฟ"
 
-#: plugins/power/csd-power-manager.c:1490
+#: plugins/power/csd-power-manager.c:1539
 #, c-format
 msgid ""
 "Attached computer is very low in power (%.0f%%). The device will soon "
@@ -629,13 +543,13 @@ msgstr ""
 "คอมพิวเตอร์ที่เชื่อมต่ออยู่เหลือพลังงานต่ำมาก (%.0f%%) "
 "อุปกรณ์นี้จะปิดตัวเร็วๆ นี้ ถ้าไม่ประจุไฟ"
 
-#: plugins/power/csd-power-manager.c:1527
-#: plugins/power/csd-power-manager.c:1537
-#: plugins/power/csd-power-manager.c:1673
+#: plugins/power/csd-power-manager.c:1576
+#: plugins/power/csd-power-manager.c:1586
+#: plugins/power/csd-power-manager.c:1722
 msgid "Battery is critically low"
 msgstr "แบตเตอรี่เหลือพลังงานต่ำถึงขั้นวิกฤติ"
 
-#: plugins/power/csd-power-manager.c:1582
+#: plugins/power/csd-power-manager.c:1631
 msgid ""
 "The battery is below the critical level and this computer will <b>power-"
 "off</b> when the battery becomes completely empty."
@@ -643,7 +557,7 @@ msgstr ""
 "แบตเตอรี่เหลือพลังงานต่ำกว่าขีดวิกฤติ และคอมพิวเตอร์นี้จะ <b>ปิด</b> "
 "เมื่อพลังงานแบตเตอรี่หมดเกลี้ยง"
 
-#: plugins/power/csd-power-manager.c:1588
+#: plugins/power/csd-power-manager.c:1637
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "suspend.\n"
@@ -654,20 +568,20 @@ msgstr ""
 "<b>หมายเหตุ:</b> "
 "จะต้องใช้พลังงานอีกเล็กน้อยในการรักษาสถานะพักเครื่องของคอมพิวเตอร์"
 
-#: plugins/power/csd-power-manager.c:1595
+#: plugins/power/csd-power-manager.c:1644
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "hibernate."
 msgstr "แบตเตอรี่เหลือพลังงานต่ำกว่าขีดวิกฤติ และคอมพิวเตอร์นี้กำลังจะจำศีล"
 
-#: plugins/power/csd-power-manager.c:1600
+#: plugins/power/csd-power-manager.c:1649
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "shutdown."
 msgstr ""
 "แบตเตอรี่เหลือพลังงานต่ำกว่าขีดวิกฤติ และคอมพิวเตอร์นี้กำลังจะปิดระบบ"
 
-#: plugins/power/csd-power-manager.c:1618
+#: plugins/power/csd-power-manager.c:1667
 msgid ""
 "UPS is below the critical level and this computer will <b>power-off</b> when "
 "the UPS becomes completely empty."
@@ -675,25 +589,25 @@ msgstr ""
 "UPS เหลือพลังงานต่ำกว่าขีดวิกฤติ และคอมพิวเตอร์นี้จะ <b>ปิด</b> เมื่อพลังงาน "
 "UPS หมดเกลี้ยง"
 
-#: plugins/power/csd-power-manager.c:1624
+#: plugins/power/csd-power-manager.c:1673
 msgid ""
 "UPS is below the critical level and this computer is about to hibernate."
 msgstr "UPS เหลือพลังงานต่ำกว่าขีดวิกฤติ และคอมพิวเตอร์นี้กำลังจะจำศีล"
 
-#: plugins/power/csd-power-manager.c:1629
+#: plugins/power/csd-power-manager.c:1678
 msgid ""
 "UPS is below the critical level and this computer is about to shutdown."
 msgstr "UPS เหลือพลังงานต่ำกว่าขีดวิกฤติ และคอมพิวเตอร์นี้กำลังจะปิดระบบ"
 
-#: plugins/power/csd-power-manager.c:2218
+#: plugins/power/csd-power-manager.c:2278
 msgid "Lid has been opened"
 msgstr "ฝาเครื่องเปิด"
 
-#: plugins/power/csd-power-manager.c:2363
+#: plugins/power/csd-power-manager.c:2423
 msgid "Lid has been closed"
 msgstr "ฝาเครื่องปิด"
 
-#: plugins/power/csd-power-manager.c:4284
+#: plugins/power/csd-power-manager.c:4366
 msgid "Power Manager"
 msgstr "เครื่องมือจัดการพลังงาน"
 
@@ -895,14 +809,12 @@ msgstr[0] "คอมพิวเตอร์"
 #: plugins/power/gpm-common.c:651
 msgid "Game controller"
 msgid_plural "Game controllers"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "อุปกรณ์ควบคุมเกม"
 
 #: plugins/power/gpm-common.c:655
 msgid "Unknown device"
 msgid_plural "Unknown devices"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "อุปกรณ์ไม่ทราบชนิด"
 
 #: plugins/power/gpm-common.c:726
 msgid "Lithium Ion"
@@ -946,7 +858,7 @@ msgstr "กำลังรอจ่ายไฟ"
 
 #: plugins/power/gpm-common.c:792
 msgid "Unknown"
-msgstr ""
+msgstr "ไม่ทราบ"
 
 #: plugins/power/gpm-common.c:821
 msgid "Laptop battery not present"
@@ -1106,19 +1018,19 @@ msgstr "คอมพิวเตอร์ประจุไฟเต็มแล
 
 #: plugins/power/gpm-common.c:1023
 msgid "Game controller is charging"
-msgstr ""
+msgstr "อุปกรณ์ควบคุมเกมกำลังประจุไฟ"
 
 #: plugins/power/gpm-common.c:1027
 msgid "Game controller is discharging"
-msgstr ""
+msgstr "อุปกรณ์ควบคุมเกมกำลังจ่ายไฟ"
 
 #: plugins/power/gpm-common.c:1031
 msgid "Game controller is empty"
-msgstr ""
+msgstr "อุปกรณ์ควบคุมเกมไม่มีประจุเหลืออยู่"
 
 #: plugins/power/gpm-common.c:1035
 msgid "Game controller is charged"
-msgstr ""
+msgstr "อุปกรณ์ควบคุมเกมประจุไฟเต็มแล้ว"
 
 #: plugins/print-notifications/csd-printer.c:890
 msgid "Configuring new printer"
@@ -1265,7 +1177,7 @@ msgstr "เพิ่มเครื่องพิมพ์แล้ว"
 #: plugins/print-notifications/csd-print-notifications-manager.c:524
 #: plugins/print-notifications/csd-print-notifications-manager.c:562
 msgid "Printing stopped"
-msgstr ""
+msgstr "หยุดงานพิมพ์แล้ว"
 
 #: plugins/print-notifications/csd-print-notifications-manager.c:526
 #: plugins/print-notifications/csd-print-notifications-manager.c:532
@@ -1279,27 +1191,27 @@ msgstr ""
 #: plugins/print-notifications/csd-print-notifications-manager.c:601
 #, c-format
 msgid "'%s' on %s"
-msgstr ""
+msgstr "'%s' บน %s"
 
 #: plugins/print-notifications/csd-print-notifications-manager.c:530
 #: plugins/print-notifications/csd-print-notifications-manager.c:570
 msgid "Printing canceled"
-msgstr ""
+msgstr "ยกเลิกงานพิมพ์แล้ว"
 
 #: plugins/print-notifications/csd-print-notifications-manager.c:536
 #: plugins/print-notifications/csd-print-notifications-manager.c:578
 msgid "Printing aborted"
-msgstr ""
+msgstr "เลิกพิมพ์งานพิมพ์แล้ว"
 
 #: plugins/print-notifications/csd-print-notifications-manager.c:542
 #: plugins/print-notifications/csd-print-notifications-manager.c:586
 msgid "Printing completed"
-msgstr ""
+msgstr "งานพิมพ์เสร็จสมบูรณ์"
 
 #: plugins/print-notifications/csd-print-notifications-manager.c:554
 #: plugins/print-notifications/csd-print-notifications-manager.c:599
 msgid "Printing"
-msgstr ""
+msgstr "กำลังพิมพ์"
 
 #: plugins/print-notifications/csd-print-notifications-manager.c:816
 msgid "Printer report"
@@ -1339,146 +1251,3 @@ msgstr "ไม่สามารถเฝ้าสังเกตเหตุก
 #: plugins/smartcard/csd-smartcard-manager.c:1275
 msgid "encountered unexpected error while waiting for smartcard events"
 msgstr "พบข้อผิดพลาดที่ไม่คาดหมายระหว่างรอเหตุการณ์สมาร์ตการ์ด"
-
-#: plugins/wacom/csd-wacom-device.c:1082
-msgid "Left Ring"
-msgstr "วงแหวนสัมผัสซ้าย"
-
-#: plugins/wacom/csd-wacom-device.c:1092
-#, c-format
-msgid "Left Ring Mode #%d"
-msgstr "โหมดวงแหวนสัมผัสซ้าย #%d"
-
-#: plugins/wacom/csd-wacom-device.c:1111
-msgid "Right Ring"
-msgstr "วงแหวนสัมผัสขวา"
-
-#: plugins/wacom/csd-wacom-device.c:1121
-#, c-format
-msgid "Right Ring Mode #%d"
-msgstr "โหมดวงแหวนสัมผัสขวา #%d"
-
-#: plugins/wacom/csd-wacom-device.c:1162
-msgid "Left Touchstrip"
-msgstr "แถบสัมผัสซ้าย"
-
-#: plugins/wacom/csd-wacom-device.c:1172
-#, c-format
-msgid "Left Touchstrip Mode #%d"
-msgstr "โหมดแถบสัมผัสซ้าย #%d"
-
-#: plugins/wacom/csd-wacom-device.c:1191
-msgid "Right Touchstrip"
-msgstr "แถบสัมผัสขวา"
-
-#: plugins/wacom/csd-wacom-device.c:1201
-#, c-format
-msgid "Right Touchstrip Mode #%d"
-msgstr "โหมดแถบสัมผัสขวา #%d"
-
-#: plugins/wacom/csd-wacom-device.c:1226
-msgid "Left Touchring Mode Switch"
-msgstr "ปุ่มเปลี่ยนโหมดวงแหวนสัมผัสซ้าย"
-
-#: plugins/wacom/csd-wacom-device.c:1228
-msgid "Right Touchring Mode Switch"
-msgstr "ปุ่มเปลี่ยนโหมดวงแหวนสัมผัสขวา"
-
-#: plugins/wacom/csd-wacom-device.c:1231
-msgid "Left Touchstrip Mode Switch"
-msgstr "ปุ่มเปลี่ยนโหมดแถบสัมผัสซ้าย"
-
-#: plugins/wacom/csd-wacom-device.c:1233
-msgid "Right Touchstrip Mode Switch"
-msgstr "ปุ่มเปลี่ยนโหมดแถบสัมผัสขวา"
-
-#: plugins/wacom/csd-wacom-device.c:1238
-#, c-format
-msgid "Mode Switch #%d"
-msgstr "ปุ่มเปลี่ยนโหมด #%d"
-
-#: plugins/wacom/csd-wacom-device.c:1342
-#, c-format
-msgid "Left Button #%d"
-msgstr "ปุ่มซ้าย #%d"
-
-#: plugins/wacom/csd-wacom-device.c:1345
-#, c-format
-msgid "Right Button #%d"
-msgstr "ปุ่มขวา #%d"
-
-#: plugins/wacom/csd-wacom-device.c:1348
-#, c-format
-msgid "Top Button #%d"
-msgstr "ปุ่มบน #%d"
-
-#: plugins/wacom/csd-wacom-device.c:1351
-#, c-format
-msgid "Bottom Button #%d"
-msgstr "ปุ่มล่าง #%d"
-
-#: plugins/wacom/csd-wacom-osd-window.c:957
-#, c-format
-msgid "Send Keystroke %s"
-msgstr ""
-
-#: plugins/wacom/csd-wacom-osd-window.c:975
-msgid "Show On-Screen Help"
-msgstr ""
-
-#: plugins/wacom/csd-wacom-osd-window.c:978
-msgid "Switch Monitor"
-msgstr ""
-
-#: plugins/wacom/csd-wacom-osd-window.c:1016
-#, c-format
-msgid "Mode %d: %s"
-msgstr "โหมด %d: %s"
-
-#: plugins/xrandr/csd-xrandr-manager.c:539
-msgid "Could not restore the display's configuration"
-msgstr "ไม่สามารถเรียกคืนค่าตั้งของจอแสดงผลได้"
-
-#: plugins/xrandr/csd-xrandr-manager.c:564
-msgid "Could not restore the display's configuration from a backup"
-msgstr "ไม่สามารถเรียกคืนค่าตั้งของจอแสดงผลจากข้อมูลที่สำรองไว้ได้"
-
-#: plugins/xrandr/csd-xrandr-manager.c:585
-#, c-format
-msgid "The display will be reset to its previous configuration in %d second"
-msgid_plural ""
-"The display will be reset to its previous configuration in %d seconds"
-msgstr[0] "จอแสดงผลจะคืนค่าสู่ค่าตั้งก่อนหน้านี้ภายใน %d วินาที"
-
-#: plugins/xrandr/csd-xrandr-manager.c:634
-msgid "Does the display look OK?"
-msgstr "จอแสดงผลดูใช้ได้หรือยัง?"
-
-#: plugins/xrandr/csd-xrandr-manager.c:640
-msgid "Confirm New Configuration"
-msgstr "ยืนยันค่ากำหนดใหม่"
-
-#: plugins/xrandr/csd-xrandr-manager.c:642
-msgid "_Restore Previous Configuration"
-msgstr "เ_รียกคืนค่าตั้งก่อนหน้า"
-
-#: plugins/xrandr/csd-xrandr-manager.c:643
-msgid "_Keep This Configuration"
-msgstr "ใ_ช้ค่าตั้งนี้"
-
-#: plugins/xrandr/csd-xrandr-manager.c:724
-msgid "The selected configuration for displays could not be applied"
-msgstr "ไม่สามารถเริ่มใช้ค่าตั้งจอแสดงผลที่เลือก"
-
-#: plugins/xrandr/csd-xrandr-manager.c:1450
-#, c-format
-msgid "Could not refresh the screen information: %s"
-msgstr "ไม่สามารถปรับแสดงข้อมูลของหน้าจอ: %s"
-
-#: plugins/xrandr/csd-xrandr-manager.c:1454
-msgid "Trying to switch the monitor configuration anyway."
-msgstr "จะพยายามเปลี่ยนค่าตั้งของจอภาพต่อไป"
-
-#: plugins/xrandr/csd-xrandr-manager.c:1956
-msgid "Could not apply the stored configuration for monitors"
-msgstr "ไม่สามารถเริ่มใช้ค่าตั้งของจอภาพที่บันทึกไว้"

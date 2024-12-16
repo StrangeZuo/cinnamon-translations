@@ -13,179 +13,92 @@ msgstr ""
 "Report-Msgid-Bugs-To: "
 "http://bugzilla.gnome.org/enter_bug.cgi?product=cinnamon-"
 "session&component=general\n"
-"POT-Creation-Date: 2017-10-23 14:05+0100\n"
-"PO-Revision-Date: 2017-09-06 11:12+0000\n"
-"Last-Translator: Clement Lefebvre <root@linuxmint.com>\n"
+"POT-Creation-Date: 2023-11-19 14:25+0000\n"
+"PO-Revision-Date: 2024-07-11 12:27+0000\n"
+"Last-Translator: Anthony Guechoum <a.guechoum@gmail.com>\n"
 "Language-Team: Brenux <brenux@free.fr>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Launchpad-Export-Date: 2021-06-25 10:38+0000\n"
-"X-Generator: Launchpad (build 40cc6dba4163ba9ca785b26ad91f43c87d70ba4d)\n"
+"X-Launchpad-Export-Date: 2024-07-21 09:00+0000\n"
+"X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
 
-#: cinnamon-session/csm-inhibit-dialog.c:251
-#, c-format
-msgid "Icon '%s' not found"
-msgstr "N'eo ket bet kavet an arlun '%s'"
+#: cinnamon-session-quit/cinnamon-session-quit.py:57
+msgid "Log out"
+msgstr "Dilugañ"
 
-#: cinnamon-session/csm-inhibit-dialog.c:586
-msgid "Unknown"
-msgstr "Dianav"
+#: cinnamon-session-quit/cinnamon-session-quit.py:59
+msgid "Power off"
+msgstr "Lazhañ"
 
-#: cinnamon-session/csm-inhibit-dialog.c:637
-msgid "A program is still running:"
-msgstr "Ur goulev a labour c'hoazh:"
-
-#: cinnamon-session/csm-inhibit-dialog.c:638 data/csm-inhibit-dialog.glade.h:2
-msgid ""
-"Waiting for the program to finish.  Interrupting the program may cause you "
-"to lose work."
+#: cinnamon-session-quit/cinnamon-session-quit.py:63
+msgid "Ignoring any existing inhibitors"
 msgstr ""
 
-#: cinnamon-session/csm-inhibit-dialog.c:641 data/csm-inhibit-dialog.glade.h:1
-msgid "Some programs are still running:"
-msgstr "Gouleviù a labour c'hoazh:"
-
-#: cinnamon-session/csm-inhibit-dialog.c:642
-msgid ""
-"Waiting for programs to finish.  Interrupting these programs may cause you "
-"to lose work."
-msgstr "Gortoz arload echu. Un arsav a riskle da goll roadennoù bennak."
-
-#: cinnamon-session/csm-inhibit-dialog.c:872
-msgid "Switch User Anyway"
-msgstr "Kemmañ an arveriad memes tra"
-
-#: cinnamon-session/csm-inhibit-dialog.c:875
-msgid "Log Out Anyway"
+#: cinnamon-session-quit/cinnamon-session-quit.py:65
+msgid "Don't prompt for user confirmation"
 msgstr ""
 
-#: cinnamon-session/csm-inhibit-dialog.c:878
-msgid "Suspend Anyway"
-msgstr "Lakaat da gousket memes tra"
+#: cinnamon-session-quit/cinnamon-session-quit.py:245
+msgid "Log out of this system now?"
+msgstr "En em dilugañ eus ar reizhiad bremañ ?"
 
-#: cinnamon-session/csm-inhibit-dialog.c:881
-msgid "Hibernate Anyway"
-msgstr "Goañviñ memes tra"
+#: cinnamon-session-quit/cinnamon-session-quit.py:251
+msgid "Shut down this system now?"
+msgstr "Lazhañ ar reizhiad-mañ bremañ ?"
 
-#: cinnamon-session/csm-inhibit-dialog.c:884
-msgid "Shut Down Anyway"
-msgstr ""
+#: cinnamon-session-quit/cinnamon-session-quit.py:263
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:10
+msgid "Restart this system now?"
+msgstr "Adloc'hañ ar reizhiad-mañ bremañ ?"
 
-#: cinnamon-session/csm-inhibit-dialog.c:887
-msgid "Restart Anyway"
-msgstr ""
-
-#: cinnamon-session/csm-inhibit-dialog.c:895
-msgid "Lock Screen"
-msgstr "Prennañ ar skramm"
-
-#: cinnamon-session/csm-inhibit-dialog.c:898
-msgid "Cancel"
-msgstr "Nullañ"
-
-#: cinnamon-session/csm-logout-dialog.c:257
+#: cinnamon-session-quit/cinnamon-session-quit.py:312
 #, c-format
 msgid "You will be automatically logged out in %d second."
 msgid_plural "You will be logged out in %d seconds."
 msgstr[0] ""
 msgstr[1] ""
 
-#: cinnamon-session/csm-logout-dialog.c:265
+#: cinnamon-session-quit/cinnamon-session-quit.py:318
 #, c-format
 msgid "This system will be automatically shut down in %d second."
 msgid_plural "This system will be shut down in %d seconds."
 msgstr[0] ""
-msgstr[1] ""
+"En em lazhañ a raio ar reizhiad-mañ ez-emgefreek a-benn %d eilenn."
+msgstr[1] "Ar reizhiad-mañ a vo lazhet a-benn %d eilenn."
 
-#: cinnamon-session/csm-logout-dialog.c:273
+#: cinnamon-session-quit/cinnamon-session-quit.py:324
 #, c-format
 msgid "This system will be automatically restarted in %d second."
 msgid_plural "This system will be restarted in %d seconds."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Adloc'het e vo ar reizhiad-mañ  ez-emgefreek a-benn %d eilenn."
+msgstr[1] "Adloc'het e vo ar reizhiad-mañ a-benn %d eilenn."
 
-#: cinnamon-session/csm-logout-dialog.c:297
-#, c-format
-msgid "You are currently logged in as \"%s\"."
-msgstr "Kennasket oc'h emgefre a-vremañ e-giz \"%s\"."
-
-#: cinnamon-session/csm-logout-dialog.c:359
-msgid "Session"
-msgstr ""
-
-#: cinnamon-session/csm-logout-dialog.c:374
-msgid "Log out of this system now?"
-msgstr "En em dilugañ eus ar reizhiad bremañ ?"
-
-#: cinnamon-session/csm-logout-dialog.c:380
-msgid "_Switch User"
-msgstr "_Kemmañ an arveriad"
-
-#: cinnamon-session/csm-logout-dialog.c:385
-#: cinnamon-session/csm-logout-dialog.c:418
-#: cinnamon-session/csm-logout-dialog.c:434
-msgid "_Cancel"
-msgstr ""
-
-#: cinnamon-session/csm-logout-dialog.c:389 cinnamon-session/csm-util.c:429
-msgid "_Log Out"
-msgstr "Di_lugañ"
-
-#: cinnamon-session/csm-logout-dialog.c:395
-msgid "Shut down this system now?"
-msgstr "Lazhañ ar reizhiad bremañ ?"
-
-#: cinnamon-session/csm-logout-dialog.c:401
-msgid "S_uspend"
-msgstr "L_akaat da gousket"
-
-#: cinnamon-session/csm-logout-dialog.c:407
-msgid "_Hibernate"
-msgstr "_Goañviñ"
-
-#: cinnamon-session/csm-logout-dialog.c:413
-#: cinnamon-session/csm-logout-dialog.c:439
-msgid "_Restart"
-msgstr "_Adloc'hañ"
-
-#: cinnamon-session/csm-logout-dialog.c:423
-msgid "_Shut Down"
-msgstr "_Lazhañ"
-
-#: cinnamon-session/csm-logout-dialog.c:429
-msgid "Restart this system now?"
-msgstr ""
-
-#: cinnamon-session/csm-manager.c:1490 cinnamon-session/csm-manager.c:2271
+#: cinnamon-session/csm-manager.c:1436 cinnamon-session/csm-manager.c:3146
 msgid "Not responding"
 msgstr "Respont ebet"
 
 #: cinnamon-session/csm-process-helper.c:123
 #, c-format
 msgid "Exited with code %d"
-msgstr ""
+msgstr "Kuitaet gant ar c'hod %d"
 
 #: cinnamon-session/csm-process-helper.c:128
 #, c-format
 msgid "Killed by signal %d"
-msgstr ""
+msgstr "Bet lazhet gant an arhent %d"
 
 #: cinnamon-session/csm-process-helper.c:133
 #, c-format
 msgid "Stopped by signal %d"
-msgstr ""
+msgstr "Paouezet gant an arhent %d"
 
-#: cinnamon-session/csm-util.c:413
-msgid "Unable to start login session (and unable to connect to the X server)"
-msgstr "N'eus ket tu da lañsañ an estez (ha kennaskañ ouzh an dafariad X)"
-
-#: cinnamon-session/csm-xsmp-client.c:559
+#: cinnamon-session/csm-xsmp-client.c:558
 msgid "Remembered Application"
 msgstr ""
 
-#: cinnamon-session/csm-xsmp-client.c:1198
+#: cinnamon-session/csm-xsmp-client.c:1197
 msgid "This program is blocking logout."
 msgstr ""
 
@@ -201,127 +114,88 @@ msgstr ""
 msgid "Could not create ICE listening socket: %s"
 msgstr "N'eus ket tu da grouiñ ur soked selaou ICE : %s"
 
-#: cinnamon-session/main.c:243
+#: cinnamon-session/inhibit-dialog-info.c:131
+msgid "Unknown"
+msgstr "Dianav"
+
+#: cinnamon-session/main.c:209
 msgid "Override standard autostart directories"
 msgstr "Erlec'hiañ kavlec'hioù autostart skoueriek"
 
-#: cinnamon-session/main.c:243
+#: cinnamon-session/main.c:209
 msgid "AUTOSTART_DIR"
 msgstr ""
 
-#: cinnamon-session/main.c:244
+#: cinnamon-session/main.c:210
 msgid "Session to use"
-msgstr ""
+msgstr "Estez da implijout"
 
-#: cinnamon-session/main.c:244
+#: cinnamon-session/main.c:210
 msgid "SESSION_NAME"
-msgstr ""
+msgstr "ANV_ESTEZ"
 
-#: cinnamon-session/main.c:245
+#: cinnamon-session/main.c:211
 msgid "Enable debugging code"
 msgstr "Gweredekaat ar boneg diveugañ"
 
-#: cinnamon-session/main.c:246
+#: cinnamon-session/main.c:212
 msgid "Do not load user-specified applications"
 msgstr "Ne garg ket an arloadoù goulennet gant an arveriad"
 
-#: cinnamon-session/main.c:247
+#: cinnamon-session/main.c:213
 msgid "Version of this application"
-msgstr ""
+msgstr "Handelv an arload-mañ"
 
-#: cinnamon-session/main.c:249
+#: cinnamon-session/main.c:215
 msgid "Show the fail whale dialog for testing"
 msgstr ""
 
-#: cinnamon-session/main.c:278
+#: cinnamon-session/main.c:246
 msgid " - the Cinnamon session manager"
 msgstr " - ardoer estezioù Cinnamon"
 
-#: tools/cinnamon-session-quit.c:53
-msgid "Log out"
-msgstr "Dilugañ"
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:1
+msgid "Session"
+msgstr "Estez"
 
-#: tools/cinnamon-session-quit.c:54
-msgid "Power off"
-msgstr ""
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:2
+msgid "S_uspend"
+msgstr "L_akaat da gousket"
 
-#: tools/cinnamon-session-quit.c:55
-msgid "Reboot"
-msgstr ""
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:3
+msgid "_Hibernate"
+msgstr "_Goañviñ"
 
-#: tools/cinnamon-session-quit.c:56
-msgid "Ignoring any existing inhibitors"
-msgstr ""
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:4
+msgid "_Switch User"
+msgstr "_Kemmañ an arveriad"
 
-#: tools/cinnamon-session-quit.c:57
-msgid "Don't prompt for user confirmation"
-msgstr ""
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:5
+msgid "_Cancel"
+msgstr "_Nullañ"
 
-#: tools/cinnamon-session-quit.c:91 tools/cinnamon-session-quit.c:101
-msgid "Could not connect to the session manager"
-msgstr "N'haller ket en em gennaskañ ouzh an ardoer estezioù"
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:6
+msgid "_Restart"
+msgstr "_Adloc'hañ"
 
-#: tools/cinnamon-session-quit.c:203
-msgid "Program called with conflicting options"
-msgstr "Goulev galvet gant dibarzhioù tabutek"
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:7
+msgid "_Log Out"
+msgstr "Di_lugañ"
 
-#: egg/eggdesktopfile.c:165
-msgid "File is not a valid .desktop file"
-msgstr "N'eo ket ur restr mod .desktop talvoudek"
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:8
+msgid "_Shut Down"
+msgstr "_Lazhañ"
 
-#: egg/eggdesktopfile.c:191
-#, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr "Handelv '%s' restr ar burev n'eo ket bet anavezet"
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:9
+msgid "_Ignore and continue"
+msgstr "_Leuskel a-gostez ha kenderc'hel"
 
-#: egg/eggdesktopfile.c:973
-#, c-format
-msgid "Starting %s"
-msgstr "O kregiñ gant %s"
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:11
+msgid "Some programs are still running:"
+msgstr "Gouleviù a labour c'hoazh:"
 
-#: egg/eggdesktopfile.c:1114
-msgid "Application does not accept documents on command line"
-msgstr "An arload ne zedegemer ket an teulioù dre arroudennoù arc'had"
-
-#: egg/eggdesktopfile.c:1182
-#, c-format
-msgid "Unrecognized launch option: %d"
-msgstr "Dibarzh lañsañ dianavezet : %d"
-
-#: egg/eggdesktopfile.c:1383
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr ""
-"N'haller lakaat URIoù an teul da dremen d'un enankad war ar burev evel "
-"'Type=Link'"
-
-#: egg/eggdesktopfile.c:1404
-msgid "Not a launchable item"
-msgstr "N'eo ket un dra a c'haller lañsañ"
-
-#: egg/eggsmclient.c:226
-msgid "Disable connection to session manager"
-msgstr "Lazhañ kennask ouzh ardoer an estez"
-
-#: egg/eggsmclient.c:229
-msgid "Specify file containing saved configuration"
-msgstr "Erspizit ar restr gant ar c'hefluniadur enrollet enni"
-
-#: egg/eggsmclient.c:229
-msgid "FILE"
-msgstr "RESTR"
-
-#: egg/eggsmclient.c:232
-msgid "Specify session management ID"
-msgstr "Dibab ID ardoadur an estez"
-
-#: egg/eggsmclient.c:232
-msgid "ID"
-msgstr "ID"
-
-#: egg/eggsmclient.c:253
-msgid "Session management options:"
-msgstr "Dibarzhioù ardeiñ an estez :"
-
-#: egg/eggsmclient.c:254
-msgid "Show session management options"
-msgstr "Diskouez dibarzhioù ardeiñ an estez"
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:12
+msgid ""
+"Waiting for programs to finish.  Interrupting these programs may cause you "
+"to lose work."
+msgstr "Gortoz arload echu. Un arsav a riskle da goll roadennoù bennak."

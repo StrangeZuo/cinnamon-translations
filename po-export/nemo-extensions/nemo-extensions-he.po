@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-26 13:57+0000\n"
-"PO-Revision-Date: 2021-06-11 05:43+0000\n"
+"POT-Creation-Date: 2023-12-15 14:48+0000\n"
+"PO-Revision-Date: 2024-06-14 06:39+0000\n"
 "Last-Translator: Avi Markovitz <avi.markovitz@gmail.com>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2021-06-25 10:42+0000\n"
-"X-Generator: Launchpad (build 40cc6dba4163ba9ca785b26ad91f43c87d70ba4d)\n"
+"X-Launchpad-Export-Date: 2024-07-21 09:02+0000\n"
+"X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
 "Language: he\n"
 
 #: nemo-audio-tab/nemo-extension/nemo-audio-tab.py:41
@@ -69,7 +69,7 @@ msgstr "קצב דגימה:"
 
 #: nemo-audio-tab/nemo-extension/nemo-audio-tab.glade.h:11
 msgid "Encoded by:"
-msgstr "קודד על ידי:"
+msgstr "קודד באמצעות:"
 
 #: nemo-audio-tab/nemo-extension/nemo-audio-tab.glade.h:12
 msgid "Copyright:"
@@ -85,163 +85,230 @@ msgstr "השוואה תקנית"
 
 #: nemo-compare/src/nemo-compare-preferences.py:122
 msgid "Three-Way Diff"
-msgstr "השוואה תלת ערכית"
+msgstr "השוואה תלת־ערכית"
 
 #: nemo-compare/src/nemo-compare-preferences.py:137
 msgid "N-Way Diff"
 msgstr "השוואה N־ערכית"
 
 #: nemo-compare/src/nemo-compare.py:112 nemo-compare/src/nemo-compare.py:135
+#: nemo-compare/src/nemo-compare.py:114 nemo-compare/src/nemo-compare.py:137
 msgid "Compare to: "
-msgstr "השוואה אל: "
+msgstr "להשוות אל: "
 
 #: nemo-compare/src/nemo-compare.py:113 nemo-compare/src/nemo-compare.py:136
+#: nemo-compare/src/nemo-compare.py:115 nemo-compare/src/nemo-compare.py:138
 msgid "Compare to the file previously selected"
 msgstr "השוואה לקובץ שנבחר קודם"
 
-#: nemo-compare/src/nemo-compare.py:122
+#: nemo-compare/src/nemo-compare.py:122 nemo-compare/src/nemo-compare.py:124
 msgid "Compare Later"
-msgstr "השוואה מאוחר יותר"
+msgstr "להשוות מאוחר יותר"
 
-#: nemo-compare/src/nemo-compare.py:123
+#: nemo-compare/src/nemo-compare.py:123 nemo-compare/src/nemo-compare.py:125
 msgid "Remember file for later comparison"
 msgstr "זכירת הקובץ להשוואה עתידית"
 
-#: nemo-compare/src/nemo-compare.py:147
+#: nemo-compare/src/nemo-compare.py:147 nemo-compare/src/nemo-compare.py:149
 msgid "Compare"
 msgstr "השוואה"
 
-#: nemo-compare/src/nemo-compare.py:148
+#: nemo-compare/src/nemo-compare.py:148 nemo-compare/src/nemo-compare.py:150
 msgid "Compare selected files"
 msgstr "השוואת קבצים שנבחרו"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Art"
-msgstr "אמנות"
+msgstr "אומנות"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Camera"
 msgstr "מצלמה"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Danger"
 msgstr "סכנה"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Default"
 msgstr "ברירת מחדל"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Development"
 msgstr "פיתוח"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Documents"
 msgstr "מסמכים"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Downloads"
 msgstr "הורדות"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Favorite"
-msgstr "העדפה"
+msgstr "מועדף"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Games"
 msgstr "משחקים"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Generic"
 msgstr "כללי"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Important"
 msgstr "חשוב"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Installed"
 msgstr "מותקן"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Mail"
 msgstr "דואר"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Marketing"
 msgstr "שיווק"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Money"
 msgstr "כסף"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Multimedia"
 msgstr "מולטימדיה"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "New"
 msgstr "חדש"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Note"
 msgstr "הערה"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Ohno"
 msgstr "אוי לא"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Package"
 msgstr "חבילה"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "People"
 msgstr "אנשים"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Personal"
 msgstr "אישי"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Photos"
 msgstr "תמונות"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Plan"
 msgstr "תוכנית"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Presentation"
 msgstr "מצגת"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Sales"
 msgstr "מכירות"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Sound"
 msgstr "שמע"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "System"
 msgstr "מערכת"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Urgent"
-msgstr "דחוף"
+msgstr "דחיפות"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Videos"
 msgstr "סרטונים"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Web"
 msgstr "רשת"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:88
+#: nemo-emblems/nemo-extension/nemo-emblems.py:100
+#: nemo-emblems/nemo-extension/nemo-emblems.py:108
+#: nemo-emblems/nemo-extension/nemo-emblems.py:105
 msgid "Emblems"
-msgstr "סמלונים"
+msgstr "סמלים"
 
 #: nemo-fileroller/src/nemo-fileroller.c:335
 msgid "Extract Here"
@@ -253,7 +320,7 @@ msgstr "חילוץ הארכיון שנבחר למיקום הנוכחי"
 
 #: nemo-fileroller/src/nemo-fileroller.c:355
 msgid "Extract To..."
-msgstr "חלץ אל..."
+msgstr "חילוץ אל ..."
 
 #: nemo-fileroller/src/nemo-fileroller.c:356
 msgid "Extract the selected archive"
@@ -269,11 +336,11 @@ msgstr "יצירת ארכיון דחוס עם הפריטים שנבחרו"
 
 #: nemo-gtkhash/src/callbacks.c:47
 msgid "Save Digests"
-msgstr "שמירת תימצות"
+msgstr "שמירת תלקיט"
 
 #: nemo-gtkhash/src/callbacks.c:236
 msgid "A GTK+ utility for computing message digests or checksums."
-msgstr "כלי GTK + המיועד לקלט הודעות מחשוב או לבדיקת סיכום ביקורת."
+msgstr "כלי GTK + המיועד לחישוב תלקיט מסרים סיכום־ביקורת."
 
 #: nemo-gtkhash/src/callbacks.c:240
 msgid "translator-credits"
@@ -281,6 +348,7 @@ msgstr ""
 "Launchpad Contributions:\n"
 "  Avi Markovitz https://launchpad.net/~avi-markobitz\n"
 "  Avi Markovitz https://launchpad.net/~avi-markovitz\n"
+"  Omer I.S. https://launchpad.net/~omeritzics\n"
 "  Rony Alaluf https://launchpad.net/~rony321"
 
 #: nemo-gtkhash/src/callbacks.c:262
@@ -290,7 +358,7 @@ msgstr "בחירת קבצים"
 #: nemo-gtkhash/src/gui.c:293
 #, c-format
 msgid "Failed to read \"%s\""
-msgstr "לא ניתן לקרוא את \"%s\""
+msgstr "קריאת \"%s\" כשלה"
 
 #: nemo-gtkhash/src/gui.c:310
 #, c-format
@@ -303,7 +371,7 @@ msgstr ""
 
 #: nemo-gtkhash/src/gui.c:359
 msgid "Not a regular file"
-msgstr "לא קובץ תיקני"
+msgstr "לא קובץ רגיל"
 
 #: nemo-gtkhash/src/gui.c:381
 msgid "Unknown error"
@@ -321,17 +389,17 @@ msgstr ""
 #: nemo-gtkhash/src/hash.c:74 nemo-gtkhash/src/nautilus/properties-hash.c:61
 #, c-format
 msgid "%s of %s - 1 minute left (%s/sec)"
-msgstr "%s מ-%s - דקה אחת נשארה (%s/לשנייה)"
+msgstr "%s מ־%s – נותרה דקה אחת (%s/לשנייה)"
 
 #: nemo-gtkhash/src/hash.c:77 nemo-gtkhash/src/nautilus/properties-hash.c:64
 #, c-format
 msgid "%s of %s - %u minutes left (%s/sec)"
-msgstr "%s מ-%s - נשארו %u דקות (%s/לשנייה)"
+msgstr "%s מ־%s – נותרו %u דקות (%s/לשנייה)"
 
 #: nemo-gtkhash/src/hash.c:81 nemo-gtkhash/src/nautilus/properties-hash.c:68
 #, c-format
 msgid "%s of %s - 1 second left (%s/sec)"
-msgstr "%s מ-%s - שנייה אחת נשארה (%s/לשנייה)"
+msgstr "%s מ־%s – נותרה שנייה אחת (%s/לשנייה)"
 
 #: nemo-gtkhash/src/hash.c:84 nemo-gtkhash/src/nautilus/properties-hash.c:71
 #, c-format
@@ -340,11 +408,11 @@ msgstr "%s מ-%s - נשארו %u שניות (%s/לשנייה)"
 
 #: nemo-gtkhash/src/main.c:86
 msgid "Check against the specified digest or checksum"
-msgstr "בדיקה אל מול הקלט או בדיקת סיכום ביקורת שצוינו"
+msgstr "בדיקה אל מול התלקיט שצויין או סיכום־ביקורת"
 
 #: nemo-gtkhash/src/main.c:86
 msgid "DIGEST"
-msgstr "תַּמְצִית"
+msgstr "תלקיט"
 
 #: nemo-gtkhash/src/main.c:90
 msgid "Read program data from the specified directory"
@@ -372,13 +440,13 @@ msgstr "[FILE|URI...]"
 
 #: nemo-gtkhash/src/prefs.c:76
 msgid "Failed to enable any supported hash functions."
-msgstr "אפשור פונקציות בלילה נתמכות כשלה."
+msgstr "אפשור פונקציות בלילה (hash) נתמכות כשלה."
 
 #: nemo-gtkhash/src/nautilus/properties.c:436
 #: nemo-gtkhash/src/nautilus/properties.c:439
 #: nemo-gtkhash/src/nautilus/properties.c:441
 msgid "Digests"
-msgstr "תימצות"
+msgstr "תלקיטים"
 
 #: nemo-image-converter/src/nemo-image-converter.c:121
 msgid "_Resize Images..."
@@ -511,7 +579,7 @@ msgstr "<b>שם קובץ</b>"
 #: nemo-image-converter/data/nemo-image-resize.ui.h:20
 #: nemo-image-converter/data/nemo-image-rotate.ui.h:7
 msgid "Append"
-msgstr "הוספה"
+msgstr "סיפוח"
 
 #: nemo-image-converter/data/nemo-image-resize.ui.h:21
 msgid ".resized"
@@ -563,66 +631,82 @@ msgid "_Rotate"
 msgstr "_סובב"
 
 #: nemo-media-columns/nemo-media-columns.py:73
+#: nemo-media-columns/nemo-media-columns.py:92
 msgid "Title"
 msgstr "כותרת"
 
 #: nemo-media-columns/nemo-media-columns.py:74
+#: nemo-media-columns/nemo-media-columns.py:93
 msgid "Album"
 msgstr "אלבום"
 
 #: nemo-media-columns/nemo-media-columns.py:75
+#: nemo-media-columns/nemo-media-columns.py:94
 msgid "Artist"
 msgstr "אמן"
 
 #: nemo-media-columns/nemo-media-columns.py:76
+#: nemo-media-columns/nemo-media-columns.py:95
 msgid "Track"
 msgstr "רצועה"
 
 #: nemo-media-columns/nemo-media-columns.py:77
+#: nemo-media-columns/nemo-media-columns.py:96
 msgid "Genre"
 msgstr "סוגה"
 
 #: nemo-media-columns/nemo-media-columns.py:78
+#: nemo-media-columns/nemo-media-columns.py:97
 msgid "Date"
 msgstr "תאריך"
 
 #: nemo-media-columns/nemo-media-columns.py:79
+#: nemo-media-columns/nemo-media-columns.py:98
 msgid "Bitrate"
 msgstr "קצב סיביות"
 
 #: nemo-media-columns/nemo-media-columns.py:80
+#: nemo-media-columns/nemo-media-columns.py:99
 msgid "Pages"
 msgstr "עמודים"
 
 #: nemo-media-columns/nemo-media-columns.py:81
+#: nemo-media-columns/nemo-media-columns.py:100
 msgid "Sample Rate"
 msgstr "קצב דגימה"
 
 #: nemo-media-columns/nemo-media-columns.py:82
+#: nemo-media-columns/nemo-media-columns.py:101
 msgid "Length"
 msgstr "אורך"
 
 #: nemo-media-columns/nemo-media-columns.py:83
+#: nemo-media-columns/nemo-media-columns.py:104
 msgid "EXIF Date"
 msgstr "תאריך EXIF"
 
 #: nemo-media-columns/nemo-media-columns.py:84
+#: nemo-media-columns/nemo-media-columns.py:105
 msgid "EXIF Software"
 msgstr "תוכנת EXIF"
 
 #: nemo-media-columns/nemo-media-columns.py:85
+#: nemo-media-columns/nemo-media-columns.py:106
 msgid "EXIF Flash"
 msgstr "מבזק EXIF"
 
 #: nemo-media-columns/nemo-media-columns.py:86
+#: nemo-media-columns/nemo-media-columns.py:107
 msgid "EXIF Image Size"
 msgstr "גודל תמונה EXIF"
 
 #: nemo-media-columns/nemo-media-columns.py:87
+#: nemo-media-columns/nemo-media-columns.py:108
 msgid "EXIF Rating"
 msgstr "דירוג EXIF"
 
 #: nemo-media-columns/nemo-media-columns.py:88
+#: nemo-media-columns/nemo-media-columns.py:109
 msgid "Image Size"
 msgstr "גודל תמונה"
 
@@ -666,6 +750,7 @@ msgid "Empty Folder"
 msgstr "תיקייה ריקה"
 
 #: nemo-preview/src/js/ui/fallbackRenderer.js:123
+#: nemo-preview/src/js/ui/fallbackRenderer.js:125
 msgid "Type"
 msgstr "סוג"
 
@@ -673,26 +758,37 @@ msgstr "סוג"
 #: nemo-preview/src/js/ui/fallbackRenderer.js:133
 #: nemo-preview/src/js/ui/fallbackRenderer.js:139
 #: nemo-preview/src/js/ui/spinnerBox.js:60
+#: nemo-preview/src/js/ui/fallbackRenderer.js:126
+#: nemo-preview/src/js/ui/fallbackRenderer.js:135
+#: nemo-preview/src/js/ui/fallbackRenderer.js:141
+#: nemo-preview/src/js/ui/spinnerBox.js:61
 msgid "Loading..."
 msgstr "טוען..."
 
 #: nemo-preview/src/js/ui/fallbackRenderer.js:132
+#: nemo-preview/src/js/ui/fallbackRenderer.js:134
 msgid "Size"
 msgstr "גודל"
 
 #: nemo-preview/src/js/ui/fallbackRenderer.js:138
+#: nemo-preview/src/js/ui/fallbackRenderer.js:140
 msgid "Modified"
 msgstr "שונה"
 
 #: nemo-preview/src/js/viewers/audio.js:176
+#: nemo-preview/src/js/viewers/audio.js:177
+#: nemo-preview/src/js/viewers/audio.js:179
 msgid "from"
 msgstr "מ"
 
 #: nemo-preview/src/js/viewers/audio.js:178
+#: nemo-preview/src/js/viewers/audio.js:179
+#: nemo-preview/src/js/viewers/audio.js:181
 msgid "by"
 msgstr "על ידי"
 
 #: nemo-preview/src/js/viewers/xreader.js:81
+#: nemo-preview/src/js/viewers/xreader.js:82
 #, javascript-format
 msgid "%d of %d"
 msgstr "%d מתוך %d"
@@ -972,10 +1068,12 @@ msgid "Passphrase"
 msgstr "ביטוי ססמה"
 
 #: nemo-seahorse/tool/seahorse-passphrase.c:135
+#: nemo-compare/src/nemo-compare-preferences.py:162
 msgid "Ok"
 msgstr "אישור"
 
 #: nemo-seahorse/tool/seahorse-passphrase.c:136
+#: nemo-compare/src/nemo-compare-preferences.py:158
 msgid "Cancel"
 msgstr "ביטול"
 
@@ -1352,7 +1450,7 @@ msgstr[1] "חתימה של הקבצים שנבחרים"
 #, c-format
 msgid ""
 "Nemo needs to add some permissions to your folder \"%s\" in order to share it"
-msgstr "נמו צריך להוסיף הרשאות לתיקייתך \"%s\" כדי לשתף אותה"
+msgstr "על מנת לשתף את התקייה, על נמו להוסיף מספר הרשאות לתיקייה \"%s\""
 
 #: nemo-share/src/nemo-share.c:129
 #, c-format
@@ -1426,7 +1524,7 @@ msgstr "יצירת _שיתוף"
 
 #: nemo-share/src/nemo-share.c:613
 msgid "Please reboot to finalize changes"
-msgstr "אנה אתחל/י כדי לסיים שינויים"
+msgstr "נא לשתחל לסיום גיבוש שינויים"
 
 #: nemo-share/src/nemo-share.c:616
 msgid ""
@@ -1440,19 +1538,20 @@ msgstr ""
 msgid "There was an error while getting the sharing information"
 msgstr "אירעה שגיאה בעת אחזור מידע השיתוף"
 
-#: nemo-share/src/nemo-share.c:1176
+#: nemo-share/src/nemo-share.c:1176 nemo-share/src/nemo-share.c:1177
 msgid "Share"
 msgstr "שיתוף"
 
 #: nemo-share/src/nemo-share.c:1236 nemo-share/interfaces/share-dialog.ui.h:1
+#: nemo-share/src/nemo-share.c:1237
 msgid "Folder Sharing"
 msgstr "שיתוף תיקיות"
 
-#: nemo-share/src/nemo-share.c:1277
+#: nemo-share/src/nemo-share.c:1277 nemo-share/src/nemo-share.c:1278
 msgid "Sharing Options"
 msgstr "אפשרויות שיתוף"
 
-#: nemo-share/src/nemo-share.c:1278
+#: nemo-share/src/nemo-share.c:1278 nemo-share/src/nemo-share.c:1279
 msgid "Share this Folder"
 msgstr "שיתוף תיקייה זו"
 
@@ -1530,7 +1629,7 @@ msgstr "הע_רה:"
 
 #: nemo-share/interfaces/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
-msgstr "_מתן אפשרות לאחרים ליצור ולמחוק קבצים בתיקייה זו"
+msgstr "_להתיר לאחרים ליצור ולמחוק קבצים בתיקייה זו"
 
 #: nemo-share/interfaces/share-dialog.ui.h:6
 msgid "_Guest access (for people without a user account)"
@@ -1545,8 +1644,8 @@ msgid ""
 "Samba needs to be installed, appropriate firewall rules need to be added and "
 "your user account needs to join the 'sambashare' group."
 msgstr ""
-"צריך להתקין את Samba, צריך להוסיף חוקי חומת אש והחשבון שלך צריך להצטרף "
-"לקבוצת 'sambashare'."
+"דרושה התקנת Samba, הוספת כללי חומת־אש מתאימים וצרוף חשבון־המשתמש לקוצת  "
+"'sambashare'."
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:44
 msgid "Nemo-Terminal Preferences"
@@ -1606,7 +1705,7 @@ msgstr "רצף מקשים למחיקת שורת מסוף"
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:195
 msgid "Terminal restore line key sequence"
-msgstr "רצף מקשים לשחזור שורת מסוף"
+msgstr "רצף מקשים לשיבוב שורת מסוף"
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:203
 msgid "Change directory command"
@@ -1614,7 +1713,7 @@ msgstr "פקודת שינוי מחיצה"
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:208
 msgid "Restore defaults"
-msgstr "שיחזור ברירת מחדל"
+msgstr "שיבוב ברירת מחדל"
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:217
 msgid "Sequences must be escaped according to python rules."
@@ -1632,3 +1731,83 @@ msgstr "מתקדם"
 #: nemo-terminal/src/nemo_terminal.py:149
 msgid "Paste Filenames"
 msgstr "הדבקת שמות קבצים"
+
+#: nemo-media-columns/nemo-media-columns.py:102
+msgid "Composer"
+msgstr "מחבר"
+
+#: nemo-media-columns/nemo-media-columns.py:103
+msgid "Description"
+msgstr "תיאור"
+
+#: nemo-fileroller/src/nemo-fileroller.c:398
+msgid "Allows managing of archives from the context menu"
+msgstr "התרת ניהול ארכיונים מתפריט ההקשר"
+
+#: nemo-share/src/nemo-share.c:1115
+msgid "Allows you to quickly share a folder from the context menu"
+msgstr "התרת שיתוף מחיצות מהיר מתפריט ההקשר"
+
+#: nemo-emblems/nemo-extension/nemo-emblems.py:19
+msgid "Nemo Emblems"
+msgstr "סמלי נמו"
+
+#: nemo-emblems/nemo-extension/nemo-emblems.py:20
+#: nemo-emblems/nemo-extension/nemo-emblems.py:163
+msgid "Change a folder or file emblem"
+msgstr "שינוי סמל קובץ או מחיצה"
+
+#: nemo-dropbox/src/nemo-dropbox.c:462 nemo-dropbox/src/nemo-dropbox.c:463
+msgid "Allows managing of Dropbox web service from the context menu"
+msgstr "התרת ניהול שרות מרשתת  Dropbox מתפריט ההקשר"
+
+#: nemo-image-converter/src/nemo-image-converter.c:153
+msgid "Allows image resizing and rotation from the context menu"
+msgstr "התרת שינוי גודל וסבוב תמונה מתפריט ההקשר"
+
+#: nemo-repairer/src/nemo-filename-repairer.c:523
+msgid "Allows filename encoding repair from the context menu"
+msgstr "התרת תיקון הצפנת שם קובץ מתפריט ההקשר"
+
+#: nemo-seahorse/nemo-ext/nemo-seahorse.c:181
+msgid ""
+"Allows encryption and decryption of OpenPGP files from the context menu"
+msgstr "התרת הצפנה ופענוח קובץ OpenPGP מתפריט ההקשר"
+
+#: nemo-audio-tab/nemo-extension/nemo-audio-tab.py:195
+msgid "View audio tag information from the properties tab"
+msgstr "הצגת מידע תג שמע מלשונית התכונות"
+
+#: nemo-compare/src/nemo-compare.py:168
+msgid "Allows file comparison from the context menu"
+msgstr "התרת דחיסת קובץ מתפריט ההקשר"
+
+#: nemo-media-columns/nemo-media-columns.py:369
+msgid "Provides additional columns for the list view"
+msgstr "מתן אפשרות לעמודות נוספות למצג רשימה"
+
+#: nemo-terminal/src/nemo_terminal.py:579
+msgid "Embedded terminal for Nemo"
+msgstr "מסוף נמו משובץ"
+
+#: nemo-pastebin/src/nemo-pastebin.py:111
+msgid "Unable to read or parse the result page."
+msgstr "לא ניתן לקרוא או לנתח את עמוד התוצאות."
+
+#: nemo-pastebin/src/nemo-pastebin.py:112
+msgid "It could be a server timeout or a change server side. Try later."
+msgstr "עשוי להיות פסק־זמן המתנה או שינוי בצד השרת. נא לנסות מאוחר יותר."
+
+#: nemo-pastebin/src/nemo-pastebin.py:169
+#, python-format
+msgid "Pastebin to %s"
+msgstr "הדבקת Pastebin‏ ל־%s"
+
+#: nemo-pastebin/src/nemo-pastebin.py:170
+#, python-format
+msgid "Send this file to %s"
+msgstr "שליחת קובץ זה ל־%s"
+
+#: nemo-pastebin/src/nemo-pastebin.py:196
+msgid "Send files to a paste service via the context menu"
+msgstr "שליחת קובץ לשרת הדבקות באמצעות תפריט ההקשר"

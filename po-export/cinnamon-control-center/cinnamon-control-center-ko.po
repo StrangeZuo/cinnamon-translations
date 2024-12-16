@@ -25,16 +25,16 @@ msgstr ""
 "Report-Msgid-Bugs-To: "
 "http://bugzilla.gnome.org/enter_bug.cgi?product=cinnamon-control-"
 "center&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2021-06-04 12:20+0100\n"
-"PO-Revision-Date: 2020-12-14 22:49+0000\n"
-"Last-Translator: Changmin Jang <Unknown>\n"
+"POT-Creation-Date: 2024-03-27 13:58+0000\n"
+"PO-Revision-Date: 2023-11-14 19:43+0000\n"
+"Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: GNOME Korea <cinnamon-kr@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2021-06-25 10:38+0000\n"
-"X-Generator: Launchpad (build 40cc6dba4163ba9ca785b26ad91f43c87d70ba4d)\n"
+"X-Launchpad-Export-Date: 2024-07-21 09:00+0000\n"
+"X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
 "Language: Korean\n"
 
 #. TRANSLATORS: this is where the user can click and import a profile
@@ -86,176 +86,155 @@ msgstr "지원되는 ICC 프로파일"
 
 #. TRANSLATORS: filter name on the file->open dialog
 #: panels/color/cc-color-panel.c:248
+#: panels/network/wireless-security/eap-method-fast.c:417
 msgid "All files"
 msgstr "모든 파일"
 
 #. TRANSLATORS: this is the dialog title in the 'Add profile' UI
-#: panels/color/cc-color-panel.c:591
+#: panels/color/cc-color-panel.c:564
 msgid "Available Profiles for Displays"
 msgstr "디스플레이에 사용 가능한 프로파일"
 
 #. TRANSLATORS: this is the dialog title in the 'Add profile' UI
-#: panels/color/cc-color-panel.c:595
+#: panels/color/cc-color-panel.c:568
 msgid "Available Profiles for Scanners"
 msgstr "스캐너에 사용 가능한 프로파일"
 
 #. TRANSLATORS: this is the dialog title in the 'Add profile' UI
-#: panels/color/cc-color-panel.c:599
+#: panels/color/cc-color-panel.c:572
 msgid "Available Profiles for Printers"
 msgstr "프린터에 사용 가능한 프로파일"
 
 #. TRANSLATORS: this is the dialog title in the 'Add profile' UI
-#: panels/color/cc-color-panel.c:603
+#: panels/color/cc-color-panel.c:576
 msgid "Available Profiles for Cameras"
 msgstr "카메라에 사용 가능한 프로파일"
 
 #. TRANSLATORS: this is the dialog title in the 'Add profile' UI
-#: panels/color/cc-color-panel.c:607
+#: panels/color/cc-color-panel.c:580
 msgid "Available Profiles for Webcams"
 msgstr "웹 캠에 사용 가능한 프로파일"
 
 #. TRANSLATORS: this is the dialog title in the 'Add profile' UI
 #. * where the device type is not recognised
 #. Profiles that can be added to the device
-#: panels/color/cc-color-panel.c:612 panels/color/color.ui.h:2
+#: panels/color/cc-color-panel.c:585 panels/color/color.ui.h:2
 msgid "Available Profiles"
 msgstr "사용 가능한 프로파일"
 
 #. TRANSLATORS: column for device list
-#: panels/color/cc-color-panel.c:888
+#: panels/color/cc-color-panel.c:861
 msgid "Device"
 msgstr "장치"
 
 #. TRANSLATORS: column for device list
-#: panels/color/cc-color-panel.c:923
+#: panels/color/cc-color-panel.c:896
 msgid "Calibration"
 msgstr "보정"
 
-#. TRANSLATORS: this is when the button is sensitive
-#: panels/color/cc-color-panel.c:955
-msgid "Create a color profile for the selected device"
-msgstr "선택한 장치에 대한 컬러 프로파일 만들기"
-
-#. TRANSLATORS: this is when the button is insensitive
-#: panels/color/cc-color-panel.c:969 panels/color/cc-color-panel.c:993
-msgid ""
-"The measuring instrument is not detected. Please check it is turned on and "
-"correctly connected."
-msgstr "측정 장치가 감지되지 않았습니다. 장치가 켜져 있고 제대로 연결되었는지 확인하십시오."
-
-#. TRANSLATORS: this is when the button is insensitive
-#: panels/color/cc-color-panel.c:1002
-msgid "The measuring instrument does not support printer profiling."
-msgstr "이 측정 장치는 프린터 프로파일링을 지원하지 않습니다."
-
-#. TRANSLATORS: this is when the button is insensitive
-#: panels/color/cc-color-panel.c:1013
-msgid "The device type is not currently supported."
-msgstr "이 종류의 장치는 현재 지원하지 않습니다."
-
 #. TRANSLATORS: this is when an auto-added profile cannot be removed
-#: panels/color/cc-color-panel.c:1085
+#: panels/color/cc-color-panel.c:977
 msgid "Cannot remove automatically added profile"
 msgstr "자동으로 추가한 프로파일을 제거할 수 없습니다"
 
 #. TRANSLATORS: this is when there is no profile for the device
-#: panels/color/cc-color-panel.c:1419
+#: panels/color/cc-color-panel.c:1307
 msgid "No profile"
 msgstr "프로파일 없음"
 
-#: panels/color/cc-color-panel.c:1448
+#: panels/color/cc-color-panel.c:1336
 #, c-format
 msgid "%i year"
 msgid_plural "%i years"
 msgstr[0] "%i년"
 
-#: panels/color/cc-color-panel.c:1459
+#: panels/color/cc-color-panel.c:1347
 #, c-format
 msgid "%i month"
 msgid_plural "%i months"
 msgstr[0] "%i달"
 
-#: panels/color/cc-color-panel.c:1470
+#: panels/color/cc-color-panel.c:1358
 #, c-format
 msgid "%i week"
 msgid_plural "%i weeks"
 msgstr[0] "%i주"
 
 #. fallback
-#: panels/color/cc-color-panel.c:1477
+#: panels/color/cc-color-panel.c:1365
 msgid "Less than 1 week"
 msgstr "1주 미만"
 
-#: panels/color/cc-color-panel.c:1539
+#: panels/color/cc-color-panel.c:1427
 msgctxt "Colorspace fallback"
 msgid "Default RGB"
 msgstr "기본 RGB"
 
-#: panels/color/cc-color-panel.c:1544
+#: panels/color/cc-color-panel.c:1432
 msgctxt "Colorspace fallback"
 msgid "Default CMYK"
 msgstr "기본 CMYK"
 
-#: panels/color/cc-color-panel.c:1549
+#: panels/color/cc-color-panel.c:1437
 msgctxt "Colorspace fallback"
 msgid "Default Gray"
 msgstr "기본 회색"
 
-#: panels/color/cc-color-panel.c:1667 panels/color/cc-color-panel.c:1706
-#: panels/color/cc-color-panel.c:1717 panels/color/cc-color-panel.c:1728
+#: panels/color/cc-color-panel.c:1555 panels/color/cc-color-panel.c:1594
+#: panels/color/cc-color-panel.c:1605 panels/color/cc-color-panel.c:1616
 msgid "Uncalibrated"
 msgstr "보정되지 않음"
 
-#: panels/color/cc-color-panel.c:1670
+#: panels/color/cc-color-panel.c:1558
 msgid "This device is not color managed."
 msgstr "이 장치는 색상 관리가  되어있지 않습니다."
 
-#: panels/color/cc-color-panel.c:1709
+#: panels/color/cc-color-panel.c:1597
 msgid "This device is using manufacturing calibrated data."
 msgstr "이 장치는 출고시 보정 데이터를 사용하고 있습니다."
 
-#: panels/color/cc-color-panel.c:1720
+#: panels/color/cc-color-panel.c:1608
 msgid ""
 "This device does not have a profile suitable for whole-screen color "
 "correction."
 msgstr "이 장치에는 전체화면 색상 보정에 필요한 프로파일이 없습니다."
 
-#: panels/color/cc-color-panel.c:1753
+#: panels/color/cc-color-panel.c:1641
 msgid "This device has an old profile that may no longer be accurate."
 msgstr "이 장치의 프로필은 오래 되어 이제 정확하지 않을 수도 있습니다."
 
 #. TRANSLATORS: this is when the calibration profile age is not
 #. * specified as it has been autogenerated from the hardware
-#: panels/color/cc-color-panel.c:1781
+#: panels/color/cc-color-panel.c:1669
 msgid "Not specified"
 msgstr "지정되지 않음"
 
 #. add the 'No devices detected' entry
-#: panels/color/cc-color-panel.c:1966
+#: panels/color/cc-color-panel.c:1854
 msgid "No devices supporting color management detected"
 msgstr "색상 관리를 지원하는 장치를 검색하지 못했습니다"
 
-#: panels/color/cc-color-panel.c:2195
+#: panels/color/cc-color-panel.c:2083
 msgctxt "Device kind"
 msgid "Display"
 msgstr "표시"
 
-#: panels/color/cc-color-panel.c:2197
+#: panels/color/cc-color-panel.c:2085
 msgctxt "Device kind"
 msgid "Scanner"
 msgstr "스캐너"
 
-#: panels/color/cc-color-panel.c:2199
+#: panels/color/cc-color-panel.c:2087
 msgctxt "Device kind"
 msgid "Printer"
 msgstr "인쇄기"
 
-#: panels/color/cc-color-panel.c:2201
+#: panels/color/cc-color-panel.c:2089
 msgctxt "Device kind"
 msgid "Camera"
 msgstr "카메라"
 
-#: panels/color/cc-color-panel.c:2203
+#: panels/color/cc-color-panel.c:2091
 msgctxt "Device kind"
 msgid "Webcam"
 msgstr "웹캠"
@@ -322,121 +301,69 @@ msgstr "지역 선택"
 msgid "Unspecified"
 msgstr "지정하지 않음"
 
-#: panels/display/cc-display-panel.c:642 panels/display/cc-display-panel.c:1251
-#: panels/display/cc-display-panel.c:1258
-#, c-format
-msgid "%d%%"
-msgstr "%d%%"
-
-#: panels/display/cc-display-panel.c:709
-msgctxt "display panel, rotation"
-msgid "Normal"
-msgstr "기본"
-
-#: panels/display/cc-display-panel.c:710
-msgctxt "display panel, rotation"
-msgid "Counterclockwise"
-msgstr "시계 반대 방향"
-
-#: panels/display/cc-display-panel.c:711
-msgctxt "display panel, rotation"
-msgid "Clockwise"
-msgstr "시계 방향"
-
-#: panels/display/cc-display-panel.c:712
-msgctxt "display panel, rotation"
-msgid "180 Degrees"
-msgstr "180도"
-
-#. Keep this string in sync with gnome-desktop/libcinnamon-desktop/gnome-rr-labeler.c
-#. Translators:  this is the feature where what you see on your laptop's
-#. * screen is the same as your external projector.  Here, "Mirrored" is being
-#. * used as an adjective.  For example, the Spanish translation could be
-#. * "Pantallas en Espejo".
-#. 
 #. Translators:  this is the feature where what you see on your
 #. * laptop's screen is the same as your external projector.
 #. * Here, "Mirrored" is being used as an adjective.  For example,
 #. * the Spanish translation could be "Pantallas en Espejo".
 #. 
-#: panels/display/cc-display-panel.c:857 panels/display/cc-rr-labeler.c:404
+#: panels/display/cc-display-labeler.c:369
+#: panels/display/cc-display-panel.c:748
 msgid "Mirrored Displays"
 msgstr "동일한 화면"
 
-#: panels/display/cc-display-panel.c:881
-msgid "Monitor"
-msgstr "모니터"
+#: panels/display/cc-display-panel.c:1150
+msgid "Confirm reset to defaults"
+msgstr "기본값으로 초기화"
 
-#: panels/display/cc-display-panel.c:985
-#, c-format
-msgid "%d x %d%s (%s)"
-msgstr "%d x %d%s (%s)"
+#: panels/display/cc-display-panel.c:1152
+msgid "Cancel"
+msgstr "취소"
 
-#: panels/display/cc-display-panel.c:987
-#, c-format
-msgid "%d x %d%s"
-msgstr "%d x %d%s"
+#: panels/display/cc-display-panel.c:1152
+msgid "Continue"
+msgstr "계속"
 
-#: panels/display/cc-display-panel.c:1002
+#: panels/display/cc-display-panel.c:1165
+msgid ""
+"This will remove all existing display configurations and reset the current "
+"layout."
+msgstr "이렇게 하면 기존의 모든 디스플레이 설정이 사라지고 현재 레이아웃도 초기화됩니다."
+
+#: panels/display/cc-display-settings.c:107
+msgctxt "Display rotation"
+msgid "Landscape"
+msgstr "가로"
+
+#: panels/display/cc-display-settings.c:110
+msgctxt "Display rotation"
+msgid "Portrait Right"
+msgstr "세로 오른쪽"
+
+#: panels/display/cc-display-settings.c:113
+msgctxt "Display rotation"
+msgid "Portrait Left"
+msgstr "세로 왼쪽"
+
+#: panels/display/cc-display-settings.c:116
+msgctxt "Display rotation"
+msgid "Landscape (flipped)"
+msgstr "가로 (뒤집힘)"
+
+#: panels/display/cc-display-settings.c:190
 #, c-format
 msgid "%.2lf Hz"
 msgstr "%.2lf Hz"
 
-#: panels/display/cc-display-panel.c:1281
-msgid "Normal"
-msgstr "보통"
+#: panels/display/cc-display-settings.c:471
+msgid "Monitor scale"
+msgstr "화면 비율"
 
-#: panels/display/cc-display-panel.c:1283
-msgid "Double (Hi-DPI)"
-msgstr "두배 (Hi-DPI)"
+#: panels/display/cc-display-settings.c:475
+#: panels/display/cc-display-settings.ui.h:4
+msgid "User interface scale"
+msgstr "사용자 인터페이스 스케일"
 
-#: panels/display/cc-display-panel.c:1323
-#, c-format
-msgid "Automatic (%ux)"
-msgstr "자동 (%ux)"
-
-#: panels/display/cc-display-panel.c:2510
-msgid ""
-"Select a monitor to change its properties; drag it to rearrange its "
-"placement."
-msgstr "속성을 바꾸려는 모니터를 선택하십시오. 위치를 바꾸려면 끌어 놓으십시오."
-
-#: panels/display/cc-display-panel.c:2959
-msgid "DoubleScan"
-msgstr "더블스캔"
-
-#: panels/display/cc-display-panel.c:2997
-msgid "VSync"
-msgstr "수직 동기화"
-
-#: panels/display/cc-display-panel.c:3035
-#: panels/display/cc-display-panel.c:3063
-msgid "Recommended"
-msgstr "권장"
-
-#: panels/display/cc-display-panel.c:3098
-#, c-format
-msgid "<b>scaled resolution: %d x %d</b>"
-msgstr "<b>조정된 해상도: %d x %d</b>"
-
-#: panels/display/cc-display-panel.c:3287
-#: panels/display/cc-display-panel.c:3339
-msgid "Failed to apply configuration"
-msgstr "설정이 적용되지 않습니다"
-
-#: panels/display/cc-display-panel.c:3367
-msgid "Could not save the monitor configuration"
-msgstr "모니터 설정을 저장할 수 없습니다"
-
-#: panels/display/cc-display-panel.c:3427
-msgid "Could not detect displays"
-msgstr "디스플레이를 검색할 수 없습니다"
-
-#: panels/display/cc-display-panel.c:3671
-msgid "Could not get screen information"
-msgstr "화면 정보를 읽어 올 수 없습니다"
-
-#: panels/network/cc-network-panel.c:910
+#: panels/network/cc-network-panel.c:906
 msgid "Network proxy"
 msgstr "네트워크 프록시"
 
@@ -444,103 +371,107 @@ msgstr "네트워크 프록시"
 #. * window for vpn connections, it is also used to display
 #. * vpn connections in the device list.
 #. 
-#: panels/network/cc-network-panel.c:1089 panels/network/net-vpn.c:287
+#: panels/network/cc-network-panel.c:1085 panels/network/net-vpn.c:287
 #: panels/network/net-vpn.c:444
 #, c-format
 msgid "%s VPN"
 msgstr "%s 가상사설망"
 
-#: panels/network/cc-network-panel.c:1156
+#: panels/network/cc-network-panel.c:1152
 msgid "Oops, something has gone wrong. Please contact your software vendor."
 msgstr "앗, 뭔가 잘못됐습니다. 소프트웨어 공급자에게 연락하십시오."
 
-#: panels/network/cc-network-panel.c:1162
+#: panels/network/cc-network-panel.c:1158
 msgid "NetworkManager needs to be running."
 msgstr "네트워크 매니저를 실행해야 합니다."
 
 #. Translators: network device speed
 #: panels/network/net-device-ethernet.c:50 panels/network/net-device-wifi.c:549
+#: panels/network/connection-editor/ce-page-details.c:153
 #, c-format
 msgid "%d Mb/s"
 msgstr "%d Mb/s"
 
-#: panels/network/net-device-ethernet.c:106
+#: panels/network/net-device-ethernet.c:107
 #: panels/network/net-device-wifi.c:477
 msgid "never"
 msgstr "사용하지 않음"
 
-#: panels/network/net-device-ethernet.c:116
+#: panels/network/net-device-ethernet.c:117
 #: panels/network/net-device-wifi.c:487
 msgid "today"
 msgstr "오늘"
 
-#: panels/network/net-device-ethernet.c:118
+#: panels/network/net-device-ethernet.c:119
 #: panels/network/net-device-wifi.c:489
 msgid "yesterday"
 msgstr "어제"
 
-#: panels/network/net-device-ethernet.c:120
+#: panels/network/net-device-ethernet.c:121
 #: panels/network/net-device-wifi.c:491
+#: panels/network/connection-editor/ce-page-details.c:104
 #, c-format
 msgid "%i day ago"
 msgid_plural "%i days ago"
 msgstr[0] "%i일 전"
 
-#: panels/network/net-device-ethernet.c:155 panels/network/panel-common.c:666
+#: panels/network/net-device-ethernet.c:158 panels/network/panel-common.c:679
 #: panels/network/network-simple.ui.h:3 panels/network/network-wifi.ui.h:7
 #: panels/network/connection-editor/details-page.ui.h:4
 msgid "IPv4 Address"
 msgstr "IPv4 주소"
 
-#: panels/network/net-device-ethernet.c:156 panels/network/panel-common.c:667
+#: panels/network/net-device-ethernet.c:159 panels/network/panel-common.c:680
 #: panels/network/network-mobile.ui.h:4 panels/network/network-simple.ui.h:4
 #: panels/network/network-wifi.ui.h:8
 #: panels/network/connection-editor/details-page.ui.h:5
 msgid "IPv6 Address"
 msgstr "IPv6 주소"
 
-#: panels/network/net-device-ethernet.c:158
-#: panels/network/net-device-ethernet.c:160 panels/network/panel-common.c:669
-#: panels/network/panel-common.c:671 panels/network/network-mobile.ui.h:3
+#: panels/network/net-device-ethernet.c:161
+#: panels/network/net-device-ethernet.c:163 panels/network/panel-common.c:682
+#: panels/network/panel-common.c:684 panels/network/network-mobile.ui.h:3
 msgid "IP Address"
 msgstr "IP 주소"
 
-#: panels/network/net-device-ethernet.c:163
+#: panels/network/net-device-ethernet.c:166
 #: panels/network/network-simple.ui.h:2 panels/network/network-wifi.ui.h:9
 #: panels/network/connection-editor/details-page.ui.h:6
 msgid "Hardware Address"
 msgstr "하드웨어 주소"
 
-#: panels/network/net-device-ethernet.c:167
+#: panels/network/net-device-ethernet.c:171
+#: panels/network/net-device-ethernet.c:173
+#: panels/network/net-device-ethernet.c:175
 #: panels/network/network-mobile.ui.h:5 panels/network/network-simple.ui.h:5
 #: panels/network/network-wifi.ui.h:10
 #: panels/network/connection-editor/details-page.ui.h:7
 msgid "Default Route"
 msgstr "기본 라우팅"
 
-#: panels/network/net-device-ethernet.c:170 panels/network/panel-common.c:675
+#: panels/network/net-device-ethernet.c:179 panels/network/panel-common.c:688
 #: panels/network/network-mobile.ui.h:6 panels/network/network-simple.ui.h:6
 #: panels/network/network-wifi.ui.h:11
 #: panels/network/connection-editor/details-page.ui.h:8
 msgid "DNS4"
-msgstr ""
+msgstr "DNS4"
 
-#: panels/network/net-device-ethernet.c:171 panels/network/panel-common.c:676
+#: panels/network/net-device-ethernet.c:180 panels/network/panel-common.c:689
 #: panels/network/network-mobile.ui.h:7 panels/network/network-simple.ui.h:7
 #: panels/network/network-wifi.ui.h:12
 #: panels/network/connection-editor/details-page.ui.h:9
 msgid "DNS6"
-msgstr ""
+msgstr "DNS6"
 
-#: panels/network/net-device-ethernet.c:173
-#: panels/network/net-device-ethernet.c:175 panels/network/panel-common.c:678
-#: panels/network/panel-common.c:680
+#: panels/network/net-device-ethernet.c:182
+#: panels/network/net-device-ethernet.c:184 panels/network/panel-common.c:691
+#: panels/network/panel-common.c:693
 #: panels/network/connection-editor/ip4-page.ui.h:3
 #: panels/network/connection-editor/ip6-page.ui.h:3
 msgid "DNS"
 msgstr "DNS"
 
-#: panels/network/net-device-ethernet.c:181 panels/network/network-wifi.ui.h:13
+#: panels/network/net-device-ethernet.c:190 panels/network/network-wifi.ui.h:13
 msgid "Last used"
 msgstr "마지막에 사용된 순"
 
@@ -549,12 +480,12 @@ msgstr "마지막에 사용된 순"
 #. * profile. It is also used to display ethernet in the
 #. * device list.
 #. 
-#: panels/network/net-device-ethernet.c:290
+#: panels/network/net-device-ethernet.c:292
 #: panels/network/network-ethernet.ui.h:1 panels/network/network-simple.ui.h:1
 msgid "Wired"
 msgstr "유선"
 
-#: panels/network/net-device-ethernet.c:358
+#: panels/network/net-device-ethernet.c:360
 #: panels/network/net-device-wifi.c:1751 panels/network/network-ethernet.ui.h:3
 #: panels/network/network-mobile.ui.h:9 panels/network/network-simple.ui.h:9
 #: panels/network/network-vpn.ui.h:7
@@ -567,51 +498,61 @@ msgstr "새 연결 추가"
 
 #. TRANSLATORS: this WEP WiFi security
 #: panels/network/net-device-wifi.c:215 panels/network/net-device-wifi.c:393
+#: panels/network/connection-editor/ce-page-details.c:50
 msgid "WEP"
 msgstr "WEP"
 
 #. TRANSLATORS: this WPA WiFi security
 #: panels/network/net-device-wifi.c:219 panels/network/net-device-wifi.c:398
+#: panels/network/connection-editor/ce-page-details.c:54
 #: panels/network/network-wifi.ui.h:20
 msgid "WPA"
 msgstr "WPA"
 
 #. TRANSLATORS: this WPA WiFi security
 #: panels/network/net-device-wifi.c:223
+#: panels/network/connection-editor/ce-page-details.c:58
 msgid "WPA2"
 msgstr "WPA2"
 
 #. TRANSLATORS: this Enterprise WiFi security
 #: panels/network/net-device-wifi.c:228
+#: panels/network/connection-editor/ce-page-details.c:63
 msgid "Enterprise"
 msgstr "기업용"
 
 #: panels/network/net-device-wifi.c:233 panels/network/net-device-wifi.c:383
+#: panels/network/connection-editor/ce-page-details.c:68
 msgctxt "Wifi security"
 msgid "None"
 msgstr "사용 안함"
 
 #: panels/network/net-device-wifi.c:578
+#: panels/network/connection-editor/ce-page-details.c:179
 msgctxt "Signal strength"
 msgid "None"
 msgstr "없음"
 
 #: panels/network/net-device-wifi.c:580
+#: panels/network/connection-editor/ce-page-details.c:181
 msgctxt "Signal strength"
 msgid "Weak"
 msgstr "취약"
 
 #: panels/network/net-device-wifi.c:582
+#: panels/network/connection-editor/ce-page-details.c:183
 msgctxt "Signal strength"
 msgid "Ok"
 msgstr "확인"
 
 #: panels/network/net-device-wifi.c:584
+#: panels/network/connection-editor/ce-page-details.c:185
 msgctxt "Signal strength"
 msgid "Good"
 msgstr "좋음"
 
 #: panels/network/net-device-wifi.c:586
+#: panels/network/connection-editor/ce-page-details.c:187
 msgctxt "Signal strength"
 msgid "Excellent"
 msgstr "매우 좋음"
@@ -638,6 +579,8 @@ msgid "Stop hotspot and disconnect any users?"
 msgstr "핫스팟을 중지하고 사용자와 연결을 끊으시겠습니까?"
 
 #: panels/network/net-device-wifi.c:1352 panels/network/net-device-wifi.c:1592
+#: panels/network/connection-editor/vpn-helpers.c:181
+#: panels/network/connection-editor/vpn-helpers.c:310
 #: panels/common/language-chooser.ui.h:2 panels/network/network-wifi.ui.h:1
 #: panels/network/connection-editor/connection-editor.ui.h:1
 msgid "_Cancel"
@@ -670,7 +613,8 @@ msgstr "초기화(_F)"
 msgid "History"
 msgstr "사용 기록"
 
-#: panels/network/net-device-wifi.c:1903
+#: panels/network/net-device-wifi.c:1903 panels/wacom/cc-wacom-page.c:468
+#: panels/wacom/button-mapping.ui.h:2
 msgid "_Close"
 msgstr "닫기(_C)"
 
@@ -984,192 +928,551 @@ msgstr "펌웨어 없음"
 msgid "Cable unplugged"
 msgstr "케이블 분리됨"
 
-#: panels/online-accounts/cc-online-accounts-panel.c:148
-msgctxt "Online Account"
-msgid "Other"
-msgstr "기타"
-
-#. translators: This is the title of the "Show Account" dialog. The
-#. * %s is the name of the provider. e.g., 'Google'.
-#: panels/online-accounts/cc-online-accounts-panel.c:593
-#, c-format
-msgid "%s Account"
-msgstr "%s 계정"
-
-#: panels/online-accounts/cc-online-accounts-panel.c:888
-msgid "Error removing account"
-msgstr "계정을 제거하는데 오류가 생겼습니다"
-
-#. Translators: The %s is the username (eg., debarshi.ray@gmail.com
-#. * or rishi).
-#. 
-#: panels/online-accounts/cc-online-accounts-panel.c:953
-#, c-format
-msgid "<b>%s</b> removed"
-msgstr "<b>%s</b> 제거함"
-
 #: panels/region/cinnamon-region-panel-xkblt.c:208
 msgid "Layout"
 msgstr "형태"
 
 #: panels/region/cinnamon-region-panel-xkbot.c:227
+#: panels/wacom/wacom-stylus-page.ui.h:1
 msgid "Default"
 msgstr "기본값"
 
-#: panels/wacom/cc-wacom-mapping-panel.c:298
+#: panels/wacom/cc-wacom-button-row.c:248
+#, c-format
+msgid "Button %d"
+msgstr "단추 %d"
+
+#: panels/wacom/cc-wacom-mapping-panel.c:232
 msgid "Output:"
 msgstr "출력:"
 
 #. Keep ratio switch
-#: panels/wacom/cc-wacom-mapping-panel.c:310
+#: panels/wacom/cc-wacom-mapping-panel.c:244
 msgid "Keep aspect ratio (letterbox):"
 msgstr "종횡비 유지 (레터박스 형식):"
 
-#. Apply screen rotation
-#: panels/wacom/cc-wacom-mapping-panel.c:321
-msgid "Rotate the tablet when the screen is rotated:"
-msgstr "화면이 회전할 때 태블릿 돌리기:"
-
 #. Whole-desktop checkbox
-#: panels/wacom/cc-wacom-mapping-panel.c:332
+#: panels/wacom/cc-wacom-mapping-panel.c:255
 msgid "Map to single monitor"
 msgstr "단일 모니터에 연결하여 맟추기"
 
-#: panels/wacom/cc-wacom-nav-button.c:89
+#: panels/wacom/cc-wacom-nav-button.c:84
 #, c-format
 msgid "%d of %d"
 msgstr "전체 %d개 중 %d개"
 
-#: panels/wacom/cc-wacom-page.c:118 panels/wacom/cc-wacom-page.c:385
-msgctxt "Wacom action-type"
-msgid "None"
-msgstr "선택 안 함"
-
-#: panels/wacom/cc-wacom-page.c:119
-msgctxt "Wacom action-type"
-msgid "Send Keystroke"
-msgstr "키 누름을 사용하여 보내기"
-
-#: panels/wacom/cc-wacom-page.c:120
-msgctxt "Wacom action-type"
-msgid "Switch Monitor"
-msgstr "모니터 전환"
-
-#: panels/wacom/cc-wacom-page.c:121
-msgctxt "Wacom action-type"
-msgid "Show On-Screen Help"
-msgstr "화면에 도움말 표시"
-
-#: panels/wacom/cc-wacom-page.c:622
-msgctxt "Wacom tablet button"
-msgid "Up"
-msgstr "위로 올림"
-
-#: panels/wacom/cc-wacom-page.c:622
-msgctxt "Wacom tablet button"
-msgid "Down"
-msgstr "아래로 내림"
-
-#: panels/wacom/cc-wacom-page.c:663
-msgid "Switch Modes"
-msgstr "모드 전환"
-
-#: panels/wacom/cc-wacom-page.c:753 panels/wacom/cc-wacom-stylus-page.c:394
-msgid "Button"
-msgstr "버튼"
-
-#: panels/wacom/cc-wacom-page.c:790
-msgid "Type"
-msgstr "형식"
-
-#: panels/wacom/cc-wacom-page.c:811
-msgid "Action"
-msgstr "작동"
-
-#: panels/wacom/cc-wacom-page.c:921
+#: panels/wacom/cc-wacom-page.c:465
 msgid "Display Mapping"
 msgstr "디스플레이 매핑"
 
-#. If no mode is available, we use "left-ring-mode-1" for backward compat
-#: panels/wacom/csd-wacom-device.c:1115
-msgid "Left Ring"
-msgstr "왼쪽 링"
+#: panels/wacom/cc-wacom-panel.c:666 panels/wacom/wacom-stylus-page.ui.h:9
+msgid "Stylus"
+msgstr "스타일러스"
 
-#: panels/wacom/csd-wacom-device.c:1125
+#: panels/wacom/cc-wacom-panel.c:669
+msgid "Tablet"
+msgstr "태블릿"
+
+#: panels/wacom/cc-wacom-stylus-page.c:362
+msgid "Button"
+msgstr "버튼"
+
+#: panels/wacom/csd-wacom-key-shortcut-button.c:217
+msgid "New shortcut…"
+msgstr "새 단축키…"
+
+#: panels/network/connection-editor/ce-page-8021x-security.c:101
+#: panels/network/connection-editor/ce-page-security.c:459
+#: panels/network/network-wifi.ui.h:6
+#: panels/network/connection-editor/details-page.ui.h:3
+msgid "Security"
+msgstr "보안"
+
+#: panels/network/connection-editor/ce-page.c:481
+msgid "automatic"
+msgstr "자동"
+
+#: panels/network/connection-editor/ce-page.c:521
 #, c-format
-msgid "Left Ring Mode #%d"
-msgstr "%d째 왼쪽 링 모드"
+msgid "Profile %d"
+msgstr "프로파일 %d"
 
-#. If no mode is available, we use "right-ring-mode-1" for backward compat
-#: panels/wacom/csd-wacom-device.c:1144
-msgid "Right Ring"
-msgstr "오른쪽 링"
+#: panels/network/connection-editor/ce-page-details.c:89
+msgid "Never"
+msgstr "안 함"
 
-#: panels/wacom/csd-wacom-device.c:1154
+#: panels/network/connection-editor/ce-page-details.c:100
+msgid "Today"
+msgstr "오늘"
+
+#: panels/network/connection-editor/ce-page-details.c:102
+msgid "Yesterday"
+msgstr "어제"
+
+#: panels/network/connection-editor/ce-page-details.c:225
+#: panels/network/network-wifi.ui.h:47
+msgid "Details"
+msgstr "상세보기"
+
+#: panels/network/connection-editor/ce-page-ethernet.c:215
+#: panels/network/connection-editor/ce-page-vpn.c:221
+#: panels/network/connection-editor/ce-page-wifi.c:227
+#: panels/network/network-wifi.ui.h:48
+msgid "Identity"
+msgstr "신원 정보"
+
+#: panels/network/connection-editor/ce-page-ip4.c:202
+#: panels/network/connection-editor/ce-page-ip4.c:461
+#: panels/network/connection-editor/ce-page-ip6.c:180
+#: panels/network/connection-editor/ce-page-ip6.c:427
+msgid "Address"
+msgstr "주소"
+
+#: panels/network/connection-editor/ce-page-ip4.c:215
+#: panels/network/connection-editor/ce-page-ip4.c:474
+msgid "Netmask"
+msgstr "넷마스크"
+
+#: panels/network/connection-editor/ce-page-ip4.c:229
+#: panels/network/connection-editor/ce-page-ip4.c:487
+#: panels/network/connection-editor/ce-page-ip6.c:206
+#: panels/network/connection-editor/ce-page-ip6.c:453
+#: panels/network/network-vpn.ui.h:2
+msgid "Gateway"
+msgstr "게이트웨이"
+
+#: panels/network/connection-editor/ce-page-ip4.c:250
+#: panels/network/connection-editor/ce-page-ip6.c:223
+msgid "Delete Address"
+msgstr "주소 삭제"
+
+#: panels/network/connection-editor/ce-page-ip4.c:305
+#: panels/network/connection-editor/ce-page-ip6.c:277
+msgid "Add"
+msgstr "추가"
+
+#: panels/network/connection-editor/ce-page-ip4.c:368
+#: panels/network/connection-editor/ce-page-ip6.c:334
+msgid "Server"
+msgstr "서버"
+
+#: panels/network/connection-editor/ce-page-ip4.c:385
+#: panels/network/connection-editor/ce-page-ip6.c:351
+msgid "Delete DNS Server"
+msgstr "DNS 서버 삭제"
+
+#. Translators: Please see https://en.wikipedia.org/wiki/Metrics_(networking)
+#: panels/network/connection-editor/ce-page-ip4.c:501
+#: panels/network/connection-editor/ce-page-ip6.c:467
+msgctxt "network parameters"
+msgid "Metric"
+msgstr "메트릭"
+
+#: panels/network/connection-editor/ce-page-ip4.c:522
+#: panels/network/connection-editor/ce-page-ip6.c:484
+msgid "Delete Route"
+msgstr "라우트 삭제"
+
+#: panels/network/connection-editor/ce-page-ip4.c:626
+#: panels/network/network-wifi.ui.h:28
+msgid "Automatic (DHCP)"
+msgstr "자동 (DHCP)"
+
+#: panels/network/connection-editor/ce-page-ip4.c:630
+#: panels/network/connection-editor/ce-page-ip6.c:592
+#: panels/network/network-wifi.ui.h:27
+msgid "Manual"
+msgstr "수동 설정"
+
+#: panels/network/connection-editor/ce-page-ip4.c:634
+#: panels/network/connection-editor/ce-page-ip6.c:596
+msgid "Link-Local Only"
+msgstr "링크-로컬 전용"
+
+#: panels/network/connection-editor/ce-page-ip4.c:980
+#: panels/network/network-wifi.ui.h:49
+msgid "IPv4"
+msgstr "IPv4"
+
+#: panels/network/connection-editor/ce-page-ip6.c:193
+#: panels/network/connection-editor/ce-page-ip6.c:440
+msgid "Prefix"
+msgstr "프리픽스"
+
+#: panels/network/connection-editor/ce-page-ip6.c:584
+#: panels/network/connection-editor/ethernet-page.ui.h:1
+#: panels/network/connection-editor/ip4-page.ui.h:4
+#: panels/network/connection-editor/ip6-page.ui.h:4
+#: panels/network/wireless-security/eap-method-peap.ui.h:2
+msgid "Automatic"
+msgstr "자동으로"
+
+#: panels/network/connection-editor/ce-page-ip6.c:588
+msgid "Automatic, DHCP only"
+msgstr "자동, DHCP 전용"
+
+#: panels/network/connection-editor/ce-page-ip6.c:898
+#: panels/network/network-wifi.ui.h:50
+msgid "IPv6"
+msgstr "IPv6"
+
+#: panels/network/connection-editor/ce-page-reset.c:78
+msgid "Reset"
+msgstr "초기화"
+
+#: panels/network/connection-editor/ce-page-security.c:248
+msgctxt "Wi-Fi/Ethernet security"
+msgid "None"
+msgstr "없음"
+
+#: panels/network/connection-editor/ce-page-security.c:271
+msgid "WEP 40/128-bit Key (Hex or ASCII)"
+msgstr "WEP 40/128비트 키 (16진수 또는 ASCII)"
+
+#: panels/network/connection-editor/ce-page-security.c:281
+msgid "WEP 128-bit Passphrase"
+msgstr "WEP 128비트 암호"
+
+#: panels/network/connection-editor/ce-page-security.c:294
+#: panels/network/wireless-security/wireless-security.c:463
+msgid "LEAP"
+msgstr "LEAP"
+
+#: panels/network/connection-editor/ce-page-security.c:307
+msgid "Dynamic WEP (802.1x)"
+msgstr "동적 WEP (802.1x)"
+
+#: panels/network/connection-editor/ce-page-security.c:321
+msgid "WPA & WPA2 Personal"
+msgstr "WPA 및 WPA2 개인용"
+
+#: panels/network/connection-editor/ce-page-security.c:335
+msgid "WPA & WPA2 Enterprise"
+msgstr "WPA 및 WPA2 기업용"
+
+#: panels/network/connection-editor/firewall-helpers.c:49
+#: panels/network/connection-editor/firewall-helpers.c:118
+msgctxt "Firewall zone"
+msgid "Default"
+msgstr "기본값"
+
+#: panels/network/connection-editor/firewall-helpers.c:50
+msgid "The zone defines the trust level of the connection"
+msgstr "이 구역은 연결의 신뢰 수준을 정의합니다."
+
+#: panels/network/connection-editor/net-connection-editor.c:295
+msgid "Unable to open connection editor"
+msgstr "연결 편집기를 열 수 없습니다"
+
+#: panels/network/connection-editor/net-connection-editor.c:313
+msgid "New Profile"
+msgstr "새 프로파일"
+
+#: panels/network/connection-editor/net-connection-editor.c:545
+msgid "_Add"
+msgstr "추가(_A)"
+
+#: panels/network/connection-editor/net-connection-editor.c:634
+msgid "VPN"
+msgstr "VPN"
+
+#: panels/network/connection-editor/net-connection-editor.c:782
+msgid "Import from file…"
+msgstr "파일에서 가져오기…"
+
+#: panels/network/connection-editor/net-connection-editor.c:816
+msgid "Add VPN"
+msgstr "VPN 추가"
+
+#: panels/network/connection-editor/vpn-helpers.c:141
+msgid "Cannot import VPN connection"
+msgstr "VPN 연결 실패"
+
+#: panels/network/connection-editor/vpn-helpers.c:143
 #, c-format
-msgid "Right Ring Mode #%d"
-msgstr "%d째 오른쪽 링 모드"
+msgid ""
+"The file “%s” could not be read or does not contain recognized VPN "
+"connection information\n"
+"\n"
+"Error: %s."
+msgstr ""
+"“%s” 파일을 읽을 수 없거나 인식된 VPN 연결 정보가 없습니다\n"
+"\n"
+"오류: %s."
 
-#. If no mode is available, we use "left-strip-mode-1" for backward compat
-#: panels/wacom/csd-wacom-device.c:1195
-msgid "Left Touchstrip"
-msgstr "왼쪽 터치스트립"
+#: panels/network/connection-editor/vpn-helpers.c:178
+msgid "Select file to import"
+msgstr "가져올 파일 선택"
 
-#: panels/wacom/csd-wacom-device.c:1205
+#: panels/network/connection-editor/vpn-helpers.c:182
+msgid "_Open"
+msgstr "열기(_O)"
+
+#: panels/network/connection-editor/vpn-helpers.c:230
 #, c-format
-msgid "Left Touchstrip Mode #%d"
-msgstr "%d번째 왼쪽 터치스트립 모드"
+msgid "A file named “%s” already exists."
+msgstr "이름이 “%s”인 파일이 이미 있습니다."
 
-#. If no mode is available, we use "right-strip-mode-1" for backward compat
-#: panels/wacom/csd-wacom-device.c:1224
-msgid "Right Touchstrip"
-msgstr "오른쪽 터치스트립"
+#: panels/network/connection-editor/vpn-helpers.c:232
+msgid "_Replace"
+msgstr "바꾸기(_R)"
 
-#: panels/wacom/csd-wacom-device.c:1234
+#: panels/network/connection-editor/vpn-helpers.c:234
 #, c-format
-msgid "Right Touchstrip Mode #%d"
-msgstr "%d번째 오른쪽 터치스트립 모드"
+msgid "Do you want to replace %s with the VPN connection you are saving?"
+msgstr "%s 연결을 저장한 VPN 연결로 바꾸시겠습니까?"
 
-#: panels/wacom/csd-wacom-device.c:1259
-msgid "Left Touchring Mode Switch"
-msgstr "왼쪽 터치링 모드로 전환"
+#: panels/network/connection-editor/vpn-helpers.c:270
+msgid "Cannot export VPN connection"
+msgstr "VPN 연결을 내보낼 수 없음"
 
-#: panels/wacom/csd-wacom-device.c:1261
-msgid "Right Touchring Mode Switch"
-msgstr "오른쪽 터치링 모드로 전환"
-
-#: panels/wacom/csd-wacom-device.c:1264
-msgid "Left Touchstrip Mode Switch"
-msgstr "왼쪽 터치스트립 모드로 전환"
-
-#: panels/wacom/csd-wacom-device.c:1266
-msgid "Right Touchstrip Mode Switch"
-msgstr "오른쪽 터치스트립 모드로 전환"
-
-#: panels/wacom/csd-wacom-device.c:1271
+#: panels/network/connection-editor/vpn-helpers.c:272
 #, c-format
-msgid "Mode Switch #%d"
-msgstr "%d번째 모드로 전환"
+msgid ""
+"The VPN connection “%s” could not be exported to %s.\n"
+"\n"
+"Error: %s."
+msgstr ""
+"“%s” VPN 연결을 %s에 내보낼 수 없습니다.\n"
+"\n"
+"오류: %s."
 
-#: panels/wacom/csd-wacom-device.c:1375
-#, c-format
-msgid "Left Button #%d"
-msgstr "%d번째 왼쪽 버튼"
+#: panels/network/connection-editor/vpn-helpers.c:307
+msgid "Export VPN connection"
+msgstr "VPN 연결 내보내기"
 
-#: panels/wacom/csd-wacom-device.c:1378
-#, c-format
-msgid "Right Button #%d"
-msgstr "%d번째 오른쪽 버튼"
+#: panels/network/connection-editor/vpn-helpers.c:311
+msgid "_Save"
+msgstr "저장하기(_S)"
 
-#: panels/wacom/csd-wacom-device.c:1381
-#, c-format
-msgid "Top Button #%d"
-msgstr "%d번째 위쪽 버튼"
+#: panels/network/wireless-security/eap-method.c:69
+msgid "undefined error in 802.1x security (wpa-eap)"
+msgstr "802.1x 보안 (WPA-EAP)에 정의되지 않은 오류"
 
-#: panels/wacom/csd-wacom-device.c:1384
+#: panels/network/wireless-security/eap-method.c:245
+msgid "no file selected"
+msgstr "선택한 파일 없음"
+
+#: panels/network/wireless-security/eap-method.c:276
+msgid "unspecified error validating eap-method file"
+msgstr "Eap-method 파일 검증 중 지정하지 않은 오류 발생"
+
+#: panels/network/wireless-security/eap-method.c:321
+msgid "DER, PEM, or PKCS#12 private keys (*.der, *.pem, *.p12, *.key)"
+msgstr "DER, PEM, 또는 PKCS#12 개인 키(*.der, *.pem, *.p12, *.key)"
+
+#: panels/network/wireless-security/eap-method.c:324
+msgid "DER or PEM certificates (*.der, *.pem, *.crt, *.cer)"
+msgstr "DER 또는 PEM 형식 인증서(*.der, *.pem, *.crt, *.cer)"
+
+#: panels/network/wireless-security/eap-method-fast.c:72
+msgid "missing EAP-FAST PAC file"
+msgstr "EAP-FAST PAC 파일이 누락되었습니다."
+
+#: panels/network/wireless-security/eap-method-fast.c:268
+#: panels/network/wireless-security/eap-method-peap.c:302
+#: panels/network/wireless-security/eap-method-ttls.c:333
+msgid "GTC"
+msgstr "GTC"
+
+#: panels/network/wireless-security/eap-method-fast.c:283
+#: panels/network/wireless-security/eap-method-peap.c:272
+#: panels/network/wireless-security/eap-method-ttls.c:288
+msgid "MSCHAPv2"
+msgstr "MSCHAPv2"
+
+#: panels/network/wireless-security/eap-method-fast.c:406
+msgid "Choose a PAC file"
+msgstr "PAC 파일 선택하기"
+
+#: panels/network/wireless-security/eap-method-fast.c:413
+msgid "PAC files (*.pac)"
+msgstr "PAC 파일(*.pac)"
+
+#: panels/network/wireless-security/eap-method-leap.c:65
+msgid "missing EAP-LEAP username"
+msgstr "EAP-LEAP 사용자 이름 누락"
+
+#: panels/network/wireless-security/eap-method-leap.c:74
+msgid "missing EAP-LEAP password"
+msgstr "누락 된 EAP-LEAP 암호"
+
+#: panels/network/wireless-security/eap-method-peap.c:63
 #, c-format
-msgid "Bottom Button #%d"
-msgstr "%d번째 아래 버튼"
+msgid "invalid EAP-PEAP CA certificate: %s"
+msgstr "올바르지 않은 EAP-PEAP CA 인증서: %s"
+
+#: panels/network/wireless-security/eap-method-peap.c:68
+msgid "invalid EAP-PEAP CA certificate: no certificate specified"
+msgstr "올바르지 않은 EAP-PEAP CA 인증서: 지정한 인증서 없음"
+
+#: panels/network/wireless-security/eap-method-peap.c:287
+#: panels/network/wireless-security/eap-method-ttls.c:318
+#: panels/network/wireless-security/wireless-security.c:439
+msgid "MD5"
+msgstr "MD5"
+
+#: panels/network/wireless-security/eap-method-peap.c:381
+#: panels/network/wireless-security/eap-method-tls.c:501
+#: panels/network/wireless-security/eap-method-ttls.c:412
+msgid "Choose a Certificate Authority certificate"
+msgstr "인증 기관 인증서 선택하기"
+
+#: panels/network/wireless-security/eap-method-simple.c:74
+msgid "missing EAP username"
+msgstr "EAP 사용자 이름 누락"
+
+#: panels/network/wireless-security/eap-method-simple.c:87
+msgid "missing EAP password"
+msgstr "EAP 암호 누락"
+
+#: panels/network/wireless-security/eap-method-tls.c:68
+msgid "missing EAP-TLS identity"
+msgstr "EAP-TLS 신원 누락"
+
+#: panels/network/wireless-security/eap-method-tls.c:77
+#, c-format
+msgid "invalid EAP-TLS CA certificate: %s"
+msgstr "올바르지 않은 EAP-TLS CA 인증서: %s"
+
+#: panels/network/wireless-security/eap-method-tls.c:84
+msgid "invalid EAP-TLS CA certificate: no certificate specified"
+msgstr "올바르지 않은 EAP-TLS CA 인증서: 지정한 인증서 없음"
+
+#: panels/network/wireless-security/eap-method-tls.c:95
+msgid "invalid EAP-TLS password: missing"
+msgstr "올바르지 않은 EAP-TLS 암호: 암호 없음"
+
+#: panels/network/wireless-security/eap-method-tls.c:109
+#, c-format
+msgid "invalid EAP-TLS private-key: %s"
+msgstr "올바르지 않은 EAP-TLS 개인 키: %s"
+
+#: panels/network/wireless-security/eap-method-tls.c:119
+#, c-format
+msgid "invalid EAP-TLS user-certificate: %s"
+msgstr "올바르지 않은 EAP-TLS 사용자 인증서: %s"
+
+#: panels/network/wireless-security/eap-method-tls.c:316
+msgid "Unencrypted private keys are insecure"
+msgstr "암호화되지 않은 개인 키는 안전하지 않습니다"
+
+#: panels/network/wireless-security/eap-method-tls.c:319
+msgid ""
+"The selected private key does not appear to be protected by a password.  "
+"This could allow your security credentials to be compromised.  Please select "
+"a password-protected private key.\n"
+"\n"
+"(You can password-protect your private key with openssl)"
+msgstr ""
+"선택한 개인 키는 암호로 보호되지 않는 것 같습니다. 이로 인해 보안 자격 증명이 손상될 수 있습니다. 비밀번호로 보호된 개인 키를 "
+"선택하세요.\n"
+"\n"
+"(OpenSSL로 개인 키를 암호로 보호할 수도 있습니다)"
+
+#: panels/network/wireless-security/eap-method-tls.c:495
+msgid "Choose your personal certificate"
+msgstr "개인 인증서를 선택하세요"
+
+#: panels/network/wireless-security/eap-method-tls.c:507
+msgid "Choose your private key"
+msgstr "개인 키를 선택하세요"
+
+#: panels/network/wireless-security/eap-method-ttls.c:63
+#, c-format
+msgid "invalid EAP-TTLS CA certificate: %s"
+msgstr "올바르지 않은 EAP-TTLS CA 인증서: %s"
+
+#: panels/network/wireless-security/eap-method-ttls.c:68
+msgid "invalid EAP-TTLS CA certificate: no certificate specified"
+msgstr "올바르지 않은 EAP-TTLS CA 인증서: 지정한 인증서 없음"
+
+#: panels/network/wireless-security/eap-method-ttls.c:258
+msgid "PAP"
+msgstr "PAP"
+
+#: panels/network/wireless-security/eap-method-ttls.c:273
+msgid "MSCHAP"
+msgstr "MSCHAP"
+
+#: panels/network/wireless-security/eap-method-ttls.c:303
+msgid "CHAP"
+msgstr "CHAP"
+
+#: panels/network/wireless-security/wireless-security.c:87
+msgid "Unknown error validating 802.1x security"
+msgstr "802.1x 보안 검증 중 알 수 없는 오류 발생"
+
+#: panels/network/wireless-security/wireless-security.c:451
+msgid "TLS"
+msgstr "TLS"
+
+#: panels/network/wireless-security/wireless-security.c:475
+msgid "PWD"
+msgstr "PWD"
+
+#: panels/network/wireless-security/wireless-security.c:486
+msgid "FAST"
+msgstr "FAST"
+
+#: panels/network/wireless-security/wireless-security.c:497
+msgid "Tunneled TLS"
+msgstr "터널링된 TLS"
+
+#: panels/network/wireless-security/wireless-security.c:508
+msgid "Protected EAP (PEAP)"
+msgstr "보호되는 EAP (PEAP)"
+
+#: panels/network/wireless-security/ws-leap.c:63
+msgid "missing leap-username"
+msgstr "LEAP 사용자 이름 없음"
+
+#: panels/network/wireless-security/ws-leap.c:74
+msgid "missing leap-password"
+msgstr "LEAP 암호 없음"
+
+#: panels/network/wireless-security/ws-wep-key.c:107
+msgid "missing wep-key"
+msgstr "WEP 키가 없음"
+
+#: panels/network/wireless-security/ws-wep-key.c:116
+#, c-format
+msgid ""
+"invalid wep-key: key with a length of %zu must contain only hex-digits"
+msgstr "올바르지 않은 WEP 키: 길이가 %zu인 키에는 16진수 숫자만 들어 있어야 합니다"
+
+#: panels/network/wireless-security/ws-wep-key.c:124
+#, c-format
+msgid ""
+"invalid wep-key: key with a length of %zu must contain only ascii characters"
+msgstr "올바르지 않은 WEP 키: 길이가 %zu인 키에는 ASCII 문자만 들어 있어야 합니다"
+
+#: panels/network/wireless-security/ws-wep-key.c:130
+#, c-format
+msgid ""
+"invalid wep-key: wrong key length %zu. A key must be either of length 5/13 "
+"(ascii) or 10/26 (hex)"
+msgstr ""
+"올바르지 않은 WEP 키: 잘못된 키 길이 %zu. 키 길이는 5/13 (ASCII) 또는 10/26 (16진수) 중 하나여야 합니다"
+
+#: panels/network/wireless-security/ws-wep-key.c:137
+msgid "invalid wep-key: passphrase must be non-empty"
+msgstr "올바르지 않은 WEP 키: 암호를 반드시 입력해야 합니다"
+
+#: panels/network/wireless-security/ws-wep-key.c:139
+msgid "invalid wep-key: passphrase must be shorter than 64 characters"
+msgstr "올바르지 않은 WEP 키: 암호글은 64자보다 짧아야 합니다"
+
+#: panels/network/wireless-security/ws-wpa-psk.c:70
+#, c-format
+msgid ""
+"invalid wpa-psk: invalid key-length %zu. Must be [8,63] bytes or 64 hex "
+"digits"
+msgstr "올바르지 않은 WPA-PSK: 잘못된 키 길이 %zu. [8,64] 바이트 또는 64개 16진수 숫자여야 합니다"
+
+#: panels/network/wireless-security/ws-wpa-psk.c:79
+msgid "invalid wpa-psk: cannot interpret key with 64 bytes as hex"
+msgstr "올바르지 않은 WPA-PSK: 64바이트의 키를 16진수로 해석할 수 없습니다"
 
 #: shell/cc-shell-nav-bar.c:117
 msgid "_All Settings"
@@ -1181,12 +1484,12 @@ msgstr "자세히 표시 모드 사용"
 
 #: shell/control-center.c:59
 msgid "Show the overview"
-msgstr "개요를 봅니다"
+msgstr "개요 보이기"
 
 #: shell/control-center.c:60 shell/control-center.c:61
 #: shell/control-center.c:62
 msgid "Show help options"
-msgstr "도움말 옵션을 봅니다"
+msgstr "도움말 보이기"
 
 #: shell/control-center.c:63
 msgid "Panel to display"
@@ -1219,7 +1522,7 @@ msgctxt "hotspot"
 msgid "Hotspot"
 msgstr "핫스팟"
 
-#: panels/color/color.ui.h:3 generate_additional_files.py:25
+#: panels/color/color.ui.h:3 generate_additional_files.py:23
 msgid "Color"
 msgstr "색깔"
 
@@ -1251,35 +1554,27 @@ msgstr "이 컴퓨터의 모든 사용자가 사용할 프로파일을 설정합
 msgid "Add profile"
 msgstr "프로파일 추가"
 
-#: panels/color/color.ui.h:12 panels/wacom/cinnamon-wacom-properties.ui.h:10
-msgid "Calibrate…"
-msgstr "보정..."
-
-#: panels/color/color.ui.h:13
-msgid "Calibrate the device"
-msgstr "장치 보정"
-
-#: panels/color/color.ui.h:14
+#: panels/color/color.ui.h:12
 msgid "Remove profile"
 msgstr "프로파일 제거"
 
-#: panels/color/color.ui.h:15
+#: panels/color/color.ui.h:13
 msgid "View details"
 msgstr "자세히 보기"
 
-#: panels/color/color.ui.h:16
+#: panels/color/color.ui.h:14
 msgid "Device type:"
 msgstr "장치 유형:"
 
-#: panels/color/color.ui.h:17
+#: panels/color/color.ui.h:15
 msgid "Manufacturer:"
 msgstr "제조사:"
 
-#: panels/color/color.ui.h:18
+#: panels/color/color.ui.h:16
 msgid "Model:"
 msgstr "모델:"
 
-#: panels/color/color.ui.h:19
+#: panels/color/color.ui.h:17
 msgid ""
 "Image files can be dragged on this window to auto-complete the above fields."
 msgstr "그림 파일을 이 창에 끌어오면 위의 항목을 자동으로 완성할 수 있습니다."
@@ -1385,63 +1680,57 @@ msgstr "11월"
 msgid "December"
 msgstr "12월"
 
-#: panels/display/display-capplet.ui.h:1
-msgid "Active"
-msgstr ""
+#: panels/display/cc-display-panel.ui.h:1
+msgid "Display Arrangement"
+msgstr "디스플레이 배치"
 
-#: panels/display/display-capplet.ui.h:2
+#: panels/display/cc-display-panel.ui.h:2
 msgid "Set as Primary"
 msgstr "주 그룹으로 설정"
 
-#: panels/display/display-capplet.ui.h:3
+#: panels/display/cc-display-panel.ui.h:3
+msgid "Display Configuration"
+msgstr "디스플레이 설정"
+
+#: panels/display/cc-display-panel.ui.h:4
+msgid "Join Displays"
+msgstr "디스플레이 연결"
+
+#: panels/display/cc-display-panel.ui.h:5
+msgid "Mirror"
+msgstr "좌우 반전"
+
+#: panels/display/cc-display-panel.ui.h:6
+msgid "Displays"
+msgstr "디스플레이"
+
+#: panels/display/cc-display-panel.ui.h:7
+msgid "Reset to Defaults"
+msgstr "기본값으로 초기화"
+
+#: panels/display/cc-display-panel.ui.h:8
+msgid "Cancel changes"
+msgstr "변경 취소"
+
+#: panels/display/cc-display-panel.ui.h:9
+msgid "Apply"
+msgstr "적용"
+
+#: panels/display/cc-display-settings.ui.h:1
 msgid "Resolution"
 msgstr "해상도"
 
-#: panels/display/display-capplet.ui.h:4
-msgid "Mirror displays"
-msgstr "디스플레이 복제"
-
-#: panels/display/display-capplet.ui.h:5
-msgid "Rotation"
-msgstr "회전"
-
-#: panels/display/display-capplet.ui.h:6
+#: panels/display/cc-display-settings.ui.h:2
 msgid "Refresh Rate"
 msgstr "주사율"
 
-#: panels/display/display-capplet.ui.h:7
-msgid "User interface scale"
-msgstr "사용자 인터페이스 스케일"
+#: panels/display/cc-display-settings.ui.h:3
+msgid "Rotation"
+msgstr "회전"
 
-#: panels/display/display-capplet.ui.h:8
-msgid ""
-"This is the global scaling factor for all monitors. In automatic mode, it is "
-"chosen based on the primary monitor."
-msgstr ""
-
-#: panels/display/display-capplet.ui.h:9
-msgid "This option may limit resolution options"
-msgstr "이 옵션은 해상도 옵션을 제한할 수 있음"
-
-#: panels/display/display-capplet.ui.h:10
-msgid ""
-"This feature is experimental and may not work well with all hardware and "
-"drivers. Enabling it may impact performance, vsync, resolution or screen "
-"ratio."
-msgstr ""
-
-#: panels/display/display-capplet.ui.h:11
-msgid "Fractional scaling"
-msgstr "분수 스케일링"
-
-#: panels/display/display-capplet.ui.h:12
-msgid "_Detect Displays"
-msgstr "화면 감지(_D)"
-
-#: panels/display/display-capplet.ui.h:13
-#: panels/region/cinnamon-region-panel.ui.h:18
-msgid "Reset to De_faults"
-msgstr "기본값으로 초기화(_F)"
+#: panels/display/cc-display-settings.ui.h:5
+msgid "Adjust for TV"
+msgstr "TV에 맞게 조정"
 
 #: panels/network/network-ethernet.ui.h:2
 msgid "_Add Profile…"
@@ -1455,7 +1744,7 @@ msgstr "IMEI"
 msgid "Provider"
 msgstr "서비스 제공자"
 
-#: panels/network/network-mobile.ui.h:8 generate_additional_files.py:71
+#: panels/network/network-mobile.ui.h:8 generate_additional_files.py:63
 msgid "Network"
 msgstr "네트워크"
 
@@ -1534,10 +1823,6 @@ msgstr "장치 제거"
 msgid "VPN Type"
 msgstr "VPN 종류"
 
-#: panels/network/network-vpn.ui.h:2
-msgid "Gateway"
-msgstr "게이트웨이"
-
 #: panels/network/network-vpn.ui.h:3
 msgid "Group Name"
 msgstr "그룹 이름"
@@ -1572,11 +1857,6 @@ msgstr "신호 강도"
 #: panels/network/connection-editor/details-page.ui.h:2
 msgid "Link speed"
 msgstr "연결 속도"
-
-#: panels/network/network-wifi.ui.h:6
-#: panels/network/connection-editor/details-page.ui.h:3
-msgid "Security"
-msgstr "보안"
 
 #: panels/network/network-wifi.ui.h:14
 msgid "details"
@@ -1616,7 +1896,7 @@ msgstr "사용 안 함"
 
 #: panels/network/network-wifi.ui.h:22
 msgid "Show P_assword"
-msgstr "암호 보이기(_A)"
+msgstr "비밀번호 보이기(_A)"
 
 #: panels/network/network-wifi.ui.h:23
 msgid "Make available to other users"
@@ -1637,14 +1917,6 @@ msgstr "IPv4(_4)"
 msgid "_Addresses"
 msgstr "주소(_A)"
 
-#: panels/network/network-wifi.ui.h:27
-msgid "Manual"
-msgstr "수동 설정"
-
-#: panels/network/network-wifi.ui.h:28
-msgid "Automatic (DHCP)"
-msgstr "자동 (DHCP)"
-
 #: panels/network/network-wifi.ui.h:29
 msgid "Automatic (DHCP) addresses only"
 msgstr "자동 (DHCP) 주소 전용"
@@ -1657,7 +1929,7 @@ msgstr "링크 로컬 전용"
 msgid "Shared with other computers"
 msgstr "다른 컴퓨터와 공유"
 
-#: panels/network/network-wifi.ui.h:32
+#: panels/network/network-wifi.ui.h:32 panels/wacom/wacom-stylus-page.ui.h:6
 msgid "Disabled"
 msgstr "사용 않음"
 
@@ -1725,22 +1997,6 @@ msgstr "이 네트워크와 관련 모든 사항을 제거하고 자동으로 �
 msgid "reset"
 msgstr "초기화"
 
-#: panels/network/network-wifi.ui.h:47
-msgid "Details"
-msgstr "상세보기"
-
-#: panels/network/network-wifi.ui.h:48
-msgid "Identity"
-msgstr "신원 정보"
-
-#: panels/network/network-wifi.ui.h:49
-msgid "IPv4"
-msgstr "IPv4"
-
-#: panels/network/network-wifi.ui.h:50
-msgid "IPv6"
-msgstr "IPv6"
-
 #: panels/network/network-wifi.ui.h:51
 msgid "Hardware"
 msgstr "하드웨어"
@@ -1797,22 +2053,6 @@ msgstr "보안 방식"
 #: panels/network/network-wifi.ui.h:64
 msgid "Password"
 msgstr "비밀번호"
-
-#: panels/online-accounts/online-accounts.ui.h:1
-msgid "Undo"
-msgstr "실행 취소"
-
-#: panels/online-accounts/online-accounts.ui.h:2
-msgid "No internet connection — connect to set up new online accounts"
-msgstr "인터넷 연결이 없습니다 — 새 온라인 계정을 설정하려면 연결하십시오"
-
-#: panels/online-accounts/online-accounts.ui.h:3
-msgid "Add an account"
-msgstr "계정 추가"
-
-#: panels/online-accounts/online-accounts.ui.h:4
-msgid "Remove Account"
-msgstr "계정 제거"
 
 #: panels/region/cinnamon-region-panel-layout-chooser.ui.h:1
 msgid "Choose a Layout"
@@ -1886,7 +2126,7 @@ msgstr "키보드 레이아웃을 표시할 때, 가능하면, 국기를 사용�
 msgid ""
 "Show the layout name instead of the group name when using text to represent "
 "a layout"
-msgstr "레이아웃을 문자로 표시할 때 그룹 이름 대신 레이아웃 이름을 표시합니다"
+msgstr "레이아웃을 문자로 보일 때 그룹 이름 대신 레이아웃 이름으로 보여주기"
 
 #: panels/region/cinnamon-region-panel.ui.h:15
 msgid "Prefer upper-case when using text to represent a layout"
@@ -1900,6 +2140,10 @@ msgstr "옵션(_O)..."
 msgid "View and edit keyboard layout options"
 msgstr "키보드 배치 옵션을 보면서 편집합니다."
 
+#: panels/region/cinnamon-region-panel.ui.h:18
+msgid "Reset to De_faults"
+msgstr "기본값으로 초기화(_F)"
+
 #: panels/region/cinnamon-region-panel.ui.h:19
 msgid ""
 "Replace the current keyboard layout settings with the\n"
@@ -1912,136 +2156,128 @@ msgstr ""
 msgid "Map Buttons"
 msgstr "버튼 연결"
 
-#: panels/wacom/button-mapping.ui.h:2
+#: panels/wacom/button-mapping.ui.h:3
 msgid "Map buttons to functions"
 msgstr "버튼을 기능으로 연결"
 
-#: panels/wacom/button-mapping.ui.h:3
+#: panels/wacom/button-mapping.ui.h:4
 msgid ""
-"To edit a shortcut, click the row and hold down the new keys or press "
-"Backspace to clear."
-msgstr "바로가기 키를 편집하려면, 해당 줄을 누르고 새 키를 누르십시오. 지우시러면 백스페이스를 누르십시오."
+"To edit a shortcut, choose the “Send Keystroke” action, press the keyboard "
+"shortcut button and hold down the new keys or press Backspace to clear."
+msgstr "단축키를 편집하려면, “키 누름 보내기” 동작을 선택하고, 새 키를 누르십시오. 지우려면 백스페이스를 누르십시오."
 
 #: panels/wacom/cinnamon-wacom-properties.ui.h:1
-msgid "Tablet (absolute)"
-msgstr "태블릿 (절대 좌표)"
-
-#: panels/wacom/cinnamon-wacom-properties.ui.h:2
-msgid "Touchpad (relative)"
-msgstr "터치패드 (상대 좌표)"
-
-#: panels/wacom/cinnamon-wacom-properties.ui.h:3
-msgid "Tablet Preferences"
-msgstr "태블릿 설정"
-
-#: panels/wacom/cinnamon-wacom-properties.ui.h:4
 msgid "No tablet detected"
 msgstr "검색된 태블릿 없음"
 
-#: panels/wacom/cinnamon-wacom-properties.ui.h:5
-msgid "Please plug in or turn on your graphics tablet"
-msgstr "그래픽 태블릿을 연결하거나 켜십시오."
+#: panels/wacom/cinnamon-wacom-properties.ui.h:2
+msgid "Please plug in or turn on your Wacom tablet"
+msgstr "와콤 디지타이저를 연결하거나 켜십시오"
 
-#: panels/wacom/cinnamon-wacom-properties.ui.h:6
+#: panels/wacom/cinnamon-wacom-properties.ui.h:3
 msgid "Bluetooth Settings"
 msgstr "블루투스 설정"
 
-#: panels/wacom/cinnamon-wacom-properties.ui.h:7
-#: generate_additional_files.py:86
-msgid "Graphics Tablet"
-msgstr "그래픽 태블릿"
+#: panels/wacom/cinnamon-wacom-properties.ui.h:4
+msgid "Wacom Tablet"
+msgstr "와콤 타블릿"
 
-#: panels/wacom/cinnamon-wacom-properties.ui.h:8
+#: panels/wacom/cinnamon-wacom-properties.ui.h:5
+msgid "Tracking Mode"
+msgstr "추적 모드"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:6
+msgid "Left-Handed Orientation"
+msgstr "왼손잡이 방향"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:7
 msgid "Map to Monitor…"
 msgstr "모니터에 연결..."
 
-#: panels/wacom/cinnamon-wacom-properties.ui.h:9
+#: panels/wacom/cinnamon-wacom-properties.ui.h:8
 msgid "Map Buttons…"
 msgstr "버튼 매핑..."
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:9
+msgid "Calibrate…"
+msgstr "보정..."
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:10
+msgid "Adjust mouse settings"
+msgstr "마우스 설정 조정"
 
 #: panels/wacom/cinnamon-wacom-properties.ui.h:11
 msgid "Adjust display resolution"
 msgstr "화면 해상도 조절"
 
 #: panels/wacom/cinnamon-wacom-properties.ui.h:12
-msgid "Tracking Mode"
-msgstr "추적 모드"
+msgid "Decouple Display"
+msgstr "디스플레이 분리"
 
 #: panels/wacom/cinnamon-wacom-properties.ui.h:13
-msgid "Left-Handed Orientation"
-msgstr "왼손잡이 방향"
+msgid "Tablet (absolute)"
+msgstr "태블릿 (절대 좌표)"
 
-#: panels/wacom/wacom-stylus-page.ui.h:1
-msgid "No Action"
-msgstr "동작 없음"
+#: panels/wacom/cinnamon-wacom-properties.ui.h:14
+msgid "Touchpad (relative)"
+msgstr "터치패드 (상대 좌표)"
 
 #: panels/wacom/wacom-stylus-page.ui.h:2
-msgid "Left Mouse Button Click"
-msgstr "왼쪽 마우스 버튼 누르기"
-
-#: panels/wacom/wacom-stylus-page.ui.h:3
 msgid "Middle Mouse Button Click"
 msgstr "가운데 마우스 버튼 누르기"
 
-#: panels/wacom/wacom-stylus-page.ui.h:4
+#: panels/wacom/wacom-stylus-page.ui.h:3
 msgid "Right Mouse Button Click"
 msgstr "오른쪽 마우스 버튼 누르기"
 
-#: panels/wacom/wacom-stylus-page.ui.h:5
-msgid "Scroll Up"
-msgstr "위로 스크롤"
-
-#: panels/wacom/wacom-stylus-page.ui.h:6
-msgid "Scroll Down"
-msgstr "아래로 스크롤"
-
-#: panels/wacom/wacom-stylus-page.ui.h:7
-msgid "Scroll Left"
-msgstr "왼쪽으로 스크롤"
-
-#: panels/wacom/wacom-stylus-page.ui.h:8
-msgid "Scroll Right"
-msgstr "오른쪽으로 스크롤"
-
-#: panels/wacom/wacom-stylus-page.ui.h:9
+#: panels/wacom/wacom-stylus-page.ui.h:4
 msgid "Back"
 msgstr "뒤로"
 
-#: panels/wacom/wacom-stylus-page.ui.h:10
+#: panels/wacom/wacom-stylus-page.ui.h:5
 msgid "Forward"
 msgstr "앞으로"
 
-#: panels/wacom/wacom-stylus-page.ui.h:11
-msgid "Stylus"
-msgstr "스타일러스"
+#: panels/wacom/wacom-stylus-page.ui.h:7
+msgid "No stylus found"
+msgstr "스타일러스 없음"
 
-#: panels/wacom/wacom-stylus-page.ui.h:12
+#: panels/wacom/wacom-stylus-page.ui.h:8
+msgid ""
+"Please move your stylus to the proximity of the tablet to configure it"
+msgstr "스타일러스를 디지타이저에 가깝게 움직여서 구성하십시오"
+
+#: panels/wacom/wacom-stylus-page.ui.h:10
 msgid "Eraser Pressure Feel"
 msgstr "지우개 압력 감도"
 
-#: panels/wacom/wacom-stylus-page.ui.h:13
+#: panels/wacom/wacom-stylus-page.ui.h:11
 msgid "Soft"
 msgstr "부드럽게"
 
-#: panels/wacom/wacom-stylus-page.ui.h:14
+#: panels/wacom/wacom-stylus-page.ui.h:12
 msgid "Firm"
 msgstr "단단하게"
 
-#: panels/wacom/wacom-stylus-page.ui.h:15
+#: panels/wacom/wacom-stylus-page.ui.h:13
 msgid "Top Button"
 msgstr "위 버튼"
 
-#: panels/wacom/wacom-stylus-page.ui.h:16
+#: panels/wacom/wacom-stylus-page.ui.h:14
 msgid "Lower Button"
 msgstr "아래 버튼"
 
-#: panels/wacom/wacom-stylus-page.ui.h:17
+#: panels/wacom/wacom-stylus-page.ui.h:15
+msgid "Lowest Button"
+msgstr "맨 아래 버튼"
+
+#: panels/wacom/wacom-stylus-page.ui.h:16
 msgid "Tip Pressure Feel"
 msgstr "팁 압력 감도"
 
-#: panels/wacom/wacom-stylus-page.ui.h:18
-msgid "Lowest Button"
-msgstr "맨 아래 버튼"
+#: panels/wacom/wacom-stylus-page.ui.h:17
+msgid "Test Your _Settings"
+msgstr "설정 검사(_S)"
 
 #: panels/network/connection-editor/8021x-security-page.ui.h:1
 msgid "802.1x _Security"
@@ -2073,13 +2309,6 @@ msgstr "2쪽"
 #: panels/network/connection-editor/details-page.ui.h:10
 msgid "Last Used"
 msgstr "마지막으로 사용한 것"
-
-#: panels/network/connection-editor/ethernet-page.ui.h:1
-#: panels/network/connection-editor/ip4-page.ui.h:4
-#: panels/network/connection-editor/ip6-page.ui.h:4
-#: panels/network/wireless-security/eap-method-peap.ui.h:2
-msgid "Automatic"
-msgstr "자동으로"
 
 #: panels/network/connection-editor/ethernet-page.ui.h:2
 msgid "Twisted Pair (TP)"
@@ -2311,31 +2540,65 @@ msgstr "WEP 목록(_X)"
 msgid "_Type"
 msgstr "형식(_T)"
 
-#: generate_additional_files.py:25
+#: panels/wacom/calibrator/calibrator.ui.h:1
+msgid "Screen Calibration"
+msgstr "화면 보정"
+
+#: panels/wacom/calibrator/calibrator.ui.h:2
+msgid ""
+"Please tap the target markers as they appear on screen to calibrate the "
+"tablet."
+msgstr "태블릿을 보정하려면 화면에 나타난 표시를 탭 하세요."
+
+#: panels/wacom/calibrator/calibrator.ui.h:3
+msgid "Mis-click detected, restarting…"
+msgstr "잘못된 누름이 감지되었습니다, 다시 시작중…"
+
+#: generate_additional_files.py:23
 msgid "Color management settings"
 msgstr "색 관리 설정"
 
-#: generate_additional_files.py:41
+#: generate_additional_files.py:23
+msgid "Color, ICC, Profile, Calibrate, Printer, Display"
+msgstr "색상, ICC, 프로필, 보정, 프린터, 디스플레이"
+
+#: generate_additional_files.py:37
 msgid "Region & Language"
 msgstr "지역 & 언어"
 
-#: generate_additional_files.py:41
+#: generate_additional_files.py:37
 msgid "Change your region and language settings"
 msgstr "지역 및 언어 설정을 바꿉니다"
 
-#: generate_additional_files.py:56
+#: generate_additional_files.py:50
 msgid "Display"
 msgstr "디스플레이"
 
-#: generate_additional_files.py:56
+#: generate_additional_files.py:50
 msgid "Change resolution and position of monitors and projectors"
 msgstr "모니터 및 프로젝터의 해상도와 위치를 바꿉니다"
 
-#: generate_additional_files.py:71
+#: generate_additional_files.py:50
+msgid "Panel, Projector, xrandr, Screen, Resolution, Refresh"
+msgstr "패널, 프로젝터, xrandr, 화면, 해상도, 새로 고침"
+
+#: generate_additional_files.py:63
 msgid "Network settings"
 msgstr "네트워크 설정"
 
-#: generate_additional_files.py:86
+#: generate_additional_files.py:63
+msgid "Network, Wireless, IP, LAN, Proxy, Internet, WiFi"
+msgstr "네트워크, 무선, IP, LAN, 프록시, 인터넷, WiFi"
+
+#: generate_additional_files.py:76
+msgid "Graphics Tablet"
+msgstr "그래픽 태블릿"
+
+#: generate_additional_files.py:76
 msgid ""
 "Set button mappings and adjust stylus sensitivity for graphics tablets"
 msgstr "그래픽 태블릿의 버튼을 매핑 하고 스타일러스의 감도를 조절합니다."
+
+#: generate_additional_files.py:76
+msgid "Tablet, Wacom, Stylus, Eraser, Mouse"
+msgstr "태블릿, Wacom, 스타일러스, 지우개, 마우스"

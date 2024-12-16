@@ -23,16 +23,16 @@ msgstr ""
 "Report-Msgid-Bugs-To: "
 "http://bugzilla.gnome.org/enter_bug.cgi?product=cinnamon-control-"
 "center&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2021-06-04 12:20+0100\n"
-"PO-Revision-Date: 2021-06-02 21:25+0000\n"
+"POT-Creation-Date: 2024-03-27 13:58+0000\n"
+"PO-Revision-Date: 2024-07-08 06:36+0000\n"
 "Last-Translator: Kimmo Kujansuu <Unknown>\n"
 "Language-Team: Finnish <>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2021-06-25 10:38+0000\n"
-"X-Generator: Launchpad (build 40cc6dba4163ba9ca785b26ad91f43c87d70ba4d)\n"
+"X-Launchpad-Export-Date: 2024-07-21 08:59+0000\n"
+"X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
 "Language: fi\n"
 "X-POT-Import-Date: 2012-03-07 10:37:43+0000\n"
 
@@ -85,100 +85,77 @@ msgstr "Tuetut ICC-profiilit"
 
 #. TRANSLATORS: filter name on the file->open dialog
 #: panels/color/cc-color-panel.c:248
+#: panels/network/wireless-security/eap-method-fast.c:417
 msgid "All files"
 msgstr "Kaikki tiedostot"
 
 #. TRANSLATORS: this is the dialog title in the 'Add profile' UI
-#: panels/color/cc-color-panel.c:591
+#: panels/color/cc-color-panel.c:564
 msgid "Available Profiles for Displays"
 msgstr "Näytöille käytettävissä olevat profiilit"
 
 #. TRANSLATORS: this is the dialog title in the 'Add profile' UI
-#: panels/color/cc-color-panel.c:595
+#: panels/color/cc-color-panel.c:568
 msgid "Available Profiles for Scanners"
 msgstr "Kuvanlukijoille käytettävissä olevat profiilit"
 
 #. TRANSLATORS: this is the dialog title in the 'Add profile' UI
-#: panels/color/cc-color-panel.c:599
+#: panels/color/cc-color-panel.c:572
 msgid "Available Profiles for Printers"
 msgstr "Tulostimille käytettävissä olevat profiilit"
 
 #. TRANSLATORS: this is the dialog title in the 'Add profile' UI
-#: panels/color/cc-color-panel.c:603
+#: panels/color/cc-color-panel.c:576
 msgid "Available Profiles for Cameras"
 msgstr "Kameroille käytettävissä olevat profiilit"
 
 #. TRANSLATORS: this is the dialog title in the 'Add profile' UI
-#: panels/color/cc-color-panel.c:607
+#: panels/color/cc-color-panel.c:580
 msgid "Available Profiles for Webcams"
 msgstr "Web-kameroille käytettävissä olevat profiilit"
 
 #. TRANSLATORS: this is the dialog title in the 'Add profile' UI
 #. * where the device type is not recognised
 #. Profiles that can be added to the device
-#: panels/color/cc-color-panel.c:612 panels/color/color.ui.h:2
+#: panels/color/cc-color-panel.c:585 panels/color/color.ui.h:2
 msgid "Available Profiles"
 msgstr "Käytettävissä olevat profiilit"
 
 #. TRANSLATORS: column for device list
-#: panels/color/cc-color-panel.c:888
+#: panels/color/cc-color-panel.c:861
 msgid "Device"
 msgstr "Laite"
 
 #. TRANSLATORS: column for device list
-#: panels/color/cc-color-panel.c:923
+#: panels/color/cc-color-panel.c:896
 msgid "Calibration"
 msgstr "Kalibrointi"
 
-#. TRANSLATORS: this is when the button is sensitive
-#: panels/color/cc-color-panel.c:955
-msgid "Create a color profile for the selected device"
-msgstr "Luo valitulle laitteelle väriprofiili"
-
-#. TRANSLATORS: this is when the button is insensitive
-#: panels/color/cc-color-panel.c:969 panels/color/cc-color-panel.c:993
-msgid ""
-"The measuring instrument is not detected. Please check it is turned on and "
-"correctly connected."
-msgstr ""
-"Mittauslaitetta ei tunnistettu. Varmista, että se on päällä ja liitetty "
-"oikein."
-
-#. TRANSLATORS: this is when the button is insensitive
-#: panels/color/cc-color-panel.c:1002
-msgid "The measuring instrument does not support printer profiling."
-msgstr "Mittauslaite ei tue tulostimen profilointia."
-
-#. TRANSLATORS: this is when the button is insensitive
-#: panels/color/cc-color-panel.c:1013
-msgid "The device type is not currently supported."
-msgstr "Laitetyyppiä ei toistaiseksi tueta."
-
 #. TRANSLATORS: this is when an auto-added profile cannot be removed
-#: panels/color/cc-color-panel.c:1085
+#: panels/color/cc-color-panel.c:977
 msgid "Cannot remove automatically added profile"
 msgstr "Automaattisesti lisättyä profiilia ei voi poistaa"
 
 #. TRANSLATORS: this is when there is no profile for the device
-#: panels/color/cc-color-panel.c:1419
+#: panels/color/cc-color-panel.c:1307
 msgid "No profile"
 msgstr "Ei profiilia"
 
-#: panels/color/cc-color-panel.c:1448
+#: panels/color/cc-color-panel.c:1336
 #, c-format
 msgid "%i year"
 msgid_plural "%i years"
 msgstr[0] "%i vuosi"
 msgstr[1] "%i vuotta"
 
-#: panels/color/cc-color-panel.c:1459
+#: panels/color/cc-color-panel.c:1347
 #, c-format
 msgid "%i month"
 msgid_plural "%i months"
 msgstr[0] "%i kuukausi"
 msgstr[1] "%i kuukautta"
 
-#: panels/color/cc-color-panel.c:1470
+#: panels/color/cc-color-panel.c:1358
 #, c-format
 msgid "%i week"
 msgid_plural "%i weeks"
@@ -186,81 +163,81 @@ msgstr[0] "%i viikko"
 msgstr[1] "%i viikkoa"
 
 #. fallback
-#: panels/color/cc-color-panel.c:1477
+#: panels/color/cc-color-panel.c:1365
 msgid "Less than 1 week"
 msgstr "Alle yksi viikko"
 
-#: panels/color/cc-color-panel.c:1539
+#: panels/color/cc-color-panel.c:1427
 msgctxt "Colorspace fallback"
 msgid "Default RGB"
 msgstr "Oletus-RGB"
 
-#: panels/color/cc-color-panel.c:1544
+#: panels/color/cc-color-panel.c:1432
 msgctxt "Colorspace fallback"
 msgid "Default CMYK"
 msgstr "Oletus-CMYK"
 
-#: panels/color/cc-color-panel.c:1549
+#: panels/color/cc-color-panel.c:1437
 msgctxt "Colorspace fallback"
 msgid "Default Gray"
 msgstr "Oletusharmaasävy"
 
-#: panels/color/cc-color-panel.c:1667 panels/color/cc-color-panel.c:1706
-#: panels/color/cc-color-panel.c:1717 panels/color/cc-color-panel.c:1728
+#: panels/color/cc-color-panel.c:1555 panels/color/cc-color-panel.c:1594
+#: panels/color/cc-color-panel.c:1605 panels/color/cc-color-panel.c:1616
 msgid "Uncalibrated"
 msgstr "Kalibroimaton"
 
-#: panels/color/cc-color-panel.c:1670
+#: panels/color/cc-color-panel.c:1558
 msgid "This device is not color managed."
 msgstr "Tämä laite ei tue värihallintaa."
 
-#: panels/color/cc-color-panel.c:1709
+#: panels/color/cc-color-panel.c:1597
 msgid "This device is using manufacturing calibrated data."
 msgstr "Tämä laite käyttää valmistajan kalibrointitietoa."
 
-#: panels/color/cc-color-panel.c:1720
+#: panels/color/cc-color-panel.c:1608
 msgid ""
 "This device does not have a profile suitable for whole-screen color "
 "correction."
 msgstr ""
 "Tällä laitteella ei ole koko näytön värinkorjaukseen soveltuvaa profiilia."
 
-#: panels/color/cc-color-panel.c:1753
+#: panels/color/cc-color-panel.c:1641
 msgid "This device has an old profile that may no longer be accurate."
 msgstr "Laitteella on vanha profiili, joka ei enää välttämättä ole tarkka."
 
 #. TRANSLATORS: this is when the calibration profile age is not
 #. * specified as it has been autogenerated from the hardware
-#: panels/color/cc-color-panel.c:1781
+#: panels/color/cc-color-panel.c:1669
 msgid "Not specified"
 msgstr "Ei määritelty"
 
 #. add the 'No devices detected' entry
-#: panels/color/cc-color-panel.c:1966
+#: panels/color/cc-color-panel.c:1854
 msgid "No devices supporting color management detected"
 msgstr "Värihallintaa tukevia laitteita ei havaittu"
 
-#: panels/color/cc-color-panel.c:2195
+#: panels/color/cc-color-panel.c:2083
 msgctxt "Device kind"
 msgid "Display"
 msgstr "Näyttö"
 
-#: panels/color/cc-color-panel.c:2197
+#: panels/color/cc-color-panel.c:2085
 msgctxt "Device kind"
 msgid "Scanner"
-msgstr "Skanneri"
+msgstr "Kuvanlukija"
 
-#: panels/color/cc-color-panel.c:2199
+#: panels/color/cc-color-panel.c:2087
 msgctxt "Device kind"
 msgid "Printer"
 msgstr "Tulostin"
 
-#: panels/color/cc-color-panel.c:2201
+#: panels/color/cc-color-panel.c:2089
 msgctxt "Device kind"
 msgid "Camera"
 msgstr "Kamera"
 
-#: panels/color/cc-color-panel.c:2203
+#: panels/color/cc-color-panel.c:2091
 msgctxt "Device kind"
 msgid "Webcam"
 msgstr "Web-kamera"
@@ -327,228 +304,180 @@ msgstr "Valitse alue"
 msgid "Unspecified"
 msgstr "Ei määritetty"
 
-#: panels/display/cc-display-panel.c:642 panels/display/cc-display-panel.c:1251
-#: panels/display/cc-display-panel.c:1258
-#, c-format
-msgid "%d%%"
-msgstr "%d% %"
-
-#: panels/display/cc-display-panel.c:709
-msgctxt "display panel, rotation"
-msgid "Normal"
-msgstr "Tavallinen"
-
-#: panels/display/cc-display-panel.c:710
-msgctxt "display panel, rotation"
-msgid "Counterclockwise"
-msgstr "Vastapäivään"
-
-#: panels/display/cc-display-panel.c:711
-msgctxt "display panel, rotation"
-msgid "Clockwise"
-msgstr "Myötäpäivään"
-
-#: panels/display/cc-display-panel.c:712
-msgctxt "display panel, rotation"
-msgid "180 Degrees"
-msgstr "180 astetta"
-
-#. Keep this string in sync with gnome-desktop/libcinnamon-desktop/gnome-rr-labeler.c
-#. Translators:  this is the feature where what you see on your laptop's
-#. * screen is the same as your external projector.  Here, "Mirrored" is being
-#. * used as an adjective.  For example, the Spanish translation could be
-#. * "Pantallas en Espejo".
-#. 
 #. Translators:  this is the feature where what you see on your
 #. * laptop's screen is the same as your external projector.
 #. * Here, "Mirrored" is being used as an adjective.  For example,
 #. * the Spanish translation could be "Pantallas en Espejo".
 #. 
-#: panels/display/cc-display-panel.c:857 panels/display/cc-rr-labeler.c:404
+#: panels/display/cc-display-labeler.c:369
+#: panels/display/cc-display-panel.c:748
 msgid "Mirrored Displays"
 msgstr "Peilatut näytöt"
 
-#: panels/display/cc-display-panel.c:881
-msgid "Monitor"
-msgstr "Näyttö"
+#: panels/display/cc-display-panel.c:1150
+msgid "Confirm reset to defaults"
+msgstr "Vahvista oletusasetusten palautus"
 
-#: panels/display/cc-display-panel.c:985
-#, c-format
-msgid "%d x %d%s (%s)"
-msgstr "%d x %d%s (%s)"
+#: panels/display/cc-display-panel.c:1152
+msgid "Cancel"
+msgstr "Peru"
 
-#: panels/display/cc-display-panel.c:987
-#, c-format
-msgid "%d x %d%s"
-msgstr "%d x %d%s"
+#: panels/display/cc-display-panel.c:1152
+msgid "Continue"
+msgstr "Jatka"
 
-#: panels/display/cc-display-panel.c:1002
+#: panels/display/cc-display-panel.c:1165
+msgid ""
+"This will remove all existing display configurations and reset the current "
+"layout."
+msgstr ""
+"Tämä poistaa kaikki aiemmin luodut näyttömääritykset ja palauttaa nykyisen "
+"asettelun."
+
+#: panels/display/cc-display-settings.c:107
+msgctxt "Display rotation"
+msgid "Landscape"
+msgstr "Vaaka"
+
+#: panels/display/cc-display-settings.c:110
+msgctxt "Display rotation"
+msgid "Portrait Right"
+msgstr "Pysty oikea"
+
+#: panels/display/cc-display-settings.c:113
+msgctxt "Display rotation"
+msgid "Portrait Left"
+msgstr "Pysty vasen"
+
+#: panels/display/cc-display-settings.c:116
+msgctxt "Display rotation"
+msgid "Landscape (flipped)"
+msgstr "Vaaka (käännetty)"
+
+#: panels/display/cc-display-settings.c:190
 #, c-format
 msgid "%.2lf Hz"
 msgstr "%.2lf Hz"
 
-#: panels/display/cc-display-panel.c:1281
-msgid "Normal"
-msgstr "Normaali"
+#: panels/display/cc-display-settings.c:471
+msgid "Monitor scale"
+msgstr "Näytön skaalaus"
 
-#: panels/display/cc-display-panel.c:1283
-msgid "Double (Hi-DPI)"
-msgstr "Kaksinkertainen (Hi-DPI)"
+#: panels/display/cc-display-settings.c:475
+#: panels/display/cc-display-settings.ui.h:4
+msgid "User interface scale"
+msgstr "Käyttöliittymän mittakaava"
 
-#: panels/display/cc-display-panel.c:1323
-#, c-format
-msgid "Automatic (%ux)"
-msgstr "Automaattinen (%ux)"
-
-#: panels/display/cc-display-panel.c:2510
-msgid ""
-"Select a monitor to change its properties; drag it to rearrange its "
-"placement."
-msgstr ""
-"Valitse näyttö, jonka ominaisuuksia muutetaan, ja muuta sen sijaintia "
-"vetämällä sitä hiirellä."
-
-#: panels/display/cc-display-panel.c:2959
-msgid "DoubleScan"
-msgstr "Kaksoisskannaus"
-
-#: panels/display/cc-display-panel.c:2997
-msgid "VSync"
-msgstr "VSync"
-
-#: panels/display/cc-display-panel.c:3035
-#: panels/display/cc-display-panel.c:3063
-msgid "Recommended"
-msgstr "Suositus"
-
-#: panels/display/cc-display-panel.c:3098
-#, c-format
-msgid "<b>scaled resolution: %d x %d</b>"
-msgstr "<b>skaalattu tarkkuus: %d × %d</b>"
-
-#: panels/display/cc-display-panel.c:3287
-#: panels/display/cc-display-panel.c:3339
-msgid "Failed to apply configuration"
-msgstr "Asetusten käyttöönotto epäonnistui"
-
-#: panels/display/cc-display-panel.c:3367
-msgid "Could not save the monitor configuration"
-msgstr "Näyttöasetuksia ei voitu tallentaa"
-
-#: panels/display/cc-display-panel.c:3427
-msgid "Could not detect displays"
-msgstr "Näyttöjä ei havaittu"
-
-#: panels/display/cc-display-panel.c:3671
-msgid "Could not get screen information"
-msgstr "Näytön tietoja ei saatu"
-
-#: panels/network/cc-network-panel.c:910
+#: panels/network/cc-network-panel.c:906
 msgid "Network proxy"
-msgstr "Verkon välityspalvelin"
+msgstr "Välityspalvelin"
 
 #. Translators: this is the title of the connection details
 #. * window for vpn connections, it is also used to display
 #. * vpn connections in the device list.
 #. 
-#: panels/network/cc-network-panel.c:1089 panels/network/net-vpn.c:287
+#: panels/network/cc-network-panel.c:1085 panels/network/net-vpn.c:287
 #: panels/network/net-vpn.c:444
 #, c-format
 msgid "%s VPN"
 msgstr "%s – VPN"
 
-#: panels/network/cc-network-panel.c:1156
+#: panels/network/cc-network-panel.c:1152
 msgid "Oops, something has gone wrong. Please contact your software vendor."
 msgstr "Hups, jokin taisi mennä pieleen. Ota yhteys sovellustoimittajaan."
 
-#: panels/network/cc-network-panel.c:1162
+#: panels/network/cc-network-panel.c:1158
 msgid "NetworkManager needs to be running."
 msgstr "NetworkManagerin tulee olla käynnissä."
 
 #. Translators: network device speed
 #: panels/network/net-device-ethernet.c:50 panels/network/net-device-wifi.c:549
+#: panels/network/connection-editor/ce-page-details.c:153
 #, c-format
 msgid "%d Mb/s"
 msgstr "%d Mb/s"
 
-#: panels/network/net-device-ethernet.c:106
+#: panels/network/net-device-ethernet.c:107
 #: panels/network/net-device-wifi.c:477
 msgid "never"
 msgstr "ei koskaan"
 
-#: panels/network/net-device-ethernet.c:116
+#: panels/network/net-device-ethernet.c:117
 #: panels/network/net-device-wifi.c:487
 msgid "today"
 msgstr "tänään"
 
-#: panels/network/net-device-ethernet.c:118
+#: panels/network/net-device-ethernet.c:119
 #: panels/network/net-device-wifi.c:489
 msgid "yesterday"
 msgstr "eilen"
 
-#: panels/network/net-device-ethernet.c:120
+#: panels/network/net-device-ethernet.c:121
 #: panels/network/net-device-wifi.c:491
+#: panels/network/connection-editor/ce-page-details.c:104
 #, c-format
 msgid "%i day ago"
 msgid_plural "%i days ago"
 msgstr[0] "%i päivä sitten"
 msgstr[1] "%i päivää sitten"
 
-#: panels/network/net-device-ethernet.c:155 panels/network/panel-common.c:666
+#: panels/network/net-device-ethernet.c:158 panels/network/panel-common.c:679
 #: panels/network/network-simple.ui.h:3 panels/network/network-wifi.ui.h:7
 #: panels/network/connection-editor/details-page.ui.h:4
 msgid "IPv4 Address"
 msgstr "IPv4-osoite"
 
-#: panels/network/net-device-ethernet.c:156 panels/network/panel-common.c:667
+#: panels/network/net-device-ethernet.c:159 panels/network/panel-common.c:680
 #: panels/network/network-mobile.ui.h:4 panels/network/network-simple.ui.h:4
 #: panels/network/network-wifi.ui.h:8
 #: panels/network/connection-editor/details-page.ui.h:5
 msgid "IPv6 Address"
 msgstr "IPv6-osoite"
 
-#: panels/network/net-device-ethernet.c:158
-#: panels/network/net-device-ethernet.c:160 panels/network/panel-common.c:669
-#: panels/network/panel-common.c:671 panels/network/network-mobile.ui.h:3
+#: panels/network/net-device-ethernet.c:161
+#: panels/network/net-device-ethernet.c:163 panels/network/panel-common.c:682
+#: panels/network/panel-common.c:684 panels/network/network-mobile.ui.h:3
 msgid "IP Address"
 msgstr "IP-osoite"
 
-#: panels/network/net-device-ethernet.c:163
+#: panels/network/net-device-ethernet.c:166
 #: panels/network/network-simple.ui.h:2 panels/network/network-wifi.ui.h:9
 #: panels/network/connection-editor/details-page.ui.h:6
 msgid "Hardware Address"
 msgstr "Laiteosoite"
 
-#: panels/network/net-device-ethernet.c:167
+#: panels/network/net-device-ethernet.c:171
+#: panels/network/net-device-ethernet.c:173
+#: panels/network/net-device-ethernet.c:175
 #: panels/network/network-mobile.ui.h:5 panels/network/network-simple.ui.h:5
 #: panels/network/network-wifi.ui.h:10
 #: panels/network/connection-editor/details-page.ui.h:7
 msgid "Default Route"
 msgstr "Oletusreitti"
 
-#: panels/network/net-device-ethernet.c:170 panels/network/panel-common.c:675
+#: panels/network/net-device-ethernet.c:179 panels/network/panel-common.c:688
 #: panels/network/network-mobile.ui.h:6 panels/network/network-simple.ui.h:6
 #: panels/network/network-wifi.ui.h:11
 #: panels/network/connection-editor/details-page.ui.h:8
 msgid "DNS4"
 msgstr "DNS4"
 
-#: panels/network/net-device-ethernet.c:171 panels/network/panel-common.c:676
+#: panels/network/net-device-ethernet.c:180 panels/network/panel-common.c:689
 #: panels/network/network-mobile.ui.h:7 panels/network/network-simple.ui.h:7
 #: panels/network/network-wifi.ui.h:12
 #: panels/network/connection-editor/details-page.ui.h:9
 msgid "DNS6"
 msgstr "DNS6"
 
-#: panels/network/net-device-ethernet.c:173
-#: panels/network/net-device-ethernet.c:175 panels/network/panel-common.c:678
-#: panels/network/panel-common.c:680
+#: panels/network/net-device-ethernet.c:182
+#: panels/network/net-device-ethernet.c:184 panels/network/panel-common.c:691
+#: panels/network/panel-common.c:693
 #: panels/network/connection-editor/ip4-page.ui.h:3
 #: panels/network/connection-editor/ip6-page.ui.h:3
 msgid "DNS"
 msgstr "DNS"
 
-#: panels/network/net-device-ethernet.c:181 panels/network/network-wifi.ui.h:13
+#: panels/network/net-device-ethernet.c:190 panels/network/network-wifi.ui.h:13
 msgid "Last used"
 msgstr "Viimeksi käytetty"
 
@@ -557,12 +486,12 @@ msgstr "Viimeksi käytetty"
 #. * profile. It is also used to display ethernet in the
 #. * device list.
 #. 
-#: panels/network/net-device-ethernet.c:290
+#: panels/network/net-device-ethernet.c:292
 #: panels/network/network-ethernet.ui.h:1 panels/network/network-simple.ui.h:1
 msgid "Wired"
-msgstr "Kiinteä"
+msgstr "Lähiverkko"
 
-#: panels/network/net-device-ethernet.c:358
+#: panels/network/net-device-ethernet.c:360
 #: panels/network/net-device-wifi.c:1751 panels/network/network-ethernet.ui.h:3
 #: panels/network/network-mobile.ui.h:9 panels/network/network-simple.ui.h:9
 #: panels/network/network-vpn.ui.h:7
@@ -575,51 +504,61 @@ msgstr "Lisää uusi yhteys"
 
 #. TRANSLATORS: this WEP WiFi security
 #: panels/network/net-device-wifi.c:215 panels/network/net-device-wifi.c:393
+#: panels/network/connection-editor/ce-page-details.c:50
 msgid "WEP"
 msgstr "WEP"
 
 #. TRANSLATORS: this WPA WiFi security
 #: panels/network/net-device-wifi.c:219 panels/network/net-device-wifi.c:398
+#: panels/network/connection-editor/ce-page-details.c:54
 #: panels/network/network-wifi.ui.h:20
 msgid "WPA"
 msgstr "WPA"
 
 #. TRANSLATORS: this WPA WiFi security
 #: panels/network/net-device-wifi.c:223
+#: panels/network/connection-editor/ce-page-details.c:58
 msgid "WPA2"
 msgstr "WPA2"
 
 #. TRANSLATORS: this Enterprise WiFi security
 #: panels/network/net-device-wifi.c:228
+#: panels/network/connection-editor/ce-page-details.c:63
 msgid "Enterprise"
 msgstr "Yritysverkko"
 
 #: panels/network/net-device-wifi.c:233 panels/network/net-device-wifi.c:383
+#: panels/network/connection-editor/ce-page-details.c:68
 msgctxt "Wifi security"
 msgid "None"
 msgstr "Ei mitään"
 
 #: panels/network/net-device-wifi.c:578
+#: panels/network/connection-editor/ce-page-details.c:179
 msgctxt "Signal strength"
 msgid "None"
 msgstr "Ei signaalia"
 
 #: panels/network/net-device-wifi.c:580
+#: panels/network/connection-editor/ce-page-details.c:181
 msgctxt "Signal strength"
 msgid "Weak"
 msgstr "Heikko"
 
 #: panels/network/net-device-wifi.c:582
+#: panels/network/connection-editor/ce-page-details.c:183
 msgctxt "Signal strength"
 msgid "Ok"
 msgstr "OK"
 
 #: panels/network/net-device-wifi.c:584
+#: panels/network/connection-editor/ce-page-details.c:185
 msgctxt "Signal strength"
 msgid "Good"
 msgstr "Hyvä"
 
 #: panels/network/net-device-wifi.c:586
+#: panels/network/connection-editor/ce-page-details.c:187
 msgctxt "Signal strength"
 msgid "Excellent"
 msgstr "Erinomainen"
@@ -650,6 +589,8 @@ msgid "Stop hotspot and disconnect any users?"
 msgstr "Katkaistaanko käyttäjien yhteys tukiasemaan ja suljetaanko se?"
 
 #: panels/network/net-device-wifi.c:1352 panels/network/net-device-wifi.c:1592
+#: panels/network/connection-editor/vpn-helpers.c:181
+#: panels/network/connection-editor/vpn-helpers.c:310
 #: panels/common/language-chooser.ui.h:2 panels/network/network-wifi.ui.h:1
 #: panels/network/connection-editor/connection-editor.ui.h:1
 msgid "_Cancel"
@@ -683,7 +624,8 @@ msgstr "_Unohda"
 msgid "History"
 msgstr "Historia"
 
-#: panels/network/net-device-wifi.c:1903
+#: panels/network/net-device-wifi.c:1903 panels/wacom/cc-wacom-page.c:468
+#: panels/wacom/button-mapping.ui.h:2
 msgid "_Close"
 msgstr "_Sulje"
 
@@ -698,7 +640,8 @@ msgstr "_Unohda"
 msgid ""
 "Web Proxy Autodiscovery is used when a Configuration URL is not provided."
 msgstr ""
-"WPAD-automaattietsintää käytetään, ellei asetusverkko-osoitetta ole annettu."
+"Web-välityspalvelimen autom. etsintää käytetään, ellei URL-osoitetta ole "
+"annettu."
 
 #. TRANSLATORS: WPAD is bad: if you enable it on an untrusted
 #. * network, then anyone else on that network can tell your
@@ -786,12 +729,12 @@ msgstr "Ei yhteyttä"
 #. TRANSLATORS: device status reason
 #: panels/network/panel-common.c:248
 msgid "Configuration failed"
-msgstr "Kokoonpanon käyttö epäonnistui"
+msgstr "Määritys epäonnistui"
 
 #. TRANSLATORS: device status reason
 #: panels/network/panel-common.c:252
 msgid "IP configuration failed"
-msgstr "IP-asetukset epäonnistuivat"
+msgstr "IP-määritys epäonnistui"
 
 #. TRANSLATORS: device status reason
 #: panels/network/panel-common.c:256
@@ -801,27 +744,27 @@ msgstr "IP-asetukset vanhenivat"
 #. TRANSLATORS: device status reason
 #: panels/network/panel-common.c:260
 msgid "Secrets were required, but not provided"
-msgstr "Salaisuuksia ei annettu, vaikka niitä pyydettiin"
+msgstr "Salausta ei annettu, vaikka sitä pyydettiin"
 
 #. TRANSLATORS: device status reason
 #: panels/network/panel-common.c:264
 msgid "802.1x supplicant disconnected"
-msgstr "802.1x-anojan yhteys katkaistu"
+msgstr "802.1x-pyyntö katkaistu"
 
 #. TRANSLATORS: device status reason
 #: panels/network/panel-common.c:268
 msgid "802.1x supplicant configuration failed"
-msgstr "802.1x-anojan asetukset epäonnistuivat"
+msgstr "802.1x-pyynnön määritys epäonnistui"
 
 #. TRANSLATORS: device status reason
 #: panels/network/panel-common.c:272
 msgid "802.1x supplicant failed"
-msgstr "802.1x-anoja epäonnistui"
+msgstr "802.1x-pyyntö epäonnistui"
 
 #. TRANSLATORS: device status reason
 #: panels/network/panel-common.c:276
 msgid "802.1x supplicant took too long to authenticate"
-msgstr "802.1x-anojalla kesti liian kauan tunnistautua"
+msgstr "802.1x-pyyntö kesti liian kauan tunnistautua"
 
 #. TRANSLATORS: device status reason
 #: panels/network/panel-common.c:280
@@ -951,7 +894,7 @@ msgstr "Yhteys katosi"
 #. TRANSLATORS: device status reason
 #: panels/network/panel-common.c:380
 msgid "Existing connection was assumed"
-msgstr "Oletettiin olemassa oleva yhteys"
+msgstr "Oletetaan, että yhteys on olemassa"
 
 #. TRANSLATORS: device status reason
 #: panels/network/panel-common.c:384
@@ -998,192 +941,562 @@ msgstr "Laiteohjelmisto puuttuu"
 msgid "Cable unplugged"
 msgstr "Johto on irti"
 
-#: panels/online-accounts/cc-online-accounts-panel.c:148
-msgctxt "Online Account"
-msgid "Other"
-msgstr "Muu"
-
-#. translators: This is the title of the "Show Account" dialog. The
-#. * %s is the name of the provider. e.g., 'Google'.
-#: panels/online-accounts/cc-online-accounts-panel.c:593
-#, c-format
-msgid "%s Account"
-msgstr "%s-tili"
-
-#: panels/online-accounts/cc-online-accounts-panel.c:888
-msgid "Error removing account"
-msgstr "Virhe poistettaessa tiliä"
-
-#. Translators: The %s is the username (eg., debarshi.ray@gmail.com
-#. * or rishi).
-#. 
-#: panels/online-accounts/cc-online-accounts-panel.c:953
-#, c-format
-msgid "<b>%s</b> removed"
-msgstr "<b>%s</b> poistettu"
-
 #: panels/region/cinnamon-region-panel-xkblt.c:208
 msgid "Layout"
 msgstr "Asettelu"
 
 #: panels/region/cinnamon-region-panel-xkbot.c:227
+#: panels/wacom/wacom-stylus-page.ui.h:1
 msgid "Default"
 msgstr "Oletus"
 
-#: panels/wacom/cc-wacom-mapping-panel.c:298
+#: panels/wacom/cc-wacom-button-row.c:248
+#, c-format
+msgid "Button %d"
+msgstr "Painike %d"
+
+#: panels/wacom/cc-wacom-mapping-panel.c:232
 msgid "Output:"
 msgstr "Ulostulo:"
 
 #. Keep ratio switch
-#: panels/wacom/cc-wacom-mapping-panel.c:310
+#: panels/wacom/cc-wacom-mapping-panel.c:244
 msgid "Keep aspect ratio (letterbox):"
-msgstr "Säilytä kuvasuhde (letterbox):"
-
-#. Apply screen rotation
-#: panels/wacom/cc-wacom-mapping-panel.c:321
-msgid "Rotate the tablet when the screen is rotated:"
-msgstr "Käännä tablettia, kun näyttöä käännetään:"
+msgstr "Pidä kuvasuhde (laajakuva):"
 
 #. Whole-desktop checkbox
-#: panels/wacom/cc-wacom-mapping-panel.c:332
+#: panels/wacom/cc-wacom-mapping-panel.c:255
 msgid "Map to single monitor"
 msgstr "Määritä näyttöön"
 
-#: panels/wacom/cc-wacom-nav-button.c:89
+#: panels/wacom/cc-wacom-nav-button.c:84
 #, c-format
 msgid "%d of %d"
 msgstr "%d/%d"
 
-#: panels/wacom/cc-wacom-page.c:118 panels/wacom/cc-wacom-page.c:385
-msgctxt "Wacom action-type"
-msgid "None"
-msgstr "Ei mitään"
-
-#: panels/wacom/cc-wacom-page.c:119
-msgctxt "Wacom action-type"
-msgid "Send Keystroke"
-msgstr "Lähetä näppäinpainallus"
-
-#: panels/wacom/cc-wacom-page.c:120
-msgctxt "Wacom action-type"
-msgid "Switch Monitor"
-msgstr "Vaihda näyttöä"
-
-#: panels/wacom/cc-wacom-page.c:121
-msgctxt "Wacom action-type"
-msgid "Show On-Screen Help"
-msgstr "Näytä ohjeet näytöllä"
-
-#: panels/wacom/cc-wacom-page.c:622
-msgctxt "Wacom tablet button"
-msgid "Up"
-msgstr "Ylös"
-
-#: panels/wacom/cc-wacom-page.c:622
-msgctxt "Wacom tablet button"
-msgid "Down"
-msgstr "Alas"
-
-#: panels/wacom/cc-wacom-page.c:663
-msgid "Switch Modes"
-msgstr "Vaihda tilaa"
-
-#: panels/wacom/cc-wacom-page.c:753 panels/wacom/cc-wacom-stylus-page.c:394
-msgid "Button"
-msgstr "Painike"
-
-#: panels/wacom/cc-wacom-page.c:790
-msgid "Type"
-msgstr "Tyyppi"
-
-#: panels/wacom/cc-wacom-page.c:811
-msgid "Action"
-msgstr "Toiminto"
-
-#: panels/wacom/cc-wacom-page.c:921
+#: panels/wacom/cc-wacom-page.c:465
 msgid "Display Mapping"
 msgstr "Näyttöjen asettelu"
 
-#. If no mode is available, we use "left-ring-mode-1" for backward compat
-#: panels/wacom/csd-wacom-device.c:1115
-msgid "Left Ring"
-msgstr "Vasen kehä"
+#: panels/wacom/cc-wacom-panel.c:666 panels/wacom/wacom-stylus-page.ui.h:9
+msgid "Stylus"
+msgstr "Osoitinkynä"
 
-#: panels/wacom/csd-wacom-device.c:1125
+#: panels/wacom/cc-wacom-panel.c:669
+msgid "Tablet"
+msgstr "Piirtopöytä"
+
+#: panels/wacom/cc-wacom-stylus-page.c:362
+msgid "Button"
+msgstr "Painike"
+
+#: panels/wacom/csd-wacom-key-shortcut-button.c:217
+msgid "New shortcut…"
+msgstr "Uusi pikanäppäin…"
+
+#: panels/network/connection-editor/ce-page-8021x-security.c:101
+#: panels/network/connection-editor/ce-page-security.c:459
+#: panels/network/network-wifi.ui.h:6
+#: panels/network/connection-editor/details-page.ui.h:3
+msgid "Security"
+msgstr "Turvallisuus"
+
+#: panels/network/connection-editor/ce-page.c:481
+msgid "automatic"
+msgstr "automaattinen"
+
+#: panels/network/connection-editor/ce-page.c:521
 #, c-format
-msgid "Left Ring Mode #%d"
-msgstr "Vasen kehätila #%d"
+msgid "Profile %d"
+msgstr "Profiili %d"
 
-#. If no mode is available, we use "right-ring-mode-1" for backward compat
-#: panels/wacom/csd-wacom-device.c:1144
-msgid "Right Ring"
-msgstr "Oikea kehä"
+#: panels/network/connection-editor/ce-page-details.c:89
+msgid "Never"
+msgstr "Ei koskaan"
 
-#: panels/wacom/csd-wacom-device.c:1154
+#: panels/network/connection-editor/ce-page-details.c:100
+msgid "Today"
+msgstr "Tänään"
+
+#: panels/network/connection-editor/ce-page-details.c:102
+msgid "Yesterday"
+msgstr "Eilen"
+
+#: panels/network/connection-editor/ce-page-details.c:225
+#: panels/network/network-wifi.ui.h:47
+msgid "Details"
+msgstr "Tiedot"
+
+#: panels/network/connection-editor/ce-page-ethernet.c:215
+#: panels/network/connection-editor/ce-page-vpn.c:221
+#: panels/network/connection-editor/ce-page-wifi.c:227
+#: panels/network/network-wifi.ui.h:48
+msgid "Identity"
+msgstr "Identiteetti"
+
+#: panels/network/connection-editor/ce-page-ip4.c:202
+#: panels/network/connection-editor/ce-page-ip4.c:461
+#: panels/network/connection-editor/ce-page-ip6.c:180
+#: panels/network/connection-editor/ce-page-ip6.c:427
+msgid "Address"
+msgstr "Osoite"
+
+#: panels/network/connection-editor/ce-page-ip4.c:215
+#: panels/network/connection-editor/ce-page-ip4.c:474
+msgid "Netmask"
+msgstr "Aliverkon peite"
+
+#: panels/network/connection-editor/ce-page-ip4.c:229
+#: panels/network/connection-editor/ce-page-ip4.c:487
+#: panels/network/connection-editor/ce-page-ip6.c:206
+#: panels/network/connection-editor/ce-page-ip6.c:453
+#: panels/network/network-vpn.ui.h:2
+msgid "Gateway"
+msgstr "Yhdyskäytävä"
+
+#: panels/network/connection-editor/ce-page-ip4.c:250
+#: panels/network/connection-editor/ce-page-ip6.c:223
+msgid "Delete Address"
+msgstr "Poista osoite"
+
+#: panels/network/connection-editor/ce-page-ip4.c:305
+#: panels/network/connection-editor/ce-page-ip6.c:277
+msgid "Add"
+msgstr "Lisää"
+
+#: panels/network/connection-editor/ce-page-ip4.c:368
+#: panels/network/connection-editor/ce-page-ip6.c:334
+msgid "Server"
+msgstr "Palvelin"
+
+#: panels/network/connection-editor/ce-page-ip4.c:385
+#: panels/network/connection-editor/ce-page-ip6.c:351
+msgid "Delete DNS Server"
+msgstr "Poista DNS-palvelin"
+
+#. Translators: Please see https://en.wikipedia.org/wiki/Metrics_(networking)
+#: panels/network/connection-editor/ce-page-ip4.c:501
+#: panels/network/connection-editor/ce-page-ip6.c:467
+msgctxt "network parameters"
+msgid "Metric"
+msgstr "Metriikka"
+
+#: panels/network/connection-editor/ce-page-ip4.c:522
+#: panels/network/connection-editor/ce-page-ip6.c:484
+msgid "Delete Route"
+msgstr "Poista reitti"
+
+#: panels/network/connection-editor/ce-page-ip4.c:626
+#: panels/network/network-wifi.ui.h:28
+msgid "Automatic (DHCP)"
+msgstr "Automaattinen (DHCP)"
+
+#: panels/network/connection-editor/ce-page-ip4.c:630
+#: panels/network/connection-editor/ce-page-ip6.c:592
+#: panels/network/network-wifi.ui.h:27
+msgid "Manual"
+msgstr "Manuaalinen"
+
+#: panels/network/connection-editor/ce-page-ip4.c:634
+#: panels/network/connection-editor/ce-page-ip6.c:596
+msgid "Link-Local Only"
+msgstr "Vain linkkiyhteys"
+
+#: panels/network/connection-editor/ce-page-ip4.c:980
+#: panels/network/network-wifi.ui.h:49
+msgid "IPv4"
+msgstr "IPv4"
+
+#: panels/network/connection-editor/ce-page-ip6.c:193
+#: panels/network/connection-editor/ce-page-ip6.c:440
+msgid "Prefix"
+msgstr "Etuliite"
+
+#: panels/network/connection-editor/ce-page-ip6.c:584
+#: panels/network/connection-editor/ethernet-page.ui.h:1
+#: panels/network/connection-editor/ip4-page.ui.h:4
+#: panels/network/connection-editor/ip6-page.ui.h:4
+#: panels/network/wireless-security/eap-method-peap.ui.h:2
+msgid "Automatic"
+msgstr "Automaattinen"
+
+#: panels/network/connection-editor/ce-page-ip6.c:588
+msgid "Automatic, DHCP only"
+msgstr "Automaattinen, vain DHCP"
+
+#: panels/network/connection-editor/ce-page-ip6.c:898
+#: panels/network/network-wifi.ui.h:50
+msgid "IPv6"
+msgstr "IPv6"
+
+#: panels/network/connection-editor/ce-page-reset.c:78
+msgid "Reset"
+msgstr "Nollaa"
+
+#: panels/network/connection-editor/ce-page-security.c:248
+msgctxt "Wi-Fi/Ethernet security"
+msgid "None"
+msgstr "Ei mitään"
+
+#: panels/network/connection-editor/ce-page-security.c:271
+msgid "WEP 40/128-bit Key (Hex or ASCII)"
+msgstr "WEP 40/128-bittinen avain (Hex tai ASCII)"
+
+#: panels/network/connection-editor/ce-page-security.c:281
+msgid "WEP 128-bit Passphrase"
+msgstr "WEP 128-bittinen salasana"
+
+#: panels/network/connection-editor/ce-page-security.c:294
+#: panels/network/wireless-security/wireless-security.c:463
+msgid "LEAP"
+msgstr "LEAP"
+
+#: panels/network/connection-editor/ce-page-security.c:307
+msgid "Dynamic WEP (802.1x)"
+msgstr "Dynaaminen WEP (802.1x)"
+
+#: panels/network/connection-editor/ce-page-security.c:321
+msgid "WPA & WPA2 Personal"
+msgstr "WPA & WPA2 Personal"
+
+#: panels/network/connection-editor/ce-page-security.c:335
+msgid "WPA & WPA2 Enterprise"
+msgstr "WPA & WPA2 Enterprise"
+
+#: panels/network/connection-editor/firewall-helpers.c:49
+#: panels/network/connection-editor/firewall-helpers.c:118
+msgctxt "Firewall zone"
+msgid "Default"
+msgstr "Oletus"
+
+#: panels/network/connection-editor/firewall-helpers.c:50
+msgid "The zone defines the trust level of the connection"
+msgstr "Vyöhyke määrittää yhteyden luottamustason"
+
+#: panels/network/connection-editor/net-connection-editor.c:295
+msgid "Unable to open connection editor"
+msgstr "Yhteyseditorin avaaminen epäonnistui"
+
+#: panels/network/connection-editor/net-connection-editor.c:313
+msgid "New Profile"
+msgstr "Uusi profiili"
+
+#: panels/network/connection-editor/net-connection-editor.c:545
+msgid "_Add"
+msgstr "_Lisää"
+
+#: panels/network/connection-editor/net-connection-editor.c:634
+msgid "VPN"
+msgstr "VPN"
+
+#: panels/network/connection-editor/net-connection-editor.c:782
+msgid "Import from file…"
+msgstr "Tuo tiedostosta…"
+
+#: panels/network/connection-editor/net-connection-editor.c:816
+msgid "Add VPN"
+msgstr "Lisää VPN"
+
+#: panels/network/connection-editor/vpn-helpers.c:141
+msgid "Cannot import VPN connection"
+msgstr "VPN-tietojen tuonti epäonnistui"
+
+#: panels/network/connection-editor/vpn-helpers.c:143
 #, c-format
-msgid "Right Ring Mode #%d"
-msgstr "Oikea kehätila #%d"
+msgid ""
+"The file “%s” could not be read or does not contain recognized VPN "
+"connection information\n"
+"\n"
+"Error: %s."
+msgstr ""
+"Tiedoston ”%s” luku epäonnistui tai se ei sisällä tunnistettavaa VPN-"
+"yhteyden tietoa\n"
+"\n"
+"Virhe: %s."
 
-#. If no mode is available, we use "left-strip-mode-1" for backward compat
-#: panels/wacom/csd-wacom-device.c:1195
-msgid "Left Touchstrip"
-msgstr "Vasen kosketuskaista"
+#: panels/network/connection-editor/vpn-helpers.c:178
+msgid "Select file to import"
+msgstr "Valitse tuotava tiedosto"
 
-#: panels/wacom/csd-wacom-device.c:1205
+#: panels/network/connection-editor/vpn-helpers.c:182
+msgid "_Open"
+msgstr "_Avaa"
+
+#: panels/network/connection-editor/vpn-helpers.c:230
 #, c-format
-msgid "Left Touchstrip Mode #%d"
-msgstr "Vasen kosketuskaistatila #%d"
+msgid "A file named “%s” already exists."
+msgstr "Tiedosto nimeltä ”%s” on jo olemassa."
 
-#. If no mode is available, we use "right-strip-mode-1" for backward compat
-#: panels/wacom/csd-wacom-device.c:1224
-msgid "Right Touchstrip"
-msgstr "Oikea kosketuskaista"
+#: panels/network/connection-editor/vpn-helpers.c:232
+msgid "_Replace"
+msgstr "_Korvaa"
 
-#: panels/wacom/csd-wacom-device.c:1234
+#: panels/network/connection-editor/vpn-helpers.c:234
 #, c-format
-msgid "Right Touchstrip Mode #%d"
-msgstr "Oikea kosketuskaistatila #%d"
+msgid "Do you want to replace %s with the VPN connection you are saving?"
+msgstr ""
+"Haluatko korvata tiedoston %s VPN-asetuksilla, joita olet tallentamassa?"
 
-#: panels/wacom/csd-wacom-device.c:1259
-msgid "Left Touchring Mode Switch"
-msgstr "Vasemman kosketuskehätilan kytkin"
+#: panels/network/connection-editor/vpn-helpers.c:270
+msgid "Cannot export VPN connection"
+msgstr "VPN-tietojen vienti epäonnistui"
 
-#: panels/wacom/csd-wacom-device.c:1261
-msgid "Right Touchring Mode Switch"
-msgstr "Oikean kosketuskehätilan kytkin"
-
-#: panels/wacom/csd-wacom-device.c:1264
-msgid "Left Touchstrip Mode Switch"
-msgstr "Vasemman kosketuskaistatilan kytkin"
-
-#: panels/wacom/csd-wacom-device.c:1266
-msgid "Right Touchstrip Mode Switch"
-msgstr "Oikean kosketuskaistatilan kytkin"
-
-#: panels/wacom/csd-wacom-device.c:1271
+#: panels/network/connection-editor/vpn-helpers.c:272
 #, c-format
-msgid "Mode Switch #%d"
-msgstr "Tilakytkin #%d"
+msgid ""
+"The VPN connection “%s” could not be exported to %s.\n"
+"\n"
+"Error: %s."
+msgstr ""
+"VPN-tietoja “%s” ei voitu viedä tiedostoon %s.\n"
+"\n"
+"Virhe: %s."
 
-#: panels/wacom/csd-wacom-device.c:1375
-#, c-format
-msgid "Left Button #%d"
-msgstr "Vasen painike #%d"
+#: panels/network/connection-editor/vpn-helpers.c:307
+msgid "Export VPN connection"
+msgstr "Vie VPN-tiedot"
 
-#: panels/wacom/csd-wacom-device.c:1378
-#, c-format
-msgid "Right Button #%d"
-msgstr "Oikea painike #%d"
+#: panels/network/connection-editor/vpn-helpers.c:311
+msgid "_Save"
+msgstr "_Tallenna"
 
-#: panels/wacom/csd-wacom-device.c:1381
-#, c-format
-msgid "Top Button #%d"
-msgstr "Yläpainike #%d"
+#: panels/network/wireless-security/eap-method.c:69
+msgid "undefined error in 802.1x security (wpa-eap)"
+msgstr "määrittämätön virhe 802.1x suojauksessa (wpa-eap)"
 
-#: panels/wacom/csd-wacom-device.c:1384
+#: panels/network/wireless-security/eap-method.c:245
+msgid "no file selected"
+msgstr "tiedostoa ei ole valittu"
+
+#: panels/network/wireless-security/eap-method.c:276
+msgid "unspecified error validating eap-method file"
+msgstr "määrittämätön virhe eap-method-tiedostoa vahvistaessa"
+
+#: panels/network/wireless-security/eap-method.c:321
+msgid "DER, PEM, or PKCS#12 private keys (*.der, *.pem, *.p12, *.key)"
+msgstr "DER-, PEM- tai PKCS#12-yksityisavaimet (*.der, *.pem, *.p12, *.key)"
+
+#: panels/network/wireless-security/eap-method.c:324
+msgid "DER or PEM certificates (*.der, *.pem, *.crt, *.cer)"
+msgstr "DER- tai PEM-varmenteet (*.der, *.pem, *.crt, *.cer)"
+
+#: panels/network/wireless-security/eap-method-fast.c:72
+msgid "missing EAP-FAST PAC file"
+msgstr "puuttuva EAP-FAST PAC -tiedosto"
+
+#: panels/network/wireless-security/eap-method-fast.c:268
+#: panels/network/wireless-security/eap-method-peap.c:302
+#: panels/network/wireless-security/eap-method-ttls.c:333
+msgid "GTC"
+msgstr "GTC"
+
+#: panels/network/wireless-security/eap-method-fast.c:283
+#: panels/network/wireless-security/eap-method-peap.c:272
+#: panels/network/wireless-security/eap-method-ttls.c:288
+msgid "MSCHAPv2"
+msgstr "MSCHAPv2"
+
+#: panels/network/wireless-security/eap-method-fast.c:406
+msgid "Choose a PAC file"
+msgstr "Valitse PAC-tiedosto"
+
+#: panels/network/wireless-security/eap-method-fast.c:413
+msgid "PAC files (*.pac)"
+msgstr "PAC-tiedostot (* .pac)"
+
+#: panels/network/wireless-security/eap-method-leap.c:65
+msgid "missing EAP-LEAP username"
+msgstr "puuttuva EAP-LEAP-käyttäjätunnus"
+
+#: panels/network/wireless-security/eap-method-leap.c:74
+msgid "missing EAP-LEAP password"
+msgstr "puuttuva EAP-LEAP-salasana"
+
+#: panels/network/wireless-security/eap-method-peap.c:63
 #, c-format
-msgid "Bottom Button #%d"
-msgstr "Alapainike #%d"
+msgid "invalid EAP-PEAP CA certificate: %s"
+msgstr "virheellinen EAP-PEAP CA -varmenne: %s"
+
+#: panels/network/wireless-security/eap-method-peap.c:68
+msgid "invalid EAP-PEAP CA certificate: no certificate specified"
+msgstr "virheellinen EAP-PEAP CA -varmenne: varmennetta ei määritetty"
+
+#: panels/network/wireless-security/eap-method-peap.c:287
+#: panels/network/wireless-security/eap-method-ttls.c:318
+#: panels/network/wireless-security/wireless-security.c:439
+msgid "MD5"
+msgstr "MD5"
+
+#: panels/network/wireless-security/eap-method-peap.c:381
+#: panels/network/wireless-security/eap-method-tls.c:501
+#: panels/network/wireless-security/eap-method-ttls.c:412
+msgid "Choose a Certificate Authority certificate"
+msgstr "Valitse varmenteen myöntäjän varmenne"
+
+#: panels/network/wireless-security/eap-method-simple.c:74
+msgid "missing EAP username"
+msgstr "puuttuva EAP-käyttäjätunnus"
+
+#: panels/network/wireless-security/eap-method-simple.c:87
+msgid "missing EAP password"
+msgstr "puuttuva EAP-salasana"
+
+#: panels/network/wireless-security/eap-method-tls.c:68
+msgid "missing EAP-TLS identity"
+msgstr "puuttuva EAP-TLS-identiteetti"
+
+#: panels/network/wireless-security/eap-method-tls.c:77
+#, c-format
+msgid "invalid EAP-TLS CA certificate: %s"
+msgstr "virheellinen EAP-TLS CA -varmenne: %s"
+
+#: panels/network/wireless-security/eap-method-tls.c:84
+msgid "invalid EAP-TLS CA certificate: no certificate specified"
+msgstr "virheellinen EAP-TLS:n CA-varmenne: varmennetta ei määritetty"
+
+#: panels/network/wireless-security/eap-method-tls.c:95
+msgid "invalid EAP-TLS password: missing"
+msgstr "virheellinen EAP-TLS-salasana: tieto puuttuu"
+
+#: panels/network/wireless-security/eap-method-tls.c:109
+#, c-format
+msgid "invalid EAP-TLS private-key: %s"
+msgstr "virheellinen EAP-TLS:n yksityinen avain: %s"
+
+#: panels/network/wireless-security/eap-method-tls.c:119
+#, c-format
+msgid "invalid EAP-TLS user-certificate: %s"
+msgstr "virheellinen EAP-TLS-käyttäjävarmenne: %s"
+
+#: panels/network/wireless-security/eap-method-tls.c:316
+msgid "Unencrypted private keys are insecure"
+msgstr "Salaamattomat yksityiset avaimet ovat epäluotettavia"
+
+#: panels/network/wireless-security/eap-method-tls.c:319
+msgid ""
+"The selected private key does not appear to be protected by a password.  "
+"This could allow your security credentials to be compromised.  Please select "
+"a password-protected private key.\n"
+"\n"
+"(You can password-protect your private key with openssl)"
+msgstr ""
+"Valittua yksityistä avainta ei ole suojattu salasanalla. Tämä mahdollistaa "
+"turvallisuustietojen vaarantumisen. Valitse salasanalla suojattu yksityinen "
+"avain.\n"
+"\n"
+"(Voit suojata yksityisen avaimesi openssl:llä)"
+
+#: panels/network/wireless-security/eap-method-tls.c:495
+msgid "Choose your personal certificate"
+msgstr "Valitse henkilökohtainen varmenne"
+
+#: panels/network/wireless-security/eap-method-tls.c:507
+msgid "Choose your private key"
+msgstr "Valitse yksityinen avain"
+
+#: panels/network/wireless-security/eap-method-ttls.c:63
+#, c-format
+msgid "invalid EAP-TTLS CA certificate: %s"
+msgstr "virheellinen EAP-TTLS CA -varmenne: %s"
+
+#: panels/network/wireless-security/eap-method-ttls.c:68
+msgid "invalid EAP-TTLS CA certificate: no certificate specified"
+msgstr "virheellinen EAP-TTLS CA -varmenne: varmennetta ei määritetty"
+
+#: panels/network/wireless-security/eap-method-ttls.c:258
+msgid "PAP"
+msgstr "PAP"
+
+#: panels/network/wireless-security/eap-method-ttls.c:273
+msgid "MSCHAP"
+msgstr "MSCHAP"
+
+#: panels/network/wireless-security/eap-method-ttls.c:303
+msgid "CHAP"
+msgstr "CHAP"
+
+#: panels/network/wireless-security/wireless-security.c:87
+msgid "Unknown error validating 802.1x security"
+msgstr "Tuntematon virhe 802.1x suojauksen vahvistamisessa"
+
+#: panels/network/wireless-security/wireless-security.c:451
+msgid "TLS"
+msgstr "TLS"
+
+#: panels/network/wireless-security/wireless-security.c:475
+msgid "PWD"
+msgstr "PWD"
+
+#: panels/network/wireless-security/wireless-security.c:486
+msgid "FAST"
+msgstr "FAST"
+
+#: panels/network/wireless-security/wireless-security.c:497
+msgid "Tunneled TLS"
+msgstr "Tunneloitu TLS"
+
+#: panels/network/wireless-security/wireless-security.c:508
+msgid "Protected EAP (PEAP)"
+msgstr "Suojattu EAP (PEAP)"
+
+#: panels/network/wireless-security/ws-leap.c:63
+msgid "missing leap-username"
+msgstr "puuttuva leap-username"
+
+#: panels/network/wireless-security/ws-leap.c:74
+msgid "missing leap-password"
+msgstr "puuttuva leap-password"
+
+#: panels/network/wireless-security/ws-wep-key.c:107
+msgid "missing wep-key"
+msgstr "wep-avain puuttuu"
+
+#: panels/network/wireless-security/ws-wep-key.c:116
+#, c-format
+msgid ""
+"invalid wep-key: key with a length of %zu must contain only hex-digits"
+msgstr ""
+"virheellinen wep-key: avaimen jonka pituus on %zu tulee sisältää vain "
+"heksanumeroita"
+
+#: panels/network/wireless-security/ws-wep-key.c:124
+#, c-format
+msgid ""
+"invalid wep-key: key with a length of %zu must contain only ascii characters"
+msgstr ""
+"virheellinen wep-avain: avain, jonka pituus on %zu, saa sisältää vain ascii-"
+"merkkejä"
+
+#: panels/network/wireless-security/ws-wep-key.c:130
+#, c-format
+msgid ""
+"invalid wep-key: wrong key length %zu. A key must be either of length 5/13 "
+"(ascii) or 10/26 (hex)"
+msgstr ""
+"virheellinen wep-avain: väärä avaimen pituus %zu. Avaimen on oltava joko "
+"5/13 (ascii) tai 10/26 (hex) pituinen."
+
+#: panels/network/wireless-security/ws-wep-key.c:137
+msgid "invalid wep-key: passphrase must be non-empty"
+msgstr "virheellinen wep-avain: tunnuslause ei voi olla tyhjä"
+
+#: panels/network/wireless-security/ws-wep-key.c:139
+msgid "invalid wep-key: passphrase must be shorter than 64 characters"
+msgstr ""
+"virheellinen wep-avain: tunnuslause tulee olla vähemmän kuin 64 merkkiä"
+
+#: panels/network/wireless-security/ws-wpa-psk.c:70
+#, c-format
+msgid ""
+"invalid wpa-psk: invalid key-length %zu. Must be [8,63] bytes or 64 hex "
+"digits"
+msgstr ""
+"virheellinen wpa-psk: virheellinen avaimen pituus %zu. Tulee olla [8,63] "
+"tavua tai 64 heksanumeroa"
+
+#: panels/network/wireless-security/ws-wpa-psk.c:79
+msgid "invalid wpa-psk: cannot interpret key with 64 bytes as hex"
+msgstr "virheellinen wpa-psk: ei voi tulkita 64 tavun avainta heksana"
 
 #: shell/cc-shell-nav-bar.c:117
 msgid "_All Settings"
@@ -1225,7 +1538,7 @@ msgstr "Ohje"
 
 #: shell/control-center.c:223
 msgid "Quit"
-msgstr "Lopeta"
+msgstr "Sulje"
 
 #. translators: This is the default hotspot name, need to be less than 32-bytes
 #: shell/hostname-helper.c:189
@@ -1233,7 +1546,7 @@ msgctxt "hotspot"
 msgid "Hotspot"
 msgstr "Tukiasema"
 
-#: panels/color/color.ui.h:3 generate_additional_files.py:25
+#: panels/color/color.ui.h:3 generate_additional_files.py:23
 msgid "Color"
 msgstr "Väri"
 
@@ -1267,35 +1580,27 @@ msgstr "Aseta tämä profiili kaikille tietokoneen käyttäjille"
 msgid "Add profile"
 msgstr "Lisää profiili"
 
-#: panels/color/color.ui.h:12 panels/wacom/cinnamon-wacom-properties.ui.h:10
-msgid "Calibrate…"
-msgstr "Kalibroi…"
-
-#: panels/color/color.ui.h:13
-msgid "Calibrate the device"
-msgstr "Kalibroi laite"
-
-#: panels/color/color.ui.h:14
+#: panels/color/color.ui.h:12
 msgid "Remove profile"
 msgstr "Poista profiili"
 
-#: panels/color/color.ui.h:15
+#: panels/color/color.ui.h:13
 msgid "View details"
 msgstr "Näytä tiedot"
 
-#: panels/color/color.ui.h:16
+#: panels/color/color.ui.h:14
 msgid "Device type:"
 msgstr "Laitetyyppi:"
 
-#: panels/color/color.ui.h:17
+#: panels/color/color.ui.h:15
 msgid "Manufacturer:"
 msgstr "Valmistaja:"
 
-#: panels/color/color.ui.h:18
+#: panels/color/color.ui.h:16
 msgid "Model:"
 msgstr "Malli:"
 
-#: panels/color/color.ui.h:19
+#: panels/color/color.ui.h:17
 msgid ""
 "Image files can be dragged on this window to auto-complete the above fields."
 msgstr ""
@@ -1403,68 +1708,57 @@ msgstr "marraskuu"
 msgid "December"
 msgstr "joulukuu"
 
-#: panels/display/display-capplet.ui.h:1
-msgid "Active"
-msgstr "Käytössä"
+#: panels/display/cc-display-panel.ui.h:1
+msgid "Display Arrangement"
+msgstr "Näyttöjen järjestys"
 
-#: panels/display/display-capplet.ui.h:2
+#: panels/display/cc-display-panel.ui.h:2
 msgid "Set as Primary"
-msgstr "Aseta primääriksi"
+msgstr "Aseta ensisijaiseksi"
 
-#: panels/display/display-capplet.ui.h:3
+#: panels/display/cc-display-panel.ui.h:3
+msgid "Display Configuration"
+msgstr "Näytön asetukset"
+
+#: panels/display/cc-display-panel.ui.h:4
+msgid "Join Displays"
+msgstr "Liitä näytöt"
+
+#: panels/display/cc-display-panel.ui.h:5
+msgid "Mirror"
+msgstr "Peili"
+
+#: panels/display/cc-display-panel.ui.h:6
+msgid "Displays"
+msgstr "Näytöt"
+
+#: panels/display/cc-display-panel.ui.h:7
+msgid "Reset to Defaults"
+msgstr "Palauta oletukset"
+
+#: panels/display/cc-display-panel.ui.h:8
+msgid "Cancel changes"
+msgstr "Peru muutokset"
+
+#: panels/display/cc-display-panel.ui.h:9
+msgid "Apply"
+msgstr "Käytä"
+
+#: panels/display/cc-display-settings.ui.h:1
 msgid "Resolution"
 msgstr "Tarkkuus"
 
-#: panels/display/display-capplet.ui.h:4
-msgid "Mirror displays"
-msgstr "Peilaa näytöt"
-
-#: panels/display/display-capplet.ui.h:5
-msgid "Rotation"
-msgstr "Kierto"
-
-#: panels/display/display-capplet.ui.h:6
+#: panels/display/cc-display-settings.ui.h:2
 msgid "Refresh Rate"
 msgstr "Virkistystaajuus"
 
-#: panels/display/display-capplet.ui.h:7
-msgid "User interface scale"
-msgstr "Käyttöliittymän mittakaava"
+#: panels/display/cc-display-settings.ui.h:3
+msgid "Rotation"
+msgstr "Kierto"
 
-#: panels/display/display-capplet.ui.h:8
-msgid ""
-"This is the global scaling factor for all monitors. In automatic mode, it is "
-"chosen based on the primary monitor."
-msgstr ""
-"Tämä on kaikkien näyttöjen skaalauskerroin. Automaattisessa tilassa se "
-"valitaan ensisijaisen näytön perusteella."
-
-#: panels/display/display-capplet.ui.h:9
-msgid "This option may limit resolution options"
-msgstr "Tämä asetus saattaa rajoittaa tarkkuuden vaihtoehtoja"
-
-#: panels/display/display-capplet.ui.h:10
-msgid ""
-"This feature is experimental and may not work well with all hardware and "
-"drivers. Enabling it may impact performance, vsync, resolution or screen "
-"ratio."
-msgstr ""
-"Tämä ominaisuus on kokeellinen eikä välttämättä toimi kaikilla laitteilla ja "
-"ajureilla. Käyttöönotto voi vaikuttaa suorituskykyyn, vsynciin, tarkkuutteen "
-"tai kuvasuhteeseen."
-
-#: panels/display/display-capplet.ui.h:11
-msgid "Fractional scaling"
-msgstr "Skaalaus murtoluvuilla"
-
-#: panels/display/display-capplet.ui.h:12
-msgid "_Detect Displays"
-msgstr "_Tunnista näytöt"
-
-#: panels/display/display-capplet.ui.h:13
-#: panels/region/cinnamon-region-panel.ui.h:18
-msgid "Reset to De_faults"
-msgstr "Palauta _oletukset"
+#: panels/display/cc-display-settings.ui.h:5
+msgid "Adjust for TV"
+msgstr "Säädä televisiota varten"
 
 #: panels/network/network-ethernet.ui.h:2
 msgid "_Add Profile…"
@@ -1478,7 +1772,7 @@ msgstr "IMEI"
 msgid "Provider"
 msgstr "Palveluntarjoaja"
 
-#: panels/network/network-mobile.ui.h:8 generate_additional_files.py:71
+#: panels/network/network-mobile.ui.h:8 generate_additional_files.py:63
 msgid "Network"
 msgstr "Verkko"
 
@@ -1557,10 +1851,6 @@ msgstr "Poista laite"
 msgid "VPN Type"
 msgstr "VPN-tyyppi"
 
-#: panels/network/network-vpn.ui.h:2
-msgid "Gateway"
-msgstr "Yhdyskäytävä"
-
 #: panels/network/network-vpn.ui.h:3
 msgid "Group Name"
 msgstr "Ryhmän nimi"
@@ -1575,7 +1865,7 @@ msgstr "Käyttäjätunnus"
 
 #: panels/network/network-vpn.ui.h:6
 msgid "Turn VPN connection off"
-msgstr "Katkaise VPN-yhteys"
+msgstr "Katkaise VPN"
 
 #: panels/network/network-wifi.ui.h:2
 #: panels/network/connection-editor/connection-editor.ui.h:2
@@ -1595,11 +1885,6 @@ msgstr "Signaalin voimakkuus"
 #: panels/network/connection-editor/details-page.ui.h:2
 msgid "Link speed"
 msgstr "Yhteysnopeus"
-
-#: panels/network/network-wifi.ui.h:6
-#: panels/network/connection-editor/details-page.ui.h:3
-msgid "Security"
-msgstr "Turvallisuus"
 
 #: panels/network/network-wifi.ui.h:14
 msgid "details"
@@ -1660,17 +1945,9 @@ msgstr "IPv_4"
 msgid "_Addresses"
 msgstr "_Osoitteet"
 
-#: panels/network/network-wifi.ui.h:27
-msgid "Manual"
-msgstr "Manuaalinen"
-
-#: panels/network/network-wifi.ui.h:28
-msgid "Automatic (DHCP)"
-msgstr "Automaattinen (DHCP)"
-
 #: panels/network/network-wifi.ui.h:29
 msgid "Automatic (DHCP) addresses only"
-msgstr "Vain automaattiset (DHCP-) osoitteet"
+msgstr "Vain automaattiset osoitteet (DHCP)"
 
 #: panels/network/network-wifi.ui.h:30
 msgid "Link-local only"
@@ -1680,7 +1957,7 @@ msgstr "Vain paikallinen linkkiyhteys"
 msgid "Shared with other computers"
 msgstr "Jaettu muille tietokoneille"
 
-#: panels/network/network-wifi.ui.h:32
+#: panels/network/network-wifi.ui.h:32 panels/wacom/wacom-stylus-page.ui.h:6
 msgid "Disabled"
 msgstr "Ei käytössä"
 
@@ -1752,22 +2029,6 @@ msgstr ""
 msgid "reset"
 msgstr "tyhjennä"
 
-#: panels/network/network-wifi.ui.h:47
-msgid "Details"
-msgstr "Yksityiskohdat"
-
-#: panels/network/network-wifi.ui.h:48
-msgid "Identity"
-msgstr "Henkilöys"
-
-#: panels/network/network-wifi.ui.h:49
-msgid "IPv4"
-msgstr "IPv4"
-
-#: panels/network/network-wifi.ui.h:50
-msgid "IPv6"
-msgstr "IPv6"
-
 #: panels/network/network-wifi.ui.h:51
 msgid "Hardware"
 msgstr "Laitteisto"
@@ -1824,23 +2085,6 @@ msgstr "Salauksen tyyppi"
 #: panels/network/network-wifi.ui.h:64
 msgid "Password"
 msgstr "Salasana"
-
-#: panels/online-accounts/online-accounts.ui.h:1
-msgid "Undo"
-msgstr "Peru"
-
-#: panels/online-accounts/online-accounts.ui.h:2
-msgid "No internet connection — connect to set up new online accounts"
-msgstr ""
-"Ei internetyhteyttä — muodosta yhteys määrittääksesi uusia verkkotilejä"
-
-#: panels/online-accounts/online-accounts.ui.h:3
-msgid "Add an account"
-msgstr "Lisää tili"
-
-#: panels/online-accounts/online-accounts.ui.h:4
-msgid "Remove Account"
-msgstr "Poista käyttäjätili"
 
 #: panels/region/cinnamon-region-panel-layout-chooser.ui.h:1
 msgid "Choose a Layout"
@@ -1927,7 +2171,11 @@ msgstr "_Valinnat..."
 
 #: panels/region/cinnamon-region-panel.ui.h:17
 msgid "View and edit keyboard layout options"
-msgstr "Näytä ja muokkaa näppäimistöasettelun asetuksia"
+msgstr "Näytä ja muokkaa näppäimistön asetuksia"
+
+#: panels/region/cinnamon-region-panel.ui.h:18
+msgid "Reset to De_faults"
+msgstr "Palauta _oletukset"
 
 #: panels/region/cinnamon-region-panel.ui.h:19
 msgid ""
@@ -1941,139 +2189,131 @@ msgstr ""
 msgid "Map Buttons"
 msgstr "Määritä painikkeet"
 
-#: panels/wacom/button-mapping.ui.h:2
+#: panels/wacom/button-mapping.ui.h:3
 msgid "Map buttons to functions"
 msgstr "Määritä painikkeille toimintoja"
 
-#: panels/wacom/button-mapping.ui.h:3
+#: panels/wacom/button-mapping.ui.h:4
 msgid ""
-"To edit a shortcut, click the row and hold down the new keys or press "
-"Backspace to clear."
+"To edit a shortcut, choose the “Send Keystroke” action, press the keyboard "
+"shortcut button and hold down the new keys or press Backspace to clear."
 msgstr ""
-"Muokkaa pikanäppäintä napsauttamalla riviä ja painamalla sitten haluamasi "
-"uudet näppäimet pohjaan. Pikanäppäimen voi poistaa käytöstä painamalla "
+"Pikanäppäimen muokkaus, valitse \"Lähetä painallus\", paina pikanäppäintä ja "
+"pidä uusia näppäimiä painettuna. Tyhjennä pikanappäin painamalla "
 "askelpalautinta."
 
 #: panels/wacom/cinnamon-wacom-properties.ui.h:1
-msgid "Tablet (absolute)"
-msgstr "Piirtoalusta (yksi yhteen)"
-
-#: panels/wacom/cinnamon-wacom-properties.ui.h:2
-msgid "Touchpad (relative)"
-msgstr "Kosketuslevy (suhteellinen)"
-
-#: panels/wacom/cinnamon-wacom-properties.ui.h:3
-msgid "Tablet Preferences"
-msgstr "Piirtoalustan asetukset"
-
-#: panels/wacom/cinnamon-wacom-properties.ui.h:4
 msgid "No tablet detected"
 msgstr "Piirtoalustaa ei havaittu"
 
+#: panels/wacom/cinnamon-wacom-properties.ui.h:2
+msgid "Please plug in or turn on your Wacom tablet"
+msgstr "Liitä tai käynnistä Wacom piirtopöytä"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:3
+msgid "Bluetooth Settings"
+msgstr "Bluetooth asetukset"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:4
+msgid "Wacom Tablet"
+msgstr "Wacom piirtopöytä"
+
 #: panels/wacom/cinnamon-wacom-properties.ui.h:5
-msgid "Please plug in or turn on your graphics tablet"
-msgstr "Liitä tai käynnistä graafinen piirtoalustasi"
+msgid "Tracking Mode"
+msgstr "Seurantatila"
 
 #: panels/wacom/cinnamon-wacom-properties.ui.h:6
-msgid "Bluetooth Settings"
-msgstr "Bluetooth-asetukset"
+msgid "Left-Handed Orientation"
+msgstr "Vasenkätinen suuntaus"
 
 #: panels/wacom/cinnamon-wacom-properties.ui.h:7
-#: generate_additional_files.py:86
-msgid "Graphics Tablet"
-msgstr "Piirtoalusta"
-
-#: panels/wacom/cinnamon-wacom-properties.ui.h:8
 msgid "Map to Monitor…"
 msgstr "Liitä näyttöön…"
 
-#: panels/wacom/cinnamon-wacom-properties.ui.h:9
+#: panels/wacom/cinnamon-wacom-properties.ui.h:8
 msgid "Map Buttons…"
 msgstr "Liitä näppäimiä…"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:9
+msgid "Calibrate…"
+msgstr "Kalibroi…"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:10
+msgid "Adjust mouse settings"
+msgstr "Muuta hiiren asetuksia"
 
 #: panels/wacom/cinnamon-wacom-properties.ui.h:11
 msgid "Adjust display resolution"
 msgstr "Säädä näytön tarkkuutta"
 
 #: panels/wacom/cinnamon-wacom-properties.ui.h:12
-msgid "Tracking Mode"
-msgstr "Seurantatila"
+msgid "Decouple Display"
+msgstr "Poista näyttö"
 
 #: panels/wacom/cinnamon-wacom-properties.ui.h:13
-msgid "Left-Handed Orientation"
-msgstr "Vasenkätinen suuntaus"
+msgid "Tablet (absolute)"
+msgstr "Piirtoalusta (yksi yhteen)"
 
-#: panels/wacom/wacom-stylus-page.ui.h:1
-msgid "No Action"
-msgstr "Ei toimintoa"
+#: panels/wacom/cinnamon-wacom-properties.ui.h:14
+msgid "Touchpad (relative)"
+msgstr "Kosketuslevy (suhteellinen)"
 
 #: panels/wacom/wacom-stylus-page.ui.h:2
-msgid "Left Mouse Button Click"
-msgstr "Hiiren vasemman painikkeen napsautus"
-
-#: panels/wacom/wacom-stylus-page.ui.h:3
 msgid "Middle Mouse Button Click"
 msgstr "Hiiren keskimmäisen painikkeen napsautus"
 
-#: panels/wacom/wacom-stylus-page.ui.h:4
+#: panels/wacom/wacom-stylus-page.ui.h:3
 msgid "Right Mouse Button Click"
 msgstr "Hiiren oikean painikkeen napsautus"
 
-#: panels/wacom/wacom-stylus-page.ui.h:5
-msgid "Scroll Up"
-msgstr "Vieritys ylös"
-
-#: panels/wacom/wacom-stylus-page.ui.h:6
-msgid "Scroll Down"
-msgstr "Vieritys alas"
-
-#: panels/wacom/wacom-stylus-page.ui.h:7
-msgid "Scroll Left"
-msgstr "Vieritys vasemmalle"
-
-#: panels/wacom/wacom-stylus-page.ui.h:8
-msgid "Scroll Right"
-msgstr "Vieritys oikealle"
-
-#: panels/wacom/wacom-stylus-page.ui.h:9
+#: panels/wacom/wacom-stylus-page.ui.h:4
 msgid "Back"
 msgstr "Takaisin"
 
-#: panels/wacom/wacom-stylus-page.ui.h:10
+#: panels/wacom/wacom-stylus-page.ui.h:5
 msgid "Forward"
 msgstr "Eteenpäin"
 
-#: panels/wacom/wacom-stylus-page.ui.h:11
-msgid "Stylus"
-msgstr "Osoitinkynä"
+#: panels/wacom/wacom-stylus-page.ui.h:7
+msgid "No stylus found"
+msgstr "Osoitinkynää ei löytynyt"
 
-#: panels/wacom/wacom-stylus-page.ui.h:12
+#: panels/wacom/wacom-stylus-page.ui.h:8
+msgid ""
+"Please move your stylus to the proximity of the tablet to configure it"
+msgstr "Siirrä osoitinkynä piirtopöydän läheisyyteen tehdäksesi määritykset"
+
+#: panels/wacom/wacom-stylus-page.ui.h:10
 msgid "Eraser Pressure Feel"
 msgstr "Pyyhekumin paineentunnistus"
 
-#: panels/wacom/wacom-stylus-page.ui.h:13
+#: panels/wacom/wacom-stylus-page.ui.h:11
 msgid "Soft"
 msgstr "Pehmeä"
 
-#: panels/wacom/wacom-stylus-page.ui.h:14
+#: panels/wacom/wacom-stylus-page.ui.h:12
 msgid "Firm"
 msgstr "Kova"
 
-#: panels/wacom/wacom-stylus-page.ui.h:15
+#: panels/wacom/wacom-stylus-page.ui.h:13
 msgid "Top Button"
 msgstr "Ylänäppäin"
 
-#: panels/wacom/wacom-stylus-page.ui.h:16
+#: panels/wacom/wacom-stylus-page.ui.h:14
 msgid "Lower Button"
 msgstr "Alanäppäin"
 
-#: panels/wacom/wacom-stylus-page.ui.h:17
+#: panels/wacom/wacom-stylus-page.ui.h:15
+msgid "Lowest Button"
+msgstr "Alimmainen painike"
+
+#: panels/wacom/wacom-stylus-page.ui.h:16
 msgid "Tip Pressure Feel"
 msgstr "Kärjen paineentunnistus"
 
-#: panels/wacom/wacom-stylus-page.ui.h:18
-msgid "Lowest Button"
-msgstr "Alimmainen painike"
+#: panels/wacom/wacom-stylus-page.ui.h:17
+msgid "Test Your _Settings"
+msgstr "_Testaa asetukset"
 
 #: panels/network/connection-editor/8021x-security-page.ui.h:1
 msgid "802.1x _Security"
@@ -2106,20 +2346,13 @@ msgstr "sivu 2"
 msgid "Last Used"
 msgstr "Viimeksi käytetty"
 
-#: panels/network/connection-editor/ethernet-page.ui.h:1
-#: panels/network/connection-editor/ip4-page.ui.h:4
-#: panels/network/connection-editor/ip6-page.ui.h:4
-#: panels/network/wireless-security/eap-method-peap.ui.h:2
-msgid "Automatic"
-msgstr "Automaattinen"
-
 #: panels/network/connection-editor/ethernet-page.ui.h:2
 msgid "Twisted Pair (TP)"
 msgstr "Parikaapeli (TP)"
 
 #: panels/network/connection-editor/ethernet-page.ui.h:3
 msgid "Attachment Unit Interface (AUI)"
-msgstr "Attachment Unit Interface (AUI)"
+msgstr "Liitäntä 10BASE5 Ethernet (AUI)"
 
 #: panels/network/connection-editor/ethernet-page.ui.h:4
 msgid "BNC"
@@ -2127,7 +2360,7 @@ msgstr "BNC"
 
 #: panels/network/connection-editor/ethernet-page.ui.h:5
 msgid "Media Independent Interface (MII)"
-msgstr "Media Independent Interface (MII)"
+msgstr "Liitäntä Fast Ethernet (MII)"
 
 #: panels/network/connection-editor/ethernet-page.ui.h:6
 msgid "10 Mb/s"
@@ -2223,7 +2456,7 @@ msgstr " "
 
 #: panels/network/wireless-security/eap-method-fast.ui.h:2
 msgid "Anonymous"
-msgstr "Nimetön"
+msgstr "Anonyymi"
 
 #: panels/network/wireless-security/eap-method-fast.ui.h:3
 msgid "Authenticated"
@@ -2287,7 +2520,7 @@ msgstr "PEAP-_versio"
 
 #: panels/network/wireless-security/eap-method-tls.ui.h:1
 msgid "I_dentity"
-msgstr "Henkilöys"
+msgstr "I_dentiteetti"
 
 #: panels/network/wireless-security/eap-method-tls.ui.h:2
 msgid "_User certificate"
@@ -2309,7 +2542,7 @@ msgstr "_Tunnistautuminen"
 
 #: panels/network/wireless-security/ws-wep-key.ui.h:1
 msgid "1 (Default)"
-msgstr "1 (Oletus)"
+msgstr "1 (oletus)"
 
 #: panels/network/wireless-security/ws-wep-key.ui.h:2
 msgid "2"
@@ -2347,31 +2580,66 @@ msgstr "WEP-inde_ksi"
 msgid "_Type"
 msgstr "T_yyppi"
 
-#: generate_additional_files.py:25
+#: panels/wacom/calibrator/calibrator.ui.h:1
+msgid "Screen Calibration"
+msgstr "Näytön kalibrointi"
+
+#: panels/wacom/calibrator/calibrator.ui.h:2
+msgid ""
+"Please tap the target markers as they appear on screen to calibrate the "
+"tablet."
+msgstr ""
+"Kalibroi tabletti napauttamalla kohdistusmerkkejä, kun ne näkyvät näytössä."
+
+#: panels/wacom/calibrator/calibrator.ui.h:3
+msgid "Mis-click detected, restarting…"
+msgstr "Tunnistettiin ohi mennyt kosketus, aloitetaan alusta…"
+
+#: generate_additional_files.py:23
 msgid "Color management settings"
 msgstr "Värien hallinta"
 
-#: generate_additional_files.py:41
+#: generate_additional_files.py:23
+msgid "Color, ICC, Profile, Calibrate, Printer, Display"
+msgstr "Väri, ICC, Profiili, Kalibrointi, Tulostin, Näyttö"
+
+#: generate_additional_files.py:37
 msgid "Region & Language"
 msgstr "Alue ja kielet"
 
-#: generate_additional_files.py:41
+#: generate_additional_files.py:37
 msgid "Change your region and language settings"
 msgstr "Muuta alue- ja kieliasetuksia"
 
-#: generate_additional_files.py:56
+#: generate_additional_files.py:50
 msgid "Display"
 msgstr "Näyttö"
 
-#: generate_additional_files.py:56
+#: generate_additional_files.py:50
 msgid "Change resolution and position of monitors and projectors"
-msgstr "Muuta näyttöjen ja heitinten tarkkuutta ja sijoittelua"
+msgstr "Vaihda näyttöjen ja projektorien tarkkuutta sekä sijaintia"
 
-#: generate_additional_files.py:71
+#: generate_additional_files.py:50
+msgid "Panel, Projector, xrandr, Screen, Resolution, Refresh"
+msgstr "Paneeli, Projektori, xrandr, Näyttö, Resoluutio, Virkistys"
+
+#: generate_additional_files.py:63
 msgid "Network settings"
-msgstr "Verkkoasetukset"
+msgstr "Verkon asetukset"
 
-#: generate_additional_files.py:86
+#: generate_additional_files.py:63
+msgid "Network, Wireless, IP, LAN, Proxy, Internet, WiFi"
+msgstr "Verkko, Langaton, IP, LAN, Välityspalvelin, Internet, WiFi"
+
+#: generate_additional_files.py:76
+msgid "Graphics Tablet"
+msgstr "Piirtoalusta"
+
+#: generate_additional_files.py:76
 msgid ""
 "Set button mappings and adjust stylus sensitivity for graphics tablets"
 msgstr "Aseta piirtopöydän painikkeet ja kynän herkkyys"
+
+#: generate_additional_files.py:76
+msgid "Tablet, Wacom, Stylus, Eraser, Mouse"
+msgstr "Piirtoalusta, Wacom, Kynä, Pyyhekumi, Hiiri"

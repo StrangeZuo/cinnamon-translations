@@ -7,17 +7,17 @@ msgstr ""
 "Project-Id-Version: cinnamon-screensaver\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "screensaver&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2021-05-31 15:43+0100\n"
-"PO-Revision-Date: 2021-06-08 19:52+0000\n"
-"Last-Translator: Saša Marjanović <Unknown>\n"
+"POT-Creation-Date: 2022-12-02 21:29+0000\n"
+"PO-Revision-Date: 2023-01-14 17:07+0000\n"
+"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: српски <gnome-sr@googlegroups.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2021-06-25 10:38+0000\n"
-"X-Generator: Launchpad (build 40cc6dba4163ba9ca785b26ad91f43c87d70ba4d)\n"
+"X-Launchpad-Export-Date: 2024-07-21 09:00+0000\n"
+"X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
 "Language: sr\n"
 
 #: src/cinnamon-screensaver-command.py:41
@@ -72,11 +72,11 @@ msgstr[0] "Чувар екрана је радио %d секунду.\n"
 msgstr[1] "Чувар екрана је радио %d секунде.\n"
 msgstr[2] "Чувар екрана је радио %d секунди.\n"
 
-#: src/manager.py:287
+#: src/manager.py:315
 msgid "Cinnamon Screensaver has experienced an error"
 msgstr "Дошло је до грешке у Циметовом чувару екрана"
 
-#: src/manager.py:289
+#: src/manager.py:317
 msgid ""
 "The 'cs-backup-locker' process terminated before the screensaver did. Please "
 "report this issue and try to describe any actions you may have performed "
@@ -86,7 +86,7 @@ msgstr ""
 "Молимо Вас да пријавите овај проблем и покушате да објасните било које "
 "активности које сте вршили пре него што се ово десило."
 
-#: src/passwordEntry.py:23 src/unlock.py:221
+#: src/passwordEntry.py:23 src/unlock.py:216
 msgid "Please enter your password..."
 msgstr "Унесите вашу лозинку..."
 
@@ -98,14 +98,53 @@ msgstr "Откључај"
 msgid "Switch User"
 msgstr "Промени корисника"
 
-#: src/unlock.py:194
+#: src/unlock.py:189
 msgid "Incorrect password"
 msgstr "Нетачна лозинка"
 
-#: src/unlock.py:211
+#: src/unlock.py:206
 msgid "Checking..."
 msgstr "Проверавам..."
 
-#: src/unlock.py:254
+#: src/unlock.py:250
 msgid "You have the Caps Lock key on."
 msgstr "Укључили сте велика слова."
+
+#. This is the first line of text for the backup-locker, explaining how to switch to tty
+#. and run 'cinnamon-unlock-desktop' command.  This appears if the screensaver crashes.
+#: backup-locker/cs-backup-locker.c:255
+msgid "Something went wrong with the screensaver."
+msgstr "Нешто је пошло наопако са чуварем екрана."
+
+#. (continued) This is a subtitle
+#: backup-locker/cs-backup-locker.c:265
+msgid "We'll help you get your desktop back"
+msgstr "Помоћи ћемо вам да повраттите вашу радну површ"
+
+#. (new section) Bulleted list of steps to take to unlock the desktop;
+#: backup-locker/cs-backup-locker.c:276
+#, c-format
+msgid "Switch to a console using <Control-Alt-F%u>."
+msgstr "Пребаците се на конзолу помоћу „Control-Alt-F%u“."
+
+#. (list continued)
+#: backup-locker/cs-backup-locker.c:278
+msgid "Log in by typing your user name followed by your password."
+msgstr "Пријавите се вашим корисничким именом и вашом лозинком."
+
+#. (list continued)
+#: backup-locker/cs-backup-locker.c:280
+msgid "At the prompt, type 'cinnamon-unlock-desktop' and press Enter."
+msgstr "На упит, упишите „cinnamon-unlock-desktop“ и притисните „Унеси“."
+
+#. (list continued)
+#: backup-locker/cs-backup-locker.c:282
+#, c-format
+msgid "Switch back to your unlocked desktop using <Control-Alt-F%u>."
+msgstr ""
+"Пребаците се назад на вашу неоткључану радну површ са „Control-Alt-F%u“."
+
+#. (end section) Final words after the list of steps
+#: backup-locker/cs-backup-locker.c:287
+msgid "If you can reproduce this behavior, please file a report here:"
+msgstr "Ако можете да произведете ово понашање, овде попуните извештај:"

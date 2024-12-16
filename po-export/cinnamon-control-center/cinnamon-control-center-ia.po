@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2021-06-04 12:20+0100\n"
-"PO-Revision-Date: 2021-06-14 14:29+0000\n"
+"POT-Creation-Date: 2024-03-27 13:58+0000\n"
+"PO-Revision-Date: 2024-02-17 00:17+0000\n"
 "Last-Translator: karm <melo@carmu.com>\n"
 "Language-Team: Interlingua <ia@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2021-06-25 10:38+0000\n"
-"X-Generator: Launchpad (build 40cc6dba4163ba9ca785b26ad91f43c87d70ba4d)\n"
+"X-Launchpad-Export-Date: 2024-07-21 09:00+0000\n"
+"X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
 
 #. TRANSLATORS: this is where the user can click and import a profile
 #: panels/color/cc-color-panel.c:108
@@ -27,7 +27,7 @@ msgstr "Un altere profilo..."
 #. * profile has been auto-generated for this hardware
 #: panels/color/cc-color-panel.c:121
 msgid "Default: "
-msgstr "Standard: "
+msgstr "Predefinite: "
 
 #. TRANSLATORS: this is a profile prefix to signify the
 #. * profile his a standard space like AdobeRGB
@@ -67,100 +67,77 @@ msgstr "Profilos ICC supportate"
 
 #. TRANSLATORS: filter name on the file->open dialog
 #: panels/color/cc-color-panel.c:248
+#: panels/network/wireless-security/eap-method-fast.c:417
 msgid "All files"
 msgstr "Tote le files"
 
 #. TRANSLATORS: this is the dialog title in the 'Add profile' UI
-#: panels/color/cc-color-panel.c:591
+#: panels/color/cc-color-panel.c:564
 msgid "Available Profiles for Displays"
-msgstr "Profilos disponibile pro le schermos"
+msgstr "Profilos disponibile pro le visualisation"
 
 #. TRANSLATORS: this is the dialog title in the 'Add profile' UI
-#: panels/color/cc-color-panel.c:595
+#: panels/color/cc-color-panel.c:568
 msgid "Available Profiles for Scanners"
 msgstr "Profilos disponibile pro le scanditores"
 
 #. TRANSLATORS: this is the dialog title in the 'Add profile' UI
-#: panels/color/cc-color-panel.c:599
+#: panels/color/cc-color-panel.c:572
 msgid "Available Profiles for Printers"
-msgstr "Profilos disponibile pro le stampantes"
+msgstr "Profilos disponibile pro le imprimitores"
 
 #. TRANSLATORS: this is the dialog title in the 'Add profile' UI
-#: panels/color/cc-color-panel.c:603
+#: panels/color/cc-color-panel.c:576
 msgid "Available Profiles for Cameras"
 msgstr "Profilos disponibile pro le cameras"
 
 #. TRANSLATORS: this is the dialog title in the 'Add profile' UI
-#: panels/color/cc-color-panel.c:607
+#: panels/color/cc-color-panel.c:580
 msgid "Available Profiles for Webcams"
-msgstr "Profilos disponibile pro le web-cameras"
+msgstr "Profilos disponibile pro le cameras web"
 
 #. TRANSLATORS: this is the dialog title in the 'Add profile' UI
 #. * where the device type is not recognised
 #. Profiles that can be added to the device
-#: panels/color/cc-color-panel.c:612 panels/color/color.ui.h:2
+#: panels/color/cc-color-panel.c:585 panels/color/color.ui.h:2
 msgid "Available Profiles"
 msgstr "Profilos disponibile"
 
 #. TRANSLATORS: column for device list
-#: panels/color/cc-color-panel.c:888
+#: panels/color/cc-color-panel.c:861
 msgid "Device"
 msgstr "Dispositivo"
 
 #. TRANSLATORS: column for device list
-#: panels/color/cc-color-panel.c:923
+#: panels/color/cc-color-panel.c:896
 msgid "Calibration"
 msgstr "Calibration"
 
-#. TRANSLATORS: this is when the button is sensitive
-#: panels/color/cc-color-panel.c:955
-msgid "Create a color profile for the selected device"
-msgstr "Crear un profilo de color pro le dispositivo seligite"
-
-#. TRANSLATORS: this is when the button is insensitive
-#: panels/color/cc-color-panel.c:969 panels/color/cc-color-panel.c:993
-msgid ""
-"The measuring instrument is not detected. Please check it is turned on and "
-"correctly connected."
-msgstr ""
-"Le apparato de mesura non es detectate. Per favor controla si illo es "
-"activate e connexe correctemente."
-
-#. TRANSLATORS: this is when the button is insensitive
-#: panels/color/cc-color-panel.c:1002
-msgid "The measuring instrument does not support printer profiling."
-msgstr "Le apparato de mesura non supporta le profilo de stampante."
-
-#. TRANSLATORS: this is when the button is insensitive
-#: panels/color/cc-color-panel.c:1013
-msgid "The device type is not currently supported."
-msgstr "Le typo de dispositivo non es actualmente supportate."
-
 #. TRANSLATORS: this is when an auto-added profile cannot be removed
-#: panels/color/cc-color-panel.c:1085
+#: panels/color/cc-color-panel.c:977
 msgid "Cannot remove automatically added profile"
 msgstr "Impossibile remover un profilo addite automaticamente"
 
 #. TRANSLATORS: this is when there is no profile for the device
-#: panels/color/cc-color-panel.c:1419
+#: panels/color/cc-color-panel.c:1307
 msgid "No profile"
 msgstr "Necun profilo"
 
-#: panels/color/cc-color-panel.c:1448
+#: panels/color/cc-color-panel.c:1336
 #, c-format
 msgid "%i year"
 msgid_plural "%i years"
 msgstr[0] "%i anno"
 msgstr[1] "%i annos"
 
-#: panels/color/cc-color-panel.c:1459
+#: panels/color/cc-color-panel.c:1347
 #, c-format
 msgid "%i month"
 msgid_plural "%i months"
 msgstr[0] "%i mense"
 msgstr[1] "%i menses"
 
-#: panels/color/cc-color-panel.c:1470
+#: panels/color/cc-color-panel.c:1358
 #, c-format
 msgid "%i week"
 msgid_plural "%i weeks"
@@ -168,83 +145,83 @@ msgstr[0] "%i septimana"
 msgstr[1] "%i septimanas"
 
 #. fallback
-#: panels/color/cc-color-panel.c:1477
+#: panels/color/cc-color-panel.c:1365
 msgid "Less than 1 week"
 msgstr "Minus que 1 septimana"
 
-#: panels/color/cc-color-panel.c:1539
+#: panels/color/cc-color-panel.c:1427
 msgctxt "Colorspace fallback"
 msgid "Default RGB"
-msgstr "RGB standard"
+msgstr "RGB predefinite"
 
-#: panels/color/cc-color-panel.c:1544
+#: panels/color/cc-color-panel.c:1432
 msgctxt "Colorspace fallback"
 msgid "Default CMYK"
-msgstr "CMYK standard"
+msgstr "CMYK predefinite"
 
-#: panels/color/cc-color-panel.c:1549
+#: panels/color/cc-color-panel.c:1437
 msgctxt "Colorspace fallback"
 msgid "Default Gray"
-msgstr "Gris standard"
+msgstr "Gris predefinite"
 
-#: panels/color/cc-color-panel.c:1667 panels/color/cc-color-panel.c:1706
-#: panels/color/cc-color-panel.c:1717 panels/color/cc-color-panel.c:1728
+#: panels/color/cc-color-panel.c:1555 panels/color/cc-color-panel.c:1594
+#: panels/color/cc-color-panel.c:1605 panels/color/cc-color-panel.c:1616
 msgid "Uncalibrated"
 msgstr "Non calibrate"
 
-#: panels/color/cc-color-panel.c:1670
+#: panels/color/cc-color-panel.c:1558
 msgid "This device is not color managed."
 msgstr "Iste dispositivo non es tractate per le color."
 
-#: panels/color/cc-color-panel.c:1709
+#: panels/color/cc-color-panel.c:1597
 msgid "This device is using manufacturing calibrated data."
 msgstr "Iste dispositivo es usante datos calibrate per le fabricante."
 
-#: panels/color/cc-color-panel.c:1720
+#: panels/color/cc-color-panel.c:1608
 msgid ""
 "This device does not have a profile suitable for whole-screen color "
 "correction."
 msgstr ""
-"Iste dispositivo non ha un profilo convenibile pro le correction del color a "
-"tote-schermo."
+"Iste dispositivo non ha un profilo convenibile pro le correction del color "
+"pro tote le schermo."
 
-#: panels/color/cc-color-panel.c:1753
+#: panels/color/cc-color-panel.c:1641
 msgid "This device has an old profile that may no longer be accurate."
 msgstr ""
 "Iste dispositivo ha un profilo vetule que pote non esser plus accurate."
 
 #. TRANSLATORS: this is when the calibration profile age is not
 #. * specified as it has been autogenerated from the hardware
-#: panels/color/cc-color-panel.c:1781
+#: panels/color/cc-color-panel.c:1669
 msgid "Not specified"
 msgstr "Non specificate"
 
 #. add the 'No devices detected' entry
-#: panels/color/cc-color-panel.c:1966
+#: panels/color/cc-color-panel.c:1854
 msgid "No devices supporting color management detected"
 msgstr "Nulle dispositivo disvelate que supporta le gestion del color"
 
-#: panels/color/cc-color-panel.c:2195
+#: panels/color/cc-color-panel.c:2083
 msgctxt "Device kind"
 msgid "Display"
 msgstr "Schermo"
 
-#: panels/color/cc-color-panel.c:2197
+#: panels/color/cc-color-panel.c:2085
 msgctxt "Device kind"
 msgid "Scanner"
 msgstr "Scanditor"
 
-#: panels/color/cc-color-panel.c:2199
+#: panels/color/cc-color-panel.c:2087
 msgctxt "Device kind"
 msgid "Printer"
-msgstr "Stampante"
+msgstr "Imprimitor"
 
-#: panels/color/cc-color-panel.c:2201
+#: panels/color/cc-color-panel.c:2089
 msgctxt "Device kind"
 msgid "Camera"
 msgstr "Camera"
 
-#: panels/color/cc-color-panel.c:2203
+#: panels/color/cc-color-panel.c:2091
 msgctxt "Device kind"
 msgid "Webcam"
 msgstr "Camera web"
@@ -260,7 +237,7 @@ msgstr "Anglese Britannic"
 
 #: panels/common/cc-common-language.c:538
 msgid "German"
-msgstr "germano"
+msgstr "Germano"
 
 #: panels/common/cc-common-language.c:541
 msgid "French"
@@ -276,7 +253,7 @@ msgstr "Chinese (simplificate)"
 
 #: panels/common/cc-common-language.c:549
 msgid "Russian"
-msgstr "russo"
+msgstr "Russo"
 
 #: panels/common/cc-common-language.c:552
 msgid "Arabic"
@@ -285,7 +262,7 @@ msgstr "Arabe"
 #. Add some common regions
 #: panels/common/cc-common-language.c:580
 msgid "United States"
-msgstr "SUA"
+msgstr "Statos Unite"
 
 #: panels/common/cc-common-language.c:581
 msgid "Germany"
@@ -311,123 +288,71 @@ msgstr "Seliger un region"
 msgid "Unspecified"
 msgstr "Non specificate"
 
-#: panels/display/cc-display-panel.c:642 panels/display/cc-display-panel.c:1251
-#: panels/display/cc-display-panel.c:1258
-#, c-format
-msgid "%d%%"
-msgstr "%d%%"
-
-#: panels/display/cc-display-panel.c:709
-msgctxt "display panel, rotation"
-msgid "Normal"
-msgstr "Normal"
-
-#: panels/display/cc-display-panel.c:710
-msgctxt "display panel, rotation"
-msgid "Counterclockwise"
-msgstr "Antihorari"
-
-#: panels/display/cc-display-panel.c:711
-msgctxt "display panel, rotation"
-msgid "Clockwise"
-msgstr "Horari"
-
-#: panels/display/cc-display-panel.c:712
-msgctxt "display panel, rotation"
-msgid "180 Degrees"
-msgstr "180 Grados"
-
-#. Keep this string in sync with gnome-desktop/libcinnamon-desktop/gnome-rr-labeler.c
-#. Translators:  this is the feature where what you see on your laptop's
-#. * screen is the same as your external projector.  Here, "Mirrored" is being
-#. * used as an adjective.  For example, the Spanish translation could be
-#. * "Pantallas en Espejo".
-#. 
 #. Translators:  this is the feature where what you see on your
 #. * laptop's screen is the same as your external projector.
 #. * Here, "Mirrored" is being used as an adjective.  For example,
 #. * the Spanish translation could be "Pantallas en Espejo".
 #. 
-#: panels/display/cc-display-panel.c:857 panels/display/cc-rr-labeler.c:404
+#: panels/display/cc-display-labeler.c:369
+#: panels/display/cc-display-panel.c:748
 msgid "Mirrored Displays"
-msgstr "Schermos replicate"
+msgstr "Visualisation replicate"
 
-#: panels/display/cc-display-panel.c:881
-msgid "Monitor"
-msgstr "Schermo"
+#: panels/display/cc-display-panel.c:1150
+msgid "Confirm reset to defaults"
+msgstr "Confirmar reinitialisation predefinite"
 
-#: panels/display/cc-display-panel.c:985
-#, c-format
-msgid "%d x %d%s (%s)"
-msgstr "%d x %d%s (%s)"
+#: panels/display/cc-display-panel.c:1152
+msgid "Cancel"
+msgstr "Cancellar"
 
-#: panels/display/cc-display-panel.c:987
-#, c-format
-msgid "%d x %d%s"
-msgstr "%d x %d%s"
+#: panels/display/cc-display-panel.c:1152
+msgid "Continue"
+msgstr "Continuar"
 
-#: panels/display/cc-display-panel.c:1002
+#: panels/display/cc-display-panel.c:1165
+msgid ""
+"This will remove all existing display configurations and reset the current "
+"layout."
+msgstr ""
+"Isto removera tote le configurationes de visualisation existente e "
+"reinitialisara le disposition actual."
+
+#: panels/display/cc-display-settings.c:107
+msgctxt "Display rotation"
+msgid "Landscape"
+msgstr "Horizontal"
+
+#: panels/display/cc-display-settings.c:110
+msgctxt "Display rotation"
+msgid "Portrait Right"
+msgstr "Vertical dextre"
+
+#: panels/display/cc-display-settings.c:113
+msgctxt "Display rotation"
+msgid "Portrait Left"
+msgstr "Vertical sinistre"
+
+#: panels/display/cc-display-settings.c:116
+msgctxt "Display rotation"
+msgid "Landscape (flipped)"
+msgstr "Horizontal (revolvite)"
+
+#: panels/display/cc-display-settings.c:190
 #, c-format
 msgid "%.2lf Hz"
 msgstr "%.2lf Hz"
 
-#: panels/display/cc-display-panel.c:1281
-msgid "Normal"
-msgstr "Normal"
+#: panels/display/cc-display-settings.c:471
+msgid "Monitor scale"
+msgstr "Scala del monitor"
 
-#: panels/display/cc-display-panel.c:1283
-msgid "Double (Hi-DPI)"
-msgstr "Duple (Hi-DPI)"
+#: panels/display/cc-display-settings.c:475
+#: panels/display/cc-display-settings.ui.h:4
+msgid "User interface scale"
+msgstr "Scala de interfacie del usator"
 
-#: panels/display/cc-display-panel.c:1323
-#, c-format
-msgid "Automatic (%ux)"
-msgstr "Automatic (%ux)"
-
-#: panels/display/cc-display-panel.c:2510
-msgid ""
-"Select a monitor to change its properties; drag it to rearrange its "
-"placement."
-msgstr ""
-"Selige un monitor pro cambiar su proprietates; tira lo pro recomponer su "
-"placiamento."
-
-#: panels/display/cc-display-panel.c:2959
-msgid "DoubleScan"
-msgstr "DupleScan"
-
-#: panels/display/cc-display-panel.c:2997
-msgid "VSync"
-msgstr "VSync"
-
-#: panels/display/cc-display-panel.c:3035
-#: panels/display/cc-display-panel.c:3063
-msgid "Recommended"
-msgstr "Recommendate"
-
-#: panels/display/cc-display-panel.c:3098
-#, c-format
-msgid "<b>scaled resolution: %d x %d</b>"
-msgstr "<b>resolution scalate: %d x %d</b>"
-
-#: panels/display/cc-display-panel.c:3287
-#: panels/display/cc-display-panel.c:3339
-msgid "Failed to apply configuration"
-msgstr "Fallite a applicar le configuration"
-
-#: panels/display/cc-display-panel.c:3367
-msgid "Could not save the monitor configuration"
-msgstr "Impossibile salvar le configuration del monitor"
-
-#: panels/display/cc-display-panel.c:3427
-msgid "Could not detect displays"
-msgstr "Impossibile revelar le schermos"
-
-#: panels/display/cc-display-panel.c:3671
-msgid "Could not get screen information"
-msgstr "Non pote obtener le informationes del schermo"
-
-#: panels/network/cc-network-panel.c:910
+#: panels/network/cc-network-panel.c:906
 msgid "Network proxy"
 msgstr "Proxy de rete"
 
@@ -435,119 +360,123 @@ msgstr "Proxy de rete"
 #. * window for vpn connections, it is also used to display
 #. * vpn connections in the device list.
 #. 
-#: panels/network/cc-network-panel.c:1089 panels/network/net-vpn.c:287
+#: panels/network/cc-network-panel.c:1085 panels/network/net-vpn.c:287
 #: panels/network/net-vpn.c:444
 #, c-format
 msgid "%s VPN"
 msgstr "%s VPN"
 
-#: panels/network/cc-network-panel.c:1156
+#: panels/network/cc-network-panel.c:1152
 msgid "Oops, something has gone wrong. Please contact your software vendor."
 msgstr ""
-"Op, alco ha capitate de mal. Per favor contacta tu venditor de software."
+"Oops! Alcun error occurreva. Per favor continge tu venditor de software."
 
-#: panels/network/cc-network-panel.c:1162
+#: panels/network/cc-network-panel.c:1158
 msgid "NetworkManager needs to be running."
 msgstr "Necessita facer fluer NetworkManager"
 
 #. Translators: network device speed
 #: panels/network/net-device-ethernet.c:50 panels/network/net-device-wifi.c:549
+#: panels/network/connection-editor/ce-page-details.c:153
 #, c-format
 msgid "%d Mb/s"
 msgstr "%d Mb/s"
 
-#: panels/network/net-device-ethernet.c:106
+#: panels/network/net-device-ethernet.c:107
 #: panels/network/net-device-wifi.c:477
 msgid "never"
 msgstr "nunquam"
 
-#: panels/network/net-device-ethernet.c:116
+#: panels/network/net-device-ethernet.c:117
 #: panels/network/net-device-wifi.c:487
 msgid "today"
 msgstr "hodie"
 
-#: panels/network/net-device-ethernet.c:118
+#: panels/network/net-device-ethernet.c:119
 #: panels/network/net-device-wifi.c:489
 msgid "yesterday"
 msgstr "heri"
 
-#: panels/network/net-device-ethernet.c:120
+#: panels/network/net-device-ethernet.c:121
 #: panels/network/net-device-wifi.c:491
+#: panels/network/connection-editor/ce-page-details.c:104
 #, c-format
 msgid "%i day ago"
 msgid_plural "%i days ago"
 msgstr[0] "%i die retro"
 msgstr[1] "%i dies retro"
 
-#: panels/network/net-device-ethernet.c:155 panels/network/panel-common.c:666
+#: panels/network/net-device-ethernet.c:158 panels/network/panel-common.c:679
 #: panels/network/network-simple.ui.h:3 panels/network/network-wifi.ui.h:7
 #: panels/network/connection-editor/details-page.ui.h:4
 msgid "IPv4 Address"
 msgstr "Adresse IPv4"
 
-#: panels/network/net-device-ethernet.c:156 panels/network/panel-common.c:667
+#: panels/network/net-device-ethernet.c:159 panels/network/panel-common.c:680
 #: panels/network/network-mobile.ui.h:4 panels/network/network-simple.ui.h:4
 #: panels/network/network-wifi.ui.h:8
 #: panels/network/connection-editor/details-page.ui.h:5
 msgid "IPv6 Address"
 msgstr "Adresse IPv6"
 
-#: panels/network/net-device-ethernet.c:158
-#: panels/network/net-device-ethernet.c:160 panels/network/panel-common.c:669
-#: panels/network/panel-common.c:671 panels/network/network-mobile.ui.h:3
+#: panels/network/net-device-ethernet.c:161
+#: panels/network/net-device-ethernet.c:163 panels/network/panel-common.c:682
+#: panels/network/panel-common.c:684 panels/network/network-mobile.ui.h:3
 msgid "IP Address"
 msgstr "Adresse IP"
 
-#: panels/network/net-device-ethernet.c:163
+#: panels/network/net-device-ethernet.c:166
 #: panels/network/network-simple.ui.h:2 panels/network/network-wifi.ui.h:9
 #: panels/network/connection-editor/details-page.ui.h:6
 msgid "Hardware Address"
 msgstr "Adresse hardware"
 
-#: panels/network/net-device-ethernet.c:167
+#: panels/network/net-device-ethernet.c:171
+#: panels/network/net-device-ethernet.c:173
+#: panels/network/net-device-ethernet.c:175
 #: panels/network/network-mobile.ui.h:5 panels/network/network-simple.ui.h:5
 #: panels/network/network-wifi.ui.h:10
 #: panels/network/connection-editor/details-page.ui.h:7
 msgid "Default Route"
-msgstr "Itinere ordinari"
+msgstr "Route predefinite"
 
-#: panels/network/net-device-ethernet.c:170 panels/network/panel-common.c:675
+#: panels/network/net-device-ethernet.c:179 panels/network/panel-common.c:688
 #: panels/network/network-mobile.ui.h:6 panels/network/network-simple.ui.h:6
 #: panels/network/network-wifi.ui.h:11
 #: panels/network/connection-editor/details-page.ui.h:8
 msgid "DNS4"
 msgstr "DNS4"
 
-#: panels/network/net-device-ethernet.c:171 panels/network/panel-common.c:676
+#: panels/network/net-device-ethernet.c:180 panels/network/panel-common.c:689
 #: panels/network/network-mobile.ui.h:7 panels/network/network-simple.ui.h:7
 #: panels/network/network-wifi.ui.h:12
 #: panels/network/connection-editor/details-page.ui.h:9
 msgid "DNS6"
 msgstr "DNS6"
 
-#: panels/network/net-device-ethernet.c:173
-#: panels/network/net-device-ethernet.c:175 panels/network/panel-common.c:678
-#: panels/network/panel-common.c:680
+#: panels/network/net-device-ethernet.c:182
+#: panels/network/net-device-ethernet.c:184 panels/network/panel-common.c:691
+#: panels/network/panel-common.c:693
 #: panels/network/connection-editor/ip4-page.ui.h:3
 #: panels/network/connection-editor/ip6-page.ui.h:3
 msgid "DNS"
 msgstr "DNS"
 
-#: panels/network/net-device-ethernet.c:181 panels/network/network-wifi.ui.h:13
+#: panels/network/net-device-ethernet.c:190 panels/network/network-wifi.ui.h:13
 msgid "Last used"
-msgstr "Usate per ultimo"
+msgstr "Ultimemente usate"
 
 #. Translators: This is used as the title of the connection
 #. * details window for ethernet, if there is only a single
 #. * profile. It is also used to display ethernet in the
 #. * device list.
 #. 
-#: panels/network/net-device-ethernet.c:290
+#: panels/network/net-device-ethernet.c:292
 #: panels/network/network-ethernet.ui.h:1 panels/network/network-simple.ui.h:1
 msgid "Wired"
-msgstr "Cablate"
+msgstr "Con filos"
 
-#: panels/network/net-device-ethernet.c:358
+#: panels/network/net-device-ethernet.c:360
 #: panels/network/net-device-wifi.c:1751 panels/network/network-ethernet.ui.h:3
 #: panels/network/network-mobile.ui.h:9 panels/network/network-simple.ui.h:9
 #: panels/network/network-vpn.ui.h:7
@@ -560,51 +489,61 @@ msgstr "Adder un nove connexion"
 
 #. TRANSLATORS: this WEP WiFi security
 #: panels/network/net-device-wifi.c:215 panels/network/net-device-wifi.c:393
+#: panels/network/connection-editor/ce-page-details.c:50
 msgid "WEP"
 msgstr "WEP"
 
 #. TRANSLATORS: this WPA WiFi security
 #: panels/network/net-device-wifi.c:219 panels/network/net-device-wifi.c:398
+#: panels/network/connection-editor/ce-page-details.c:54
 #: panels/network/network-wifi.ui.h:20
 msgid "WPA"
 msgstr "WPA"
 
 #. TRANSLATORS: this WPA WiFi security
 #: panels/network/net-device-wifi.c:223
+#: panels/network/connection-editor/ce-page-details.c:58
 msgid "WPA2"
 msgstr "WPA2"
 
 #. TRANSLATORS: this Enterprise WiFi security
 #: panels/network/net-device-wifi.c:228
+#: panels/network/connection-editor/ce-page-details.c:63
 msgid "Enterprise"
 msgstr "Interprisa"
 
 #: panels/network/net-device-wifi.c:233 panels/network/net-device-wifi.c:383
+#: panels/network/connection-editor/ce-page-details.c:68
 msgctxt "Wifi security"
 msgid "None"
 msgstr "Nulle"
 
 #: panels/network/net-device-wifi.c:578
+#: panels/network/connection-editor/ce-page-details.c:179
 msgctxt "Signal strength"
 msgid "None"
 msgstr "Nulle"
 
 #: panels/network/net-device-wifi.c:580
+#: panels/network/connection-editor/ce-page-details.c:181
 msgctxt "Signal strength"
 msgid "Weak"
 msgstr "Debile"
 
 #: panels/network/net-device-wifi.c:582
+#: panels/network/connection-editor/ce-page-details.c:183
 msgctxt "Signal strength"
 msgid "Ok"
 msgstr "Ok"
 
 #: panels/network/net-device-wifi.c:584
+#: panels/network/connection-editor/ce-page-details.c:185
 msgctxt "Signal strength"
 msgid "Good"
 msgstr "Bon"
 
 #: panels/network/net-device-wifi.c:586
+#: panels/network/connection-editor/ce-page-details.c:187
 msgctxt "Signal strength"
 msgid "Excellent"
 msgstr "Excellente"
@@ -614,14 +553,15 @@ msgid ""
 "If you have a connection to the Internet other than wireless, you can set up "
 "a wireless hotspot to share the connection with others."
 msgstr ""
-"Si tu ha un connexion a Internet altere que lo sin filos, tu pote configurar "
-"un puncto de accesso sin filos pro repartir le connexion con alteres."
+"Si tu ha un connexion a Internet altere que sin filos, tu pote configurar un "
+"puncto de accesso sin filos pro repartir le connexion con alteres."
 
 #: panels/network/net-device-wifi.c:1264
 #, c-format
 msgid "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
 msgstr ""
-"Commutar sur le puncto de accesso sin filo disconnectera te ex <b>%s</b>."
+"Le commutation sur le puncto de accesso sin filo te disconnectera ab "
+"<b>%s</b>."
 
 #: panels/network/net-device-wifi.c:1268
 msgid ""
@@ -636,6 +576,8 @@ msgid "Stop hotspot and disconnect any users?"
 msgstr "Desira tu arrestar le puncto de accesso e disconnecter cata usator?"
 
 #: panels/network/net-device-wifi.c:1352 panels/network/net-device-wifi.c:1592
+#: panels/network/connection-editor/vpn-helpers.c:181
+#: panels/network/connection-editor/vpn-helpers.c:310
 #: panels/common/language-chooser.ui.h:2 panels/network/network-wifi.ui.h:1
 #: panels/network/connection-editor/connection-editor.ui.h:1
 msgid "_Cancel"
@@ -658,18 +600,20 @@ msgid ""
 "Network details for the selected networks, including passwords and any "
 "custom configuration will be lost."
 msgstr ""
-"Le dispositivo dispositivo sin filos non supporta le modo Puncto de accesso"
+"Le detalios del rete pro le retes seligite, includente le contrasignos e "
+"omne configurationes personalisate, essera perdite."
 
 #: panels/network/net-device-wifi.c:1593 panels/network/network-wifi.ui.h:43
 #: panels/network/connection-editor/reset-page.ui.h:2
 msgid "_Forget"
-msgstr "Disapprender (_Forget)"
+msgstr "Oblidar (_F)"
 
 #: panels/network/net-device-wifi.c:1899
 msgid "History"
 msgstr "Chronologia"
 
-#: panels/network/net-device-wifi.c:1903
+#: panels/network/net-device-wifi.c:1903 panels/wacom/cc-wacom-page.c:468
+#: panels/wacom/button-mapping.ui.h:2
 msgid "_Close"
 msgstr "_Clauder"
 
@@ -677,14 +621,14 @@ msgstr "_Clauder"
 #: panels/network/net-device-wifi.c:1911
 msgctxt "Wi-Fi Network"
 msgid "_Forget"
-msgstr "Disapprender (_Forget)"
+msgstr "Oblidar (_F)"
 
 #. TRANSLATORS: this is when the use leaves the PAC textbox blank
 #: panels/network/net-proxy.c:67
 msgid ""
 "Web Proxy Autodiscovery is used when a Configuration URL is not provided."
 msgstr ""
-"Le Auto-discoperta del poxy web es usate quando non es fornite un URL de "
+"Le Autodiscoperta del poxy web es usate quando non es fornite un URL de "
 "configuration."
 
 #. TRANSLATORS: WPAD is bad: if you enable it on an untrusted
@@ -728,7 +672,7 @@ msgstr "Non gerite"
 #. TRANSLATORS: device status
 #: panels/network/panel-common.c:155
 msgid "Unavailable"
-msgstr "Non disponibile"
+msgstr "Indisponibile"
 
 #. TRANSLATORS: device status
 #. TRANSLATORS: VPN status
@@ -746,7 +690,7 @@ msgstr "Authentication requirite"
 #. TRANSLATORS: VPN status
 #: panels/network/panel-common.c:173 panels/network/panel-common.c:215
 msgid "Connected"
-msgstr "Connexe"
+msgstr "Connectite"
 
 #. TRANSLATORS: device status
 #: panels/network/panel-common.c:177
@@ -768,7 +712,7 @@ msgstr "Stato incognite (mancante)"
 #. TRANSLATORS: VPN status
 #: panels/network/panel-common.c:223
 msgid "Not connected"
-msgstr "Non connexe"
+msgstr "Non connectate"
 
 #. TRANSLATORS: device status reason
 #: panels/network/panel-common.c:248
@@ -788,7 +732,7 @@ msgstr "Configuration del IP expirate"
 #. TRANSLATORS: device status reason
 #: panels/network/panel-common.c:260
 msgid "Secrets were required, but not provided"
-msgstr "Il necessitava secretos, ma non esseva supplite"
+msgstr "Il esseva necesse secretos, ma illos non esseva fornite"
 
 #. TRANSLATORS: device status reason
 #: panels/network/panel-common.c:264
@@ -818,7 +762,7 @@ msgstr "Servicio PPP fallite a initiar"
 #. TRANSLATORS: device status reason
 #: panels/network/panel-common.c:284
 msgid "PPP service disconnected"
-msgstr "Servicio PPP disconnexe"
+msgstr "Servicio PPP disconnectite"
 
 #. TRANSLATORS: device status reason
 #: panels/network/panel-common.c:288
@@ -843,12 +787,12 @@ msgstr "Cliente DHCP fallite"
 #. TRANSLATORS: device status reason
 #: panels/network/panel-common.c:304
 msgid "Shared connection service failed to start"
-msgstr "Servicio de connexion in commun fallite a initiar"
+msgstr "Servicio de connexion compartite fallite a initiar"
 
 #. TRANSLATORS: device status reason
 #: panels/network/panel-common.c:308
 msgid "Shared connection service failed"
-msgstr "Servicio de connexion in commun fallite"
+msgstr "Servicio de connexion compartite, fallite"
 
 #. TRANSLATORS: device status reason
 #: panels/network/panel-common.c:312
@@ -858,12 +802,12 @@ msgstr "Servicio auto-IP fallite a initiar"
 #. TRANSLATORS: device status reason
 #: panels/network/panel-common.c:316
 msgid "AutoIP service error"
-msgstr "Error del servicio auto-IP"
+msgstr "Error del servicio AutoIP"
 
 #. TRANSLATORS: device status reason
 #: panels/network/panel-common.c:320
 msgid "AutoIP service failed"
-msgstr "Servicio auto-IP fallite"
+msgstr "Servicio AutoIP fallite"
 
 #. TRANSLATORS: device status reason
 #: panels/network/panel-common.c:324
@@ -948,7 +892,7 @@ msgstr "Modem non trovate"
 #. TRANSLATORS: device status reason
 #: panels/network/panel-common.c:388
 msgid "Bluetooth connection failed"
-msgstr "Connexion bluetooth fallite"
+msgstr "Connexion Bluetooth fallite"
 
 #. TRANSLATORS: device status reason
 #: panels/network/panel-common.c:392
@@ -983,202 +927,574 @@ msgstr "Firmware mancante"
 #. TRANSLATORS: device status
 #: panels/network/panel-common.c:437
 msgid "Cable unplugged"
-msgstr "Cablo distaccate"
-
-#: panels/online-accounts/cc-online-accounts-panel.c:148
-msgctxt "Online Account"
-msgid "Other"
-msgstr "Altere"
-
-#. translators: This is the title of the "Show Account" dialog. The
-#. * %s is the name of the provider. e.g., 'Google'.
-#: panels/online-accounts/cc-online-accounts-panel.c:593
-#, c-format
-msgid "%s Account"
-msgstr "Conto de %s"
-
-#: panels/online-accounts/cc-online-accounts-panel.c:888
-msgid "Error removing account"
-msgstr "Error durante le remotion del conto"
-
-#. Translators: The %s is the username (eg., debarshi.ray@gmail.com
-#. * or rishi).
-#. 
-#: panels/online-accounts/cc-online-accounts-panel.c:953
-#, c-format
-msgid "<b>%s</b> removed"
-msgstr "<b>%s</b> removite"
+msgstr "Cablo disconnectite"
 
 #: panels/region/cinnamon-region-panel-xkblt.c:208
 msgid "Layout"
 msgstr "Disposition"
 
 #: panels/region/cinnamon-region-panel-xkbot.c:227
+#: panels/wacom/wacom-stylus-page.ui.h:1
 msgid "Default"
 msgstr "Predefinite"
 
-#: panels/wacom/cc-wacom-mapping-panel.c:298
+#: panels/wacom/cc-wacom-button-row.c:248
+#, c-format
+msgid "Button %d"
+msgstr "Button %d"
+
+#: panels/wacom/cc-wacom-mapping-panel.c:232
 msgid "Output:"
 msgstr "Output:"
 
 #. Keep ratio switch
-#: panels/wacom/cc-wacom-mapping-panel.c:310
+#: panels/wacom/cc-wacom-mapping-panel.c:244
 msgid "Keep aspect ratio (letterbox):"
 msgstr "Retene un ration de apparentia (cassa del litteras):"
 
-#. Apply screen rotation
-#: panels/wacom/cc-wacom-mapping-panel.c:321
-msgid "Rotate the tablet when the screen is rotated:"
-msgstr "Rotar le tabletta quando le schermo es rotate:"
-
 #. Whole-desktop checkbox
-#: panels/wacom/cc-wacom-mapping-panel.c:332
+#: panels/wacom/cc-wacom-mapping-panel.c:255
 msgid "Map to single monitor"
 msgstr "Mappa a monitor singule"
 
-#: panels/wacom/cc-wacom-nav-button.c:89
+#: panels/wacom/cc-wacom-nav-button.c:84
 #, c-format
 msgid "%d of %d"
 msgstr "%d de %d"
 
-#: panels/wacom/cc-wacom-page.c:118 panels/wacom/cc-wacom-page.c:385
-msgctxt "Wacom action-type"
-msgid "None"
-msgstr "Nulle"
-
-#: panels/wacom/cc-wacom-page.c:119
-msgctxt "Wacom action-type"
-msgid "Send Keystroke"
-msgstr "Mandar un pulsata de clave"
-
-#: panels/wacom/cc-wacom-page.c:120
-msgctxt "Wacom action-type"
-msgid "Switch Monitor"
-msgstr "Cambiar le monitor"
-
-#: panels/wacom/cc-wacom-page.c:121
-msgctxt "Wacom action-type"
-msgid "Show On-Screen Help"
-msgstr "Monstrar le adjuta sur-le-schermo"
-
-#: panels/wacom/cc-wacom-page.c:622
-msgctxt "Wacom tablet button"
-msgid "Up"
-msgstr "Su"
-
-#: panels/wacom/cc-wacom-page.c:622
-msgctxt "Wacom tablet button"
-msgid "Down"
-msgstr "A basso"
-
-#: panels/wacom/cc-wacom-page.c:663
-msgid "Switch Modes"
-msgstr "Cambiar modos"
-
-#: panels/wacom/cc-wacom-page.c:753 panels/wacom/cc-wacom-stylus-page.c:394
-msgid "Button"
-msgstr "Button"
-
-#: panels/wacom/cc-wacom-page.c:790
-msgid "Type"
-msgstr "Inserer"
-
-#: panels/wacom/cc-wacom-page.c:811
-msgid "Action"
-msgstr "Action"
-
-#: panels/wacom/cc-wacom-page.c:921
+#: panels/wacom/cc-wacom-page.c:465
 msgid "Display Mapping"
 msgstr "Monstrar le mappas"
 
-#. If no mode is available, we use "left-ring-mode-1" for backward compat
-#: panels/wacom/csd-wacom-device.c:1115
-msgid "Left Ring"
-msgstr "Anello sinistre"
+#: panels/wacom/cc-wacom-panel.c:666 panels/wacom/wacom-stylus-page.ui.h:9
+msgid "Stylus"
+msgstr "Stilo"
 
-#: panels/wacom/csd-wacom-device.c:1125
+#: panels/wacom/cc-wacom-panel.c:669
+msgid "Tablet"
+msgstr "Tabletta"
+
+#: panels/wacom/cc-wacom-stylus-page.c:362
+msgid "Button"
+msgstr "Button"
+
+#: panels/wacom/csd-wacom-key-shortcut-button.c:217
+msgid "New shortcut…"
+msgstr "Nove acceso directe..."
+
+#: panels/network/connection-editor/ce-page-8021x-security.c:101
+#: panels/network/connection-editor/ce-page-security.c:459
+#: panels/network/network-wifi.ui.h:6
+#: panels/network/connection-editor/details-page.ui.h:3
+msgid "Security"
+msgstr "Securitate"
+
+#: panels/network/connection-editor/ce-page.c:481
+msgid "automatic"
+msgstr "automatic"
+
+#: panels/network/connection-editor/ce-page.c:521
 #, c-format
-msgid "Left Ring Mode #%d"
-msgstr "Modo anello sinistre #%d"
+msgid "Profile %d"
+msgstr "Profilo %d"
 
-#. If no mode is available, we use "right-ring-mode-1" for backward compat
-#: panels/wacom/csd-wacom-device.c:1144
-msgid "Right Ring"
-msgstr "Anello dextre"
+#: panels/network/connection-editor/ce-page-details.c:89
+msgid "Never"
+msgstr "Jammais"
 
-#: panels/wacom/csd-wacom-device.c:1154
+#: panels/network/connection-editor/ce-page-details.c:100
+msgid "Today"
+msgstr "Hodie"
+
+#: panels/network/connection-editor/ce-page-details.c:102
+msgid "Yesterday"
+msgstr "Heri"
+
+#: panels/network/connection-editor/ce-page-details.c:225
+#: panels/network/network-wifi.ui.h:47
+msgid "Details"
+msgstr "Detalios"
+
+#: panels/network/connection-editor/ce-page-ethernet.c:215
+#: panels/network/connection-editor/ce-page-vpn.c:221
+#: panels/network/connection-editor/ce-page-wifi.c:227
+#: panels/network/network-wifi.ui.h:48
+msgid "Identity"
+msgstr "Identitate"
+
+#: panels/network/connection-editor/ce-page-ip4.c:202
+#: panels/network/connection-editor/ce-page-ip4.c:461
+#: panels/network/connection-editor/ce-page-ip6.c:180
+#: panels/network/connection-editor/ce-page-ip6.c:427
+msgid "Address"
+msgstr "Adresse"
+
+#: panels/network/connection-editor/ce-page-ip4.c:215
+#: panels/network/connection-editor/ce-page-ip4.c:474
+msgid "Netmask"
+msgstr "Masca de rete"
+
+#: panels/network/connection-editor/ce-page-ip4.c:229
+#: panels/network/connection-editor/ce-page-ip4.c:487
+#: panels/network/connection-editor/ce-page-ip6.c:206
+#: panels/network/connection-editor/ce-page-ip6.c:453
+#: panels/network/network-vpn.ui.h:2
+msgid "Gateway"
+msgstr "Gateway"
+
+#: panels/network/connection-editor/ce-page-ip4.c:250
+#: panels/network/connection-editor/ce-page-ip6.c:223
+msgid "Delete Address"
+msgstr "Deler le adresse"
+
+#: panels/network/connection-editor/ce-page-ip4.c:305
+#: panels/network/connection-editor/ce-page-ip6.c:277
+msgid "Add"
+msgstr "Adder"
+
+#: panels/network/connection-editor/ce-page-ip4.c:368
+#: panels/network/connection-editor/ce-page-ip6.c:334
+msgid "Server"
+msgstr "Servitor"
+
+#: panels/network/connection-editor/ce-page-ip4.c:385
+#: panels/network/connection-editor/ce-page-ip6.c:351
+msgid "Delete DNS Server"
+msgstr "Deler le servitor DNS"
+
+#. Translators: Please see https://en.wikipedia.org/wiki/Metrics_(networking)
+#: panels/network/connection-editor/ce-page-ip4.c:501
+#: panels/network/connection-editor/ce-page-ip6.c:467
+msgctxt "network parameters"
+msgid "Metric"
+msgstr "Metrica"
+
+#: panels/network/connection-editor/ce-page-ip4.c:522
+#: panels/network/connection-editor/ce-page-ip6.c:484
+msgid "Delete Route"
+msgstr "Deler le route"
+
+#: panels/network/connection-editor/ce-page-ip4.c:626
+#: panels/network/network-wifi.ui.h:28
+msgid "Automatic (DHCP)"
+msgstr "(DHCP) Automatic"
+
+#: panels/network/connection-editor/ce-page-ip4.c:630
+#: panels/network/connection-editor/ce-page-ip6.c:592
+#: panels/network/network-wifi.ui.h:27
+msgid "Manual"
+msgstr "Manual"
+
+#: panels/network/connection-editor/ce-page-ip4.c:634
+#: panels/network/connection-editor/ce-page-ip6.c:596
+msgid "Link-Local Only"
+msgstr "Solo ligamine-local"
+
+#: panels/network/connection-editor/ce-page-ip4.c:980
+#: panels/network/network-wifi.ui.h:49
+msgid "IPv4"
+msgstr "IPv4"
+
+#: panels/network/connection-editor/ce-page-ip6.c:193
+#: panels/network/connection-editor/ce-page-ip6.c:440
+msgid "Prefix"
+msgstr "Prefixo"
+
+#: panels/network/connection-editor/ce-page-ip6.c:584
+#: panels/network/connection-editor/ethernet-page.ui.h:1
+#: panels/network/connection-editor/ip4-page.ui.h:4
+#: panels/network/connection-editor/ip6-page.ui.h:4
+#: panels/network/wireless-security/eap-method-peap.ui.h:2
+msgid "Automatic"
+msgstr "Automatic"
+
+#: panels/network/connection-editor/ce-page-ip6.c:588
+msgid "Automatic, DHCP only"
+msgstr "Automatic, solo DHCP"
+
+#: panels/network/connection-editor/ce-page-ip6.c:898
+#: panels/network/network-wifi.ui.h:50
+msgid "IPv6"
+msgstr "IPv6"
+
+#: panels/network/connection-editor/ce-page-reset.c:78
+msgid "Reset"
+msgstr "Reinitialisar"
+
+#: panels/network/connection-editor/ce-page-security.c:248
+msgctxt "Wi-Fi/Ethernet security"
+msgid "None"
+msgstr "Nulle"
+
+#: panels/network/connection-editor/ce-page-security.c:271
+msgid "WEP 40/128-bit Key (Hex or ASCII)"
+msgstr "Clave WEP 40/128-bit (Hex o ASCII)"
+
+#: panels/network/connection-editor/ce-page-security.c:281
+msgid "WEP 128-bit Passphrase"
+msgstr "Phrase contrasigno WEP 128-bit"
+
+#: panels/network/connection-editor/ce-page-security.c:294
+#: panels/network/wireless-security/wireless-security.c:463
+msgid "LEAP"
+msgstr "LEAP"
+
+#: panels/network/connection-editor/ce-page-security.c:307
+msgid "Dynamic WEP (802.1x)"
+msgstr "WEP dynamic (802.1x)"
+
+#: panels/network/connection-editor/ce-page-security.c:321
+msgid "WPA & WPA2 Personal"
+msgstr "WPA & WPA2 personal"
+
+#: panels/network/connection-editor/ce-page-security.c:335
+msgid "WPA & WPA2 Enterprise"
+msgstr "WPA & WPA2 interprisa"
+
+#: panels/network/connection-editor/firewall-helpers.c:49
+#: panels/network/connection-editor/firewall-helpers.c:118
+msgctxt "Firewall zone"
+msgid "Default"
+msgstr "Predefinite"
+
+#: panels/network/connection-editor/firewall-helpers.c:50
+msgid "The zone defines the trust level of the connection"
+msgstr "Le zona defini le nivello de fiducia del connexion"
+
+#: panels/network/connection-editor/net-connection-editor.c:295
+msgid "Unable to open connection editor"
+msgstr "Impossibile aperir le editor de connexion"
+
+#: panels/network/connection-editor/net-connection-editor.c:313
+msgid "New Profile"
+msgstr "Nove profilo"
+
+#: panels/network/connection-editor/net-connection-editor.c:545
+msgid "_Add"
+msgstr "_Adder"
+
+#: panels/network/connection-editor/net-connection-editor.c:634
+msgid "VPN"
+msgstr "VPN"
+
+#: panels/network/connection-editor/net-connection-editor.c:782
+msgid "Import from file…"
+msgstr "Importar ex un file…"
+
+#: panels/network/connection-editor/net-connection-editor.c:816
+msgid "Add VPN"
+msgstr "Adder VPN"
+
+#: panels/network/connection-editor/vpn-helpers.c:141
+msgid "Cannot import VPN connection"
+msgstr "Impossibile importar le connexion VPN"
+
+#: panels/network/connection-editor/vpn-helpers.c:143
 #, c-format
-msgid "Right Ring Mode #%d"
-msgstr "Modo anello dextre #%d"
+msgid ""
+"The file “%s” could not be read or does not contain recognized VPN "
+"connection information\n"
+"\n"
+"Error: %s."
+msgstr ""
+"Le file “%s” non pote esser legite o non contine informationes de connexion "
+"VPN recognoscite\n"
+"\n"
+"Error: %s."
 
-#. If no mode is available, we use "left-strip-mode-1" for backward compat
-#: panels/wacom/csd-wacom-device.c:1195
-msgid "Left Touchstrip"
-msgstr "Banda tactile sinistre"
+#: panels/network/connection-editor/vpn-helpers.c:178
+msgid "Select file to import"
+msgstr "Selige le file a importar"
 
-#: panels/wacom/csd-wacom-device.c:1205
+#: panels/network/connection-editor/vpn-helpers.c:182
+msgid "_Open"
+msgstr "Aperir (_O)"
+
+#: panels/network/connection-editor/vpn-helpers.c:230
 #, c-format
-msgid "Left Touchstrip Mode #%d"
-msgstr "Modo banda tactile sinistre #%d"
+msgid "A file named “%s” already exists."
+msgstr "Un file appellate “%s” existe ja."
 
-#. If no mode is available, we use "right-strip-mode-1" for backward compat
-#: panels/wacom/csd-wacom-device.c:1224
-msgid "Right Touchstrip"
-msgstr "Banda tactile dextre"
+#: panels/network/connection-editor/vpn-helpers.c:232
+msgid "_Replace"
+msgstr "_Reimplaciar"
 
-#: panels/wacom/csd-wacom-device.c:1234
+#: panels/network/connection-editor/vpn-helpers.c:234
 #, c-format
-msgid "Right Touchstrip Mode #%d"
-msgstr "Modo banda tactile dextre #%d"
+msgid "Do you want to replace %s with the VPN connection you are saving?"
+msgstr "Vole tu reimplaciar %s con le connexion VPN que tu salva?"
 
-#: panels/wacom/csd-wacom-device.c:1259
-msgid "Left Touchring Mode Switch"
-msgstr "Commutar le modo anello tactile sinistre"
+#: panels/network/connection-editor/vpn-helpers.c:270
+msgid "Cannot export VPN connection"
+msgstr "Impossibile exportar le connexion VPN"
 
-#: panels/wacom/csd-wacom-device.c:1261
-msgid "Right Touchring Mode Switch"
-msgstr "Commutar le modo anello tactile dextre"
-
-#: panels/wacom/csd-wacom-device.c:1264
-msgid "Left Touchstrip Mode Switch"
-msgstr "Commutar le modo banda tactile sinistre"
-
-#: panels/wacom/csd-wacom-device.c:1266
-msgid "Right Touchstrip Mode Switch"
-msgstr "Commutar le modo banda tactile dextre"
-
-#: panels/wacom/csd-wacom-device.c:1271
+#: panels/network/connection-editor/vpn-helpers.c:272
 #, c-format
-msgid "Mode Switch #%d"
-msgstr "Commutar le modo #%d"
+msgid ""
+"The VPN connection “%s” could not be exported to %s.\n"
+"\n"
+"Error: %s."
+msgstr ""
+"Le connexion VPN “%s” non pote esser exportate a %s.\n"
+"\n"
+"Error: %s."
 
-#: panels/wacom/csd-wacom-device.c:1375
-#, c-format
-msgid "Left Button #%d"
-msgstr "Button sinistre #%d"
+#: panels/network/connection-editor/vpn-helpers.c:307
+msgid "Export VPN connection"
+msgstr "Exportar connexion VPN"
 
-#: panels/wacom/csd-wacom-device.c:1378
-#, c-format
-msgid "Right Button #%d"
-msgstr "Button dextre #%d"
+#: panels/network/connection-editor/vpn-helpers.c:311
+msgid "_Save"
+msgstr "_Salvar"
 
-#: panels/wacom/csd-wacom-device.c:1381
-#, c-format
-msgid "Top Button #%d"
-msgstr "Button alte #%d"
+#: panels/network/wireless-security/eap-method.c:69
+msgid "undefined error in 802.1x security (wpa-eap)"
+msgstr "error non definite del securitate 802.1X (wpa-eap)"
 
-#: panels/wacom/csd-wacom-device.c:1384
+#: panels/network/wireless-security/eap-method.c:245
+msgid "no file selected"
+msgstr "nulle file seligite"
+
+#: panels/network/wireless-security/eap-method.c:276
+msgid "unspecified error validating eap-method file"
+msgstr "error non-specificate al validation del file per methodo de eap"
+
+#: panels/network/wireless-security/eap-method.c:321
+msgid "DER, PEM, or PKCS#12 private keys (*.der, *.pem, *.p12, *.key)"
+msgstr "Claves private DER, PEM, o PKCS#12 (*.der, *.pem, *.p12, *.key)"
+
+#: panels/network/wireless-security/eap-method.c:324
+msgid "DER or PEM certificates (*.der, *.pem, *.crt, *.cer)"
+msgstr "Certificatos DER o PEM (*.der, *.pem, *.crt, *.cer)"
+
+#: panels/network/wireless-security/eap-method-fast.c:72
+msgid "missing EAP-FAST PAC file"
+msgstr "file EAP-FAST PAC mancante"
+
+#: panels/network/wireless-security/eap-method-fast.c:268
+#: panels/network/wireless-security/eap-method-peap.c:302
+#: panels/network/wireless-security/eap-method-ttls.c:333
+msgid "GTC"
+msgstr "GTC"
+
+#: panels/network/wireless-security/eap-method-fast.c:283
+#: panels/network/wireless-security/eap-method-peap.c:272
+#: panels/network/wireless-security/eap-method-ttls.c:288
+msgid "MSCHAPv2"
+msgstr "MSCHAPv2"
+
+#: panels/network/wireless-security/eap-method-fast.c:406
+msgid "Choose a PAC file"
+msgstr "Eliger un file PAC"
+
+#: panels/network/wireless-security/eap-method-fast.c:413
+msgid "PAC files (*.pac)"
+msgstr "Files PAC (*.pac)"
+
+#: panels/network/wireless-security/eap-method-leap.c:65
+msgid "missing EAP-LEAP username"
+msgstr "nomine de usator EAP-LEAP mancante"
+
+#: panels/network/wireless-security/eap-method-leap.c:74
+msgid "missing EAP-LEAP password"
+msgstr "contrasigno EAP-LEAP mancante"
+
+#: panels/network/wireless-security/eap-method-peap.c:63
 #, c-format
-msgid "Bottom Button #%d"
-msgstr "Button basse #%d"
+msgid "invalid EAP-PEAP CA certificate: %s"
+msgstr "certificato ex CA EAP-PEAP invalide: %s"
+
+#: panels/network/wireless-security/eap-method-peap.c:68
+msgid "invalid EAP-PEAP CA certificate: no certificate specified"
+msgstr "certificato ex CA EAP-PEAP invalide: nulle certificato specificate"
+
+#: panels/network/wireless-security/eap-method-peap.c:287
+#: panels/network/wireless-security/eap-method-ttls.c:318
+#: panels/network/wireless-security/wireless-security.c:439
+msgid "MD5"
+msgstr "MD5"
+
+#: panels/network/wireless-security/eap-method-peap.c:381
+#: panels/network/wireless-security/eap-method-tls.c:501
+#: panels/network/wireless-security/eap-method-ttls.c:412
+msgid "Choose a Certificate Authority certificate"
+msgstr "Eliger un certificato del Autoritate de certification"
+
+#: panels/network/wireless-security/eap-method-simple.c:74
+msgid "missing EAP username"
+msgstr "nomine de usator EAP mancante"
+
+#: panels/network/wireless-security/eap-method-simple.c:87
+msgid "missing EAP password"
+msgstr "contrasigno EAP mancante"
+
+#: panels/network/wireless-security/eap-method-tls.c:68
+msgid "missing EAP-TLS identity"
+msgstr "identitate EAP-TLS mancante"
+
+#: panels/network/wireless-security/eap-method-tls.c:77
+#, c-format
+msgid "invalid EAP-TLS CA certificate: %s"
+msgstr "certificato ex CA EAP-TLS invalide: %s"
+
+#: panels/network/wireless-security/eap-method-tls.c:84
+msgid "invalid EAP-TLS CA certificate: no certificate specified"
+msgstr "certificato ex CA EAP-TLS non valide: nulle certificato specificate"
+
+#: panels/network/wireless-security/eap-method-tls.c:95
+msgid "invalid EAP-TLS password: missing"
+msgstr "contrasigno EAP-TLS invalide : mancante"
+
+#: panels/network/wireless-security/eap-method-tls.c:109
+#, c-format
+msgid "invalid EAP-TLS private-key: %s"
+msgstr "clave private EAP-TLS invalide: %s"
+
+#: panels/network/wireless-security/eap-method-tls.c:119
+#, c-format
+msgid "invalid EAP-TLS user-certificate: %s"
+msgstr "certificato del usator EAP-TLS invalide: %s"
+
+#: panels/network/wireless-security/eap-method-tls.c:316
+msgid "Unencrypted private keys are insecure"
+msgstr "Le claves private non criptate non es secur"
+
+#: panels/network/wireless-security/eap-method-tls.c:319
+msgid ""
+"The selected private key does not appear to be protected by a password.  "
+"This could allow your security credentials to be compromised.  Please select "
+"a password-protected private key.\n"
+"\n"
+"(You can password-protect your private key with openssl)"
+msgstr ""
+"Le claves private selecte non sembla esser protegite per contrasigno. Isto "
+"poterea compromitter tu credentiales de securitate. Per favor selige un "
+"clave private protegite per contrasigno.\n"
+"\n"
+"(tu pote proteger per contrasigno tu clave private per openssl)"
+
+#: panels/network/wireless-security/eap-method-tls.c:495
+msgid "Choose your personal certificate"
+msgstr "Elige tu certificato personal"
+
+#: panels/network/wireless-security/eap-method-tls.c:507
+msgid "Choose your private key"
+msgstr "Elige tu clave private"
+
+#: panels/network/wireless-security/eap-method-ttls.c:63
+#, c-format
+msgid "invalid EAP-TTLS CA certificate: %s"
+msgstr "certificato ex CA EAP-TTLS invalide: %s"
+
+#: panels/network/wireless-security/eap-method-ttls.c:68
+msgid "invalid EAP-TTLS CA certificate: no certificate specified"
+msgstr "certificato ex CA EAP-TTLS invalide: nulle certificato specificate"
+
+#: panels/network/wireless-security/eap-method-ttls.c:258
+msgid "PAP"
+msgstr "PAP"
+
+#: panels/network/wireless-security/eap-method-ttls.c:273
+msgid "MSCHAP"
+msgstr "MSCHAP"
+
+#: panels/network/wireless-security/eap-method-ttls.c:303
+msgid "CHAP"
+msgstr "CHAP"
+
+#: panels/network/wireless-security/wireless-security.c:87
+msgid "Unknown error validating 802.1x security"
+msgstr "Error incognite al validation del securitate 802.1x"
+
+#: panels/network/wireless-security/wireless-security.c:451
+msgid "TLS"
+msgstr "TLS"
+
+#: panels/network/wireless-security/wireless-security.c:475
+msgid "PWD"
+msgstr "PWD"
+
+#: panels/network/wireless-security/wireless-security.c:486
+msgid "FAST"
+msgstr "FAST"
+
+#: panels/network/wireless-security/wireless-security.c:497
+msgid "Tunneled TLS"
+msgstr "TLS per tunnel"
+
+#: panels/network/wireless-security/wireless-security.c:508
+msgid "Protected EAP (PEAP)"
+msgstr "EAP protecte (PEAP)"
+
+#: panels/network/wireless-security/ws-leap.c:63
+msgid "missing leap-username"
+msgstr "nomine de usator de protocollo LEAP mancante"
+
+#: panels/network/wireless-security/ws-leap.c:74
+msgid "missing leap-password"
+msgstr "contrasigno de protocollo LEAP mancante"
+
+#: panels/network/wireless-security/ws-wep-key.c:107
+msgid "missing wep-key"
+msgstr "Manca le clave WEP"
+
+#: panels/network/wireless-security/ws-wep-key.c:116
+#, c-format
+msgid ""
+"invalid wep-key: key with a length of %zu must contain only hex-digits"
+msgstr ""
+"Clave WEP invalide: le clave con un longitude de %zu debe continer solo "
+"numeros-hexadecimal"
+
+#: panels/network/wireless-security/ws-wep-key.c:124
+#, c-format
+msgid ""
+"invalid wep-key: key with a length of %zu must contain only ascii characters"
+msgstr ""
+"Clave WEP invalide: le clave con un longitude de %zu debe continer solo "
+"characteres ASCII"
+
+#: panels/network/wireless-security/ws-wep-key.c:130
+#, c-format
+msgid ""
+"invalid wep-key: wrong key length %zu. A key must be either of length 5/13 "
+"(ascii) or 10/26 (hex)"
+msgstr ""
+"Clave WEP invalide: errate longitude de clave %zu. Un clave debe esser o de "
+"longor 5/13 (ASCII) o 10/26 (hexadecimal)"
+
+#: panels/network/wireless-security/ws-wep-key.c:137
+msgid "invalid wep-key: passphrase must be non-empty"
+msgstr "Clave WEP invalide: le phrase de contrasigno non debe esser vacue"
+
+#: panels/network/wireless-security/ws-wep-key.c:139
+msgid "invalid wep-key: passphrase must be shorter than 64 characters"
+msgstr ""
+"Clave WEP invalide: le phrase de contrasigno debe esser plus curte quam 64 "
+"characteres"
+
+#: panels/network/wireless-security/ws-wpa-psk.c:70
+#, c-format
+msgid ""
+"invalid wpa-psk: invalid key-length %zu. Must be [8,63] bytes or 64 hex "
+"digits"
+msgstr ""
+"Clave WPA-PSK invalide: invalide longitude de clave %zu. Debe esser [8,63] "
+"bytes o 64 cifras hexadecimal"
+
+#: panels/network/wireless-security/ws-wpa-psk.c:79
+msgid "invalid wpa-psk: cannot interpret key with 64 bytes as hex"
+msgstr ""
+"Clave WPA-PSK invalide: impossibile interpretar le clave con 64 bytes como "
+"hexadecimal"
 
 #: shell/cc-shell-nav-bar.c:117
 msgid "_All Settings"
-msgstr "Tote (_All) le configurationes"
+msgstr "Tote le configur_ationes"
 
 #: shell/control-center.c:58
 msgid "Enable verbose mode"
-msgstr "Habilitar le modo verbose"
+msgstr "Activar le modo verbose"
 
 #: shell/control-center.c:59
 msgid "Show the overview"
@@ -1191,7 +1507,7 @@ msgstr "Monstrar le optiones de adjuta"
 
 #: shell/control-center.c:63
 msgid "Panel to display"
-msgstr "Quadro a monstrar"
+msgstr "Pannello a monstrar"
 
 #: shell/control-center.c:85
 msgid "- System Settings"
@@ -1219,9 +1535,9 @@ msgstr "Quitar"
 #: shell/hostname-helper.c:189
 msgctxt "hotspot"
 msgid "Hotspot"
-msgstr "Hotspot"
+msgstr "Puncto de accesso"
 
-#: panels/color/color.ui.h:3 generate_additional_files.py:25
+#: panels/color/color.ui.h:3 generate_additional_files.py:23
 msgid "Color"
 msgstr "Color"
 
@@ -1254,40 +1570,32 @@ msgstr "Prepara iste profilo pro tote le usatores sur iste computer"
 msgid "Add profile"
 msgstr "Adder un profilo"
 
-#: panels/color/color.ui.h:12 panels/wacom/cinnamon-wacom-properties.ui.h:10
-msgid "Calibrate…"
-msgstr "Calibrar…"
-
-#: panels/color/color.ui.h:13
-msgid "Calibrate the device"
-msgstr "Calibrar le dispositivo"
-
-#: panels/color/color.ui.h:14
+#: panels/color/color.ui.h:12
 msgid "Remove profile"
 msgstr "Remover le profilo"
 
-#: panels/color/color.ui.h:15
+#: panels/color/color.ui.h:13
 msgid "View details"
 msgstr "Vider le detalios"
 
-#: panels/color/color.ui.h:16
+#: panels/color/color.ui.h:14
 msgid "Device type:"
 msgstr "Typo de dispositivo:"
 
-#: panels/color/color.ui.h:17
+#: panels/color/color.ui.h:15
 msgid "Manufacturer:"
 msgstr "Fabricante:"
 
-#: panels/color/color.ui.h:18
+#: panels/color/color.ui.h:16
 msgid "Model:"
 msgstr "Modello:"
 
-#: panels/color/color.ui.h:19
+#: panels/color/color.ui.h:17
 msgid ""
 "Image files can be dragged on this window to auto-complete the above fields."
 msgstr ""
-"Le files de imagine pote esser tirate sur iste fenestra pro auto-completar "
-"le campos precedente."
+"Le files de imagine pote esser tirate sur iste fenestra pro autocompletar le "
+"campos precedente."
 
 #: panels/common/language-chooser.ui.h:1
 msgid "Select a language"
@@ -1307,7 +1615,7 @@ msgstr "_Citate:"
 
 #: panels/datetime/datetime.ui.h:3
 msgid "_Network Time"
-msgstr "Tempore del rete (_Network)"
+msgstr "Tempore del rete (_N)"
 
 #. Translator: this is the separator between hours and minutes, like in HH:MM
 #: panels/datetime/datetime.ui.h:5
@@ -1390,68 +1698,57 @@ msgstr "novembre"
 msgid "December"
 msgstr "decembre"
 
-#: panels/display/display-capplet.ui.h:1
-msgid "Active"
-msgstr "Activar"
+#: panels/display/cc-display-panel.ui.h:1
+msgid "Display Arrangement"
+msgstr "Arrangiamento del schermo"
 
-#: panels/display/display-capplet.ui.h:2
+#: panels/display/cc-display-panel.ui.h:2
 msgid "Set as Primary"
 msgstr "Fixar como primari"
 
-#: panels/display/display-capplet.ui.h:3
+#: panels/display/cc-display-panel.ui.h:3
+msgid "Display Configuration"
+msgstr "Configuration schermo"
+
+#: panels/display/cc-display-panel.ui.h:4
+msgid "Join Displays"
+msgstr "Junger schermos"
+
+#: panels/display/cc-display-panel.ui.h:5
+msgid "Mirror"
+msgstr "Speculo"
+
+#: panels/display/cc-display-panel.ui.h:6
+msgid "Displays"
+msgstr "Schermos"
+
+#: panels/display/cc-display-panel.ui.h:7
+msgid "Reset to Defaults"
+msgstr "Reinitialisar al valores predefinite"
+
+#: panels/display/cc-display-panel.ui.h:8
+msgid "Cancel changes"
+msgstr "Cancellar modificationes"
+
+#: panels/display/cc-display-panel.ui.h:9
+msgid "Apply"
+msgstr "Applicar"
+
+#: panels/display/cc-display-settings.ui.h:1
 msgid "Resolution"
 msgstr "Resolution"
 
-#: panels/display/display-capplet.ui.h:4
-msgid "Mirror displays"
-msgstr "Schermos speculo"
-
-#: panels/display/display-capplet.ui.h:5
-msgid "Rotation"
-msgstr "Rotation"
-
-#: panels/display/display-capplet.ui.h:6
+#: panels/display/cc-display-settings.ui.h:2
 msgid "Refresh Rate"
 msgstr "Frequentia de refrescamento"
 
-#: panels/display/display-capplet.ui.h:7
-msgid "User interface scale"
-msgstr "Scala de interfacie del usator"
+#: panels/display/cc-display-settings.ui.h:3
+msgid "Rotation"
+msgstr "Rotation"
 
-#: panels/display/display-capplet.ui.h:8
-msgid ""
-"This is the global scaling factor for all monitors. In automatic mode, it is "
-"chosen based on the primary monitor."
-msgstr ""
-"Isto es le factor de scala global pro tote le monitores. In modo automatic "
-"illo es seligite sur le monitor primari."
-
-#: panels/display/display-capplet.ui.h:9
-msgid "This option may limit resolution options"
-msgstr "Iste selection pote limitar le optiones de resolution"
-
-#: panels/display/display-capplet.ui.h:10
-msgid ""
-"This feature is experimental and may not work well with all hardware and "
-"drivers. Enabling it may impact performance, vsync, resolution or screen "
-"ratio."
-msgstr ""
-"Iste function es experimental e pote non functionar ben sur tote le hardware "
-"e drivers. Su activation pote haber impacto sur performance, synchronisation "
-"vertical, resolution o ration de schermo."
-
-#: panels/display/display-capplet.ui.h:11
-msgid "Fractional scaling"
-msgstr "Scaliage fractional"
-
-#: panels/display/display-capplet.ui.h:12
-msgid "_Detect Displays"
-msgstr "_Deteger le schermos"
-
-#: panels/display/display-capplet.ui.h:13
-#: panels/region/cinnamon-region-panel.ui.h:18
-msgid "Reset to De_faults"
-msgstr "Restabilir al optiones predefinite (de_faults)"
+#: panels/display/cc-display-settings.ui.h:5
+msgid "Adjust for TV"
+msgstr "Adjustar pro TV"
 
 #: panels/network/network-ethernet.ui.h:2
 msgid "_Add Profile…"
@@ -1465,7 +1762,7 @@ msgstr "IMEI"
 msgid "Provider"
 msgstr "Provider"
 
-#: panels/network/network-mobile.ui.h:8 generate_additional_files.py:71
+#: panels/network/network-mobile.ui.h:8 generate_additional_files.py:63
 msgid "Network"
 msgstr "Rete"
 
@@ -1544,10 +1841,6 @@ msgstr "Remover le dispositivo"
 msgid "VPN Type"
 msgstr "Typo de VPN"
 
-#: panels/network/network-vpn.ui.h:2
-msgid "Gateway"
-msgstr "Gateway"
-
 #: panels/network/network-vpn.ui.h:3
 msgid "Group Name"
 msgstr "Nomine de gruppo"
@@ -1582,11 +1875,6 @@ msgstr "Fortia del signal"
 #: panels/network/connection-editor/details-page.ui.h:2
 msgid "Link speed"
 msgstr "Velocitate del ligamine"
-
-#: panels/network/network-wifi.ui.h:6
-#: panels/network/connection-editor/details-page.ui.h:3
-msgid "Security"
-msgstr "Securitate"
 
 #: panels/network/network-wifi.ui.h:14
 msgid "details"
@@ -1626,7 +1914,7 @@ msgstr "Nulle"
 
 #: panels/network/network-wifi.ui.h:22
 msgid "Show P_assword"
-msgstr "Monstrar le contrasigno (P_assword)"
+msgstr "Monstrar le contr_asigno"
 
 #: panels/network/network-wifi.ui.h:23
 msgid "Make available to other users"
@@ -1647,14 +1935,6 @@ msgstr "IPv_4"
 msgid "_Addresses"
 msgstr "_Adresses"
 
-#: panels/network/network-wifi.ui.h:27
-msgid "Manual"
-msgstr "Manual"
-
-#: panels/network/network-wifi.ui.h:28
-msgid "Automatic (DHCP)"
-msgstr "(DHCP) Automatic"
-
 #: panels/network/network-wifi.ui.h:29
 msgid "Automatic (DHCP) addresses only"
 msgstr "Solmente adresse (DHCP) automatic"
@@ -1667,7 +1947,7 @@ msgstr "Solmente Ligamine-local"
 msgid "Shared with other computers"
 msgstr "Compartite con altere computatores"
 
-#: panels/network/network-wifi.ui.h:32
+#: panels/network/network-wifi.ui.h:32 panels/wacom/wacom-stylus-page.ui.h:6
 msgid "Disabled"
 msgstr "Disactivate"
 
@@ -1675,7 +1955,7 @@ msgstr "Disactivate"
 #: panels/network/connection-editor/ip4-page.ui.h:6
 #: panels/network/connection-editor/ip6-page.ui.h:6
 msgid "Routes"
-msgstr "Itineres"
+msgstr "Routes"
 
 #: panels/network/network-wifi.ui.h:34
 msgid "_Ignore automatically obtained routes"
@@ -1717,43 +1997,27 @@ msgstr "hardware"
 #: panels/network/network-wifi.ui.h:42
 #: panels/network/connection-editor/reset-page.ui.h:1
 msgid "_Reset"
-msgstr "_Restabilir"
+msgstr "_Reinitialisar"
 
 #: panels/network/network-wifi.ui.h:44
 msgid ""
 "Reset the settings for this connection to their defaults, but remember as a "
 "preferred connection."
 msgstr ""
-"Restaurar le preferentias pro ce connexion a lor optiones predefinite, ma "
-"mantener lo como connexion preferite."
+"Reinitialisar le configurationes pro iste connexion a lor optiones "
+"predefinite, ma recordar lo como un connexion preferite."
 
 #: panels/network/network-wifi.ui.h:45
 msgid ""
 "Remove all details relating to this network and do not try to automatically "
 "connect to it."
 msgstr ""
-"Remover tote le detalios relative a ce rete e non provar automaticamente "
+"Remover tote le detalios relative a iste rete e non provar automaticamente "
 "connecter se a isto."
 
 #: panels/network/network-wifi.ui.h:46
 msgid "reset"
-msgstr "restabilir"
-
-#: panels/network/network-wifi.ui.h:47
-msgid "Details"
-msgstr "Detalios"
-
-#: panels/network/network-wifi.ui.h:48
-msgid "Identity"
-msgstr "Identitate"
-
-#: panels/network/network-wifi.ui.h:49
-msgid "IPv4"
-msgstr "IPv4"
-
-#: panels/network/network-wifi.ui.h:50
-msgid "IPv6"
-msgstr "IPv6"
+msgstr "reinitialisar"
 
 #: panels/network/network-wifi.ui.h:51
 msgid "Hardware"
@@ -1762,15 +2026,15 @@ msgstr "Hardware"
 #: panels/network/network-wifi.ui.h:52
 msgctxt "tab"
 msgid "Reset"
-msgstr "Restabilir"
+msgstr "Reinitialisar"
 
 #: panels/network/network-wifi.ui.h:53
 msgid "Wi-Fi Hotspot"
-msgstr "Puncto calide Wi-Fi"
+msgstr "Puncto de accesso Wi-Fi"
 
 #: panels/network/network-wifi.ui.h:54
 msgid "_Turn On"
-msgstr "Activar (_Turn On)"
+msgstr "Ac_tivar"
 
 #: panels/network/network-wifi.ui.h:55
 msgid "Wi-Fi"
@@ -1778,11 +2042,11 @@ msgstr "Wi-Fi"
 
 #: panels/network/network-wifi.ui.h:56
 msgid "Turn Wi-Fi off"
-msgstr "Arrestar le Wi-Fi"
+msgstr "Disactivar le Wi-Fi"
 
 #: panels/network/network-wifi.ui.h:57
 msgid "_Use as Hotspot…"
-msgstr "_Usar como puncto calide…"
+msgstr "_Usar como puncto accesso…"
 
 #: panels/network/network-wifi.ui.h:58
 msgid "_Connect to Hidden Network…"
@@ -1790,7 +2054,7 @@ msgstr "_Connecter a un rete celate…"
 
 #: panels/network/network-wifi.ui.h:59
 msgid "_History"
-msgstr "Chronologia (_Historia)"
+msgstr "Chronologia (_H)"
 
 #: panels/network/network-wifi.ui.h:60
 msgid "Switch off to connect to a Wi-Fi network"
@@ -1812,38 +2076,21 @@ msgstr "Typo de securitate"
 msgid "Password"
 msgstr "Contrasigno"
 
-#: panels/online-accounts/online-accounts.ui.h:1
-msgid "Undo"
-msgstr "Disfacer"
-
-#: panels/online-accounts/online-accounts.ui.h:2
-msgid "No internet connection — connect to set up new online accounts"
-msgstr ""
-"Nulle connexion a Internet - connecter se pro crear un nove conto online"
-
-#: panels/online-accounts/online-accounts.ui.h:3
-msgid "Add an account"
-msgstr "Adder un conto"
-
-#: panels/online-accounts/online-accounts.ui.h:4
-msgid "Remove Account"
-msgstr "Remover le conto"
-
 #: panels/region/cinnamon-region-panel-layout-chooser.ui.h:1
 msgid "Choose a Layout"
-msgstr "Eliger un strato"
+msgstr "Eliger un disposition"
 
 #: panels/region/cinnamon-region-panel-layout-chooser.ui.h:2
 msgid "Preview"
-msgstr "Pre-visualisation"
+msgstr "Previsualisation"
 
 #: panels/region/cinnamon-region-panel-layout-chooser.ui.h:3
 msgid "Select an input source to add"
-msgstr "Seliger un fonte de input a adder"
+msgstr "Seliger un fonte de entrata a adder"
 
 #: panels/region/cinnamon-region-panel-options-dialog.ui.h:1
 msgid "Keyboard Layout Options"
-msgstr "Optiones de disposition claviero"
+msgstr "Optiones de disposition de claviero"
 
 #: panels/region/cinnamon-region-panel.ui.h:1
 msgid "Region and Language"
@@ -1859,15 +2106,15 @@ msgstr "Remover un disposition"
 
 #: panels/region/cinnamon-region-panel.ui.h:4
 msgid "Move Up"
-msgstr "Mover su"
+msgstr "Ascender"
 
 #: panels/region/cinnamon-region-panel.ui.h:5
 msgid "Move Down"
-msgstr "Mover  a basso"
+msgstr "Descender"
 
 #: panels/region/cinnamon-region-panel.ui.h:6
 msgid "Preview Layout"
-msgstr "Vista preliminar del disposition"
+msgstr "Previsualisation del disposition"
 
 #: panels/region/cinnamon-region-panel.ui.h:7
 msgid "Include less-common layouts in the selection list"
@@ -1887,7 +2134,7 @@ msgstr "Le nove fenestras usa le disposition predefinite"
 
 #: panels/region/cinnamon-region-panel.ui.h:11
 msgid "New windows use the previous window's layout"
-msgstr "Le nove fenestras usa le disposition de fenestra previe"
+msgstr "Le nove fenestras usa le disposition del fenestra precedente"
 
 #: panels/region/cinnamon-region-panel.ui.h:12
 msgid "Display options"
@@ -1911,7 +2158,7 @@ msgstr ""
 msgid "Prefer upper-case when using text to represent a layout"
 msgstr ""
 "Preferer le litteras majusculas durante le uso del texto pro representar un "
-"strato"
+"disposition"
 
 #: panels/region/cinnamon-region-panel.ui.h:16
 msgid "_Options..."
@@ -1919,152 +2166,149 @@ msgstr "_Optiones..."
 
 #: panels/region/cinnamon-region-panel.ui.h:17
 msgid "View and edit keyboard layout options"
-msgstr "Vider e rediger le optiones de disposition del claviero"
+msgstr "Vider e editar le optiones de disposition de claviero"
+
+#: panels/region/cinnamon-region-panel.ui.h:18
+msgid "Reset to De_faults"
+msgstr "Reinitialisar al valores prede_finite"
 
 #: panels/region/cinnamon-region-panel.ui.h:19
 msgid ""
 "Replace the current keyboard layout settings with the\n"
 "default settings"
 msgstr ""
-"Supplantar le actual preferentias de disposition de claviero con le\n"
-"preferentias predefinite"
+"Reimplaciar le actual configurationes de disposition de claviero con le\n"
+"Configurationes predefinite"
 
 #: panels/wacom/button-mapping.ui.h:1
 msgid "Map Buttons"
 msgstr "Buttones del mappa"
 
-#: panels/wacom/button-mapping.ui.h:2
+#: panels/wacom/button-mapping.ui.h:3
 msgid "Map buttons to functions"
 msgstr "Le buttones del mappa al functiones"
 
-#: panels/wacom/button-mapping.ui.h:3
+#: panels/wacom/button-mapping.ui.h:4
 msgid ""
-"To edit a shortcut, click the row and hold down the new keys or press "
-"Backspace to clear."
+"To edit a shortcut, choose the “Send Keystroke” action, press the keyboard "
+"shortcut button and hold down the new keys or press Backspace to clear."
 msgstr ""
-"Pro modificar un via breve,  clicca le riga e tene pressate le claves nove o "
-"pressa Spatio retro pro clarar."
+"Pro editar un accesso directe, elige le action “Mandar pulsata de clave”, "
+"pulsa le button del accesso directe de claviero e tene pressate le nove "
+"claves o pulsa spatio retro pro clarar."
 
 #: panels/wacom/cinnamon-wacom-properties.ui.h:1
-msgid "Tablet (absolute)"
-msgstr "Tabletta (absolute)"
-
-#: panels/wacom/cinnamon-wacom-properties.ui.h:2
-msgid "Touchpad (relative)"
-msgstr "Pannello tactile (relative)"
-
-#: panels/wacom/cinnamon-wacom-properties.ui.h:3
-msgid "Tablet Preferences"
-msgstr "Preferentias del tabletta"
-
-#: panels/wacom/cinnamon-wacom-properties.ui.h:4
 msgid "No tablet detected"
 msgstr "Nulle tabletta revelate"
 
-#: panels/wacom/cinnamon-wacom-properties.ui.h:5
-msgid "Please plug in or turn on your graphics tablet"
-msgstr "Per favor insere le spina o activa tu tabletta graphic"
+#: panels/wacom/cinnamon-wacom-properties.ui.h:2
+msgid "Please plug in or turn on your Wacom tablet"
+msgstr "Insere o accende tu tabletta Wacom"
 
-#: panels/wacom/cinnamon-wacom-properties.ui.h:6
+#: panels/wacom/cinnamon-wacom-properties.ui.h:3
 msgid "Bluetooth Settings"
 msgstr "Configurationes de Bluetooth"
 
-#: panels/wacom/cinnamon-wacom-properties.ui.h:7
-#: generate_additional_files.py:86
-msgid "Graphics Tablet"
-msgstr "Tabletta graphic"
+#: panels/wacom/cinnamon-wacom-properties.ui.h:4
+msgid "Wacom Tablet"
+msgstr "Tabletta Wacom"
 
-#: panels/wacom/cinnamon-wacom-properties.ui.h:8
+#: panels/wacom/cinnamon-wacom-properties.ui.h:5
+msgid "Tracking Mode"
+msgstr "Modo revision"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:6
+msgid "Left-Handed Orientation"
+msgstr "Orientation sinistromane"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:7
 msgid "Map to Monitor…"
 msgstr "Mappa al monitor…"
 
-#: panels/wacom/cinnamon-wacom-properties.ui.h:9
+#: panels/wacom/cinnamon-wacom-properties.ui.h:8
 msgid "Map Buttons…"
 msgstr "Buttones del mappa…"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:9
+msgid "Calibrate…"
+msgstr "Calibrar…"
+
+#: panels/wacom/cinnamon-wacom-properties.ui.h:10
+msgid "Adjust mouse settings"
+msgstr "Adjustar le configurationes del mus"
 
 #: panels/wacom/cinnamon-wacom-properties.ui.h:11
 msgid "Adjust display resolution"
 msgstr "Adjustar le resolution del schermo"
 
 #: panels/wacom/cinnamon-wacom-properties.ui.h:12
-msgid "Tracking Mode"
-msgstr "Modo revision"
+msgid "Decouple Display"
+msgstr "Disaccopular visualisation"
 
 #: panels/wacom/cinnamon-wacom-properties.ui.h:13
-msgid "Left-Handed Orientation"
-msgstr "Orientation sinistromane"
+msgid "Tablet (absolute)"
+msgstr "Tabletta (absolute)"
 
-#: panels/wacom/wacom-stylus-page.ui.h:1
-msgid "No Action"
-msgstr "Nulle action"
+#: panels/wacom/cinnamon-wacom-properties.ui.h:14
+msgid "Touchpad (relative)"
+msgstr "Pannello tactile (relative)"
 
 #: panels/wacom/wacom-stylus-page.ui.h:2
-msgid "Left Mouse Button Click"
-msgstr "Clic del button sinistre del mouse"
-
-#: panels/wacom/wacom-stylus-page.ui.h:3
 msgid "Middle Mouse Button Click"
 msgstr "Clic del button medie del mouse"
 
-#: panels/wacom/wacom-stylus-page.ui.h:4
+#: panels/wacom/wacom-stylus-page.ui.h:3
 msgid "Right Mouse Button Click"
 msgstr "Clic del button dextre del mouse"
 
-#: panels/wacom/wacom-stylus-page.ui.h:5
-msgid "Scroll Up"
-msgstr "Rola a alto"
-
-#: panels/wacom/wacom-stylus-page.ui.h:6
-msgid "Scroll Down"
-msgstr "Rolar a basso"
-
-#: panels/wacom/wacom-stylus-page.ui.h:7
-msgid "Scroll Left"
-msgstr "Rolar a sinistra"
-
-#: panels/wacom/wacom-stylus-page.ui.h:8
-msgid "Scroll Right"
-msgstr "Rolar a dextra"
-
-#: panels/wacom/wacom-stylus-page.ui.h:9
+#: panels/wacom/wacom-stylus-page.ui.h:4
 msgid "Back"
 msgstr "Receder"
 
-#: panels/wacom/wacom-stylus-page.ui.h:10
+#: panels/wacom/wacom-stylus-page.ui.h:5
 msgid "Forward"
 msgstr "Avantiar"
 
-#: panels/wacom/wacom-stylus-page.ui.h:11
-msgid "Stylus"
-msgstr "Stilo"
+#: panels/wacom/wacom-stylus-page.ui.h:7
+msgid "No stylus found"
+msgstr "Nulle stilo trovate"
 
-#: panels/wacom/wacom-stylus-page.ui.h:12
+#: panels/wacom/wacom-stylus-page.ui.h:8
+msgid ""
+"Please move your stylus to the proximity of the tablet to configure it"
+msgstr "Move tu stilo presso le tabletta pro lo configurar"
+
+#: panels/wacom/wacom-stylus-page.ui.h:10
 msgid "Eraser Pressure Feel"
 msgstr "Sensibilitate del pression del gumma"
 
-#: panels/wacom/wacom-stylus-page.ui.h:13
+#: panels/wacom/wacom-stylus-page.ui.h:11
 msgid "Soft"
 msgstr "Blande"
 
-#: panels/wacom/wacom-stylus-page.ui.h:14
+#: panels/wacom/wacom-stylus-page.ui.h:12
 msgid "Firm"
 msgstr "Decise"
 
-#: panels/wacom/wacom-stylus-page.ui.h:15
+#: panels/wacom/wacom-stylus-page.ui.h:13
 msgid "Top Button"
 msgstr "Button superior"
 
-#: panels/wacom/wacom-stylus-page.ui.h:16
+#: panels/wacom/wacom-stylus-page.ui.h:14
 msgid "Lower Button"
 msgstr "Button inferior"
 
-#: panels/wacom/wacom-stylus-page.ui.h:17
+#: panels/wacom/wacom-stylus-page.ui.h:15
+msgid "Lowest Button"
+msgstr "Button plus basse"
+
+#: panels/wacom/wacom-stylus-page.ui.h:16
 msgid "Tip Pressure Feel"
 msgstr "Sensibilitate del pression del puncta"
 
-#: panels/wacom/wacom-stylus-page.ui.h:18
-msgid "Lowest Button"
-msgstr "Button plus basse"
+#: panels/wacom/wacom-stylus-page.ui.h:17
+msgid "Test Your _Settings"
+msgstr "Proba tu configuratione_s"
 
 #: panels/network/connection-editor/8021x-security-page.ui.h:1
 msgid "802.1x _Security"
@@ -2086,7 +2330,7 @@ msgstr "Identitate anony_me"
 #: panels/network/connection-editor/8021x-security-page.ui.h:4
 #: panels/network/connection-editor/security-page.ui.h:5
 msgid "Inner _authentication"
-msgstr "_authentication interne"
+msgstr "_Authentication interne"
 
 #: panels/network/connection-editor/8021x-security-page.ui.h:5
 #: panels/network/connection-editor/security-page.ui.h:6
@@ -2096,13 +2340,6 @@ msgstr "pagina 2"
 #: panels/network/connection-editor/details-page.ui.h:10
 msgid "Last Used"
 msgstr "Ultimo usate"
-
-#: panels/network/connection-editor/ethernet-page.ui.h:1
-#: panels/network/connection-editor/ip4-page.ui.h:4
-#: panels/network/connection-editor/ip6-page.ui.h:4
-#: panels/network/wireless-security/eap-method-peap.ui.h:2
-msgid "Automatic"
-msgstr "Automatic"
 
 #: panels/network/connection-editor/ethernet-page.ui.h:2
 msgid "Twisted Pair (TP)"
@@ -2168,7 +2405,7 @@ msgstr "Connecter _automaticamente"
 #: panels/network/connection-editor/security-page.ui.h:2
 #: panels/network/connection-editor/vpn-page.ui.h:2
 msgid "Firewall _Zone"
-msgstr "_Zona firewall"
+msgstr "_Zona de parafoco"
 
 #: panels/network/connection-editor/ip4-page.ui.h:5
 #: panels/network/connection-editor/ip6-page.ui.h:5
@@ -2178,15 +2415,15 @@ msgstr "DNS automatic"
 #: panels/network/connection-editor/ip4-page.ui.h:7
 #: panels/network/connection-editor/ip6-page.ui.h:7
 msgid "Automatic Routes"
-msgstr "Itineres automatic"
+msgstr "Routes automatic"
 
 #: panels/network/connection-editor/reset-page.ui.h:3
 msgid ""
 "Reset the settings for this network, including passwords, but remember it as "
 "a preferred network"
 msgstr ""
-"Remover le configurationes pro iste rete, includite le contrasignos, ma "
-"retener lo como rete preferite"
+"Reinitialisar le configurationes pro iste rete, includite le contrasignos, "
+"ma recordar lo como rete preferite"
 
 #: panels/network/connection-editor/reset-page.ui.h:4
 msgid ""
@@ -2202,7 +2439,7 @@ msgstr "(Error: incapace a cargar le editor del connexion VPN)"
 
 #: panels/network/connection-editor/wifi-page.ui.h:6
 msgid "Make available to _other users"
-msgstr "Render disponibile a altere (_other) usatores"
+msgstr "Render disponibile a altere usat_ores"
 
 #: panels/network/wireless-security/eap-method-fast.ui.h:1
 #: panels/network/wireless-security/eap-method-peap.ui.h:1
@@ -2242,7 +2479,7 @@ msgstr "Permitter le PAC automatic pro _visualisar"
 #: panels/network/wireless-security/eap-method-simple.ui.h:1
 #: panels/network/wireless-security/ws-leap.ui.h:1
 msgid "_Username"
-msgstr "Nomine del _Usator"
+msgstr "Nomine de _usator"
 
 #: panels/network/wireless-security/eap-method-leap.ui.h:3
 #: panels/network/wireless-security/eap-method-simple.ui.h:3
@@ -2250,7 +2487,7 @@ msgstr "Nomine del _Usator"
 #: panels/network/wireless-security/ws-leap.ui.h:3
 #: panels/network/wireless-security/ws-wpa-psk.ui.h:3
 msgid "Sho_w password"
-msgstr "Mostrar (Sho_w) le contrasigno"
+msgstr "Monstrar le contrasigno (_W)"
 
 #: panels/network/wireless-security/eap-method-peap.ui.h:3
 msgid "Version 0"
@@ -2274,7 +2511,7 @@ msgstr "Nulle certificato CA es _requirite"
 
 #: panels/network/wireless-security/eap-method-peap.ui.h:9
 msgid "PEAP _version"
-msgstr "_version PEAP"
+msgstr "_Version PEAP"
 
 #: panels/network/wireless-security/eap-method-tls.ui.h:1
 msgid "I_dentity"
@@ -2282,15 +2519,15 @@ msgstr "I_dentitate"
 
 #: panels/network/wireless-security/eap-method-tls.ui.h:2
 msgid "_User certificate"
-msgstr "Certificato del _Usator"
+msgstr "Certificato de _usator"
 
 #: panels/network/wireless-security/eap-method-tls.ui.h:5
 msgid "Private _key"
-msgstr "Clave (_key) private"
+msgstr "Clave private (_K)"
 
 #: panels/network/wireless-security/eap-method-tls.ui.h:6
 msgid "_Private key password"
-msgstr "Contrasigno del calve _Private"
+msgstr "Contrasigno de calve _private"
 
 #: panels/network/wireless-security/ws-dynamic-wep.ui.h:2
 #: panels/network/wireless-security/ws-wep-key.ui.h:9
@@ -2324,47 +2561,83 @@ msgstr "Clave compartite"
 
 #: panels/network/wireless-security/ws-wep-key.ui.h:7
 msgid "_Key"
-msgstr "Clave (_Key)"
+msgstr "Clave (_K)"
 
 #: panels/network/wireless-security/ws-wep-key.ui.h:8
 msgid "Sho_w key"
-msgstr "Monstrar (Sho_w) le clave"
+msgstr "Monstrar le clave (_W)"
 
 #: panels/network/wireless-security/ws-wep-key.ui.h:10
 msgid "WEP inde_x"
-msgstr "Indice (inde_x) WEP"
+msgstr "Indice WEP (_X)"
 
 #: panels/network/wireless-security/ws-wpa-psk.ui.h:2
 msgid "_Type"
 msgstr "_Typo"
 
-#: generate_additional_files.py:25
-msgid "Color management settings"
-msgstr "Configurationes del gestion del color"
+#: panels/wacom/calibrator/calibrator.ui.h:1
+msgid "Screen Calibration"
+msgstr "Calibration schermo"
 
-#: generate_additional_files.py:41
+#: panels/wacom/calibrator/calibrator.ui.h:2
+msgid ""
+"Please tap the target markers as they appear on screen to calibrate the "
+"tablet."
+msgstr ""
+"Per favor tocca le marcatores de destination como illos appare sur le "
+"schermo pro calibrar le tabletta."
+
+#: panels/wacom/calibrator/calibrator.ui.h:3
+msgid "Mis-click detected, restarting…"
+msgstr "Detegite misclic, reinitiante..."
+
+#: generate_additional_files.py:23
+msgid "Color management settings"
+msgstr "Configurationes del gestion de color"
+
+#: generate_additional_files.py:23
+msgid "Color, ICC, Profile, Calibrate, Printer, Display"
+msgstr "Color, ICC, Profilo, Calibrar, Imprimitor, Visualisation"
+
+#: generate_additional_files.py:37
 msgid "Region & Language"
 msgstr "Region & Lingua"
 
-#: generate_additional_files.py:41
+#: generate_additional_files.py:37
 msgid "Change your region and language settings"
-msgstr "Cambiar tu preferentias de region e lingua"
+msgstr "Cambiar tu configurationes de region e lingua"
 
-#: generate_additional_files.py:56
+#: generate_additional_files.py:50
 msgid "Display"
 msgstr "Schermo"
 
-#: generate_additional_files.py:56
+#: generate_additional_files.py:50
 msgid "Change resolution and position of monitors and projectors"
 msgstr "Cambiar le resolution e le position de monitores e projectores"
 
-#: generate_additional_files.py:71
+#: generate_additional_files.py:50
+msgid "Panel, Projector, xrandr, Screen, Resolution, Refresh"
+msgstr "Panello, Projector, xrandr, Schermo, Resolution, Refrescar"
+
+#: generate_additional_files.py:63
 msgid "Network settings"
 msgstr "Configurationes de rete"
 
-#: generate_additional_files.py:86
+#: generate_additional_files.py:63
+msgid "Network, Wireless, IP, LAN, Proxy, Internet, WiFi"
+msgstr "Rete, Sin filos, IP, LAN, Proxy, Internet, WiFi"
+
+#: generate_additional_files.py:76
+msgid "Graphics Tablet"
+msgstr "Tabletta graphic"
+
+#: generate_additional_files.py:76
 msgid ""
 "Set button mappings and adjust stylus sensitivity for graphics tablets"
 msgstr ""
 "Configurar le mappas del buttones e adjustar le sensitivitate del stilo pro "
 "le tablettas graphic"
+
+#: generate_additional_files.py:76
+msgid "Tablet, Wacom, Stylus, Eraser, Mouse"
+msgstr "Tabletta, Wacom, Stilo, Eradicator, Mus"

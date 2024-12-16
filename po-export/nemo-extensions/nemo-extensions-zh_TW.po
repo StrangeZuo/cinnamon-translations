@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2020-11-26 13:57+0000\n"
-"PO-Revision-Date: 2020-02-06 15:25+0000\n"
-"Last-Translator: H.G. <Unknown>\n"
+"POT-Creation-Date: 2023-12-15 14:48+0000\n"
+"PO-Revision-Date: 2024-03-12 04:26+0000\n"
+"Last-Translator: 爽自由 <coby2023t@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <zh_TW@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2021-06-25 10:42+0000\n"
-"X-Generator: Launchpad (build 40cc6dba4163ba9ca785b26ad91f43c87d70ba4d)\n"
+"X-Launchpad-Export-Date: 2024-07-21 09:02+0000\n"
+"X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
 "Language: zh_TW\n"
 
 #: nemo-audio-tab/nemo-extension/nemo-audio-tab.py:41
@@ -81,167 +81,234 @@ msgstr "Nemo 比較"
 
 #: nemo-compare/src/nemo-compare-preferences.py:107
 msgid "Normal Diff"
-msgstr ""
+msgstr "一般差異"
 
 #: nemo-compare/src/nemo-compare-preferences.py:122
 msgid "Three-Way Diff"
-msgstr ""
+msgstr "三方差異"
 
 #: nemo-compare/src/nemo-compare-preferences.py:137
 msgid "N-Way Diff"
-msgstr ""
+msgstr "N方差異"
 
 #: nemo-compare/src/nemo-compare.py:112 nemo-compare/src/nemo-compare.py:135
+#: nemo-compare/src/nemo-compare.py:114 nemo-compare/src/nemo-compare.py:137
 msgid "Compare to: "
 msgstr "與...比較： "
 
 #: nemo-compare/src/nemo-compare.py:113 nemo-compare/src/nemo-compare.py:136
+#: nemo-compare/src/nemo-compare.py:115 nemo-compare/src/nemo-compare.py:138
 msgid "Compare to the file previously selected"
 msgstr "與先前選取的檔案比較"
 
-#: nemo-compare/src/nemo-compare.py:122
+#: nemo-compare/src/nemo-compare.py:122 nemo-compare/src/nemo-compare.py:124
 msgid "Compare Later"
 msgstr "待會兒比較"
 
-#: nemo-compare/src/nemo-compare.py:123
+#: nemo-compare/src/nemo-compare.py:123 nemo-compare/src/nemo-compare.py:125
 msgid "Remember file for later comparison"
 msgstr "記憶檔案以便之後比較"
 
-#: nemo-compare/src/nemo-compare.py:147
+#: nemo-compare/src/nemo-compare.py:147 nemo-compare/src/nemo-compare.py:149
 msgid "Compare"
 msgstr "比較"
 
-#: nemo-compare/src/nemo-compare.py:148
+#: nemo-compare/src/nemo-compare.py:148 nemo-compare/src/nemo-compare.py:150
 msgid "Compare selected files"
 msgstr "比較選中的檔案"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Art"
 msgstr "藝術"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Camera"
 msgstr "相機"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Danger"
 msgstr "危險"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Default"
 msgstr "預設"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Development"
 msgstr "開發"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Documents"
 msgstr "文件"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Downloads"
 msgstr "下載"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Favorite"
 msgstr "喜愛項目"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Games"
 msgstr "遊戲"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Generic"
 msgstr "一般"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Important"
 msgstr "重要"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Installed"
 msgstr "已安裝"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Mail"
 msgstr "郵件"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Marketing"
 msgstr "行銷"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Money"
-msgstr ""
+msgstr "金錢"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Multimedia"
 msgstr "多媒體"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "New"
 msgstr "新的"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Note"
 msgstr "備註"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Ohno"
 msgstr "哦不"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Package"
-msgstr ""
+msgstr "套件"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "People"
-msgstr ""
+msgstr "人員"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Personal"
 msgstr "個人"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Photos"
 msgstr "圖片"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Plan"
 msgstr "計劃"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Presentation"
 msgstr "演說"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Sales"
-msgstr ""
+msgstr "銷售"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Sound"
 msgstr "音效"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "System"
 msgstr "系統"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Urgent"
 msgstr "緊急"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Videos"
 msgstr "影片"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:50
+#: nemo-emblems/nemo-extension/nemo-emblems.py:58
+#: nemo-emblems/nemo-extension/nemo-emblems.py:55
 msgid "Web"
 msgstr "網路"
 
 #: nemo-emblems/nemo-extension/nemo-emblems.py:88
+#: nemo-emblems/nemo-extension/nemo-emblems.py:100
+#: nemo-emblems/nemo-extension/nemo-emblems.py:108
+#: nemo-emblems/nemo-extension/nemo-emblems.py:105
 msgid "Emblems"
-msgstr ""
+msgstr "徽章"
 
 #: nemo-fileroller/src/nemo-fileroller.c:335
 msgid "Extract Here"
@@ -269,17 +336,18 @@ msgstr "將選擇的物件製作為壓縮檔"
 
 #: nemo-gtkhash/src/callbacks.c:47
 msgid "Save Digests"
-msgstr ""
+msgstr "儲存摘要"
 
 #: nemo-gtkhash/src/callbacks.c:236
 msgid "A GTK+ utility for computing message digests or checksums."
-msgstr ""
+msgstr "用來計算訊息的雜湊值的 GTK+ 工具"
 
 #: nemo-gtkhash/src/callbacks.c:240
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
-"  H.G. https://launchpad.net/~toto6038"
+"  H.G. https://launchpad.net/~toto6038\n"
+"  爽自由 https://launchpad.net/~coby2023t"
 
 #: nemo-gtkhash/src/callbacks.c:262
 msgid "Select Files"
@@ -338,11 +406,11 @@ msgstr "%s / %s - 剩餘%u秒 (%s/秒)"
 
 #: nemo-gtkhash/src/main.c:86
 msgid "Check against the specified digest or checksum"
-msgstr ""
+msgstr "檢查指定摘要或雜湊值"
 
 #: nemo-gtkhash/src/main.c:86
 msgid "DIGEST"
-msgstr ""
+msgstr "摘要"
 
 #: nemo-gtkhash/src/main.c:90
 msgid "Read program data from the specified directory"
@@ -358,7 +426,7 @@ msgstr "為指定的文字產生雜湊值"
 
 #: nemo-gtkhash/src/main.c:94
 msgid "TEXT"
-msgstr ""
+msgstr "文字"
 
 #: nemo-gtkhash/src/main.c:98
 msgid "Show version information"
@@ -366,7 +434,7 @@ msgstr "顯示版本資訊"
 
 #: nemo-gtkhash/src/main.c:102
 msgid "[FILE|URI...]"
-msgstr ""
+msgstr "[檔案|網址...]"
 
 #: nemo-gtkhash/src/prefs.c:76
 msgid "Failed to enable any supported hash functions."
@@ -376,7 +444,7 @@ msgstr "無法啓用任何支援的雜湊函數。"
 #: nemo-gtkhash/src/nautilus/properties.c:439
 #: nemo-gtkhash/src/nautilus/properties.c:441
 msgid "Digests"
-msgstr ""
+msgstr "摘要"
 
 #: nemo-image-converter/src/nemo-image-converter.c:121
 msgid "_Resize Images..."
@@ -509,16 +577,16 @@ msgstr "<b>檔名</b>"
 #: nemo-image-converter/data/nemo-image-resize.ui.h:20
 #: nemo-image-converter/data/nemo-image-rotate.ui.h:7
 msgid "Append"
-msgstr ""
+msgstr "擴充"
 
 #: nemo-image-converter/data/nemo-image-resize.ui.h:21
 msgid ".resized"
-msgstr ""
+msgstr ".已縮放"
 
 #: nemo-image-converter/data/nemo-image-resize.ui.h:22
 #: nemo-image-converter/data/nemo-image-rotate.ui.h:9
 msgid "to file title"
-msgstr ""
+msgstr "到檔案標題"
 
 #: nemo-image-converter/data/nemo-image-resize.ui.h:23
 msgid "Resize in place"
@@ -550,7 +618,7 @@ msgstr "度順時針"
 
 #: nemo-image-converter/data/nemo-image-rotate.ui.h:8
 msgid ".rotated"
-msgstr ""
+msgstr ".已旋轉"
 
 #: nemo-image-converter/data/nemo-image-rotate.ui.h:10
 msgid "Rotate in place"
@@ -561,66 +629,82 @@ msgid "_Rotate"
 msgstr "旋轉(R)"
 
 #: nemo-media-columns/nemo-media-columns.py:73
+#: nemo-media-columns/nemo-media-columns.py:92
 msgid "Title"
 msgstr "標題"
 
 #: nemo-media-columns/nemo-media-columns.py:74
+#: nemo-media-columns/nemo-media-columns.py:93
 msgid "Album"
 msgstr "專輯"
 
 #: nemo-media-columns/nemo-media-columns.py:75
+#: nemo-media-columns/nemo-media-columns.py:94
 msgid "Artist"
 msgstr "藝人"
 
 #: nemo-media-columns/nemo-media-columns.py:76
+#: nemo-media-columns/nemo-media-columns.py:95
 msgid "Track"
 msgstr "音軌"
 
 #: nemo-media-columns/nemo-media-columns.py:77
+#: nemo-media-columns/nemo-media-columns.py:96
 msgid "Genre"
 msgstr "風格"
 
 #: nemo-media-columns/nemo-media-columns.py:78
+#: nemo-media-columns/nemo-media-columns.py:97
 msgid "Date"
 msgstr "日期"
 
 #: nemo-media-columns/nemo-media-columns.py:79
+#: nemo-media-columns/nemo-media-columns.py:98
 msgid "Bitrate"
 msgstr "比特率"
 
 #: nemo-media-columns/nemo-media-columns.py:80
+#: nemo-media-columns/nemo-media-columns.py:99
 msgid "Pages"
-msgstr ""
+msgstr "頁數"
 
 #: nemo-media-columns/nemo-media-columns.py:81
+#: nemo-media-columns/nemo-media-columns.py:100
 msgid "Sample Rate"
 msgstr "取樣率"
 
 #: nemo-media-columns/nemo-media-columns.py:82
+#: nemo-media-columns/nemo-media-columns.py:101
 msgid "Length"
 msgstr "長度"
 
 #: nemo-media-columns/nemo-media-columns.py:83
+#: nemo-media-columns/nemo-media-columns.py:104
 msgid "EXIF Date"
 msgstr "EXIF 日期"
 
 #: nemo-media-columns/nemo-media-columns.py:84
+#: nemo-media-columns/nemo-media-columns.py:105
 msgid "EXIF Software"
 msgstr "EXIF 軟體"
 
 #: nemo-media-columns/nemo-media-columns.py:85
+#: nemo-media-columns/nemo-media-columns.py:106
 msgid "EXIF Flash"
 msgstr "EXIF 閃光燈"
 
 #: nemo-media-columns/nemo-media-columns.py:86
+#: nemo-media-columns/nemo-media-columns.py:107
 msgid "EXIF Image Size"
 msgstr "EXIF 檔案大小"
 
 #: nemo-media-columns/nemo-media-columns.py:87
+#: nemo-media-columns/nemo-media-columns.py:108
 msgid "EXIF Rating"
 msgstr "EXIF 評分"
 
 #: nemo-media-columns/nemo-media-columns.py:88
+#: nemo-media-columns/nemo-media-columns.py:109
 msgid "Image Size"
 msgstr "影像大小"
 
@@ -663,6 +747,7 @@ msgid "Empty Folder"
 msgstr "空的資料夾"
 
 #: nemo-preview/src/js/ui/fallbackRenderer.js:123
+#: nemo-preview/src/js/ui/fallbackRenderer.js:125
 msgid "Type"
 msgstr "類型"
 
@@ -670,26 +755,37 @@ msgstr "類型"
 #: nemo-preview/src/js/ui/fallbackRenderer.js:133
 #: nemo-preview/src/js/ui/fallbackRenderer.js:139
 #: nemo-preview/src/js/ui/spinnerBox.js:60
+#: nemo-preview/src/js/ui/fallbackRenderer.js:126
+#: nemo-preview/src/js/ui/fallbackRenderer.js:135
+#: nemo-preview/src/js/ui/fallbackRenderer.js:141
+#: nemo-preview/src/js/ui/spinnerBox.js:61
 msgid "Loading..."
 msgstr "載入中..."
 
 #: nemo-preview/src/js/ui/fallbackRenderer.js:132
+#: nemo-preview/src/js/ui/fallbackRenderer.js:134
 msgid "Size"
 msgstr "尺寸"
 
 #: nemo-preview/src/js/ui/fallbackRenderer.js:138
+#: nemo-preview/src/js/ui/fallbackRenderer.js:140
 msgid "Modified"
 msgstr "已修改"
 
 #: nemo-preview/src/js/viewers/audio.js:176
+#: nemo-preview/src/js/viewers/audio.js:177
+#: nemo-preview/src/js/viewers/audio.js:179
 msgid "from"
 msgstr "自"
 
 #: nemo-preview/src/js/viewers/audio.js:178
+#: nemo-preview/src/js/viewers/audio.js:179
+#: nemo-preview/src/js/viewers/audio.js:181
 msgid "by"
 msgstr "由"
 
 #: nemo-preview/src/js/viewers/xreader.js:81
+#: nemo-preview/src/js/viewers/xreader.js:82
 #, javascript-format
 msgid "%d of %d"
 msgstr "%d / %d"
@@ -822,11 +918,11 @@ msgstr "其他..."
 
 #: nemo-repairer/src/repair-dialog.c:722
 msgid "As is"
-msgstr ""
+msgstr "依原樣"
 
 #: nemo-repairer/src/repair-dialog.c:729
 msgid "To be"
-msgstr ""
+msgstr "成為"
 
 #: nemo-repairer/src/repairer.c:50
 msgid "Nemo Filename Repairer: Select Files To Rename"
@@ -855,8 +951,7 @@ msgstr "包含子目錄(S)"
 #: nemo-seahorse/tool/seahorse-notification.c:569
 msgid "Key Imported"
 msgid_plural "Keys Imported"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "金鑰已匯入"
 
 #: nemo-seahorse/tool/seahorse-notification.c:573
 #, c-format
@@ -872,7 +967,7 @@ msgstr[0] "匯入金鑰給"
 #: nemo-seahorse/tool/seahorse-notification.c:603
 #, c-format
 msgid "Signed by <i><key id='%s'/> <b>expired</b></i> on %s."
-msgstr ""
+msgstr "由 <i><key id=‘%s’/> 簽署，於 %s <b>過期</b></i>。"
 
 #: nemo-seahorse/tool/seahorse-notification.c:604
 msgid "Invalid Signature"
@@ -881,7 +976,7 @@ msgstr "無效的簽章"
 #: nemo-seahorse/tool/seahorse-notification.c:610
 #, c-format
 msgid "Signed by <i><key id='%s'/></i> on %s <b>Expired</b>."
-msgstr ""
+msgstr "由 <i><key id=‘%s’/></i>於 %s 簽署 <b>已過期</b>。"
 
 #: nemo-seahorse/tool/seahorse-notification.c:611
 msgid "Expired Signature"
@@ -890,7 +985,7 @@ msgstr "過期的簽章"
 #: nemo-seahorse/tool/seahorse-notification.c:617
 #, c-format
 msgid "Signed by <i><key id='%s'/> <b>Revoked</b></i> on %s."
-msgstr ""
+msgstr "由 <i><key id=‘%s’/>簽署，於 %s <b>撤銷</b></i>。"
 
 #: nemo-seahorse/tool/seahorse-notification.c:618
 msgid "Revoked Signature"
@@ -903,7 +998,7 @@ msgstr "良好的簽章"
 #: nemo-seahorse/tool/seahorse-notification.c:626
 #, c-format
 msgid "Signed by <i><key id='%s'/></i> on %s."
-msgstr ""
+msgstr "由 <i><key id=‘%s’/></i>於 %s 簽署。"
 
 #: nemo-seahorse/tool/seahorse-notification.c:628
 msgid "Untrusted Valid Signature"
@@ -961,10 +1056,12 @@ msgid "Passphrase"
 msgstr "密碼"
 
 #: nemo-seahorse/tool/seahorse-passphrase.c:135
+#: nemo-compare/src/nemo-compare-preferences.py:162
 msgid "Ok"
 msgstr "OK"
 
 #: nemo-seahorse/tool/seahorse-passphrase.c:136
+#: nemo-compare/src/nemo-compare-preferences.py:158
 msgid "Cancel"
 msgstr "取消"
 
@@ -994,7 +1091,7 @@ msgstr "驗證簽章檔案"
 
 #: nemo-seahorse/tool/seahorse-tool.c:70
 msgid "Read list of URIs on standard in"
-msgstr ""
+msgstr "從標準輸入讀取 URI 清單"
 
 #: nemo-seahorse/tool/seahorse-tool.c:72
 msgid "file..."
@@ -1012,16 +1109,16 @@ msgstr "無法載入金鑰"
 #: nemo-seahorse/tool/seahorse-tool.c:250
 #, c-format
 msgid "Choose Encrypted File Name for '%s'"
-msgstr ""
+msgstr "選取‘%s’加密後的檔名"
 
 #: nemo-seahorse/tool/seahorse-tool.c:325
 msgid "Choose Signer"
-msgstr ""
+msgstr "選擇簽章者"
 
 #: nemo-seahorse/tool/seahorse-tool.c:367
 #, c-format
 msgid "Choose Signature File Name for '%s'"
-msgstr ""
+msgstr "選取簽章檔 ‘%s’"
 
 #: nemo-seahorse/tool/seahorse-tool.c:407
 msgid "Import is complete"
@@ -1254,7 +1351,7 @@ msgstr "所有檔案"
 
 #: nemo-seahorse/tool/seahorse-util.c:473
 msgid "Archive files"
-msgstr ""
+msgstr "封存檔"
 
 #: nemo-seahorse/tool/seahorse-util.c:502
 msgid ""
@@ -1280,7 +1377,7 @@ msgstr "<b>您已選擇多個檔案或資料夾</b>"
 
 #: nemo-seahorse/tool/seahorse-multi-encrypt.xml.h:3
 msgid "encrypted-package"
-msgstr ""
+msgstr "已加密套件"
 
 #: nemo-seahorse/tool/seahorse-multi-encrypt.xml.h:4
 msgid "Encrypt each file separately"
@@ -1288,7 +1385,7 @@ msgstr "分別加密每個檔案"
 
 #: nemo-seahorse/tool/seahorse-multi-encrypt.xml.h:5
 msgid "Encrypt packed together in a package"
-msgstr ""
+msgstr "加密封裝在同一套件中"
 
 #: nemo-seahorse/tool/seahorse-multi-encrypt.xml.h:6
 msgid "Packaging:"
@@ -1310,7 +1407,7 @@ msgstr "通知訊息"
 
 #: nemo-seahorse/tool/seahorse-progress.xml.h:1
 msgid "Progress Title"
-msgstr ""
+msgstr "進度標題"
 
 #: nemo-seahorse/nemo-ext/nemo-seahorse.c:159
 msgid "Encrypt..."
@@ -1389,7 +1486,7 @@ msgid ""
 "This folder is located in an encrypted directory. It will not be accessible "
 "by other users unless the option 'force user' is specified in "
 "/etc/samba/smb.conf."
-msgstr ""
+msgstr "此目錄在加密目錄底下， /etc/samba/smb.conf 沒加上 'force user' 的話，其他用戶是無法存取的。"
 
 #: nemo-share/src/nemo-share.c:529
 #, c-format
@@ -1418,19 +1515,20 @@ msgstr "發生錯誤。 您需要安裝 samba 並手動將您的使用者加入�
 msgid "There was an error while getting the sharing information"
 msgstr "在取得共用資訊時發生錯誤"
 
-#: nemo-share/src/nemo-share.c:1176
+#: nemo-share/src/nemo-share.c:1176 nemo-share/src/nemo-share.c:1177
 msgid "Share"
 msgstr "共用"
 
 #: nemo-share/src/nemo-share.c:1236 nemo-share/interfaces/share-dialog.ui.h:1
+#: nemo-share/src/nemo-share.c:1237
 msgid "Folder Sharing"
 msgstr "共用資料夾"
 
-#: nemo-share/src/nemo-share.c:1277
+#: nemo-share/src/nemo-share.c:1277 nemo-share/src/nemo-share.c:1278
 msgid "Sharing Options"
 msgstr "共用選項"
 
-#: nemo-share/src/nemo-share.c:1278
+#: nemo-share/src/nemo-share.c:1278 nemo-share/src/nemo-share.c:1279
 msgid "Share this Folder"
 msgstr "共用此資料夾"
 
@@ -1447,16 +1545,16 @@ msgstr "%s %s %s 因未知的原因失敗"
 #: nemo-share/src/shares.c:154
 #, c-format
 msgid "'net usershare' returned error %d: %s"
-msgstr ""
+msgstr "網路用戶分享回報錯誤 %d: %s"
 
 #: nemo-share/src/shares.c:156
 #, c-format
 msgid "'net usershare' returned error %d"
-msgstr ""
+msgstr "'net usershare' 回傳錯誤 %d"
 
 #: nemo-share/src/shares.c:187
 msgid "the output of 'net usershare' is not in valid UTF-8 encoding"
-msgstr ""
+msgstr "'net usershare' 輸出不正確的 UTF-8 編碼"
 
 #: nemo-share/src/shares.c:442 nemo-share/src/shares.c:616
 msgid "Failed"
@@ -1510,7 +1608,7 @@ msgstr "允許他人在此資料夾中建立、刪除檔案(A)"
 
 #: nemo-share/interfaces/share-dialog.ui.h:6
 msgid "_Guest access (for people without a user account)"
-msgstr ""
+msgstr "訪客存取 (_G) (給沒帳號者使用)"
 
 #: nemo-share/interfaces/share-dialog.ui.h:7
 msgid "Install"
@@ -1552,7 +1650,7 @@ msgstr ""
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:92
 msgid "Location mode"
-msgstr ""
+msgstr "位置模式"
 
 #: nemo-terminal/src/nemo-terminal-prefs.py:100
 msgid "Terminal bell"
@@ -1605,4 +1703,84 @@ msgstr "進階"
 
 #: nemo-terminal/src/nemo_terminal.py:149
 msgid "Paste Filenames"
+msgstr "貼上檔名"
+
+#: nemo-media-columns/nemo-media-columns.py:102
+msgid "Composer"
+msgstr "作曲家"
+
+#: nemo-media-columns/nemo-media-columns.py:103
+msgid "Description"
+msgstr "描述"
+
+#: nemo-fileroller/src/nemo-fileroller.c:398
+msgid "Allows managing of archives from the context menu"
+msgstr "允許從選單管理壓縮檔"
+
+#: nemo-share/src/nemo-share.c:1115
+msgid "Allows you to quickly share a folder from the context menu"
+msgstr "允許從選單快速分享目錄"
+
+#: nemo-emblems/nemo-extension/nemo-emblems.py:19
+msgid "Nemo Emblems"
 msgstr ""
+
+#: nemo-emblems/nemo-extension/nemo-emblems.py:20
+#: nemo-emblems/nemo-extension/nemo-emblems.py:163
+msgid "Change a folder or file emblem"
+msgstr ""
+
+#: nemo-dropbox/src/nemo-dropbox.c:462 nemo-dropbox/src/nemo-dropbox.c:463
+msgid "Allows managing of Dropbox web service from the context menu"
+msgstr "允許從選單管理 Dropbox 服務"
+
+#: nemo-image-converter/src/nemo-image-converter.c:153
+msgid "Allows image resizing and rotation from the context menu"
+msgstr "允許從選單進行圖片縮放和旋轉"
+
+#: nemo-repairer/src/nemo-filename-repairer.c:523
+msgid "Allows filename encoding repair from the context menu"
+msgstr "允許從選單檔名編碼的修復"
+
+#: nemo-seahorse/nemo-ext/nemo-seahorse.c:181
+msgid ""
+"Allows encryption and decryption of OpenPGP files from the context menu"
+msgstr "允許從選單加解密 OpenPGP 檔"
+
+#: nemo-audio-tab/nemo-extension/nemo-audio-tab.py:195
+msgid "View audio tag information from the properties tab"
+msgstr ""
+
+#: nemo-compare/src/nemo-compare.py:168
+msgid "Allows file comparison from the context menu"
+msgstr "允許從選單比對檔案"
+
+#: nemo-media-columns/nemo-media-columns.py:369
+msgid "Provides additional columns for the list view"
+msgstr ""
+
+#: nemo-terminal/src/nemo_terminal.py:579
+msgid "Embedded terminal for Nemo"
+msgstr ""
+
+#: nemo-pastebin/src/nemo-pastebin.py:111
+msgid "Unable to read or parse the result page."
+msgstr ""
+
+#: nemo-pastebin/src/nemo-pastebin.py:112
+msgid "It could be a server timeout or a change server side. Try later."
+msgstr ""
+
+#: nemo-pastebin/src/nemo-pastebin.py:169
+#, python-format
+msgid "Pastebin to %s"
+msgstr ""
+
+#: nemo-pastebin/src/nemo-pastebin.py:170
+#, python-format
+msgid "Send this file to %s"
+msgstr ""
+
+#: nemo-pastebin/src/nemo-pastebin.py:196
+msgid "Send files to a paste service via the context menu"
+msgstr "允許從選單傳送檔案到網路存檔"

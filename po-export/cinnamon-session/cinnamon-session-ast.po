@@ -5,186 +5,95 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cinnamon-ast\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-23 14:05+0100\n"
-"PO-Revision-Date: 2017-09-06 11:19+0000\n"
-"Last-Translator: Mikel González <Unknown>\n"
+"POT-Creation-Date: 2023-11-19 14:25+0000\n"
+"PO-Revision-Date: 2024-07-19 08:40+0000\n"
+"Last-Translator: Havi <Unknown>\n"
 "Language-Team: Asturian (http://www.transifex.com/projects/p/cinnamon-"
 "ast/language/ast/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2021-06-25 10:38+0000\n"
-"X-Generator: Launchpad (build 40cc6dba4163ba9ca785b26ad91f43c87d70ba4d)\n"
+"X-Launchpad-Export-Date: 2024-07-21 09:00+0000\n"
+"X-Generator: Launchpad (build bbfa2351d9d6a9ddfe262109428f7bf5516e65d1)\n"
 "Language: ast\n"
 
-#: cinnamon-session/csm-inhibit-dialog.c:251
-#, c-format
-msgid "Icon '%s' not found"
-msgstr "Nun s'atopó l'iconu '%s'"
+#: cinnamon-session-quit/cinnamon-session-quit.py:57
+msgid "Log out"
+msgstr "Finar la sesión"
 
-#: cinnamon-session/csm-inhibit-dialog.c:586
-msgid "Unknown"
-msgstr "Desconocíu"
+#: cinnamon-session-quit/cinnamon-session-quit.py:59
+msgid "Power off"
+msgstr "Apagar"
 
-#: cinnamon-session/csm-inhibit-dialog.c:637
-msgid "A program is still running:"
-msgstr "Tovía hai un programa executándose:"
+#: cinnamon-session-quit/cinnamon-session-quit.py:63
+msgid "Ignoring any existing inhibitors"
+msgstr "Inorando cualquier inhibidor esistente"
 
-#: cinnamon-session/csm-inhibit-dialog.c:638 data/csm-inhibit-dialog.glade.h:2
-msgid ""
-"Waiting for the program to finish.  Interrupting the program may cause you "
-"to lose work."
-msgstr ""
+#: cinnamon-session-quit/cinnamon-session-quit.py:65
+msgid "Don't prompt for user confirmation"
+msgstr "Nun requerir confirmación del usuariu"
 
-#: cinnamon-session/csm-inhibit-dialog.c:641 data/csm-inhibit-dialog.glade.h:1
-msgid "Some programs are still running:"
-msgstr "Tovía hai dalgunos programes executándose:"
+#: cinnamon-session-quit/cinnamon-session-quit.py:245
+msgid "Log out of this system now?"
+msgstr "¿Colar d'esti sistema agora?"
 
-#: cinnamon-session/csm-inhibit-dialog.c:642
-msgid ""
-"Waiting for programs to finish.  Interrupting these programs may cause you "
-"to lose work."
-msgstr ""
-"Esperando a que finen los programes. Interrumpir estos programes pue facer "
-"que pierdas datos."
+#: cinnamon-session-quit/cinnamon-session-quit.py:251
+msgid "Shut down this system now?"
+msgstr "¿Apagar el sistema agora?"
 
-#: cinnamon-session/csm-inhibit-dialog.c:872
-msgid "Switch User Anyway"
-msgstr "Trocar usuariu de toes maneres"
+#: cinnamon-session-quit/cinnamon-session-quit.py:263
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:10
+msgid "Restart this system now?"
+msgstr "¿Reaniciar esti sistema agora?"
 
-#: cinnamon-session/csm-inhibit-dialog.c:875
-msgid "Log Out Anyway"
-msgstr ""
-
-#: cinnamon-session/csm-inhibit-dialog.c:878
-msgid "Suspend Anyway"
-msgstr "Suspender de toes maneres"
-
-#: cinnamon-session/csm-inhibit-dialog.c:881
-msgid "Hibernate Anyway"
-msgstr "Hibernar de toes maneres"
-
-#: cinnamon-session/csm-inhibit-dialog.c:884
-msgid "Shut Down Anyway"
-msgstr ""
-
-#: cinnamon-session/csm-inhibit-dialog.c:887
-msgid "Restart Anyway"
-msgstr ""
-
-#: cinnamon-session/csm-inhibit-dialog.c:895
-msgid "Lock Screen"
-msgstr "Candar pantalla"
-
-#: cinnamon-session/csm-inhibit-dialog.c:898
-msgid "Cancel"
-msgstr "Encaboxar"
-
-#: cinnamon-session/csm-logout-dialog.c:257
+#: cinnamon-session-quit/cinnamon-session-quit.py:312
 #, c-format
 msgid "You will be automatically logged out in %d second."
 msgid_plural "You will be logged out in %d seconds."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Saldrá automáticamente de la sesión en %d segundu."
+msgstr[1] "Saldrá automáticamente de la sesión en %d segundos."
 
-#: cinnamon-session/csm-logout-dialog.c:265
+#: cinnamon-session-quit/cinnamon-session-quit.py:318
 #, c-format
 msgid "This system will be automatically shut down in %d second."
 msgid_plural "This system will be shut down in %d seconds."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "El sistema apagarase automáticamente en %d segundu."
+msgstr[1] "El sistema apagarase automáticamente en %d segundos."
 
-#: cinnamon-session/csm-logout-dialog.c:273
+#: cinnamon-session-quit/cinnamon-session-quit.py:324
 #, c-format
 msgid "This system will be automatically restarted in %d second."
 msgid_plural "This system will be restarted in %d seconds."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "El sistema va reaniciase automáticamente en %d segundu."
+msgstr[1] "El sistema va reaniciase automáticamente en %d segundos."
 
-#: cinnamon-session/csm-logout-dialog.c:297
-#, c-format
-msgid "You are currently logged in as \"%s\"."
-msgstr ""
-
-#: cinnamon-session/csm-logout-dialog.c:359
-msgid "Session"
-msgstr ""
-
-#: cinnamon-session/csm-logout-dialog.c:374
-msgid "Log out of this system now?"
-msgstr ""
-
-#: cinnamon-session/csm-logout-dialog.c:380
-msgid "_Switch User"
-msgstr "_Trocar usuariu"
-
-#: cinnamon-session/csm-logout-dialog.c:385
-#: cinnamon-session/csm-logout-dialog.c:418
-#: cinnamon-session/csm-logout-dialog.c:434
-msgid "_Cancel"
-msgstr ""
-
-#: cinnamon-session/csm-logout-dialog.c:389 cinnamon-session/csm-util.c:429
-msgid "_Log Out"
-msgstr "_Zarrar Sesión"
-
-#: cinnamon-session/csm-logout-dialog.c:395
-msgid "Shut down this system now?"
-msgstr ""
-
-#: cinnamon-session/csm-logout-dialog.c:401
-msgid "S_uspend"
-msgstr "S_uspender"
-
-#: cinnamon-session/csm-logout-dialog.c:407
-msgid "_Hibernate"
-msgstr "I_vernar"
-
-#: cinnamon-session/csm-logout-dialog.c:413
-#: cinnamon-session/csm-logout-dialog.c:439
-msgid "_Restart"
-msgstr "_Reaniciar"
-
-#: cinnamon-session/csm-logout-dialog.c:423
-msgid "_Shut Down"
-msgstr "_Apagar"
-
-#: cinnamon-session/csm-logout-dialog.c:429
-msgid "Restart this system now?"
-msgstr ""
-
-#: cinnamon-session/csm-manager.c:1490 cinnamon-session/csm-manager.c:2271
+#: cinnamon-session/csm-manager.c:1436 cinnamon-session/csm-manager.c:3146
 msgid "Not responding"
 msgstr "Nun respuende"
 
 #: cinnamon-session/csm-process-helper.c:123
 #, c-format
 msgid "Exited with code %d"
-msgstr ""
+msgstr "Salió col códigu %d"
 
 #: cinnamon-session/csm-process-helper.c:128
 #, c-format
 msgid "Killed by signal %d"
-msgstr ""
+msgstr "Matáu pola señal %d"
 
 #: cinnamon-session/csm-process-helper.c:133
 #, c-format
 msgid "Stopped by signal %d"
-msgstr ""
+msgstr "Deteníu pola señal %d"
 
-#: cinnamon-session/csm-util.c:413
-msgid "Unable to start login session (and unable to connect to the X server)"
-msgstr ""
-"Nun ye posible entamar la sesión (y nun ye posible coneutar al sirvidor X)"
-
-#: cinnamon-session/csm-xsmp-client.c:559
+#: cinnamon-session/csm-xsmp-client.c:558
 msgid "Remembered Application"
-msgstr ""
+msgstr "Aplicación recordada"
 
-#: cinnamon-session/csm-xsmp-client.c:1198
+#: cinnamon-session/csm-xsmp-client.c:1197
 msgid "This program is blocking logout."
-msgstr ""
+msgstr "Esti programa ta bloquiando'l zarru de sesión."
 
 #: cinnamon-session/csm-xsmp-server.c:340
 msgid ""
@@ -198,126 +107,90 @@ msgstr ""
 msgid "Could not create ICE listening socket: %s"
 msgstr "Nun se pudo crear el socket d'escucha ICE: %s"
 
-#: cinnamon-session/main.c:243
+#: cinnamon-session/inhibit-dialog-info.c:131
+msgid "Unknown"
+msgstr "Desconocíu"
+
+#: cinnamon-session/main.c:209
 msgid "Override standard autostart directories"
 msgstr "Sobreescribir los direutorios d'aniciu automáticu estándar"
 
-#: cinnamon-session/main.c:243
+#: cinnamon-session/main.c:209
 msgid "AUTOSTART_DIR"
-msgstr ""
+msgstr "CARPETA_D_AUTOANICIU"
 
-#: cinnamon-session/main.c:244
+#: cinnamon-session/main.c:210
 msgid "Session to use"
-msgstr ""
+msgstr "Sesión a usar"
 
-#: cinnamon-session/main.c:244
+#: cinnamon-session/main.c:210
 msgid "SESSION_NAME"
-msgstr ""
+msgstr "NOME_DE_LA_SESIÓN"
 
-#: cinnamon-session/main.c:245
+#: cinnamon-session/main.c:211
 msgid "Enable debugging code"
 msgstr "Activar códigu de depuración"
 
-#: cinnamon-session/main.c:246
+#: cinnamon-session/main.c:212
 msgid "Do not load user-specified applications"
 msgstr "Nun cargar les aplicaciones especificaes pol usuariu"
 
-#: cinnamon-session/main.c:247
+#: cinnamon-session/main.c:213
 msgid "Version of this application"
 msgstr "Versión d'esta aplicación"
 
-#: cinnamon-session/main.c:249
+#: cinnamon-session/main.c:215
 msgid "Show the fail whale dialog for testing"
-msgstr ""
+msgstr "Amuesa'l diálogu de la ballena de fallos pa pruebes"
 
-#: cinnamon-session/main.c:278
+#: cinnamon-session/main.c:246
 msgid " - the Cinnamon session manager"
 msgstr " - el remanador de sesiones de Cinnamon"
 
-#: tools/cinnamon-session-quit.c:53
-msgid "Log out"
-msgstr "Finar la sesión"
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:1
+msgid "Session"
+msgstr "Sesión"
 
-#: tools/cinnamon-session-quit.c:54
-msgid "Power off"
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:2
+msgid "S_uspend"
+msgstr "S_uspender"
+
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:3
+msgid "_Hibernate"
+msgstr "I_vernar"
+
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:4
+msgid "_Switch User"
+msgstr "Camudar d'U_suariu"
+
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:5
+msgid "_Cancel"
+msgstr "En_caboxar"
+
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:6
+msgid "_Restart"
+msgstr "_Reaniciar"
+
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:7
+msgid "_Log Out"
+msgstr "_Zarrar Sesión"
+
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:8
+msgid "_Shut Down"
+msgstr "_Apagar"
+
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:9
+msgid "_Ignore and continue"
+msgstr "_Ignorar ya siguir"
+
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:11
+msgid "Some programs are still running:"
+msgstr "Tovía hai dalgunos programes executándose:"
+
+#: cinnamon-session-quit/cinnamon-session-quit.glade.h:12
+msgid ""
+"Waiting for programs to finish.  Interrupting these programs may cause you "
+"to lose work."
 msgstr ""
-
-#: tools/cinnamon-session-quit.c:55
-msgid "Reboot"
-msgstr ""
-
-#: tools/cinnamon-session-quit.c:56
-msgid "Ignoring any existing inhibitors"
-msgstr ""
-
-#: tools/cinnamon-session-quit.c:57
-msgid "Don't prompt for user confirmation"
-msgstr ""
-
-#: tools/cinnamon-session-quit.c:91 tools/cinnamon-session-quit.c:101
-msgid "Could not connect to the session manager"
-msgstr "Nun pudo coneutase al alministrador de sesiones"
-
-#: tools/cinnamon-session-quit.c:203
-msgid "Program called with conflicting options"
-msgstr "Programa llamáu con opciones conflictives"
-
-#: egg/eggdesktopfile.c:165
-msgid "File is not a valid .desktop file"
-msgstr "El ficheru nun ye un ficheru .desktop válidu"
-
-#: egg/eggdesktopfile.c:191
-#, c-format
-msgid "Unrecognized desktop file Version '%s'"
-msgstr "Versión '%s' del ficheru desktop non reconocida"
-
-#: egg/eggdesktopfile.c:973
-#, c-format
-msgid "Starting %s"
-msgstr "Entamando %s"
-
-#: egg/eggdesktopfile.c:1114
-msgid "Application does not accept documents on command line"
-msgstr "L'aplicación nun aceuta documentos na llinia de comandos"
-
-#: egg/eggdesktopfile.c:1182
-#, c-format
-msgid "Unrecognized launch option: %d"
-msgstr "Opción de llanzamientu non reconocida: %d"
-
-#: egg/eggdesktopfile.c:1383
-msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr ""
-"Nun se puen pasar los URIs de documentos a entraes d'escritoriu 'Type=Link'"
-
-#: egg/eggdesktopfile.c:1404
-msgid "Not a launchable item"
-msgstr "Nun ye un elementu llanciable"
-
-#: egg/eggsmclient.c:226
-msgid "Disable connection to session manager"
-msgstr "Desactivar la conexón al remanador de sesiones"
-
-#: egg/eggsmclient.c:229
-msgid "Specify file containing saved configuration"
-msgstr "Especificar el ficheru que contién la configuración guardada"
-
-#: egg/eggsmclient.c:229
-msgid "FILE"
-msgstr "FICHERU"
-
-#: egg/eggsmclient.c:232
-msgid "Specify session management ID"
-msgstr "Especificar la ID del remanamientu de sesión"
-
-#: egg/eggsmclient.c:232
-msgid "ID"
-msgstr "ID"
-
-#: egg/eggsmclient.c:253
-msgid "Session management options:"
-msgstr ""
-
-#: egg/eggsmclient.c:254
-msgid "Show session management options"
-msgstr ""
+"Esperando a que finen los programes. Interrumpir estos programes pue facer "
+"que pierdas datos."
